@@ -2006,7 +2006,7 @@
 		{
 			"name": "Treasure of the Giant's Cave",
 			"rarity": "mythic",
-			"mana_cost": "{4}{G}{G}",
+			"mana_cost": "{3}{G}{G}",
 			"type": "Artifact — Fossil",
 			"collector_number": "208",
 			"back": {

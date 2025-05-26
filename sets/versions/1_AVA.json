@@ -319,7 +319,7 @@
             "number": 16,
             "color_identity": "W",
             "cost": "{1}{W}",
-            "rules_text": "Create two 1/1 white Human Soldier creature tokens.\nSoldiers you control get +1/+1 until end of turn.\nScry 1. [i](Look at the top card of your library. You may put that card on the bottom of your library.)[/i]",
+            "rules_text": "Create two 1/1 white Human Soldier creature tokens.\nSoldiers and Vehicles you control get +1/+1 until end of turn.\nScry 1. [i](Look at the top card of your library. You may put that card on the bottom of your library.)[/i]",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -327,7 +327,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Feivelyn",
-            "notes": ""
+            "notes": "May 16th, 2025 \u2014 changed of own volition to buff Vehicles as well as Soldiers."
         },
         {
             "card_name": "Omenstoat Pack",
@@ -481,7 +481,7 @@
             "number": 47,
             "color_identity": "U",
             "cost": "{4}{U}{U}",
-            "rules_text": "Flying\nWhen this creature enters, it explores.\nWhen this creature dies, you may pay {1}. If you do, create a Map token. [i](It's an artifact with \u201c{1}, {T}, Sacrifice this artifact: Target creature you control explores. Activate only as a sorcery.\u201d)[/i]",
+            "rules_text": "Flying\nWhen this creature enters, it explores. [i](Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)[/i]\nWhen this creature dies, you may pay {1}. If you do, create a Map token. [i](It's an artifact with \u201c{1}, {T}, Sacrifice this artifact: Target creature you control explores. Activate only as a sorcery.\u201d)[/i]",
             "flavor_text": "[i][/i]",
             "pt": "4/4",
             "special_text": "",
@@ -1113,7 +1113,7 @@
             "number": 167,
             "color_identity": "R",
             "cost": "{1}{R}",
-            "rules_text": "Flying\nWhenever this creature attacks alone, it gets +1/+0 until end of turn. This triggers only once each turn, and only if you control another creature.\nWhen this creature is put into your graveyard from the battlefield, you may shuffle it into your library.",
+            "rules_text": "Flying\nWhenever this creature attacks alone, if you control another creature, it gets +1/+0 until end of turn.\nWhen this creature is put into your graveyard from the battlefield, you may shuffle it into your library.",
             "flavor_text": "[i][/i]",
             "pt": "2/1",
             "special_text": "",
@@ -1121,7 +1121,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Simone Torcasio",
-            "notes": ""
+            "notes": "May 16th, 2025 \u2014 reworded first ability, removing once each turn restriction in the process."
         },
         {
             "card_name": "Deepvent Feeder",
@@ -1419,7 +1419,7 @@
             "number": 189,
             "color_identity": "G",
             "cost": "{G}",
-            "rules_text": "Vigilance\nWhen Highborn Sleuth enters, create a Map token, then scry 1.",
+            "rules_text": "Vigilance\nWhen Highborn Sleuth enters, create a Map token, then scry 1. [i](It's an artifact with \u201c{1}, {T}, Sacrifice this artifact: Target creature you control explores. Activate only as a sorcery.\u201d)[/i]",
             "flavor_text": "[i]\u201cI don't believe in curses or \u2018ghosts'. I'm sure it's just cultists, vulnerable to arrows like anyone.\u201d [/i]",
             "pt": "1/1",
             "special_text": "",
@@ -1517,7 +1517,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Ricardo Caria",
-            "notes": ""
+            "notes": "Added 1/1 chop on May 20, 2025."
         },
         {
             "card_name": "Dour Wanderer",
@@ -2701,7 +2701,7 @@
             "number": 193,
             "color_identity": "G",
             "cost": "{G}",
-            "rules_text": "When this enchantment enters, put a Trek counter on two creatures you control.\nWhenever a creature you control with a Trek counter on it explores, each other creature you control with a Trek counter on it explores.\n{1}{G}: Create a Map token. Activate only once each turn as a sorcery.",
+            "rules_text": "When this enchantment enters, put a Trek counter on each of two creatures you control.\nWhenever a creature you control with a Trek counter on it explores, each other creature you control with a Trek counter on it explores.\n{1}{G}: Create a Map token. Activate only once each turn as a sorcery.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -2709,7 +2709,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Andreas Rocha",
-            "notes": ""
+            "notes": "slightly refined wording May 20, 2025."
         },
         {
             "card_name": "Heroic Intervention",
@@ -2953,7 +2953,7 @@
             "number": 84,
             "color_identity": "UB",
             "cost": "{1}{U}",
-            "rules_text": "Non-Vehicle creatures you control with flying get +1/+1.\nBoneborn {2}{U}{B} [i]({2}{U}{B}, Exile a creature card from your graveyard or sacrifice a creature: Transform this permanent. Activate only as a sorcery.)[/i]",
+            "rules_text": "When this artifact enters, creatures you control with flying get +1/+1 and gain hexproof and \u201cWhenever this creature deals combat damage to an opponent, scry 2.\u201d until end of turn.\nBoneborn {1}{B} [i]({1}{B}, Exile a creature card from your graveyard or sacrifice a creature: Transform this permanent. Activate only as a sorcery.)[/i]",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -2962,16 +2962,16 @@
             "loyalty": "",
             "artist": "Douglas Manzini",
             "card_name2": "Scapulimantic Engine",
-            "color2": "U",
+            "color2": "UB",
             "type2": "Legendary Artifact",
             "cost2": "",
-            "rules_text2": "Whenever a non-artifact creature with flying dies, you may pay {1}. If you do, surveil 1, then draw a card.",
+            "rules_text2": "At the beginning of your upkeep, you draw a card and lose 1 life.",
             "flavor_text2": "[i]Lt. Nevor didn't much care for the strange edifice the zombies were assembling; she cared only that Mr. Aldrand was satisfied enough to give her the elixir of flesh mastery.[/i]",
             "pt2": "",
             "special_text2": "",
             "loyalty2": "",
             "artist2": "Andrea Piparo",
-            "notes": ""
+            "notes": "Revised May 12th-14th, 2025."
         },
         {
             "card_name": "Adult Venipula",
@@ -3594,7 +3594,7 @@
             "type": "Artifact \u2014 Fossil",
             "number": 208,
             "color_identity": "BG",
-            "cost": "{4}{G}{G}",
+            "cost": "{3}{G}{G}",
             "rules_text": "When this enters, you may put a land card from your graveyard onto the battlefield tapped, then search your library for a basic land card, reveal it and put it onto the battlefield tapped, then shuffle.\nBoneborn {2}{B} [i]({2}{B}, Exile a creature card from your graveyard or sacrifice a creature: Transform this permanent. Activate only as a sorcery.)[/i]",
             "flavor_text": "[i][/i]",
             "pt": "",
@@ -3613,7 +3613,7 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "NegaNeura",
-            "notes": ""
+            "notes": "Front side casting cost reduced to 3GG. May 16th, 2025."
         },
         {
             "card_name": "Mobile Base 31, Andren",
@@ -3875,7 +3875,7 @@
             "number": 218,
             "color_identity": "WG",
             "cost": "{1}{G}{W}",
-            "rules_text": "Search your library for a creature, land or Fossil card, reveal it and put it into your hand, then shuffle. \nGain 3 life, then exile this spell.",
+            "rules_text": "Search your library for a creature or land card, reveal it and put it into your hand, then shuffle. \nGain 3 life, then exile this spell.",
             "flavor_text": "[i]Instead of using insects to catch fish, fishers now used fish to catch birds.[/i]",
             "pt": "",
             "special_text": "",
@@ -3883,7 +3883,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "KescAlis",
-            "notes": ""
+            "notes": "Revised May 18th, 2025, after getting feedback in project channel; removed option of searching for Fossil cards."
         },
         {
             "card_name": "Raise the Banner",
@@ -4361,7 +4361,7 @@
             "number": 145,
             "color_identity": "R",
             "cost": "{2}{R}",
-            "rules_text": "Enchant creature you control\nEnchanted creature has \u201c{R}: This creature gets +1/+0 until end of turn.\u201d\nIf enchanted creature would die, you may exile it and this Aura. If you do, reveal cards from the top of your library until you reveal a creature card. Put that card onto the battlefield, then shuffle the rest into your library.",
+            "rules_text": "Enchant creature you control\nEnchanted creature has \u201c{R}: This creature gets +1/+0 until end of turn.\u201d\nWhen enchanted creature dies, reveal cards from the top of your library until you reveal a creature card. Put that card onto the battlefield, then shuffle the rest into your library.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -4369,7 +4369,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Vladimir Matic-Kuriljov",
-            "notes": ""
+            "notes": "May 21, 2025 removed need to exile either it or the creature, after getting feedback in project channel. Make sure to playtest this at least once in Field Test \u2014 remember there are cards in this set that can recur enchantments (Piper of the Passed, Reconnect, Masterpiece in the Making)."
         },
         {
             "card_name": "Masterpiece in the Making",
