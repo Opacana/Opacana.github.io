@@ -2112,8 +2112,8 @@
             "type": "Sorcery",
             "number": 50,
             "color_identity": "U",
-            "cost": "{1}{U}{U}",
-            "rules_text": "Put a creature or Vehicle card from your hand onto the battlefield. Put it on the bottom of your library at the beginning of the next end step.",
+            "cost": "{2}{U}{U}",
+            "rules_text": "You may reveal an a creature or Vehicle card you own from outside the game or choose a face-up creature or Vehicle card you own in exile. Put that card into your hand. Exile this spell.",
             "flavor_text": "[i]\u201cThe works of the archmages of old, like Chipley, Bamphous and Dwynn may have fallen out of favour, but their techniques have not fallen in power.\u201d[/i]",
             "pt": "",
             "special_text": "",
@@ -2121,7 +2121,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Kyxarie Peralta for Gunship Revolution",
-            "notes": ""
+            "notes": "Significantly revised May 28, 2025."
         },
         {
             "card_name": "Turn Back the Clock",
@@ -2737,7 +2737,7 @@
             "number": 197,
             "color_identity": "G",
             "cost": "{2}{G}",
-            "rules_text": "Look at the top five cards of your library. You may reveal a creature or land card from among them and put it into your hand. Put the rest on the bottom of your library in any order. If you control four or more Maps, or if permanents you control explored at least twice this turn, you may put the revealed card onto the battlefield tapped instead of your hand.",
+            "rules_text": "Look at the top five cards of your library. You may reveal a creature or land card from among them and put it into your hand. Put the rest on the bottom of your library in any order. If you control four or more Maps, or if permanents you control explored three or more times this turn, you may put the revealed card onto the battlefield tapped instead of your hand.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -2745,7 +2745,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Armin Rangani",
-            "notes": ""
+            "notes": "May 28, 2025 \u2014 changed requirement to minimum of three explorings."
         },
         {
             "card_name": "Untested Elixir",
@@ -2809,7 +2809,7 @@
             "number": 32,
             "color_identity": "W",
             "cost": "{1}{W}{W}",
-            "rules_text": "At the beginning of your upkeep, tap target non-Rabbit creature.\n{W}, Discard a basic land card: Prevent all combat damage that would be dealt to or dealt by target creature this turn. Untap that creature.",
+            "rules_text": "At the beginning of your upkeep, you may tap target creature.\n{W}, Discard a basic land card: Prevent all combat damage that would be dealt by target creature this turn.",
             "flavor_text": "[i][/i]",
             "pt": "2/4",
             "special_text": "",
@@ -2817,7 +2817,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "deepnight",
-            "notes": ""
+            "notes": "Revised for simplicity on May 28, 2025."
         },
         {
             "card_name": "Distracting Saboteur",
@@ -2827,7 +2827,7 @@
             "number": 14,
             "color_identity": "W",
             "cost": "{1}{W}",
-            "rules_text": "Activated abilities of nonland creature and planeswalker sources cost an additional {2} to activate.",
+            "rules_text": "Activated abilities of creatures and planeswalker permanents and cards cost an additional {2} to activate.",
             "flavor_text": "[i]On the surface, relations between the members of the League of Warrens were peaceful. Secretly, the halls of power and trade were filled with intrigue.[/i]",
             "pt": "1/2",
             "special_text": "",
@@ -2835,7 +2835,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "xa-xa-xa",
-            "notes": ""
+            "notes": "May 28, 2025. Revised wording."
         },
         {
             "card_name": "Retributive Bombardment",
@@ -3053,7 +3053,7 @@
             "number": 104,
             "color_identity": "B",
             "cost": "{1}{B}",
-            "rules_text": "Ward {2}\nWhenever one or more creature cards leave or are put into your graveyard from anywhere, put that many charge counters on Mr. Aldrand. If this is the first time this ability has resolved this turn, draw a card. Then if there are twenty or more counters on him, you win the game.",
+            "rules_text": "Ward {1}\nWhenever one or more creature cards leave or are put into your graveyard from anywhere, put a charge counter on Mr. Aldrand. If this is the first time this ability has resolved this turn, draw a card. Then if there are twenty or more counters on him, you win the game.",
             "flavor_text": "[i][/i]",
             "pt": "2/2",
             "special_text": "",
@@ -3061,7 +3061,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Travis Anderson",
-            "notes": ""
+            "notes": "Revised May 28, 2025, after feedback in project channel."
         },
         {
             "card_name": "Shadow Path Exemplar",
@@ -3107,7 +3107,7 @@
             "number": 114,
             "color_identity": "WB",
             "cost": "{3}{B}{B}",
-            "rules_text": "Skip your draw step.\nAt the beginning of your end step, if you have fewer than seven cards in hand, draw cards equal to the difference. You lose 1 life for every card drawn this way.\n{1}{W}{B}: Until end of turn, target permanent you control becomes an enchantment in addition to its other types and gains lifelink. Activate only once each turn as a sorcery.",
+            "rules_text": "Skip your draw step.\nAt the beginning of your end step, if you have fewer than seven cards in hand, draw cards equal to the difference. You lose 1 life for every card drawn this way.\n{1}{W}{B}: Until end of turn, target permanent you control becomes an enchantment in addition to its other types and gains lifelink. Activate only as a sorcery.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -3115,7 +3115,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "entroz",
-            "notes": ""
+            "notes": "May 28, 2025: Removed once each turn restriction from its activated ability."
         },
         {
             "card_name": "Rise to Power",
@@ -3161,7 +3161,7 @@
             "number": 162,
             "color_identity": "R",
             "cost": "{2}{R}{R}",
-            "rules_text": "Flying, haste\nIf this creature would die, exile it instead.\nYou may cast this from exile as long as you've cast a Phoenix spell not named Slagfall Phoenix this turn, or two or more artifacts were put into a graveyard from the battlefield this turn.",
+            "rules_text": "Flying, haste\nIf this creature would die, exile it instead.\nYou may cast this from exile as long as you've cast a Phoenix spell this turn, or two or more artifacts were put into a graveyard from the battlefield this turn.",
             "flavor_text": "[i][/i]",
             "pt": "4/4",
             "special_text": "",
@@ -3169,7 +3169,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Chuck Lukacs",
-            "notes": ""
+            "notes": "Removed 'not named Slagfall Phoenix' restriction. May 28, 2025. Still needs new art candidate, to have ready if Rev curators want new art for this."
         },
         {
             "card_name": "Nola, Captain of the Mise",
@@ -3286,8 +3286,8 @@
             "type": "Creature \u2014 Beast",
             "number": 198,
             "color_identity": "G",
-            "cost": "{2}{G}{G}",
-            "rules_text": "This spell can't be countered.\nHaste, ward {2}\nAt the beginning of your end step, if a creature with power 5 or greater not named Rechine Jungle Leaper was put into your graveyard from anywhere this turn, you may return this card from your graveyard to your hand.",
+            "cost": "{3}{G}{G}",
+            "rules_text": "This spell can't be countered.\nHaste, ward {2}\nWhen this attacks, if you control another attacking creature with power 5 or greater, it gains trample until end of turn.",
             "flavor_text": "[i][/i]",
             "pt": "5/4",
             "special_text": "",
@@ -3295,7 +3295,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Edgar Sanchez Hidalgo",
-            "notes": ""
+            "notes": "Revised to be a little less powerful, more Shifting Ceratops-like. May 28, 2025."
         },
         {
             "card_name": "Kidar, Seeking Justice",
@@ -3459,15 +3459,15 @@
             "number": 83,
             "color_identity": "U",
             "cost": "{1}{U}{U}",
-            "rules_text": "When this creature enters and at the beginning of your upkeep, you may have it become a copy of target creature with a different name, except it has this ability and \u201c{U}{U}: Until end of turn, this creature can't be blocked by creatures with the same name as this creature.\u201d When you do, put a +1/+1 counter on this creature if it didn't enter this turn.",
-            "flavor_text": "[i][/i]",
+            "rules_text": "When this creature enters and at the beginning of your upkeep, you may have this creature become a copy of another target creature, except it has this ability.",
+            "flavor_text": "[i]ft[/i]",
             "pt": "1/1",
             "special_text": "",
             "shape": "normal",
             "set": "AVA",
             "loyalty": "",
             "artist": "Xander Brown",
-            "notes": "Changed May 1st 2025, removed 'next' restriction on upkeep trigger."
+            "notes": "Changed May 28, 2025."
         },
         {
             "card_name": "Worldwalker Helm",
@@ -3947,7 +3947,7 @@
             "number": 244,
             "color_identity": "WR",
             "cost": "{1}{R}{W}",
-            "rules_text": "Ward {1}\nWhen Yolaira, Linkmistress enters, search your library for a creature card with flying, reveal it and put it into your hand, then shuffle.\nWhenever Yolaira, Linkmistress attacks, if it's enchanted or equipped, another target attacking nonartifact creature with flying you control gains Yolaira, Linkmistress's abilities until end of turn.",
+            "rules_text": "Ward {1}\nWhen Yolaira, Linkmistress enters, search your library for a creature card with flying, reveal it and put it into your hand, then shuffle.\nWhenever Yolaira, Linkmistress attacks, if it's enchanted or equipped, another target attacking nonartifact creature with flying gains Yolaira, Linkmistress's abilities until end of turn.",
             "flavor_text": "[i][/i]",
             "pt": "2/3",
             "special_text": "",
@@ -4563,7 +4563,7 @@
             "color2": "",
             "type2": "Legendary Creature \u2014 Dragon Wraith",
             "cost2": "",
-            "rules_text2": "Flying\nPrevent all damage that would be dealt to Specter of Port Galla.\nSpecter of Port Galla's power and toughness cannot be increased or decreased.",
+            "rules_text2": "Flying\nPrevent all damage that would be dealt to Specter of Port Galla.\nSpecter of Port Galla's power and toughness can't be increased or decreased.",
             "flavor_text2": "[i][/i]",
             "pt2": "4/5",
             "special_text2": "",

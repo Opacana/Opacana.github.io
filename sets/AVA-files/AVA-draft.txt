@@ -1174,7 +1174,7 @@
 		{
 			"name": "Deep Summoning",
 			"rarity": "uncommon",
-			"mana_cost": "{1}{U}{U}",
+			"mana_cost": "{2}{U}{U}",
 			"type": "Sorcery",
 			"collector_number": "50",
 			"image_uris": {
@@ -1832,7 +1832,7 @@
 		{
 			"name": "Rechine Jungle Leaper",
 			"rarity": "rare",
-			"mana_cost": "{2}{G}{G}",
+			"mana_cost": "{3}{G}{G}",
 			"type": "Creature — Beast",
 			"collector_number": "198",
 			"image_uris": {
