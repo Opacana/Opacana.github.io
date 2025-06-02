@@ -1986,7 +1986,7 @@
 		{
 			"name": "Hot Hand",
 			"rarity": "mythic",
-			"mana_cost": "{5}{R}",
+			"mana_cost": "{3}{R}{R}",
 			"type": "Sorcery",
 			"collector_number": "148",
 			"image_uris": {
