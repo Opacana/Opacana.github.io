@@ -1918,7 +1918,7 @@
 		},
 		{
 			"name": "Purifying Maze",
-			"rarity": "mythic",
+			"rarity": "rare",
 			"mana_cost": "{1}{W}",
 			"type": "Enchantment",
 			"collector_number": "30",
@@ -3120,7 +3120,7 @@
 	2 Paleontological Revelations
 	2 Gift of the Grove
 	1 Warren League Admiral
-	1 Purifying Maze
+	2 Purifying Maze
 	2 Unstable Ooze
 	1 Worldwalker Helm
 	1 Primordials Exhibit
@@ -3544,7 +3544,7 @@
 	7 Paleontological Revelations
 	7 Gift of the Grove
 	4 Warren League Admiral
-	4 Purifying Maze
+	7 Purifying Maze
 	7 Unstable Ooze
 	4 Worldwalker Helm
 	4 Primordials Exhibit
