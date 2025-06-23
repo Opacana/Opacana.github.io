@@ -737,7 +737,7 @@
 		{
 			"name": "Burn Down",
 			"rarity": "common",
-			"mana_cost": "{3}{R}",
+			"mana_cost": "{2}{R}{R}",
 			"type": "Instant",
 			"collector_number": "134",
 			"image_uris": {
