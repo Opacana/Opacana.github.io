@@ -123,8 +123,8 @@
 		{
 			"name": "Surge of Determination",
 			"rarity": "common",
-			"mana_cost": "{1}{W}",
-			"type": "Instant",
+			"mana_cost": "{2}{W}",
+			"type": "Sorcery",
 			"collector_number": "36",
 			"image_uris": {
 				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/36_Surge of Determination.png"
@@ -195,19 +195,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{U}",
 			"type": "Creature — Human Detective",
-			"collector_number": "58",
+			"collector_number": "59",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/58_Hired Investigator.png"
-			}
-		},
-		{
-			"name": "Treasure Seeker",
-			"rarity": "common",
-			"mana_cost": "{1}{U}",
-			"type": "Creature — Human Mercenary Scout",
-			"collector_number": "82",
-			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/82_Treasure Seeker.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/59_Hired Investigator.png"
 			}
 		},
 		{
@@ -215,9 +205,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{U}",
 			"type": "Creature — Human Artificer Pirate",
-			"collector_number": "61",
+			"collector_number": "62",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/61_Indomitable Tinkerer.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/62_Indomitable Tinkerer.png"
 			}
 		},
 		{
@@ -225,9 +215,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{U}{U}",
 			"type": "Creature — Griffin",
-			"collector_number": "76",
+			"collector_number": "77",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/76_Shipwake Griffin.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/77_Shipwake Griffin.png"
 			}
 		},
 		{
@@ -235,9 +225,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{U}",
 			"type": "Creature — Human Soldier Artificer",
-			"collector_number": "69",
+			"collector_number": "70",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/69_Navy Junior Engineer.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/70_Navy Junior Engineer.png"
 			}
 		},
 		{
@@ -245,9 +235,9 @@
 			"rarity": "common",
 			"mana_cost": "{3}{U}{U}",
 			"type": "Creature — Human Soldier",
-			"collector_number": "57",
+			"collector_number": "58",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/57_Gunner Crew.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/58_Gunner Crew.png"
 			}
 		},
 		{
@@ -255,9 +245,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{U}{U}",
 			"type": "Creature — Human Monk",
-			"collector_number": "71",
+			"collector_number": "72",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/71_Passwall Rassaphore.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/72_Passwall Rassaphore.png"
 			}
 		},
 		{
@@ -265,9 +255,9 @@
 			"rarity": "common",
 			"mana_cost": "{4}{U}{U}",
 			"type": "Creature — Whale",
-			"collector_number": "48",
+			"collector_number": "49",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/48_Curious Skywhale.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/49_Curious Skywhale.png"
 			}
 		},
 		{
@@ -275,9 +265,9 @@
 			"rarity": "common",
 			"mana_cost": "{4}{U}",
 			"type": "Creature — Human Mercenary",
-			"collector_number": "52",
+			"collector_number": "53",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/52_Dour Chauffeur.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/53_Dour Chauffeur.png"
 			}
 		},
 		{
@@ -285,19 +275,19 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{U}{U}",
 			"type": "Creature — Human Wizard Soldier",
-			"collector_number": "67",
+			"collector_number": "68",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/67_Lemaugean Negator.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/68_Lemaugean Negator.png"
 			}
 		},
 		{
 			"name": "Refile",
 			"rarity": "common",
 			"mana_cost": "{U}",
-			"type": "Instant",
-			"collector_number": "73",
+			"type": "Sorcery",
+			"collector_number": "74",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/73_Refile.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/74_Refile.png"
 			}
 		},
 		{
@@ -305,9 +295,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{U}",
 			"type": "Enchantment — Aura",
-			"collector_number": "53",
+			"collector_number": "54",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/53_Enchanted Parasol.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/54_Enchanted Parasol.png"
 			}
 		},
 		{
@@ -315,9 +305,9 @@
 			"rarity": "common",
 			"mana_cost": "{U}",
 			"type": "Instant",
-			"collector_number": "46",
+			"collector_number": "47",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/46_Annul.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/47_Annul.png"
 			}
 		},
 		{
@@ -325,9 +315,9 @@
 			"rarity": "common",
 			"mana_cost": "{U}",
 			"type": "Instant",
-			"collector_number": "63",
+			"collector_number": "64",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/63_Island Hopping.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/64_Island Hopping.png"
 			}
 		},
 		{
@@ -335,9 +325,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{U}",
 			"type": "Sorcery",
-			"collector_number": "75",
+			"collector_number": "76",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/75_Salvage Mission.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/76_Salvage Mission.png"
 			}
 		},
 		{
@@ -345,23 +335,23 @@
 			"rarity": "common",
 			"mana_cost": "{2}{U}",
 			"type": "Artifact — Fossil",
-			"collector_number": "60",
+			"collector_number": "61",
 			"back": {
 				"name": "",
 				"type": "",
 				"image_uris": {
-					"en": "https://Custom-MtG-Sets/sets/AVA-files/img/60_Icebound Remains_back.png"
+					"en": "https://Custom-MtG-Sets/sets/AVA-files/img/61_Icebound Remains_back.png"
 				}
 			},
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/60_Icebound Remains_front.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/61_Icebound Remains_front.png"
 			}
 		},
 		{
 			"name": "Unplanned Landing",
 			"rarity": "common",
 			"mana_cost": "{U}",
-			"type": "Sorcery",
+			"type": "Instant",
 			"collector_number": "84",
 			"image_uris": {
 				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/84_Unplanned Landing.png"
@@ -372,9 +362,9 @@
 			"rarity": "common",
 			"mana_cost": "{3}{U}{U}",
 			"type": "Artifact — Vehicle",
-			"collector_number": "59",
+			"collector_number": "60",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/59_Hulldrifter.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/60_Hulldrifter.png"
 			}
 		},
 		{
@@ -382,9 +372,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{U}",
 			"type": "Instant",
-			"collector_number": "55",
+			"collector_number": "56",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/55_Gestalt Shock.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/56_Gestalt Shock.png"
 			}
 		},
 		{
@@ -392,9 +382,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{B}{B}",
 			"type": "Creature — Human Rogue Wizard",
-			"collector_number": "105",
+			"collector_number": "106",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/105_Midnight Card Sharp.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/106_Midnight Card Sharp.png"
 			}
 		},
 		{
@@ -402,9 +392,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{B}",
 			"type": "Creature — Human Pirate Warrior",
-			"collector_number": "99",
+			"collector_number": "100",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/99_Grim Harpooner.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/100_Grim Harpooner.png"
 			}
 		},
 		{
@@ -422,9 +412,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{B}{B}",
 			"type": "Creature — Human Doctor",
-			"collector_number": "126",
+			"collector_number": "128",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/126_Unscrupulous Surgeon.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/128_Unscrupulous Surgeon.png"
 			}
 		},
 		{
@@ -442,9 +432,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{B}",
 			"type": "Creature — Human Rogue Warlock",
-			"collector_number": "113",
+			"collector_number": "114",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/113_Rogue Ornithologist.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/114_Rogue Ornithologist.png"
 			}
 		},
 		{
@@ -472,9 +462,9 @@
 			"rarity": "common",
 			"mana_cost": "{5}{B}{B}",
 			"type": "Creature — Rat Mutant",
-			"collector_number": "98",
+			"collector_number": "99",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/98_Giant Rat.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/99_Giant Rat.png"
 			}
 		},
 		{
@@ -492,19 +482,19 @@
 			"rarity": "common",
 			"mana_cost": "{2}{B}",
 			"type": "Kindred Artifact — Pirate Vehicle",
-			"collector_number": "121",
+			"collector_number": "122",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/121_Stolen Wasp-Class.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/122_Stolen Wasp-Class.png"
 			}
 		},
 		{
-			"name": "Wreathed in Sulfur",
+			"name": "Sulfurous Clouds",
 			"rarity": "common",
 			"mana_cost": "{B}",
 			"type": "Instant",
-			"collector_number": "128",
+			"collector_number": "123",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/128_Wreathed in Sulfur.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/123_Sulfurous Clouds.png"
 			}
 		},
 		{
@@ -512,9 +502,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{B}",
 			"type": "Instant",
-			"collector_number": "119",
+			"collector_number": "120",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/119_Shadowblood Inoculation.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/120_Shadowblood Inoculation.png"
 			}
 		},
 		{
@@ -522,9 +512,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{B}",
 			"type": "Sorcery",
-			"collector_number": "109",
+			"collector_number": "110",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/109_Puppeteer's Grace.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/110_Puppeteer's Grace.png"
 			}
 		},
 		{
@@ -532,9 +522,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{B}",
 			"type": "Enchantment — Aura",
-			"collector_number": "117",
+			"collector_number": "118",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/117_Shackled to the Forge.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/118_Shackled to the Forge.png"
 			}
 		},
 		{
@@ -542,9 +532,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{B}",
 			"type": "Instant",
-			"collector_number": "124",
+			"collector_number": "126",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/124_Umbral Teachings.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/126_Umbral Teachings.png"
 			}
 		},
 		{
@@ -552,16 +542,16 @@
 			"rarity": "common",
 			"mana_cost": "{3}{B}",
 			"type": "Artifact — Fossil",
-			"collector_number": "100",
+			"collector_number": "101",
 			"back": {
 				"name": "",
 				"type": "",
 				"image_uris": {
-					"en": "https://Custom-MtG-Sets/sets/AVA-files/img/100_Hoard of Bones_back.png"
+					"en": "https://Custom-MtG-Sets/sets/AVA-files/img/101_Hoard of Bones_back.png"
 				}
 			},
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/100_Hoard of Bones_front.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/101_Hoard of Bones_front.png"
 			}
 		},
 		{
@@ -569,9 +559,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{X}{B}",
 			"type": "Sorcery",
-			"collector_number": "107",
+			"collector_number": "108",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/107_Necromancer's Experiments.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/108_Necromancer's Experiments.png"
 			}
 		},
 		{
@@ -579,9 +569,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{B}",
 			"type": "Enchantment — Aura",
-			"collector_number": "110",
+			"collector_number": "111",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/110_Real Green Dress.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/111_Real Green Dress.png"
 			}
 		},
 		{
@@ -589,9 +579,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{R}",
 			"type": "Creature — Human Pirate",
-			"collector_number": "131",
+			"collector_number": "132",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/131_Ambitious Shiftmaster.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/132_Ambitious Shiftmaster.png"
 			}
 		},
 		{
@@ -599,9 +589,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{R}",
 			"type": "Creature — Human Artificer Advisor",
-			"collector_number": "162",
+			"collector_number": "163",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/162_Sandstone Town Gunsmith.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/163_Sandstone Town Gunsmith.png"
 			}
 		},
 		{
@@ -609,9 +599,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{R}{R}",
 			"type": "Creature — Phoenix",
-			"collector_number": "155",
+			"collector_number": "156",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/155_Needle Peak Phoenix.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/156_Needle Peak Phoenix.png"
 			}
 		},
 		{
@@ -619,9 +609,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{R}",
 			"type": "Creature — Phoenix",
-			"collector_number": "169",
+			"collector_number": "170",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/169_Vainglory Phoenix.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/170_Vainglory Phoenix.png"
 			}
 		},
 		{
@@ -629,9 +619,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{R}{R}",
 			"type": "Creature — Fish Beast",
-			"collector_number": "140",
+			"collector_number": "141",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/140_Deepvent Feeder.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/141_Deepvent Feeder.png"
 			}
 		},
 		{
@@ -639,9 +629,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{R}{R}",
 			"type": "Creature — Human Pirate",
-			"collector_number": "136",
+			"collector_number": "137",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/136_Cannonhauler Deckhand.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/137_Cannonhauler Deckhand.png"
 			}
 		},
 		{
@@ -649,9 +639,9 @@
 			"rarity": "common",
 			"mana_cost": "{4}{R}{R}",
 			"type": "Creature — Boar",
-			"collector_number": "170",
+			"collector_number": "171",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/170_Vurushod Alpha.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/171_Vurushod Alpha.png"
 			}
 		},
 		{
@@ -659,9 +649,9 @@
 			"rarity": "common",
 			"mana_cost": "{R}{R}",
 			"type": "Creature — Human Mercenary",
-			"collector_number": "146",
+			"collector_number": "147",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/146_Fresh-Faced Mercenary.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/147_Fresh-Faced Mercenary.png"
 			}
 		},
 		{
@@ -669,9 +659,9 @@
 			"rarity": "common",
 			"mana_cost": "{3}{R}{R}",
 			"type": "Creature — Human Barbarian",
-			"collector_number": "154",
+			"collector_number": "155",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/154_Modified Pit Fighter.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/155_Modified Pit Fighter.png"
 			}
 		},
 		{
@@ -679,9 +669,9 @@
 			"rarity": "common",
 			"mana_cost": "{R}",
 			"type": "Creature — Cat Human Warrior",
-			"collector_number": "130",
+			"collector_number": "131",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/130_Aezori Hunting Pair.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/131_Aezori Hunting Pair.png"
 			}
 		},
 		{
@@ -689,9 +679,9 @@
 			"rarity": "common",
 			"mana_cost": "{R}",
 			"type": "Creature — Bird",
-			"collector_number": "133",
+			"collector_number": "134",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/133_Ancient Sunspot Owl.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/134_Ancient Sunspot Owl.png"
 			}
 		},
 		{
@@ -699,9 +689,9 @@
 			"rarity": "common",
 			"mana_cost": "{R}",
 			"type": "Sorcery",
-			"collector_number": "129",
+			"collector_number": "130",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/129_Aerial Bombardment.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/130_Aerial Bombardment.png"
 			}
 		},
 		{
@@ -709,9 +699,9 @@
 			"rarity": "common",
 			"mana_cost": "{R}",
 			"type": "Artifact — Equipment",
-			"collector_number": "166",
+			"collector_number": "167",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/166_Stick Hand Grenade.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/167_Stick Hand Grenade.png"
 			}
 		},
 		{
@@ -719,9 +709,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{R}",
 			"type": "Instant",
-			"collector_number": "165",
+			"collector_number": "166",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/165_Sow Chaos.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/166_Sow Chaos.png"
 			}
 		},
 		{
@@ -729,9 +719,9 @@
 			"rarity": "common",
 			"mana_cost": "{3}{R}{R}",
 			"type": "Instant",
-			"collector_number": "150",
+			"collector_number": "151",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/150_Hullshatter Shot.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/151_Hullshatter Shot.png"
 			}
 		},
 		{
@@ -739,9 +729,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{R}{R}",
 			"type": "Instant",
-			"collector_number": "135",
+			"collector_number": "136",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/135_Burn Down.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/136_Burn Down.png"
 			}
 		},
 		{
@@ -749,9 +739,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{R}",
 			"type": "Artifact — Equipment",
-			"collector_number": "160",
+			"collector_number": "161",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/160_Plasma Core Hammer.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/161_Plasma Core Hammer.png"
 			}
 		},
 		{
@@ -759,9 +749,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{5}{R}{R}",
 			"type": "Creature — Phoenix",
-			"collector_number": "151",
+			"collector_number": "152",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/151_Igneous Dragonhunter.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/152_Igneous Dragonhunter.png"
 			}
 		},
 		{
@@ -769,9 +759,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{R}{R}",
 			"type": "Creature — Human Artificer Wizard",
-			"collector_number": "144",
+			"collector_number": "145",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/144_Eager Experimenter.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/145_Eager Experimenter.png"
 			}
 		},
 		{
@@ -779,9 +769,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{G}{G}",
 			"type": "Creature — Bear Sloth",
-			"collector_number": "187",
+			"collector_number": "189",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/187_Greater Branchpiler.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/189_Greater Branchpiler.png"
 			}
 		},
 		{
@@ -789,9 +779,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{G}",
 			"type": "Creature — Rabbit Detective",
-			"collector_number": "191",
+			"collector_number": "193",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/191_Highborn Sleuth.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/193_Highborn Sleuth.png"
 			}
 		},
 		{
@@ -799,9 +789,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{G}{G}",
 			"type": "Creature — Beast",
-			"collector_number": "188",
+			"collector_number": "190",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/188_Grey Rofa.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/190_Grey Rofa.png"
 			}
 		},
 		{
@@ -809,9 +799,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{G}{G}",
 			"type": "Creature — Rabbit Warrior",
-			"collector_number": "189",
+			"collector_number": "191",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/189_Grove Hunter.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/191_Grove Hunter.png"
 			}
 		},
 		{
@@ -819,9 +809,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{G}",
 			"type": "Creature — Cat",
-			"collector_number": "202",
+			"collector_number": "204",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/202_Roaming Allew.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/204_Roaming Allew.png"
 			}
 		},
 		{
@@ -829,9 +819,9 @@
 			"rarity": "common",
 			"mana_cost": "{G}",
 			"type": "Creature — Rabbit",
-			"collector_number": "206",
+			"collector_number": "208",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/206_Sylvan Arfyll.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/208_Sylvan Arfyll.png"
 			}
 		},
 		{
@@ -839,9 +829,9 @@
 			"rarity": "common",
 			"mana_cost": "{3}{G}{G}",
 			"type": "Creature — Rabbit Soldier Archer",
-			"collector_number": "173",
+			"collector_number": "174",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/173_Aluki Hearthguard.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/174_Aluki Hearthguard.png"
 			}
 		},
 		{
@@ -849,9 +839,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{G}",
 			"type": "Creature — Human Rogue Scout",
-			"collector_number": "179",
+			"collector_number": "181",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/179_Dour Wanderer.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/181_Dour Wanderer.png"
 			}
 		},
 		{
@@ -859,9 +849,9 @@
 			"rarity": "common",
 			"mana_cost": "{6}{G}{G}",
 			"type": "Creature — Snake Mutant",
-			"collector_number": "192",
+			"collector_number": "194",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/192_Island Constrictor.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/194_Island Constrictor.png"
 			}
 		},
 		{
@@ -869,9 +859,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{G}",
 			"type": "Creature — Human Druid Advisor",
-			"collector_number": "174",
+			"collector_number": "175",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/174_Ambitious Archaeologist.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/175_Ambitious Archaeologist.png"
 			}
 		},
 		{
@@ -879,9 +869,9 @@
 			"rarity": "common",
 			"mana_cost": "{4}{G}{G}",
 			"type": "Creature — Lizard Beast",
-			"collector_number": "172",
+			"collector_number": "173",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/172_Adult Matosuchi.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/173_Adult Matosuchi.png"
 			}
 		},
 		{
@@ -889,9 +879,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{G}",
 			"type": "Enchantment",
-			"collector_number": "176",
+			"collector_number": "178",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/176_A Choking Serenity.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/178_A Choking Serenity.png"
 			}
 		},
 		{
@@ -899,9 +889,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{G}{G}",
 			"type": "Sorcery",
-			"collector_number": "201",
+			"collector_number": "203",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/201_Reconnect.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/203_Reconnect.png"
 			}
 		},
 		{
@@ -909,9 +899,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{G}{G}{G}",
 			"type": "Creature — Bear",
-			"collector_number": "209",
+			"collector_number": "211",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/209_Titanur.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/211_Titanur.png"
 			}
 		},
 		{
@@ -919,9 +909,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{G}",
 			"type": "Instant",
-			"collector_number": "198",
+			"collector_number": "200",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/198_Pounce.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/200_Pounce.png"
 			}
 		},
 		{
@@ -929,9 +919,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{G}",
 			"type": "Instant",
-			"collector_number": "181",
+			"collector_number": "183",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/181_Empowered Arrow.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/183_Empowered Arrow.png"
 			}
 		},
 		{
@@ -939,9 +929,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{G}",
 			"type": "Instant",
-			"collector_number": "213",
+			"collector_number": "214",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/213_Watch the World Pass By.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/214_Watch the World Pass By.png"
 			}
 		},
 		{
@@ -949,9 +939,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{G}",
 			"type": "Sorcery",
-			"collector_number": "207",
+			"collector_number": "209",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/207_Take the Night Watch.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/209_Take the Night Watch.png"
 			}
 		},
 		{
@@ -959,9 +949,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{G}",
 			"type": "Artifact — Vehicle",
-			"collector_number": "183",
+			"collector_number": "185",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/183_Flower Cart.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/185_Flower Cart.png"
 			}
 		},
 		{
@@ -1086,9 +1076,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{U}",
 			"type": "Creature — Human Pilot",
-			"collector_number": "50",
+			"collector_number": "51",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/50_Decorated Pilot.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/51_Decorated Pilot.png"
 			}
 		},
 		{
@@ -1096,9 +1086,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{U}{U}",
 			"type": "Legendary Creature — Human Pilot",
-			"collector_number": "68",
+			"collector_number": "69",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/68_Liline Otothal.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/69_Liline Otothal.png"
 			}
 		},
 		{
@@ -1106,9 +1096,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{U}",
 			"type": "Creature — Human Artificer",
-			"collector_number": "54",
+			"collector_number": "55",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/54_Engineering Prodigy.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/55_Engineering Prodigy.png"
 			}
 		},
 		{
@@ -1116,19 +1106,19 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{U}{U}",
 			"type": "Creature — Elemental Bird",
-			"collector_number": "62",
+			"collector_number": "63",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/62_Iridescent Tambly.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/63_Iridescent Tambly.png"
 			}
 		},
 		{
 			"name": "Current-rider Windmill",
 			"rarity": "uncommon",
-			"mana_cost": "{3}{U}{U}",
+			"mana_cost": "{2}{U}{U}",
 			"type": "Artifact",
-			"collector_number": "49",
+			"collector_number": "50",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/49_Current-rider Windmill.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/50_Current-rider Windmill.png"
 			}
 		},
 		{
@@ -1136,9 +1126,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{U}{U}",
 			"type": "Instant",
-			"collector_number": "80",
+			"collector_number": "81",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/80_Sonata of the Wind.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/81_Sonata of the Wind.png"
 			}
 		},
 		{
@@ -1146,9 +1136,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{U}{U}",
 			"type": "Artifact — Vehicle",
-			"collector_number": "79",
+			"collector_number": "80",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/79_Skunkworks Darter.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/80_Skunkworks Darter.png"
 			}
 		},
 		{
@@ -1156,9 +1146,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{U}{U}",
 			"type": "Instant",
-			"collector_number": "77",
+			"collector_number": "78",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/77_Show Your Work.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/78_Show Your Work.png"
 			}
 		},
 		{
@@ -1166,9 +1156,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{U}",
 			"type": "Artifact — Equipment",
-			"collector_number": "72",
+			"collector_number": "73",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/72_Psionic Control Helm.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/73_Psionic Control Helm.png"
 			}
 		},
 		{
@@ -1176,9 +1166,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{U}{U}",
 			"type": "Sorcery",
-			"collector_number": "51",
+			"collector_number": "52",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/51_Deep Summoning.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/52_Deep Summoning.png"
 			}
 		},
 		{
@@ -1196,9 +1186,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{B}",
 			"type": "Creature — Human Warlock",
-			"collector_number": "123",
+			"collector_number": "125",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/123_Tutor of Dark Sciences.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/125_Tutor of Dark Sciences.png"
 			}
 		},
 		{
@@ -1226,9 +1216,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{B}{B}",
 			"type": "Legendary Creature — Skeleton Pirate",
-			"collector_number": "103",
+			"collector_number": "104",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/103_Lt. Nevor of the Scurvy Wolf.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/104_Lt. Nevor of the Scurvy Wolf.png"
 			}
 		},
 		{
@@ -1236,19 +1226,19 @@
 			"rarity": "uncommon",
 			"mana_cost": "{B}",
 			"type": "Creature — Human Rogue",
-			"collector_number": "127",
+			"collector_number": "129",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/127_Wizened Outlaw.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/129_Wizened Outlaw.png"
 			}
 		},
 		{
 			"name": "Identifying the Villainous",
 			"rarity": "uncommon",
-			"mana_cost": "{B}",
+			"mana_cost": "{1}{B}",
 			"type": "Instant",
-			"collector_number": "101",
+			"collector_number": "102",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/101_Identifying the Villainous.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/102_Identifying the Villainous.png"
 			}
 		},
 		{
@@ -1256,9 +1246,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{B}",
 			"type": "Enchantment",
-			"collector_number": "112",
+			"collector_number": "113",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/112_Rising of a Tambly's Bones.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/113_Rising of a Tambly's Bones.png"
 			}
 		},
 		{
@@ -1266,16 +1256,16 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{B}",
 			"type": "Artifact — Fossil",
-			"collector_number": "122",
+			"collector_number": "124",
 			"back": {
 				"name": "",
 				"type": "",
 				"image_uris": {
-					"en": "https://Custom-MtG-Sets/sets/AVA-files/img/122_Swamp Seer's Hut_back.png"
+					"en": "https://Custom-MtG-Sets/sets/AVA-files/img/124_Swamp Seer's Hut_back.png"
 				}
 			},
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/122_Swamp Seer's Hut_front.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/124_Swamp Seer's Hut_front.png"
 			}
 		},
 		{
@@ -1283,9 +1273,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{B}{B}",
 			"type": "Instant",
-			"collector_number": "102",
+			"collector_number": "103",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/102_Liferipper Miasma.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/103_Liferipper Miasma.png"
 			}
 		},
 		{
@@ -1293,16 +1283,16 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{B}",
 			"type": "Artifact — Fossil",
-			"collector_number": "120",
+			"collector_number": "121",
 			"back": {
 				"name": "",
 				"type": "",
 				"image_uris": {
-					"en": "https://Custom-MtG-Sets/sets/AVA-files/img/120_Skull of the Last Hunter_back.png"
+					"en": "https://Custom-MtG-Sets/sets/AVA-files/img/121_Skull of the Last Hunter_back.png"
 				}
 			},
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/120_Skull of the Last Hunter_front.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/121_Skull of the Last Hunter_front.png"
 			}
 		},
 		{
@@ -1310,9 +1300,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{B}{B}",
 			"type": "Artifact — Vehicle",
-			"collector_number": "115",
+			"collector_number": "116",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/115_Savoran Razor Galleon.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/116_Savoran Razor Galleon.png"
 			}
 		},
 		{
@@ -1320,9 +1310,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{R}",
 			"type": "Creature — Phoenix",
-			"collector_number": "145",
+			"collector_number": "146",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/145_Embittered Lavawing.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/146_Embittered Lavawing.png"
 			}
 		},
 		{
@@ -1330,9 +1320,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{R}",
 			"type": "Creature — Human Pirate",
-			"collector_number": "142",
+			"collector_number": "143",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/142_Distinguished Captain.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/143_Distinguished Captain.png"
 			}
 		},
 		{
@@ -1340,9 +1330,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{R}{R}",
 			"type": "Creature — Human Soldier",
-			"collector_number": "158",
+			"collector_number": "159",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/158_Pesuban Cannoneer.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/159_Pesuban Cannoneer.png"
 			}
 		},
 		{
@@ -1350,9 +1340,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{R}{R}",
 			"type": "Kindred Artifact — Pirate Vehicle",
-			"collector_number": "163",
+			"collector_number": "164",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/163_Scavenged Hulk.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/164_Scavenged Hulk.png"
 			}
 		},
 		{
@@ -1360,9 +1350,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{R}",
 			"type": "Creature — Lizard",
-			"collector_number": "152",
+			"collector_number": "153",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/152_Iruum Streamhopper.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/153_Iruum Streamhopper.png"
 			}
 		},
 		{
@@ -1370,9 +1360,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{R}{R}",
 			"type": "Creature — Human Pirate Wizard",
-			"collector_number": "167",
+			"collector_number": "168",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/167_Storm Mistress.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/168_Storm Mistress.png"
 			}
 		},
 		{
@@ -1380,9 +1370,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{R}",
 			"type": "Enchantment",
-			"collector_number": "137",
+			"collector_number": "138",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/137_Clues to the Cataclysm.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/138_Clues to the Cataclysm.png"
 			}
 		},
 		{
@@ -1390,16 +1380,16 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{R}",
 			"type": "Artifact — Fossil",
-			"collector_number": "161",
+			"collector_number": "162",
 			"back": {
 				"name": "",
 				"type": "",
 				"image_uris": {
-					"en": "https://Custom-MtG-Sets/sets/AVA-files/img/161_Sandscoured Bones_back.png"
+					"en": "https://Custom-MtG-Sets/sets/AVA-files/img/162_Sandscoured Bones_back.png"
 				}
 			},
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/161_Sandscoured Bones_front.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/162_Sandscoured Bones_front.png"
 			}
 		},
 		{
@@ -1407,9 +1397,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{R}",
 			"type": "Sorcery",
-			"collector_number": "148",
+			"collector_number": "149",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/148_Hatching A New Scheme.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/149_Hatching A New Scheme.png"
 			}
 		},
 		{
@@ -1417,19 +1407,19 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{R}{R}",
 			"type": "Sorcery",
-			"collector_number": "168",
+			"collector_number": "169",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/168_Sundering Shockwave.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/169_Sundering Shockwave.png"
 			}
 		},
 		{
 			"name": "Don the Crest of Fire",
 			"rarity": "uncommon",
 			"mana_cost": "{R}",
-			"type": "Instant",
-			"collector_number": "143",
+			"type": "Sorcery",
+			"collector_number": "144",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/143_Don the Crest of Fire.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/144_Don the Crest of Fire.png"
 			}
 		},
 		{
@@ -1437,9 +1427,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{G}",
 			"type": "Creature — Rabbit Scout Soldier",
-			"collector_number": "180",
+			"collector_number": "182",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/180_Edge Patrol.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/182_Edge Patrol.png"
 			}
 		},
 		{
@@ -1447,9 +1437,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{G}{G}",
 			"type": "Creature — Beast",
-			"collector_number": "177",
+			"collector_number": "179",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/177_Deadwoods Stalker.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/179_Deadwoods Stalker.png"
 			}
 		},
 		{
@@ -1457,9 +1447,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{G}{G}",
 			"type": "Creature — Human Mercenary Scout",
-			"collector_number": "205",
+			"collector_number": "207",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/205_Stoic Expedition Guard.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/207_Stoic Expedition Guard.png"
 			}
 		},
 		{
@@ -1467,9 +1457,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{G}",
 			"type": "Creature — Rabbit Bard Warlock",
-			"collector_number": "197",
+			"collector_number": "199",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/197_Piper of the Passed.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/199_Piper of the Passed.png"
 			}
 		},
 		{
@@ -1477,9 +1467,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{G}{G}",
 			"type": "Creature — Beast Insect",
-			"collector_number": "175",
+			"collector_number": "176",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/175_Beast of the Blandon Savannah.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/176_Beast of the Blandon Savannah.png"
 			}
 		},
 		{
@@ -1487,9 +1477,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{G}",
 			"type": "Creature — Rabbit Advisor",
-			"collector_number": "204",
+			"collector_number": "206",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/204_Society Field Reporter.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/206_Society Field Reporter.png"
 			}
 		},
 		{
@@ -1497,9 +1487,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{4}{G}{G}",
 			"type": "Creature — Worm",
-			"collector_number": "185",
+			"collector_number": "187",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/185_Giant Corpseseeker.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/187_Giant Corpseseeker.png"
 			}
 		},
 		{
@@ -1507,9 +1497,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{G}",
 			"type": "Enchantment",
-			"collector_number": "195",
+			"collector_number": "197",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/195_On A Trek Together.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/197_On A Trek Together.png"
 			}
 		},
 		{
@@ -1517,9 +1507,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{G}",
 			"type": "Instant",
-			"collector_number": "190",
+			"collector_number": "192",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/190_Heroic Intervention.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/192_Heroic Intervention.png"
 			}
 		},
 		{
@@ -1527,9 +1517,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{G}{G}",
 			"type": "Instant",
-			"collector_number": "199",
+			"collector_number": "201",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/199_Reach the Legendary City.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/201_Reach the Legendary City.png"
 			}
 		},
 		{
@@ -1537,9 +1527,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{G}",
 			"type": "Sorcery",
-			"collector_number": "211",
+			"collector_number": "212",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/211_Untested Elixir.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/212_Untested Elixir.png"
 			}
 		},
 		{
@@ -1563,23 +1553,13 @@
 			}
 		},
 		{
-			"name": "Scion of the Hidden Burrow Path",
+			"name": "Scion of the Hidden Burrow",
 			"rarity": "rare",
 			"mana_cost": "{1}{W}{W}",
 			"type": "Creature — Rabbit Cleric Monk",
 			"collector_number": "32",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/32_Scion of the Hidden Burrow Path.png"
-			}
-		},
-		{
-			"name": "Distracting Saboteur",
-			"rarity": "rare",
-			"mana_cost": "{1}{W}",
-			"type": "Creature — Rabbit Rogue",
-			"collector_number": "14",
-			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/14_Distracting Saboteur.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/32_Scion of the Hidden Burrow.png"
 			}
 		},
 		{
@@ -1617,9 +1597,9 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{U}",
 			"type": "Legendary Creature — Human Wizard",
-			"collector_number": "64",
+			"collector_number": "65",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/64_Ivina, Society Archivist.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/65_Ivina, Society Archivist.png"
 			}
 		},
 		{
@@ -1627,9 +1607,9 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{U}{U}",
 			"type": "Legendary Creature — Human Artificer",
-			"collector_number": "45",
+			"collector_number": "46",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/45_Allenord Rascham Esq..png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/46_Allenord Rascham Esq..png"
 			}
 		},
 		{
@@ -1637,15 +1617,15 @@
 			"rarity": "rare",
 			"mana_cost": "{3}{U}{U}",
 			"type": "Artifact — Vehicle",
-			"collector_number": "66",
+			"collector_number": "67",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/66_Julescan Dreadnought.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/67_Julescan Dreadnought.png"
 			}
 		},
 		{
 			"name": "Updraft Boneyard",
 			"rarity": "rare",
-			"mana_cost": "{1}{U}",
+			"mana_cost": "{2}{U}",
 			"type": "Artifact — Fossil",
 			"collector_number": "86",
 			"back": {
@@ -1664,9 +1644,9 @@
 			"rarity": "mythic",
 			"mana_cost": "{2}{U}{U}",
 			"type": "Creature — Griffin Lizard",
-			"collector_number": "44",
+			"collector_number": "45",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/44_Adult Venipula.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/45_Adult Venipula.png"
 			}
 		},
 		{
@@ -1674,19 +1654,19 @@
 			"rarity": "rare",
 			"mana_cost": "{4}{U}{U}",
 			"type": "Sorcery",
-			"collector_number": "47",
+			"collector_number": "48",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/47_Clockwork Consonance.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/48_Clockwork Consonance.png"
 			}
 		},
 		{
 			"name": "Nikolaian Matrix",
 			"rarity": "rare",
-			"mana_cost": "{2}{U}",
+			"mana_cost": "{1}{U}",
 			"type": "Legendary Artifact",
-			"collector_number": "70",
+			"collector_number": "71",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/70_Nikolaian Matrix.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/71_Nikolaian Matrix.png"
 			}
 		},
 		{
@@ -1704,9 +1684,9 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{B}",
 			"type": "Legendary Creature — Zombie Wizard",
-			"collector_number": "106",
+			"collector_number": "107",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/106_Mr. Aldrand, Eternal Patron.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/107_Mr. Aldrand, Eternal Patron.png"
 			}
 		},
 		{
@@ -1714,9 +1694,9 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{B}{B}",
 			"type": "Creature — Rabbit Warlock",
-			"collector_number": "118",
+			"collector_number": "119",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/118_Shadow Path Exemplar.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/119_Shadow Path Exemplar.png"
 			}
 		},
 		{
@@ -1734,9 +1714,9 @@
 			"rarity": "rare",
 			"mana_cost": "{3}{B}{B}",
 			"type": "Enchantment",
-			"collector_number": "116",
+			"collector_number": "117",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/116_Secrets of the Ruins.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/117_Secrets of the Ruins.png"
 			}
 		},
 		{
@@ -1744,9 +1724,9 @@
 			"rarity": "rare",
 			"mana_cost": "{6}{B}{B}",
 			"type": "Sorcery",
-			"collector_number": "111",
+			"collector_number": "112",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/111_Rise to Power.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/112_Rise to Power.png"
 			}
 		},
 		{
@@ -1764,9 +1744,9 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{R}{R}",
 			"type": "Creature — Phoenix Elemental",
-			"collector_number": "164",
+			"collector_number": "165",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/164_Slagfall Phoenix.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/165_Slagfall Phoenix.png"
 			}
 		},
 		{
@@ -1774,19 +1754,19 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{R}",
 			"type": "Legendary Creature — Human Soldier",
-			"collector_number": "157",
+			"collector_number": "158",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/157_Nola, Captain of the Mise.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/158_Nola, Captain of the Mise.png"
 			}
 		},
 		{
 			"name": "Whalehunter Eel",
 			"rarity": "rare",
 			"mana_cost": "{4}{R}{R}{R}",
-			"type": "Legendary Creature — Eel",
-			"collector_number": "171",
+			"type": "Creature — Eel",
+			"collector_number": "172",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/171_Whalehunter Eel.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/172_Whalehunter Eel.png"
 			}
 		},
 		{
@@ -1794,9 +1774,9 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{R}{R}",
 			"type": "Creature — Human Artificer Barbarian",
-			"collector_number": "141",
+			"collector_number": "142",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/141_Demolition Expert.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/142_Demolition Expert.png"
 			}
 		},
 		{
@@ -1804,9 +1784,9 @@
 			"rarity": "rare",
 			"mana_cost": "{3}{R}{R}",
 			"type": "Sorcery",
-			"collector_number": "153",
+			"collector_number": "154",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/153_Islandfall.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/154_Islandfall.png"
 			}
 		},
 		{
@@ -1814,9 +1794,9 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{R}{R}",
 			"type": "Sorcery",
-			"collector_number": "132",
+			"collector_number": "133",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/132_Amok Automaton.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/133_Amok Automaton.png"
 			}
 		},
 		{
@@ -1824,9 +1804,9 @@
 			"rarity": "rare",
 			"mana_cost": "{4}{R}{R}",
 			"type": "Sorcery",
-			"collector_number": "138",
+			"collector_number": "139",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/138_Cogstorm.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/139_Cogstorm.png"
 			}
 		},
 		{
@@ -1834,9 +1814,9 @@
 			"rarity": "rare",
 			"mana_cost": "{3}{G}{G}",
 			"type": "Creature — Beast",
-			"collector_number": "200",
+			"collector_number": "202",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/200_Rechine Jungle Leaper.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/202_Rechine Jungle Leaper.png"
 			}
 		},
 		{
@@ -1844,16 +1824,16 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{G}",
 			"type": "Legendary Creature — Rabbit Rogue",
-			"collector_number": "193",
+			"collector_number": "195",
 			"back": {
 				"name": "",
 				"type": "",
 				"image_uris": {
-					"en": "https://Custom-MtG-Sets/sets/AVA-files/img/193_Kidar, Seeking Justice_back.png"
+					"en": "https://Custom-MtG-Sets/sets/AVA-files/img/195_Kidar, Seeking Justice_back.png"
 				}
 			},
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/193_Kidar, Seeking Justice_front.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/195_Kidar, Seeking Justice_front.png"
 			}
 		},
 		{
@@ -1861,9 +1841,9 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{G}{G}",
 			"type": "Creature — Rabbit Soldier Warrior",
-			"collector_number": "178",
+			"collector_number": "180",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/178_Denaw Goliath.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/180_Denaw Goliath.png"
 			}
 		},
 		{
@@ -1871,9 +1851,9 @@
 			"rarity": "rare",
 			"mana_cost": "{6}{G}{G}",
 			"type": "Legendary Creature — Dragon Noble",
-			"collector_number": "203",
+			"collector_number": "205",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/203_Salandrix, Lifespeaker.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/205_Salandrix, Lifespeaker.png"
 			}
 		},
 		{
@@ -1881,19 +1861,19 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{G}",
 			"type": "Enchantment",
-			"collector_number": "184",
+			"collector_number": "186",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/184_Genteel Expedition.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/186_Genteel Expedition.png"
 			}
 		},
 		{
 			"name": "Paleontological Revelations",
 			"rarity": "rare",
-			"mana_cost": "{1}{G}{G}",
+			"mana_cost": "{2}{G}{G}",
 			"type": "Sorcery",
-			"collector_number": "196",
+			"collector_number": "198",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/196_Paleontological Revelations.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/198_Paleontological Revelations.png"
 			}
 		},
 		{
@@ -1901,9 +1881,9 @@
 			"rarity": "rare",
 			"mana_cost": "{3}{G}",
 			"type": "Sorcery",
-			"collector_number": "186",
+			"collector_number": "188",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/186_Gift of the Grove.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/188_Gift of the Grove.png"
 			}
 		},
 		{
@@ -1951,16 +1931,16 @@
 			"rarity": "mythic",
 			"mana_cost": "{1}{B}",
 			"type": "Artifact — Fossil",
-			"collector_number": "108",
+			"collector_number": "109",
 			"back": {
 				"name": "",
 				"type": "",
 				"image_uris": {
-					"en": "https://Custom-MtG-Sets/sets/AVA-files/img/108_Primordials Exhibit_back.png"
+					"en": "https://Custom-MtG-Sets/sets/AVA-files/img/109_Primordials Exhibit_back.png"
 				}
 			},
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/108_Primordials Exhibit_front.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/109_Primordials Exhibit_front.png"
 			}
 		},
 		{
@@ -1968,9 +1948,9 @@
 			"rarity": "mythic",
 			"mana_cost": "{2}{B}{B}",
 			"type": "Instant",
-			"collector_number": "125",
+			"collector_number": "127",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/125_Unending Insight.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/127_Unending Insight.png"
 			}
 		},
 		{
@@ -1978,19 +1958,19 @@
 			"rarity": "mythic",
 			"mana_cost": "{1}{R}",
 			"type": "Creature — Phoenix Egg",
-			"collector_number": "159",
+			"collector_number": "160",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/159_Phoenix Egg.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/160_Phoenix Egg.png"
 			}
 		},
 		{
-			"name": "Hot Hand",
+			"name": "High Stakes Game",
 			"rarity": "mythic",
-			"mana_cost": "{3}{R}{R}",
-			"type": "Sorcery",
-			"collector_number": "149",
+			"mana_cost": "{1}{R}",
+			"type": "Enchantment",
+			"collector_number": "150",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/149_Hot Hand.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/150_High Stakes Game.png"
 			}
 		},
 		{
@@ -1998,26 +1978,26 @@
 			"rarity": "mythic",
 			"mana_cost": "{3}{G}{G}{G}",
 			"type": "Creature — Giant Mutant Spider",
-			"collector_number": "194",
+			"collector_number": "196",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/194_Mother of the Webbed City.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/196_Mother of the Webbed City.png"
 			}
 		},
 		{
-			"name": "Treasure of the Giant's Cave",
+			"name": "Cave of the Vanquished",
 			"rarity": "mythic",
 			"mana_cost": "{3}{G}{G}",
 			"type": "Artifact — Fossil",
-			"collector_number": "210",
+			"collector_number": "177",
 			"back": {
 				"name": "",
 				"type": "",
 				"image_uris": {
-					"en": "https://Custom-MtG-Sets/sets/AVA-files/img/210_Treasure of the Giant's Cave_back.png"
+					"en": "https://Custom-MtG-Sets/sets/AVA-files/img/177_Cave of the Vanquished_back.png"
 				}
 			},
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/210_Treasure of the Giant's Cave_front.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/177_Cave of the Vanquished_front.png"
 			}
 		},
 		{
@@ -2025,9 +2005,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{W}{U}",
 			"type": "Legendary Artifact Creature — Construct Wall",
-			"collector_number": "225",
+			"collector_number": "226",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/225_Mobile Base 31, Andren.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/226_Mobile Base 31, Andren.png"
 			}
 		},
 		{
@@ -2035,9 +2015,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{U}{B}",
 			"type": "Enchantment",
-			"collector_number": "227",
+			"collector_number": "228",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/227_Network of Whispers.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/228_Network of Whispers.png"
 			}
 		},
 		{
@@ -2045,9 +2025,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{B}{R}",
 			"type": "Legendary Creature — Human Pirate Noble",
-			"collector_number": "235",
+			"collector_number": "236",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/235_Sfarzia, Pirate Queen.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/236_Sfarzia, Pirate Queen.png"
 			}
 		},
 		{
@@ -2055,9 +2035,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{R}{G}",
 			"type": "Creature — Human Warlock",
-			"collector_number": "245",
+			"collector_number": "246",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/245_Wielder of the Cursed Bestiary.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/246_Wielder of the Cursed Bestiary.png"
 			}
 		},
 		{
@@ -2065,9 +2045,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{G}{W}",
 			"type": "Creature — Rabbit Noble Soldier",
-			"collector_number": "243",
+			"collector_number": "244",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/243_Warren League General.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/244_Warren League General.png"
 			}
 		},
 		{
@@ -2075,9 +2055,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{W}{B}",
 			"type": "Enchantment",
-			"collector_number": "224",
+			"collector_number": "225",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/224_Meeting of Nations.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/225_Meeting of Nations.png"
 			}
 		},
 		{
@@ -2085,9 +2065,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{U}{R}",
 			"type": "Creature — Rabbit Artificer",
-			"collector_number": "231",
+			"collector_number": "232",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/231_Rabbitfolk Engineer.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/232_Rabbitfolk Engineer.png"
 			}
 		},
 		{
@@ -2095,9 +2075,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{B}{G}",
 			"type": "Legendary Creature — Human Wizard",
-			"collector_number": "221",
+			"collector_number": "222",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/221_Gersauld, Disgraced Count.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/222_Gersauld, Disgraced Count.png"
 			}
 		},
 		{
@@ -2105,9 +2085,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{R}{W}",
 			"type": "Legendary Creature — Phoenix",
-			"collector_number": "239",
+			"collector_number": "240",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/239_Sunscatter, Firewing Matriarch.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/240_Sunscatter, Firewing Matriarch.png"
 			}
 		},
 		{
@@ -2115,9 +2095,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{G}{U}",
 			"type": "Artifact — Vehicle",
-			"collector_number": "223",
+			"collector_number": "224",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/223_Mapmaker's Society Scoutship.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/224_Mapmaker's Society Scoutship.png"
 			}
 		},
 		{
@@ -2125,9 +2105,9 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{W}{U}",
 			"type": "Artifact — Vehicle",
-			"collector_number": "222",
+			"collector_number": "223",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/222_Lemauge Grand Flagship.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/223_Lemauge Grand Flagship.png"
 			}
 		},
 		{
@@ -2135,9 +2115,9 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{U}{B}",
 			"type": "Legendary Creature — Zombie",
-			"collector_number": "215",
+			"collector_number": "216",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/215_The Bloated Dredger of Caroul.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/216_The Bloated Dredger of Caroul.png"
 			}
 		},
 		{
@@ -2145,9 +2125,9 @@
 			"rarity": "rare",
 			"mana_cost": "{4}{B}{R}",
 			"type": "Sorcery",
-			"collector_number": "242",
+			"collector_number": "243",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/242_Unlawful Impressment.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/243_Unlawful Impressment.png"
 			}
 		},
 		{
@@ -2155,9 +2135,9 @@
 			"rarity": "rare",
 			"mana_cost": "{4}{R}{G}",
 			"type": "Creature — Cat Dog Boar",
-			"collector_number": "229",
+			"collector_number": "230",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/229_Ornery Betroynt.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/230_Ornery Betroynt.png"
 			}
 		},
 		{
@@ -2165,9 +2145,9 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{G}{W}",
 			"type": "Sorcery",
-			"collector_number": "220",
+			"collector_number": "221",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/220_Fishing from the Docks.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/221_Fishing from the Docks.png"
 			}
 		},
 		{
@@ -2175,19 +2155,19 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{W}{B}",
 			"type": "Sorcery",
-			"collector_number": "232",
+			"collector_number": "233",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/232_Raise the Banner.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/233_Raise the Banner.png"
 			}
 		},
 		{
 			"name": "Sourcing Components",
 			"rarity": "rare",
-			"mana_cost": "{1}{U}{R}",
+			"mana_cost": "{U}{R}",
 			"type": "Enchantment",
-			"collector_number": "238",
+			"collector_number": "239",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/238_Sourcing Components.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/239_Sourcing Components.png"
 			}
 		},
 		{
@@ -2195,9 +2175,9 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{B}{G}",
 			"type": "Instant",
-			"collector_number": "230",
+			"collector_number": "231",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/230_Pulled into the Tar.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/231_Pulled into the Tar.png"
 			}
 		},
 		{
@@ -2205,19 +2185,19 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{R}{W}",
 			"type": "Legendary Creature — Human Rogue",
-			"collector_number": "246",
+			"collector_number": "247",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/246_Yolaira, Linkmistress.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/247_Yolaira, Linkmistress.png"
 			}
 		},
 		{
-			"name": "Bronson Celac, Society Strongman",
+			"name": "Bronson Celac",
 			"rarity": "rare",
 			"mana_cost": "{3}{G}{U}",
 			"type": "Legendary Creature — Human Noble Scout",
-			"collector_number": "217",
+			"collector_number": "218",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/217_Bronson Celac, Society Strongman.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/218_Bronson Celac.png"
 			}
 		},
 		{
@@ -2225,9 +2205,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}",
 			"type": "Artifact — Vehicle",
-			"collector_number": "250",
+			"collector_number": "251",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/250_Filigree Propskiff.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/251_Filigree Propskiff.png"
 			}
 		},
 		{
@@ -2235,19 +2215,19 @@
 			"rarity": "common",
 			"mana_cost": "{3}",
 			"type": "Artifact — Vehicle",
-			"collector_number": "252",
+			"collector_number": "253",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/252_House Barge.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/253_House Barge.png"
 			}
 		},
 		{
 			"name": "Piston Vambrace",
 			"rarity": "common",
-			"mana_cost": "{2}",
+			"mana_cost": "{3}",
 			"type": "Artifact — Equipment",
-			"collector_number": "257",
+			"collector_number": "258",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/257_Piston Vambrace.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/258_Piston Vambrace.png"
 			}
 		},
 		{
@@ -2255,9 +2235,9 @@
 			"rarity": "common",
 			"mana_cost": "{3}",
 			"type": "Artifact",
-			"collector_number": "247",
+			"collector_number": "248",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/247_Aerie's Legacy.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/248_Aerie's Legacy.png"
 			}
 		},
 		{
@@ -2265,9 +2245,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}",
 			"type": "Artifact Creature — Construct Rat",
-			"collector_number": "249",
+			"collector_number": "250",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/249_Clockwork Rat.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/250_Clockwork Rat.png"
 			}
 		},
 		{
@@ -2275,19 +2255,19 @@
 			"rarity": "uncommon",
 			"mana_cost": "{4}",
 			"type": "Artifact",
-			"collector_number": "248",
+			"collector_number": "249",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/248_Ancient Waystone.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/249_Ancient Waystone.png"
 			}
 		},
 		{
 			"name": "Mausoleum of Deities",
 			"rarity": "uncommon",
-			"mana_cost": "{2}",
+			"mana_cost": "{3}",
 			"type": "Artifact",
-			"collector_number": "255",
+			"collector_number": "256",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/255_Mausoleum of Deities.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/256_Mausoleum of Deities.png"
 			}
 		},
 		{
@@ -2295,9 +2275,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{4}",
 			"type": "Artifact — Vehicle",
-			"collector_number": "258",
+			"collector_number": "259",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/258_Tiazan Freighter.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/259_Tiazan Freighter.png"
 			}
 		},
 		{
@@ -2305,9 +2285,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}",
 			"type": "Artifact — Equipment",
-			"collector_number": "253",
+			"collector_number": "254",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/253_Iron Savior Suit.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/254_Iron Savior Suit.png"
 			}
 		},
 		{
@@ -2315,9 +2295,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "259",
+			"collector_number": "260",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/259_Abandoned Dock.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/260_Abandoned Dock.png"
 			}
 		},
 		{
@@ -2325,9 +2305,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "263",
+			"collector_number": "264",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/263_Generator Deeps.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/264_Generator Deeps.png"
 			}
 		},
 		{
@@ -2335,9 +2315,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "260",
+			"collector_number": "261",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/260_Baron's Field.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/261_Baron's Field.png"
 			}
 		},
 		{
@@ -2345,9 +2325,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "272",
+			"collector_number": "273",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/272_Warren Capitol.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/273_Warren Capitol.png"
 			}
 		},
 		{
@@ -2355,9 +2335,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "268",
+			"collector_number": "269",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/268_Refueling Village.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/269_Refueling Village.png"
 			}
 		},
 		{
@@ -2365,9 +2345,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "269",
+			"collector_number": "270",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/269_Sanctum of Secrets.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/270_Sanctum of Secrets.png"
 			}
 		},
 		{
@@ -2395,9 +2375,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{W}{B}",
 			"type": "Sorcery",
-			"collector_number": "236",
+			"collector_number": "237",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/236_A Simple Meeting.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/237_A Simple Meeting.png"
 			}
 		},
 		{
@@ -2405,9 +2385,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "264",
+			"collector_number": "265",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/264_Gravity Shear Field.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/265_Gravity Shear Field.png"
 			}
 		},
 		{
@@ -2415,9 +2395,9 @@
 			"rarity": "rare",
 			"mana_cost": "",
 			"type": "Legendary Land",
-			"collector_number": "261",
+			"collector_number": "262",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/261_Erqual, Tiazan Monastery.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/262_Erqual, Tiazan Monastery.png"
 			}
 		},
 		{
@@ -2425,9 +2405,9 @@
 			"rarity": "rare",
 			"mana_cost": "",
 			"type": "Legendary Land",
-			"collector_number": "265",
+			"collector_number": "266",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/265_Grolle, Prime Node.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/266_Grolle, Prime Node.png"
 			}
 		},
 		{
@@ -2435,9 +2415,9 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{R}",
 			"type": "Enchantment — Aura",
-			"collector_number": "147",
+			"collector_number": "148",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/147_Gift of the Firehen.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/148_Gift of the Firehen.png"
 			}
 		},
 		{
@@ -2445,16 +2425,16 @@
 			"rarity": "rare",
 			"mana_cost": "{3}{B}{B}",
 			"type": "Artifact — Fossil",
-			"collector_number": "104",
+			"collector_number": "105",
 			"back": {
 				"name": "",
 				"type": "",
 				"image_uris": {
-					"en": "https://Custom-MtG-Sets/sets/AVA-files/img/104_Masterpiece in the Making_back.png"
+					"en": "https://Custom-MtG-Sets/sets/AVA-files/img/105_Masterpiece in the Making_back.png"
 				}
 			},
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/104_Masterpiece in the Making_front.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/105_Masterpiece in the Making_front.png"
 			}
 		},
 		{
@@ -2462,9 +2442,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{G}",
 			"type": "Creature — Wolf",
-			"collector_number": "182",
+			"collector_number": "184",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/182_Fatemarked Wolf.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/184_Fatemarked Wolf.png"
 			}
 		},
 		{
@@ -2472,19 +2452,19 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{U}",
 			"type": "Legendary Artifact Creature — Rabbit Artificer",
-			"collector_number": "65",
+			"collector_number": "66",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/65_Jochi, Inspired Tinkerer.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/66_Jochi, Inspired Tinkerer.png"
 			}
 		},
 		{
 			"name": "Coming In for a Landing",
 			"rarity": "uncommon",
-			"mana_cost": "{1}{R}",
+			"mana_cost": "{R}",
 			"type": "Sorcery",
-			"collector_number": "139",
+			"collector_number": "140",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/139_Coming In for a Landing.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/140_Coming In for a Landing.png"
 			}
 		},
 		{
@@ -2492,9 +2472,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{G}",
 			"type": "Artifact — Vehicle",
-			"collector_number": "212",
+			"collector_number": "213",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/212_Unwieldy Steam-tractor.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/213_Unwieldy Steam-tractor.png"
 			}
 		},
 		{
@@ -2502,9 +2482,9 @@
 			"rarity": "rare",
 			"mana_cost": "{3}{U}{U}",
 			"type": "Sorcery",
-			"collector_number": "56",
+			"collector_number": "57",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/56_Gravitic Whirlpool.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/57_Gravitic Whirlpool.png"
 			}
 		},
 		{
@@ -2512,9 +2492,9 @@
 			"rarity": "mythic",
 			"mana_cost": "{3}",
 			"type": "Legendary Artifact",
-			"collector_number": "256",
+			"collector_number": "257",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/256_Orrery of Avallus.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/257_Orrery of Avallus.png"
 			}
 		},
 		{
@@ -2522,9 +2502,9 @@
 			"rarity": "mythic",
 			"mana_cost": "{1}{U}",
 			"type": "Enchantment",
-			"collector_number": "81",
+			"collector_number": "82",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/81_Timelocked.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/82_Timelocked.png"
 			}
 		},
 		{
@@ -2532,9 +2512,9 @@
 			"rarity": "mythic",
 			"mana_cost": "{W}{U}{B}{R}{G}",
 			"type": "Legendary Creature — Human Pirate Rogue",
-			"collector_number": "214",
+			"collector_number": "215",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/214_Anstral, of the War and Whimsy.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/215_Anstral, of the War and Whimsy.png"
 			}
 		},
 		{
@@ -2542,16 +2522,16 @@
 			"rarity": "mythic",
 			"mana_cost": "{4}",
 			"type": "Artifact",
-			"collector_number": "251",
+			"collector_number": "252",
 			"back": {
 				"name": "",
 				"type": "",
 				"image_uris": {
-					"en": "https://Custom-MtG-Sets/sets/AVA-files/img/251_Haunted Skull_back.png"
+					"en": "https://Custom-MtG-Sets/sets/AVA-files/img/252_Haunted Skull_back.png"
 				}
 			},
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/251_Haunted Skull_front.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/252_Haunted Skull_front.png"
 			}
 		},
 		{
@@ -2559,16 +2539,16 @@
 			"rarity": "mythic",
 			"mana_cost": "{2}{U}{B}",
 			"type": "Legendary Artifact — Fossil",
-			"collector_number": "226",
+			"collector_number": "227",
 			"back": {
 				"name": "",
 				"type": "",
 				"image_uris": {
-					"en": "https://Custom-MtG-Sets/sets/AVA-files/img/226_Monster of Lake Dread_back.png"
+					"en": "https://Custom-MtG-Sets/sets/AVA-files/img/227_Monster of Lake Dread_back.png"
 				}
 			},
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/226_Monster of Lake Dread_front.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/227_Monster of Lake Dread_front.png"
 			}
 		},
 		{
@@ -2576,9 +2556,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{U}{B}",
 			"type": "Instant",
-			"collector_number": "241",
+			"collector_number": "242",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/241_Turncoat Arsenal.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/242_Turncoat Arsenal.png"
 			}
 		},
 		{
@@ -2586,9 +2566,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{B}{R}",
 			"type": "Instant",
-			"collector_number": "219",
+			"collector_number": "220",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/219_Cindertrap Sabotage.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/220_Cindertrap Sabotage.png"
 			}
 		},
 		{
@@ -2596,9 +2576,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{R}{G}",
 			"type": "Instant",
-			"collector_number": "240",
+			"collector_number": "241",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/240_A Touch of Home.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/241_A Touch of Home.png"
 			}
 		},
 		{
@@ -2606,9 +2586,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{G}{W}",
 			"type": "Creature — Rabbit Soldier",
-			"collector_number": "244",
+			"collector_number": "245",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/244_Warren League Lieutenant.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/245_Warren League Lieutenant.png"
 			}
 		},
 		{
@@ -2616,9 +2596,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{W}{U}",
 			"type": "Enchantment — Aura",
-			"collector_number": "234",
+			"collector_number": "235",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/234_Relieved of Duty.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/235_Relieved of Duty.png"
 			}
 		},
 		{
@@ -2626,9 +2606,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{B}{G}",
 			"type": "Creature — Zombie",
-			"collector_number": "237",
+			"collector_number": "238",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/237_Soilborn Staff.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/238_Soilborn Staff.png"
 			}
 		},
 		{
@@ -2636,9 +2616,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{W}{B}",
 			"type": "Sorcery",
-			"collector_number": "216",
+			"collector_number": "217",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/216_Braving the Cellar.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/217_Braving the Cellar.png"
 			}
 		},
 		{
@@ -2646,9 +2626,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{U}{R}",
 			"type": "Sorcery",
-			"collector_number": "233",
+			"collector_number": "234",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/233_Reconstructed Gate.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/234_Reconstructed Gate.png"
 			}
 		},
 		{
@@ -2656,9 +2636,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{R}{W}",
 			"type": "Creature — Human Mercenary Warrior",
-			"collector_number": "228",
+			"collector_number": "229",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/228_Ninth Dawn Associate.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/229_Ninth Dawn Associate.png"
 			}
 		},
 		{
@@ -2666,9 +2646,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{G}{U}",
 			"type": "Instant",
-			"collector_number": "218",
+			"collector_number": "219",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/218_The Call of Rediscovery.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/219_The Call of Rediscovery.png"
 			}
 		},
 		{
@@ -2676,9 +2656,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{4}",
 			"type": "Artifact — Vehicle",
-			"collector_number": "254",
+			"collector_number": "255",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/254_Lemauge Heavy Cruiser.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/255_Lemauge Heavy Cruiser.png"
 			}
 		},
 		{
@@ -2686,9 +2666,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Basic Land — Plains",
-			"collector_number": "273",
+			"collector_number": "274",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/273_Plains.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/274_Plains.png"
 			}
 		},
 		{
@@ -2696,9 +2676,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Basic Land — Island",
-			"collector_number": "274",
+			"collector_number": "275",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/274_Island.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/275_Island.png"
 			}
 		},
 		{
@@ -2706,9 +2686,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Basic Land — Swamp",
-			"collector_number": "275",
+			"collector_number": "276",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/275_Swamp.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/276_Swamp.png"
 			}
 		},
 		{
@@ -2716,9 +2696,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Basic Land — Mountain",
-			"collector_number": "276",
+			"collector_number": "277",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/276_Mountain.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/277_Mountain.png"
 			}
 		},
 		{
@@ -2726,9 +2706,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Basic Land — Forest",
-			"collector_number": "277",
+			"collector_number": "278",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/277_Forest.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/278_Forest.png"
 			}
 		},
 		{
@@ -2736,9 +2716,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "267",
+			"collector_number": "268",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/267_Pirates' Encampment.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/268_Pirates' Encampment.png"
 			}
 		},
 		{
@@ -2746,9 +2726,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "262",
+			"collector_number": "263",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/262_Fog-Wreathed Rest.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/263_Fog-Wreathed Rest.png"
 			}
 		},
 		{
@@ -2756,9 +2736,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "270",
+			"collector_number": "271",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/270_Skyvannah.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/271_Skyvannah.png"
 			}
 		},
 		{
@@ -2766,9 +2746,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "271",
+			"collector_number": "272",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/271_Volcanic Lair.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/272_Volcanic Lair.png"
 			}
 		},
 		{
@@ -2776,9 +2756,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "266",
+			"collector_number": "267",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/266_Landing Station.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/267_Landing Station.png"
 			}
 		},
 		{
@@ -2826,9 +2806,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{U}",
 			"type": "Battle — Skirmish",
-			"collector_number": "78",
+			"collector_number": "79",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/78_Skipping Class.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/79_Skipping Class.png"
 			}
 		},
 		{
@@ -2836,9 +2816,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{B}",
 			"type": "Battle — Skirmish",
-			"collector_number": "114",
+			"collector_number": "115",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/114_A Sabotaging of Hope.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/115_A Sabotaging of Hope.png"
 			}
 		},
 		{
@@ -2846,9 +2826,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{R}",
 			"type": "Battle — Skirmish",
-			"collector_number": "156",
+			"collector_number": "157",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/156_Ninth Dawn Public Relations.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/157_Ninth Dawn Public Relations.png"
 			}
 		},
 		{
@@ -2856,9 +2836,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{G}",
 			"type": "Battle — Skirmish",
-			"collector_number": "208",
+			"collector_number": "210",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/208_Test of Courage.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/210_Test of Courage.png"
 			}
 		},
 		{
@@ -2866,9 +2846,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{R}{R}",
 			"type": "Sorcery",
-			"collector_number": "134",
+			"collector_number": "135",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/134_Break with the Past.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/135_Break with the Past.png"
 			}
 		},
 		{
@@ -3076,9 +3056,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{W}",
 			"type": "Creature — Rabbit Soldier",
-			"collector_number": "43",
+			"collector_number": "44",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/43_Zuun Warrenguard.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/44_Zuun Warrenguard.png"
 			}
 		},
 		{
@@ -3086,9 +3066,39 @@
 			"rarity": "common",
 			"mana_cost": "{U}",
 			"type": "Creature — Human Pirate",
-			"collector_number": "74",
+			"collector_number": "75",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/74_Ropehold Scout.png"
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/75_Ropehold Scout.png"
+			}
+		},
+		{
+			"name": "Gersauld's Assassin",
+			"rarity": "common",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Creature — Rabbit Zombie",
+			"collector_number": "98",
+			"image_uris": {
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/98_Gersauld's Assassin.png"
+			}
+		},
+		{
+			"name": "Wide-bore Warning",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Instant",
+			"collector_number": "43",
+			"image_uris": {
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/43_Wide-bore Warning.png"
+			}
+		},
+		{
+			"name": "Distracting Saboteur",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Rabbit Rogue",
+			"collector_number": "14",
+			"image_uris": {
+				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/14_Distracting Saboteur.png"
 			}
 		},
 	]
@@ -3096,8 +3106,7 @@
 [rare(1)]
 	2 Griffin Elder
 	2 Commandant Urscia
-	2 Scion of the Hidden Burrow Path
-	2 Distracting Saboteur
+	2 Scion of the Hidden Burrow
 	2 Retributive Bombardment
 	2 Precision Bomber
 	2 Admiral's Guile
@@ -3136,9 +3145,9 @@
 	1 Primordials Exhibit
 	1 Unending Insight
 	1 Phoenix Egg
-	1 Hot Hand
+	1 High Stakes Game
 	1 Mother of the Webbed City
-	1 Treasure of the Giant's Cave
+	1 Cave of the Vanquished
 	2 Lemauge Grand Flagship
 	2 The Bloated Dredger of Caroul
 	2 Unlawful Impressment
@@ -3148,7 +3157,7 @@
 	2 Sourcing Components
 	2 Pulled into the Tar
 	2 Yolaira, Linkmistress
-	2 Bronson Celac, Society Strongman
+	2 Bronson Celac
 	2 Erqual, Tiazan Monastery
 	2 Grolle, Prime Node
 	2 Gift of the Firehen
@@ -3160,6 +3169,7 @@
 	1 Anstral, of the War and Whimsy
 	1 Haunted Skull
 	1 Monster of Lake Dread
+	2 Distracting Saboteur
 [uncommon(4)]
 	4 Vineyard Tour
 	4 General's Briefing
@@ -3285,7 +3295,6 @@
 	8 Sit This One Out
 	8 Pull Aetherstrings
 	8 Hired Investigator
-	8 Treasure Seeker
 	8 Indomitable Tinkerer
 	8 Shipwake Griffin
 	8 Navy Junior Engineer
@@ -3311,7 +3320,7 @@
 	8 Death's Hall Caretaker
 	8 Giant Rat
 	8 Stolen Wasp-Class
-	8 Wreathed in Sulfur
+	8 Sulfurous Clouds
 	8 Shadowblood Inoculation
 	8 Puppeteer's Grace
 	8 Umbral Teachings
@@ -3368,6 +3377,8 @@
 	8 Volcanic Lair
 	8 Landing Station
 	8 Ropehold Scout
+	8 Gersauld's Assassin
+	8 Wide-bore Warning
 [wildcard(2)]
 	6 Travelling Chef
 	6 Bonded Griffin
@@ -3389,7 +3400,6 @@
 	15 General's Briefing
 	15 Omenstoat Pack
 	6 Hired Investigator
-	6 Treasure Seeker
 	6 Indomitable Tinkerer
 	6 Shipwake Griffin
 	6 Navy Junior Engineer
@@ -3418,7 +3428,7 @@
 	6 Giant Rat
 	15 Contemplative Crime Lord
 	6 Stolen Wasp-Class
-	6 Wreathed in Sulfur
+	6 Sulfurous Clouds
 	6 Shadowblood Inoculation
 	6 Puppeteer's Grace
 	15 Shackled to the Forge
@@ -3521,8 +3531,7 @@
 	15 Untested Elixir
 	7 Griffin Elder
 	7 Commandant Urscia
-	7 Scion of the Hidden Burrow Path
-	7 Distracting Saboteur
+	7 Scion of the Hidden Burrow
 	7 Retributive Bombardment
 	7 Precision Bomber
 	7 Admiral's Guile
@@ -3561,9 +3570,9 @@
 	4 Primordials Exhibit
 	4 Unending Insight
 	4 Phoenix Egg
-	4 Hot Hand
+	4 High Stakes Game
 	4 Mother of the Webbed City
-	4 Treasure of the Giant's Cave
+	4 Cave of the Vanquished
 	15 Mobile Base 31, Andren
 	15 Network of Whispers
 	15 Sfarzia, Pirate Queen
@@ -3583,7 +3592,7 @@
 	7 Sourcing Components
 	7 Pulled into the Tar
 	7 Yolaira, Linkmistress
-	7 Bronson Celac, Society Strongman
+	7 Bronson Celac
 	6 Filigree Propskiff
 	6 House Barge
 	6 Piston Vambrace
@@ -3641,3 +3650,6 @@
 	15 Break with the Past
 	15 Zuun Warrenguard
 	6 Ropehold Scout
+	6 Gersauld's Assassin
+	6 Wide-bore Warning
+	7 Distracting Saboteur
