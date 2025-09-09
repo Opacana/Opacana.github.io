@@ -26,6 +26,12 @@ def genAllCards(codes):
 	set_input = {'sets':[]}
 	#F: ...goes over all the set codes,
 	for code in codes:
+		#CE: check to see if the set is currently previewing
+		previewed_path = os.path.join('sets', code + '-files', 'previewed.txt')
+		previewed_cards = None
+		if os.path.exists(previewed_path):
+			with open(previewed_path, encoding='utf-8-sig') as f:
+				previewed_cards = f.read().split('\n')
 		#CE: non-indented JSON is driving me insane
 		prettifyJSON(os.path.join('sets', code + '-files', code + '.json'))	
 		#F: grabs the corresponding file,
@@ -46,7 +52,8 @@ def genAllCards(codes):
 				if os.path.exists(d_notes_path):
 					with open(d_notes_path, encoding='utf-8-sig') as md:
 						card['designer_notes'] = markdown.markdown(md.read())
-				card_input['cards'].append(card)
+				if previewed_cards == None or card['card_name'] in previewed_cards:
+					card_input['cards'].append(card)
 			set_data = {}
 			set_data['set_code'] = code
 			set_data['set_name'] = raw['name']
@@ -56,9 +63,9 @@ def genAllCards(codes):
 	with open(os.path.join('lists', 'all-cards.json'), 'w', encoding='utf-8-sig') as f:
 		#F: turns the dictionary into a json object, and puts it into the all-cards.json file
 		#F: json.dump actually preserves the \n's and the \\'s and whatnot, so we won't have to escape them ourselves
-		json.dump(card_input, f)
+		json.dump(card_input, f, indent=4)
 	with open(os.path.join('lists', 'all-sets.json'), 'w', encoding='utf-8-sig') as f:
-		json.dump(set_input, f)
+		json.dump(set_input, f, indent=4)
 
 def prettifyJSON(filepath):
 	with open(filepath, encoding='utf-8-sig') as f:
@@ -131,16 +138,16 @@ for code in set_codes:
 	set_dir = code + '-files'
 	with open(os.path.join('sets', code + '-files', code + '.json'), encoding='utf-8-sig') as f:
 		raw = json.load(f)
-	if 'draft_structure' in raw and not raw['draft_structure'] == 'none':
+	if 'draft_structure' in raw and not raw['draft_structure'] == 'none' and not os.path.isfile(os.path.join('custom', 'sets', code + '-files', code + '-draft.txt')):
 		try:
 			print_draft_file.generateFile(code)
 			print('Generated draft file for {0}.'.format(code))
-		except:
-			print('Unable to generate draft file for {0}.'.format(code))
+		except Exception as e:
+			print('Unable to generate draft file for {0}: {1}'.format(code, e))
 
 	#CE: this code is all for version history
 	if 'version' not in raw:
-		versions = glob.glob(os.path.join('sets', 'versions', '*' + code + '_*'))
+		versions = glob.glob(os.path.join('sets', 'versions', '*_' + code + '*'))
 		if len(versions) == 0:
 			shutil.copyfile(os.path.join('sets', code + '-files', code + '.json'), os.path.join('sets', 'versions', '1_' + code + '.json'))
 			prettifyJSON(os.path.join('sets', 'versions', '1_' + code + '.json'))
@@ -176,7 +183,14 @@ for code in set_codes:
 				else:
 					prev_card = previous_data['cards'][prev_card_names.index(card['card_name'])]
 					prev_card_names[prev_card_names.index(card['card_name'])] = ''
-					if card != prev_card:
+
+					# ignore card number, since that often changes for reasons unrelated to the card itself
+					card_copy = card.copy()
+					prev_card_copy = prev_card.copy()
+					card_copy.pop("number", None)
+					prev_card_copy.pop("number", None)
+
+					if card_copy != prev_card_copy:
 						changed = True
 						changed_string += card['card_name'] + '\n'
 						for key in [ 'type', 'cost', 'rules_text', 'pt', 'special_text', 'loyalty' ]:
@@ -224,7 +238,7 @@ if not os.path.exists(custom_order):
 		"": set_order
 	}
 	with open(custom_order, 'w', encoding='utf-8-sig') as f:
-		json.dump(set_order_data, f)
+		json.dump(set_order_data, f, indent=4)
 
 for code in set_codes:
 	#F: more important functions
