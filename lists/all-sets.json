@@ -1,1 +1,9 @@
-﻿{"sets": [{"set_code": "AVA", "set_name": "Avallus: Rediscovery", "formats": "Revolution"}]}
+﻿{
+    "sets": [
+        {
+            "set_code": "AVA",
+            "set_name": "Avallus: Rediscovery",
+            "formats": "Revolution"
+        }
+    ]
+}
