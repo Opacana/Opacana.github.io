@@ -229,7 +229,7 @@
     },
     {
         "card_name": "Righteous Longfang",
-        "number": 153,
+        "number": 154,
         "shape": "normal",
         "set": "WCD"
     },
@@ -259,7 +259,7 @@
     },
     {
         "card_name": "Sachal's Betrayal",
-        "number": 155,
+        "number": 156,
         "shape": "normal",
         "set": "WCD"
     },
@@ -289,7 +289,7 @@
     },
     {
         "card_name": "Tamer of Giants",
-        "number": 161,
+        "number": 162,
         "shape": "normal",
         "set": "WCD"
     },
@@ -319,7 +319,7 @@
     },
     {
         "card_name": "Tensionwire Balance",
-        "number": 162,
+        "number": 163,
         "shape": "normal",
         "set": "WCD"
     },
@@ -558,8 +558,8 @@
         "set": "WCD"
     },
     {
-        "card_name": "Ring of Fire",
-        "number": 154,
+        "card_name": "Persuasive Promotion",
+        "number": 152,
         "shape": "normal",
         "set": "WCD"
     },
@@ -588,8 +588,8 @@
         "set": "WCD"
     },
     {
-        "card_name": "Scattering Truths",
-        "number": 156,
+        "card_name": "Ring of Fire",
+        "number": 155,
         "shape": "normal",
         "set": "WCD"
     },
@@ -618,7 +618,7 @@
         "set": "WCD"
     },
     {
-        "card_name": "Scourge of Theros",
+        "card_name": "Scattering Truths",
         "number": 157,
         "shape": "normal",
         "set": "WCD"
@@ -648,8 +648,8 @@
         "set": "WCD"
     },
     {
-        "card_name": "Start the Real Show",
-        "number": 159,
+        "card_name": "Scourge of Theros",
+        "number": 158,
         "shape": "normal",
         "set": "WCD"
     },
@@ -678,8 +678,8 @@
         "set": "WCD"
     },
     {
-        "card_name": "WIP Persuasive Promotion",
-        "number": 165,
+        "card_name": "Start the Real Show",
+        "number": 160,
         "shape": "normal",
         "set": "WCD"
     },
@@ -1099,7 +1099,7 @@
     },
     {
         "card_name": "Rabid Orthroid",
-        "number": 152,
+        "number": 153,
         "shape": "normal",
         "set": "WCD"
     },
@@ -1129,7 +1129,7 @@
     },
     {
         "card_name": "Sightseeing Bronzehawk",
-        "number": 158,
+        "number": 159,
         "shape": "normal",
         "set": "WCD"
     },
@@ -1159,7 +1159,7 @@
     },
     {
         "card_name": "Sudden Comeback",
-        "number": 160,
+        "number": 161,
         "shape": "normal",
         "set": "WCD"
     },
@@ -1189,7 +1189,7 @@
     },
     {
         "card_name": "Tick-Ridden Jipoo",
-        "number": 163,
+        "number": 164,
         "shape": "normal",
         "set": "WCD"
     },
@@ -1219,7 +1219,7 @@
     },
     {
         "card_name": "Waste Tamer of Batra",
-        "number": 164,
+        "number": 165,
         "shape": "normal",
         "set": "WCD"
     },
@@ -1541,6 +1541,12 @@
         "set": "WCD"
     },
     {
+        "card_name": "Sanguine Boots",
+        "number": 245,
+        "shape": "normal",
+        "set": "WCD"
+    },
+    {
         "card_name": "Saw",
         "number": 246,
         "shape": "normal",
@@ -1567,12 +1573,6 @@
     {
         "card_name": "Hazoret's Barque Ride",
         "number": 242,
-        "shape": "normal",
-        "set": "WCD"
-    },
-    {
-        "card_name": "Sanguine Boots",
-        "number": 245,
         "shape": "normal",
         "set": "WCD"
     },

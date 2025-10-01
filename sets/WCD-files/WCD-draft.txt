@@ -83,7 +83,7 @@
 		{
 			"name": "Masterful Ringleader",
 			"rarity": "common",
-			"mana_cost": "{2}{W}{W}",
+			"mana_cost": "{3}{W}{W}",
 			"type": "Creature — Human Performer",
 			"collector_number": "26",
 			"image_uris": {
@@ -133,7 +133,7 @@
 		{
 			"name": "Gift of the Healer",
 			"rarity": "common",
-			"mana_cost": "{3}{W}",
+			"mana_cost": "{2}{W}",
 			"type": "Enchantment — Aura",
 			"collector_number": "13",
 			"image_uris": {
@@ -163,7 +163,7 @@
 		{
 			"name": "Bar the Exit",
 			"rarity": "common",
-			"mana_cost": "{2}{W}",
+			"mana_cost": "{1}{W}",
 			"type": "Instant",
 			"collector_number": "5",
 			"image_uris": {
@@ -565,9 +565,9 @@
 			"rarity": "common",
 			"mana_cost": "{R}",
 			"type": "Creature — Beast",
-			"collector_number": "152",
+			"collector_number": "153",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/WCD-files/img/152_Rabid Orthroid.png"
+				"en": "https://Custom-MtG-Sets/sets/WCD-files/img/153_Rabid Orthroid.png"
 			}
 		},
 		{
@@ -575,9 +575,9 @@
 			"rarity": "common",
 			"mana_cost": "{3}{R}",
 			"type": "Creature — Human Mercenary",
-			"collector_number": "164",
+			"collector_number": "165",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/WCD-files/img/164_Waste Tamer of Batra.png"
+				"en": "https://Custom-MtG-Sets/sets/WCD-files/img/165_Waste Tamer of Batra.png"
 			}
 		},
 		{
@@ -595,9 +595,9 @@
 			"rarity": "common",
 			"mana_cost": "{3}{R}{R}",
 			"type": "Creature — Sheep",
-			"collector_number": "163",
+			"collector_number": "164",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/WCD-files/img/163_Tick-Ridden Jipoo.png"
+				"en": "https://Custom-MtG-Sets/sets/WCD-files/img/164_Tick-Ridden Jipoo.png"
 			}
 		},
 		{
@@ -675,9 +675,9 @@
 			"rarity": "common",
 			"mana_cost": "{4}{R}",
 			"type": "Artifact — Vehicle",
-			"collector_number": "158",
+			"collector_number": "159",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/WCD-files/img/158_Sightseeing Bronzehawk.png"
+				"en": "https://Custom-MtG-Sets/sets/WCD-files/img/159_Sightseeing Bronzehawk.png"
 			}
 		},
 		{
@@ -705,9 +705,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{R}",
 			"type": "Enchantment — Aura",
-			"collector_number": "160",
+			"collector_number": "161",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/WCD-files/img/160_Sudden Comeback.png"
+				"en": "https://Custom-MtG-Sets/sets/WCD-files/img/161_Sudden Comeback.png"
 			}
 		},
 		{
@@ -973,7 +973,7 @@
 		{
 			"name": "Inquisitive Tuspiri",
 			"rarity": "uncommon",
-			"mana_cost": "{W}",
+			"mana_cost": "{1}{W}",
 			"type": "Creature — Lizard Beast",
 			"collector_number": "16",
 			"image_uris": {
@@ -1285,9 +1285,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{5}{R}{R}",
 			"type": "Creature — Chimera",
-			"collector_number": "157",
+			"collector_number": "158",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/WCD-files/img/157_Scourge of Theros.png"
+				"en": "https://Custom-MtG-Sets/sets/WCD-files/img/158_Scourge of Theros.png"
 			}
 		},
 		{
@@ -1301,13 +1301,13 @@
 			}
 		},
 		{
-			"name": "WIP Persuasive Promotion",
+			"name": "Persuasive Promotion",
 			"rarity": "uncommon",
-			"mana_cost": "{1}{R}",
+			"mana_cost": "{2}{R}",
 			"type": "Sorcery",
-			"collector_number": "165",
+			"collector_number": "152",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/WCD-files/img/165_WIP Persuasive Promotion.png"
+				"en": "https://Custom-MtG-Sets/sets/WCD-files/img/152_Persuasive Promotion.png"
 			}
 		},
 		{
@@ -1315,9 +1315,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{R}",
 			"type": "Instant",
-			"collector_number": "159",
+			"collector_number": "160",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/WCD-files/img/159_Start the Real Show.png"
+				"en": "https://Custom-MtG-Sets/sets/WCD-files/img/160_Start the Real Show.png"
 			}
 		},
 		{
@@ -1325,9 +1325,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{R}",
 			"type": "Artifact",
-			"collector_number": "154",
+			"collector_number": "155",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/WCD-files/img/154_Ring of Fire.png"
+				"en": "https://Custom-MtG-Sets/sets/WCD-files/img/155_Ring of Fire.png"
 			}
 		},
 		{
@@ -1345,9 +1345,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{4}{R}",
 			"type": "Sorcery",
-			"collector_number": "156",
+			"collector_number": "157",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/WCD-files/img/156_Scattering Truths.png"
+				"en": "https://Custom-MtG-Sets/sets/WCD-files/img/157_Scattering Truths.png"
 			}
 		},
 		{
@@ -1424,7 +1424,7 @@
 			"name": "The Fluffiest Vampire",
 			"rarity": "uncommon",
 			"mana_cost": "{G}",
-			"type": "Creature — Cat Mutant",
+			"type": "Creature — Cat Mutant Vampire",
 			"collector_number": "177",
 			"image_uris": {
 				"en": "https://Custom-MtG-Sets/sets/WCD-files/img/177_The Fluffiest Vampire.png"
@@ -1433,7 +1433,7 @@
 		{
 			"name": "Search the Area",
 			"rarity": "uncommon",
-			"mana_cost": "{3}{G}",
+			"mana_cost": "{1}{G}",
 			"type": "Sorcery",
 			"collector_number": "194",
 			"image_uris": {
@@ -1463,7 +1463,7 @@
 		{
 			"name": "Beneficent Wanderlust",
 			"rarity": "uncommon",
-			"mana_cost": "{2}{G}{G}",
+			"mana_cost": "{1}{G}{G}",
 			"type": "Enchantment — Aura",
 			"collector_number": "168",
 			"image_uris": {
@@ -1543,7 +1543,7 @@
 		{
 			"name": "Leycharged Exosuit",
 			"rarity": "rare",
-			"mana_cost": "{3}{U}",
+			"mana_cost": "{1}{U}",
 			"type": "Artifact — Equipment",
 			"collector_number": "68",
 			"image_uris": {
@@ -1584,7 +1584,7 @@
 			"name": "Summoning Game",
 			"rarity": "rare",
 			"mana_cost": "{2}{U}{U}",
-			"type": "Instant",
+			"type": "Sorcery",
 			"collector_number": "77",
 			"image_uris": {
 				"en": "https://Custom-MtG-Sets/sets/WCD-files/img/77_Summoning Game.png"
@@ -1675,9 +1675,9 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{R}{R}",
 			"type": "Creature — Orc Warrior",
-			"collector_number": "153",
+			"collector_number": "154",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/WCD-files/img/153_Righteous Longfang.png"
+				"en": "https://Custom-MtG-Sets/sets/WCD-files/img/154_Righteous Longfang.png"
 			}
 		},
 		{
@@ -1685,9 +1685,9 @@
 			"rarity": "rare",
 			"mana_cost": "{R}",
 			"type": "Creature — Human Druid Performer",
-			"collector_number": "161",
+			"collector_number": "162",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/WCD-files/img/161_Tamer of Giants.png"
+				"en": "https://Custom-MtG-Sets/sets/WCD-files/img/162_Tamer of Giants.png"
 			}
 		},
 		{
@@ -1715,9 +1715,9 @@
 			"rarity": "rare",
 			"mana_cost": "{6}{R}{R}",
 			"type": "Sorcery",
-			"collector_number": "155",
+			"collector_number": "156",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/WCD-files/img/155_Sachal's Betrayal.png"
+				"en": "https://Custom-MtG-Sets/sets/WCD-files/img/156_Sachal's Betrayal.png"
 			}
 		},
 		{
@@ -1725,15 +1725,15 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{R}{R}",
 			"type": "Enchantment",
-			"collector_number": "162",
+			"collector_number": "163",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/WCD-files/img/162_Tensionwire Balance.png"
+				"en": "https://Custom-MtG-Sets/sets/WCD-files/img/163_Tensionwire Balance.png"
 			}
 		},
 		{
 			"name": "Glorious Parade",
 			"rarity": "rare",
-			"mana_cost": "{4}{G}{G}",
+			"mana_cost": "{5}{G}{G}",
 			"type": "Creature — Elephant",
 			"collector_number": "179",
 			"image_uris": {
@@ -2102,8 +2102,8 @@
 		},
 		{
 			"name": "Sanguine Boots",
-			"rarity": "common",
-			"mana_cost": "{2}",
+			"rarity": "uncommon",
+			"mana_cost": "{1}",
 			"type": "Artifact — Equipment",
 			"collector_number": "245",
 			"image_uris": {
@@ -2273,7 +2273,7 @@
 		{
 			"name": "An Unregulated Route",
 			"rarity": "uncommon",
-			"mana_cost": "{3}{U}{U}",
+			"mana_cost": "{4}{U}{U}",
 			"type": "Instant",
 			"collector_number": "81",
 			"image_uris": {
@@ -2453,7 +2453,7 @@
 		{
 			"name": "Charge — Forbidden Elementalism",
 			"rarity": "uncommon",
-			"mana_cost": "{1}{B}",
+			"mana_cost": "{1}{B}{B}",
 			"type": "Enchantment — Inquest",
 			"collector_number": "90",
 			"image_uris": {
@@ -2878,7 +2878,7 @@
 	4 Eccentric Engineer
 	4 Scourge of Theros
 	4 Hellfuel Bike
-	4 WIP Persuasive Promotion
+	4 Persuasive Promotion
 	4 Start the Real Show
 	4 Ring of Fire
 	4 Fire-wand Phoenix
@@ -2905,6 +2905,7 @@
 	4 Sir Gremor, the Steadfast
 	4 Eyrik, Wroszy's Right Hand
 	4 Jhan, Committed Investigator
+	4 Sanguine Boots
 	4 The Big Top
 	4 Faerie's Wheel
 	4 Beer Garden
@@ -3021,7 +3022,6 @@
 	8 Mantle of the Storm
 	8 Twisted Rage
 	8 Hat of Summoning
-	8 Sanguine Boots
 	8 Hazoret's Barque Ride
 	8 Doll Collection
 	8 Fortune Teller's Tent
@@ -3159,7 +3159,7 @@
 	6 Eccentric Engineer
 	6 Scourge of Theros
 	6 Hellfuel Bike
-	6 WIP Persuasive Promotion
+	6 Persuasive Promotion
 	6 Start the Real Show
 	6 Ring of Fire
 	6 Fire-wand Phoenix
@@ -3239,7 +3239,7 @@
 	2 Eyrik's Keys
 	2 Capital Archives
 	12 Hat of Summoning
-	12 Sanguine Boots
+	6 Sanguine Boots
 	12 Hazoret's Barque Ride
 	12 Doll Collection
 	12 Fortune Teller's Tent
@@ -3413,7 +3413,7 @@
 	15 Eccentric Engineer
 	15 Scourge of Theros
 	15 Hellfuel Bike
-	15 WIP Persuasive Promotion
+	15 Persuasive Promotion
 	15 Start the Real Show
 	15 Ring of Fire
 	15 Fire-wand Phoenix
@@ -3493,7 +3493,7 @@
 	7 Eyrik's Keys
 	7 Capital Archives
 	6 Hat of Summoning
-	6 Sanguine Boots
+	15 Sanguine Boots
 	6 Hazoret's Barque Ride
 	6 Doll Collection
 	6 Fortune Teller's Tent
