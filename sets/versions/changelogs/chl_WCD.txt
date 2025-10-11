@@ -1,4 +1,131 @@
-﻿VERSION 3 CHANGELOG
+﻿VERSION 4 CHANGELOG
+====================
+
+Encava, Lanternbearer added.
+
+Saira, Lanternbearer removed.
+
+Priest of Lun, the Stormwing
+rules_text: When this creature enters, create a 1/2 blue Bird creature token with flying.
+At the beginning of your upkeep, if you control another creature with flying, you may scry 2. => When this creature enters, create a 1/2 blue Bird creature token with flying.
+At the beginning of your upkeep, if you control another creature with flying, you may scry 2 or surveil 2.
+
+Take a Moment
+rules_text: Choose one —
+• Untap up to two target creatures.
+• Scry 1, then draw a card. => Choose one —
+• Untap up to two target creatures.
+• Surveil 1, then draw a card. [i](To surveil 1, look at the top card of your library. You may put it into your graveyard.)[/i]
+
+Elimination Contest
+rules_text: Kicker {R} [i](You may pay an additional {R} as you cast this spell.)[/i]
+Practiced [i](This spell costs {1} less to cast for each creature you've attacked with this turn.)[/i]
+Destroy target creature, planeswalker, or enchantment. If an enchantment is destroyed this way, you lose 3 life.
+If this spell was kicked, destroy target artifact. => Kicker {R} [i](You may pay an additional {R} as you cast this spell.)[/i]
+Practiced [i](This spell costs {1} less to cast for each creature you've attacked with this turn.)[/i]
+Destroy target creature, planeswalker, or enchantment.
+If this spell was kicked, destroy target artifact.
+
+Cognition Consumption
+rules_text: Practiced [i](This spell costs {1} less to cast for each creature you've attacked with this turn.)[/i]
+Scry 2, then draw two cards and lose 2 life. => Practiced [i](This spell costs {1} less to cast for each creature you've attacked with this turn.)[/i]
+Surveil 2, then draw two cards and lose 2 life.
+
+Imprison
+
+Elder Lokar
+rules_text: Vigilance
+{1}{G}: This creature gains trample until end of turn. => Vigilance
+{G}: This creature gains trample until end of turn. Activate only as a sorcery.
+
+The Fluffiest Vampire
+rules_text: Deathtouch
+{1}{B}: Until end of turn, this gains lifelink and gets +2/+2. Activate only once each turn, and only as a sorcery. => Deathtouch
+{2}{B}: Until end of turn, this gains lifelink and gets +2/+2. Activate only once each turn, and only as a sorcery.
+
+Maiden of Eternities
+rules_text: Prevent all damage sources opponents control would deal to this creature.
+Whenever this deals combat damage to an opponent, you may pay {X}{W}. If you do, return up to one target artifact or enchantment card with mana value X from your graveyard to your hand. => Whenever you cast an enchantment spell, Maiden of Eternities gains flying until end of turn.
+Whenever this deals combat damage to an opponent, you may pay {X}{W}. If you do, return up to one artifact or enchantment card with mana value X from your graveyard to your hand.
+
+Lisha, Security Minister
+rules_text: You and creatures you control have ward {1}. 
+Each opponent can't cast more than one spell each turn. => You and creatures you control have ward {1}. 
+Each player can't cast more than one spell each turn.
+
+Urban Patrol Blimp
+
+Tabriogni, Minister of Transport
+cost: {1}{U}{U} => {2}{U}{U}
+rules_text: Whenever you cast an instant, sorcery, or Vehicle spell, or a spell with Flash, you may pay {R}. If you do, draw a card, then discard a card.
+Opponents can cast spells and activate abilities only any time they could cast a sorcery. => Whenever you cast an instant, sorcery, or Vehicle spell, or a spell with Flash, you may pay {R}. If you do, draw a card, then discard a card.
+Opponents can cast spells only any time they could cast a sorcery.
+
+Jhan, Committed Investigator
+rules_text: The first time you scry each turn, creatures you control get +1/+1 and gain trample until end of turn.
+{1}{U}, {T}: Scry 2, then create a Treasure token. => The first time you scry or surveil each turn, creatures you control get +1/+1 and gain trample until end of turn.
+{1}{U}, {T}: Scry 2, then create a Treasure token.
+
+Fortune Teller's Tent
+rules_text: Whenever fortified land becomes tapped, you may scry or surveil 2.
+Fortify {1} [i]({1}: Attach to target land you control. Fortify only as a sorcery.)[/i] => Whenever fortified land becomes tapped, you may scry 2 or surveil 2.
+Fortify {1} [i]({1}: Attach to target land you control. Fortify only as a sorcery.)[/i]
+
+Faerie's Wheel
+rules_text: {T}, Tap fortified land: Draw a card, then discard a card. 
+Fortify {2} [i]({2}: Attach to target land you control. Fortify only as a sorcery.)[/i] => Fortified land has “{T}: Draw a card, then discard a card.”
+Fortify {2} [i]({2}: Attach to target land you control. Fortify only as a sorcery.)[/i]
+
+Beer Garden
+rules_text: Fortified land is indestructible.
+{5}, Tap fortified land: Put an indestructible counter on target creature you control. Activate only once each turn as a sorcery.
+Fortify {1} [i]({1}: Attach to target land you control. Fortify only as a sorcery.)[/i] => Fortified land is indestructible.
+Fortified land has “{5}, {T}: Put an indestructible counter on target creature. Activate only as a sorcery.”
+Fortify {1} [i]({1}: Attach to target land you control. Fortify only as a sorcery.)[/i]
+
+Halberd of the Founding
+rules_text: Equipped creature gets +1/+1 and has first strike, hexproof, lifelink and vigilance.
+Equip {4}
+{WU}{WU}: Attach this to target creature. Activate only as a sorcery. => Equipped creature gets +1/+1 and has first strike, hexproof, lifelink and vigilance.
+Equip {5} — This costs {1} less to activate for each enchantment, instant or sorcery spell you've cast this turn.
+
+Sawblade Game
+rules_text: Discard any number of cards. When you do, an opponent chooses one, then chooses one for each card you discarded. The same mode can be chosen more than once.
+• You draw a card, then scry 1.
+• Each of your opponents loses 2 life and you gain 2 life.
+• Each of your opponents discards a card at random. => Discard any number of cards. When you do, an opponent chooses one, then chooses one for each card you discarded. The same mode can be chosen more than once.
+• You draw a card, then surveil 1.
+• Each of your opponents loses 2 life and you gain 2 life.
+• Each of your opponents discards a card at random.
+
+Hall of Nightmares
+rules_text: Choose target creature an opponent controls. That creature's controller chooses one —
+• They reveal their hand. You choose a nonland card from it. That player discards that card.
+• Destroy that creature. => Each opponent reveals their hand. You choose a nonland card from it. That player discards that card unless they sacrifice a nontoken creature.
+
+Chandra, Expanding Horizons
+cost: {2}{R} => {GW}{UB}{R}
+special_text: [+0]: Draw a card, then choose one —
+• Chandra deals 2 damage to you.
+• Discard a card, then put a loyalty counter on Chandra.
+[-2]: Chandra deals 2 damage to target permanent. That permanent's controller discards a card.
+[-7]: Discard your hand, then draw four cards. Add {W}{U}{B}{R}{G}. => [+0]: Draw a card, then choose one —
+• Chandra deals 1 damage to you.
+• Discard a card, then put a loyalty counter on Chandra.
+[-2]: Put two +1/+1 counters on up to one creature or Vehicle you control. Untap that permanent.
+[-7]: Discard your hand, then draw four cards. Add {W}{U}{B}{R}{G}.
+
+Wroszy, Circus Founder
+cost: {4} => {W}{U}{B}{R}
+special_text: This card is every color except green. Green mana can't be spent to cast this spell.
+[+1]: [b]Choose an opponent. They may pay 3 life. If they don't, return up to one card from your graveyard to your hand.[/b]
+[-3]: Destroy target permanent. This ability can't be countered. => Whenever an attacking creature dies, put a loyalty counter on Wroszy.
+[+1]: Choose an opponent. They may pay 3 life. If they don't, return up to one card from your graveyard to your hand.
+[-4]: Destroy target permanent. This ability can't be countered.
+loyalty: 4 => 1
+
+
+VERSION 3 CHANGELOG
 ====================
 
 Persuasive Promotion added.
