@@ -21,14 +21,14 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "kingkocookie",
-            "notes": "August 17th, 2025: Added cost of 1 to enter counter pump."
+            "notes": ""
         },
         {
             "card_name": "Bonded Griffin",
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2014 Griffin",
-            "number": 7,
+            "number": 6,
             "color_identity": "W",
             "cost": "{2}{W}",
             "rules_text": "Flying\n{1}: This creature gains vigilance until end of turn. Activate only if you control another creature.",
@@ -39,19 +39,19 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Red-Izak",
-            "notes": "August 14th, 2025: Removed nontoken qualifier."
+            "notes": ""
         },
         {
             "card_name": "Julescan Infantry",
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2014 Human Soldier",
-            "number": 21,
+            "number": 20,
             "color_identity": "WB",
             "cost": "{3}{W}",
             "rules_text": "Reach\n{3}{B}: This creature deals 1 damage to each opponent and you gain 1 life. This damage can't be prevented. Activate only as a sorcery.",
             "flavor_text": "[i]Patience, determination and stubbornness had become part of the Julescan national identity.[/i]",
-            "pt": "4/4",
+            "pt": "4/3",
             "special_text": "",
             "shape": "normal",
             "set": "AVA",
@@ -100,7 +100,7 @@
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2014 Phoenix",
-            "number": 12,
+            "number": 11,
             "color_identity": "W",
             "cost": "{1}{W}",
             "rules_text": "Flying, lifelink\n{3}{W}{W}, Exile this card from your graveyard: Create a 3/3 white Phoenix creature token named Darkwing with flying and lifelink. Activate only as a sorcery.",
@@ -118,7 +118,7 @@
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2014 Rabbit Monk Rogue",
-            "number": 2,
+            "number": 1,
             "color_identity": "W",
             "cost": "{W}",
             "rules_text": "Whenever this creature attacks, you may pay {1}. If you do, put a +1/+1 counter on target creature.",
@@ -172,7 +172,7 @@
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2014 Cat",
-            "number": 4,
+            "number": 3,
             "color_identity": "W",
             "cost": "{4}{W}",
             "rules_text": "Whenever this creature attacks, creatures you control get +1/+1 until end of turn.",
@@ -183,14 +183,14 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Nutchapol Thitinunthakorn",
-            "notes": "July 4th, 2025: Fixed 'When' to 'Whenever'."
+            "notes": ""
         },
         {
             "card_name": "Lakeside Watch",
             "color": "W",
             "rarity": "common",
             "type": "Sorcery",
-            "number": 22,
+            "number": 21,
             "color_identity": "W",
             "cost": "{1}{W}",
             "rules_text": "Create a 1/1 white Rabbit Monk creature token with lifelink and a 1/1 green Rabbit Warrior creature token with vigilance.",
@@ -208,7 +208,7 @@
             "color": "W",
             "rarity": "common",
             "type": "Artifact \u2014 Vehicle",
-            "number": 18,
+            "number": 17,
             "color_identity": "W",
             "cost": "{2}{W}{W}",
             "rules_text": "Ironclad {3} [i](You may pay an additional {3} to cast this spell. If you do, it's a creature in addition to its other types.)[/i]\nFlying\nCrew 3 [i](Tap any number of creatures you control with total power 3 or more: This Vehicle becomes an artifact creature until end of turn.)[/i]",
@@ -237,14 +237,14 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Monca Monc and Wilson Go",
-            "notes": "August 17th, 2025: increased cost to 3mv and moved to Sorcery."
+            "notes": ""
         },
         {
             "card_name": "Firing Drills",
             "color": "W",
             "rarity": "common",
             "type": "Sorcery",
-            "number": 15,
+            "number": 14,
             "color_identity": "W",
             "cost": "{2}{W}{W}",
             "rules_text": "Until your next turn, creatures you control get +1/+1 and gain first strike and reach.",
@@ -309,14 +309,14 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "holt5",
-            "notes": "Changed from 2W to 1WW, based on feedback in project channel, right AFTER Planesculptor's page was updated on midnight 26/27th of April 2025."
+            "notes": ""
         },
         {
             "card_name": "General's Briefing",
             "color": "W",
             "rarity": "uncommon",
             "type": "Sorcery",
-            "number": 16,
+            "number": 15,
             "color_identity": "W",
             "cost": "{1}{W}",
             "rules_text": "Create two 1/1 white Human Soldier creature tokens.\nSoldiers and Vehicles you control get +1/+1 until end of turn.",
@@ -363,7 +363,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Dev Burmak",
-            "notes": "August 14th, 2025: Removed all qualifer's from last ability."
+            "notes": ""
         },
         {
             "card_name": "Indomitable Tinkerer",
@@ -373,7 +373,7 @@
             "number": 61,
             "color_identity": "U",
             "cost": "{2}{U}",
-            "rules_text": "This spell can't be countered if you control an artifact.\nReach\nWhen this creature enters, create a tapped Treasure token. [i](It's an artifact with \u201c{T}, Sacrifice this artifact: Add one mana of any color.\u201d)[/i]",
+            "rules_text": "This spell costs {1} less to cast as long as you control an artifact.\nReach\nWhen this enters, create a tapped Treasure token.",
             "flavor_text": "[i]Necesssity is the mother of invention.[/i]",
             "pt": "1/3",
             "special_text": "",
@@ -381,7 +381,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Zana Arnautovic",
-            "notes": "Revised June 28, 2025."
+            "notes": ""
         },
         {
             "card_name": "Shipwake Griffin",
@@ -391,7 +391,7 @@
             "number": 77,
             "color_identity": "U",
             "cost": "{2}{U}{U}",
-            "rules_text": "You may cast this spell as though it had flash as long as you control a Vehicle with flying.\nFlying",
+            "rules_text": "You may cast this spell as though it had flash as long as you control a Vehicle.\nFlying",
             "flavor_text": "[i]Debate still raged among scientists whether they flew behind ships for fun, speed, or both.[/i]",
             "pt": "3/3",
             "special_text": "",
@@ -445,7 +445,7 @@
             "number": 71,
             "color_identity": "U",
             "cost": "{1}{U}{U}",
-            "rules_text": "When this creature enters, you may draw a card.\n{1}{U}: Target creature can't be blocked this turn. Activate only once each turn.",
+            "rules_text": "When this creature enters, draw a card.\n{1}{U}: Target creature can't be blocked this turn. Activate only once each turn.",
             "flavor_text": "[i]\u201cI do not see the future. I see what mortals have hidden from others.\u201d[/i]",
             "pt": "1/1",
             "special_text": "",
@@ -525,7 +525,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Lexi Ash",
-            "notes": "August 21, 2025: Given new art and flavor text."
+            "notes": ""
         },
         {
             "card_name": "Enchanted Parasol",
@@ -643,7 +643,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Mlenart",
-            "notes": "Removed scry aspect, changed to Instant."
+            "notes": ""
         },
         {
             "card_name": "Hulldrifter",
@@ -689,7 +689,7 @@
             "number": 106,
             "color_identity": "B",
             "cost": "{2}{B}{B}",
-            "rules_text": "When this creature enters, mill two cards, then return up to one target creature card from your graveyard to your hand.",
+            "rules_text": "When this creature enters, mill two cards, then return up to one creature card from your graveyard to your hand.",
             "flavor_text": "[i]\u201cDo you feel lucky?\u201d[/i]",
             "pt": "2/2",
             "special_text": "",
@@ -751,7 +751,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Grafit Studio, nor Salamandra",
-            "notes": "Significantly reworked to no longer entomb."
+            "notes": ""
         },
         {
             "card_name": "Caelarian Shadowsprinter",
@@ -779,7 +779,7 @@
             "number": 114,
             "color_identity": "B",
             "cost": "{2}{B}",
-            "rules_text": "When this enters, create a 1/1 black Raven creature token with flying and the creature type Bird.\nWhenever a Bird you control dies, you may surveil 2.",
+            "rules_text": "When this enters, create a 1/1 black Bird creature token with flying.\nWhenever a Bird you control dies, you may surveil 2.",
             "flavor_text": "[i]Unlike some other planes, on Avallus birds were a human's best friend.[/i]",
             "pt": "2/1",
             "special_text": "",
@@ -787,7 +787,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Johan Grenier",
-            "notes": "changed to surveil on any bird dying, not just Ravens."
+            "notes": ""
         },
         {
             "card_name": "Burly Executioner",
@@ -823,7 +823,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Andrea Piparo",
-            "notes": "*Leaving as it is for now, but one to keep an eye on when playtesting."
+            "notes": ""
         },
         {
             "card_name": "Giant Rat",
@@ -841,7 +841,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Steve Ellis",
-            "notes": "Now an 8/8 from a 7/7."
+            "notes": ""
         },
         {
             "card_name": "Contemplative Crime Lord",
@@ -949,7 +949,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Angelina Andreas",
-            "notes": "August 17th, 2025: Removed or blocks from compulsion ability."
+            "notes": ""
         },
         {
             "card_name": "Umbral Teachings",
@@ -1054,7 +1054,7 @@
         {
             "card_name": "Sandstone Town Gunsmith",
             "color": "R",
-            "rarity": "common",
+            "rarity": "uncommon",
             "type": "Creature \u2014 Human Artificer Advisor",
             "number": 163,
             "color_identity": "R",
@@ -1067,7 +1067,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Grafit Studio",
-            "notes": "Old flavor text before equip remidner text added: \u201cDon't make me hurry now. You don't want your rifle jamming, not with those beasts out there...\u201d"
+            "notes": ""
         },
         {
             "card_name": "Needle Peak Phoenix",
@@ -1103,7 +1103,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Simone Torcasio",
-            "notes": "Changed from 2/1 to 1/1 base."
+            "notes": ""
         },
         {
             "card_name": "Deepvent Feeder",
@@ -1121,7 +1121,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Bryan Syme",
-            "notes": "August 14th, 2025: Changed number of counters put on from 'a' to 'that many'."
+            "notes": ""
         },
         {
             "card_name": "Cannonhauler Deckhand",
@@ -1229,7 +1229,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "cobaltplasma",
-            "notes": "Changed rummage to on enter instead of on death."
+            "notes": ""
         },
         {
             "card_name": "Aerial Bombardment",
@@ -1380,7 +1380,7 @@
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2014 Bear Sloth",
-            "number": 189,
+            "number": 190,
             "color_identity": "G",
             "cost": "{2}{G}{G}",
             "rules_text": "This creature can't crew Vehicles.\nSpells and abilities you control that target this creature cost {1} less to cast or activate.",
@@ -1396,9 +1396,9 @@
         {
             "card_name": "Highborn Sleuth",
             "color": "G",
-            "rarity": "uncommon",
+            "rarity": "common",
             "type": "Creature \u2014 Rabbit Detective",
-            "number": 193,
+            "number": 194,
             "color_identity": "G",
             "cost": "{G}",
             "rules_text": "Lifelink, vigilance\nWhen Highborn Sleuth enters, create a Map token. [i](It's an artifact with \u201c{1}, {T}, Sacrifice this artifact: Target creature you control explores. Activate only as a sorcery.\u201d)[/i]",
@@ -1416,7 +1416,7 @@
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2014 Beast",
-            "number": 190,
+            "number": 191,
             "color_identity": "G",
             "cost": "{1}{G}{G}",
             "rules_text": "{2}{G}: This creature gets +2/+2 until end of turn. Activate only once each turn as a sorcery.",
@@ -1434,7 +1434,7 @@
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2014 Rabbit Warrior",
-            "number": 191,
+            "number": 192,
             "color_identity": "WG",
             "cost": "{1}{G}{G}",
             "rules_text": "Reach\n{2}{W}: Put two +1/+1 counters on this creature. Activate only once and only as a sorcery.",
@@ -1452,7 +1452,7 @@
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2014 Cat",
-            "number": 204,
+            "number": 205,
             "color_identity": "G",
             "cost": "{1}{G}",
             "rules_text": "Whenever this creature explores, it gets +1/+1 until end of turn.",
@@ -1470,7 +1470,7 @@
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2014 Rabbit",
-            "number": 208,
+            "number": 209,
             "color_identity": "G",
             "cost": "{G}",
             "rules_text": "Kicker {G} [i](You may pay an additional {G} as you cast this spell.)[/i]\nWhen this creature enters, if it was kicked, create a token copy of it.",
@@ -1488,7 +1488,7 @@
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2014 Rabbit Soldier Archer",
-            "number": 174,
+            "number": 175,
             "color_identity": "G",
             "cost": "{3}{G}{G}",
             "rules_text": "Reach, vigilance\nWhenever this creature attacks or blocks, you may untap target basic land.",
@@ -1506,7 +1506,7 @@
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2014 Human Rogue Scout",
-            "number": 181,
+            "number": 182,
             "color_identity": "G",
             "cost": "{1}{G}",
             "rules_text": "When this creature enters, mill two cards.\nWhen this creature dies, you may return target land card from your graveyard to your hand.",
@@ -1517,14 +1517,14 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Wesley Gardner",
-            "notes": "August 14th, 2025: Removed cast qualifier."
+            "notes": ""
         },
         {
             "card_name": "Island Constrictor",
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2014 Snake Mutant",
-            "number": 194,
+            "number": 195,
             "color_identity": "G",
             "cost": "{6}{G}{G}",
             "rules_text": "Island Constrictor can't be blocked by creatures with power 1 or less.",
@@ -1542,7 +1542,7 @@
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2014 Human Druid Advisor",
-            "number": 175,
+            "number": 176,
             "color_identity": "G",
             "cost": "{1}{G}",
             "rules_text": "{T}: Add one mana of any color. Spend this mana only to cast permanent spells.\n{1}, {T}: Add two mana in any combination of colors. Spend this mana only to activate Boneborn abilities.",
@@ -1578,7 +1578,7 @@
             "color": "G",
             "rarity": "common",
             "type": "Enchantment",
-            "number": 178,
+            "number": 179,
             "color_identity": "G",
             "cost": "{2}{G}",
             "rules_text": "When this enchantment enters, destroy target artifact or enchantment.\nSacrifice this enchantment: Create a Map token. [i](It's an artifact with \u201c{1}, {T}, Sacrifice this artifact: Target creature you control explores. Activate only as a sorcery.\u201d)[/i]",
@@ -1596,7 +1596,7 @@
             "color": "G",
             "rarity": "uncommon",
             "type": "Sorcery",
-            "number": 203,
+            "number": 204,
             "color_identity": "G",
             "cost": "{2}{G}{G}",
             "rules_text": "Choose a permanent type. Each player returns all cards of the chosen type from their graveyard to their hand.",
@@ -1614,7 +1614,7 @@
             "color": "G",
             "rarity": "uncommon",
             "type": "Creature \u2014 Bear",
-            "number": 211,
+            "number": 212,
             "color_identity": "G",
             "cost": "{3}{G}{G}{G}",
             "rules_text": "Trample\nWhen this creature enters, it deals damage equal to its power to target creature.\nWhen this creature dies, put up to one land card from your graveyard onto the battlefield.",
@@ -1632,7 +1632,7 @@
             "color": "G",
             "rarity": "common",
             "type": "Instant",
-            "number": 200,
+            "number": 201,
             "color_identity": "G",
             "cost": "{1}{G}",
             "rules_text": "Target creature you control fights target creature you don't control.",
@@ -1650,7 +1650,7 @@
             "color": "G",
             "rarity": "common",
             "type": "Instant",
-            "number": 183,
+            "number": 184,
             "color_identity": "G",
             "cost": "{1}{G}",
             "rules_text": "Target creature gets +2/+2 and gains reach until end of turn.\nCombat damage that creature would deal this turn can't be prevented.",
@@ -1668,7 +1668,7 @@
             "color": "G",
             "rarity": "common",
             "type": "Instant",
-            "number": 214,
+            "number": 215,
             "color_identity": "G",
             "cost": "{1}{G}",
             "rules_text": "Target creature gains hexproof and indestructible until end of turn, then explores. [i](Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on that creature, then put the card back or put it into your graveyard.)[/i]",
@@ -1686,7 +1686,7 @@
             "color": "G",
             "rarity": "common",
             "type": "Sorcery",
-            "number": 209,
+            "number": 210,
             "color_identity": "G",
             "cost": "{2}{G}",
             "rules_text": "Search your library for a land card, reveal it and shuffle. If the revealed card is a basic land, put it onto the battlefield under your control. If it isn't, put it into your hand.",
@@ -1704,7 +1704,7 @@
             "color": "G",
             "rarity": "common",
             "type": "Kindred Artifact \u2014 Vehicle Plant",
-            "number": 185,
+            "number": 186,
             "color_identity": "G",
             "cost": "{1}{G}",
             "rules_text": "{T}: Untap target basic land. If this is a creature, you may untap target land instead.\nCrew 1 [i](Tap any number of creatures you control with total power 1 or more: This Vehicle Plant becomes an artifact creature until end of turn.)[/i]",
@@ -1715,14 +1715,14 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Afuchan",
-            "notes": "August 30th, 2025: Addred Kindred Plant types."
+            "notes": ""
         },
         {
             "card_name": "Julescan Heavy Strider",
             "color": "W",
             "rarity": "uncommon",
             "type": "Artifact Creature \u2014 Construct",
-            "number": 20,
+            "number": 19,
             "color_identity": "W",
             "cost": "{2}{W}{W}",
             "rules_text": "Defender\n{2}: This creature loses Defender and gains first strike and trample until end of turn. Activate only as a sorcery.",
@@ -1758,7 +1758,7 @@
             "color": "W",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Artificer",
-            "number": 6,
+            "number": 5,
             "color_identity": "W",
             "cost": "{1}{W}",
             "rules_text": "Whenever this creature becomes tapped, another target artifact you control gains indestructible until end of turn. If this creature is equipped, you may have this creature gain indestructible until end of turn instead.",
@@ -1797,14 +1797,14 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "Iana Venge",
-            "notes": "Changed enter trigger to up to."
+            "notes": ""
         },
         {
             "card_name": "Armor of Eternal Penance",
             "color": "W",
             "rarity": "uncommon",
             "type": "Artifact",
-            "number": 5,
+            "number": 4,
             "color_identity": "W",
             "cost": "{1}{W}{W}",
             "rules_text": "When this artifact enters and at the beginning of your upkeep, this artifact becomes a 3/3 Knight enchantment creature with flying in addition to its other types until end of turn.",
@@ -1833,14 +1833,14 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Grafit studio",
-            "notes": ""
+            "notes": "Revised October 23rd, 2025"
         },
         {
             "card_name": "Canopy-nest Griffin",
             "color": "W",
             "rarity": "uncommon",
             "type": "Creature \u2014 Griffin",
-            "number": 8,
+            "number": 7,
             "color_identity": "W",
             "cost": "{3}{W}",
             "rules_text": "Flying\nWhenever this creature becomes blocked, it gets +1/+1 until end of turn.",
@@ -1851,14 +1851,14 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Remy Gauvin",
-            "notes": "Removed reach qualifier from blocked pump ability."
+            "notes": ""
         },
         {
             "card_name": "In For Repairs",
             "color": "W",
             "rarity": "uncommon",
             "type": "Sorcery",
-            "number": 19,
+            "number": 18,
             "color_identity": "W",
             "cost": "{1}{W}",
             "rules_text": "Kicker {1}{W}\nReturn target artifact card with mana value 3 or less from your graveyard to the battlefield. If this spell was kicked, return target artifact card from your graveyard to the battlefield instead.",
@@ -1876,7 +1876,7 @@
             "color": "W",
             "rarity": "uncommon",
             "type": "Instant",
-            "number": 11,
+            "number": 10,
             "color_identity": "W",
             "cost": "{1}{W}{W}",
             "rules_text": "Choose one \u2014\n\u2022 Destroy target artifact or enchantment.\n\u2022 Destroy target creature with power 4 or greater.\nYou gain 2 life.",
@@ -1905,14 +1905,14 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "LordDoomhammer",
-            "notes": "August 30th: Changed from white to blue."
+            "notes": ""
         },
         {
             "card_name": "Can't Take the Sky From Me",
             "color": "W",
             "rarity": "uncommon",
             "type": "Enchantment",
-            "number": 9,
+            "number": 8,
             "color_identity": "W",
             "cost": "{1}{W}",
             "rules_text": "Creatures you control have \u201cThis creature crews Vehicles with flying and saddles Mounts with flying as if its power was 2 greater.\u201d\nCreatures and Vehicles you control with flying get +1/+0.",
@@ -1923,7 +1923,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Cristian Vasquez for Atomhawk",
-            "notes": "August 14th, 2025: Removed 'Nonartifact' qualifier from first ability."
+            "notes": ""
         },
         {
             "card_name": "Decorated Pilot",
@@ -1941,7 +1941,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Emanuel Dias",
-            "notes": "Changed scry to an untap on enter."
+            "notes": ""
         },
         {
             "card_name": "Liline Otothal",
@@ -1959,7 +1959,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Taras Susak (Altered tcg)",
-            "notes": "August 14th, 2025: removed toughess boost from first ability and made her a permanent 2/3."
+            "notes": ""
         },
         {
             "card_name": "Engineering Prodigy",
@@ -1995,7 +1995,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Dragolisco",
-            "notes": "August 17th, 2025: Removed surveil-on-death ability."
+            "notes": ""
         },
         {
             "card_name": "Current-rider Windmill",
@@ -2049,7 +2049,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Nick Keller",
-            "notes": "August 14th, 2025: Removed 'artifact' qualifier ."
+            "notes": ""
         },
         {
             "card_name": "Show Your Work",
@@ -2067,7 +2067,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Debora Paes",
-            "notes": "August 14th, 2025: Removed 'non-vehicle' qualifier."
+            "notes": ""
         },
         {
             "card_name": "Psionic Control Helm",
@@ -2103,7 +2103,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Kyxarie Peralta for Gunship Revolution",
-            "notes": "Removed ability to grab things in exile."
+            "notes": ""
         },
         {
             "card_name": "Turn Back the Clock",
@@ -2113,7 +2113,7 @@
             "number": 83,
             "color_identity": "U",
             "cost": "{U}{U}",
-            "rules_text": "Counter target spell unless its controller pays {X}, where X is that spell's mana value.\nExile this spell.",
+            "rules_text": "Counter target spell unless its controller pays {X}, where X is that spell's mana value.",
             "flavor_text": "[i]\u201cHave the bastards gotten to you too, Ysed?\u201d Allenord asked, stalling for time.\n\u201cI'm going to undo your madness, old man.\u201d[/i]",
             "pt": "",
             "special_text": "",
@@ -2139,7 +2139,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Huu Ha",
-            "notes": "Removed Ward and added Map reminder text."
+            "notes": ""
         },
         {
             "card_name": "Contract Killer",
@@ -2229,7 +2229,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Lukcs Street",
-            "notes": "Cost changed to 2mv."
+            "notes": ""
         },
         {
             "card_name": "Rising of a Tambly's Bones",
@@ -2247,7 +2247,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Istrandar",
-            "notes": "August 14th, 2025: Removed only as a sorcery qualifier."
+            "notes": ""
         },
         {
             "card_name": "Swamp Seer's Hut",
@@ -2321,7 +2321,7 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "sandara",
-            "notes": "change to up to one."
+            "notes": ""
         },
         {
             "card_name": "Savoran Razor Galleon",
@@ -2339,7 +2339,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "ChangYuan",
-            "notes": "On June 28, 2025, removed the Vehicle qualifier on enter/die ability of own volition."
+            "notes": ""
         },
         {
             "card_name": "Embittered Lavawing",
@@ -2357,7 +2357,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Robert Crescenzio",
-            "notes": "June 1st, reworded last ability to ensure it can't come back for free."
+            "notes": ""
         },
         {
             "card_name": "Distinguished Captain",
@@ -2447,7 +2447,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Karen Papazian",
-            "notes": "Revised May 7th, 2025 of own volition."
+            "notes": ""
         },
         {
             "card_name": "Clues to the Cataclysm",
@@ -2465,7 +2465,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "cobaltplasma",
-            "notes": "Revised April 30th, 2025 of own volition \u2014 Map token now enters untapped."
+            "notes": ""
         },
         {
             "card_name": "Sandscoured Bones",
@@ -2554,7 +2554,7 @@
             "color": "G",
             "rarity": "uncommon",
             "type": "Creature \u2014 Rabbit Scout Soldier",
-            "number": 182,
+            "number": 183,
             "color_identity": "G",
             "cost": "{1}{G}",
             "rules_text": "Whenever this creature attacks, you may pay {G}. If you do, it explores. [i](Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)[/i]",
@@ -2572,7 +2572,7 @@
             "color": "G",
             "rarity": "uncommon",
             "type": "Creature \u2014 Beast",
-            "number": 179,
+            "number": 180,
             "color_identity": "G",
             "cost": "{1}{G}{G}",
             "rules_text": "This creature's power is equal to the number of lands you control.",
@@ -2590,7 +2590,7 @@
             "color": "G",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Mercenary Scout",
-            "number": 207,
+            "number": 208,
             "color_identity": "G",
             "cost": "{1}{G}{G}",
             "rules_text": "Reach, trample, vigilance",
@@ -2608,7 +2608,7 @@
             "color": "G",
             "rarity": "uncommon",
             "type": "Creature \u2014 Rabbit Bard Warlock",
-            "number": 199,
+            "number": 200,
             "color_identity": "G",
             "cost": "{2}{G}",
             "rules_text": "When this creature enters, choose one \u2014\n\u2022 Return a permanent card from your graveyard to your hand.\n\u2022 Put a +1/+1 counter on up to one other target creature you control, then you gain 2 life.",
@@ -2619,14 +2619,14 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Sleepingfox",
-            "notes": "August 14th, 2025: Removed 'Nonartifact' qualifier from first ability."
+            "notes": ""
         },
         {
             "card_name": "Beast of the Blandon Savannah",
             "color": "G",
             "rarity": "uncommon",
             "type": "Creature \u2014 Beast Insect",
-            "number": 176,
+            "number": 177,
             "color_identity": "G",
             "cost": "{2}{G}{G}",
             "rules_text": "Reach\nWhenever this creature attacks, if a basic land entered under your control this turn, scry 1, then put a +1/+1 counter on this creature.",
@@ -2644,7 +2644,7 @@
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2014 Rabbit Advisor",
-            "number": 206,
+            "number": 207,
             "color_identity": "G",
             "cost": "{1}{G}",
             "rules_text": "When this creature enters, scry 2. If you control a Map, you may draw a card instead. [i](To scry 2, look at the top two cards of your library, then put any number of them on the bottom and the rest on top in any order.)[/i]",
@@ -2662,7 +2662,7 @@
             "color": "G",
             "rarity": "uncommon",
             "type": "Creature \u2014 Worm",
-            "number": 187,
+            "number": 188,
             "color_identity": "G",
             "cost": "{4}{G}{G}",
             "rules_text": "This spell costs {X} less to cast, where X is the number of creatures that died this turn.\nTrample\nWhen this creature enters, mill two cards and gain 2 life.",
@@ -2680,7 +2680,7 @@
             "color": "G",
             "rarity": "uncommon",
             "type": "Enchantment",
-            "number": 197,
+            "number": 198,
             "color_identity": "G",
             "cost": "{G}",
             "rules_text": "Whenever a creature you control explores, you may have another target creature explore.\n{1}{G}: Create a Map token. Activate only once each turn as a sorcery. [i](It's an artifact with \u201c{1}, {T}, Sacrifice this artifact: Target creature you control explores. Activate only as a sorcery.\u201d)[/i]",
@@ -2698,7 +2698,7 @@
             "color": "G",
             "rarity": "uncommon",
             "type": "Instant",
-            "number": 192,
+            "number": 193,
             "color_identity": "G",
             "cost": "{1}{G}",
             "rules_text": "Permanents you control gain hexproof and indestructible until end of turn.",
@@ -2716,7 +2716,7 @@
             "color": "G",
             "rarity": "uncommon",
             "type": "Instant",
-            "number": 201,
+            "number": 202,
             "color_identity": "G",
             "cost": "{2}{G}{G}",
             "rules_text": "This costs {X} less to cast, where X is the number of times a permanent you control explored this turn.\nLook at the top five cards of your library. You may reveal a creature and/or land card from among them and put them into your hand. Put the rest on the bottom of your library in any order.",
@@ -2727,14 +2727,14 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Armin Rangani",
-            "notes": "May 29, 2025. Redesigned."
+            "notes": ""
         },
         {
             "card_name": "Untested Elixir",
             "color": "G",
             "rarity": "uncommon",
             "type": "Sorcery",
-            "number": 212,
+            "number": 213,
             "color_identity": "G",
             "cost": "{1}{G}",
             "rules_text": "Choose target creature. That creature gains trample until end of turn. If that creature has power 5 or greater, put four +1/+1 counters on it. Otherwise, that creature gets +4/+4 until end of turn.",
@@ -2745,14 +2745,14 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Emanuel Dias",
-            "notes": "August 14th, 2025: Removed 'Nonartifact' qualifier from first ability."
+            "notes": ""
         },
         {
             "card_name": "Griffin Elder",
             "color": "W",
             "rarity": "rare",
             "type": "Creature \u2014 Griffin",
-            "number": 17,
+            "number": 16,
             "color_identity": "W",
             "cost": "{4}{W}{W}",
             "rules_text": "This spell costs {1} less to cast for each Griffin you control.\nFlying, trample, vigilance",
@@ -2770,7 +2770,7 @@
             "color": "W",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 Human Soldier",
-            "number": 10,
+            "number": 9,
             "color_identity": "W",
             "cost": "{3}{W}",
             "rules_text": "First strike, vigilance\nWhen Commandant Urscia enters, create a 1/1 black artifact Soldier creature token.\n{2}{W}, {T}, Sacrifice an artifact or creature: The next time damage would be dealt to target permanent this turn, prevent that damage.",
@@ -2781,7 +2781,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Chong Chee Kong \u2014 'twotonnetuna'",
-            "notes": "August 17th, 2025: Added mana cost to her activated ability.\nAugust 30th, 2025: Removed 'combat' restriction from the damage it can prevent."
+            "notes": ""
         },
         {
             "card_name": "Scion of the Hidden Burrow",
@@ -2799,7 +2799,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "deepnight",
-            "notes": "August 17, 2025: Removed Path from name. changed your upkeep to your beginning of combat. Raised cost of AA to 2 and restricted it to once each turn."
+            "notes": ""
         },
         {
             "card_name": "Retributive Bombardment",
@@ -2835,14 +2835,14 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Nick Keller",
-            "notes": "Aug 17, 2025: Removed counter-ping ability as a result of change to Ironclad, added first strike.\nAugust 30th, 2025: Added Kindred Soldier types."
+            "notes": ""
         },
         {
             "card_name": "Admiral's Guile",
             "color": "W",
             "rarity": "rare",
             "type": "Enchantment",
-            "number": 3,
+            "number": 2,
             "color_identity": "W",
             "cost": "{1}{W}{W}",
             "rules_text": "Whenever a creature you control attacks, you gain 1 life.\nAt the beginning of combat on your turn, untap all creatures you control.",
@@ -2853,7 +2853,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Kai Stevens",
-            "notes": "Changed first ability to only trigger on your creatures attacking."
+            "notes": ""
         },
         {
             "card_name": "Ivina, Society Archivist",
@@ -2907,7 +2907,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Ivanuss",
-            "notes": "August 14th, 2025: Changed ability to unlimited pump form."
+            "notes": ""
         },
         {
             "card_name": "Updraft Boneyard",
@@ -2989,7 +2989,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "YunaXD",
-            "notes": "August 9th, 2025: Lowed cost to 1U, and Removde cast qualifier and have each trigger scry and add a counter, and raised number of counters required to 8."
+            "notes": ""
         },
         {
             "card_name": "Dragonsoul Cabalist",
@@ -3007,7 +3007,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Chris Cold",
-            "notes": "August 28, 2025: Removed the must attack aspect of its ability."
+            "notes": ""
         },
         {
             "card_name": "Mr. Aldrand, Eternal Patron",
@@ -3017,7 +3017,7 @@
             "number": 107,
             "color_identity": "B",
             "cost": "{1}{B}",
-            "rules_text": "Ward\u2014Pay 2 life\nWhenever one or more creature cards leave or are put into your graveyard from anywhere, put that many charge counters on Mr. Aldrand. Then if there are twenty-five or more counters on him, you win the game.",
+            "rules_text": "Ward\u2014Pay 2 life\nWhenever one or more creature cards leave or are put into your graveyard from anywhere, put that many charge counters on Mr. Aldrand. Then if there are twenty or more counters on him, you win the game.",
             "flavor_text": "[i][/i]",
             "pt": "2/2",
             "special_text": "",
@@ -3025,7 +3025,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Travis Anderson",
-            "notes": "Revised May 28, 2025, after feedback in project channel."
+            "notes": "reduced to 20 to win, oct 29th, 2025."
         },
         {
             "card_name": "Shadow Path Exemplar",
@@ -3061,7 +3061,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "rx",
-            "notes": "August 30th, 2025: Revised activated ability for clarity."
+            "notes": ""
         },
         {
             "card_name": "Secrets of the Ruins",
@@ -3125,7 +3125,7 @@
             "number": 165,
             "color_identity": "R",
             "cost": "{2}{R}{R}",
-            "rules_text": "Flying\nIf this creature would die, exile it instead.\nYou may cast this from exile as long as you've cast a Phoenix spell this turn, or two or more artifacts were put into a graveyard from the battlefield this turn.",
+            "rules_text": "Flying\nIf this creature would die, exile it instead.\nYou may cast this from exile as long as you've cast a Phoenix spell this turn, or a nontoken artifact was put into a graveyard from the battlefield this turn.",
             "flavor_text": "[i][/i]",
             "pt": "4/4",
             "special_text": "",
@@ -3133,7 +3133,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Anna Podedworna",
-            "notes": "Removed haste."
+            "notes": "October 25th, 2025: Changed 'two artifacts' to 'a nontoken artifact'."
         },
         {
             "card_name": "Nola, Captain of the Mise",
@@ -3241,14 +3241,14 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Hendry Iwanaga",
-            "notes": "August 14th, 2025: Removed sorcery-speed restriction to the construct's mana ability."
+            "notes": ""
         },
         {
             "card_name": "Rechine Jungle Leaper",
             "color": "G",
             "rarity": "rare",
             "type": "Creature \u2014 Beast",
-            "number": 202,
+            "number": 203,
             "color_identity": "G",
             "cost": "{3}{G}{G}",
             "rules_text": "This spell can't be countered.\nHaste, ward {2}\nWhen this attacks, if you control another attacking creature with power 5 or greater, it gains trample until end of turn.",
@@ -3266,7 +3266,7 @@
             "color": "G",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 Rabbit Rogue",
-            "number": 195,
+            "number": 196,
             "color_identity": "BG",
             "cost": "{2}{G}",
             "rules_text": "Vigilance\nBoneborn {1}{B}{B}{G} [i]({1}{B}{B}{G}, Exile a creature card from your graveyard or sacrifice a creature: Transform this permanent. Activate only as a sorcery.)[/i]",
@@ -3287,17 +3287,17 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "Matt Forsyth",
-            "notes": "Sep 7, 2025: simplified front."
+            "notes": ""
         },
         {
             "card_name": "Denaw Goliath",
             "color": "G",
             "rarity": "rare",
             "type": "Creature \u2014 Rabbit Soldier Warrior",
-            "number": 180,
+            "number": 181,
             "color_identity": "G",
             "cost": "{1}{G}{G}",
-            "rules_text": "Trample, vigilance\nThis creature can't attack or block unless another Rabbit you control is attacking or blocking.",
+            "rules_text": "Trample, vigilance\nThis creature can't attack unless another Rabbit you control attacks at the same time.",
             "flavor_text": "[i]The Denaw Warren employed entire lineages of tough, strong warriors to weather allew attacks while comrades steadied aim with crossbows.[/i]",
             "pt": "5/5",
             "special_text": "",
@@ -3305,14 +3305,14 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "delowar",
-            "notes": ""
+            "notes": "Changed to be better, on October 26th, 2025."
         },
         {
             "card_name": "Salandrix, Lifespeaker",
             "color": "G",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 Dragon Noble",
-            "number": 205,
+            "number": 206,
             "color_identity": "G",
             "cost": "{6}{G}{G}",
             "rules_text": "This spell costs {X} less to cast, where X is the greatest power among creatures you control.\nFlying\nWhenever another nontoken creature you control enters, put a +1/+1 counter on it and draw a card.",
@@ -3330,7 +3330,7 @@
             "color": "G",
             "rarity": "rare",
             "type": "Enchantment",
-            "number": 186,
+            "number": 187,
             "color_identity": "G",
             "cost": "{1}{G}",
             "rules_text": "Whenever an opponent casts a noncreature spell, if it's not the first they've cast on their turn, you may have target creature or Vehicle explore.",
@@ -3341,17 +3341,17 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Ondrej Hrdina",
-            "notes": "Added noncreature qualifier."
+            "notes": ""
         },
         {
             "card_name": "Paleontological Revelations",
             "color": "G",
             "rarity": "rare",
             "type": "Sorcery",
-            "number": 198,
+            "number": 199,
             "color_identity": "G",
             "cost": "{2}{G}{G}",
-            "rules_text": "Choose any number of target cards in graveyards. Their owners shuffle them into their libraries.\nDraw two cards.\nWhen this card is put into your graveyard from your library, you may shuffle your graveyard into your library.",
+            "rules_text": "Choose any number of target cards in graveyards. Their owners shuffle them into their libraries. Then if at least one creature card was targeted this way, you draw two cards.\nWhen this card is put into your graveyard from your library, you may shuffle your graveyard into your library.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -3359,14 +3359,14 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "viergacht",
-            "notes": "\u201cMost curious...the last common ancestor of our species and the Arfyll seems to have been...an omnivore?\u201d\nSignificantly reworked August 25th, 2025."
+            "notes": "\u201cMost curious...the last common ancestor of our species and the Arfyll seems to have been...an omnivore?\u201d\nSignificantly reworked August 25th, 2025.\nMade to require a minimum of one creature card, september 9th, 2025."
         },
         {
             "card_name": "Gift of the Grove",
             "color": "G",
             "rarity": "rare",
             "type": "Sorcery",
-            "number": 188,
+            "number": 189,
             "color_identity": "G",
             "cost": "{3}{G}",
             "rules_text": "Search your library for a basic land card, put it onto the battlefield tapped, then shuffle. Then a creature you control gains trample and gets +X/+X until end of turn, where X is the greatest number of basic lands you control with the same name.",
@@ -3377,7 +3377,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "cobaltplasma",
-            "notes": "Changed to not target to pumped creature."
+            "notes": ""
         },
         {
             "card_name": "Warren League Admiral",
@@ -3395,7 +3395,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "AfdaTrihatma19",
-            "notes": "August 17th, 2025: Changed spell discounting ability to a token-generating ability."
+            "notes": ""
         },
         {
             "card_name": "Purifying Maze",
@@ -3431,7 +3431,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Xander Brown",
-            "notes": "Changed May 28, 2025."
+            "notes": ""
         },
         {
             "card_name": "Worldwalker Helm",
@@ -3513,7 +3513,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Dragolisco",
-            "notes": "August 27, 2025: After discussion with Silas on discord, changed 'can't attack or block' ability to simply Defender."
+            "notes": ""
         },
         {
             "card_name": "High Stakes Game",
@@ -3531,14 +3531,14 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Phoenix Park",
-            "notes": "Formerly 'Hot Hand', now significantly redesigned."
+            "notes": ""
         },
         {
             "card_name": "Mother of the Webbed City",
             "color": "G",
             "rarity": "mythic",
             "type": "Creature \u2014 Giant Mutant Spider",
-            "number": 196,
+            "number": 197,
             "color_identity": "G",
             "cost": "{3}{G}{G}{G}",
             "rules_text": "Reach, deathtouch\nWhenever this creature is dealt damage, create a 2/4 green Giant Spider creature token with reach.",
@@ -3556,10 +3556,10 @@
             "color": "G",
             "rarity": "mythic",
             "type": "Artifact \u2014 Fossil",
-            "number": 177,
+            "number": 178,
             "color_identity": "BG",
             "cost": "{3}{G}{G}",
-            "rules_text": "When this enters, destroy up to one target land and up to one creature with flying.\nBoneborn {2}{B} [i]({2}{B}, Exile a creature card from your graveyard or sacrifice a creature: Transform this permanent. Activate only as a sorcery.)[/i]",
+            "rules_text": "When this enters, destroy up to one target land and up to one target creature with flying.\nBoneborn {2}{B} [i]({2}{B}, Exile a creature card from your graveyard or sacrifice a creature: Transform this permanent. Activate only as a sorcery.)[/i]",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -3577,14 +3577,14 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "NegaNeura",
-            "notes": "Aug 30, 2025: Front enter ability changed to destroy a land and a flying dude."
+            "notes": "Oct. 26th, 2025: Added 'target' to enters the battlefield plummet effect."
         },
         {
             "card_name": "Mobile Base 31, Andren",
             "color": "WU",
             "rarity": "uncommon",
             "type": "Legendary Artifact Creature \u2014 Construct Wall",
-            "number": 225,
+            "number": 226,
             "color_identity": "WU",
             "cost": "{2}{W}{U}",
             "rules_text": "Flying, defender\nAt the beginning of your upkeep, choose one \u2014\n\u2022 Create a 1/1 white and blue Pilot Soldier creature token with \u201cThis creature crews Vehicles as though its power were 2 greater.\u201d\n\u2022 Target creature or Vehicle you control gains indestructible until end of turn.",
@@ -3602,7 +3602,7 @@
             "color": "UB",
             "rarity": "uncommon",
             "type": "Enchantment",
-            "number": 227,
+            "number": 228,
             "color_identity": "UB",
             "cost": "{U}{B}",
             "rules_text": "{U}{B}: Until end of turn, target creature can't be blocked by creatures with greater power.\n{U}{B}: The next instant or sorcery spell you cast this turn has boarding. [i](If that spell is cast from your hand, exile it as it resolves. Cast it on any turn a creature you control dealt combat damage to an opponent.)[/i]",
@@ -3620,7 +3620,7 @@
             "color": "BR",
             "rarity": "uncommon",
             "type": "Legendary Creature \u2014 Human Pirate Noble",
-            "number": 236,
+            "number": 237,
             "color_identity": "BR",
             "cost": "{2}{B}{R}",
             "rules_text": "Other Pirate creatures you control get +1/+0 and have haste.\nSacrifice another creature: Sfarzia, Pirate Queen deals 1 damage to any target. Activate only once each turn as a sorcery.",
@@ -3638,7 +3638,7 @@
             "color": "RG",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Warlock",
-            "number": 245,
+            "number": 246,
             "color_identity": "RG",
             "cost": "{1}{R}{G}",
             "rules_text": "Creature spells you cast with power 5 or greater cost {1} less to cast.\nCreatures you control have trample.\nCreatures you control with power 5 or greater have reach.",
@@ -3649,14 +3649,14 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Sam Perin",
-            "notes": "July 2nd, 2025: Raised cost by 1, after processing feedback from Field Test.\nAugust 18th, 2025: Now gives your creatures with pow5+ reach all the time."
+            "notes": ""
         },
         {
             "card_name": "Warren League General",
             "color": "WG",
             "rarity": "uncommon",
             "type": "Creature \u2014 Rabbit Noble Soldier",
-            "number": 243,
+            "number": 244,
             "color_identity": "WG",
             "cost": "{1}{G}{W}",
             "rules_text": "First strike\nOther creatures you control that share a creature type with this creature get +1/+1.\nWhenever you cast a white or green spell, if only mana produced by basic lands was used to cast it, you gain 1 life, then scry 1.",
@@ -3674,7 +3674,7 @@
             "color": "WB",
             "rarity": "uncommon",
             "type": "Enchantment",
-            "number": 224,
+            "number": 225,
             "color_identity": "WB",
             "cost": "{W}{B}",
             "rules_text": "Whenever you attack or block with two or more creatures, and at least one of those creatures is a permanent type another isn't, draw a card.\nDiscard a card or pay 3 life: Target permanent gains vigilance until end of turn.",
@@ -3692,7 +3692,7 @@
             "color": "UR",
             "rarity": "uncommon",
             "type": "Creature \u2014 Rabbit Artificer",
-            "number": 231,
+            "number": 232,
             "color_identity": "UR",
             "cost": "{U}{R}",
             "rules_text": "{1}, {T}: Add two mana of any color. Spend this only to cast artifact spells or activate abilities of artifacts.\n{2}, {T}, Sacrifice a nontoken artifact: Draw a card.",
@@ -3710,7 +3710,7 @@
             "color": "BG",
             "rarity": "uncommon",
             "type": "Legendary Creature \u2014 Human Wizard",
-            "number": 221,
+            "number": 222,
             "color_identity": "BG",
             "cost": "{1}{B}{G}",
             "rules_text": "At the beginning of your end step, mill two cards. Then if a creature died this turn, create a 1/1 black Skeleton creature token.\n{3}{B}{G}, {T}, Sacrifice another creature: Return target permanent card from your graveyard to the battlefield tapped. Activate only as a sorcery.",
@@ -3728,7 +3728,7 @@
             "color": "WR",
             "rarity": "uncommon",
             "type": "Legendary Creature \u2014 Phoenix",
-            "number": 239,
+            "number": 240,
             "color_identity": "WR",
             "cost": "{2}{R}{W}",
             "rules_text": "Flying\nOther nonartifact creatures you control with flying get +1/+1 and have haste.\nWhenever another Phoenix you control dies, you may pay {2}{R}{W}. If you do, return Sunscatter from your graveyard to the battlefield tapped.",
@@ -3746,7 +3746,7 @@
             "color": "UG",
             "rarity": "uncommon",
             "type": "Artifact \u2014 Vehicle",
-            "number": 223,
+            "number": 224,
             "color_identity": "UG",
             "cost": "{1}{G}{U}",
             "rules_text": "Flying, haste\n{1}, Sacrifice a Map: Target permanent gains hexproof until end of turn.\nCrew 1",
@@ -3764,7 +3764,7 @@
             "color": "WU",
             "rarity": "rare",
             "type": "Artifact \u2014 Vehicle",
-            "number": 222,
+            "number": 223,
             "color_identity": "WU",
             "cost": "{1}{W}{U}",
             "rules_text": "Flying, vigilance\nWhen this Vehicle enters, create a 1/1 white and blue Pilot Soldier creature token with \u201cThis creature crews Vehicles as if its power were 2 greater.\u201d\nCrew 5",
@@ -3782,7 +3782,7 @@
             "color": "UB",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 Zombie",
-            "number": 216,
+            "number": 217,
             "color_identity": "UB",
             "cost": "{1}{U}{B}",
             "rules_text": "Whenever a Zombie enters under your control, or a permanent you control transforms into a Zombie, you may draw a card. If you do and you have more than 10 life, discard a card.\nPay 3 life or sacrifice a Zombie: Target creature can't be blocked until end of turn.",
@@ -3800,7 +3800,7 @@
             "color": "BR",
             "rarity": "rare",
             "type": "Sorcery",
-            "number": 242,
+            "number": 243,
             "color_identity": "BR",
             "cost": "{4}{B}{R}",
             "rules_text": "This spell costs {2} less to cast if it targets a permanent whose controller was dealt combat damage by a Pirate this turn.\nUntap target creature or Vehicle and gain control of it.",
@@ -3818,7 +3818,7 @@
             "color": "RG",
             "rarity": "rare",
             "type": "Creature \u2014 Cat Dog Boar",
-            "number": 229,
+            "number": 230,
             "color_identity": "RG",
             "cost": "{4}{R}{G}",
             "rules_text": "Defender, haste, menace, trample\n{R}{G}: Choose one \u2014\n\u2022 This creature fights target creature you don't control.\n\u2022 Until end of turn, this loses defender and gets +2/+2.\nActivate only once each turn as a sorcery.",
@@ -3836,7 +3836,7 @@
             "color": "WG",
             "rarity": "rare",
             "type": "Sorcery",
-            "number": 220,
+            "number": 221,
             "color_identity": "WG",
             "cost": "{1}{G}{W}",
             "rules_text": "Search your library for a creature or land card, reveal it and put it into your hand, then shuffle. \nGain 3 life, then exile this spell.",
@@ -3854,7 +3854,7 @@
             "color": "WB",
             "rarity": "rare",
             "type": "Sorcery",
-            "number": 232,
+            "number": 233,
             "color_identity": "WB",
             "cost": "{2}{W}{B}",
             "rules_text": "Choose a tapped creature with power 3 or less, then destroy all other creatures.",
@@ -3872,7 +3872,7 @@
             "color": "UR",
             "rarity": "rare",
             "type": "Enchantment",
-            "number": 238,
+            "number": 239,
             "color_identity": "UR",
             "cost": "{U}{R}",
             "rules_text": "At the beginning of combat on your turn, up to one target creature gains haste and gets +X/+0 until end of turn, where X is the number of artifacts you control.\nAt the beginning of your end step, create a Map token. [i](It's an artifact with \u201c{1}, {T}, Sacrifice this artifact: Target creature you control explores. Activate only as a sorcery.\u201d)[/i]",
@@ -3890,7 +3890,7 @@
             "color": "BG",
             "rarity": "rare",
             "type": "Instant",
-            "number": 230,
+            "number": 231,
             "color_identity": "BG",
             "cost": "{2}{B}{G}",
             "rules_text": "Destroy target artifact, creature or planeswalker. If it's destroyed this way, you may pay {1}{B} and exile a creature card from your graveyard. If you do, put the card destroyed this way onto the battlefield under your control.",
@@ -3908,7 +3908,7 @@
             "color": "WR",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 Human Rogue",
-            "number": 246,
+            "number": 247,
             "color_identity": "WR",
             "cost": "{1}{R}{W}",
             "rules_text": "When Yolaira, Linkmistress enters, search your library for a creature card with flying, reveal it and put it into your hand, then shuffle.\nVigilance, haste\n{1}: Target creature you control with flying gains Yolaira's abilities until end of turn.",
@@ -3919,14 +3919,14 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Ann Gillette",
-            "notes": "Reworked August 25th, 2025"
+            "notes": ""
         },
         {
             "card_name": "Bronson Celac",
             "color": "UG",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 Human Noble Scout",
-            "number": 217,
+            "number": 218,
             "color_identity": "UG",
             "cost": "{3}{G}{U}",
             "rules_text": "Ward {2}, reach\nWhenever Bronson attacks, create a tapped Map token.\nWhenever a creature you control explores, you may pay {G}. If you do, put a +1/+1 counter on a creature other than the one that explored.",
@@ -3944,7 +3944,7 @@
             "color": "",
             "rarity": "common",
             "type": "Artifact \u2014 Vehicle",
-            "number": 250,
+            "number": 251,
             "color_identity": "C",
             "cost": "{2}",
             "rules_text": "Flying\nWhen Filigree Propskiff enters, create a tapped Treasure token.\nCrew 1 [i](Tap any number of creatures you control with total power 1 or more: This Vehicle becomes an artifact creature until end of turn.)[/i]",
@@ -3962,7 +3962,7 @@
             "color": "",
             "rarity": "common",
             "type": "Artifact \u2014 Vehicle",
-            "number": 252,
+            "number": 253,
             "color_identity": "C",
             "cost": "{3}",
             "rules_text": "Flying\nWhenever a creature crews this vehicle, that creature gains ward {2} until the beginning of your next turn.\nCrew 3 [i](Tap any number of creatures you control with total power 3 or more: This Vehicle becomes an artifact creature until end of turn.)[/i]",
@@ -3980,7 +3980,7 @@
             "color": "",
             "rarity": "common",
             "type": "Artifact \u2014 Equipment",
-            "number": 257,
+            "number": 258,
             "color_identity": "C",
             "cost": "{3}",
             "rules_text": "Equipped creature gets +3/+1.\nEquip {2}",
@@ -3998,10 +3998,10 @@
             "color": "",
             "rarity": "common",
             "type": "Artifact",
-            "number": 247,
-            "color_identity": "W",
+            "number": 248,
+            "color_identity": "C",
             "cost": "{3}",
-            "rules_text": "{T}: Add one mana of any color. If mana produced this way is spent to cast a Griffin spell, that spell can't be countered.\n{1}{W}, {T}, Sacrifice this artifact: Target creature gains vigilance until end of turn.",
+            "rules_text": "{T}: Add one mana of any color. If mana produced this way is spent to cast a Griffin spell, that spell can't be countered.\n{1}, {T}, Sacrifice this artifact: Put a +1/+1 counter on target creature with flying. Activate only as a sorcery.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -4016,7 +4016,7 @@
             "color": "",
             "rarity": "common",
             "type": "Artifact Creature \u2014 Construct Rat",
-            "number": 249,
+            "number": 250,
             "color_identity": "C",
             "cost": "{1}",
             "rules_text": "This creature enters the battlefield with a +1/+1 counter on it. \nWhen this creature dies, you may put its counters on target artifact or creature.",
@@ -4034,7 +4034,7 @@
             "color": "",
             "rarity": "uncommon",
             "type": "Artifact",
-            "number": 248,
+            "number": 249,
             "color_identity": "C",
             "cost": "{4}",
             "rules_text": "When this artifact enters, draw a card.\n{1}, {T}: Create a tapped Map token. [i](It's an artifact with \u201c{1}, {T}, Sacrifice this artifact: Target creature you control explores. Activate only as a sorcery.\u201d)[/i]",
@@ -4045,14 +4045,14 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Ondrej Hrdina",
-            "notes": "August 17th: Changed cost of aa to 1 and tap, and changed scry to draw for on enter ability."
+            "notes": ""
         },
         {
             "card_name": "Mausoleum of Deities",
             "color": "",
             "rarity": "uncommon",
             "type": "Artifact",
-            "number": 255,
+            "number": 256,
             "color_identity": "C",
             "cost": "{3}",
             "rules_text": "When this artifact enters, you lose 1 life, then surveil 2.\nAt the beginning of your upkeep, you may sacrifice a creature, discard a card, or mill two cards. If you do, create a Treasure token.",
@@ -4063,14 +4063,14 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Ondrej Hrdina",
-            "notes": "August 17th: Changed scry to surveil, and made the treasure enter untapped.\nAugust 18th: Changed cost to 3."
+            "notes": ""
         },
         {
             "card_name": "Tiazan Freighter",
             "color": "",
             "rarity": "uncommon",
             "type": "Artifact \u2014 Vehicle",
-            "number": 258,
+            "number": 259,
             "color_identity": "C",
             "cost": "{4}",
             "rules_text": "Ironclad {1} [i](You may pay an additional {1} to cast this spell. If you do, it's a creature in addition to its other types.)[/i]\nFlying, haste\nWhenever this attacks, you may untap target land.\nCrew 2",
@@ -4088,7 +4088,7 @@
             "color": "",
             "rarity": "uncommon",
             "type": "Artifact \u2014 Equipment",
-            "number": 253,
+            "number": 254,
             "color_identity": "C",
             "cost": "{3}",
             "rules_text": "Whenever equipped creature attacks, create a Treasure token, then you may sacrifice an artifact. If you do, choose one \u2014\n\u2022 Draw a card.\n\u2022 Iron Savior Suit deals X damage to target permanent, where X is 1 plus the mana value of the sacrificed artifact.\nEquip {2}",
@@ -4106,7 +4106,7 @@
             "color": "",
             "rarity": "common",
             "type": "Land",
-            "number": 259,
+            "number": 260,
             "color_identity": "C",
             "cost": "",
             "rules_text": "{T}: Add {C}.\n{4}, {T}, Sacrifice Abandoned Dock: Return target Vehicle card or artifact creature card from your graveyard to your hand.",
@@ -4124,7 +4124,7 @@
             "color": "",
             "rarity": "common",
             "type": "Land",
-            "number": 263,
+            "number": 264,
             "color_identity": "UR",
             "cost": "",
             "rules_text": "This land enters tapped.\n{T}: Add {U} or {R}.\n{T}, Sacrifice this land: Create a Map token. Activate only as a sorcery. [i](It's an artifact with \u201c{1}, {T}, Sacrifice this artifact: Target creature you control explores. Activate only as a sorcery.\u201d)[/i]",
@@ -4142,7 +4142,7 @@
             "color": "",
             "rarity": "common",
             "type": "Land",
-            "number": 260,
+            "number": 261,
             "color_identity": "WB",
             "cost": "",
             "rules_text": "This land enters tapped.\n{T}: Add {W} or {B}.\n{T}, Sacrifice this land: Create a Map token. Activate only as a sorcery. [i](It's an artifact with \u201c{1}, {T}, Sacrifice this artifact: Target creature you control explores. Activate only as a sorcery.\u201d)[/i]",
@@ -4160,7 +4160,7 @@
             "color": "",
             "rarity": "common",
             "type": "Land",
-            "number": 272,
+            "number": 273,
             "color_identity": "WG",
             "cost": "",
             "rules_text": "This land enters tapped.\n{T}: Add {W} or {G}.\n{T}, Sacrifice this land: Create a Map token. Activate only as a sorcery. [i](It's an artifact with \u201c{1}, {T}, Sacrifice this artifact: Target creature you control explores. Activate only as a sorcery.\u201d)[/i]",
@@ -4178,7 +4178,7 @@
             "color": "",
             "rarity": "common",
             "type": "Land",
-            "number": 268,
+            "number": 269,
             "color_identity": "WR",
             "cost": "",
             "rules_text": "This land enters tapped.\n{T}: Add {W} or {R}.\n{T}, Sacrifice this land: Create a Map token. Activate only as a sorcery. [i](It's an artifact with \u201c{1}, {T}, Sacrifice this artifact: Target creature you control explores. Activate only as a sorcery.\u201d)[/i]",
@@ -4196,7 +4196,7 @@
             "color": "",
             "rarity": "common",
             "type": "Land",
-            "number": 269,
+            "number": 270,
             "color_identity": "UB",
             "cost": "",
             "rules_text": "This land enters tapped.\n{T}: Add {U} or {B}.\n{T}, Sacrifice this land: Create a Map token. Activate only as a sorcery. [i](It's an artifact with \u201c{1}, {T}, Sacrifice this artifact: Target creature you control explores. Activate only as a sorcery.\u201d)[/i]",
@@ -4229,28 +4229,28 @@
         },
         {
             "card_name": "Lemaugean Barded Drabant",
-            "color": "",
+            "color": "W",
             "rarity": "uncommon",
-            "type": "Creature \u2014 Horse Mount",
-            "number": 1,
-            "color_identity": "C",
-            "cost": "{3}",
-            "rules_text": "Whenever this attacks while saddled, untap each creature that saddled it this turn.\nSaddle 2 [i](Tap any number of other creatures you control with total power 2 or more: This Mount becomes saddled until end of turn. Saddle only as a sorcery.)[/i]",
-            "flavor_text": "[i][/i]",
+            "type": "Creature \u2014 Horse",
+            "number": 22,
+            "color_identity": "W",
+            "cost": "{2}{W}",
+            "rules_text": "Whenever this creature attacks, another target creature you control with power less than or equal to this creature's power gains indestructible until end of turn.",
+            "flavor_text": "[i]A well-armored rider needs a well-armored mount, and vice-versa.[/i]",
             "pt": "2/4",
             "special_text": "",
             "shape": "normal",
             "set": "AVA",
             "loyalty": "",
             "artist": "Mariusz Gandzel",
-            "notes": "August 14th, 2025: Removed vehicle disqualifier."
+            "notes": "SIGNIFICANTLY revised october 26th, 2025."
         },
         {
             "card_name": "Settlement Over Tea",
             "color": "WB",
             "rarity": "uncommon",
             "type": "Sorcery",
-            "number": 235,
+            "number": 236,
             "color_identity": "WB",
             "cost": "{2}{W}{B}",
             "rules_text": "Each opponent skips their next combat phase.\nEach opponent sacrifices a noncreature, nonland permanent, then discards a card.\nExile Settlement Over Tea.",
@@ -4268,7 +4268,7 @@
             "color": "",
             "rarity": "uncommon",
             "type": "Land",
-            "number": 264,
+            "number": 265,
             "color_identity": "C",
             "cost": "",
             "rules_text": "{T}: Add {C}.\n{2}, {T}, Sacrifice this: Destroy target nonbasic land an opponent controls. That land's controller may search their library for a basic land card, put it onto the battlefield, then shuffle. You may search your library for a basic land card, put it onto the battlefield, then shuffle.",
@@ -4286,7 +4286,7 @@
             "color": "",
             "rarity": "rare",
             "type": "Legendary Land",
-            "number": 261,
+            "number": 262,
             "color_identity": "WG",
             "cost": "",
             "rules_text": "{T}: Add {C}.\n{X}{GW}, {T}, Sacrifice this land: Choose one. Activate only as a sorcery.\n\u2022 Exile X target players' graveyards.\n\u2022 Exile target artifact or enchantment with mana value X.",
@@ -4304,7 +4304,7 @@
             "color": "",
             "rarity": "rare",
             "type": "Legendary Land",
-            "number": 265,
+            "number": 266,
             "color_identity": "C",
             "cost": "",
             "rules_text": "{T}: Add {C}.\n{T}: Add one mana of any color. Activate only if you control a creature or Vehicle with flying.",
@@ -4355,9 +4355,9 @@
             "color2": "B",
             "type2": "Creature \u2014 Dragon Zombie",
             "cost2": "",
-            "rules_text2": "Flying\nWhen this permanent transforms into Infernal Contemptor, put six +1/+1 counters on it.\nWhenever damage would be dealt to this creature, prevent that damage, remove a counter from this creature, then this creature deals 1 damage to any other target.",
+            "rules_text2": "Flying\nAs this transforms into Infernal Contemptor, put six +1/+1 counters on it.\nWhenever damage would be dealt to this creature, prevent that damage, remove a counter from this creature, then this creature deals 1 damage to each opponent.",
             "flavor_text2": "[i][/i]",
-            "pt2": "0/1",
+            "pt2": "0/0",
             "special_text2": "",
             "loyalty2": "",
             "artist2": "oustins",
@@ -4368,7 +4368,7 @@
             "color": "G",
             "rarity": "uncommon",
             "type": "Creature \u2014 Wolf",
-            "number": 184,
+            "number": 185,
             "color_identity": "G",
             "cost": "{G}",
             "rules_text": "If an effect would put one or more counters on this creature, you may have it put twice that many of those counters instead.\nPrevent all damage that would be dealt to this creature by artifact and/or enchantment creatures.",
@@ -4397,7 +4397,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Sergio Villa Isaza",
-            "notes": "Removed necessity of another rabbit for last ability."
+            "notes": ""
         },
         {
             "card_name": "Coming In for a Landing",
@@ -4422,7 +4422,7 @@
             "color": "G",
             "rarity": "uncommon",
             "type": "Artifact \u2014 Vehicle",
-            "number": 213,
+            "number": 214,
             "color_identity": "G",
             "cost": "{3}{G}",
             "rules_text": "Trample, haste\nWhenever this Vehicle deals combat damage to a battle, opponent or planeswalker, you may search your library for a basic land card, put that card onto the battlefield tapped, then shuffle.\nCrew 3",
@@ -4458,7 +4458,7 @@
             "color": "",
             "rarity": "mythic",
             "type": "Legendary Artifact",
-            "number": 256,
+            "number": 257,
             "color_identity": "C",
             "cost": "{3}",
             "rules_text": "During your turn, this has indestructible.\n{T}: Add one mana of any color.\nExile this permanent and five Maps: Shuffle your hand and graveyard into your library, then draw seven cards.",
@@ -4494,7 +4494,7 @@
             "color": "WUBRG",
             "rarity": "mythic",
             "type": "Legendary Creature \u2014 Human Pirate Rogue",
-            "number": 215,
+            "number": 216,
             "color_identity": "WUBRG",
             "cost": "{W}{U}{B}{R}{G}",
             "rules_text": "Trample, lifelink, hexproof from monocolored\nAt the beginning of each opponent's upkeep, that player reveals their hand. You may pay 3 life. If you do, you may cast a spell from that player's hand without paying its cost. Then that player draws a card.",
@@ -4512,7 +4512,7 @@
             "color": "",
             "rarity": "mythic",
             "type": "Artifact",
-            "number": 251,
+            "number": 252,
             "color_identity": "B",
             "cost": "{4}",
             "rules_text": "When this artifact enters, create a 2/2 colorless Dragon Spirit creature token with flying.\nBoneborn {3}{B} [i]({3}{B}, Exile a creature card from your graveyard or sacrifice a creature: Transform this permanent. Activate only as a sorcery.)[/i]",
@@ -4540,7 +4540,7 @@
             "color": "UB",
             "rarity": "mythic",
             "type": "Legendary Artifact \u2014 Fossil",
-            "number": 226,
+            "number": 227,
             "color_identity": "UBR",
             "cost": "{2}{U}{B}",
             "rules_text": "When this enters, surveil 3, then draw two cards and lose 2 life.\nBoneborn {2}{U}{B}{R} [i]({2}{U}{B}{R}, Exile a creature card from your graveyard or sacrifice a creature: Transform this permanent. Activate only as a sorcery.)[/i]",
@@ -4568,7 +4568,7 @@
             "color": "UB",
             "rarity": "uncommon",
             "type": "Instant",
-            "number": 241,
+            "number": 242,
             "color_identity": "UB",
             "cost": "{1}{U}{B}",
             "rules_text": "This spell can't be countered.\nDestroy target creature or planeswalker.\nBoarding [i](Then if this spell was cast from your hand, exile it as it resolves. Cast it on any turn a creature you control dealt combat damage to an opponent.)[/i]",
@@ -4586,7 +4586,7 @@
             "color": "BR",
             "rarity": "uncommon",
             "type": "Instant",
-            "number": 219,
+            "number": 220,
             "color_identity": "BR",
             "cost": "{1}{B}{R}",
             "rules_text": "This deals 4 damage to target permanent you don't control.\nDraw a card, then discard a card. If you cast this spell on your turn, instead draw a card, then each player discards a card.",
@@ -4604,7 +4604,7 @@
             "color": "RG",
             "rarity": "uncommon",
             "type": "Instant",
-            "number": 240,
+            "number": 241,
             "color_identity": "RG",
             "cost": "{R}{G}",
             "rules_text": "Target creature gets +2/+1 and gains hexproof, indestructible and trample until end of turn.",
@@ -4615,14 +4615,14 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Vimes Art",
-            "notes": "August 14th, 2025: Changed first strike to trample."
+            "notes": ""
         },
         {
             "card_name": "Warren League Lieutenant",
             "color": "WG",
             "rarity": "uncommon",
             "type": "Creature \u2014 Rabbit Soldier",
-            "number": 244,
+            "number": 245,
             "color_identity": "WG",
             "cost": "{1}{G}{W}",
             "rules_text": "At the beginning of combat on your turn, choose one \u2014\n\u2022 Target creature gains lifelink until end of turn.\n\u2022 Target creature gets +1/+1 until end of turn.\n\u2022 Target creature explores. [i](Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)[/i]",
@@ -4640,7 +4640,7 @@
             "color": "WU",
             "rarity": "uncommon",
             "type": "Enchantment \u2014 Aura",
-            "number": 234,
+            "number": 235,
             "color_identity": "WU",
             "cost": "{W}{U}",
             "rules_text": "Enchant creature or Vehicle\nFlash [i](You may cast this spell any time you could cast an instant.)[/i]\nEnchanted permanent can't attack or block, and can't be sacrificed.",
@@ -4658,7 +4658,7 @@
             "color": "BG",
             "rarity": "uncommon",
             "type": "Creature \u2014 Zombie",
-            "number": 237,
+            "number": 238,
             "color_identity": "BG",
             "cost": "{1}{B}{G}",
             "rules_text": "When this creature enters, create a 2/2 black Zombie creature token.",
@@ -4676,7 +4676,7 @@
             "color": "UR",
             "rarity": "uncommon",
             "type": "Sorcery",
-            "number": 233,
+            "number": 234,
             "color_identity": "UR",
             "cost": "{U}{R}",
             "rules_text": "Look at the top X cards of your library, where X is 1 plus the number of artifacts you control. Put one of them into your hand and the rest on top of your library in any order.",
@@ -4694,7 +4694,7 @@
             "color": "WR",
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Mercenary Warrior",
-            "number": 228,
+            "number": 229,
             "color_identity": "WR",
             "cost": "{R}{W}",
             "rules_text": "First strike\nIf this creature would deal combat damage to an artifact creature or battle, it deals double that damage instead.",
@@ -4712,7 +4712,7 @@
             "color": "UG",
             "rarity": "uncommon",
             "type": "Instant",
-            "number": 218,
+            "number": 219,
             "color_identity": "UG",
             "cost": "{G}{U}",
             "rules_text": "Choose one \u2014\n\u2022 Counter target noncreature, non-Vehicle spell unless its controller pays {2}. Put a +1/+1 counter on a creature you control.\n\u2022 Target creature gains flying and hexproof until end of turn. Untap it.",
@@ -4730,7 +4730,7 @@
             "color": "",
             "rarity": "uncommon",
             "type": "Artifact \u2014 Vehicle",
-            "number": 254,
+            "number": 255,
             "color_identity": "C",
             "cost": "{4}",
             "rules_text": "Ironclad {2} [i](You may pay an additional {2} to cast this spell. If you do, it's a creature in addition to its other types.)[/i]\nFlying\nCrew 3",
@@ -4748,7 +4748,7 @@
             "color": "",
             "rarity": "common",
             "type": "Basic Land \u2014 Plains",
-            "number": 273,
+            "number": 274,
             "color_identity": "W",
             "cost": "",
             "rules_text": "",
@@ -4766,7 +4766,7 @@
             "color": "",
             "rarity": "common",
             "type": "Basic Land \u2014 Island",
-            "number": 274,
+            "number": 275,
             "color_identity": "U",
             "cost": "",
             "rules_text": "",
@@ -4784,7 +4784,7 @@
             "color": "",
             "rarity": "common",
             "type": "Basic Land \u2014 Swamp",
-            "number": 275,
+            "number": 276,
             "color_identity": "B",
             "cost": "",
             "rules_text": "",
@@ -4802,7 +4802,7 @@
             "color": "",
             "rarity": "common",
             "type": "Basic Land \u2014 Mountain",
-            "number": 276,
+            "number": 277,
             "color_identity": "R",
             "cost": "",
             "rules_text": "",
@@ -4820,7 +4820,7 @@
             "color": "",
             "rarity": "common",
             "type": "Basic Land \u2014 Forest",
-            "number": 277,
+            "number": 278,
             "color_identity": "G",
             "cost": "",
             "rules_text": "",
@@ -4838,7 +4838,7 @@
             "color": "",
             "rarity": "common",
             "type": "Land",
-            "number": 267,
+            "number": 268,
             "color_identity": "BR",
             "cost": "",
             "rules_text": "This land enters tapped.\n{T}: Add {B} or {R}.\n{T}, Sacrifice this land: Create a Map token. Activate only as a sorcery. [i](It's an artifact with \u201c{1}, {T}, Sacrifice this artifact: Target creature you control explores. Activate only as a sorcery.\u201d)[/i]",
@@ -4856,7 +4856,7 @@
             "color": "",
             "rarity": "common",
             "type": "Land",
-            "number": 262,
+            "number": 263,
             "color_identity": "BG",
             "cost": "",
             "rules_text": "This land enters tapped.\n{T}: Add {B} or {G}.\n{T}, Sacrifice this land: Create a Map token. Activate only as a sorcery. [i](It's an artifact with \u201c{1}, {T}, Sacrifice this artifact: Target creature you control explores. Activate only as a sorcery.\u201d)[/i]",
@@ -4874,7 +4874,7 @@
             "color": "",
             "rarity": "common",
             "type": "Land",
-            "number": 270,
+            "number": 271,
             "color_identity": "UG",
             "cost": "",
             "rules_text": "This land enters tapped.\n{T}: Add {U} or {G}.\n{T}, Sacrifice this land: Create a Map token. Activate only as a sorcery. [i](It's an artifact with \u201c{1}, {T}, Sacrifice this artifact: Target creature you control explores. Activate only as a sorcery.\u201d)[/i]",
@@ -4892,7 +4892,7 @@
             "color": "",
             "rarity": "common",
             "type": "Land",
-            "number": 271,
+            "number": 272,
             "color_identity": "RG",
             "cost": "",
             "rules_text": "This land enters tapped.\n{T}: Add {G} or {R}.\n{T}, Sacrifice this land: Create a Map token. Activate only as a sorcery. [i](It's an artifact with \u201c{1}, {T}, Sacrifice this artifact: Target creature you control explores. Activate only as a sorcery.\u201d)[/i]",
@@ -4910,7 +4910,7 @@
             "color": "",
             "rarity": "common",
             "type": "Land",
-            "number": 266,
+            "number": 267,
             "color_identity": "WU",
             "cost": "",
             "rules_text": "This land enters tapped.\n{T}: Add {W} or {U}.\n{T}, Sacrifice this land: Create a Map token. Activate only as a sorcery. [i](It's an artifact with \u201c{1}, {T}, Sacrifice this artifact: Target creature you control explores. Activate only as a sorcery.\u201d)[/i]",
@@ -4960,11 +4960,11 @@
             "notes": ""
         },
         {
-            "card_name": "Raven",
+            "card_name": "Bird",
             "color": "B",
             "rarity": "common",
             "type": "Token Creature \u2014 Bird",
-            "number": 6,
+            "number": 5,
             "color_identity": "B",
             "cost": "",
             "rules_text": "Flying",
@@ -4982,7 +4982,7 @@
             "color": "W",
             "rarity": "uncommon",
             "type": "Battle \u2014 Skirmish",
-            "number": 13,
+            "number": 12,
             "color_identity": "W",
             "cost": "{1}{W}",
             "rules_text": "[i](As a Skirmish enters, choose an opponent to protect it. Any player may attack it.)[/i]\nWhen this Battle enters, put a vigilance counter on target creature or Vehicle.\nWhen this Battle is defeated, you may destroy target artifact or enchantment.",
@@ -4993,7 +4993,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "real-SonkeS",
-            "notes": "Aug 27, 2025: Now can put the counter on anything, and fully disenchants on defeat."
+            "notes": ""
         },
         {
             "card_name": "Skipping Class",
@@ -5054,7 +5054,7 @@
             "color": "G",
             "rarity": "uncommon",
             "type": "Battle \u2014 Skirmish",
-            "number": 210,
+            "number": 211,
             "color_identity": "G",
             "cost": "{3}{G}",
             "rules_text": "[i](As a Skirmish enters, choose an opponent to protect it. Any player may attack it.)[/i]\nWhen this Battle enters, put two +1/+1 counters on target creature you control.\nWhen this Battle is defeated, you may return a creature or land card from your graveyard to your hand.",
@@ -5083,7 +5083,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Gabriel Cassata",
-            "notes": "August 14th, 2025: Added 'or equal to' after 'less than'."
+            "notes": ""
         },
         {
             "card_name": "Treasure",
@@ -5288,7 +5288,7 @@
             "color": "B",
             "rarity": "common",
             "type": "Token Enchantment Creature \u2014 Bird",
-            "number": 5,
+            "number": 6,
             "color_identity": "B",
             "cost": "",
             "rules_text": "Flying",
@@ -5471,7 +5471,7 @@
             "number": 75,
             "color_identity": "U",
             "cost": "{U}",
-            "rules_text": "Flash\nWhen this creature enters, choose one \u2014\n\u2022 Put a flying counter on it.\n\u2022 Surveil 2",
+            "rules_text": "Flash\nWhen this creature enters, choose one \u2014\n\u2022 Put a flying counter on it.\n\u2022 Surveil 2.",
             "flavor_text": "[i]The largest airships had crew specialized in sighting and responding to threats coming from underneath.[/i]",
             "pt": "1/1",
             "special_text": "",
@@ -5479,7 +5479,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Mojca Honn",
-            "notes": "Entirely new card added of own volition, June 30, 2025."
+            "notes": ""
         },
         {
             "card_name": "Gersauld's Assassin",
@@ -5507,7 +5507,7 @@
             "number": 42,
             "color_identity": "W",
             "cost": "{1}{W}",
-            "rules_text": "This deals 3 damage to target tapped creature. If that creature is attacking you and you control two or more Rabbits, you may destroy that creature instead.",
+            "rules_text": "This deals 3 damage to target tapped creature. If that creature is attacking and you control two or more Rabbits, you may destroy that creature instead.",
             "flavor_text": "[i]A crossfire of pistols was guaranteed to take down what a brigade of crossbows couldn't.[/i]",
             "pt": "",
             "special_text": "",
@@ -5522,7 +5522,7 @@
             "color": "W",
             "rarity": "rare",
             "type": "Creature \u2014 Rabbit Rogue",
-            "number": 14,
+            "number": 13,
             "color_identity": "W",
             "cost": "{1}{W}",
             "rules_text": "Activated abilities of creatures and planeswalker permanents and cards cost an additional {2} to activate.",
@@ -5534,7 +5534,25 @@
             "loyalty": "",
             "artist": "Shana",
             "notes": ""
+        },
+        {
+            "card_name": "Aluki Exile",
+            "color": "G",
+            "rarity": "rare",
+            "type": "Creature \u2014 Rabbit Druid Warlock",
+            "number": 174,
+            "color_identity": "G",
+            "cost": "{1}{G}",
+            "rules_text": "Deathtouch\nThe first time each turn a creature an opponent controls dies, you may put a basic land card from your hand onto the battlefield. If you don't, put a +1/+1 counter on this creature.",
+            "flavor_text": "[i][/i]",
+            "pt": "2/1",
+            "special_text": "",
+            "shape": "normal",
+            "set": "AVA",
+            "loyalty": "",
+            "artist": "Bart Tchorzewski",
+            "notes": ""
         }
     ],
-    "version": 2
+    "version": 3
 }

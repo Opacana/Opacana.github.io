@@ -1683,7 +1683,7 @@
 		{
 			"name": "Tamer of Giants",
 			"rarity": "rare",
-			"mana_cost": "{R}",
+			"mana_cost": "{1}{R}",
 			"type": "Creature — Human Druid Performer",
 			"collector_number": "160",
 			"image_uris": {
@@ -2768,6 +2768,56 @@
 			"collector_number": "127",
 			"image_uris": {
 				"en": "https://Custom-MtG-Sets/sets/WCD-files/img/127_Charge — Inciting A Riot.png"
+			}
+		},
+		{
+			"name": "Plains",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Plains",
+			"collector_number": "254",
+			"image_uris": {
+				"en": "https://Custom-MtG-Sets/sets/WCD-files/img/254_Plains.png"
+			}
+		},
+		{
+			"name": "Island",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Island",
+			"collector_number": "255",
+			"image_uris": {
+				"en": "https://Custom-MtG-Sets/sets/WCD-files/img/255_Island.png"
+			}
+		},
+		{
+			"name": "Swamp",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Swamp",
+			"collector_number": "256",
+			"image_uris": {
+				"en": "https://Custom-MtG-Sets/sets/WCD-files/img/256_Swamp.png"
+			}
+		},
+		{
+			"name": "Mountain",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Mountain",
+			"collector_number": "257",
+			"image_uris": {
+				"en": "https://Custom-MtG-Sets/sets/WCD-files/img/257_Mountain.png"
+			}
+		},
+		{
+			"name": "Forest",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Forest",
+			"collector_number": "258",
+			"image_uris": {
+				"en": "https://Custom-MtG-Sets/sets/WCD-files/img/258_Forest.png"
 			}
 		}
 	]

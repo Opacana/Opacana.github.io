@@ -1,4 +1,232 @@
-﻿VERSION 2 CHANGELOG
+﻿VERSION 3 CHANGELOG
+====================
+
+Bird added.
+Aluki Exile added.
+
+Raven removed.
+
+Travelling Chef
+
+Bonded Griffin
+
+Julescan Infantry
+pt: 4/4 => 4/3
+
+Alpha Tigress
+
+Surge of Determination
+
+Vineyard Tour
+
+Hired Investigator
+
+Indomitable Tinkerer
+rules_text: This spell can't be countered if you control an artifact.
+Reach
+When this creature enters, create a tapped Treasure token. [i](It's an artifact with “{T}, Sacrifice this artifact: Add one mana of any color.”)[/i] => This spell costs {1} less to cast as long as you control an artifact.
+Reach
+When this enters, create a tapped Treasure token.
+
+Shipwake Griffin
+rules_text: You may cast this spell as though it had flash as long as you control a Vehicle with flying.
+Flying => You may cast this spell as though it had flash as long as you control a Vehicle.
+Flying
+
+Passwall Rassaphore
+rules_text: When this creature enters, you may draw a card.
+{1}{U}: Target creature can't be blocked this turn. Activate only once each turn. => When this creature enters, draw a card.
+{1}{U}: Target creature can't be blocked this turn. Activate only once each turn.
+
+Refile
+
+Unplanned Landing
+
+Midnight Card Sharp
+rules_text: When this creature enters, mill two cards, then return up to one target creature card from your graveyard to your hand. => When this creature enters, mill two cards, then return up to one creature card from your graveyard to your hand.
+
+Unscrupulous Surgeon
+
+Rogue Ornithologist
+rules_text: When this enters, create a 1/1 black Raven creature token with flying and the creature type Bird.
+Whenever a Bird you control dies, you may surveil 2. => When this enters, create a 1/1 black Bird creature token with flying.
+Whenever a Bird you control dies, you may surveil 2.
+
+Death's Hall Caretaker
+
+Giant Rat
+
+Shackled to the Forge
+
+Sandstone Town Gunsmith
+
+Vainglory Phoenix
+
+Deepvent Feeder
+
+Ancient Sunspot Owl
+
+Highborn Sleuth
+
+Dour Wanderer
+
+Flower Cart
+
+Sun-bleached Discovery
+
+Vigilant Cryophoenix
+
+Canopy-nest Griffin
+
+Pesuban Riftrider
+
+Can't Take the Sky From Me
+
+Decorated Pilot
+
+Liline Otothal
+
+Iridescent Tambly
+
+Skunkworks Darter
+
+Show Your Work
+
+Deep Summoning
+
+Turn Back the Clock
+rules_text: Counter target spell unless its controller pays {X}, where X is that spell's mana value.
+Exile this spell. => Counter target spell unless its controller pays {X}, where X is that spell's mana value.
+
+Tutor of Dark Sciences
+
+Identifying the Villainous
+
+Rising of a Tambly's Bones
+
+Skull of the Last Hunter
+
+Savoran Razor Galleon
+
+Embittered Lavawing
+
+Storm Mistress
+
+Clues to the Cataclysm
+
+Piper of the Passed
+
+Reach the Legendary City
+
+Untested Elixir
+
+Commandant Urscia
+
+Scion of the Hidden Burrow
+
+Precision Bomber
+
+Admiral's Guile
+
+Julescan Dreadnought
+
+Nikolaian Matrix
+
+Dragonsoul Cabalist
+
+Mr. Aldrand, Eternal Patron
+rules_text: Ward—Pay 2 life
+Whenever one or more creature cards leave or are put into your graveyard from anywhere, put that many charge counters on Mr. Aldrand. Then if there are twenty-five or more counters on him, you win the game. => Ward—Pay 2 life
+Whenever one or more creature cards leave or are put into your graveyard from anywhere, put that many charge counters on Mr. Aldrand. Then if there are twenty or more counters on him, you win the game.
+
+Athern, Captain of Traitors
+
+Slagfall Phoenix
+rules_text: Flying
+If this creature would die, exile it instead.
+You may cast this from exile as long as you've cast a Phoenix spell this turn, or two or more artifacts were put into a graveyard from the battlefield this turn. => Flying
+If this creature would die, exile it instead.
+You may cast this from exile as long as you've cast a Phoenix spell this turn, or a nontoken artifact was put into a graveyard from the battlefield this turn.
+
+Cogstorm
+
+Kidar, Seeking Justice
+
+Denaw Goliath
+rules_text: Trample, vigilance
+This creature can't attack or block unless another Rabbit you control is attacking or blocking. => Trample, vigilance
+This creature can't attack unless another Rabbit you control attacks at the same time.
+
+Genteel Expedition
+
+Paleontological Revelations
+rules_text: Choose any number of target cards in graveyards. Their owners shuffle them into their libraries.
+Draw two cards.
+When this card is put into your graveyard from your library, you may shuffle your graveyard into your library. => Choose any number of target cards in graveyards. Their owners shuffle them into their libraries. Then if at least one creature card was targeted this way, you draw two cards.
+When this card is put into your graveyard from your library, you may shuffle your graveyard into your library.
+
+Gift of the Grove
+
+Warren League Admiral
+
+Unstable Ooze
+
+Phoenix Egg
+
+High Stakes Game
+
+Cave of the Vanquished
+rules_text: When this enters, destroy up to one target land and up to one creature with flying.
+Boneborn {2}{B} [i]({2}{B}, Exile a creature card from your graveyard or sacrifice a creature: Transform this permanent. Activate only as a sorcery.)[/i] => When this enters, destroy up to one target land and up to one target creature with flying.
+Boneborn {2}{B} [i]({2}{B}, Exile a creature card from your graveyard or sacrifice a creature: Transform this permanent. Activate only as a sorcery.)[/i]
+
+Wielder of the Cursed Bestiary
+
+Yolaira, Linkmistress
+
+Aerie's Legacy
+rules_text: {T}: Add one mana of any color. If mana produced this way is spent to cast a Griffin spell, that spell can't be countered.
+{1}{W}, {T}, Sacrifice this artifact: Target creature gains vigilance until end of turn. => {T}: Add one mana of any color. If mana produced this way is spent to cast a Griffin spell, that spell can't be countered.
+{1}, {T}, Sacrifice this artifact: Put a +1/+1 counter on target creature with flying. Activate only as a sorcery.
+
+Ancient Waystone
+
+Mausoleum of Deities
+
+Lemaugean Barded Drabant
+type: Creature — Horse Mount => Creature — Horse
+cost: {3} => {2}{W}
+rules_text: Whenever this attacks while saddled, untap each creature that saddled it this turn.
+Saddle 2 [i](Tap any number of other creatures you control with total power 2 or more: This Mount becomes saddled until end of turn. Saddle only as a sorcery.)[/i] => Whenever this creature attacks, another target creature you control with power less than or equal to this creature's power gains indestructible until end of turn.
+
+Masterpiece in the Making
+
+Jochi, Inspired Tinkerer
+
+A Touch of Home
+
+Bird
+type: Token Enchantment Creature — Bird => Token Creature — Bird
+pt: X/X => 1/1
+
+Defense of Reedsey
+
+Break with the Past
+
+Ropehold Scout
+rules_text: Flash
+When this creature enters, choose one —
+• Put a flying counter on it.
+• Surveil 2 => Flash
+When this creature enters, choose one —
+• Put a flying counter on it.
+• Surveil 2.
+
+Wide-bore Warning
+rules_text: This deals 3 damage to target tapped creature. If that creature is attacking you and you control two or more Rabbits, you may destroy that creature instead. => This deals 3 damage to target tapped creature. If that creature is attacking and you control two or more Rabbits, you may destroy that creature instead.
+
+
+VERSION 2 CHANGELOG
 ====================
 
 No changes.

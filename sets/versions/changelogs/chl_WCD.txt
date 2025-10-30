@@ -1,4 +1,99 @@
-﻿VERSION 4 CHANGELOG
+﻿VERSION 5 CHANGELOG
+====================
+
+
+
+Sightseeing Bronzehawk
+rules_text: Flying
+{2}{U}: Draw a card. Activate only if this dealt damage to an opponent this turn.
+Crew 1 [i](Tap any number of creatures you control with total power 1 or more: This Vehicle becomes an artifact creature until end of turn.)[/i] => Flying
+{1}{U}: Draw a card. Activate only if this dealt damage to an opponent this turn.
+Crew 1 [i](Tap any number of creatures you control with total power 1 or more: This Vehicle becomes an artifact creature until end of turn.)[/i]
+
+Sophisticated Barman
+rules_text: {T}: Add {U} or {G}. => {T}: Add {G}. If you've scried or surveiled this turn, you may add one mana of any color instead.
+pt: 1/1 => 0/1
+
+Kept Attack Wolf
+rules_text: This attacks each turn if able. => This creature attacks each turn if able.
+
+Timberize
+rules_text: Enchant creature
+Enchanted creature has base power and toughness 0/4, gains defender, and loses all other abilities. => Enchant creature
+Enchanted creature has base power and toughness 0/4, and loses all abilities.
+
+A Big Enough Bribe
+
+Mastermind Nekosyth
+rules_text: Whenever this creature deals combat damage to an opponent, exile the top card of that player's library. Until end of turn, you may play that card, and spend mana as though it were any color to do so. A spell cast this way has Practiced. [i](That spell costs {1} less to cast for each creature you've attacked with this turn.)[/i] => Whenever this creature deals combat damage to an opponent, exile the top card of that player's library. Until end of turn, you may play that card, and spend mana as though it were any color to do so. A spell cast this way has practiced. [i](That spell costs {1} less to cast for each creature you've attacked with this turn.)[/i]
+
+Tamer of Giants
+cost: {R} => {1}{R}
+rules_text: Haste
+{2}{R}, {T}: Create a token that's a copy of another target creature you control. It gains haste. Sacrifice it at the beginning of the next end step. => Haste
+{2}{R}, {T}: Create a token that's a copy of target creature you control, except it has haste. Sacrifice it at the beginning of the next end step.
+
+Morau and Jemel
+rules_text: Whenever this creature enters or attacks, scry 2. If you've scried or surveiled this turn, you may draw a card instead.
+When this dies, you may detain target creature or planeswalker. [i](Until your next turn, that creature can't attack or block and its activated abilities can't be activated.)[/i] => Whenever this creature enters or attacks, scry 2. If you've scried or surveiled this turn, you may draw a card instead.
+When this leaves the battlefield, you may detain target creature or planeswalker. [i](Until your next turn, that creature can't attack or block and its activated abilities can't be activated.)[/i]
+
+Filigree Acrobat
+rules_text: Nontoken creatures you control have haste.
+{1}{B}{R}{R}, Pay X life, sacrifice this: Untap X target creatures. Those creatures gain haste until end of turn. After this main phase, there is an additional combat phase followed by an additional main phase. => Nontoken creatures you control have haste.
+{1}{B}{R}{R}, Pay X life, sacrifice this: Untap X target creatures you control. After this main phase, there is an additional combat phase followed by an additional main phase. Activate only as a sorcery.
+
+Mistress of Cats
+rules_text: Haste
+When this creature enters, create a 2/2 red Cat creature token with haste.
+{T}: The next creature spell you cast this turn has Practiced. [i](That spell costs {1} less to cast for each creature you've attacked with this turn.)[/i] => Haste
+When this creature enters, create a 2/2 red Cat creature token with haste.
+{T}: The next creature spell you cast this turn has practiced. [i](That spell costs {1} less to cast for each creature you've attacked with this turn.)[/i]
+
+Sudden Power-up
+rules_text: Search your graveyard and/or library for up to two Aura cards and put them onto the battlefield attached to a creature you control. Then shuffle. => Search your graveyard and/or library for up to two Aura cards and put them onto the battlefield attached to a permanent you control. Then shuffle. That permanent can't attack this turn.
+
+Duchess Arane
+rules_text: Reach, deathtouch
+Other Spiders, Mutants, Citizens and Peasants you control get +1/+1.
+Whenever a creature you control deals combat damage to an opponent, you may pay {BG}. If you do, you gain life equal to that creature's toughness. => Reach, deathtouch
+Other Spiders, Mutants, Citizens and Peasants you control get +1/+1.
+Whenever a creature you control deals combat damage to a player, you gain life equal to that creature's toughness.
+
+Eyrik's Keys
+rules_text: When this artifact enters, choose an opponent.
+Equipped creature has protection from the chosen opponent.
+Whenever equipped creature deals combat damage to the chosen opponent, you may pay {1}{RW}. If you do, destroy target artifact or enchantment that opponent controls.
+Equip {3} => When this artifact enters, choose an opponent.
+Equipped creature has protection from the chosen opponent.
+Whenever equipped creature deals combat damage to the chosen opponent, you may pay {2}. If you do, destroy target artifact or enchantment that opponent controls.
+Equip {3}
+
+Opulent Study Hall
+rules_text: {T}: Add {C}.
+{5}, {T}: Scry 2. => {T}: Add {C}.
+{4}, {T}: Scry 2.
+
+Karil-on-the-Wyvern
+rules_text: This land enters tapped.
+{T}: Add {W}. 
+{T}: Add one mana of any color. Activate only if you control four or more artifacts and/or enchantments. => This land enters tapped.
+{T}: Add {W}. 
+{T}: Add one mana of any color. Activate only if you control three or more artifacts and/or enchantments.
+
+Hall of Nightmares
+
+Report to Parliament
+special_text: [i](When this Inquest enters, at the beginning of your upkeep, and when a permanent you control is destroyed, put an evidence counter on it. Sacrifice after III.)[/i]
+I — Exile up to one target nonland permanent until this leaves the battlefield.
+II — Scry 3, then gain 3 life.
+III — Destroy target permanent you don't control. => [i](When this Inquest enters, at the beginning of your upkeep, and when a permanent you control is destroyed, put an evidence counter on it. Sacrifice after III.)[/i]
+I — Exile up to one other target nonland permanent until this leaves the battlefield.
+II — Scry 3, then gain 3 life.
+III — Destroy target permanent you don't control.
+
+
+VERSION 4 CHANGELOG
 ====================
 
 Encava, Lanternbearer added.
