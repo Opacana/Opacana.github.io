@@ -1,4 +1,133 @@
-﻿VERSION 5 CHANGELOG
+﻿VERSION 6 CHANGELOG
+====================
+
+Writ added.
+
+
+Bomb Runner
+rules_text: Ward {2} against creatures [i](Whenever this creature becomes the target of an ability of a creature an opponent controls, counter it unless that player pays {2}.)[/i]
+At the beginning of combat on your turn, this creature gains flying and gets +1/+0 until end of turn. => At the beginning of combat on your turn, this creature gains flying and gets +1/+0 until end of turn.
+
+Frontiersville Mascot
+rules_text: Masquerade {W} [i](You may cast this card face down for {3} as a 2/2 creature with ward—Sacrifice a permanent. Turn it face up any time for its masquerade cost.)[/i]
+Vigilance => Masquerade {1}{W} [i](You may cast this card face down for {3} as a 2/2 creature with ward—Sacrifice a permanent. Turn it face up any time for its masquerade cost.)[/i]
+Vigilance
+
+Gift of the Healer
+rules_text: Enchant creature
+Enchanted creature has “{T}: Gain X life, or prevent the next X damage that would be dealt to another target creature this turn, where X is this creature's power.” => Enchant creature
+Enchanted creature has “{T}: You gain X life, or prevent the next X damage that would be dealt to another target creature this turn, where X is this creature's power.”
+
+Entrepreneurial Gossip
+
+Marshal of the Sewers
+rules_text: Menace
+Whenever another creature dies, you may switch this creature's power and toughness until end of turn. This ability triggers only once each turn. => Menace
+Whenever a creature dealt damage by this creature this turn dies, that creature's controller loses 1 life and you gain 1 life.
+
+Eternal Cataloguer
+rules_text: When this creature enters, draw a card and lose 1 life. => When this creature enters, draw a card and you lose 1 life.
+
+Horrifying Unmasking
+rules_text: Whenever you turn a face-down creature face-up, each opponent loses 1 life and you gain 1 life. => Whenever you turn a face-down permanent face-up, each opponent loses 1 life and you gain 1 life.
+
+Gaze Into the Red Door
+rules_text: This spell costs {1} less to cast if an opponent was dealt combat damage this turn.
+Each opponent discards two cards. => This spell costs {1} less to cast if an opponent was dealt combat damage this turn.
+Target opponent exiles two cards from their hand.
+
+Cognition Consumption
+rules_text: Practiced [i](This spell costs {1} less to cast for each creature you've attacked with this turn.)[/i]
+Surveil 2, then draw two cards and lose 2 life. => Practiced [i](This spell costs {1} less to cast for each creature you've attacked with this turn.)[/i]
+Surveil 2, then draw two cards and you lose 2 life.
+
+Mine Boss
+rules_text: When this creature enters, choose one. If you attacked with two or more other creatures this turn, you may choose both. —
+• Create a tapped Treasure token.
+• Put a +1/+1 counter on another target creature. => When this creature enters, choose one. If you attacked with two or more creatures this turn, you may choose both. —
+• Create a tapped Treasure token.
+• Put a +1/+1 counter on another target creature.
+
+Imprison
+rules_text: Ward {1}
+When this enchantment enters, exile target creature until this leaves the battlefield. => Ward {1}
+When this enchantment enters, exile target creature you don't control until this leaves the battlefield.
+
+Join the Family
+
+Infiltrator Partygoer
+
+Cartel Pistolier
+rules_text: First strike
+Whenever this creature attacks with one or more other Rogues, you may pay {1}{B}. If you do, target creature gets -1/-1 until end of turn. => First strike
+Whenever this creature attacks with one or more other Rogues, you may pay {B}. If you do, target creature gets -1/-1 until end of turn.
+
+Glimpse Hidden Horrors
+rules_text: Surveil 1, then draw a card and lose 1 life, then choose one —
+• Draw a card and lose 1 life.
+• The next face-down spell you cast this turn costs {3} less to cast. => Surveil 1, then you draw a card and lose 1 life.
+Choose one —
+• You draw a card and lose 1 life.
+• The next face-down spell you cast this turn costs {3} less to cast.
+
+Crykal, Sharpshooter
+rules_text: Haste
+Equip abilities that target Crykal cost {1} less to activate for every Equipment attached to him. => Haste
+Equip abilities that target Crykal cost {X} less to activate, where X is 1 plus the number of Equipment attached to him.
+
+Deepsight Siphoner
+rules_text: Ward {2}
+Whenever the first spell is cast each turn, scry 1.
+Whenever the second spell is cast each turn, this creature can't be blocked until end of turn. 
+Whenever the third spell is cast each turn, this creature gets +2/+2 until end of turn. => Ward {2}
+Whenever the first spell is cast each turn, scry 1.
+Whenever the second spell is cast each turn, this creature can't be blocked until end of turn.
+Whenever the third spell is cast each turn, this creature gets +2/+2 until end of turn.
+
+Shield Charm
+rules_text: Choose up to two.
+• Target creature you control gains hexproof until end of turn.
+• Untap up to one target nonland permanent.
+• Detain target creature. [i](Until your next turn, that creature can't attack or block and its activated abilities can't be activated.)[/i]
+• Gain 3 life. => Choose up to two.
+• Target creature you control gains hexproof until end of turn.
+• Untap up to one target nonland permanent.
+• Detain target creature. [i](Until your next turn, that creature can't attack or block and its activated abilities can't be activated.)[/i]
+• You gain 3 life.
+
+Bloodbath Harlequin
+rules_text: Practiced [i](This spell costs {1} less to cast for each creature you've attacked with this turn.)[/i]
+Haste
+At the beginning of your end step, if a creature died this turn, draw two cards, then discard a card and lose 1 life. => Practiced [i](This spell costs {1} less to cast for each creature you've attacked with this turn.)[/i]
+Haste
+At the beginning of your end step, if a creature died this turn, draw two cards, then discard a card and you lose 1 life.
+
+Hall of Nightmares
+rules_text: Each opponent reveals their hand. You choose a nonland card from it. That player discards that card unless they sacrifice a nontoken creature. => Each opponent reveals their hand. For each opponent, choose a nonland card revealed this way. Those players discard the chosen cards unless they sacrifice a nontoken creature.
+
+Report to Parliament
+special_text: [i](When this Inquest enters, at the beginning of your upkeep, and when a permanent you control is destroyed, put an evidence counter on it. Sacrifice after III.)[/i]
+I — Exile up to one other target nonland permanent until this leaves the battlefield.
+II — Scry 3, then gain 3 life.
+III — Destroy target permanent you don't control. => [i](When this Inquest enters, at the beginning of your upkeep, and when a permanent you control is destroyed, put an evidence counter on it. Sacrifice after III.)[/i]
+I — Exile up to one other target nonland permanent until this leaves the battlefield.
+II — Scry 3, then you gain 3 life.
+III — Create a Writ colorless artifact token with “Sacrifice this token: Destroy target permanent you don't control.”
+
+Zanri Edel, Iceling Psion
+cost: {3}{U}{U} => {2}{U}{U}
+
+Charge — Failure
+special_text: [i](When this Inquest enters, at the beginning of your upkeep, and when a permanent you control is destroyed, put an evidence counter on it. Sacrifice after III.)[/i]
+Target creature or planeswalker's controller sacrifices it.
+Discard two cards, then exile your graveyard.
+Return target creature card from a graveyard to the battlefield under your control with a finality counter on it. => [i](When this Inquest enters, at the beginning of your upkeep, and when a permanent you control is destroyed, put an evidence counter on it. Sacrifice after III.)[/i]
+Target creature or planeswalker's controller sacrifices it.
+Discard a card, then exile your graveyard.
+Return target creature card from a graveyard to the battlefield under your control with a finality counter on it.
+
+
+VERSION 5 CHANGELOG
 ====================
 
 

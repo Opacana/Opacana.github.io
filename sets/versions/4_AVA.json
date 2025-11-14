@@ -1,6 +1,6 @@
 ﻿{
     "name": "Avallus: Rediscovery",
-    "formats": "Revolution",
+    "formats": "",
     "trimmed": "n",
     "image_type": "png",
     "draft_structure": "play booster",
@@ -823,7 +823,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Andrea Piparo",
-            "notes": ""
+            "notes": "*Leaving as it is for now, but one to keep an eye on when playtesting."
         },
         {
             "card_name": "Giant Rat",
@@ -949,7 +949,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Angelina Andreas",
-            "notes": ""
+            "notes": "August 17th, 2025: Removed or blocks from compulsion ability."
         },
         {
             "card_name": "Umbral Teachings",
@@ -1067,7 +1067,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Grafit Studio",
-            "notes": ""
+            "notes": "Old flavor text before equip remidner text added: \u201cDon't make me hurry now. You don't want your rifle jamming, not with those beasts out there...\u201d\nSeptember 10th, 2025: Changed from common to Uncommon."
         },
         {
             "card_name": "Needle Peak Phoenix",
@@ -1103,7 +1103,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Simone Torcasio",
-            "notes": ""
+            "notes": "Changed from 2/1 to 1/1 base."
         },
         {
             "card_name": "Deepvent Feeder",
@@ -1517,7 +1517,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Wesley Gardner",
-            "notes": ""
+            "notes": "August 14th, 2025: Removed cast qualifier."
         },
         {
             "card_name": "Island Constrictor",
@@ -1715,7 +1715,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Afuchan",
-            "notes": ""
+            "notes": "August 30th, 2025: Addred Kindred Plant types."
         },
         {
             "card_name": "Julescan Heavy Strider",
@@ -2049,7 +2049,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Nick Keller",
-            "notes": ""
+            "notes": "August 14th, 2025: Removed 'artifact' qualifier ."
         },
         {
             "card_name": "Show Your Work",
@@ -2221,7 +2221,7 @@
             "number": 102,
             "color_identity": "B",
             "cost": "{1}{B}",
-            "rules_text": "Choose target creature you don't control. When that creature dies this turn, draw two cards and gain life equal to its power.\nBoarding [i](Then if this spell was cast from your hand, exile it as it resolves. Cast it on any turn a creature you control dealt combat damage to an opponent.)[/i]",
+            "rules_text": "Choose target creature you don't control. When that creature dies this turn, you draw two cards and gain life equal to its power.\nBoarding [i](Then if this spell was cast from your hand, exile it as it resolves. Cast it on any turn a creature you control dealt combat damage to an opponent.)[/i]",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -2321,7 +2321,7 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "sandara",
-            "notes": ""
+            "notes": "change to up to one."
         },
         {
             "card_name": "Savoran Razor Galleon",
@@ -2665,7 +2665,7 @@
             "number": 188,
             "color_identity": "G",
             "cost": "{4}{G}{G}",
-            "rules_text": "This spell costs {X} less to cast, where X is the number of creatures that died this turn.\nTrample\nWhen this creature enters, mill two cards and gain 2 life.",
+            "rules_text": "This spell costs {X} less to cast, where X is the number of creatures that died this turn.\nTrample\nWhen this creature enters, mill two cards and you gain 2 life.",
             "flavor_text": "[i][/i]",
             "pt": "5/4",
             "special_text": "",
@@ -2727,7 +2727,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Armin Rangani",
-            "notes": ""
+            "notes": "May 29, 2025. Redesigned."
         },
         {
             "card_name": "Untested Elixir",
@@ -2945,7 +2945,7 @@
             "number": 44,
             "color_identity": "U",
             "cost": "{2}{U}{U}",
-            "rules_text": "Flying\nWhen this creature enters, it explores once for each opponent.\nThis creature can only be blocked by token creatures or creatures named Adult Venipula.",
+            "rules_text": "Flying\nWhen this creature enters, it explores once for each opponent.\nThis creature can only be blocked by creature tokens or creatures named Adult Venipula.",
             "flavor_text": "[i][/i]",
             "pt": "4/3",
             "special_text": "",
@@ -3017,7 +3017,7 @@
             "number": 107,
             "color_identity": "B",
             "cost": "{1}{B}",
-            "rules_text": "Ward\u2014Pay 2 life\nWhenever one or more creature cards leave or are put into your graveyard from anywhere, put that many charge counters on Mr. Aldrand. Then if there are twenty or more counters on him, you win the game.",
+            "rules_text": "Ward\u2014Pay 2 life\nWhenever one or more creature cards leave or are put into your graveyard from anywhere, put that many charge counters on Mr. Aldrand. Then if there are twenty-five or more counters on him, you win the game.",
             "flavor_text": "[i][/i]",
             "pt": "2/2",
             "special_text": "",
@@ -3025,7 +3025,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Travis Anderson",
-            "notes": "reduced to 20 to win, oct 29th, 2025."
+            "notes": ""
         },
         {
             "card_name": "Shadow Path Exemplar",
@@ -3287,7 +3287,7 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "Matt Forsyth",
-            "notes": ""
+            "notes": "Sep 7, 2025: simplified front."
         },
         {
             "card_name": "Denaw Goliath",
@@ -3839,7 +3839,7 @@
             "number": 221,
             "color_identity": "WG",
             "cost": "{1}{G}{W}",
-            "rules_text": "Search your library for a creature or land card, reveal it and put it into your hand, then shuffle. \nGain 3 life, then exile this spell.",
+            "rules_text": "Search your library for a creature or land card, reveal it and put it into your hand, then shuffle. \nYou gain 3 life, then exile this spell.",
             "flavor_text": "[i]Instead of using insects to catch fish, fishers now used fish to catch birds.[/i]",
             "pt": "",
             "special_text": "",
@@ -3847,7 +3847,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "KescAlis",
-            "notes": "Revised May 18th, 2025, after getting feedback in project channel; removed option of searching for Fossil cards."
+            "notes": ""
         },
         {
             "card_name": "Raise the Banner",
@@ -3919,7 +3919,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Ann Gillette",
-            "notes": ""
+            "notes": "Reworked August 25th, 2025"
         },
         {
             "card_name": "Bronson Celac",
@@ -4045,7 +4045,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Ondrej Hrdina",
-            "notes": ""
+            "notes": "August 17th: Changed cost of aa to 1 and tap, and changed scry to draw for on enter ability."
         },
         {
             "card_name": "Mausoleum of Deities",
@@ -4543,7 +4543,7 @@
             "number": 227,
             "color_identity": "UBR",
             "cost": "{2}{U}{B}",
-            "rules_text": "When this enters, surveil 3, then draw two cards and lose 2 life.\nBoneborn {2}{U}{B}{R} [i]({2}{U}{B}{R}, Exile a creature card from your graveyard or sacrifice a creature: Transform this permanent. Activate only as a sorcery.)[/i]",
+            "rules_text": "When this enters, surveil 3, then you draw two cards and lose 2 life.\nBoneborn {2}{U}{B}{R} [i]({2}{U}{B}{R}, Exile a creature card from your graveyard or sacrifice a creature: Transform this permanent. Activate only as a sorcery.)[/i]",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -4615,7 +4615,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Vimes Art",
-            "notes": ""
+            "notes": "August 14th, 2025: Changed first strike to trample."
         },
         {
             "card_name": "Warren League Lieutenant",
@@ -5183,7 +5183,7 @@
             "number": 19,
             "color_identity": "C",
             "cost": "",
-            "rules_text": "{2}, Sacrifice this artifact: Gain 3 life.",
+            "rules_text": "{2}, Sacrifice this artifact: You gain 3 life.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",

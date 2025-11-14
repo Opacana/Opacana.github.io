@@ -862,7 +862,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Andrea Piparo",
-            "notes": "",
+            "notes": "*Leaving as it is for now, but one to keep an eye on when playtesting.",
             "image_type": "png"
         },
         {
@@ -995,7 +995,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Angelina Andreas",
-            "notes": "",
+            "notes": "August 17th, 2025: Removed or blocks from compulsion ability.",
             "image_type": "png"
         },
         {
@@ -1119,7 +1119,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Grafit Studio",
-            "notes": "",
+            "notes": "Old flavor text before equip remidner text added: \u201cDon't make me hurry now. You don't want your rifle jamming, not with those beasts out there...\u201d\nSeptember 10th, 2025: Changed from common to Uncommon.",
             "image_type": "png"
         },
         {
@@ -1157,7 +1157,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Simone Torcasio",
-            "notes": "",
+            "notes": "Changed from 2/1 to 1/1 base.",
             "image_type": "png"
         },
         {
@@ -1594,7 +1594,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Wesley Gardner",
-            "notes": "",
+            "notes": "August 14th, 2025: Removed cast qualifier.",
             "image_type": "png"
         },
         {
@@ -1803,7 +1803,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Afuchan",
-            "notes": "",
+            "notes": "August 30th, 2025: Addred Kindred Plant types.",
             "image_type": "png"
         },
         {
@@ -2155,7 +2155,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Nick Keller",
-            "notes": "",
+            "notes": "August 14th, 2025: Removed 'artifact' qualifier .",
             "image_type": "png"
         },
         {
@@ -2337,7 +2337,7 @@
             "number": 102,
             "color_identity": "B",
             "cost": "{1}{B}",
-            "rules_text": "Choose target creature you don't control. When that creature dies this turn, draw two cards and gain life equal to its power.\nBoarding [i](Then if this spell was cast from your hand, exile it as it resolves. Cast it on any turn a creature you control dealt combat damage to an opponent.)[/i]",
+            "rules_text": "Choose target creature you don't control. When that creature dies this turn, you draw two cards and gain life equal to its power.\nBoarding [i](Then if this spell was cast from your hand, exile it as it resolves. Cast it on any turn a creature you control dealt combat damage to an opponent.)[/i]",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -2441,7 +2441,7 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "sandara",
-            "notes": "",
+            "notes": "change to up to one.",
             "image_type": "png"
         },
         {
@@ -2804,7 +2804,7 @@
             "number": 188,
             "color_identity": "G",
             "cost": "{4}{G}{G}",
-            "rules_text": "This spell costs {X} less to cast, where X is the number of creatures that died this turn.\nTrample\nWhen this creature enters, mill two cards and gain 2 life.",
+            "rules_text": "This spell costs {X} less to cast, where X is the number of creatures that died this turn.\nTrample\nWhen this creature enters, mill two cards and you gain 2 life.",
             "flavor_text": "[i][/i]",
             "pt": "5/4",
             "special_text": "",
@@ -2869,7 +2869,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Armin Rangani",
-            "notes": "",
+            "notes": "May 29, 2025. Redesigned.",
             "image_type": "png"
         },
         {
@@ -3099,7 +3099,7 @@
             "number": 44,
             "color_identity": "U",
             "cost": "{2}{U}{U}",
-            "rules_text": "Flying\nWhen this creature enters, it explores once for each opponent.\nThis creature can only be blocked by token creatures or creatures named Adult Venipula.",
+            "rules_text": "Flying\nWhen this creature enters, it explores once for each opponent.\nThis creature can only be blocked by creature tokens or creatures named Adult Venipula.",
             "flavor_text": "[i][/i]",
             "pt": "4/3",
             "special_text": "",
@@ -3175,7 +3175,7 @@
             "number": 107,
             "color_identity": "B",
             "cost": "{1}{B}",
-            "rules_text": "Ward\u2013Pay 2 life\nWhenever one or more creature cards leave or are put into your graveyard from anywhere, put that many charge counters on Mr. Aldrand. Then if there are twenty or more counters on him, you win the game.",
+            "rules_text": "Ward\u2013Pay 2 life\nWhenever one or more creature cards leave or are put into your graveyard from anywhere, put that many charge counters on Mr. Aldrand. Then if there are twenty-five or more counters on him, you win the game.",
             "flavor_text": "[i][/i]",
             "pt": "2/2",
             "special_text": "",
@@ -3183,7 +3183,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Travis Anderson",
-            "notes": "reduced to 20 to win, oct 29th, 2025.",
+            "notes": "",
             "image_type": "png"
         },
         {
@@ -3459,7 +3459,7 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "Matt Forsyth",
-            "notes": "",
+            "notes": "Sep 7, 2025: simplified front.",
             "image_type": "png"
         },
         {
@@ -4041,7 +4041,7 @@
             "number": 221,
             "color_identity": "WG",
             "cost": "{1}{G}{W}",
-            "rules_text": "Search your library for a creature or land card, reveal it and put it into your hand, then shuffle. \nGain 3 life, then exile this spell.",
+            "rules_text": "Search your library for a creature or land card, reveal it and put it into your hand, then shuffle. \nYou gain 3 life, then exile this spell.",
             "flavor_text": "[i]Instead of using insects to catch fish, fishers now used fish to catch birds.[/i]",
             "pt": "",
             "special_text": "",
@@ -4049,7 +4049,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "KescAlis",
-            "notes": "Revised May 18th, 2025, after getting feedback in project channel; removed option of searching for Fossil cards.",
+            "notes": "",
             "image_type": "png"
         },
         {
@@ -4125,7 +4125,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Ann Gillette",
-            "notes": "",
+            "notes": "Reworked August 25th, 2025",
             "image_type": "png"
         },
         {
@@ -4258,7 +4258,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Ondrej Hrdina",
-            "notes": "",
+            "notes": "August 17th: Changed cost of aa to 1 and tap, and changed scry to draw for on enter ability.",
             "image_type": "png"
         },
         {
@@ -4783,7 +4783,7 @@
             "number": 227,
             "color_identity": "UBR",
             "cost": "{2}{U}{B}",
-            "rules_text": "When this enters, surveil 3, then draw two cards and lose 2 life.\nBoneborn {2}{U}{B}{R} [i]({2}{U}{B}{R}, Exile a creature card from your graveyard or sacrifice a creature: Transform this permanent. Activate only as a sorcery.)[/i]",
+            "rules_text": "When this enters, surveil 3, then you draw two cards and lose 2 life.\nBoneborn {2}{U}{B}{R} [i]({2}{U}{B}{R}, Exile a creature card from your graveyard or sacrifice a creature: Transform this permanent. Activate only as a sorcery.)[/i]",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -4858,7 +4858,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Vimes Art",
-            "notes": "",
+            "notes": "August 14th, 2025: Changed first strike to trample.",
             "image_type": "png"
         },
         {
@@ -5458,7 +5458,7 @@
             "number": 19,
             "color_identity": "C",
             "cost": "",
-            "rules_text": "{2}, Sacrifice this artifact: Gain 3 life.",
+            "rules_text": "{2}, Sacrifice this artifact: You gain 3 life.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -5933,7 +5933,7 @@
             "number": 6,
             "color_identity": "W",
             "cost": "{1}{W}{W}",
-            "rules_text": "Ward {2} against creatures [i](Whenever this creature becomes the target of an ability of a creature an opponent controls, counter it unless that player pays {2}.)[/i]\nAt the beginning of combat on your turn, this creature gains flying and gets +1/+0 until end of turn.",
+            "rules_text": "At the beginning of combat on your turn, this creature gains flying and gets +1/+0 until end of turn.",
             "flavor_text": "[i]A classified squadron of daredevil magic users and fighters, mysterious but inspirational.[/i]",
             "pt": "2/2",
             "special_text": "",
@@ -5941,7 +5941,7 @@
             "set": "WCD",
             "loyalty": "",
             "artist": "Nick Utkin \u2014 Fogart",
-            "notes": "",
+            "notes": "Removed ward ability on November 2nd, 2025.",
             "image_type": "png"
         },
         {
@@ -5990,7 +5990,7 @@
             "number": 11,
             "color_identity": "W",
             "cost": "{4}{W}",
-            "rules_text": "Masquerade {W} [i](You may cast this card face down for {3} as a 2/2 creature with ward\u2013Sacrifice a permanent. Turn it face up any time for its masquerade cost.)[/i]\nVigilance",
+            "rules_text": "Masquerade {1}{W} [i](You may cast this card face down for {3} as a 2/2 creature with ward\u2013Sacrifice a permanent. Turn it face up any time for its masquerade cost.)[/i]\nVigilance",
             "flavor_text": "[i][/i]",
             "pt": "4/4",
             "special_text": "",
@@ -5998,7 +5998,7 @@
             "set": "WCD",
             "loyalty": "",
             "artist": "Sonderflex",
-            "notes": "",
+            "notes": "Masquerade cost raised from W to 1W on November 8th, 2025.",
             "image_type": "png"
         },
         {
@@ -6104,7 +6104,7 @@
             "number": 13,
             "color_identity": "W",
             "cost": "{2}{W}",
-            "rules_text": "Enchant creature\nEnchanted creature has \u201c{T}: Gain X life, or prevent the next X damage that would be dealt to another target creature this turn, where X is this creature's power.\u201d",
+            "rules_text": "Enchant creature\nEnchanted creature has \u201c{T}: You gain X life, or prevent the next X damage that would be dealt to another target creature this turn, where X is this creature's power.\u201d",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -6282,8 +6282,8 @@
             "shape": "normal",
             "set": "WCD",
             "loyalty": "",
-            "artist": "Aleksandra Wojtas",
-            "notes": "Will need to replace art before formal submission to MSEM, as there's a card with this art already.",
+            "artist": "Suzanne Helmigh",
+            "notes": "",
             "image_type": "png"
         },
         {
@@ -6655,7 +6655,7 @@
             "number": 113,
             "color_identity": "B",
             "cost": "{1}{B}{B}",
-            "rules_text": "Menace\nWhenever another creature dies, you may switch this creature's power and toughness until end of turn. This ability triggers only once each turn.",
+            "rules_text": "Menace\nWhenever a creature dealt damage by this creature this turn dies, that creature's controller loses 1 life and you gain 1 life.",
             "flavor_text": "[i]The only evidence he needed was a taste of the victim's flesh.[/i]",
             "pt": "2/4",
             "special_text": "",
@@ -6663,7 +6663,7 @@
             "set": "WCD",
             "loyalty": "",
             "artist": "Eryk Szczygiel",
-            "notes": "",
+            "notes": "Changed November 1st, 2025; pow/tou switching ability replaced by a sengir-esque drain ability (also synergizes with Jack of Ripped Hearts and Prideful Executioner).",
             "image_type": "png"
         },
         {
@@ -6731,7 +6731,7 @@
             "number": 97,
             "color_identity": "B",
             "cost": "{1}{B}",
-            "rules_text": "When this creature enters, draw a card and lose 1 life.",
+            "rules_text": "When this creature enters, draw a card and you lose 1 life.",
             "flavor_text": "[i]Wroszy insisted on keeping records of every customer and employee \u2014 mostly for future blackmail opportunities.[/i]",
             "pt": "1/2",
             "special_text": "",
@@ -6769,7 +6769,7 @@
             "number": 105,
             "color_identity": "B",
             "cost": "{1}{B}",
-            "rules_text": "Whenever you turn a face-down creature face-up, each opponent loses 1 life and you gain 1 life.",
+            "rules_text": "Whenever you turn a face-down permanent face-up, each opponent loses 1 life and you gain 1 life.",
             "flavor_text": "[i]\u201cThe thing is,\u201d Savani whispered, \u201cyou might not like what you find under the mask.\u201d[/i]",
             "pt": "",
             "special_text": "",
@@ -6777,7 +6777,7 @@
             "set": "WCD",
             "loyalty": "",
             "artist": "YunaXD",
-            "notes": "",
+            "notes": "changed 'creature' to 'permanent', Nov 1st 2025.",
             "image_type": "png"
         },
         {
@@ -6788,7 +6788,7 @@
             "number": 100,
             "color_identity": "B",
             "cost": "{1}{B}{B}",
-            "rules_text": "This spell costs {1} less to cast if an opponent was dealt combat damage this turn.\nEach opponent discards two cards.",
+            "rules_text": "This spell costs {1} less to cast if an opponent was dealt combat damage this turn.\nTarget opponent exiles two cards from their hand.",
             "flavor_text": "[i]A sealed-off relic of a time long ago when beings from beyond reality tormented the plane.[/i]",
             "pt": "",
             "special_text": "",
@@ -6796,7 +6796,7 @@
             "set": "WCD",
             "loyalty": "",
             "artist": "cristiano Reina",
-            "notes": "",
+            "notes": "Changed it from 'Each opponent' to 'Target opponent', Oct. 31st, 2025. And to exile instead of discard, same day.",
             "image_type": "png"
         },
         {
@@ -6883,7 +6883,7 @@
             "number": 91,
             "color_identity": "B",
             "cost": "{2}{B}{B}",
-            "rules_text": "Practiced [i](This spell costs {1} less to cast for each creature you've attacked with this turn.)[/i]\nSurveil 2, then draw two cards and lose 2 life.",
+            "rules_text": "Practiced [i](This spell costs {1} less to cast for each creature you've attacked with this turn.)[/i]\nSurveil 2, then draw two cards and you lose 2 life.",
             "flavor_text": "[i]Eating brains was a genius idea.[/i]",
             "pt": "",
             "special_text": "",
@@ -7054,7 +7054,7 @@
             "number": 147,
             "color_identity": "R",
             "cost": "{1}{R}",
-            "rules_text": "When this creature enters, choose one. If you attacked with two or more other creatures this turn, you may choose both. \u2013\n\u2022 Create a tapped Treasure token.\n\u2022 Put a +1/+1 counter on another target creature.",
+            "rules_text": "When this creature enters, choose one. If you attacked with two or more creatures this turn, you may choose both. \u2013\n\u2022 Create a tapped Treasure token.\n\u2022 Put a +1/+1 counter on another target creature.",
             "flavor_text": "[i][/i]",
             "pt": "2/1",
             "special_text": "",
@@ -7814,7 +7814,7 @@
             "number": 15,
             "color_identity": "W",
             "cost": "{1}{W}",
-            "rules_text": "Ward {1}\nWhen this enchantment enters, exile target creature until this leaves the battlefield.",
+            "rules_text": "Ward {1}\nWhen this enchantment enters, exile target creature you don't control until this leaves the battlefield.",
             "flavor_text": "[i]Only the highest level of officials at Azansoot Prison knew its real layout.[/i]",
             "pt": "",
             "special_text": "",
@@ -8005,14 +8005,14 @@
             "color_identity": "U",
             "cost": "{1}{U}",
             "rules_text": "Create a token copy of target Rogue creature.",
-            "flavor_text": "[i]ft???[/i]",
+            "flavor_text": "[i]\u201cYou think we need one more...All right, we'll get one more.\u201d[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "WCD",
             "loyalty": "",
             "artist": "Jarod Erwin",
-            "notes": "",
+            "notes": "Proper flavor text added November First, 2025.",
             "image_type": "png"
         },
         {
@@ -8068,8 +8068,8 @@
             "shape": "normal",
             "set": "WCD",
             "loyalty": "",
-            "artist": "Julia Zhuravleva",
-            "notes": "Will need to replace art before submission to MSEM, as this art is already in use on a card there ('Masuerading Bohemian').",
+            "artist": "Yami no Kuni",
+            "notes": "",
             "image_type": "png"
         },
         {
@@ -8080,7 +8080,7 @@
             "number": 87,
             "color_identity": "B",
             "cost": "{1}{B}",
-            "rules_text": "First strike\nWhenever this creature attacks with one or more other Rogues, you may pay {1}{B}. If you do, target creature gets -1/-1 until end of turn.",
+            "rules_text": "First strike\nWhenever this creature attacks with one or more other Rogues, you may pay {B}. If you do, target creature gets -1/-1 until end of turn.",
             "flavor_text": "[i]Many thought this sharpshooter used some kind of magic, but it was all skill and luck.[/i]",
             "pt": "2/1",
             "special_text": "",
@@ -8088,7 +8088,7 @@
             "set": "WCD",
             "loyalty": "",
             "artist": "YC Carter",
-            "notes": "",
+            "notes": "Reduced triggered ability cost by 1, on November 1st, 2025.",
             "image_type": "png"
         },
         {
@@ -8213,7 +8213,7 @@
             "number": 101,
             "color_identity": "B",
             "cost": "{2}{B}",
-            "rules_text": "Surveil 1, then draw a card and lose 1 life, then choose one \u2013\n\u2022 Draw a card and lose 1 life.\n\u2022 The next face-down spell you cast this turn costs {3} less to cast.",
+            "rules_text": "Surveil 1, then you draw a card and lose 1 life.\nChoose one \u2013\n\u2022 You draw a card and lose 1 life.\n\u2022 The next face-down spell you cast this turn costs {3} less to cast.",
             "flavor_text": "[i]\u201cThere are some secrets better left unlearned.\u201d[/i]",
             "pt": "",
             "special_text": "",
@@ -8221,7 +8221,7 @@
             "set": "WCD",
             "loyalty": "",
             "artist": "Rob Laskey",
-            "notes": "",
+            "notes": "Card syntax and ordering revised, November 1st 2025.",
             "image_type": "png"
         },
         {
@@ -8232,7 +8232,7 @@
             "number": 128,
             "color_identity": "R",
             "cost": "{1}{R}",
-            "rules_text": "Haste\nEquip abilities that target Crykal cost {1} less to activate for every Equipment attached to him.",
+            "rules_text": "Haste\nEquip abilities that target Crykal cost {X} less to activate, where X is 1 plus the number of Equipment attached to him.",
             "flavor_text": "[i]\u201cI will warn you once, Mr. Eyrik. I always get the kill, and I do not deviate from the contract.\u201d[/i]",
             "pt": "2/2",
             "special_text": "",
@@ -8240,7 +8240,7 @@
             "set": "WCD",
             "loyalty": "",
             "artist": "Grafit Studio",
-            "notes": "",
+            "notes": "Slightly improved, November 7th, 2025.",
             "image_type": "png"
         },
         {
@@ -8764,7 +8764,7 @@
             "number": 51,
             "color_identity": "U",
             "cost": "{1}{U}{U}",
-            "rules_text": "Ward {2}\nWhenever the first spell is cast each turn, scry 1.\nWhenever the second spell is cast each turn, this creature can't be blocked until end of turn. \nWhenever the third spell is cast each turn, this creature gets +2/+2 until end of turn.",
+            "rules_text": "Ward {2}\nWhenever the first spell is cast each turn, scry 1.\nWhenever the second spell is cast each turn, this creature can't be blocked until end of turn.\nWhenever the third spell is cast each turn, this creature gets +2/+2 until end of turn.",
             "flavor_text": "[i][/i]",
             "pt": "2/3",
             "special_text": "",
@@ -9638,7 +9638,7 @@
             "number": 225,
             "color_identity": "WU",
             "cost": "{W}{U}",
-            "rules_text": "Choose up to two.\n\u2022 Target creature you control gains hexproof until end of turn.\n\u2022 Untap up to one target nonland permanent.\n\u2022 Detain target creature. [i](Until your next turn, that creature can't attack or block and its activated abilities can't be activated.)[/i]\n\u2022 Gain 3 life.",
+            "rules_text": "Choose up to two.\n\u2022 Target creature you control gains hexproof until end of turn.\n\u2022 Untap up to one target nonland permanent.\n\u2022 Detain target creature. [i](Until your next turn, that creature can't attack or block and its activated abilities can't be activated.)[/i]\n\u2022 You gain 3 life.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -9676,7 +9676,7 @@
             "number": 206,
             "color_identity": "BR",
             "cost": "{4}{B}{R}",
-            "rules_text": "Practiced [i](This spell costs {1} less to cast for each creature you've attacked with this turn.)[/i]\nHaste\nAt the beginning of your end step, if a creature died this turn, draw two cards, then discard a card and lose 1 life.",
+            "rules_text": "Practiced [i](This spell costs {1} less to cast for each creature you've attacked with this turn.)[/i]\nHaste\nAt the beginning of your end step, if a creature died this turn, draw two cards, then discard a card and you lose 1 life.",
             "flavor_text": "[i][/i]",
             "pt": "5/4",
             "special_text": "",
@@ -10341,7 +10341,7 @@
             "number": 103,
             "color_identity": "B",
             "cost": "{B}",
-            "rules_text": "Each opponent reveals their hand. You choose a nonland card from it. That player discards that card unless they sacrifice a nontoken creature.",
+            "rules_text": "Each opponent reveals their hand. For each opponent, choose a nonland card revealed this way. Those players discard the chosen cards unless they sacrifice a nontoken creature.",
             "flavor_text": "[i]As freedom grew closer, so did the horrors on either side.[/i]",
             "pt": "",
             "special_text": "",
@@ -10349,7 +10349,7 @@
             "set": "WCD",
             "loyalty": "",
             "artist": "Luciano Fleitas",
-            "notes": "",
+            "notes": "Fine-tuned wording on Nov 7th, 2025.",
             "image_type": "png"
         },
         {
@@ -10382,12 +10382,12 @@
             "rules_text": "",
             "flavor_text": "[i][/i]",
             "pt": "",
-            "special_text": "[i](When this Inquest enters, at the beginning of your upkeep, and when a permanent you control is destroyed, put an evidence counter on it. Sacrifice after III.)[/i]\nI \u2013 Exile up to one other target nonland permanent until this leaves the battlefield.\nII \u2013 Scry 3, then gain 3 life.\nIII \u2013 Destroy target permanent you don't control.",
+            "special_text": "[i](When this Inquest enters, at the beginning of your upkeep, and when a permanent you control is destroyed, put an evidence counter on it. Sacrifice after III.)[/i]\nI \u2013 Exile up to one other target nonland permanent until this leaves the battlefield.\nII \u2013 Scry 3, then you gain 3 life.\nIII \u2013 Create a Writ colorless artifact token with \u201cSacrifice this token: Destroy target permanent you don't control.\u201d",
             "shape": "saga",
             "set": "WCD",
             "loyalty": "",
             "artist": "EnnuiShao",
-            "notes": "",
+            "notes": "Revised 3rd ability to allow it to remove what first exiles. Nov 2nd, 2025.",
             "image_type": "png"
         },
         {
@@ -10416,7 +10416,7 @@
             "type": "Legendary Planeswalker \u2013 Zanri",
             "number": 82,
             "color_identity": "U",
-            "cost": "{3}{U}{U}",
+            "cost": "{2}{U}{U}",
             "rules_text": "",
             "flavor_text": "[i][/i]",
             "pt": "",
@@ -10425,7 +10425,7 @@
             "set": "WCD",
             "loyalty": "5",
             "artist": "Carlos Cabrera",
-            "notes": "",
+            "notes": "Cost lowered from 3UU to 2UU, november 7th, 2025.",
             "image_type": "png"
         },
         {
@@ -10591,12 +10591,12 @@
             "rules_text": "",
             "flavor_text": "[i][/i]",
             "pt": "",
-            "special_text": "[i](When this Inquest enters, at the beginning of your upkeep, and when a permanent you control is destroyed, put an evidence counter on it. Sacrifice after III.)[/i]\nTarget creature or planeswalker's controller sacrifices it.\nDiscard two cards, then exile your graveyard.\nReturn target creature card from a graveyard to the battlefield under your control with a finality counter on it.",
+            "special_text": "[i](When this Inquest enters, at the beginning of your upkeep, and when a permanent you control is destroyed, put an evidence counter on it. Sacrifice after III.)[/i]\nTarget creature or planeswalker's controller sacrifices it.\nDiscard a card, then exile your graveyard.\nReturn target creature card from a graveyard to the battlefield under your control with a finality counter on it.",
             "shape": "saga",
             "set": "WCD",
             "loyalty": "",
             "artist": "Emicathe",
-            "notes": "!exportname Charge \u2014 Failure",
+            "notes": "!exportname Charge \u2014 Failure\n\nChanged to only force one discard, rather than two. Nov 1st, 2025.",
             "image_type": "png"
         },
         {
@@ -11204,6 +11204,25 @@
             "set": "WCD",
             "loyalty": "",
             "artist": "David Frasheski",
+            "notes": "",
+            "image_type": "png"
+        },
+        {
+            "card_name": "Writ",
+            "color": "",
+            "rarity": "common",
+            "type": "Token Artifact",
+            "number": 25,
+            "color_identity": "C",
+            "cost": "",
+            "rules_text": "Sacrifice this token: Destroy target permanent you don't control.",
+            "flavor_text": "[i][/i]",
+            "pt": "",
+            "special_text": "",
+            "shape": "token",
+            "set": "WCD",
+            "loyalty": "",
+            "artist": "Piotr Uzdowski",
             "notes": "",
             "image_type": "png"
         }

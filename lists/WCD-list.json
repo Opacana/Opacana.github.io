@@ -1747,6 +1747,12 @@
         "set": "WCD"
     },
     {
+        "card_name": "Writ",
+        "number": 25,
+        "shape": "token",
+        "set": "WCD"
+    },
+    {
         "card_name": "Cat",
         "number": 1,
         "shape": "token",
@@ -1853,9 +1859,6 @@
         "number": 18,
         "shape": "token",
         "set": "WCD"
-    },
-    {
-        "card_name": "e"
     },
     {
         "card_name": "er"

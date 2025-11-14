@@ -1,4 +1,73 @@
-﻿VERSION 3 CHANGELOG
+﻿VERSION 4 CHANGELOG
+====================
+
+
+
+Death's Hall Caretaker
+
+Shackled to the Forge
+
+Sandstone Town Gunsmith
+
+Vainglory Phoenix
+
+Dour Wanderer
+
+Flower Cart
+
+Skunkworks Darter
+
+Identifying the Villainous
+rules_text: Choose target creature you don't control. When that creature dies this turn, draw two cards and gain life equal to its power.
+Boarding [i](Then if this spell was cast from your hand, exile it as it resolves. Cast it on any turn a creature you control dealt combat damage to an opponent.)[/i] => Choose target creature you don't control. When that creature dies this turn, you draw two cards and gain life equal to its power.
+Boarding [i](Then if this spell was cast from your hand, exile it as it resolves. Cast it on any turn a creature you control dealt combat damage to an opponent.)[/i]
+
+Skull of the Last Hunter
+
+Giant Corpseseeker
+rules_text: This spell costs {X} less to cast, where X is the number of creatures that died this turn.
+Trample
+When this creature enters, mill two cards and gain 2 life. => This spell costs {X} less to cast, where X is the number of creatures that died this turn.
+Trample
+When this creature enters, mill two cards and you gain 2 life.
+
+Reach the Legendary City
+
+Adult Venipula
+rules_text: Flying
+When this creature enters, it explores once for each opponent.
+This creature can only be blocked by token creatures or creatures named Adult Venipula. => Flying
+When this creature enters, it explores once for each opponent.
+This creature can only be blocked by creature tokens or creatures named Adult Venipula.
+
+Mr. Aldrand, Eternal Patron
+rules_text: Ward—Pay 2 life
+Whenever one or more creature cards leave or are put into your graveyard from anywhere, put that many charge counters on Mr. Aldrand. Then if there are twenty or more counters on him, you win the game. => Ward—Pay 2 life
+Whenever one or more creature cards leave or are put into your graveyard from anywhere, put that many charge counters on Mr. Aldrand. Then if there are twenty-five or more counters on him, you win the game.
+
+Kidar, Seeking Justice
+
+Fishing from the Docks
+rules_text: Search your library for a creature or land card, reveal it and put it into your hand, then shuffle. 
+Gain 3 life, then exile this spell. => Search your library for a creature or land card, reveal it and put it into your hand, then shuffle. 
+You gain 3 life, then exile this spell.
+
+Yolaira, Linkmistress
+
+Ancient Waystone
+
+Monster of Lake Dread
+rules_text: When this enters, surveil 3, then draw two cards and lose 2 life.
+Boneborn {2}{U}{B}{R} [i]({2}{U}{B}{R}, Exile a creature card from your graveyard or sacrifice a creature: Transform this permanent. Activate only as a sorcery.)[/i] => When this enters, surveil 3, then you draw two cards and lose 2 life.
+Boneborn {2}{U}{B}{R} [i]({2}{U}{B}{R}, Exile a creature card from your graveyard or sacrifice a creature: Transform this permanent. Activate only as a sorcery.)[/i]
+
+A Touch of Home
+
+Food
+rules_text: {2}, Sacrifice this artifact: Gain 3 life. => {2}, Sacrifice this artifact: You gain 3 life.
+
+
+VERSION 3 CHANGELOG
 ====================
 
 Bird added.

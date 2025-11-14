@@ -7,7 +7,7 @@
 			"type": "Creature — Rabbit Peasant",
 			"collector_number": "36",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/36_Travelling Chef.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/36_Travelling Chef.png"
 			}
 		},
 		{
@@ -17,7 +17,7 @@
 			"type": "Creature — Griffin",
 			"collector_number": "6",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/6_Bonded Griffin.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/6_Bonded Griffin.png"
 			}
 		},
 		{
@@ -27,7 +27,7 @@
 			"type": "Creature — Human Soldier",
 			"collector_number": "20",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/20_Julescan Infantry.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/20_Julescan Infantry.png"
 			}
 		},
 		{
@@ -37,7 +37,7 @@
 			"type": "Creature — Rabbit Soldier Mercenary",
 			"collector_number": "27",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/27_Principled Sellpaw.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/27_Principled Sellpaw.png"
 			}
 		},
 		{
@@ -47,7 +47,7 @@
 			"type": "Creature — Griffin",
 			"collector_number": "37",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/37_Vengeant Griffin.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/37_Vengeant Griffin.png"
 			}
 		},
 		{
@@ -57,7 +57,7 @@
 			"type": "Creature — Phoenix",
 			"collector_number": "11",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/11_Darkwing Hatchling.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/11_Darkwing Hatchling.png"
 			}
 		},
 		{
@@ -67,7 +67,7 @@
 			"type": "Creature — Rabbit Monk Rogue",
 			"collector_number": "1",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/1_Adept of the Path of Candor.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/1_Adept of the Path of Candor.png"
 			}
 		},
 		{
@@ -77,7 +77,7 @@
 			"type": "Creature — Human Scout",
 			"collector_number": "26",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/26_Prepared Guide.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/26_Prepared Guide.png"
 			}
 		},
 		{
@@ -87,7 +87,7 @@
 			"type": "Creature — Human Soldier",
 			"collector_number": "40",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/40_Volunteer Militia.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/40_Volunteer Militia.png"
 			}
 		},
 		{
@@ -97,7 +97,7 @@
 			"type": "Creature — Cat",
 			"collector_number": "3",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/3_Alpha Tigress.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/3_Alpha Tigress.png"
 			}
 		},
 		{
@@ -107,7 +107,7 @@
 			"type": "Sorcery",
 			"collector_number": "21",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/21_Lakeside Watch.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/21_Lakeside Watch.png"
 			}
 		},
 		{
@@ -117,7 +117,7 @@
 			"type": "Artifact — Vehicle",
 			"collector_number": "17",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/17_Iceberg Monitor.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/17_Iceberg Monitor.png"
 			}
 		},
 		{
@@ -127,7 +127,7 @@
 			"type": "Sorcery",
 			"collector_number": "35",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/35_Surge of Determination.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/35_Surge of Determination.png"
 			}
 		},
 		{
@@ -137,7 +137,7 @@
 			"type": "Sorcery",
 			"collector_number": "14",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/14_Firing Drills.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/14_Firing Drills.png"
 			}
 		},
 		{
@@ -147,7 +147,7 @@
 			"type": "Instant",
 			"collector_number": "33",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/33_Sit This One Out.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/33_Sit This One Out.png"
 			}
 		},
 		{
@@ -157,7 +157,7 @@
 			"type": "Instant",
 			"collector_number": "28",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/28_Pull Aetherstrings.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/28_Pull Aetherstrings.png"
 			}
 		},
 		{
@@ -167,7 +167,7 @@
 			"type": "Enchantment",
 			"collector_number": "39",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/39_Vineyard Tour.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/39_Vineyard Tour.png"
 			}
 		},
 		{
@@ -177,7 +177,7 @@
 			"type": "Sorcery",
 			"collector_number": "15",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/15_General's Briefing.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/15_General's Briefing.png"
 			}
 		},
 		{
@@ -187,7 +187,7 @@
 			"type": "Creature — Beast Bird",
 			"collector_number": "24",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/24_Omenstoat Pack.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/24_Omenstoat Pack.png"
 			}
 		},
 		{
@@ -197,7 +197,7 @@
 			"type": "Creature — Human Detective",
 			"collector_number": "58",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/58_Hired Investigator.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/58_Hired Investigator.png"
 			}
 		},
 		{
@@ -207,7 +207,7 @@
 			"type": "Creature — Human Artificer Pirate",
 			"collector_number": "61",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/61_Indomitable Tinkerer.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/61_Indomitable Tinkerer.png"
 			}
 		},
 		{
@@ -217,7 +217,7 @@
 			"type": "Creature — Griffin",
 			"collector_number": "77",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/77_Shipwake Griffin.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/77_Shipwake Griffin.png"
 			}
 		},
 		{
@@ -227,7 +227,7 @@
 			"type": "Creature — Human Soldier Artificer",
 			"collector_number": "69",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/69_Navy Junior Engineer.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/69_Navy Junior Engineer.png"
 			}
 		},
 		{
@@ -237,7 +237,7 @@
 			"type": "Creature — Human Soldier",
 			"collector_number": "57",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/57_Gunner Crew.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/57_Gunner Crew.png"
 			}
 		},
 		{
@@ -247,7 +247,7 @@
 			"type": "Creature — Human Monk",
 			"collector_number": "71",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/71_Passwall Rassaphore.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/71_Passwall Rassaphore.png"
 			}
 		},
 		{
@@ -257,7 +257,7 @@
 			"type": "Creature — Whale",
 			"collector_number": "48",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/48_Curious Skywhale.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/48_Curious Skywhale.png"
 			}
 		},
 		{
@@ -267,7 +267,7 @@
 			"type": "Creature — Human Mercenary",
 			"collector_number": "52",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/52_Dour Chauffeur.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/52_Dour Chauffeur.png"
 			}
 		},
 		{
@@ -277,7 +277,7 @@
 			"type": "Creature — Human Wizard Soldier",
 			"collector_number": "67",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/67_Lemaugean Negator.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/67_Lemaugean Negator.png"
 			}
 		},
 		{
@@ -287,7 +287,7 @@
 			"type": "Sorcery",
 			"collector_number": "74",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/74_Refile.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/74_Refile.png"
 			}
 		},
 		{
@@ -297,7 +297,7 @@
 			"type": "Enchantment — Aura",
 			"collector_number": "53",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/53_Enchanted Parasol.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/53_Enchanted Parasol.png"
 			}
 		},
 		{
@@ -307,7 +307,7 @@
 			"type": "Instant",
 			"collector_number": "46",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/46_Annul.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/46_Annul.png"
 			}
 		},
 		{
@@ -317,7 +317,7 @@
 			"type": "Instant",
 			"collector_number": "63",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/63_Island Hopping.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/63_Island Hopping.png"
 			}
 		},
 		{
@@ -327,7 +327,7 @@
 			"type": "Sorcery",
 			"collector_number": "76",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/76_Salvage Mission.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/76_Salvage Mission.png"
 			}
 		},
 		{
@@ -340,11 +340,11 @@
 				"name": "",
 				"type": "",
 				"image_uris": {
-					"en": "https://Custom-MtG-Sets/sets/AVA-files/img/60_Icebound Remains_back.png"
+					"en": "https://Opacana.github.io/sets/AVA-files/img/60_Icebound Remains_back.png"
 				}
 			},
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/60_Icebound Remains_front.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/60_Icebound Remains_front.png"
 			}
 		},
 		{
@@ -354,7 +354,7 @@
 			"type": "Instant",
 			"collector_number": "84",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/84_Unplanned Landing.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/84_Unplanned Landing.png"
 			}
 		},
 		{
@@ -364,7 +364,7 @@
 			"type": "Artifact — Vehicle",
 			"collector_number": "59",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/59_Hulldrifter.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/59_Hulldrifter.png"
 			}
 		},
 		{
@@ -374,7 +374,7 @@
 			"type": "Instant",
 			"collector_number": "55",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/55_Gestalt Shock.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/55_Gestalt Shock.png"
 			}
 		},
 		{
@@ -384,7 +384,7 @@
 			"type": "Creature — Human Rogue Wizard",
 			"collector_number": "106",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/106_Midnight Card Sharp.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/106_Midnight Card Sharp.png"
 			}
 		},
 		{
@@ -394,7 +394,7 @@
 			"type": "Creature — Human Pirate Warrior",
 			"collector_number": "100",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/100_Grim Harpooner.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/100_Grim Harpooner.png"
 			}
 		},
 		{
@@ -404,7 +404,7 @@
 			"type": "Creature — Horror",
 			"collector_number": "97",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/97_Escaped Experiment.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/97_Escaped Experiment.png"
 			}
 		},
 		{
@@ -414,7 +414,7 @@
 			"type": "Creature — Human Doctor",
 			"collector_number": "128",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/128_Unscrupulous Surgeon.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/128_Unscrupulous Surgeon.png"
 			}
 		},
 		{
@@ -424,7 +424,7 @@
 			"type": "Creature — Rabbit Rogue Warlock",
 			"collector_number": "90",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/90_Caelarian Shadowsprinter.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/90_Caelarian Shadowsprinter.png"
 			}
 		},
 		{
@@ -434,7 +434,7 @@
 			"type": "Creature — Human Rogue Warlock",
 			"collector_number": "114",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/114_Rogue Ornithologist.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/114_Rogue Ornithologist.png"
 			}
 		},
 		{
@@ -444,7 +444,7 @@
 			"type": "Creature — Human Pirate",
 			"collector_number": "89",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/89_Burly Executioner.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/89_Burly Executioner.png"
 			}
 		},
 		{
@@ -454,7 +454,7 @@
 			"type": "Creature — Human Peasant",
 			"collector_number": "93",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/93_Death's Hall Caretaker.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/93_Death's Hall Caretaker.png"
 			}
 		},
 		{
@@ -464,7 +464,7 @@
 			"type": "Creature — Rat Mutant",
 			"collector_number": "99",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/99_Giant Rat.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/99_Giant Rat.png"
 			}
 		},
 		{
@@ -474,7 +474,7 @@
 			"type": "Creature — Human Rogue",
 			"collector_number": "91",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/91_Contemplative Crime Lord.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/91_Contemplative Crime Lord.png"
 			}
 		},
 		{
@@ -484,7 +484,7 @@
 			"type": "Kindred Artifact — Pirate Vehicle",
 			"collector_number": "122",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/122_Stolen Wasp-Class.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/122_Stolen Wasp-Class.png"
 			}
 		},
 		{
@@ -494,7 +494,7 @@
 			"type": "Instant",
 			"collector_number": "123",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/123_Sulfurous Clouds.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/123_Sulfurous Clouds.png"
 			}
 		},
 		{
@@ -504,7 +504,7 @@
 			"type": "Instant",
 			"collector_number": "120",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/120_Shadowblood Inoculation.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/120_Shadowblood Inoculation.png"
 			}
 		},
 		{
@@ -514,7 +514,7 @@
 			"type": "Sorcery",
 			"collector_number": "110",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/110_Puppeteer's Grace.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/110_Puppeteer's Grace.png"
 			}
 		},
 		{
@@ -524,7 +524,7 @@
 			"type": "Enchantment — Aura",
 			"collector_number": "118",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/118_Shackled to the Forge.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/118_Shackled to the Forge.png"
 			}
 		},
 		{
@@ -534,7 +534,7 @@
 			"type": "Instant",
 			"collector_number": "126",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/126_Umbral Teachings.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/126_Umbral Teachings.png"
 			}
 		},
 		{
@@ -547,11 +547,11 @@
 				"name": "",
 				"type": "",
 				"image_uris": {
-					"en": "https://Custom-MtG-Sets/sets/AVA-files/img/101_Hoard of Bones_back.png"
+					"en": "https://Opacana.github.io/sets/AVA-files/img/101_Hoard of Bones_back.png"
 				}
 			},
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/101_Hoard of Bones_front.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/101_Hoard of Bones_front.png"
 			}
 		},
 		{
@@ -561,7 +561,7 @@
 			"type": "Sorcery",
 			"collector_number": "108",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/108_Necromancer's Experiments.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/108_Necromancer's Experiments.png"
 			}
 		},
 		{
@@ -571,7 +571,7 @@
 			"type": "Enchantment — Aura",
 			"collector_number": "111",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/111_Real Green Dress.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/111_Real Green Dress.png"
 			}
 		},
 		{
@@ -581,7 +581,7 @@
 			"type": "Creature — Human Pirate",
 			"collector_number": "132",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/132_Ambitious Shiftmaster.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/132_Ambitious Shiftmaster.png"
 			}
 		},
 		{
@@ -591,7 +591,7 @@
 			"type": "Creature — Human Artificer Advisor",
 			"collector_number": "163",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/163_Sandstone Town Gunsmith.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/163_Sandstone Town Gunsmith.png"
 			}
 		},
 		{
@@ -601,7 +601,7 @@
 			"type": "Creature — Phoenix",
 			"collector_number": "156",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/156_Needle Peak Phoenix.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/156_Needle Peak Phoenix.png"
 			}
 		},
 		{
@@ -611,7 +611,7 @@
 			"type": "Creature — Phoenix",
 			"collector_number": "170",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/170_Vainglory Phoenix.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/170_Vainglory Phoenix.png"
 			}
 		},
 		{
@@ -621,7 +621,7 @@
 			"type": "Creature — Fish Beast",
 			"collector_number": "141",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/141_Deepvent Feeder.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/141_Deepvent Feeder.png"
 			}
 		},
 		{
@@ -631,7 +631,7 @@
 			"type": "Creature — Human Pirate",
 			"collector_number": "137",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/137_Cannonhauler Deckhand.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/137_Cannonhauler Deckhand.png"
 			}
 		},
 		{
@@ -641,7 +641,7 @@
 			"type": "Creature — Boar",
 			"collector_number": "171",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/171_Vurushod Alpha.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/171_Vurushod Alpha.png"
 			}
 		},
 		{
@@ -651,7 +651,7 @@
 			"type": "Creature — Human Mercenary",
 			"collector_number": "147",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/147_Fresh-Faced Mercenary.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/147_Fresh-Faced Mercenary.png"
 			}
 		},
 		{
@@ -661,7 +661,7 @@
 			"type": "Creature — Human Barbarian",
 			"collector_number": "155",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/155_Modified Pit Fighter.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/155_Modified Pit Fighter.png"
 			}
 		},
 		{
@@ -671,7 +671,7 @@
 			"type": "Creature — Cat Human Warrior",
 			"collector_number": "131",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/131_Aezori Hunting Pair.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/131_Aezori Hunting Pair.png"
 			}
 		},
 		{
@@ -681,7 +681,7 @@
 			"type": "Creature — Bird",
 			"collector_number": "134",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/134_Ancient Sunspot Owl.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/134_Ancient Sunspot Owl.png"
 			}
 		},
 		{
@@ -691,7 +691,7 @@
 			"type": "Sorcery",
 			"collector_number": "130",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/130_Aerial Bombardment.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/130_Aerial Bombardment.png"
 			}
 		},
 		{
@@ -701,7 +701,7 @@
 			"type": "Artifact — Equipment",
 			"collector_number": "167",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/167_Stick Hand Grenade.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/167_Stick Hand Grenade.png"
 			}
 		},
 		{
@@ -711,7 +711,7 @@
 			"type": "Instant",
 			"collector_number": "166",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/166_Sow Chaos.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/166_Sow Chaos.png"
 			}
 		},
 		{
@@ -721,7 +721,7 @@
 			"type": "Instant",
 			"collector_number": "151",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/151_Hullshatter Shot.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/151_Hullshatter Shot.png"
 			}
 		},
 		{
@@ -731,7 +731,7 @@
 			"type": "Instant",
 			"collector_number": "136",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/136_Burn Down.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/136_Burn Down.png"
 			}
 		},
 		{
@@ -741,7 +741,7 @@
 			"type": "Artifact — Equipment",
 			"collector_number": "161",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/161_Plasma Core Hammer.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/161_Plasma Core Hammer.png"
 			}
 		},
 		{
@@ -751,7 +751,7 @@
 			"type": "Creature — Phoenix",
 			"collector_number": "152",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/152_Igneous Dragonhunter.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/152_Igneous Dragonhunter.png"
 			}
 		},
 		{
@@ -761,7 +761,7 @@
 			"type": "Creature — Human Artificer Wizard",
 			"collector_number": "145",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/145_Eager Experimenter.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/145_Eager Experimenter.png"
 			}
 		},
 		{
@@ -771,7 +771,7 @@
 			"type": "Creature — Bear Sloth",
 			"collector_number": "190",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/190_Greater Branchpiler.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/190_Greater Branchpiler.png"
 			}
 		},
 		{
@@ -781,7 +781,7 @@
 			"type": "Creature — Rabbit Detective",
 			"collector_number": "194",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/194_Highborn Sleuth.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/194_Highborn Sleuth.png"
 			}
 		},
 		{
@@ -791,7 +791,7 @@
 			"type": "Creature — Beast",
 			"collector_number": "191",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/191_Grey Rofa.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/191_Grey Rofa.png"
 			}
 		},
 		{
@@ -801,7 +801,7 @@
 			"type": "Creature — Rabbit Warrior",
 			"collector_number": "192",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/192_Grove Hunter.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/192_Grove Hunter.png"
 			}
 		},
 		{
@@ -811,7 +811,7 @@
 			"type": "Creature — Cat",
 			"collector_number": "205",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/205_Roaming Allew.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/205_Roaming Allew.png"
 			}
 		},
 		{
@@ -821,7 +821,7 @@
 			"type": "Creature — Rabbit",
 			"collector_number": "209",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/209_Sylvan Arfyll.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/209_Sylvan Arfyll.png"
 			}
 		},
 		{
@@ -831,7 +831,7 @@
 			"type": "Creature — Rabbit Soldier Archer",
 			"collector_number": "175",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/175_Aluki Hearthguard.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/175_Aluki Hearthguard.png"
 			}
 		},
 		{
@@ -841,7 +841,7 @@
 			"type": "Creature — Human Rogue Scout",
 			"collector_number": "182",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/182_Dour Wanderer.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/182_Dour Wanderer.png"
 			}
 		},
 		{
@@ -851,7 +851,7 @@
 			"type": "Creature — Snake Mutant",
 			"collector_number": "195",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/195_Island Constrictor.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/195_Island Constrictor.png"
 			}
 		},
 		{
@@ -861,7 +861,7 @@
 			"type": "Creature — Human Druid Advisor",
 			"collector_number": "176",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/176_Ambitious Archaeologist.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/176_Ambitious Archaeologist.png"
 			}
 		},
 		{
@@ -871,7 +871,7 @@
 			"type": "Creature — Lizard Beast",
 			"collector_number": "173",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/173_Adult Matosuchi.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/173_Adult Matosuchi.png"
 			}
 		},
 		{
@@ -881,7 +881,7 @@
 			"type": "Enchantment",
 			"collector_number": "179",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/179_A Choking Serenity.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/179_A Choking Serenity.png"
 			}
 		},
 		{
@@ -891,7 +891,7 @@
 			"type": "Sorcery",
 			"collector_number": "204",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/204_Reconnect.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/204_Reconnect.png"
 			}
 		},
 		{
@@ -901,7 +901,7 @@
 			"type": "Creature — Bear",
 			"collector_number": "212",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/212_Titanur.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/212_Titanur.png"
 			}
 		},
 		{
@@ -911,7 +911,7 @@
 			"type": "Instant",
 			"collector_number": "201",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/201_Pounce.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/201_Pounce.png"
 			}
 		},
 		{
@@ -921,7 +921,7 @@
 			"type": "Instant",
 			"collector_number": "184",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/184_Empowered Arrow.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/184_Empowered Arrow.png"
 			}
 		},
 		{
@@ -931,7 +931,7 @@
 			"type": "Instant",
 			"collector_number": "215",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/215_Watch the World Pass By.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/215_Watch the World Pass By.png"
 			}
 		},
 		{
@@ -941,7 +941,7 @@
 			"type": "Sorcery",
 			"collector_number": "210",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/210_Take the Night Watch.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/210_Take the Night Watch.png"
 			}
 		},
 		{
@@ -951,7 +951,7 @@
 			"type": "Kindred Artifact — Vehicle Plant",
 			"collector_number": "186",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/186_Flower Cart.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/186_Flower Cart.png"
 			}
 		},
 		{
@@ -961,7 +961,7 @@
 			"type": "Artifact Creature — Construct",
 			"collector_number": "19",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/19_Julescan Heavy Strider.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/19_Julescan Heavy Strider.png"
 			}
 		},
 		{
@@ -971,7 +971,7 @@
 			"type": "Creature — Rabbit Warrior",
 			"collector_number": "32",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/32_Shaiani Nightguard.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/32_Shaiani Nightguard.png"
 			}
 		},
 		{
@@ -981,7 +981,7 @@
 			"type": "Creature — Human Artificer",
 			"collector_number": "5",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/5_Arrogant Engineer.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/5_Arrogant Engineer.png"
 			}
 		},
 		{
@@ -994,11 +994,11 @@
 				"name": "",
 				"type": "",
 				"image_uris": {
-					"en": "https://Custom-MtG-Sets/sets/AVA-files/img/34_Sun-bleached Discovery_back.png"
+					"en": "https://Opacana.github.io/sets/AVA-files/img/34_Sun-bleached Discovery_back.png"
 				}
 			},
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/34_Sun-bleached Discovery_front.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/34_Sun-bleached Discovery_front.png"
 			}
 		},
 		{
@@ -1008,7 +1008,7 @@
 			"type": "Artifact",
 			"collector_number": "4",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/4_Armor of Eternal Penance.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/4_Armor of Eternal Penance.png"
 			}
 		},
 		{
@@ -1018,7 +1018,7 @@
 			"type": "Creature — Phoenix",
 			"collector_number": "38",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/38_Vigilant Cryophoenix.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/38_Vigilant Cryophoenix.png"
 			}
 		},
 		{
@@ -1028,7 +1028,7 @@
 			"type": "Creature — Griffin",
 			"collector_number": "7",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/7_Canopy-nest Griffin.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/7_Canopy-nest Griffin.png"
 			}
 		},
 		{
@@ -1038,7 +1038,7 @@
 			"type": "Sorcery",
 			"collector_number": "18",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/18_In For Repairs.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/18_In For Repairs.png"
 			}
 		},
 		{
@@ -1048,7 +1048,7 @@
 			"type": "Instant",
 			"collector_number": "10",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/10_Confront the Villainous.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/10_Confront the Villainous.png"
 			}
 		},
 		{
@@ -1058,7 +1058,7 @@
 			"type": "Kindred Artifact — Soldier Vehicle",
 			"collector_number": "72",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/72_Pesuban Riftrider.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/72_Pesuban Riftrider.png"
 			}
 		},
 		{
@@ -1068,7 +1068,7 @@
 			"type": "Enchantment",
 			"collector_number": "8",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/8_Can't Take the Sky From Me.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/8_Can't Take the Sky From Me.png"
 			}
 		},
 		{
@@ -1078,7 +1078,7 @@
 			"type": "Creature — Human Pilot",
 			"collector_number": "50",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/50_Decorated Pilot.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/50_Decorated Pilot.png"
 			}
 		},
 		{
@@ -1088,7 +1088,7 @@
 			"type": "Legendary Creature — Human Pilot",
 			"collector_number": "68",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/68_Liline Otothal.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/68_Liline Otothal.png"
 			}
 		},
 		{
@@ -1098,7 +1098,7 @@
 			"type": "Creature — Human Artificer",
 			"collector_number": "54",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/54_Engineering Prodigy.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/54_Engineering Prodigy.png"
 			}
 		},
 		{
@@ -1108,7 +1108,7 @@
 			"type": "Creature — Elemental Bird",
 			"collector_number": "62",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/62_Iridescent Tambly.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/62_Iridescent Tambly.png"
 			}
 		},
 		{
@@ -1118,7 +1118,7 @@
 			"type": "Artifact",
 			"collector_number": "49",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/49_Current-rider Windmill.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/49_Current-rider Windmill.png"
 			}
 		},
 		{
@@ -1128,7 +1128,7 @@
 			"type": "Instant",
 			"collector_number": "81",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/81_Sonata of the Wind.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/81_Sonata of the Wind.png"
 			}
 		},
 		{
@@ -1138,7 +1138,7 @@
 			"type": "Artifact — Vehicle",
 			"collector_number": "80",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/80_Skunkworks Darter.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/80_Skunkworks Darter.png"
 			}
 		},
 		{
@@ -1148,7 +1148,7 @@
 			"type": "Instant",
 			"collector_number": "78",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/78_Show Your Work.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/78_Show Your Work.png"
 			}
 		},
 		{
@@ -1158,7 +1158,7 @@
 			"type": "Artifact — Equipment",
 			"collector_number": "73",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/73_Psionic Control Helm.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/73_Psionic Control Helm.png"
 			}
 		},
 		{
@@ -1168,7 +1168,7 @@
 			"type": "Sorcery",
 			"collector_number": "51",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/51_Deep Summoning.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/51_Deep Summoning.png"
 			}
 		},
 		{
@@ -1178,7 +1178,7 @@
 			"type": "Instant",
 			"collector_number": "83",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/83_Turn Back the Clock.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/83_Turn Back the Clock.png"
 			}
 		},
 		{
@@ -1188,7 +1188,7 @@
 			"type": "Creature — Human Warlock",
 			"collector_number": "125",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/125_Tutor of Dark Sciences.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/125_Tutor of Dark Sciences.png"
 			}
 		},
 		{
@@ -1198,7 +1198,7 @@
 			"type": "Creature — Human Assassin",
 			"collector_number": "92",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/92_Contract Killer.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/92_Contract Killer.png"
 			}
 		},
 		{
@@ -1208,7 +1208,7 @@
 			"type": "Artifact Creature — Zombie Spirit Construct",
 			"collector_number": "96",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/96_Ectoplasmonic Simulacrum.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/96_Ectoplasmonic Simulacrum.png"
 			}
 		},
 		{
@@ -1218,7 +1218,7 @@
 			"type": "Legendary Creature — Skeleton Pirate",
 			"collector_number": "104",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/104_Lt. Nevor of the Scurvy Wolf.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/104_Lt. Nevor of the Scurvy Wolf.png"
 			}
 		},
 		{
@@ -1228,7 +1228,7 @@
 			"type": "Creature — Human Rogue",
 			"collector_number": "129",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/129_Wizened Outlaw.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/129_Wizened Outlaw.png"
 			}
 		},
 		{
@@ -1238,7 +1238,7 @@
 			"type": "Instant",
 			"collector_number": "102",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/102_Identifying the Villainous.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/102_Identifying the Villainous.png"
 			}
 		},
 		{
@@ -1248,7 +1248,7 @@
 			"type": "Enchantment",
 			"collector_number": "113",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/113_Rising of a Tambly's Bones.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/113_Rising of a Tambly's Bones.png"
 			}
 		},
 		{
@@ -1261,11 +1261,11 @@
 				"name": "",
 				"type": "",
 				"image_uris": {
-					"en": "https://Custom-MtG-Sets/sets/AVA-files/img/124_Swamp Seer's Hut_back.png"
+					"en": "https://Opacana.github.io/sets/AVA-files/img/124_Swamp Seer's Hut_back.png"
 				}
 			},
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/124_Swamp Seer's Hut_front.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/124_Swamp Seer's Hut_front.png"
 			}
 		},
 		{
@@ -1275,7 +1275,7 @@
 			"type": "Instant",
 			"collector_number": "103",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/103_Liferipper Miasma.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/103_Liferipper Miasma.png"
 			}
 		},
 		{
@@ -1288,11 +1288,11 @@
 				"name": "",
 				"type": "",
 				"image_uris": {
-					"en": "https://Custom-MtG-Sets/sets/AVA-files/img/121_Skull of the Last Hunter_back.png"
+					"en": "https://Opacana.github.io/sets/AVA-files/img/121_Skull of the Last Hunter_back.png"
 				}
 			},
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/121_Skull of the Last Hunter_front.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/121_Skull of the Last Hunter_front.png"
 			}
 		},
 		{
@@ -1302,7 +1302,7 @@
 			"type": "Artifact — Vehicle",
 			"collector_number": "116",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/116_Savoran Razor Galleon.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/116_Savoran Razor Galleon.png"
 			}
 		},
 		{
@@ -1312,7 +1312,7 @@
 			"type": "Creature — Phoenix",
 			"collector_number": "146",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/146_Embittered Lavawing.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/146_Embittered Lavawing.png"
 			}
 		},
 		{
@@ -1322,7 +1322,7 @@
 			"type": "Creature — Human Pirate",
 			"collector_number": "143",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/143_Distinguished Captain.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/143_Distinguished Captain.png"
 			}
 		},
 		{
@@ -1332,7 +1332,7 @@
 			"type": "Creature — Human Soldier",
 			"collector_number": "159",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/159_Pesuban Cannoneer.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/159_Pesuban Cannoneer.png"
 			}
 		},
 		{
@@ -1342,7 +1342,7 @@
 			"type": "Kindred Artifact — Pirate Vehicle",
 			"collector_number": "164",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/164_Scavenged Hulk.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/164_Scavenged Hulk.png"
 			}
 		},
 		{
@@ -1352,7 +1352,7 @@
 			"type": "Creature — Lizard",
 			"collector_number": "153",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/153_Iruum Streamhopper.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/153_Iruum Streamhopper.png"
 			}
 		},
 		{
@@ -1362,7 +1362,7 @@
 			"type": "Creature — Human Pirate Wizard",
 			"collector_number": "168",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/168_Storm Mistress.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/168_Storm Mistress.png"
 			}
 		},
 		{
@@ -1372,7 +1372,7 @@
 			"type": "Enchantment",
 			"collector_number": "138",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/138_Clues to the Cataclysm.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/138_Clues to the Cataclysm.png"
 			}
 		},
 		{
@@ -1385,11 +1385,11 @@
 				"name": "",
 				"type": "",
 				"image_uris": {
-					"en": "https://Custom-MtG-Sets/sets/AVA-files/img/162_Sandscoured Bones_back.png"
+					"en": "https://Opacana.github.io/sets/AVA-files/img/162_Sandscoured Bones_back.png"
 				}
 			},
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/162_Sandscoured Bones_front.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/162_Sandscoured Bones_front.png"
 			}
 		},
 		{
@@ -1399,7 +1399,7 @@
 			"type": "Sorcery",
 			"collector_number": "149",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/149_Hatching A New Scheme.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/149_Hatching A New Scheme.png"
 			}
 		},
 		{
@@ -1409,7 +1409,7 @@
 			"type": "Sorcery",
 			"collector_number": "169",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/169_Sundering Shockwave.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/169_Sundering Shockwave.png"
 			}
 		},
 		{
@@ -1419,7 +1419,7 @@
 			"type": "Sorcery",
 			"collector_number": "144",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/144_Don the Crest of Fire.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/144_Don the Crest of Fire.png"
 			}
 		},
 		{
@@ -1429,7 +1429,7 @@
 			"type": "Creature — Rabbit Scout Soldier",
 			"collector_number": "183",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/183_Edge Patrol.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/183_Edge Patrol.png"
 			}
 		},
 		{
@@ -1439,7 +1439,7 @@
 			"type": "Creature — Beast",
 			"collector_number": "180",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/180_Deadwoods Stalker.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/180_Deadwoods Stalker.png"
 			}
 		},
 		{
@@ -1449,7 +1449,7 @@
 			"type": "Creature — Human Mercenary Scout",
 			"collector_number": "208",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/208_Stoic Expedition Guard.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/208_Stoic Expedition Guard.png"
 			}
 		},
 		{
@@ -1459,7 +1459,7 @@
 			"type": "Creature — Rabbit Bard Warlock",
 			"collector_number": "200",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/200_Piper of the Passed.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/200_Piper of the Passed.png"
 			}
 		},
 		{
@@ -1469,7 +1469,7 @@
 			"type": "Creature — Beast Insect",
 			"collector_number": "177",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/177_Beast of the Blandon Savannah.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/177_Beast of the Blandon Savannah.png"
 			}
 		},
 		{
@@ -1479,7 +1479,7 @@
 			"type": "Creature — Rabbit Advisor",
 			"collector_number": "207",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/207_Society Field Reporter.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/207_Society Field Reporter.png"
 			}
 		},
 		{
@@ -1489,7 +1489,7 @@
 			"type": "Creature — Worm",
 			"collector_number": "188",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/188_Giant Corpseseeker.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/188_Giant Corpseseeker.png"
 			}
 		},
 		{
@@ -1499,7 +1499,7 @@
 			"type": "Enchantment",
 			"collector_number": "198",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/198_On A Trek Together.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/198_On A Trek Together.png"
 			}
 		},
 		{
@@ -1509,7 +1509,7 @@
 			"type": "Instant",
 			"collector_number": "193",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/193_Heroic Intervention.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/193_Heroic Intervention.png"
 			}
 		},
 		{
@@ -1519,7 +1519,7 @@
 			"type": "Instant",
 			"collector_number": "202",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/202_Reach the Legendary City.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/202_Reach the Legendary City.png"
 			}
 		},
 		{
@@ -1529,7 +1529,7 @@
 			"type": "Sorcery",
 			"collector_number": "213",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/213_Untested Elixir.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/213_Untested Elixir.png"
 			}
 		},
 		{
@@ -1539,7 +1539,7 @@
 			"type": "Creature — Griffin",
 			"collector_number": "16",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/16_Griffin Elder.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/16_Griffin Elder.png"
 			}
 		},
 		{
@@ -1549,7 +1549,7 @@
 			"type": "Legendary Creature — Human Soldier",
 			"collector_number": "9",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/9_Commandant Urscia.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/9_Commandant Urscia.png"
 			}
 		},
 		{
@@ -1559,7 +1559,7 @@
 			"type": "Creature — Rabbit Cleric Monk",
 			"collector_number": "31",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/31_Scion of the Hidden Burrow.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/31_Scion of the Hidden Burrow.png"
 			}
 		},
 		{
@@ -1569,7 +1569,7 @@
 			"type": "Sorcery",
 			"collector_number": "30",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/30_Retributive Bombardment.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/30_Retributive Bombardment.png"
 			}
 		},
 		{
@@ -1579,7 +1579,7 @@
 			"type": "Kindred Artifact — Vehicle Soldier",
 			"collector_number": "25",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/25_Precision Bomber.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/25_Precision Bomber.png"
 			}
 		},
 		{
@@ -1589,7 +1589,7 @@
 			"type": "Enchantment",
 			"collector_number": "2",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/2_Admiral's Guile.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/2_Admiral's Guile.png"
 			}
 		},
 		{
@@ -1599,7 +1599,7 @@
 			"type": "Legendary Creature — Human Wizard",
 			"collector_number": "64",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/64_Ivina, Society Archivist.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/64_Ivina, Society Archivist.png"
 			}
 		},
 		{
@@ -1609,7 +1609,7 @@
 			"type": "Legendary Creature — Human Artificer",
 			"collector_number": "45",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/45_Allenord Rascham Esq..png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/45_Allenord Rascham Esq..png"
 			}
 		},
 		{
@@ -1619,7 +1619,7 @@
 			"type": "Artifact — Vehicle",
 			"collector_number": "66",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/66_Julescan Dreadnought.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/66_Julescan Dreadnought.png"
 			}
 		},
 		{
@@ -1632,11 +1632,11 @@
 				"name": "",
 				"type": "",
 				"image_uris": {
-					"en": "https://Custom-MtG-Sets/sets/AVA-files/img/86_Updraft Boneyard_back.png"
+					"en": "https://Opacana.github.io/sets/AVA-files/img/86_Updraft Boneyard_back.png"
 				}
 			},
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/86_Updraft Boneyard_front.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/86_Updraft Boneyard_front.png"
 			}
 		},
 		{
@@ -1646,7 +1646,7 @@
 			"type": "Creature — Griffin Lizard",
 			"collector_number": "44",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/44_Adult Venipula.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/44_Adult Venipula.png"
 			}
 		},
 		{
@@ -1656,7 +1656,7 @@
 			"type": "Sorcery",
 			"collector_number": "47",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/47_Clockwork Consonance.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/47_Clockwork Consonance.png"
 			}
 		},
 		{
@@ -1666,7 +1666,7 @@
 			"type": "Legendary Artifact",
 			"collector_number": "70",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/70_Nikolaian Matrix.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/70_Nikolaian Matrix.png"
 			}
 		},
 		{
@@ -1676,7 +1676,7 @@
 			"type": "Enchantment Creature — Human Warlock",
 			"collector_number": "94",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/94_Dragonsoul Cabalist.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/94_Dragonsoul Cabalist.png"
 			}
 		},
 		{
@@ -1686,7 +1686,7 @@
 			"type": "Legendary Creature — Zombie Wizard",
 			"collector_number": "107",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/107_Mr. Aldrand, Eternal Patron.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/107_Mr. Aldrand, Eternal Patron.png"
 			}
 		},
 		{
@@ -1696,7 +1696,7 @@
 			"type": "Creature — Rabbit Warlock",
 			"collector_number": "119",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/119_Shadow Path Exemplar.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/119_Shadow Path Exemplar.png"
 			}
 		},
 		{
@@ -1706,7 +1706,7 @@
 			"type": "Legendary Creature — Human Pirate",
 			"collector_number": "88",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/88_Athern, Captain of Traitors.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/88_Athern, Captain of Traitors.png"
 			}
 		},
 		{
@@ -1716,7 +1716,7 @@
 			"type": "Enchantment",
 			"collector_number": "117",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/117_Secrets of the Ruins.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/117_Secrets of the Ruins.png"
 			}
 		},
 		{
@@ -1726,7 +1726,7 @@
 			"type": "Sorcery",
 			"collector_number": "112",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/112_Rise to Power.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/112_Rise to Power.png"
 			}
 		},
 		{
@@ -1736,7 +1736,7 @@
 			"type": "Sorcery",
 			"collector_number": "95",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/95_Dramaturgical Extraction.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/95_Dramaturgical Extraction.png"
 			}
 		},
 		{
@@ -1746,7 +1746,7 @@
 			"type": "Creature — Phoenix Elemental",
 			"collector_number": "165",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/165_Slagfall Phoenix.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/165_Slagfall Phoenix.png"
 			}
 		},
 		{
@@ -1756,7 +1756,7 @@
 			"type": "Legendary Creature — Human Soldier",
 			"collector_number": "158",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/158_Nola, Captain of the Mise.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/158_Nola, Captain of the Mise.png"
 			}
 		},
 		{
@@ -1766,7 +1766,7 @@
 			"type": "Creature — Eel",
 			"collector_number": "172",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/172_Whalehunter Eel.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/172_Whalehunter Eel.png"
 			}
 		},
 		{
@@ -1776,7 +1776,7 @@
 			"type": "Creature — Human Artificer Barbarian",
 			"collector_number": "142",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/142_Demolition Expert.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/142_Demolition Expert.png"
 			}
 		},
 		{
@@ -1786,7 +1786,7 @@
 			"type": "Sorcery",
 			"collector_number": "154",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/154_Islandfall.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/154_Islandfall.png"
 			}
 		},
 		{
@@ -1796,7 +1796,7 @@
 			"type": "Sorcery",
 			"collector_number": "133",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/133_Amok Automaton.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/133_Amok Automaton.png"
 			}
 		},
 		{
@@ -1806,7 +1806,7 @@
 			"type": "Sorcery",
 			"collector_number": "139",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/139_Cogstorm.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/139_Cogstorm.png"
 			}
 		},
 		{
@@ -1816,7 +1816,7 @@
 			"type": "Creature — Beast",
 			"collector_number": "203",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/203_Rechine Jungle Leaper.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/203_Rechine Jungle Leaper.png"
 			}
 		},
 		{
@@ -1829,11 +1829,11 @@
 				"name": "",
 				"type": "",
 				"image_uris": {
-					"en": "https://Custom-MtG-Sets/sets/AVA-files/img/196_Kidar, Seeking Justice_back.png"
+					"en": "https://Opacana.github.io/sets/AVA-files/img/196_Kidar, Seeking Justice_back.png"
 				}
 			},
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/196_Kidar, Seeking Justice_front.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/196_Kidar, Seeking Justice_front.png"
 			}
 		},
 		{
@@ -1843,7 +1843,7 @@
 			"type": "Creature — Rabbit Soldier Warrior",
 			"collector_number": "181",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/181_Denaw Goliath.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/181_Denaw Goliath.png"
 			}
 		},
 		{
@@ -1853,7 +1853,7 @@
 			"type": "Legendary Creature — Dragon Noble",
 			"collector_number": "206",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/206_Salandrix, Lifespeaker.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/206_Salandrix, Lifespeaker.png"
 			}
 		},
 		{
@@ -1863,7 +1863,7 @@
 			"type": "Enchantment",
 			"collector_number": "187",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/187_Genteel Expedition.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/187_Genteel Expedition.png"
 			}
 		},
 		{
@@ -1873,7 +1873,7 @@
 			"type": "Sorcery",
 			"collector_number": "199",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/199_Paleontological Revelations.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/199_Paleontological Revelations.png"
 			}
 		},
 		{
@@ -1883,7 +1883,7 @@
 			"type": "Sorcery",
 			"collector_number": "189",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/189_Gift of the Grove.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/189_Gift of the Grove.png"
 			}
 		},
 		{
@@ -1893,7 +1893,7 @@
 			"type": "Creature — Rabbit Soldier",
 			"collector_number": "41",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/41_Warren League Admiral.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/41_Warren League Admiral.png"
 			}
 		},
 		{
@@ -1903,7 +1903,7 @@
 			"type": "Enchantment",
 			"collector_number": "29",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/29_Purifying Maze.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/29_Purifying Maze.png"
 			}
 		},
 		{
@@ -1913,7 +1913,7 @@
 			"type": "Creature — Shapeshifter Ooze",
 			"collector_number": "85",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/85_Unstable Ooze.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/85_Unstable Ooze.png"
 			}
 		},
 		{
@@ -1923,7 +1923,7 @@
 			"type": "Artifact",
 			"collector_number": "87",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/87_Worldwalker Helm.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/87_Worldwalker Helm.png"
 			}
 		},
 		{
@@ -1936,11 +1936,11 @@
 				"name": "",
 				"type": "",
 				"image_uris": {
-					"en": "https://Custom-MtG-Sets/sets/AVA-files/img/109_Primordials Exhibit_back.png"
+					"en": "https://Opacana.github.io/sets/AVA-files/img/109_Primordials Exhibit_back.png"
 				}
 			},
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/109_Primordials Exhibit_front.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/109_Primordials Exhibit_front.png"
 			}
 		},
 		{
@@ -1950,7 +1950,7 @@
 			"type": "Instant",
 			"collector_number": "127",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/127_Unending Insight.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/127_Unending Insight.png"
 			}
 		},
 		{
@@ -1960,7 +1960,7 @@
 			"type": "Creature — Phoenix Egg",
 			"collector_number": "160",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/160_Phoenix Egg.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/160_Phoenix Egg.png"
 			}
 		},
 		{
@@ -1970,7 +1970,7 @@
 			"type": "Enchantment",
 			"collector_number": "150",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/150_High Stakes Game.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/150_High Stakes Game.png"
 			}
 		},
 		{
@@ -1980,7 +1980,7 @@
 			"type": "Creature — Giant Mutant Spider",
 			"collector_number": "197",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/197_Mother of the Webbed City.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/197_Mother of the Webbed City.png"
 			}
 		},
 		{
@@ -1993,11 +1993,11 @@
 				"name": "",
 				"type": "",
 				"image_uris": {
-					"en": "https://Custom-MtG-Sets/sets/AVA-files/img/178_Cave of the Vanquished_back.png"
+					"en": "https://Opacana.github.io/sets/AVA-files/img/178_Cave of the Vanquished_back.png"
 				}
 			},
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/178_Cave of the Vanquished_front.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/178_Cave of the Vanquished_front.png"
 			}
 		},
 		{
@@ -2007,7 +2007,7 @@
 			"type": "Legendary Artifact Creature — Construct Wall",
 			"collector_number": "226",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/226_Mobile Base 31, Andren.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/226_Mobile Base 31, Andren.png"
 			}
 		},
 		{
@@ -2017,7 +2017,7 @@
 			"type": "Enchantment",
 			"collector_number": "228",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/228_Network of Whispers.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/228_Network of Whispers.png"
 			}
 		},
 		{
@@ -2027,7 +2027,7 @@
 			"type": "Legendary Creature — Human Pirate Noble",
 			"collector_number": "237",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/237_Sfarzia, Pirate Queen.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/237_Sfarzia, Pirate Queen.png"
 			}
 		},
 		{
@@ -2037,7 +2037,7 @@
 			"type": "Creature — Human Warlock",
 			"collector_number": "246",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/246_Wielder of the Cursed Bestiary.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/246_Wielder of the Cursed Bestiary.png"
 			}
 		},
 		{
@@ -2047,7 +2047,7 @@
 			"type": "Creature — Rabbit Noble Soldier",
 			"collector_number": "244",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/244_Warren League General.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/244_Warren League General.png"
 			}
 		},
 		{
@@ -2057,7 +2057,7 @@
 			"type": "Enchantment",
 			"collector_number": "225",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/225_Meeting of Nations.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/225_Meeting of Nations.png"
 			}
 		},
 		{
@@ -2067,7 +2067,7 @@
 			"type": "Creature — Rabbit Artificer",
 			"collector_number": "232",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/232_Rabbitfolk Engineer.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/232_Rabbitfolk Engineer.png"
 			}
 		},
 		{
@@ -2077,7 +2077,7 @@
 			"type": "Legendary Creature — Human Wizard",
 			"collector_number": "222",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/222_Gersauld, Disgraced Count.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/222_Gersauld, Disgraced Count.png"
 			}
 		},
 		{
@@ -2087,7 +2087,7 @@
 			"type": "Legendary Creature — Phoenix",
 			"collector_number": "240",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/240_Sunscatter, Firewing Matriarch.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/240_Sunscatter, Firewing Matriarch.png"
 			}
 		},
 		{
@@ -2097,7 +2097,7 @@
 			"type": "Artifact — Vehicle",
 			"collector_number": "224",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/224_Mapmaker's Society Scoutship.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/224_Mapmaker's Society Scoutship.png"
 			}
 		},
 		{
@@ -2107,7 +2107,7 @@
 			"type": "Artifact — Vehicle",
 			"collector_number": "223",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/223_Lemauge Grand Flagship.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/223_Lemauge Grand Flagship.png"
 			}
 		},
 		{
@@ -2117,7 +2117,7 @@
 			"type": "Legendary Creature — Zombie",
 			"collector_number": "217",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/217_The Bloated Dredger of Caroul.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/217_The Bloated Dredger of Caroul.png"
 			}
 		},
 		{
@@ -2127,7 +2127,7 @@
 			"type": "Sorcery",
 			"collector_number": "243",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/243_Unlawful Impressment.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/243_Unlawful Impressment.png"
 			}
 		},
 		{
@@ -2137,7 +2137,7 @@
 			"type": "Creature — Cat Dog Boar",
 			"collector_number": "230",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/230_Ornery Betroynt.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/230_Ornery Betroynt.png"
 			}
 		},
 		{
@@ -2147,7 +2147,7 @@
 			"type": "Sorcery",
 			"collector_number": "221",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/221_Fishing from the Docks.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/221_Fishing from the Docks.png"
 			}
 		},
 		{
@@ -2157,7 +2157,7 @@
 			"type": "Sorcery",
 			"collector_number": "233",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/233_Raise the Banner.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/233_Raise the Banner.png"
 			}
 		},
 		{
@@ -2167,7 +2167,7 @@
 			"type": "Enchantment",
 			"collector_number": "239",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/239_Sourcing Components.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/239_Sourcing Components.png"
 			}
 		},
 		{
@@ -2177,7 +2177,7 @@
 			"type": "Instant",
 			"collector_number": "231",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/231_Pulled into the Tar.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/231_Pulled into the Tar.png"
 			}
 		},
 		{
@@ -2187,7 +2187,7 @@
 			"type": "Legendary Creature — Human Rogue",
 			"collector_number": "247",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/247_Yolaira, Linkmistress.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/247_Yolaira, Linkmistress.png"
 			}
 		},
 		{
@@ -2197,7 +2197,7 @@
 			"type": "Legendary Creature — Human Noble Scout",
 			"collector_number": "218",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/218_Bronson Celac.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/218_Bronson Celac.png"
 			}
 		},
 		{
@@ -2207,7 +2207,7 @@
 			"type": "Artifact — Vehicle",
 			"collector_number": "251",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/251_Filigree Propskiff.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/251_Filigree Propskiff.png"
 			}
 		},
 		{
@@ -2217,7 +2217,7 @@
 			"type": "Artifact — Vehicle",
 			"collector_number": "253",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/253_House Barge.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/253_House Barge.png"
 			}
 		},
 		{
@@ -2227,7 +2227,7 @@
 			"type": "Artifact — Equipment",
 			"collector_number": "258",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/258_Piston Vambrace.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/258_Piston Vambrace.png"
 			}
 		},
 		{
@@ -2237,7 +2237,7 @@
 			"type": "Artifact",
 			"collector_number": "248",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/248_Aerie's Legacy.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/248_Aerie's Legacy.png"
 			}
 		},
 		{
@@ -2247,7 +2247,7 @@
 			"type": "Artifact Creature — Construct Rat",
 			"collector_number": "250",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/250_Clockwork Rat.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/250_Clockwork Rat.png"
 			}
 		},
 		{
@@ -2257,7 +2257,7 @@
 			"type": "Artifact",
 			"collector_number": "249",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/249_Ancient Waystone.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/249_Ancient Waystone.png"
 			}
 		},
 		{
@@ -2267,7 +2267,7 @@
 			"type": "Artifact",
 			"collector_number": "256",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/256_Mausoleum of Deities.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/256_Mausoleum of Deities.png"
 			}
 		},
 		{
@@ -2277,7 +2277,7 @@
 			"type": "Artifact — Vehicle",
 			"collector_number": "259",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/259_Tiazan Freighter.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/259_Tiazan Freighter.png"
 			}
 		},
 		{
@@ -2287,7 +2287,7 @@
 			"type": "Artifact — Equipment",
 			"collector_number": "254",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/254_Iron Savior Suit.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/254_Iron Savior Suit.png"
 			}
 		},
 		{
@@ -2297,7 +2297,7 @@
 			"type": "Land",
 			"collector_number": "260",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/260_Abandoned Dock.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/260_Abandoned Dock.png"
 			}
 		},
 		{
@@ -2307,7 +2307,7 @@
 			"type": "Land",
 			"collector_number": "264",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/264_Generator Deeps.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/264_Generator Deeps.png"
 			}
 		},
 		{
@@ -2317,7 +2317,7 @@
 			"type": "Land",
 			"collector_number": "261",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/261_Baron's Field.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/261_Baron's Field.png"
 			}
 		},
 		{
@@ -2327,7 +2327,7 @@
 			"type": "Land",
 			"collector_number": "273",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/273_Warren Capitol.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/273_Warren Capitol.png"
 			}
 		},
 		{
@@ -2337,7 +2337,7 @@
 			"type": "Land",
 			"collector_number": "269",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/269_Refueling Village.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/269_Refueling Village.png"
 			}
 		},
 		{
@@ -2347,7 +2347,7 @@
 			"type": "Land",
 			"collector_number": "270",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/270_Sanctum of Secrets.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/270_Sanctum of Secrets.png"
 			}
 		},
 		{
@@ -2357,7 +2357,7 @@
 			"type": "Creature — Griffin",
 			"collector_number": "23",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/23_Leogrif Cub.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/23_Leogrif Cub.png"
 			}
 		},
 		{
@@ -2367,7 +2367,7 @@
 			"type": "Creature — Horse",
 			"collector_number": "22",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/22_Lemaugean Barded Drabant.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/22_Lemaugean Barded Drabant.png"
 			}
 		},
 		{
@@ -2377,7 +2377,7 @@
 			"type": "Sorcery",
 			"collector_number": "236",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/236_Settlement Over Tea.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/236_Settlement Over Tea.png"
 			}
 		},
 		{
@@ -2387,7 +2387,7 @@
 			"type": "Land",
 			"collector_number": "265",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/265_Gravity Shear Field.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/265_Gravity Shear Field.png"
 			}
 		},
 		{
@@ -2397,7 +2397,7 @@
 			"type": "Legendary Land",
 			"collector_number": "262",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/262_Erqual, Tiazan Monastery.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/262_Erqual, Tiazan Monastery.png"
 			}
 		},
 		{
@@ -2407,7 +2407,7 @@
 			"type": "Legendary Land",
 			"collector_number": "266",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/266_Grolle, Prime Node.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/266_Grolle, Prime Node.png"
 			}
 		},
 		{
@@ -2417,7 +2417,7 @@
 			"type": "Enchantment — Aura",
 			"collector_number": "148",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/148_Gift of the Firehen.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/148_Gift of the Firehen.png"
 			}
 		},
 		{
@@ -2430,11 +2430,11 @@
 				"name": "",
 				"type": "",
 				"image_uris": {
-					"en": "https://Custom-MtG-Sets/sets/AVA-files/img/105_Masterpiece in the Making_back.png"
+					"en": "https://Opacana.github.io/sets/AVA-files/img/105_Masterpiece in the Making_back.png"
 				}
 			},
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/105_Masterpiece in the Making_front.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/105_Masterpiece in the Making_front.png"
 			}
 		},
 		{
@@ -2444,7 +2444,7 @@
 			"type": "Creature — Wolf",
 			"collector_number": "185",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/185_Fatemarked Wolf.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/185_Fatemarked Wolf.png"
 			}
 		},
 		{
@@ -2454,7 +2454,7 @@
 			"type": "Legendary Artifact Creature — Rabbit Artificer",
 			"collector_number": "65",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/65_Jochi, Inspired Tinkerer.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/65_Jochi, Inspired Tinkerer.png"
 			}
 		},
 		{
@@ -2464,7 +2464,7 @@
 			"type": "Sorcery",
 			"collector_number": "140",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/140_Coming In for a Landing.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/140_Coming In for a Landing.png"
 			}
 		},
 		{
@@ -2474,7 +2474,7 @@
 			"type": "Artifact — Vehicle",
 			"collector_number": "214",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/214_Unwieldy Steam-tractor.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/214_Unwieldy Steam-tractor.png"
 			}
 		},
 		{
@@ -2484,7 +2484,7 @@
 			"type": "Sorcery",
 			"collector_number": "56",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/56_Gravitic Whirlpool.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/56_Gravitic Whirlpool.png"
 			}
 		},
 		{
@@ -2494,7 +2494,7 @@
 			"type": "Legendary Artifact",
 			"collector_number": "257",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/257_Orrery of Avallus.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/257_Orrery of Avallus.png"
 			}
 		},
 		{
@@ -2504,7 +2504,7 @@
 			"type": "Enchantment",
 			"collector_number": "82",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/82_Timelocked.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/82_Timelocked.png"
 			}
 		},
 		{
@@ -2514,7 +2514,7 @@
 			"type": "Legendary Creature — Human Pirate Rogue",
 			"collector_number": "216",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/216_Anstral, of the War and Whimsy.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/216_Anstral, of the War and Whimsy.png"
 			}
 		},
 		{
@@ -2527,11 +2527,11 @@
 				"name": "",
 				"type": "",
 				"image_uris": {
-					"en": "https://Custom-MtG-Sets/sets/AVA-files/img/252_Haunted Skull_back.png"
+					"en": "https://Opacana.github.io/sets/AVA-files/img/252_Haunted Skull_back.png"
 				}
 			},
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/252_Haunted Skull_front.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/252_Haunted Skull_front.png"
 			}
 		},
 		{
@@ -2544,11 +2544,11 @@
 				"name": "",
 				"type": "",
 				"image_uris": {
-					"en": "https://Custom-MtG-Sets/sets/AVA-files/img/227_Monster of Lake Dread_back.png"
+					"en": "https://Opacana.github.io/sets/AVA-files/img/227_Monster of Lake Dread_back.png"
 				}
 			},
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/227_Monster of Lake Dread_front.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/227_Monster of Lake Dread_front.png"
 			}
 		},
 		{
@@ -2558,7 +2558,7 @@
 			"type": "Instant",
 			"collector_number": "242",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/242_Turncoat Arsenal.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/242_Turncoat Arsenal.png"
 			}
 		},
 		{
@@ -2568,7 +2568,7 @@
 			"type": "Instant",
 			"collector_number": "220",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/220_Cindertrap Sabotage.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/220_Cindertrap Sabotage.png"
 			}
 		},
 		{
@@ -2578,7 +2578,7 @@
 			"type": "Instant",
 			"collector_number": "241",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/241_A Touch of Home.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/241_A Touch of Home.png"
 			}
 		},
 		{
@@ -2588,7 +2588,7 @@
 			"type": "Creature — Rabbit Soldier",
 			"collector_number": "245",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/245_Warren League Lieutenant.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/245_Warren League Lieutenant.png"
 			}
 		},
 		{
@@ -2598,7 +2598,7 @@
 			"type": "Enchantment — Aura",
 			"collector_number": "235",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/235_Relieved of Duty.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/235_Relieved of Duty.png"
 			}
 		},
 		{
@@ -2608,7 +2608,7 @@
 			"type": "Creature — Zombie",
 			"collector_number": "238",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/238_Soilborn Staff.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/238_Soilborn Staff.png"
 			}
 		},
 		{
@@ -2618,7 +2618,7 @@
 			"type": "Sorcery",
 			"collector_number": "234",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/234_Reconstructed Gate.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/234_Reconstructed Gate.png"
 			}
 		},
 		{
@@ -2628,7 +2628,7 @@
 			"type": "Creature — Human Mercenary Warrior",
 			"collector_number": "229",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/229_Ninth Dawn Associate.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/229_Ninth Dawn Associate.png"
 			}
 		},
 		{
@@ -2638,7 +2638,7 @@
 			"type": "Instant",
 			"collector_number": "219",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/219_The Call of Rediscovery.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/219_The Call of Rediscovery.png"
 			}
 		},
 		{
@@ -2648,7 +2648,7 @@
 			"type": "Artifact — Vehicle",
 			"collector_number": "255",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/255_Lemauge Heavy Cruiser.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/255_Lemauge Heavy Cruiser.png"
 			}
 		},
 		{
@@ -2658,7 +2658,7 @@
 			"type": "Basic Land — Plains",
 			"collector_number": "274",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/274_Plains.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/274_Plains.png"
 			}
 		},
 		{
@@ -2668,7 +2668,7 @@
 			"type": "Basic Land — Island",
 			"collector_number": "275",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/275_Island.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/275_Island.png"
 			}
 		},
 		{
@@ -2678,7 +2678,7 @@
 			"type": "Basic Land — Swamp",
 			"collector_number": "276",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/276_Swamp.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/276_Swamp.png"
 			}
 		},
 		{
@@ -2688,7 +2688,7 @@
 			"type": "Basic Land — Mountain",
 			"collector_number": "277",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/277_Mountain.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/277_Mountain.png"
 			}
 		},
 		{
@@ -2698,7 +2698,7 @@
 			"type": "Basic Land — Forest",
 			"collector_number": "278",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/278_Forest.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/278_Forest.png"
 			}
 		},
 		{
@@ -2708,7 +2708,7 @@
 			"type": "Land",
 			"collector_number": "268",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/268_Pirates' Encampment.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/268_Pirates' Encampment.png"
 			}
 		},
 		{
@@ -2718,7 +2718,7 @@
 			"type": "Land",
 			"collector_number": "263",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/263_Fog-Wreathed Rest.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/263_Fog-Wreathed Rest.png"
 			}
 		},
 		{
@@ -2728,7 +2728,7 @@
 			"type": "Land",
 			"collector_number": "271",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/271_Skyvannah.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/271_Skyvannah.png"
 			}
 		},
 		{
@@ -2738,7 +2738,7 @@
 			"type": "Land",
 			"collector_number": "272",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/272_Volcanic Lair.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/272_Volcanic Lair.png"
 			}
 		},
 		{
@@ -2748,7 +2748,7 @@
 			"type": "Land",
 			"collector_number": "267",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/267_Landing Station.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/267_Landing Station.png"
 			}
 		},
 		{
@@ -2758,7 +2758,7 @@
 			"type": "Token Artifact — Clue",
 			"collector_number": "16",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/16_Clue.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/16_Clue.png"
 			}
 		},
 		{
@@ -2768,7 +2768,7 @@
 			"type": "Token Artifact — Map",
 			"collector_number": "21",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/21_Map.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/21_Map.png"
 			}
 		},
 		{
@@ -2778,7 +2778,7 @@
 			"type": "Token Creature — Bird",
 			"collector_number": "5",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/5_Bird.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/5_Bird.png"
 			}
 		},
 		{
@@ -2788,7 +2788,7 @@
 			"type": "Battle — Skirmish",
 			"collector_number": "12",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/12_Defense of Reedsey.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/12_Defense of Reedsey.png"
 			}
 		},
 		{
@@ -2798,7 +2798,7 @@
 			"type": "Battle — Skirmish",
 			"collector_number": "79",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/79_Skipping Class.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/79_Skipping Class.png"
 			}
 		},
 		{
@@ -2808,7 +2808,7 @@
 			"type": "Battle — Skirmish",
 			"collector_number": "115",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/115_A Sabotaging of Hope.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/115_A Sabotaging of Hope.png"
 			}
 		},
 		{
@@ -2818,7 +2818,7 @@
 			"type": "Battle — Skirmish",
 			"collector_number": "157",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/157_Ninth Dawn Public Relations.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/157_Ninth Dawn Public Relations.png"
 			}
 		},
 		{
@@ -2828,7 +2828,7 @@
 			"type": "Battle — Skirmish",
 			"collector_number": "211",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/211_Test of Courage.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/211_Test of Courage.png"
 			}
 		},
 		{
@@ -2838,7 +2838,7 @@
 			"type": "Sorcery",
 			"collector_number": "135",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/135_Break with the Past.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/135_Break with the Past.png"
 			}
 		},
 		{
@@ -2848,7 +2848,7 @@
 			"type": "Token Artifact — Treasure",
 			"collector_number": "23",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/23_Treasure.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/23_Treasure.png"
 			}
 		},
 		{
@@ -2858,7 +2858,7 @@
 			"type": "Token Artifact Creature — Soldier",
 			"collector_number": "8",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/8_Soldier.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/8_Soldier.png"
 			}
 		},
 		{
@@ -2868,7 +2868,7 @@
 			"type": "Token Creature — Phoenix",
 			"collector_number": "4",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/4_Darkwing.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/4_Darkwing.png"
 			}
 		},
 		{
@@ -2878,7 +2878,7 @@
 			"type": "Token Creature — Rabbit Warrior",
 			"collector_number": "15",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/15_Rabbit Warrior.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/15_Rabbit Warrior.png"
 			}
 		},
 		{
@@ -2888,7 +2888,7 @@
 			"type": "Token Creature — Rabbit Monk",
 			"collector_number": "14",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/14_Rabbit Monk.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/14_Rabbit Monk.png"
 			}
 		},
 		{
@@ -2898,7 +2898,7 @@
 			"type": "Token Artifact — Food",
 			"collector_number": "19",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/19_Food.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/19_Food.png"
 			}
 		},
 		{
@@ -2908,7 +2908,7 @@
 			"type": "Token Creature — Human Soldier",
 			"collector_number": "12",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/12_Human Soldier.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/12_Human Soldier.png"
 			}
 		},
 		{
@@ -2918,7 +2918,7 @@
 			"type": "Token Artifact — Equipment",
 			"collector_number": "20",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/20_Infernal Scimitar.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/20_Infernal Scimitar.png"
 			}
 		},
 		{
@@ -2928,7 +2928,7 @@
 			"type": "Token Enchantment Creature — Insect",
 			"collector_number": "3",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/3_Butterfly.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/3_Butterfly.png"
 			}
 		},
 		{
@@ -2938,7 +2938,7 @@
 			"type": "Token Creature — Skeleton",
 			"collector_number": "7",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/7_Skeleton.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/7_Skeleton.png"
 			}
 		},
 		{
@@ -2948,7 +2948,7 @@
 			"type": "Token Creature — Vessel",
 			"collector_number": "2",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/2_Vessel.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/2_Vessel.png"
 			}
 		},
 		{
@@ -2958,7 +2958,7 @@
 			"type": "Token Enchantment Creature — Bird",
 			"collector_number": "6",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/6_Bird.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/6_Bird.png"
 			}
 		},
 		{
@@ -2968,7 +2968,7 @@
 			"type": "Token Artifact — Equipment",
 			"collector_number": "18",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/18_Crystal-Core Rifle.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/18_Crystal-Core Rifle.png"
 			}
 		},
 		{
@@ -2978,7 +2978,7 @@
 			"type": "Token Creature — Boar",
 			"collector_number": "10",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/10_Boar.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/10_Boar.png"
 			}
 		},
 		{
@@ -2988,7 +2988,7 @@
 			"type": "Token Artifact",
 			"collector_number": "22",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/22_Minibomb.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/22_Minibomb.png"
 			}
 		},
 		{
@@ -2998,7 +2998,7 @@
 			"type": "Token Artifact Creature — Construct",
 			"collector_number": "17",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/17_Construct.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/17_Construct.png"
 			}
 		},
 		{
@@ -3008,7 +3008,7 @@
 			"type": "Token Creature — Spider",
 			"collector_number": "11",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/11_Giant Spider.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/11_Giant Spider.png"
 			}
 		},
 		{
@@ -3018,7 +3018,7 @@
 			"type": "Token Creature — Pilot Soldier",
 			"collector_number": "13",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/13_Pilot Soldier.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/13_Pilot Soldier.png"
 			}
 		},
 		{
@@ -3028,7 +3028,7 @@
 			"type": "Token Creature — Zombie",
 			"collector_number": "9",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/9_Zombie.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/9_Zombie.png"
 			}
 		},
 		{
@@ -3038,7 +3038,7 @@
 			"type": "Token Creature — Dragon Spirit",
 			"collector_number": "1",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/1_Dragon Spirit.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/1_Dragon Spirit.png"
 			}
 		},
 		{
@@ -3048,7 +3048,7 @@
 			"type": "Creature — Rabbit Soldier",
 			"collector_number": "43",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/43_Zuun Warrenguard.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/43_Zuun Warrenguard.png"
 			}
 		},
 		{
@@ -3058,7 +3058,7 @@
 			"type": "Creature — Human Pirate",
 			"collector_number": "75",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/75_Ropehold Scout.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/75_Ropehold Scout.png"
 			}
 		},
 		{
@@ -3068,7 +3068,7 @@
 			"type": "Creature — Rabbit Zombie",
 			"collector_number": "98",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/98_Gersauld's Assassin.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/98_Gersauld's Assassin.png"
 			}
 		},
 		{
@@ -3078,7 +3078,7 @@
 			"type": "Instant",
 			"collector_number": "42",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/42_Wide-bore Warning.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/42_Wide-bore Warning.png"
 			}
 		},
 		{
@@ -3088,7 +3088,7 @@
 			"type": "Creature — Rabbit Rogue",
 			"collector_number": "13",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/13_Distracting Saboteur.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/13_Distracting Saboteur.png"
 			}
 		},
 		{
@@ -3098,7 +3098,7 @@
 			"type": "Creature — Rabbit Druid Warlock",
 			"collector_number": "174",
 			"image_uris": {
-				"en": "https://Custom-MtG-Sets/sets/AVA-files/img/174_Aluki Exile.png"
+				"en": "https://Opacana.github.io/sets/AVA-files/img/174_Aluki Exile.png"
 			}
 		}
 	]
