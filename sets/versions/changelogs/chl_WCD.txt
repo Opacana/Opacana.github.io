@@ -1,4 +1,64 @@
-﻿VERSION 6 CHANGELOG
+﻿VERSION 7 CHANGELOG
+====================
+
+Citizen added.
+
+
+Rabid Orthroid
+
+Malooth, Capital of Hallost
+rules_text: This land enters tapped.
+{T}: Add {G}.
+{T}: Add one mana of any color. Activate only if no player controls an artifact or enchantment. => This land enters tapped.
+{T}: Add {G}.
+{1}, {T}: Create a 1/1 colorless Citizen creature token. Activate only if no player controls an artifact or enchantment.
+
+Karil-on-the-Wyvern
+rules_text: This land enters tapped.
+{T}: Add {W}. 
+{T}: Add one mana of any color. Activate only if you control three or more artifacts and/or enchantments. => This land enters tapped.
+{T}: Add {W}. 
+{1}, {T}: Create a 1/1 colorless Citizen creature token. Activate only if you control three or more artifacts and/or enchantments.
+
+Skull Heights Castle
+rules_text: This land enters tapped.
+{T}: Add {B}.
+{T}: Add one mana of any color. Activate only if there are X or more creature cards in exile, where X is the number of players. => This land enters tapped.
+{T}: Add {B}.
+{1}, {T}: Create a 1/1 colorless Citizen creature token. Activate only if there are X or more creature cards in exile, where X is the number of players.
+
+Taarept, First City of Wuqran
+rules_text: This land enters tapped.
+{T}: Add {U}.
+{T}: Add one mana of any color. Activate only if you've scried or surveiled this turn. => This land enters tapped.
+{T}: Add {U}.
+{1}, {T}: Create a 1/1 colorless Citizen creature token. Activate only if you've scried or surveiled this turn.
+
+Rockloop Station
+rules_text: This land enters tapped.
+{T}: Add {R}.
+{T}: Add one mana of any color. Activate only if you've cast an artifact or instant spell this turn. => This land enters tapped.
+{T}: Add {R}.
+{1}, {T}: Create a 1/1 colorless Citizen creature token. Activate only if you've cast an artifact or instant spell this turn.
+
+Ashiok, Bemused
+special_text: [+2]: Target player mills five cards. Then you surveil 1.
+[-1]: [b]Create a 1/1 black Nightmare Illusion creature token with flying.[/b]
+[-10]: Search each opponent's library for up to ten nonland cards and exile them, then those players shuffle. As long as those cards remain exiled, you may play them without paying their mana cost. => [+2]: Target player mills five cards. Then you surveil 1.
+[-1]: [b]Create a 1/1 black Nightmare Illusion creature token with flying.[/b]
+[-10]: Search each opponent's library for up to ten nonland cards and exile them, then those players shuffle. As long as those cards remain exiled, you may cast them without paying their mana cost.
+
+Charge — Tabriogni's Grand Plan
+special_text: [i](When this Inquest enters, at the beginning of your upkeep, and when a permanent you control is destroyed, put an evidence counter on it. Sacrifice after III.)[/i]
+Put a flying counter on target permanent.
+Until end of turn, whenever a creature you control deals combat damage to an opponent, draw a card.
+Target creature you control gains “Whenever you draw a card, put a +1/+1 on this creature.” [i](This effect lasts indefinitely.)[/i] => [i](When this Inquest enters, at the beginning of your upkeep, and when a permanent you control is destroyed, put an evidence counter on it. Sacrifice after III.)[/i]
+Put a flying counter on target permanent.
+Until end of turn, whenever a creature you control deals combat damage to an opponent, draw a card.
+Target creature you control gains “Whenever you draw a card, put a +1/+1 counter on this creature.” [i](This effect lasts indefinitely.)[/i]
+
+
+VERSION 6 CHANGELOG
 ====================
 
 Writ added.

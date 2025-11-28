@@ -1711,67 +1711,67 @@
     },
     "a->token",
     {
-        "card_name": "Batran Volt-Rifle",
-        "number": 19,
-        "shape": "token",
-        "set": "WCD"
-    },
-    {
-        "card_name": "Cargo",
-        "number": 20,
-        "shape": "token",
-        "set": "WCD"
-    },
-    {
-        "card_name": "Food",
-        "number": 21,
-        "shape": "token",
-        "set": "WCD"
-    },
-    {
-        "card_name": "Forfeiture",
-        "number": 22,
-        "shape": "token",
-        "set": "WCD"
-    },
-    {
-        "card_name": "Toy",
-        "number": 23,
-        "shape": "token",
-        "set": "WCD"
-    },
-    {
-        "card_name": "Treasure",
-        "number": 24,
-        "shape": "token",
-        "set": "WCD"
-    },
-    {
-        "card_name": "Writ",
-        "number": 25,
-        "shape": "token",
-        "set": "WCD"
-    },
-    {
-        "card_name": "Cat",
+        "card_name": "Citizen",
         "number": 1,
         "shape": "token",
         "set": "WCD"
     },
     {
-        "card_name": "Entrusted",
+        "card_name": "Batran Volt-Rifle",
+        "number": 20,
+        "shape": "token",
+        "set": "WCD"
+    },
+    {
+        "card_name": "Cargo",
+        "number": 21,
+        "shape": "token",
+        "set": "WCD"
+    },
+    {
+        "card_name": "Food",
+        "number": 22,
+        "shape": "token",
+        "set": "WCD"
+    },
+    {
+        "card_name": "Forfeiture",
+        "number": 23,
+        "shape": "token",
+        "set": "WCD"
+    },
+    {
+        "card_name": "Toy",
+        "number": 24,
+        "shape": "token",
+        "set": "WCD"
+    },
+    {
+        "card_name": "Treasure",
+        "number": 25,
+        "shape": "token",
+        "set": "WCD"
+    },
+    {
+        "card_name": "Writ",
+        "number": 26,
+        "shape": "token",
+        "set": "WCD"
+    },
+    {
+        "card_name": "Cat",
         "number": 2,
         "shape": "token",
         "set": "WCD"
     },
     {
-        "card_name": "Grinli",
+        "card_name": "Entrusted",
         "number": 3,
         "shape": "token",
         "set": "WCD"
     },
     {
-        "card_name": "Bird",
+        "card_name": "Grinli",
         "number": 4,
         "shape": "token",
         "set": "WCD"
@@ -1783,82 +1783,100 @@
         "set": "WCD"
     },
     {
-        "card_name": "Bat",
+        "card_name": "Bird",
         "number": 6,
         "shape": "token",
         "set": "WCD"
     },
     {
-        "card_name": "Bird",
+        "card_name": "Bat",
         "number": 7,
         "shape": "token",
         "set": "WCD"
     },
     {
-        "card_name": "Nightmare Illusion",
+        "card_name": "Bird",
         "number": 8,
         "shape": "token",
         "set": "WCD"
     },
     {
-        "card_name": "Bear Warrior",
+        "card_name": "Nightmare Illusion",
         "number": 9,
         "shape": "token",
         "set": "WCD"
     },
     {
-        "card_name": "Cat",
+        "card_name": "Bear Warrior",
         "number": 10,
         "shape": "token",
         "set": "WCD"
     },
     {
-        "card_name": "Phoenix",
+        "card_name": "Cat",
         "number": 11,
         "shape": "token",
         "set": "WCD"
     },
     {
-        "card_name": "Beast",
+        "card_name": "Phoenix",
         "number": 12,
         "shape": "token",
         "set": "WCD"
     },
     {
-        "card_name": "Saproling",
+        "card_name": "Beast",
         "number": 13,
         "shape": "token",
         "set": "WCD"
     },
     {
-        "card_name": "Snake Mutant Warlock",
+        "card_name": "Saproling",
         "number": 14,
         "shape": "token",
         "set": "WCD"
     },
     {
-        "card_name": "Insect",
+        "card_name": "Snake Mutant Warlock",
         "number": 15,
         "shape": "token",
         "set": "WCD"
     },
     {
-        "card_name": "Rogue",
+        "card_name": "Insect",
         "number": 16,
         "shape": "token",
         "set": "WCD"
     },
     {
-        "card_name": "Warrior Citizen",
+        "card_name": "Rogue",
         "number": 17,
         "shape": "token",
         "set": "WCD"
     },
     {
-        "card_name": "Wolf Spirit",
+        "card_name": "Warrior Citizen",
         "number": 18,
         "shape": "token",
         "set": "WCD"
+    },
+    {
+        "card_name": "Wolf Spirit",
+        "number": 19,
+        "shape": "token",
+        "set": "WCD"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
     },
     {
         "card_name": "er"

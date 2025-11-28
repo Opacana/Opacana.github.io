@@ -2525,9 +2525,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Artifact — Food",
-			"collector_number": "21",
+			"collector_number": "22",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/WCD-files/img/21_Food.png"
+				"en": "https://Opacana.github.io/sets/WCD-files/img/22_Food.png"
 			}
 		},
 		{
@@ -2535,9 +2535,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Artifact — Treasure",
-			"collector_number": "24",
+			"collector_number": "25",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/WCD-files/img/24_Treasure.png"
+				"en": "https://Opacana.github.io/sets/WCD-files/img/25_Treasure.png"
 			}
 		},
 		{
@@ -2545,9 +2545,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Creature — Phoenix",
-			"collector_number": "11",
+			"collector_number": "12",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/WCD-files/img/11_Phoenix.png"
+				"en": "https://Opacana.github.io/sets/WCD-files/img/12_Phoenix.png"
 			}
 		},
 		{
@@ -2555,9 +2555,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Creature — Wolf Spirit",
-			"collector_number": "18",
+			"collector_number": "19",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/WCD-files/img/18_Wolf Spirit.png"
+				"en": "https://Opacana.github.io/sets/WCD-files/img/19_Wolf Spirit.png"
 			}
 		},
 		{
@@ -2565,9 +2565,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Creature — Saproling",
-			"collector_number": "13",
+			"collector_number": "14",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/WCD-files/img/13_Saproling.png"
+				"en": "https://Opacana.github.io/sets/WCD-files/img/14_Saproling.png"
 			}
 		},
 		{
@@ -2575,9 +2575,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Creature — Cat",
-			"collector_number": "1",
+			"collector_number": "2",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/WCD-files/img/1_Cat.png"
+				"en": "https://Opacana.github.io/sets/WCD-files/img/2_Cat.png"
 			}
 		},
 		{
@@ -2585,9 +2585,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Enchantment — Aura",
-			"collector_number": "2",
+			"collector_number": "3",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/WCD-files/img/2_Entrusted.png"
+				"en": "https://Opacana.github.io/sets/WCD-files/img/3_Entrusted.png"
 			}
 		},
 		{
@@ -2595,9 +2595,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Creature — Bear Warrior",
-			"collector_number": "9",
+			"collector_number": "10",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/WCD-files/img/9_Bear Warrior.png"
+				"en": "https://Opacana.github.io/sets/WCD-files/img/10_Bear Warrior.png"
 			}
 		},
 		{
@@ -2605,19 +2605,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Legendary Token Creature — Cat",
-			"collector_number": "3",
-			"image_uris": {
-				"en": "https://Opacana.github.io/sets/WCD-files/img/3_Grinli.png"
-			}
-		},
-		{
-			"name": "Bird",
-			"rarity": "common",
-			"mana_cost": "",
-			"type": "Token Creature — Bird",
 			"collector_number": "4",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/WCD-files/img/4_Bird.png"
+				"en": "https://Opacana.github.io/sets/WCD-files/img/4_Grinli.png"
 			}
 		},
 		{
@@ -2631,13 +2621,23 @@
 			}
 		},
 		{
+			"name": "Bird",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Bird",
+			"collector_number": "6",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/WCD-files/img/6_Bird.png"
+			}
+		},
+		{
 			"name": "Snake Mutant Warlock",
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Creature — Snake Mutant Warlock",
-			"collector_number": "14",
+			"collector_number": "15",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/WCD-files/img/14_Snake Mutant Warlock.png"
+				"en": "https://Opacana.github.io/sets/WCD-files/img/15_Snake Mutant Warlock.png"
 			}
 		},
 		{
@@ -2645,9 +2645,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Creature — Nightmare Illusion",
-			"collector_number": "8",
+			"collector_number": "9",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/WCD-files/img/8_Nightmare Illusion.png"
+				"en": "https://Opacana.github.io/sets/WCD-files/img/9_Nightmare Illusion.png"
 			}
 		},
 		{
@@ -2655,9 +2655,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Creature — Bat",
-			"collector_number": "6",
+			"collector_number": "7",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/WCD-files/img/6_Bat.png"
+				"en": "https://Opacana.github.io/sets/WCD-files/img/7_Bat.png"
 			}
 		},
 		{
@@ -2665,9 +2665,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Creature — Bird",
-			"collector_number": "7",
+			"collector_number": "8",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/WCD-files/img/7_Bird.png"
+				"en": "https://Opacana.github.io/sets/WCD-files/img/8_Bird.png"
 			}
 		},
 		{
@@ -2675,9 +2675,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Artifact — Equipment",
-			"collector_number": "19",
+			"collector_number": "20",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/WCD-files/img/19_Batran Volt-Rifle.png"
+				"en": "https://Opacana.github.io/sets/WCD-files/img/20_Batran Volt-Rifle.png"
 			}
 		},
 		{
@@ -2685,9 +2685,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Creature — Beast",
-			"collector_number": "12",
+			"collector_number": "13",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/WCD-files/img/12_Beast.png"
+				"en": "https://Opacana.github.io/sets/WCD-files/img/13_Beast.png"
 			}
 		},
 		{
@@ -2695,9 +2695,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Creature — Insect",
-			"collector_number": "15",
+			"collector_number": "16",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/WCD-files/img/15_Insect.png"
+				"en": "https://Opacana.github.io/sets/WCD-files/img/16_Insect.png"
 			}
 		},
 		{
@@ -2705,9 +2705,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Artifact",
-			"collector_number": "22",
+			"collector_number": "23",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/WCD-files/img/22_Forfeiture.png"
+				"en": "https://Opacana.github.io/sets/WCD-files/img/23_Forfeiture.png"
 			}
 		},
 		{
@@ -2715,9 +2715,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Creature — Warrior Citizen",
-			"collector_number": "17",
+			"collector_number": "18",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/WCD-files/img/17_Warrior Citizen.png"
+				"en": "https://Opacana.github.io/sets/WCD-files/img/18_Warrior Citizen.png"
 			}
 		},
 		{
@@ -2725,9 +2725,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Artifact",
-			"collector_number": "20",
+			"collector_number": "21",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/WCD-files/img/20_Cargo.png"
+				"en": "https://Opacana.github.io/sets/WCD-files/img/21_Cargo.png"
 			}
 		},
 		{
@@ -2735,9 +2735,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Creature — Cat",
-			"collector_number": "10",
+			"collector_number": "11",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/WCD-files/img/10_Cat.png"
+				"en": "https://Opacana.github.io/sets/WCD-files/img/11_Cat.png"
 			}
 		},
 		{
@@ -2745,9 +2745,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Creature — Rogue",
-			"collector_number": "16",
+			"collector_number": "17",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/WCD-files/img/16_Rogue.png"
+				"en": "https://Opacana.github.io/sets/WCD-files/img/17_Rogue.png"
 			}
 		},
 		{
@@ -2755,9 +2755,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Artifact Creature — Toy",
-			"collector_number": "23",
+			"collector_number": "24",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/WCD-files/img/23_Toy.png"
+				"en": "https://Opacana.github.io/sets/WCD-files/img/24_Toy.png"
 			}
 		},
 		{
@@ -2825,9 +2825,19 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Artifact",
-			"collector_number": "25",
+			"collector_number": "26",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/WCD-files/img/25_Writ.png"
+				"en": "https://Opacana.github.io/sets/WCD-files/img/26_Writ.png"
+			}
+		},
+		{
+			"name": "Citizen",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Citizen",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/WCD-files/img/1_Citizen.png"
 			}
 		}
 	]
