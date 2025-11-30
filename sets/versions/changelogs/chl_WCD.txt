@@ -1,4 +1,291 @@
-﻿VERSION 8 CHANGELOG
+﻿VERSION 9 CHANGELOG
+====================
+
+
+Bird removed.
+Forfeiture removed.
+Cat removed.
+
+Reflector Diva
+pt: 1/1 => 2/2
+
+Priest of Lun, the Stormwing
+rules_text: When this creature enters, create a 1/2 blue Bird creature token with flying.
+At the beginning of your upkeep, if you control another creature with flying, you may scry 2 or surveil 2. => When this creature enters, create a 1/2 black Bird creature token with flying.
+At the beginning of your upkeep, if you control another creature with flying, you may scry 2.
+
+Unpredicted Tornado
+rules_text: Kicker {G} [i](You may pay an additional {G} as you cast this spell.)[/i]
+Return target nonland permanent to its owner's hand. If this spell was kicked, you may return target permanent to its owner's hand instead.
+Surveil 1. => Kicker {G} [i](You may pay an additional {G} as you cast this spell.)[/i]
+Return target nonland permanent to its owner's hand. If this spell was kicked, you may return target permanent to its owner's hand instead.
+Scry 1.
+
+Recaptured Experiment
+rules_text: Deathtouch, menace
+This gets +1/+0 for each other creature you control whose toughness is greater than its power. => Menace
+Whenever this creature deals combat damage to an opponent, that player loses X life, where X is the number of creatures you control with toughness greater than their power.
+
+Final Servitude
+rules_text: As an additional cost to cast this spell, sacrifice a creature.
+Draw two cards. 
+If a face-down creature was sacrificed to pay this spell's additional cost, surveil 2. => As an additional cost to cast this spell, sacrifice a creature.
+Draw two cards. 
+If a face-down creature was sacrificed to pay this spell's additional cost, scry 2.
+
+Waste Tamer of Batra
+rules_text: When this creature enters, create a colorless Batran Volt-Rifle artifact equipment token with “Equipped creature gets +2/+0.” and “Equipped creature has first strike during your turn.” and equip {2}. => When this creature enters, create a colorless Batran Volt-Rifle artifact equipment token with “Equipped creature gets +1/+0.” and “Equipped creature has first strike during your turn.” and equip {2}.
+
+Elite Air Squadron
+rules_text: Haste
+{T}: The next Vehicle spell you cast this turn costs {2} less to cast. Activate only once each turn.
+The first time you cast a Vehicle spell each turn, untap this. => Haste
+Whenever this creature attacks, the next artifact spell you cast this turn costs {2} less to cast.
+
+Dealer's Deck
+rules_text: When this Equipment enters, you may discard a card. If you do, draw two cards
+Equipped creature has “If an effect would cause you to discard one or more cards at random, you may choose which cards to discard instead.”
+Equip {1} => When this Equipment enters, you may discard a card. If you do, draw two cards
+Equipped creature has “If an effect would cause you to discard one or more cards at random, you choose which cards to discard instead.”
+Equip {1}
+
+Eumidian Trailtracer
+cost: {1}{G} => {2}{G}
+pt: 1/1 => 2/2
+
+Ancient Mossback
+rules_text: Whenever you scry or surveil, if this is untapped, you may draw a card.
+Discard a card: This gains hexproof until end of turn. Tap this. => Whenever you scry, if this is untapped, you may draw a card.
+Discard a card: This gains hexproof until end of turn. Tap this.
+
+Shadowfang Cauldron
+rules_text: Create X 1/1 black Bat creature tokens with flying.
+If X is 4 or more, you may surveil 2. => Create X 1/1 black Bat creature tokens with flying.
+If X is 4 or more, you may scry 2.
+
+White Tiger Companion
+rules_text: When this creature enters, create two 2/2 white Cat creature tokens with vigilance.
+{1}{G}, {T}: Prevent all damage that would be dealt to Cats you control this turn. => When this creature enters, create two 2/2 red Cat creature tokens.
+{1}{G}, {T}: Prevent all damage that would be dealt to Cats you control this turn.
+
+Seizure and Requisition Agent
+rules_text: When this creature enters, scry 2, then destroy target artifact or enchantment with mana value X or less, where X is the total cards you've scried and/or surveiled this turn. => When this creature enters, scry 2, then destroy target artifact or enchantment with mana value X or less, where X is the total cards you've scried this turn.
+
+Cage Dancer
+rules_text: Masquerade {W} [i](You may cast this card face down for {3} as a 2/2 creature with ward—Sacrifice a permanent. Turn it face up any time for its masquerade cost.)[/i]
+{W}, {T}: Target creature gets +1/+1 and gains indestructible until end of turn. If you control that creature, tap it. => Masquerade {W} [i](You may cast this card face down for {3} as a 2/2 creature with ward—Sacrifice a permanent. Turn it face up any time for its masquerade cost.)[/i]
+{W}, {T}: Target creature gets +1/+1 and gains indestructible until end of turn.
+
+Deepsight Siphoner
+rules_text: Ward {2}
+Whenever the first spell is cast each turn, scry 1.
+Whenever the second spell is cast each turn, this creature can't be blocked until end of turn.
+Whenever the third spell is cast each turn, this creature gets +2/+2 until end of turn. => Ward {2}
+Whenever you cast your first spell each turn, scry 1.
+{2}{U}: This creature gets +2/+2 and can't be blocked until end of turn. This costs {1} less to activate for every spell you've cast this turn.
+
+Eidetic Artisan
+rules_text: {1}{W}, {T}: Detain target creature. [i](Until your next turn, that creature can't attack or block and its activated abilities can't be activated.)[/i]
+{2}{U}, {T}: Detain another target creature you control with mana value 3 or less. Create a token copy of that creature. Activate only on your turn, before combat. => {1}{W}, {T}: Detain target creature. [i](Until your next turn, that creature can't attack or block and its activated abilities can't be activated.)[/i]
+{2}{U}, {T}: Detain another target creature you control with mana value 3 or less. Create a token copy of that creature. Activate only as a sorcery.
+
+Summoning Game
+cost: {2}{U}{U} => {3}{U}{U}
+
+Keeper of Gerell Necropolis
+type: Creature — Mutant Warlock => Creature — Bird Mutant Warlock
+
+Depraved Oracle
+rules_text: Masquerade {BR} [i](You may cast this card face down for {3} as a 2/2 creature with ward—Sacrifice a permanent. Turn it face up any time for its masquerade cost.)[/i]
+Once per turn, whenever a creature you control deals combat damage to an opponent, you may pay that much life. If you do, draw a card. => Masquerade {BR} [i](You may cast this card face down for {3} as a 2/2 creature with ward—Sacrifice a permanent. Turn it face up any time for its masquerade cost.)[/i]
+Whenever a creature you control deals combat damage to an opponent, you may pay that much life. If you do, draw a card. This ability triggers only once each turn.
+
+Wroszy's Gravedigger
+rules_text: When this creature enters, return target nongreen card from your graveyard to the battlefield if it's a creature, if it's an artifact and {U} was spent to cast this spell, or if it's an enchantment and {W} was spent to cast this spell. => When this creature enters, you may return target creature card from your graveyard to the battlefield. If you do, you lose life equal to that card's mana value. If nonblack mana was spent to cast this spell, you may return a nonland card this way instead.
+
+Subject 1951
+cost: {1}{G} => {2}{G}{G}
+pt: 0/2 => 1/3
+
+Morau and Jemel
+rules_text: Whenever this creature enters or attacks, scry 2. If you've scried or surveiled this turn, you may draw a card instead.
+When this leaves the battlefield, you may detain target creature or planeswalker. [i](Until your next turn, that creature can't attack or block and its activated abilities can't be activated.)[/i] => Whenever this creature enters or attacks, scry 2. If you've scried this turn, you may draw a card instead.
+When this leaves the battlefield, you may detain target creature or planeswalker. [i](Until your next turn, that creature can't attack or block and its activated abilities can't be activated.)[/i]
+
+Azania Voidrose
+rules_text: Masquerade—{WB}{WB} [i](You may cast this card face down for {3} as a 2/2 creature with ward—Sacrifice a permanent. Turn it face up any time for its masquerade cost.)[/i]
+When this creature enters or is turned face up, return a creature card with Masquerade or Morph from your graveyard to the battlefield face up or face down. Put a lifelink counter and a deathtouch counter on that creature and Azania. => Masquerade—{WB}{WB} [i](You may cast this card face down for {3} as a 2/2 creature with ward—Sacrifice a permanent. Turn it face up any time for its masquerade cost.)[/i]
+When this creature enters or is turned face up, return a non-legendary creature card with Masquerade or Morph from your graveyard to the battlefield face up or face down. Put a lifelink counter on that creature and Azania.
+
+Nightmares on Tour
+rules_text: You may put a creature card from your hand onto the battlefield. That creature gains haste until end of turn, and must attack this turn if able. Until end of turn, counter all triggered abilities of that creature. => Put a creature card from your hand onto the battlefield. That creature gains haste until end of turn, and must attack this turn if able. Until end of turn, counter all triggered abilities of that creature.
+
+Tagdron's Call
+rules_text: Search your library for a green creature card with mana value X or less, where X is one plus the highest mana value among nontoken creatures that died under your control this turn, put it onto the battlefield, then shuffle. => Search your library for a green creature card with mana value X or less, where X is one plus the highest mana value among creatures that died under your control this turn, put it onto the battlefield, then shuffle.
+
+Mistress of Cats
+rules_text: Haste
+When this creature enters, create a 2/2 red Cat creature token with haste.
+{T}: The next creature spell you cast this turn has practiced. [i](That spell costs {1} less to cast for each creature you've attacked with this turn.)[/i] => Haste
+When this creature enters, create a 2/2 red Cat creature token.
+{T}: The next creature spell you cast this turn has practiced. [i](That spell costs {1} less to cast for each creature you've attacked with this turn.)[/i]
+
+Jhan, Committed Investigator
+rules_text: The first time you scry or surveil each turn, creatures you control get +1/+1 and gain trample until end of turn.
+{1}{U}, {T}: Scry 2, then create a Treasure token. => The first time you scry each turn, creatures you control get +1/+1 and gain trample until end of turn.
+{1}{U}, {T}: Scry 2, then create a Treasure token.
+
+Rikh, Don of the Scales
+rules_text: Whenever a permanent Rikh dealt damage to this turn dies, create a colorless Forfeiture artifact token with ‘{1}, {T}, Sacrifice this: Add three mana of any color. Spend this mana only to cast Rogue spells.'
+{1}{U}{B}: Return target Rogue card from your graveyard to your hand. Activate only as a sorcery. => Whenever a permanent Rikh dealt damage to this turn dies, create two tapped Treasure tokens.
+{1}{U}{B}: Return target Rogue card from your graveyard to your hand. Activate only as a sorcery.
+
+Riwaya, Bound Deity
+rules_text: Practiced [i](This spell costs {1} less to cast for each creature you've attacked with this turn.)[/i]
+Trample, vigilance
+{2}{R}{G}, Discard this card: Create two 1/1 red and green Warrior Citizen creature tokens. => Practiced [i](This spell costs {1} less to cast for each creature you've attacked with this turn.)[/i]
+Trample, vigilance
+{2}{R}{G}, Discard this card: Create two 1/1 red and green Mercenary creature tokens.
+
+Ezuki, Savani's Consort
+rules_text: Ward—Exile a card from your hand
+Performer spells you cast and face-down creature spells you cast cost {1} less to cast.
+Whenever you turn another permanent face up, you may either put a +1/+1 counter on Ezuki, Savani's Consort or gain 3 life. This ability triggers only once each turn. => Ward—Exile a card from your hand
+Performer spells you cast and face-down creature spells you cast cost {1} less to cast.
+Whenever you turn another permanent face up, put a +1/+1 counter on Ezuki, Savani's Consort and gain 2 life. This ability triggers only once each turn.
+
+Tabriogni's Fortress
+rules_text: Flash
+Flying
+Whenever this artifact enters or attacks, create a colorless Cargo artifact token with “Sacrifice this: You may cast creature spells or artifact spells this turn as though they had flash.”
+Crew 3 => Flying
+Whenever this artifact enters or attacks, create a colorless Cargo artifact token with “Sacrifice this: You may cast creature spells or artifact spells this turn as though they had flash.”
+Crew 3
+
+Capital Archives
+rules_text: Whenever you scry or surveil, put that many charge counters on this.
+{G}{G}{U}, {T}: Creatures you control get +3/+3 and gain trample and hexproof until end of turn. Activate only if there are 10 or more charge counters on this. => Whenever you scry, put that many charge counters on this.
+{G}{G}{U}, {T}: Creatures you control get +3/+3 and gain trample and hexproof until end of turn. Activate only if there are 10 or more charge counters on this.
+
+Fortune Teller's Tent
+rules_text: Whenever fortified land becomes tapped, you may scry 2 or surveil 2.
+Fortify {1} [i]({1}: Attach to target land you control. Fortify only as a sorcery.)[/i] => Whenever fortified land becomes tapped, you may scry 2.
+Fortify {1} [i]({1}: Attach to target land you control. Fortify only as a sorcery.)[/i]
+
+Fiendish Solo
+cost: {2}{B}{R} => {3}{R}
+
+Ingenious Hostess
+cost: {W}{B} => {1}{W}
+
+All-Seeing Stone of Wuqran
+rules_text: {1}, {T}: Create a Treasure token. This ability costs {1} less to activate if you've scried or surveiled this turn or drawn two or more cards this turn.
+{1}{GU}, {T}: Scry 2.
+{7}{GU}, {T}: Scry 10. => {1}, {T}: Create a Treasure token. This ability costs {1} less to activate if you've scried this turn or drawn two or more cards this turn.
+{1}{GU}, {T}: Scry 2.
+{7}{GU}, {T}: Scry 10.
+
+Hall of Nightmares
+rules_text: Each opponent reveals their hand. For each opponent, choose a nonland card revealed this way. Those players discard the chosen cards unless they sacrifice a nontoken creature. => As an addition cost to cast this spell, torment yourself. [i](To torment yourself, lose 3 life unless you discard a card or sacrifice a nonland permanent.)[/i] 
+Target opponent reveals their hand. You choose a nonland card from among them. That player discards that card.
+
+Charge — Grand Theft
+special_text: [i](When this Inquest enters, at the beginning of your upkeep, and when a permanent you control is destroyed, put an evidence counter on it. Sacrifice after III.)[/i]
+Scry 3.
+Draw a card.
+Gain control of all permanents you own, then create two tapped Treasure tokens. => [i](When this Inquest enters, and whenever you draw one or more cards, put an evidence counter on it. Sacrifice after III.)[/i]
+Scry 3.
+Draw a card.
+Gain control of all permanents you own, then create two tapped Treasure tokens.
+
+Report to Parliament
+special_text: [i](When this Inquest enters, at the beginning of your upkeep, and when a permanent you control is destroyed, put an evidence counter on it. Sacrifice after III.)[/i]
+I — Exile up to one other target nonland permanent until this leaves the battlefield.
+II — Scry 3, then you gain 3 life.
+III — Create a Writ colorless artifact token with “Sacrifice this token: Destroy target permanent you don't control.” => [i](When this Inquest enters, and whenever you draw one or more cards, put an evidence counter on it. Sacrifice after III.)[/i]
+I — Exile up to one other target nonland permanent until this leaves the battlefield.
+II — Scry 3, then you gain 3 life.
+III — Create a Writ colorless artifact token with “Sacrifice this token: Destroy target permanent you don't control.”
+
+Zanri Edel, Iceling Psion
+special_text: [+1]: Put a stun counter on target tapped nonland permanent you don't control.
+[+0]: Create a 2/2 blue and green Wolf Spirit creature token.
+[-8]: Target opponent gets an emblem with “Whenever a creature you control attacks, put a stun counter on it.” => [+1]: Put a stun counter on target tapped nonland permanent you don't control.
+[0]: Create a 2/2 blue and green Wolf Spirit creature token.
+[-8]: Target opponent gets an emblem with “Whenever a creature you control attacks, put a stun counter on it.”
+
+Charge — Tabriogni's Grand Plan
+special_text: [i](When this Inquest enters, at the beginning of your upkeep, and when a permanent you control is destroyed, put an evidence counter on it. Sacrifice after III.)[/i]
+Put a flying counter on target permanent.
+Until end of turn, whenever a creature you control deals combat damage to an opponent, draw a card.
+Target creature you control gains “Whenever you draw a card, put a +1/+1 counter on this creature.” [i](This effect lasts indefinitely.)[/i] => [i](When this Inquest enters, and whenever you draw one or more cards, put an evidence counter on it. Sacrifice after III.)[/i]
+Put a flying counter on target permanent.
+Until end of turn, whenever a creature you control deals combat damage to an opponent, draw a card.
+Until end of turn, whenever you draw a card, put a +1/+1 counter on each creature you control.
+
+Charge — Forbidden Elementalism
+special_text: [i](When this Inquest enters, at the beginning of your upkeep, and when a permanent you control is destroyed, put an evidence counter on it. Sacrifice after III.)[/i]
+Sacrifice a nontoken permanent or pay 2 life. If you do, draw two cards.
+Put a ward—Pay 2 life counter on target creature you control.
+Black and colorless creatures you control gain menace until end of turn. => [i](When this Inquest enters, and whenever you draw one or more cards, put an evidence counter on it. Sacrifice after III.)[/i]
+Sacrifice a nontoken permanent or pay 2 life. If you do, draw two cards.
+Put a ward—Pay 2 life counter on target creature you control.
+Black and colorless creatures you control gain menace until end of turn.
+
+Charge — Willful Pollution
+special_text: [i](When this Inquest enters, at the beginning of your upkeep, and when a permanent you control is destroyed, put an evidence counter on it. Sacrifice after III.)[/i]
+Sacrifice a land, then add three mana of any color and surveil 2.
+Sacrifice a land, then create two 1/2 black and green Insect creature tokens with flying.
+Return up to one target land from your graveyard to the battlefield, then sacrifice a creature. => [i](When this Inquest enters, and whenever you draw one or more cards, put an evidence counter on it. Sacrifice after III.)[/i]
+Sacrifice a land, then add three mana of any color and surveil 2.
+Sacrifice a land, then create two 1/2 black and green Insect creature tokens with flying.
+Return up to one target land from your graveyard to the battlefield, then sacrifice a creature.
+
+Charge — Falsifying Records
+special_text: [i](When this Inquest enters, at the beginning of your upkeep, and when a permanent you control is destroyed, put an evidence counter on it. Sacrifice after III.)[/i]
+You and target permanent you control gain hexproof until the beginning of your next turn.
+Return up to one target creature to its owner's hand.
+Target player shuffles their graveyard into their library. You draw a card. => [i](When this Inquest enters, and whenever you draw one or more cards, put an evidence counter on it. Sacrifice after III.)[/i]
+You and target permanent you control gain hexproof until the beginning of your next turn.
+Return up to one target creature to its owner's hand.
+Target player shuffles their graveyard into their library. You draw a card.
+
+Charge — Failure
+special_text: [i](When this Inquest enters, at the beginning of your upkeep, and when a permanent you control is destroyed, put an evidence counter on it. Sacrifice after III.)[/i]
+Target creature or planeswalker's controller sacrifices it.
+Discard a card, then exile your graveyard.
+Return target creature card from a graveyard to the battlefield under your control with a finality counter on it. => [i](When this Inquest enters, and whenever you draw one or more cards, put an evidence counter on it. Sacrifice after III.)[/i]
+Target creature or planeswalker's controller sacrifices it.
+Discard a card, then exile your graveyard.
+Return target creature card from a graveyard to the battlefield under your control with a finality counter on it.
+
+Bird
+pt: 1/2 => 3/3
+
+Bird
+pt: 3/3 => 1/2
+
+Batran Volt-Rifle
+rules_text: Equipped creature gets +2/+0 and has first strike.
+Equip {2} => Equipped creature gets +1/+0 and has first strike.
+Equip {2}
+
+Warrior Citizen
+type: Token Creature — Warrior Citizen => Token Creature — Mercenary
+
+Cat
+
+Charge — Inciting A Riot
+special_text: [i](When this Inquest enters, at the beginning of your upkeep, and when a permanent you control is destroyed, put an evidence counter on it. Sacrifice after III.)[/i]
+This deals 3 damage to each player and planeswalker.
+Target creature deals damage to its controller equal to its power.
+Up to one target creature gains trample and gets +3/+1 until end of turn. => [i](When this Inquest enters, and whenever you draw one or more cards, put an evidence counter on it. Sacrifice after III.)[/i]
+This deals 3 damage to each player and planeswalker.
+Target creature deals damage to its controller equal to its power.
+Up to one target creature gains trample and gets +3/+1 until end of turn.
+
+
+VERSION 8 CHANGELOG
 ====================
 
 No changes.
