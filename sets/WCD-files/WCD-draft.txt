@@ -733,7 +733,7 @@
 		{
 			"name": "Withering Sunstroke",
 			"rarity": "common",
-			"mana_cost": "{1}{R}{R}",
+			"mana_cost": "{2}{R}",
 			"type": "Instant",
 			"collector_number": "166",
 			"image_uris": {
@@ -783,7 +783,7 @@
 		{
 			"name": "The Indefatigable Man-Cat",
 			"rarity": "common",
-			"mana_cost": "{1}{G}{G}",
+			"mana_cost": "{2}{G}",
 			"type": "Creature — Elf Cat Mutant",
 			"collector_number": "182",
 			"image_uris": {

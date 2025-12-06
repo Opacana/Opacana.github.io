@@ -1,4 +1,27 @@
-﻿VERSION 10 CHANGELOG
+﻿VERSION 11 CHANGELOG
+====================
+
+
+
+Lumbering Stiltclaw
+rules_text: When this creature attacks, you may switch its power and toughness.
+{1}{BG}: This creature gains lifelink until end of turn. => When this creature attacks, you may switch its power and toughness until end of turn.
+{1}{BG}: This creature gains lifelink until end of turn.
+
+Elite Air Squadron
+
+Withering Sunstroke
+cost: {1}{R}{R} => {2}{R}
+
+The Indefatigable Man-Cat
+cost: {1}{G}{G} => {2}{G}
+
+Deceptive Appraiser
+
+White Tiger Companion
+
+
+VERSION 10 CHANGELOG
 ====================
 
 No changes.

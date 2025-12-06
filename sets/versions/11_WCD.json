@@ -823,15 +823,15 @@
             "number": 112,
             "color_identity": "BG",
             "cost": "{1}{B}",
-            "rules_text": "When this creature attacks, you may switch its power and toughness.\n{1}{BG}: This creature gains lifelink until end of turn.",
-            "flavor_text": "[i]They dance to hide their pain \u2014 but can channel it into murderous rage when threatened.[/i]",
+            "rules_text": "When this creature attacks, you may switch its power and toughness until end of turn.\n{1}{BG}: This creature gains lifelink until end of turn.",
+            "flavor_text": "[i]They dance to hide their pain \u2014 but channel it into murderous rage if threatened.[/i]",
             "pt": "1/3",
             "special_text": "",
             "shape": "normal",
             "set": "WCD",
             "loyalty": "",
             "artist": "Naomi Dubreuil",
-            "notes": ""
+            "notes": "Fixed forgotten until eot text, December 1st, 2025."
         },
         {
             "card_name": "Eternal Cataloguer",
@@ -1094,7 +1094,7 @@
             "color_identity": "R",
             "cost": "{2}{R}{R}",
             "rules_text": "Haste\nWhenever this creature attacks, the next artifact spell you cast this turn costs {2} less to cast.",
-            "flavor_text": "[i]flavor text wip[/i]",
+            "flavor_text": "[i]They quickly became stars and role models, just as Tabriogni planned.[/i]",
             "pt": "3/3",
             "special_text": "",
             "shape": "normal",
@@ -1326,7 +1326,7 @@
             "type": "Instant",
             "number": 166,
             "color_identity": "BR",
-            "cost": "{1}{R}{R}",
+            "cost": "{2}{R}",
             "rules_text": "Kicker {B} [i](You may pay an additional {B} as you cast this spell.)[/i]\nThis spell deals 4 damage to target creature or planeswalker. Then if this spell was kicked, you gain 4 life.",
             "flavor_text": "[i]\u201cSkin balm now only thirty coins a dollop!\u201d[/i]",
             "pt": "",
@@ -1335,7 +1335,7 @@
             "set": "WCD",
             "loyalty": "",
             "artist": "Ian Llanas",
-            "notes": ""
+            "notes": "December 5th, 2025: Changed casting cost to 2R from 1RR."
         },
         {
             "card_name": "Devilish Wrath",
@@ -1416,7 +1416,7 @@
             "type": "Creature \u2014 Elf Cat Mutant",
             "number": 182,
             "color_identity": "G",
-            "cost": "{1}{G}{G}",
+            "cost": "{2}{G}",
             "rules_text": "Haste\nAt the beginning of combat on your turn, choose one \u2014\n\u2022 This gains vigilance until end of turn.\n\u2022 This gets +0/+2 until end of turn.",
             "flavor_text": "[i][/i]",
             "pt": "2/3",
@@ -1425,7 +1425,7 @@
             "set": "WCD",
             "loyalty": "",
             "artist": "rhianetherandom",
-            "notes": ""
+            "notes": "December 5th, 2025: Changed cost from 1GG to 2G."
         },
         {
             "card_name": "Distinguished Scaletrader",
@@ -1922,7 +1922,7 @@
             "color_identity": "U",
             "cost": "{1}{U}",
             "rules_text": "{X}: Gain control of target artifact you don't control with mana value X+1 or less. Activate only if this creature dealt combat damage to an opponent this turn, and only once each turn.",
-            "flavor_text": "[i]-new flavor text forthcoming-[/i]",
+            "flavor_text": "[i]\u201cI'll give ya ten wyv for it.\u201d[/i]",
             "pt": "2/1",
             "special_text": "",
             "shape": "normal",
@@ -2480,14 +2480,14 @@
             "color_identity": "G",
             "cost": "{3}{G}{G}",
             "rules_text": "When this creature enters, create two 2/2 red Cat creature tokens.\n{1}{G}, {T}: Prevent all damage that would be dealt to Cats you control this turn.",
-            "flavor_text": "[i]short flavor text[/i]",
+            "flavor_text": "[i]Their style of training included a little bit of magical telempathy.[/i]",
             "pt": "1/2",
             "special_text": "",
             "shape": "normal",
             "set": "WCD",
             "loyalty": "",
             "artist": "Galder",
-            "notes": "Nov. 30th, 2025: In effort to reduce token bloat, changed the white cats with vigilance to just vanilla red cats."
+            "notes": "Nov. 30th, 2025: In effort to reduce token bloat, changed the white cats with vigilance to just vanilla red cats.\n\nDecember 1st, 2025: Added flavor text."
         },
         {
             "card_name": "Stubborn Stitcher",
