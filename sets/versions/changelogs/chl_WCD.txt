@@ -1,4 +1,18 @@
-﻿VERSION 11 CHANGELOG
+﻿VERSION 12 CHANGELOG
+====================
+
+
+
+Wroszy's Gravedigger
+rules_text: When this creature enters, you may return target creature card from your graveyard to the battlefield. If you do, you lose life equal to that card's mana value. If nonblack mana was spent to cast this spell, you may return a nonland card this way instead. => When this creature enters, you may return target creature card from your graveyard to the battlefield. If you do, you lose life equal to that card's mana value. If nonblack mana was spent to cast this spell, you may return a nonland permanent card this way instead.
+
+Hall of Nightmares
+rules_text: As an addition cost to cast this spell, torment yourself. [i](To torment yourself, lose 3 life unless you discard a card or sacrifice a nonland permanent.)[/i] 
+Target opponent reveals their hand. You choose a nonland card from among them. That player discards that card. => As an additional cost to cast this spell, torment yourself. [i](To torment yourself, lose 3 life unless you discard a card or sacrifice a nonland permanent.)[/i] 
+Target opponent reveals their hand. You choose a nonland card from among them. That player discards that card.
+
+
+VERSION 11 CHANGELOG
 ====================
 
 

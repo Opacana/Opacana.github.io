@@ -2947,7 +2947,7 @@
             "number": 124,
             "color_identity": "B",
             "cost": "{3}{B}{B}",
-            "rules_text": "When this creature enters, you may return target creature card from your graveyard to the battlefield. If you do, you lose life equal to that card's mana value. If nonblack mana was spent to cast this spell, you may return a nonland card this way instead.",
+            "rules_text": "When this creature enters, you may return target creature card from your graveyard to the battlefield. If you do, you lose life equal to that card's mana value. If nonblack mana was spent to cast this spell, you may return a nonland permanent card this way instead.",
             "flavor_text": "[i][/i]",
             "pt": "2/2",
             "special_text": "",
@@ -2955,7 +2955,7 @@
             "set": "WCD",
             "loyalty": "",
             "artist": "Mummified",
-            "notes": "Reworked to be simpler, november 30th, 2025."
+            "notes": "Reworked to be simpler, november 30th, 2025.\n\nDec. 10th, 2025: added 'permanent' to nonblack effect to prevent confusion about returning instants/sorceries."
         },
         {
             "card_name": "Ashiok's Judgment",
@@ -4261,7 +4261,7 @@
             "number": 104,
             "color_identity": "B",
             "cost": "{B}",
-            "rules_text": "As an addition cost to cast this spell, torment yourself. [i](To torment yourself, lose 3 life unless you discard a card or sacrifice a nonland permanent.)[/i] \nTarget opponent reveals their hand. You choose a nonland card from among them. That player discards that card.",
+            "rules_text": "As an additional cost to cast this spell, torment yourself. [i](To torment yourself, lose 3 life unless you discard a card or sacrifice a nonland permanent.)[/i] \nTarget opponent reveals their hand. You choose a nonland card from among them. That player discards that card.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
