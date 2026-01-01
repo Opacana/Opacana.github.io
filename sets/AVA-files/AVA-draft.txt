@@ -2511,7 +2511,7 @@
 			"name": "Anstral, of the War and Whimsy",
 			"rarity": "mythic",
 			"mana_cost": "{W}{U}{B}{R}{G}",
-			"type": "Legendary Creature — Human Pirate Rogue",
+			"type": "Legendary Creature — Human Pirate",
 			"collector_number": "220",
 			"image_uris": {
 				"en": "https://Opacana.github.io/sets/AVA-files/img/220_Anstral, of the War and Whimsy.png"
