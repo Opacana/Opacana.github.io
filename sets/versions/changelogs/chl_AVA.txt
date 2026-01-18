@@ -1,4 +1,438 @@
-﻿VERSION 6 CHANGELOG
+﻿VERSION 7 CHANGELOG
+====================
+
+Muroid Abomination added.
+Hull-Shattering Shot added.
+Renowned Winghunter added.
+
+Giant Rat removed.
+Hullshatter Shot removed.
+Grove Hunter removed.
+A Touch of Home removed.
+Infernal Scimitar removed.
+
+Travelling Chef
+rules_text: When this creature enters, you may pay {1}. If you do, put a +1/+1 counter on another target creature.
+When this creature dies, if all lands you control are basic, create a Food token. => When this creature enters, you may pay {1}. If you do, put a +1/+1 counter on another target creature.
+When this creature dies, if all lands you control are basic, you gain 2 life.
+
+Bonded Griffin
+rules_text: Flying
+{1}: This creature gains vigilance until end of turn. Activate only if you control another creature. => Flying
+This creature has vigilance as long as you control another creature.
+
+Gunner Crew
+rules_text: Vigilance
+At the beginning of your end step, you may untap a Vehicle you control. => At the beginning of your end step, untap this creature and any Vehicles it crewed this turn.
+
+Refile
+rules_text: Draw a card.
+Boarding [i](Then if this spell was cast from your hand, exile it as it resolves. Cast it on any turn a creature you control dealt combat damage to an opponent.)[/i] => Draw a card.
+Boarding [i](Then if this spell was cast from your hand, exile it as it resolves. Cast it from exile on any turn a creature you control dealt combat damage to an opponent. You still pay any costs.)[/i]
+
+Salvage Mission
+rules_text: Return target artifact, battle, instant or sorcery from your graveyard to your hand.
+If this spell wasn't cast from your hand, exile it.
+Boarding [i](Then if this spell was cast from your hand, exile it as it resolves. Cast it on any turn a creature you control dealt combat damage to an opponent.)[/i] => Return target artifact, battle, instant or sorcery card from your graveyard to your hand.
+If this spell wasn't cast from your hand, exile it.
+Boarding [i](Then if this spell was cast from your hand, exile it as it resolves. Cast it from exile on any turn a creature you control dealt combat damage to an opponent. You still pay any costs.)[/i]
+
+Midnight Card Sharp
+pt: 2/2 => 3/2
+
+Burly Executioner
+rules_text: When this creature enters, create a colorless artifact Equipment token named Infernal Scimitar with “Equipped creature gets +1/+0 and has deathtouch” and equip {2}. Then attach it to this creature. => Whenever this creature attacks, up to one target creature gains deathtouch until end of turn.
+pt: 4/4 => 5/4
+
+Contemplative Crime Lord
+rules_text: Menace
+When this enters, create two 1/1 white Butterfly enchantment creature tokens with flying and the creature type Insect.
+Whenever a permanent you control that's two or more card types is put into a graveyard, each opponent loses 1 life and you gain 1 life. => Menace
+When this creature enters, create two 1/1 white Butterfly enchantment creature tokens named Butterfly.
+Whenever a permanent you control that's two or more card types is put into a graveyard, each opponent loses 1 life and you gain 1 life.
+
+Puppeteer's Grace
+
+Umbral Teachings
+rules_text: Look at the top three cards of your library. Put one of them into your hand and the rest into your graveyard.
+Boarding [i](Then if this spell was cast from your hand, exile it as it resolves. Cast it on any turn a creature you control dealt combat damage to an opponent.)[/i] => Look at the top three cards of your library. Put one of them into your hand and the rest into your graveyard.
+Boarding [i](Then if this spell was cast from your hand, exile it as it resolves. Cast it from exile on any turn a creature you control dealt combat damage to an opponent. You still pay any costs.)[/i]
+
+Hoard of Bones
+cost: {3}{B} => {2}{B}
+rules_text: When this artifact enters, create two 1/1 black Skeleton creature tokens.
+Boneborn {2}{B}{B} [i]({2}{B}{B}, Exile a creature card from your graveyard or sacrifice a creature: Transform this permanent. Activate only as a sorcery.)[/i] => When this artifact enters, create two 1/1 black Skeleton creature tokens.
+Boneborn {1}{B}{B} [i]({1}{B}{B}, Exile a creature card from your graveyard or sacrifice a creature: Transform this permanent. Activate only as a sorcery.)[/i]
+
+Deepvent Feeder
+rules_text: Menace
+Whenever one or more lands are put into an opponent's graveyard from anywhere, put that many +1/+1 counter on this creature. This ability triggers only once each turn. => Menace
+Whenever one or more lands are put into an opponent's graveyard from anywhere, put that many +1/+1 counter on this creature.
+pt: 1/1 => 2/1
+
+Ancient Sunspot Owl
+rules_text: This creature has flying as long as you control a Griffin or Phoenix creature.
+When this creature enters, you may pay {R}. If you do, discard a card, then draw a card. => Kicker {1} [i](You may pay an additional {1} as you cast this spell.)[/i]
+When this creature enters, if it was kicked, you draw a card, then discard a card.
+This creature has flying as long as you control a Griffin or Phoenix creature.
+
+Stick Hand Grenade
+rules_text: Equipped creature gets +1/+1.
+{1}, Sacrifice this artifact: Equipped creature gets +3/+0 until end of turn. This artifact deals 1 damage to equipped creature.
+Equip {1} => Equipped creature gets +1/+1.
+{1}, Sacrifice this artifact: This artifact deals 2 damage to target player. Activate only as a sorcery.
+Equip {1}
+
+Sylvan Arfyll
+rules_text: Kicker {G} [i](You may pay an additional {G} as you cast this spell.)[/i]
+When this creature enters, if it was kicked, create a token copy of it. => Kicker {G} [i](You may pay an additional {G} as you cast this spell.)[/i]
+When this creature enters, if it was kicked, create a token that's a copy of it.
+
+Empowered Arrow
+cost: {1}{G} => {G}
+
+Julescan Heavy Strider
+rules_text: Defender
+{2}: This creature loses Defender and gains first strike and trample until end of turn. Activate only as a sorcery. => Defender
+{2}: Until end of turn, this creature loses Defender and gains first strike and trample. Activate only as a sorcery.
+
+Sun-bleached Discovery
+rules_text: When this permanent enters, up to one target artifact or enchantment loses indestructible until end of turn. Then destroy it.
+Boneborn {B}{B} [i]({B}{B}, Exile a creature card from your graveyard or sacrifice a creature: Transform this permanent. Activate only as a sorcery.)[/i] => When this artifact enters, up to one target artifact or enchantment loses indestructible until end of turn. Then destroy it.
+Boneborn {B}{B} [i]({B}{B}, Exile a creature card from your graveyard or sacrifice a creature: Transform this permanent. Activate only as a sorcery.)[/i]
+
+Confront the Villainous
+rules_text: Choose one —
+• Destroy target artifact or enchantment.
+• Destroy target creature with power 4 or greater.
+You gain 2 life. => Choose one —
+• Destroy target artifact or enchantment.
+• Destroy target creature with power 4 or greater.
+You gain 3 life.
+
+Decorated Pilot
+rules_text: When this enters, you may untap target Vehicle or artifact creature.
+This creature crews Vehicles as if its power were 3 greater. => When this enters, if you cast it, you may untap target Vehicle or artifact creature.
+This creature crews Vehicles as if its power were 3 greater.
+
+Current-Rider Windmill
+rules_text: Whenever a creature with flying attacks, add {C}. You don't lose unspent mana produced this way until the end step. => Whenever a creature with flying attacks, add {C}. Until end of turn, you don't lose this mana as steps and phases end.
+
+Sonata of the Wind
+rules_text: Return target nonland permanent to its owner's hand. If this spell was cast from exile, you may gain control of that permanent instead.
+Boarding [i](Then if this spell was cast from your hand, exile it as it resolves. Cast it on any turn a creature you control dealt combat damage to an opponent.)[/i] => Return target nonland permanent to its owner's hand. If this spell was cast from exile, you may gain control of that permanent instead.
+Boarding [i](Then if this spell was cast from your hand, exile it as it resolves. Cast it from exile on any turn a creature you control dealt combat damage to an opponent. You still pay any costs.)[/i]
+
+Experimental Shadowship
+rules_text: Flying
+This creature can't be blocked by creatures with greater power or toughness.
+Crew 2 => Flying, ward {1}
+This creature can't be blocked by creatures with greater power or toughness.
+Crew 1
+
+Turn Back the Clock
+
+Identifying the Villainous
+rules_text: Choose target creature. When that creature dies this turn, you draw two cards and gain life equal to its power.
+Boarding [i](Then if this spell was cast from your hand, exile it as it resolves. Cast it on any turn a creature you control dealt combat damage to an opponent.)[/i] => Choose target creature. When that creature dies this turn, you draw two cards and gain life equal to its power.
+Boarding [i](Then if this spell was cast from your hand, exile it as it resolves. Cast it from exile on any turn a creature you control dealt combat damage to an opponent. You still pay any costs.)[/i]
+
+Swamp Seer's Hut
+rules_text: When this enters, you draw a card and lose 1 life.
+Boneborn {2}{B}{B} [i]({2}{B}{B}, Exile a creature card from your graveyard or sacrifice a creature: Transform this permanent. Activate only as a sorcery.)[/i] => When this artifact enters, you draw a card and lose 1 life.
+Boneborn {2}{B}{B} [i]({2}{B}{B}, Exile a creature card from your graveyard or sacrifice a creature: Transform this permanent. Activate only as a sorcery.)[/i]
+
+Sandscoured Bones
+cost: {2}{R} => {1}{R}
+rules_text: When this enters, it deals 2 damage divided as you choose among up to two target permanents. Those permanents can't block this turn.
+Boneborn {4}{B} [i]({4}{B}, Exile a creature card from your graveyard or sacrifice a creature: Transform this permanent. Activate only as a sorcery.)[/i] => When this artifact enters, it deals 2 damage divided as you choose among up to two target permanents. Those permanents can't block this turn.
+Boneborn {4}{B} [i]({4}{B}, Exile a creature card from your graveyard or sacrifice a creature: Transform this permanent. Activate only as a sorcery.)[/i]
+
+Sundering Shockwave
+rules_text: Choose one —
+• Exile target artifact.
+• This card deals 4 damage to each artifact creature.
+• This card deals 2 damage to each creature. Unattach all Equipment from each creature dealt damage this way. => Choose one —
+• Exile target artifact.
+• This spell deals 4 damage to each artifact creature and each equipped creature.
+• This spell deals 3 damage to each creature.
+
+Edge Patrol
+rules_text: Whenever this creature attacks, you may pay {G}. If you do, it explores. [i](Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)[/i] => At the beginning of combat on your turn, you may pay {G}. If you do, this creature explores. [i](Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)[/i]
+
+Piper of the Passed
+rules_text: When this creature enters, choose one —
+• Return a permanent card from your graveyard to your hand.
+• Put a +1/+1 counter on up to one other target creature you control, then you gain 2 life. => When this creature enters, choose one —
+• Return a permanent card from your graveyard to your hand.
+• Put a +1/+1 counter on up to one other target creature you control. You gain 2 life.
+
+Society Field Reporter
+rules_text: When this creature enters, scry 2. If you control a Map, you may draw a card instead. [i](To scry 2, look at the top two cards of your library, then put any number of them on the bottom and the rest on top in any order.)[/i] => When this creature enters, scry 2. If you control a Map, draw a card instead. [i](To scry 2, look at the top two cards of your library, then put any number of them on the bottom and the rest on top in any order.)[/i]
+
+On a Trek Together
+rules_text: Whenever a creature you control explores, you may have another target creature explore.
+{1}{G}: Create a Map token. Activate only once each turn, and only as a sorcery. [i](It's an artifact with “{1}, {T}, Sacrifice this artifact: Target creature you control explores. Activate only as a sorcery.”)[/i] => Whenever a creature you control explores, you may have another target creature explore. That second instance of exploring doesn't trigger this ability.
+{1}{G}: Create a Map token. Activate only once each turn, and only as a sorcery. [i](It's an artifact with “{1}, {T}, Sacrifice this artifact: Target creature you control explores. Activate only as a sorcery.”)[/i]
+
+Reach the Legendary City
+cost: {2}{G}{G} => {3}{G}
+
+Commandant Urscia
+pt: 2/3 => 3/3
+
+Clockwork Consonance
+cost: {4}{U}{U} => {5}{U}{U}
+rules_text: Exile the top six cards of your library. Put an artifact card from among them onto the battlefield. Then put an artifact card, an enchantment card, an instant card, and a sorcery card from among them into your hand. => Exile the top six cards of your library. Put an artifact and/or enchantment card from among them onto the battlefield. Until end of turn, you may cast an instant and/or sorcery card not named Clockwork Consonance from among cards exiled this way without paying their mana cost.
+
+Mr. Aldrand, Eternal Patron
+rules_text: Ward—Pay 2 life
+Whenever one or more creature cards leave or are put into your graveyard from anywhere, put that many charge counters on Mr. Aldrand. Then if there are twenty-five or more counters on him, you win the game. => Ward—Pay 2 life
+Whenever one or more creature cards leave or are put into your graveyard from anywhere, put that many charge counters on Mr. Aldrand. Then if there are twenty or more counters on him, you win the game.
+
+Dramaturgical Extraction
+rules_text: Choose target card in a graveyard other than a basic land card. Search its owner's graveyard, hand, and library for any number of cards with the same name as that card and exile them. That player shuffles, then draws a card for each card exiled from their hand this way.
+Boarding [i](Then if this spell was cast from your hand, exile it as it resolves. Cast it on any turn a creature you control dealt combat damage to an opponent.)[/i] => Choose target card in a graveyard other than a basic land card. Search its owner's graveyard, hand, and library for any number of cards with the same name as that card and exile them. That player shuffles, then draws a card for each card exiled from their hand this way.
+Boarding [i](Then if this spell was cast from your hand, exile it as it resolves. Cast it from exile on any turn a creature you control dealt combat damage to an opponent. You still pay any costs.)[/i]
+
+Cogstorm
+rules_text: Create five 1/1 colorless Construct artifact creature tokens with “{T}, Sacrifice this artifact: Add {C}.”, and “{T}, Sacrifice this artifact: This creature deals 1 damage to any target. Activate only as a sorcery.” => Create five 1/1 colorless Construct artifact creature tokens with “{T}, Sacrifice this artifact: Add {C}.”, and “{T}, Sacrifice this artifact: This artifact deals 1 damage to any target. Activate only as a sorcery.”
+
+Primordials Exhibit
+rules_text: When this enters, destroy up to one target battle, creature or planeswalker with mana value 2 or less.
+Boneborn {4}{B} [i]({4}{B}, Exile a creature card from your graveyard or sacrifice a creature: Transform this permanent. Activate only as a sorcery.)[/i] => When this artifact enters, destroy up to one target battle, creature or planeswalker with mana value 2 or less.
+Boneborn {4}{B} [i]({4}{B}, Exile a creature card from your graveyard or sacrifice a creature: Transform this permanent. Activate only as a sorcery.)[/i]
+
+Unending Insight
+rules_text: Unending Insight deals X damage to any target and you gain X life, where X is the number of cards in your hand.
+Boarding [i](Then if this spell was cast from your hand, exile it as it resolves. Cast it on any turn a creature you control dealt combat damage to an opponent.)[/i] => This spell deals X damage to any target and you gain X life, where X is the number of cards in your hand.
+Boarding [i](Then if this spell was cast from your hand, exile it as it resolves. Cast it from exile on any turn a creature you control dealt combat damage to an opponent. You still pay any costs.)[/i]
+
+Cave of the Vanquished
+rules_text: When this enters, destroy up to three target permanents that are either creatures with flying or nonbasic, noncreature.
+Boneborn {2}{B} [i]({2}{B}, Exile a creature card from your graveyard or sacrifice a creature: Transform this permanent. Activate only as a sorcery.)[/i] => When this enters, choose up to three. You may choose the same mode multiple times. —
+• Destroy target creature with flying.
+• Destroy target noncreature, nonbasic permanent.
+Boneborn {2}{B} [i]({2}{B}, Exile a creature card from your graveyard or sacrifice a creature: Transform this permanent. Activate only as a sorcery.)[/i]
+
+Sfarzia, Pirate Queen
+
+Wielder of the Cursed Bestiary
+rules_text: Creature spells you cast with power 5 or greater cost {1} less to cast.
+Creatures you control have trample.
+Creatures you control with power 5 or greater have reach. => Creature spells you cast with power 5 or greater cost {1} less to cast.
+Creatures you control with power 5 or greater have reach and trample.
+
+Meeting of Nations
+rules_text: Whenever you attack or block with two or more creatures, and at least one of those creatures is a permanent type another isn't, draw a card.
+Discard a card or pay 3 life: Target permanent gains vigilance until end of turn. => Whenever you attack or block with one or more creatures that have two or more permanent types, you draw a card.
+Discard a card or pay 2 life: Target permanent gains vigilance until end of turn.
+
+Rabbitfolk Engineer
+rules_text: {1}, {T}: Add two mana of any color. Spend this only to cast artifact spells or activate abilities of artifacts.
+{2}, {T}, Sacrifice a nontoken artifact: Draw a card. => {1}, {T}: Add two mana of any color. Spend this only to cast artifact spells or activate abilities of artifacts.
+{2}, {T}, Sacrifice an artifact: Draw a card.
+
+The Bloated Dredger of Caroul
+rules_text: Whenever a Zombie enters under your control, or a permanent you control transforms into a Zombie, you may draw a card. If you do and you have more than 10 life, discard a card.
+Pay 3 life or sacrifice a Zombie: Target creature can't be blocked until end of turn. => Whenever a Zombie enters under your control, or a permanent you control transforms into a Zombie, you may draw a card. If you do, you lose 1 life.
+Pay 3 life or sacrifice a Zombie: Target creature can't be blocked until end of turn.
+
+Ornery Betroynt
+rules_text: Defender, haste, menace, trample
+{R}{G}: Choose one —
+• This creature fights target creature you don't control.
+• Until end of turn, this creature loses defender and gets +2/+2.
+Activate only once each turn as a sorcery. => Defender, haste, menace, trample
+{R}{G}: Choose one. Activate only once each turn as a sorcery. —
+• This creature fights target creature you don't control.
+• Until end of turn, this creature loses defender and gets +2/+2.
+
+Pulled into the Tar
+type: Instant => Sorcery
+rules_text: Destroy target artifact, creature or planeswalker. If it's destroyed this way, you may pay {1}{B} and exile a creature card from your graveyard. If you do, put the card destroyed this way onto the battlefield under your control. => Destroy target artifact, creature or planeswalker. If a permanent card is put into a graveyard this way, return it to the battlefield under your control. Sacrifice it at the beginning of your next end step.
+
+Yolaira, Linkmistress
+rules_text: When Yolaira, Linkmistress enters, search your library for a creature card with flying, reveal it and put it into your hand, then shuffle.
+Vigilance, haste
+{1}: Target creature you control with flying gains Yolaira's abilities until end of turn. => When Yolaira, Linkmistress enters, search your library for a creature card with flying, reveal it and put it into your hand, then shuffle.
+Vigilance, haste
+{1}: Target creature you control with flying gains Yolaira's other abilities until end of turn.
+
+House Barge
+rules_text: Flying
+Whenever a creature crews this Vehicle, that creature gains ward {2} until the beginning of your next turn.
+Crew 3 [i](Tap any number of creatures you control with total power 3 or more: This Vehicle becomes an artifact creature until end of turn.)[/i] => Flying
+Whenever a creature crews this Vehicle during your turn, that creature gains ward {2} until the beginning of your next turn.
+Crew 3 [i](Tap any number of creatures you control with total power 3 or more: This Vehicle becomes an artifact creature until end of turn.)[/i]
+pt: 2/3 => 3/3
+
+Iron Savior Suit
+rules_text: Whenever equipped creature attacks, create a Treasure token, then you may sacrifice an artifact. If you do, choose one —
+• Draw a card.
+• Iron Savior Suit deals X damage to target permanent, where X is 1 plus the mana value of the sacrificed artifact.
+Equip {2} => Whenever equipped creature attacks, create a Treasure token, then you may sacrifice an artifact. If you do, choose one —
+• Draw a card.
+• Iron Savior Suit deals X damage to each opponent, where X is 1 plus the mana value of the sacrificed artifact.
+Equip {2}
+
+Generator Deeps
+rules_text: This land enters tapped.
+{T}: Add {U} or {R}.
+{T}, Sacrifice this land: Create a Map token. Activate only as a sorcery. [i](It's an artifact with “{1}, {T}, Sacrifice this artifact: Target creature you control explores. Activate only as a sorcery.”)[/i] => This land enters tapped.
+{T}: Add {U} or {R}.
+Sacrifice this land: Create a Map token. Activate only as a sorcery. [i](It's an artifact with “{1}, {T}, Sacrifice this artifact: Target creature you control explores. Activate only as a sorcery.”)[/i]
+
+Baron's Field
+rules_text: This land enters tapped.
+{T}: Add {W} or {B}.
+{T}, Sacrifice this land: Create a Map token. Activate only as a sorcery. [i](It's an artifact with “{1}, {T}, Sacrifice this artifact: Target creature you control explores. Activate only as a sorcery.”)[/i] => This land enters tapped.
+{T}: Add {W} or {B}.
+Sacrifice this land: Create a Map token. Activate only as a sorcery. [i](It's an artifact with “{1}, {T}, Sacrifice this artifact: Target creature you control explores. Activate only as a sorcery.”)[/i]
+
+Warren Capitol
+rules_text: This land enters tapped.
+{T}: Add {W} or {G}.
+{T}, Sacrifice this land: Create a Map token. Activate only as a sorcery. [i](It's an artifact with “{1}, {T}, Sacrifice this artifact: Target creature you control explores. Activate only as a sorcery.”)[/i] => This land enters tapped.
+{T}: Add {W} or {G}.
+Sacrifice this land: Create a Map token. Activate only as a sorcery. [i](It's an artifact with “{1}, {T}, Sacrifice this artifact: Target creature you control explores. Activate only as a sorcery.”)[/i]
+
+Refueling Village
+rules_text: This land enters tapped.
+{T}: Add {W} or {R}.
+{T}, Sacrifice this land: Create a Map token. Activate only as a sorcery. [i](It's an artifact with “{1}, {T}, Sacrifice this artifact: Target creature you control explores. Activate only as a sorcery.”)[/i] => This land enters tapped.
+{T}: Add {W} or {R}.
+Sacrifice this land: Create a Map token. Activate only as a sorcery. [i](It's an artifact with “{1}, {T}, Sacrifice this artifact: Target creature you control explores. Activate only as a sorcery.”)[/i]
+
+Sanctum of Secrets
+rules_text: This land enters tapped.
+{T}: Add {U} or {B}.
+{T}, Sacrifice this land: Create a Map token. Activate only as a sorcery. [i](It's an artifact with “{1}, {T}, Sacrifice this artifact: Target creature you control explores. Activate only as a sorcery.”)[/i] => This land enters tapped.
+{T}: Add {U} or {B}.
+Sacrifice this land: Create a Map token. Activate only as a sorcery. [i](It's an artifact with “{1}, {T}, Sacrifice this artifact: Target creature you control explores. Activate only as a sorcery.”)[/i]
+
+Masterpiece in the Making
+cost: {3}{B}{B} => {2}{B}{B}
+rules_text: When this Fossil enters, each player discards two cards, then you draw two cards and gain 2 life.
+Boneborn {B}{B} [i]({B}{B}, Exile a creature card from your graveyard or sacrifice a creature: Transform this permanent. Activate only as a sorcery.)[/i] => When thi artifact enters, each player discards two cards, then you draw two cards and gain 2 life.
+Boneborn {B}{B} [i]({B}{B}, Exile a creature card from your graveyard or sacrifice a creature: Transform this permanent. Activate only as a sorcery.)[/i]
+
+Unwieldy Steam-tractor
+rules_text: Trample, haste
+Whenever this Vehicle deals combat damage to a battle, opponent or planeswalker, you may search your library for a basic land card, put that card onto the battlefield tapped, then shuffle.
+Crew 3 => Trample, haste
+Whenever this creature deals combat damage to a battle, opponent or planeswalker, you may search your library for a basic land card, put that card onto the battlefield tapped, then shuffle.
+Crew 3
+
+Haunted Skull
+
+Turncoat Arsenal
+rules_text: This spell can't be countered.
+Destroy target creature or planeswalker.
+Boarding [i](Then if this spell was cast from your hand, exile it as it resolves. Cast it on any turn a creature you control dealt combat damage to an opponent.)[/i] => This spell can't be countered.
+Destroy target creature or planeswalker.
+Boarding [i](Then if this spell was cast from your hand, exile it as it resolves. Cast it from exile on any turn a creature you control dealt combat damage to an opponent. You still pay any costs.)[/i]
+
+Cindertrap Sabotage
+rules_text: This spell deals 4 damage to target permanent you don't control.
+Draw a card, then discard a card. If you cast this spell on your turn, instead draw a card, then each player discards a card. => This spell deals 4 damage to target permanent you don't control.
+Draw a card, then discard a card. If you cast this spell during your turn, instead draw a card, then each player discards a card.
+
+Warren League Lieutenant
+rules_text: At the beginning of combat on your turn, choose one —
+• Target creature gains lifelink until end of turn.
+• Target creature gets +1/+1 until end of turn.
+• Target creature explores. [i](Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)[/i] => At the beginning of combat on your turn, target creature you control gains lifelink until end of turn, then explores. [i](Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)[/i]
+
+Pirates' Encampment
+rules_text: This land enters tapped.
+{T}: Add {B} or {R}.
+{T}, Sacrifice this land: Create a Map token. Activate only as a sorcery. [i](It's an artifact with “{1}, {T}, Sacrifice this artifact: Target creature you control explores. Activate only as a sorcery.”)[/i] => This land enters tapped.
+{T}: Add {B} or {R}.
+Sacrifice this land: Create a Map token. Activate only as a sorcery. [i](It's an artifact with “{1}, {T}, Sacrifice this artifact: Target creature you control explores. Activate only as a sorcery.”)[/i]
+
+Fog-Wreathed Rest
+rules_text: This land enters tapped.
+{T}: Add {B} or {G}.
+{T}, Sacrifice this land: Create a Map token. Activate only as a sorcery. [i](It's an artifact with “{1}, {T}, Sacrifice this artifact: Target creature you control explores. Activate only as a sorcery.”)[/i] => This land enters tapped.
+{T}: Add {B} or {G}.
+Sacrifice this land: Create a Map token. Activate only as a sorcery. [i](It's an artifact with “{1}, {T}, Sacrifice this artifact: Target creature you control explores. Activate only as a sorcery.”)[/i]
+
+Skyvannah
+rules_text: This land enters tapped.
+{T}: Add {U} or {G}.
+{T}, Sacrifice this land: Create a Map token. Activate only as a sorcery. [i](It's an artifact with “{1}, {T}, Sacrifice this artifact: Target creature you control explores. Activate only as a sorcery.”)[/i] => This land enters tapped.
+{T}: Add {U} or {G}.
+Sacrifice this land: Create a Map token. Activate only as a sorcery. [i](It's an artifact with “{1}, {T}, Sacrifice this artifact: Target creature you control explores. Activate only as a sorcery.”)[/i]
+
+Volcanic Lair
+rules_text: This land enters tapped.
+{T}: Add {G} or {R}.
+{T}, Sacrifice this land: Create a Map token. Activate only as a sorcery. [i](It's an artifact with “{1}, {T}, Sacrifice this artifact: Target creature you control explores. Activate only as a sorcery.”)[/i] => This land enters tapped.
+{T}: Add {G} or {R}.
+Sacrifice this land: Create a Map token. Activate only as a sorcery. [i](It's an artifact with “{1}, {T}, Sacrifice this artifact: Target creature you control explores. Activate only as a sorcery.”)[/i]
+
+Landing Station
+rules_text: This land enters tapped.
+{T}: Add {W} or {U}.
+{T}, Sacrifice this land: Create a Map token. Activate only as a sorcery. [i](It's an artifact with “{1}, {T}, Sacrifice this artifact: Target creature you control explores. Activate only as a sorcery.”)[/i] => This land enters tapped.
+{T}: Add {W} or {U}.
+Sacrifice this land: Create a Map token. Activate only as a sorcery. [i](It's an artifact with “{1}, {T}, Sacrifice this artifact: Target creature you control explores. Activate only as a sorcery.”)[/i]
+
+Defense of Reedsey
+rules_text: [i](As a Skirmish enters, choose an opponent to protect it. All other players may attack it.)[/i]
+When this Battle enters, put a vigilance counter on target creature or Vehicle.
+When this Battle is defeated, you may destroy target artifact or enchantment. => [i](As a Skirmish enters, choose an opponent to protect it. All other players may attack it. Creatures attacking a Skirmish have flying.)[/i]
+When this Battle enters, put a vigilance counter on target creature or Vehicle.
+When this Battle is defeated, you may destroy target artifact or enchantment.
+
+Skipping Class
+rules_text: [i](As a Skirmish enters, choose an opponent to protect it. All other players may attack it.)[/i]
+Flash
+When this Battle enters, return up to one target creature you control to its owner's hand.
+When this Battle is defeated, you may return up to one target creature you don't control to its owner's hand. => [i](As a Skirmish enters, choose an opponent to protect it. All other players may attack it. Creatures attacking a Skirmish have flying.)[/i]
+Flash
+When this Battle enters, return up to one target creature you control to its owner's hand.
+When this Battle is defeated, you may return up to one target creature you don't control to its owner's hand.
+
+A Sabotaging of Hope
+rules_text: [i](As a Skirmish enters, choose an opponent to protect it. All other players may attack it.)[/i]
+When this Battle enters, target opponent discards a card.
+When this Battle is defeated, you draw a card and lose 1 life. => [i](As a Skirmish enters, choose an opponent to protect it. All other players may attack it. Creatures attacking a Skirmish have flying.)[/i]
+When this Battle enters, target opponent discards a card.
+When this Battle is defeated, you draw a card and lose 1 life.
+
+Ninth Dawn Public Relations
+rules_text: [i](As a Skirmish enters, choose an opponent to protect it. All other players may attack it.)[/i]
+When this Battle enters, you may discard a card. If you do, draw a card.
+When this Battle is defeated, it deals 2 damage to any target. => [i](As a Skirmish enters, choose an opponent to protect it. All other players may attack it. Creatures attacking a Skirmish have flying.)[/i]
+When this Battle enters, you may discard a card. If you do, draw a card.
+When this Battle is defeated, it deals 2 damage to any target.
+
+Test of Courage
+rules_text: [i](As a Skirmish enters, choose an opponent to protect it. All other players may attack it.)[/i]
+When this Battle enters, put two +1/+1 counters on target creature you control.
+When this Battle is defeated, you may return a creature or land card from your graveyard to your hand. => [i](As a Skirmish enters, choose an opponent to protect it. All other players may attack it. Creatures attacking a Skirmish have flying.)[/i]
+When this Battle enters, put two +1/+1 counters on target creature you control.
+When this Battle is defeated, you may return a creature or land card from your graveyard to your hand.
+
+Construct
+rules_text: {T}, Sacrifice this artifact: Add {C}.
+{T}, Sacrifice this artifact: This creature deals 1 damage to any target. Activate only as a sorcery. => {T}, Sacrifice this artifact: Add {C}.
+{T}, Sacrifice this artifact: This artifact deals 1 damage to any target. Activate only as a sorcery.
+
+Wide-bore Warning
+rules_text: This deals 3 damage to target tapped creature. If that creature is attacking and you control a Rabbit, you may destroy that creature instead. => This spell deals 3 damage to target tapped creature. If that creature is attacking and you control a Rabbit, you may destroy that creature instead.
+
+Marla's Last Stand
+rules_text: [i](As a Skirmish enters, choose an opponent to protect it. All other players may attack it.)[/i]
+When this Battle enters, if you cast it, exile target nonland permanent.
+When this Battle is defeated, you draw a card, then gain life equal to the exiled card's mana value. => [i](As a Skirmish enters, choose an opponent to protect it. All other players may attack it. Creatures attacking a Skirmish have flying.)[/i]
+When this Battle enters, if you cast it, exile target nonland permanent.
+When this Battle is defeated, you draw a card, then gain life equal to the exiled card's mana value.
+
+
+VERSION 6 CHANGELOG
 ====================
 
 
