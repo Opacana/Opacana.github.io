@@ -91,106 +91,6 @@
 			}
 		},
 		{
-			"name": "UM01 Circumzenith Guardian",
-			"rarity": "uncommon",
-			"mana_cost": "{2}{W}{U}",
-			"type": "Creature — Bird Hero",
-			"collector_number": "231",
-			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/231_UM01 Circumzenith Guardian.png"
-			}
-		},
-		{
-			"name": "UM01 Icon of Dead Futures",
-			"rarity": "uncommon",
-			"mana_cost": "{1}{U}{B}",
-			"type": "Artifact",
-			"collector_number": "235",
-			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/235_UM01 Icon of Dead Futures.png"
-			}
-		},
-		{
-			"name": "UM01 Deathspark Speaker",
-			"rarity": "uncommon",
-			"mana_cost": "{B}{R}",
-			"type": "Creature — Bird Warlock Mercenary",
-			"collector_number": "232",
-			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/232_UM01 Deathspark Speaker.png"
-			}
-		},
-		{
-			"name": "UM01 Fireseed WIP",
-			"rarity": "uncommon",
-			"mana_cost": "{R}{G}",
-			"type": "Enchantment",
-			"collector_number": "233",
-			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/233_UM01 Fireseed WIP.png"
-			}
-		},
-		{
-			"name": "UM01 Laughing Path Master",
-			"rarity": "uncommon",
-			"mana_cost": "{G}{W}",
-			"type": "Creature — Rat Monk Advisor",
-			"collector_number": "236",
-			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/236_UM01 Laughing Path Master.png"
-			}
-		},
-		{
-			"name": "UM01 Mayarai, Bonesnouts Leader",
-			"rarity": "uncommon",
-			"mana_cost": "{1}{W}{B}",
-			"type": "Legendary Creature — Rat Mercenary Warlock",
-			"collector_number": "237",
-			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/237_UM01 Mayarai, Bonesnouts Leader.png"
-			}
-		},
-		{
-			"name": "UM01 Flux-node Birthing",
-			"rarity": "uncommon",
-			"mana_cost": "{1}{U}{R}",
-			"type": "Enchantment",
-			"collector_number": "234",
-			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/234_UM01 Flux-node Birthing.png"
-			}
-		},
-		{
-			"name": "UM01 Taza, Exiled Princess",
-			"rarity": "uncommon",
-			"mana_cost": "{2}{B}{G}",
-			"type": "Legendary Creature — Rat Warlock Noble",
-			"collector_number": "238",
-			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/238_UM01 Taza, Exiled Princess.png"
-			}
-		},
-		{
-			"name": "UM01 Aerieguard Captain",
-			"rarity": "uncommon",
-			"mana_cost": "{2}{R}{W}",
-			"type": "Creature — Bird Soldier Noble",
-			"collector_number": "229",
-			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/229_UM01 Aerieguard Captain.png"
-			}
-		},
-		{
-			"name": "UM01 Cenote King",
-			"rarity": "uncommon",
-			"mana_cost": "{3}{G}{U}",
-			"type": "Creature — Frog Noble",
-			"collector_number": "230",
-			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/230_UM01 Cenote King.png"
-			}
-		},
-		{
 			"name": "Migronn, Steadfast Thyl",
 			"rarity": "mythic",
 			"mana_cost": "{1}{G}{U}{R}",
@@ -2760,16 +2660,6 @@
 	1 Jeddina, Digital Huntress
 [uncommon(3)]
 	4 UU12 Voracious Elasmodracid
-	4 UM01 Circumzenith Guardian
-	4 UM01 Icon of Dead Futures
-	4 UM01 Deathspark Speaker
-	4 UM01 Fireseed WIP
-	4 UM01 Laughing Path Master
-	4 UM01 Mayarai, Bonesnouts Leader
-	4 UM01 Flux-node Birthing
-	4 UM01 Taza, Exiled Princess
-	4 UM01 Aerieguard Captain
-	4 UM01 Cenote King
 	4 UW01 Rooftop Pouncer
 	4 UW02 Hagzaga Squadron
 	4 UW03 bouncer or flicker creat
@@ -2951,16 +2841,6 @@
 	2 Courageous Assembly
 	2 Leave No Witnesses
 	12 CR04 Iceclaw Swordfrey
-	6 UM01 Circumzenith Guardian
-	6 UM01 Icon of Dead Futures
-	6 UM01 Deathspark Speaker
-	6 UM01 Fireseed WIP
-	6 UM01 Laughing Path Master
-	6 UM01 Mayarai, Bonesnouts Leader
-	6 UM01 Flux-node Birthing
-	6 UM01 Taza, Exiled Princess
-	6 UM01 Aerieguard Captain
-	6 UM01 Cenote King
 	1 Migronn, Steadfast Thyl
 	12 CW01 Follower of the Updraft Path
 	12 CW02 Kitsan Knight-Errant
@@ -3209,16 +3089,6 @@
 	7 Courageous Assembly
 	7 Leave No Witnesses
 	6 CR04 Iceclaw Swordfrey
-	15 UM01 Circumzenith Guardian
-	15 UM01 Icon of Dead Futures
-	15 UM01 Deathspark Speaker
-	15 UM01 Fireseed WIP
-	15 UM01 Laughing Path Master
-	15 UM01 Mayarai, Bonesnouts Leader
-	15 UM01 Flux-node Birthing
-	15 UM01 Taza, Exiled Princess
-	15 UM01 Aerieguard Captain
-	15 UM01 Cenote King
 	4 Migronn, Steadfast Thyl
 	6 CW01 Follower of the Updraft Path
 	6 CW02 Kitsan Knight-Errant

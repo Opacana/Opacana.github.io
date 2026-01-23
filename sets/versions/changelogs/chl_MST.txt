@@ -1,4 +1,20 @@
-﻿VERSION 1 CHANGELOG
+﻿VERSION 2 CHANGELOG
+====================
+
+
+UM01 Circumzenith Guardian removed.
+UM01 Icon of Dead Futures removed.
+UM01 Deathspark Speaker removed.
+UM01 Fireseed WIP removed.
+UM01 Laughing Path Master removed.
+UM01 Mayarai, Bonesnouts Leader removed.
+UM01 Flux-node Birthing removed.
+UM01 Taza, Exiled Princess removed.
+UM01 Aerieguard Captain removed.
+UM01 Cenote King removed.
+
+
+VERSION 1 CHANGELOG
 ====================
 
 First version published.
