@@ -1,0 +1,90 @@
+﻿VERSION 5 CHANGELOG
+====================
+
+CW04 Truth Diviner added.
+CB11 Dalus Desert Askor added.
+CG15 Moonguided Shot added.
+MU02 Cosmic Secrets added.
+MU01 Y'ssna, Cephaloid Oracle added.
+RM01 Crystal Flameblossom added.
+
+CW04 disenchanter cr removed.
+CB11 5mv creature removed.
+CG15 flyer removal noncre removed.
+MU01 Cosmic Secrets removed.
+MU02 Y'ssna, Cephaloid Oracle removed.
+RM01 removed.
+
+UM01 Circumzenith Guardian
+
+UM01 Icon of Dead Futures
+
+UM01 Deathspark Speaker
+
+UM01 Fireseed WIP
+
+UM01 Laughing Path Master
+
+UM01 Mayarai, Bonesnouts Leader
+
+UM01 Flux-node Birthing
+
+UM01 Taza, Exiled Princess
+
+UM01 Aerieguard Captain
+
+UM01 Cenote King
+
+RM01 Urvinn, Count of Wastehold
+rules_text: Flying, deathtouch, ward {1}
+Whenever this creature deals combat damage to an opponent or planeswalker, you draw a card and that player or that planeswalker's controller discards a card. => Flying, deathtouch, ward {1}
+Whenever Urvinn deals combat damage to an opponent or planeswalker, you draw a card and that player or that planeswalker's controller discards a card.
+
+RM01
+cost: {R}{G} => {G}{W}
+
+RM01
+cost: {G}{W} => {U}{R}
+
+
+VERSION 4 CHANGELOG
+====================
+
+No changes.
+
+VERSION 3 CHANGELOG
+====================
+
+UM01 Circumzenith Guardian added.
+UM01 Icon of Dead Futures added.
+UM01 Deathspark Speaker added.
+UM01 Fireseed WIP added.
+UM01 Laughing Path Master added.
+UM01 Mayarai, Bonesnouts Leader added.
+UM01 Flux-node Birthing added.
+UM01 Taza, Exiled Princess added.
+UM01 Aerieguard Captain added.
+UM01 Cenote King added.
+
+
+
+VERSION 2 CHANGELOG
+====================
+
+
+UM01 Circumzenith Guardian removed.
+UM01 Icon of Dead Futures removed.
+UM01 Deathspark Speaker removed.
+UM01 Fireseed WIP removed.
+UM01 Laughing Path Master removed.
+UM01 Mayarai, Bonesnouts Leader removed.
+UM01 Flux-node Birthing removed.
+UM01 Taza, Exiled Princess removed.
+UM01 Aerieguard Captain removed.
+UM01 Cenote King removed.
+
+
+VERSION 1 CHANGELOG
+====================
+
+First version published.
