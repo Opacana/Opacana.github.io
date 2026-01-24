@@ -183,7 +183,7 @@
             "set": "MST",
             "loyalty": "",
             "artist": "Jonathan Vera / Yasumora",
-            "notes": "!group"
+            "notes": "!group Arcun"
         },
         {
             "card_name": "UM01 Icon of Dead Futures",
@@ -201,7 +201,7 @@
             "set": "MST",
             "loyalty": "",
             "artist": "Vladimir stojsavljevic",
-            "notes": "!group"
+            "notes": "!group Arcun"
         },
         {
             "card_name": "UM01 Deathspark Speaker",
@@ -219,7 +219,7 @@
             "set": "MST",
             "loyalty": "",
             "artist": "Jordan Kerbow",
-            "notes": "!group"
+            "notes": "!group Arcun"
         },
         {
             "card_name": "UM01 Fireseed WIP",
@@ -237,7 +237,7 @@
             "set": "MST",
             "loyalty": "",
             "artist": "Adelijah Ocampo for Gunship Revolution",
-            "notes": "!group"
+            "notes": "!group Arcun"
         },
         {
             "card_name": "UM01 Laughing Path Master",
@@ -255,7 +255,7 @@
             "set": "MST",
             "loyalty": "",
             "artist": "Luis Salas Lastra",
-            "notes": "!group"
+            "notes": "!group Arcun"
         },
         {
             "card_name": "UM01 Mayarai, Bonesnouts Leader",
@@ -273,7 +273,7 @@
             "set": "MST",
             "loyalty": "",
             "artist": "David Koo",
-            "notes": "!group"
+            "notes": "!group Arcun"
         },
         {
             "card_name": "UM01 Flux-node Birthing",
@@ -291,7 +291,7 @@
             "set": "MST",
             "loyalty": "",
             "artist": "Gamepack Studio",
-            "notes": "!group"
+            "notes": "!group Arcun"
         },
         {
             "card_name": "UM01 Taza, Exiled Princess",
@@ -309,7 +309,7 @@
             "set": "MST",
             "loyalty": "",
             "artist": "Vladimir Matic-Kuriljov",
-            "notes": "!group"
+            "notes": "!group Arcun"
         },
         {
             "card_name": "UM01 Aerieguard Captain",
@@ -327,7 +327,7 @@
             "set": "MST",
             "loyalty": "",
             "artist": "Almery Mael",
-            "notes": "!group"
+            "notes": "!group Arcun"
         },
         {
             "card_name": "UM01 Cenote King",
@@ -345,7 +345,7 @@
             "set": "MST",
             "loyalty": "",
             "artist": "Alex Kintner",
-            "notes": "!group"
+            "notes": "!group Arcun"
         },
         {
             "card_name": "Migronn, Steadfast Thyl",
@@ -420,21 +420,21 @@
             "notes": ""
         },
         {
-            "card_name": "CW04 disenchanter cr",
+            "card_name": "CW04 Truth Diviner",
             "color": "W",
             "rarity": "common",
-            "type": "",
+            "type": "Creature \u2014 Bird Monk",
             "number": 19,
             "color_identity": "W",
-            "cost": "",
-            "rules_text": "1mv or more",
-            "flavor_text": "[i][/i]",
-            "pt": "",
+            "cost": "{1}{W}{W}",
+            "rules_text": "Flying\nWhen this creature enters, destroy target artifact or enchantment.",
+            "flavor_text": "[i]\u201cPeople are using deception and lies to receive the blind blessings of the Moon. It is my mission to reveal truths.\u201d[/i]",
+            "pt": "1/2",
             "special_text": "",
             "shape": "normal",
             "set": "MST",
             "loyalty": "",
-            "artist": "",
+            "artist": "Cynthia F. G.",
             "notes": ""
         },
         {
@@ -1212,21 +1212,21 @@
             "notes": ""
         },
         {
-            "card_name": "CB11 5mv creature",
+            "card_name": "CB11 Dalus Desert Askor",
             "color": "B",
             "rarity": "common",
-            "type": "",
+            "type": "Creature \u2014 Scorpion",
             "number": 105,
             "color_identity": "B",
             "cost": "{3}{B}{B}",
-            "rules_text": "",
-            "flavor_text": "[i][/i]",
-            "pt": "",
+            "rules_text": "Menace\nWhenever this creature attacks, target creature you control with power 2 or less gains menace until end of turn.",
+            "flavor_text": "[i]Less principled Lafahdian rogues used cruel methods to tame these giant scorpions into reluctant mounts.[/i]",
+            "pt": "4/5",
             "special_text": "",
             "shape": "normal",
             "set": "MST",
             "loyalty": "",
-            "artist": "",
+            "artist": "Cindy Avelino",
             "notes": ""
         },
         {
@@ -1950,21 +1950,21 @@
             "notes": ""
         },
         {
-            "card_name": "CG15 flyer removal noncre",
+            "card_name": "CG15 Moonguided Shot",
             "color": "G",
             "rarity": "common",
-            "type": "",
+            "type": "Instant",
             "number": 187,
             "color_identity": "G",
-            "cost": "",
-            "rules_text": "mana value 2+",
+            "cost": "{2}{G}",
+            "rules_text": "Choose one \u2014\n\u2022 Destroy target tapped creature with flying you don't control.\n\u2022 Untap target creature you control. Until end of turn, that creature gets +2/+2 and gains reach and lifelink.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "MST",
             "loyalty": "",
-            "artist": "",
+            "artist": "Brian Valeza & Hinchel Or, for Gunship Revolution",
             "notes": ""
         },
         {
@@ -3696,11 +3696,11 @@
             "notes": ""
         },
         {
-            "card_name": "MU01 Cosmic Secrets",
+            "card_name": "MU02 Cosmic Secrets",
             "color": "U",
             "rarity": "mythic",
             "type": "Sorcery",
-            "number": 74,
+            "number": 75,
             "color_identity": "U",
             "cost": "{2}{U}",
             "rules_text": "Draw two cards. If you have four or more Moonstone counters, instead scry 2, then draw 3 cards.",
@@ -3714,11 +3714,11 @@
             "notes": ""
         },
         {
-            "card_name": "MU02 Y'ssna, Cephaloid Oracle",
+            "card_name": "MU01 Y'ssna, Cephaloid Oracle",
             "color": "U",
             "rarity": "mythic",
             "type": "Legendary Creature \u2014 Octopus Demigod",
-            "number": 75,
+            "number": 74,
             "color_identity": "U",
             "cost": "{4}{U}{U}",
             "rules_text": "Ward {3}\nWhen Y'ssna enters, if you have twenty or more counters, you win the game. If you don't, you draw a card and double the number of each kind of counter you have.\nWhenever Y'ssna deals combat damage to a creature, tap and put a stun counter on that creature.",
@@ -3883,7 +3883,7 @@
             "number": 225,
             "color_identity": "UB",
             "cost": "{U}{B}",
-            "rules_text": "Flying, deathtouch, ward {1}\nWhenever this creature deals combat damage to an opponent or planeswalker, you draw a card and that player or that planeswalker's controller discards a card.",
+            "rules_text": "Flying, deathtouch, ward {1}\nWhenever Urvinn deals combat damage to an opponent or planeswalker, you draw a card and that player or that planeswalker's controller discards a card.",
             "flavor_text": "[i][/i]",
             "pt": "1/1",
             "special_text": "",
@@ -3912,21 +3912,21 @@
             "notes": ""
         },
         {
-            "card_name": "RM01",
+            "card_name": "RM01 Crystal Flameblossom",
             "color": "RG",
             "rarity": "rare",
-            "type": "",
-            "number": 218,
+            "type": "Enchantment",
+            "number": 219,
             "color_identity": "RG",
-            "cost": "{R}{G}",
-            "rules_text": "",
+            "cost": "{1}{R}{G}",
+            "rules_text": "If a land would enter under your control tapped, you may have it deal 2 damage to you. If you do, it enters untapped instead.\nCreatures you control get +X/+0, where X is the number of lands that entered and/or left your graveyard this turn.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "MST",
             "loyalty": "",
-            "artist": "",
+            "artist": "Adrien Gonzalez",
             "notes": ""
         },
         {
@@ -3934,7 +3934,7 @@
             "color": "WG",
             "rarity": "rare",
             "type": "",
-            "number": 219,
+            "number": 218,
             "color_identity": "WG",
             "cost": "{G}{W}",
             "rules_text": "",

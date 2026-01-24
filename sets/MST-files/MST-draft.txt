@@ -231,13 +231,13 @@
 			}
 		},
 		{
-			"name": "CW04 disenchanter cr",
+			"name": "CW04 Truth Diviner",
 			"rarity": "common",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{1}{W}{W}",
+			"type": "Creature — Bird Monk",
 			"collector_number": "19",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/19_CW04 disenchanter cr.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/19_CW04 Truth Diviner.png"
 			}
 		},
 		{
@@ -671,13 +671,13 @@
 			}
 		},
 		{
-			"name": "CB11 5mv creature",
+			"name": "CB11 Dalus Desert Askor",
 			"rarity": "common",
 			"mana_cost": "{3}{B}{B}",
-			"type": "",
+			"type": "Creature — Scorpion",
 			"collector_number": "105",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/105_CB11 5mv creature.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/105_CB11 Dalus Desert Askor.png"
 			}
 		},
 		{
@@ -1081,13 +1081,13 @@
 			}
 		},
 		{
-			"name": "CG15 flyer removal noncre",
+			"name": "CG15 Moonguided Shot",
 			"rarity": "common",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{2}{G}",
+			"type": "Instant",
 			"collector_number": "187",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/187_CG15 flyer removal noncre.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/187_CG15 Moonguided Shot.png"
 			}
 		},
 		{
@@ -2051,23 +2051,23 @@
 			}
 		},
 		{
-			"name": "MU01 Cosmic Secrets",
+			"name": "MU02 Cosmic Secrets",
 			"rarity": "mythic",
 			"mana_cost": "{2}{U}",
 			"type": "Sorcery",
-			"collector_number": "74",
+			"collector_number": "75",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/74_MU01 Cosmic Secrets.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/75_MU02 Cosmic Secrets.png"
 			}
 		},
 		{
-			"name": "MU02 Y'ssna, Cephaloid Oracle",
+			"name": "MU01 Y'ssna, Cephaloid Oracle",
 			"rarity": "mythic",
 			"mana_cost": "{4}{U}{U}",
 			"type": "Legendary Creature — Octopus Demigod",
-			"collector_number": "75",
+			"collector_number": "74",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/75_MU02 Y'ssna, Cephaloid Oracle.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/74_MU01 Y'ssna, Cephaloid Oracle.png"
 			}
 		},
 		{
@@ -2171,13 +2171,13 @@
 			}
 		},
 		{
-			"name": "RM01",
+			"name": "RM01 Crystal Flameblossom",
 			"rarity": "rare",
-			"mana_cost": "{R}{G}",
-			"type": "",
-			"collector_number": "218",
+			"mana_cost": "{1}{R}{G}",
+			"type": "Enchantment",
+			"collector_number": "219",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/218_RM01.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/219_RM01 Crystal Flameblossom.png"
 			}
 		},
 		{
@@ -2185,9 +2185,9 @@
 			"rarity": "rare",
 			"mana_cost": "{G}{W}",
 			"type": "",
-			"collector_number": "219",
+			"collector_number": "218",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/219_RM01.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/218_RM01.png"
 			}
 		},
 		{
@@ -2726,8 +2726,8 @@
 	2 RG07 Summoning Ancestors
 	1 MW01 Mouratl, the Eternal
 	1 MW02 Feast with the King
-	1 MU01 Cosmic Secrets
-	1 MU02 Y'ssna, Cephaloid Oracle
+	1 MU02 Cosmic Secrets
+	1 MU01 Y'ssna, Cephaloid Oracle
 	1 MB01 Raios, the Founder
 	1 MB02 Honoring Their Sacrifice
 	1 MR01 Tawikyan, Avaricious Queen
@@ -2738,7 +2738,7 @@
 	2 RM01 Queen Scoraya of Hagzaga
 	2 RM01 Urvinn, Count of Wastehold
 	2 RM01 Jetrax, Dark Archon
-	2 RM01
+	2 RM01 Crystal Flameblossom
 	2 RM01
 	2 RM01 Liau, Primordial Mother
 	2 RM01
@@ -2846,7 +2846,7 @@
 	8 CW01 Follower of the Updraft Path
 	8 CW02 Kitsan Knight-Errant
 	8 CW03 Petalseeker Mistress
-	8 CW04 disenchanter cr
+	8 CW04 Truth Diviner
 	8 CW05 Confident Huntress
 	8 CW06 Youngling Protector
 	8 CW07 Stubborn Hornblower
@@ -2890,7 +2890,7 @@
 	8 CB08 Self-disc outlet cre
 	8 CB09 Escaped Lab Rat
 	8 CB10 Snatcher Drakeling
-	8 CB11 5mv creature
+	8 CB11 Dalus Desert Askor
 	8 CB12 draw spell nonc
 	8 CB13 Infernal Resourcefulness
 	8 CB14 only opp discard nonc
@@ -2931,7 +2931,7 @@
 	8 CG12 combat trick noncre
 	8 CG13 bite ins or sorc
 	8 CG14 mill then return fr yard
-	8 CG15 flyer removal noncre
+	8 CG15 Moonguided Shot
 	8 CG16 Ruined Relics
 	8 CG17 pump aura
 	8 CG18 Tangled in Crops
@@ -2965,7 +2965,7 @@
 	12 CW01 Follower of the Updraft Path
 	12 CW02 Kitsan Knight-Errant
 	12 CW03 Petalseeker Mistress
-	12 CW04 disenchanter cr
+	12 CW04 Truth Diviner
 	12 CW05 Confident Huntress
 	12 CW06 Youngling Protector
 	12 CW07 Stubborn Hornblower
@@ -3009,7 +3009,7 @@
 	12 CB08 Self-disc outlet cre
 	12 CB09 Escaped Lab Rat
 	12 CB10 Snatcher Drakeling
-	12 CB11 5mv creature
+	12 CB11 Dalus Desert Askor
 	12 CB12 draw spell nonc
 	12 CB13 Infernal Resourcefulness
 	12 CB14 only opp discard nonc
@@ -3050,7 +3050,7 @@
 	12 CG12 combat trick noncre
 	12 CG13 bite ins or sorc
 	12 CG14 mill then return fr yard
-	12 CG15 flyer removal noncre
+	12 CG15 Moonguided Shot
 	12 CG16 Ruined Relics
 	12 CG17 pump aura
 	12 CG18 Tangled in Crops
@@ -3147,8 +3147,8 @@
 	2 RG07 Summoning Ancestors
 	1 MW01 Mouratl, the Eternal
 	1 MW02 Feast with the King
-	1 MU01 Cosmic Secrets
-	1 MU02 Y'ssna, Cephaloid Oracle
+	1 MU02 Cosmic Secrets
+	1 MU01 Y'ssna, Cephaloid Oracle
 	1 MB01 Raios, the Founder
 	1 MB02 Honoring Their Sacrifice
 	1 MR01 Tawikyan, Avaricious Queen
@@ -3159,7 +3159,7 @@
 	2 RM01 Queen Scoraya of Hagzaga
 	2 RM01 Urvinn, Count of Wastehold
 	2 RM01 Jetrax, Dark Archon
-	2 RM01
+	2 RM01 Crystal Flameblossom
 	2 RM01
 	2 RM01 Liau, Primordial Mother
 	2 RM01
@@ -3223,7 +3223,7 @@
 	6 CW01 Follower of the Updraft Path
 	6 CW02 Kitsan Knight-Errant
 	6 CW03 Petalseeker Mistress
-	6 CW04 disenchanter cr
+	6 CW04 Truth Diviner
 	6 CW05 Confident Huntress
 	6 CW06 Youngling Protector
 	6 CW07 Stubborn Hornblower
@@ -3267,7 +3267,7 @@
 	6 CB08 Self-disc outlet cre
 	6 CB09 Escaped Lab Rat
 	6 CB10 Snatcher Drakeling
-	6 CB11 5mv creature
+	6 CB11 Dalus Desert Askor
 	6 CB12 draw spell nonc
 	6 CB13 Infernal Resourcefulness
 	6 CB14 only opp discard nonc
@@ -3308,7 +3308,7 @@
 	6 CG12 combat trick noncre
 	6 CG13 bite ins or sorc
 	6 CG14 mill then return fr yard
-	6 CG15 flyer removal noncre
+	6 CG15 Moonguided Shot
 	6 CG16 Ruined Relics
 	6 CG17 pump aura
 	6 CG18 Tangled in Crops
@@ -3405,8 +3405,8 @@
 	7 RG07 Summoning Ancestors
 	4 MW01 Mouratl, the Eternal
 	4 MW02 Feast with the King
-	4 MU01 Cosmic Secrets
-	4 MU02 Y'ssna, Cephaloid Oracle
+	4 MU02 Cosmic Secrets
+	4 MU01 Y'ssna, Cephaloid Oracle
 	4 MB01 Raios, the Founder
 	4 MB02 Honoring Their Sacrifice
 	4 MR01 Tawikyan, Avaricious Queen
@@ -3417,7 +3417,7 @@
 	7 RM01 Queen Scoraya of Hagzaga
 	7 RM01 Urvinn, Count of Wastehold
 	7 RM01 Jetrax, Dark Archon
-	7 RM01
+	7 RM01 Crystal Flameblossom
 	7 RM01
 	7 RM01 Liau, Primordial Mother
 	7 RM01

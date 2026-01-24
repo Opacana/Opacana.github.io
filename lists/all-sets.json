@@ -1,0 +1,19 @@
+﻿{
+    "sets": [
+        {
+            "set_code": "AVA",
+            "set_name": "Avallus: Rediscovery",
+            "formats": "Revolution"
+        },
+        {
+            "set_code": "MST",
+            "set_name": "Untitled Anthro Moonstone Standard Set",
+            "formats": "Revolution"
+        },
+        {
+            "set_code": "WCD",
+            "set_name": "Wroszy\u2019s Circus of Darkness",
+            "formats": "MSEM"
+        }
+    ]
+}
