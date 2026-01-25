@@ -1377,7 +1377,7 @@
             "number": 137,
             "color_identity": "R",
             "cost": "{2}{R}{R}",
-            "rules_text": "Choose one \u2013\n\u2022 Destroy target land.\n\u2022 Destroy target artifact.\n\u2022 This spell deals 4 damage to target permanent.",
+            "rules_text": "Choose one \u2013\n\u2022 Destroy target land.\n\u2022 destroy target artifact.\n\u2022 This spell deals 4 damage to target permanent.",
             "flavor_text": "[i]Businesspeople and politicians commonly hired mercenaries, or \u2018private security', to take care of their dirty work.[/i]",
             "pt": "",
             "special_text": "",
@@ -2652,15 +2652,15 @@
             "number": 171,
             "color_identity": "R",
             "cost": "{1}{R}{R}",
-            "rules_text": "Choose one \u2013\n\u2022 Exile target artifact.\n\u2022 This spell deals 4 damage to each artifact creature and each equipped creature.\n\u2022 This spell deals 3 damage to each creature.",
-            "flavor_text": "[i][/i]",
+            "rules_text": "Choose one \u2013\n\u2022 This spell deals 3 damage to each creature.\n\u2022 Exile target artifact.",
+            "flavor_text": "[i]\u201cIf you can break a lock, you can break a heart.\u201d\n\u2014Sfarzia[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "AVA",
             "loyalty": "",
             "artist": "Sam Yang",
-            "notes": "",
+            "notes": "Redesigned January 17-18, 2026",
             "image_type": "png"
         },
         {
@@ -3783,7 +3783,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Hans Ekaputra",
-            "notes": "Aug 28, 2025: Removed 'Another' from second mode.",
+            "notes": "!group Arcun",
             "image_type": "png"
         },
         {
@@ -3802,7 +3802,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Grafit Studio",
-            "notes": "December 20th, 2025: Added 'equal or' to first ability.",
+            "notes": "!group Arcun",
             "image_type": "png"
         },
         {
@@ -3821,7 +3821,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Victor Garcia",
-            "notes": "08/18/2025: Added Sorcery speed restriction.\n\nJanuary 17, 2026: Rewrote flavor text.",
+            "notes": "!group Arcun",
             "image_type": "png"
         },
         {
@@ -3840,7 +3840,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Sam Perin",
-            "notes": "January 3rd, 2026: Condensed last two abilities into one, making room for a little flavor text.\n\nJanuary 15th, 2026: Added the flavor text.",
+            "notes": "!group Arcun",
             "image_type": "png"
         },
         {
@@ -3859,7 +3859,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Andrew Soman",
-            "notes": "December 20th, 2025: Based on curator feedback, reduced power by 1, and removed scry aspect of trigger ability.",
+            "notes": "December 20th, 2025: Based on curator feedback, reduced power by 1, and removed scry aspect of trigger ability.\n\n!group Arcun",
             "image_type": "png"
         },
         {
@@ -3878,7 +3878,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "JoelChaimHoltzman",
-            "notes": "August 14th, 2025: Removed 'only once each turn' from last ability. and changde 'creature or vehicle you control' to simply 'permanent'. [Yes, so you can target things you don't control now]. Also removed permanent type reminder text, on recommendation in project channel on Discord.\n\nJanuary 3rd, 2026: Reduce life cost of vigilance-giving ability to only 2. Simplified and reworded first ability.",
+            "notes": "!group Arcun",
             "image_type": "png"
         },
         {
@@ -3897,7 +3897,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Tekila-onRice",
-            "notes": "08/18/2025: Changed to cost 1 and tap to add two of any mana but only for artifacts.\n\nJan. 15, 2026: Given new art, and now it can sacrifice any artifact, not just nontoken.",
+            "notes": "!group Arcun",
             "image_type": "png"
         },
         {
@@ -3916,7 +3916,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Diego Lafuente",
-            "notes": "",
+            "notes": "!group Arcun",
             "image_type": "png"
         },
         {
@@ -3935,7 +3935,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Marton Adam",
-            "notes": "08/18/2025: Reworded revival on death death trigger for clarity.\n08/28/2025: Removed once each turn restriction.",
+            "notes": "!group Arcun",
             "image_type": "png"
         },
         {
@@ -3954,7 +3954,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Coraline Lyu",
-            "notes": "August 26th, 2025: Removed Map creation on attack ability.",
+            "notes": "!group Arcun",
             "image_type": "png"
         },
         {
@@ -4087,7 +4087,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Marcel Mercado",
-            "notes": "August 17th, 2025: Removed scry on artifact death ability, replaced it with making a map on end step.",
+            "notes": "",
             "image_type": "png"
         },
         {
