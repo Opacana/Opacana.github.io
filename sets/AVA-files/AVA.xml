@@ -5,7 +5,7 @@
 			<name>AVA</name>
 			<longname>Avallus: Rediscovery</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-01-25</releasedate>
+			<releasedate>2026-01-30</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -1114,7 +1114,7 @@ When this creature is put into your graveyard from the battlefield, you may shuf
 		<card>
 			<name>Deepvent Feeder</name>
 			<text>Menace
-Whenever one or more lands are put into an opponent&apos;s graveyard from anywhere, put that many +1/+1 counter on this creature.</text>
+Whenever one or more lands are put into an opponent&apos;s graveyard from anywhere, put that many +1/+1 counters on this creature.</text>
 			<set rarity="common" picurl="https://Opacana.github.io/sets/AVA-files/img/142_Deepvent Feeder.png" num="142">AVA</set>
 			<prop>
 				<layout>normal</layout>
@@ -1309,7 +1309,7 @@ If you control a Dragon or Phoenix creature, this spell can&apos;t be countered 
 			<name>Burn Down</name>
 			<text>Choose one —
 • Destroy target land.
-• destroy target artifact.
+• Destroy target artifact.
 • This spell deals 4 damage to target permanent.</text>
 			<set rarity="common" picurl="https://Opacana.github.io/sets/AVA-files/img/137_Burn Down.png" num="137">AVA</set>
 			<prop>
@@ -2343,7 +2343,7 @@ Whenever a nonartifact creature dealt damage by this creature this turn dies, yo
 			<name>Savoran Razor Galleon</name>
 			<text>Ironclad {2} (You may pay an additional {2} to cast this spell. If you do, it&apos;s a creature in addition to its other types.)
 Flying
-When this enters or dies, creatures you don&apos;t control get -1/-1 until end of turn.
+When this artifact enters or dies, creatures you don&apos;t control get -1/-1 until end of turn.
 Crew 2</text>
 			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/AVA-files/img/116_Savoran Razor Galleon.png" num="116">AVA</set>
 			<prop>
@@ -4369,7 +4369,7 @@ When enchanted creature dies, reveal cards from the top of your library until yo
 		</card>
 		<card>
 			<name>Masterpiece in the Making</name>
-			<text>When thi artifact enters, each player discards two cards, then you draw two cards and gain 2 life.
+			<text>When this artifact enters, each player discards two cards, then you draw two cards and gain 2 life.
 Boneborn {B}{B} ({B}{B}, Exile a creature card from your graveyard or sacrifice a creature: Transform this permanent. Activate only as a sorcery.)
 ---
 (Back): Infernal Contemptor</text>
@@ -4738,7 +4738,7 @@ Enchanted permanent can&apos;t attack or block, and can&apos;t be sacrificed.</t
 		<card>
 			<name>Ninth Dawn Associate</name>
 			<text>First strike
-If this creature would deal combat damage to an artifact creature or battle, it deals double that damage instead.</text>
+If this creature would deal combat damage to an artifact creature or a battle, it deals double that damage instead.</text>
 			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/AVA-files/img/233_Ninth Dawn Associate.png" num="233">AVA</set>
 			<prop>
 				<layout>normal</layout>
@@ -5602,7 +5602,7 @@ When this Battle is defeated, you draw a card, then gain life equal to the exile
 		</card>
 		<card>
 			<name>Foolhardy Tinkerer</name>
-			<text>When this enters, create a tapped Treasure token.
+			<text>When this creature enters, create a tapped Treasure token.
 Tap X artifacts you control: This creature gets +X/+0 until end of turn. Activate only as a sorcery.</text>
 			<set rarity="common" picurl="https://Opacana.github.io/sets/AVA-files/img/148_Foolhardy Tinkerer.png" num="148">AVA</set>
 			<prop>
