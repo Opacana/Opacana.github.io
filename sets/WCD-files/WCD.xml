@@ -1,0 +1,4935 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<cockatrice_carddatabase version='4'>
+	<sets>
+		<set>
+			<name>WCD</name>
+			<longname>Wroszy&apos;s Circus of Darkness</longname>
+			<settype>Custom</settype>
+			<releasedate>2026-02-02</releasedate>
+		</set>
+	</sets>
+	<cards>
+		<card>
+			<name>Reflector Diva</name>
+			<text>Masquerade {W} (You may cast this card face down for {3} as a 2/2 creature with ward—Sacrifice a permanent. Turn it face up any time for its masquerade cost.)
+When this creature enters or is turned face up, destroy up to one target enchantment.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/32_Reflector Diva.png" num="32">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Performer</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Unstoppable Friend</name>
+			<text>When this creature enters, create a white enchantment Aura token named Entrusted with enchant creature and &quot;Enchanted creature gets +2/+0&quot; attached to this creature.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/40_Unstoppable Friend.png" num="40">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Dog</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<reverse_related count="1">Entrusted</reverse_related>
+		</card>
+		<card>
+			<name>Masked Surgeon</name>
+			<text>Masquerade {W} (You may cast this card face down for {3} as a 2/2 creature with ward—Sacrifice a permanent. Turn it face up any time for its masquerade cost.)
+When this creature enters or is turned face up, prevent all damage that would be dealt to target creature this turn.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/26_Masked Surgeon.png" num="26">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Doctor Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Primalist Vigilante</name>
+			<text>Whenever an enchantment enters the battlefield under your control, you gain 1 life.
+Whenever this creature becomes the target of an Aura spell, put a +1/+1 counter on it.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/30_Primalist Vigilante.png" num="30">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Cleric Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>1WW</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Bomb Runner</name>
+			<text>At the beginning of combat on your turn, this creature gains flying and gets +1/+0 until end of turn.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/6_Bomb Runner.png" num="6">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Wizard Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>1WW</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Life-ley Adept</name>
+			<text>Ward {1}
+All permanents attached to this creature have ward {1}.
+{3}, {T}: Tap target creature or artifact. This ability costs l less to activate if this creature is enchanted, and {1} less if it&apos;s equipped.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/20_Life-ley Adept.png" num="20">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warlock</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Primalist Abbess</name>
+			<text>When this creature enters, return up to one target enchantment card from your graveyard to your hand.
+When this creature dies, exile up to two target cards from a single graveyard.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/29_Primalist Abbess.png" num="29">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Frontiersville Mascot</name>
+			<text>Masquerade {1}{W} (You may cast this card face down for {3} as a 2/2 creature with ward—Sacrifice a permanent. Turn it face up any time for its masquerade cost.)
+Vigilance</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/11_Frontiersville Mascot.png" num="11">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Ox Performer</type>
+				<maintype>Creature</maintype>
+				<manacost>4W</manacost>
+				<cmc>5</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Masterful Ringleader</name>
+			<text>When this creature enters, create a 2/2 red Bear Warrior creature token.
+At the beginning of combat on your turn, you may attach target Equipment you control to target creature.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/27_Masterful Ringleader.png" num="27">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Performer</type>
+				<maintype>Creature</maintype>
+				<manacost>3WW</manacost>
+				<cmc>5</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<reverse_related count="1">Bear Warrior</reverse_related>
+		</card>
+		<card>
+			<name>Naval Security Officer</name>
+			<text>During your turn, this creature has first strike.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/28_Naval Security Officer.png" num="28">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Prophetic Jester</name>
+			<text>Masquerade {W} (You may cast this card face down for {3} as a 2/2 creature with ward—Sacrifice a permanent. Turn it face up any time for its masquerade cost.)
+When this creature enters or is turned face up, draw a card.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/31_Prophetic Jester.png" num="31">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Performer Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Luxury Skyliner</name>
+			<text>Flying
+{1}{W}{W}: Exile target creature you control, then return it to the battlefield under its owner&apos;s control at end of turn. Activate only once each turn as a sorcery.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/22_Luxury Skyliner.png" num="22">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Construct</type>
+				<maintype>Creature</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>We Have You Surrounded</name>
+			<text>This spell deals damage equal to the number of creatures you control plus the number of enchantments you control to target attacking or blocking creature.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/42_We Have You Surrounded.png" num="42">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Gift of the Healer</name>
+			<text>Enchant creature
+Enchanted creature has &quot;{T}: You gain X life, or prevent the next X damage that would be dealt to another target creature this turn, where X is this creature&apos;s power.&quot;</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/13_Gift of the Healer.png" num="13">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Siege Raid</name>
+			<text>Flash
+Enchant creature
+Enchanted creature has first strike.
+When this Aura enters, detain up to one target creature. (Until your next turn, that creature can&apos;t attack or block and its activated abilities can&apos;t be activated.)</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/37_Siege Raid.png" num="37">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Riot Control Automaton</name>
+			<text>Vigilance
+Whenever this creature deals combat damage, you may pay {WU}. If you do, detain target permanent. (Until your next turn, that permanent can&apos;t attack or block and its activated abilities can&apos;t be activated.)</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/34_Riot Control Automaton.png" num="34">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Construct Soldier</type>
+				<maintype>Artifact</maintype>
+				<manacost>3WW</manacost>
+				<cmc>5</cmc>
+				<colors>W</colors>
+				<coloridentity>WU</coloridentity>
+				<pt>3/5</pt>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Bar the Exit</name>
+			<text>Exile target artifact or creature if it&apos;s tapped or if its controller sacrificed a nonland permanent this turn.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/4_Bar the Exit.png" num="4">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Seal of Cleansing</name>
+			<text>Sacrifice this enchantment: Destroy target artifact or enchantment.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/35_Seal of Cleansing.png" num="35">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Come to an Understanding</name>
+			<text>Creatures you control gain indestructible until end of turn. Then any opponent may sacrifice a nonland permanent. If no opponent does, creatures you control get +1/+0 until end of turn.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/8_Come to an Understanding.png" num="8">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Bright-Side Poet</name>
+			<text>When this creature enters, scry 2.
+{T}: Add {C}. This mana can&apos;t be spent to cast a creature spell.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/46_Bright-Side Poet.png" num="46">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Bard</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Sphenisca Guidebot</name>
+			<text>{T}: Add {C}. Spend this mana only to cast artifact, instant or sorcery spells.
+Whenever you cast an artifact spell, another target creature you control gets +1/+0 until end of turn.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/76_Sphenisca Guidebot.png" num="76">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Construct</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Cartel Conjuror</name>
+			<text>When this creature enters, choose one —
+• Return target creature to its owner&apos;s hand.
+• Return target instant or sorcery card from your graveyard to your hand.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/47_Cartel Conjuror.png" num="47">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Rogue Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>2UU</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Entrepreneurial Gossip</name>
+			<text>Skulk (This creature can&apos;t be blocked by creatures with greater power.)
+Whenever this creature deals combat damage to an opponent, look at that player&apos;s hand and the top card of their library.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/57_Entrepreneurial Gossip.png" num="57">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Peasant Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Hyperspeed Agent</name>
+			<text>Flash (You may cast this spell any time you could cast an instant.)
+Spells you cast during an opponent&apos;s turn cost {1} less to cast.
+{2}{U}{R}: Draw a card.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/65_Hyperspeed Agent.png" num="65">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Soldier Detective</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>UR</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Heavy Bomber</name>
+			<text>Flying</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/62_Heavy Bomber.png" num="62">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Construct</type>
+				<maintype>Creature</maintype>
+				<manacost>3UU</manacost>
+				<cmc>5</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Hallostian Gunslinger</name>
+			<text>Ignore all effects that would prevent this creature from untapping.
+{1}{B}: This creature gains menace and gets +1/+1 until end of turn.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/61_Hallostian Gunslinger.png" num="61">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Rogue Mercenary</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>UB</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Vengeant Victim</name>
+			<text>Flying
+{W}, Sacrifice this permanent: Tap target creature.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/82_Vengeant Victim.png" num="82">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>WU</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Elder Bidrak</name>
+			<text>Flash
+Exile this creature: Discard a card, then draw a card.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/56_Elder Bidrak.png" num="56">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Serpent</type>
+				<maintype>Creature</maintype>
+				<manacost>4UU</manacost>
+				<cmc>6</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>5/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ministry Inspector</name>
+			<text>Flash (You may cast this spell any time you could cast an instant.)
+When this creature enters, counter target spell unless its controller pays {1}.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/70_Ministry Inspector.png" num="70">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Advisor</type>
+				<maintype>Creature</maintype>
+				<manacost>1UU</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Priest of Lun, the Stormwing</name>
+			<text>When this creature enters, create a 1/2 black Bird creature token with flying.
+At the beginning of your upkeep, if you control another creature with flying, you may scry 2.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/72_Priest of Lun, the Stormwing.png" num="72">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Cleric Druid</type>
+				<maintype>Creature</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<reverse_related count="1">Bird</reverse_related>
+		</card>
+		<card>
+			<name>Eager Salvager</name>
+			<text>When this creature enters, return up to one artifact card from your graveyard to your hand.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/54_Eager Salvager.png" num="54">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Artificer</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Regiment&apos;s Sparkhand</name>
+			<text>When this creature enters, tap target creature an opponent controls and put a stun counter on it.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/74_Regiment&apos;s Sparkhand.png" num="74">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Vedalken Soldier Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Take a Moment</name>
+			<text>Choose one —
+• Untap up to two target creatures.
+• Surveil 1, then draw a card. (To surveil 1, look at the top card of your library. You may put it into your graveyard.)</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/79_Take a Moment.png" num="79">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Information Overload</name>
+			<text>Target player taps X untapped creatures they control, where X is the number of cards they&apos;ve drawn this turn.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/66_Information Overload.png" num="66">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Unpredicted Tornado</name>
+			<text>Kicker {G} (You may pay an additional {G} as you cast this spell.)
+Return target nonland permanent to its owner&apos;s hand. If this spell was kicked, you may return target permanent to its owner&apos;s hand instead.
+Scry 1.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/80_Unpredicted Tornado.png" num="80">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>UG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Request an Audience</name>
+			<text>This spell costs {1} less to cast if you sacrificed a nontoken permanent this turn.
+Look at the top five cards of your library, put one into your hand, then put the rest on top of your library in any order.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/75_Request an Audience.png" num="75">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1UU</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Rain-soaked Getaway</name>
+			<text>Exile target permanent, then return it to the battlefield under its owner&apos;s control. If that permanent returns as a creature under your control, you may copy an ability triggered by it entering.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/73_Rain-soaked Getaway.png" num="73">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Hypnotizing Coryphee</name>
+			<text>Deathtouch
+When this creature blocks or becomes blocked, you may pay {1}{B}. If you do, target opponent discards a card at random.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/107_Hypnotizing Coryphee.png" num="107">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Demon Performer</type>
+				<maintype>Creature</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Englamored Hostess</name>
+			<text>Masquerade {B} (You may cast this card face down for {3} as a 2/2 creature with ward—Sacrifice a permanent. Turn it face up any time for its masquerade cost.)
+Whenever this creature deals combat damage to an opponent, you may gain 3 life.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/97_Englamored Hostess.png" num="97">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Devil Noble</type>
+				<maintype>Creature</maintype>
+				<manacost>BB</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Machine-gun Maverick</name>
+			<text>Whenever this creature attacks, you may pay {1}{B}. If you do, each opponent loses 1 life.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/113_Machine-gun Maverick.png" num="113">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Recaptured Experiment</name>
+			<text>Menace
+Whenever this creature deals combat damage to an opponent, that player loses X life, where X is the number of creatures you control with toughness greater than their power.</text>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/WCD-files/img/117_Recaptured Experiment.png" num="117">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Lizard Mutant Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>2BB</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Cunning Bat-Raiser</name>
+			<text>When this creature enters, create a 1/1 black Bat creature token with flying.
+{T}, Sacrifice a Bat: Create a tapped Treasure token. Activate only as a sorcery.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/93_Cunning Bat-Raiser.png" num="93">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Marshal of the Sewers</name>
+			<text>Menace
+Whenever a creature dealt damage by this creature this turn dies, that creature&apos;s controller loses 1 life and you gain 1 life.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/114_Marshal of the Sewers.png" num="114">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Mutant Rogue Citizen</type>
+				<maintype>Creature</maintype>
+				<manacost>1BB</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Prideful Executioner</name>
+			<text>Masquerade {B}{B} (You may cast this card face down for {3} as a 2/2 creature with ward—Sacrifice a permanent. Turn it face up any time for its masquerade cost.)
+When this creature enters or is turned face up, destroy up to one target creature that was dealt damage this turn.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/116_Prideful Executioner.png" num="116">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Assassin Performer</type>
+				<maintype>Creature</maintype>
+				<manacost>3BB</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Freelance Oni</name>
+			<text>Menace
+{GU}: Untap this creature. Activate only once each turn as a sorcery.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/100_Freelance Oni.png" num="100">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Demon Mutant Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>UBG</coloridentity>
+				<pt>3/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Lumbering Stiltclaw</name>
+			<text>When this creature attacks, you may switch its power and toughness until end of turn.
+{1}{BG}: This creature gains lifelink until end of turn.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/112_Lumbering Stiltclaw.png" num="112">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Mutant Performer</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>BG</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Eternal Cataloguer</name>
+			<text>When this creature enters, draw a card and you lose 1 life.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/98_Eternal Cataloguer.png" num="98">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Kor Zombie Advisor</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Secret Siphoner</name>
+			<text>Flying
+{2}{UB}, Exile this permanent: The next time an opponent would draw one or more cards, if they&apos;ve already drawn cards this turn, instead they draw a card and you draw a card.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/120_Secret Siphoner.png" num="120">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Spirit Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>UB</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Horrifying Unmasking</name>
+			<text>Whenever you turn a face-down permanent face-up, each opponent loses 1 life and you gain 1 life.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/106_Horrifying Unmasking.png" num="106">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Gaze Into the Red Door</name>
+			<text>This spell costs {1} less to cast if an opponent was dealt combat damage this turn.
+Target opponent exiles two cards from their hand.</text>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/WCD-files/img/101_Gaze Into the Red Door.png" num="101">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1BB</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Final Servitude</name>
+			<text>As an additional cost to cast this spell, sacrifice a creature.
+Draw two cards. 
+If a face-down creature was sacrificed to pay this spell&apos;s additional cost, scry 2.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/99_Final Servitude.png" num="99">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Retreat to Shadows</name>
+			<text>Until end of turn, target creature gains &quot;When this creature dies, return it to the battlefield tapped under its owner&apos;s control.&quot;</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/118_Retreat to Shadows.png" num="118">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Harvest Vitality</name>
+			<text>Target creature gets -2/-2 until end of turn. You gain 2 life.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/105_Harvest Vitality.png" num="105">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Elimination Contest</name>
+			<text>Kicker {R} (You may pay an additional {R} as you cast this spell.)
+Practiced (This spell costs {1} less to cast for each creature you&apos;ve attacked with this turn.)
+Destroy target creature, planeswalker, or enchantment.
+If this spell was kicked, destroy target artifact.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/96_Elimination Contest.png" num="96">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>4B</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>BR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Cognition Consumption</name>
+			<text>Practiced (This spell costs {1} less to cast for each creature you&apos;ve attacked with this turn.)
+Surveil 2, then draw two cards and you lose 2 life.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/92_Cognition Consumption.png" num="92">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2BB</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Lethean Payment</name>
+			<text>Target opponent reveals their hand. You choose a nonland card from it and exile that card. Then that player mills two cards.
+Draw a card.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/111_Lethean Payment.png" num="111">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Rabid Orthroid</name>
+			<text>Whenever this creature attacks, it gets +1/+0 until end of turn.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/153_Rabid Orthroid.png" num="153">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Beast</type>
+				<maintype>Creature</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Waste Tamer of Batra</name>
+			<text>When this creature enters, create a colorless Batran Volt-Rifle artifact equipment token with &quot;Equipped creature gets +1/+0.&quot; and &quot;Equipped creature has first strike during your turn.&quot; and equip {2}.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/165_Waste Tamer of Batra.png" num="165">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Mercenary</type>
+				<maintype>Creature</maintype>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Lightning Familiar</name>
+			<text>Whenever this creature attacks, choose one —
+• Add {R}. Until end of turn, you don&apos;t lose this mana as steps and phases end.
+• This creature gains flying until end of turn.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/146_Lightning Familiar.png" num="146">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Cat Mutant</type>
+				<maintype>Creature</maintype>
+				<manacost>RR</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Tick-Ridden Jipoo</name>
+			<text>When this creature enters, create two tapped 1/1 green Beast creature tokens.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/164_Tick-Ridden Jipoo.png" num="164">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Sheep</type>
+				<maintype>Creature</maintype>
+				<manacost>3RR</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Elite Air Squadron</name>
+			<text>Haste
+Whenever this creature attacks, the next artifact spell you cast this turn costs {2} less to cast.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/133_Elite Air Squadron.png" num="133">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Elf Artificer Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>2RR</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Jolly Stalker</name>
+			<text>First strike
+As long as this creature isn&apos;t equipped, it attacks or blocks each combat if able.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/143_Jolly Stalker.png" num="143">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Barbarian Performer</type>
+				<maintype>Creature</maintype>
+				<manacost>4RR</manacost>
+				<cmc>6</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>5/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Flamethrower Moll</name>
+			<text>Haste
+{R}: This creature gets +1/+0 until end of turn.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/140_Flamethrower Moll.png" num="140">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Citizen Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Mine Boss</name>
+			<text>When this creature enters, choose one. If you attacked with two or more creatures this turn, you may choose both. —
+• Create a tapped Treasure token.
+• Put a +1/+1 counter on another target creature.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/149_Mine Boss.png" num="149">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Orc Artificer</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Chained Elder Firemaw</name>
+			<text>Practiced (This spell costs {1} less to cast for each creature you&apos;ve attacked with this turn.)
+Trample</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/126_Chained Elder Firemaw.png" num="126">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Beast Giant</type>
+				<maintype>Creature</maintype>
+				<manacost>7RR</manacost>
+				<cmc>9</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>8/6</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Fend off the Flies</name>
+			<text>Choose target creature you control and target creature you don&apos;t control. If you&apos;ve cast an instant spell this turn, or you control a Vehicle, that creature you control gets +1/+1 until end of turn. Then those creatures fight.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/135_Fend off the Flies.png" num="135">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Fleetfoot Courier</name>
+			<text>Flash
+When this creature enters, you may pay {1}. If you do, choose one —
+• This deals 1 damage to any target.
+• Create a Treasure token.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/141_Fleetfoot Courier.png" num="141">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature</type>
+				<maintype>Creature</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Sightseeing Bronzehawk</name>
+			<text>Flying
+{1}{U}: Draw a card. Activate only if this Vehicle dealt damage to an opponent this turn.
+Crew 1 (Tap any number of creatures you control with total power 1 or more: This Vehicle becomes an artifact creature until end of turn.)</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/159_Sightseeing Bronzehawk.png" num="159">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Vehicle</type>
+				<maintype>Artifact</maintype>
+				<manacost>4R</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>UR</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Ministry Scoutplane</name>
+			<text>Flash
+Flying
+When this creature enters, you may pay {1}. If you do, put a +1/+1 counter on it.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/150_Ministry Scoutplane.png" num="150">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Construct</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Lucky Dice</name>
+			<text>Whenever equipped creature attacks, you may discard a card at random. If you do, draw a card.
+Equip {1}</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/147_Lucky Dice.png" num="147">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Sudden Comeback</name>
+			<text>Flash
+Enchant creature
+When this Aura enters, enchanted creature gains first strike until end of turn.
+Enchanted creature gets +2/+1.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/161_Sudden Comeback.png" num="161">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Employment Contract</name>
+			<text>As an additional cost to cast this spell, sacrifice an artifact and discard a card.
+Draw two cards, then choose one —
+• Target creature you control gains haste until end of turn.
+• Create a tapped Treasure token.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/134_Employment Contract.png" num="134">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Dealer&apos;s Deck</name>
+			<text>When this Equipment enters, you may discard a card. If you do, draw two cards
+Equipped creature has &quot;If an effect would cause you to discard one or more cards at random, you choose which cards to discard instead.&quot;
+Equip {1}</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/130_Dealer&apos;s Deck.png" num="130">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Withering Sunstroke</name>
+			<text>Kicker {B} (You may pay an additional {B} as you cast this spell.)
+This spell deals 4 damage to target creature or planeswalker. Then if this spell was kicked, you gain 4 life.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/166_Withering Sunstroke.png" num="166">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>BR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Devilish Wrath</name>
+			<text>Practiced (This spell costs {1} less to cast for each creature you&apos;ve attacked with this turn.)
+This spell deals 6 damage to any target.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/131_Devilish Wrath.png" num="131">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>6RR</manacost>
+				<cmc>8</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Rooftop Watcher</name>
+			<text>This creature can&apos;t be blocked except by creatures with flying or reach.
+Aura spells you cast that target this creature cost {1} less to cast.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/193_Rooftop Watcher.png" num="193">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Scout</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Hallostian Corjak</name>
+			<text>Flash
+When this creature enters, and whenever it attacks while saddled, you may scry X, where X is the number of creatures that entered under your control this turn.
+Saddle 2</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/181_Hallostian Corjak.png" num="181">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Beast Mount</type>
+				<maintype>Creature</maintype>
+				<manacost>2GG</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>4/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Informant Merlady</name>
+			<text>This creature enters with a defender counter on it.
+When you cast a nongreen spell, remove all defender counters from this creature, then scry 2.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/183_Informant Merlady.png" num="183">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Merfolk Citizen</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>The Indefatigable Man-Cat</name>
+			<text>Haste
+At the beginning of combat on your turn, choose one —
+• This creature gains vigilance until end of turn.
+• This creature gets +0/+2 until end of turn.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/182_The Indefatigable Man-Cat.png" num="182">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Cat Mutant</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Distinguished Scaletrader</name>
+			<text>Kicker—sacrifice a token or pay 3 life (You may sacrifice a token or pay 3 life in addition to any other costs as you cast this spell.)
+When this creature enters, put a +1/+1 counter on target creature. If this spell was kicked, instead put a +1/+1 counter on each creature you control with toughness greater than its power.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/172_Distinguished Scaletrader.png" num="172">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Crocodile Mutant</type>
+				<maintype>Creature</maintype>
+				<manacost>1GG</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Extravagant Titandua</name>
+			<text>Practiced (This spell costs {1} less to cast for each creature you&apos;ve attacked with this turn.)
+As additional cost to cast this spell, sacrifice a creature with power 1 or less.
+Trample</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/176_Extravagant Titandua.png" num="176">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Beast Giant</type>
+				<maintype>Creature</maintype>
+				<manacost>5GG</manacost>
+				<cmc>7</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Eumidian Trailtracer</name>
+			<text>When this creature enters, you may search your library for a basic land card, reveal it and put it into your hand, then shuffle.
+Reach</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/174_Eumidian Trailtracer.png" num="174">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Insect Peasant Scout</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Sophisticated Barman</name>
+			<text>{T}: Add {G}. If you&apos;ve scried or surveiled this turn, you may add one mana of any color instead.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/198_Sophisticated Barman.png" num="198">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Artificer Performer</type>
+				<maintype>Creature</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>0/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Oracle of Vrogg</name>
+			<text>Trample
+When this creature enters, create a 2/2 green Snake Mutant Warlock creature token, then scry 2.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/189_Oracle of Vrogg.png" num="189">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Snake Mutant Warlock</type>
+				<maintype>Creature</maintype>
+				<manacost>5G</manacost>
+				<cmc>6</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Kept Attack Wolf</name>
+			<text>This creature attacks each turn if able.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/185_Kept Attack Wolf.png" num="185">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Wolf</type>
+				<maintype>Creature</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Seeker of the Spheres</name>
+			<text>Kicker {1} (You may pay an additional {1} as you cast this spell.)
+When this creature enters, you may return target Aura card from your graveyard to your hand. If this spell was kicked, instead return that Aura card to the battlefield attached to this creature.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/195_Seeker of the Spheres.png" num="195">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Wizard Hero</type>
+				<maintype>Creature</maintype>
+				<manacost>3GG</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Experienced Harpoonist</name>
+			<text>Reach
+{WB}: This creature gains your choice of deathtouch or first strike until end of turn. Activate only once each turn, before combat.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/175_Experienced Harpoonist.png" num="175">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Scout Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>WBG</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Sturdy Pitchfork</name>
+			<text>Equipped creature gets +2/+1.
+Whenever equipped creature attacks, untap a basic land you control.
+Equip {1}</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/200_Sturdy Pitchfork.png" num="200">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Left to the Elements</name>
+			<text>Destroy target artifact or enchantment. Then if a creature you control attacked or blocked this turn, you may scry 1.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/186_Left to the Elements.png" num="186">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Addition to the Landscape</name>
+			<text>Search your library for a basic land card, put it onto the battlefield, then shuffle.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/167_Addition to the Landscape.png" num="167">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Timberize</name>
+			<text>Enchant creature
+Enchanted creature has base power and toughness 0/4, and loses all abilities.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/205_Timberize.png" num="205">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Primal Reversion</name>
+			<text>Enchant creature
+Enchanted creature gets +2/+1.
+Sacrifice this Aura: Target face-down creature&apos;s owner turns it face up. This ability can&apos;t be countered (including by ward abilities).</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/192_Primal Reversion.png" num="192">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Mantle of the Storm</name>
+			<text>Enchant creature or Vehicle
+When this Aura enters, it deals 3 damage to target creature with flying.
+Enchanted permanent gets +1/+1 and has trample and reach.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/187_Mantle of the Storm.png" num="187">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Twisted Rage</name>
+			<text>Kicker {B} (You may pay an additional {B} as you cast this spell.)
+Target creature you control gets +3/+3 and gains trample until end of turn. If this spell was kicked, that creature also gains deathtouch until end of turn.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/206_Twisted Rage.png" num="206">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>BG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Shoola, Dove Dancer</name>
+			<text>Spells and abilities you control that target one or more creatures cost {1} less to cast or activate.
+Spells and abilities your opponents control that target one or more creatures cost {1} more to cast or activate.</text>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/WCD-files/img/36_Shoola, Dove Dancer.png" num="36">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Performer</type>
+				<maintype>Creature</maintype>
+				<manacost>WW</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Games Tester</name>
+			<text>When this creature enters, search your library for an Equipment card, reveal it, put it into your hand, then shuffle.
+{W}, Exile this creature: Exile target artifact or enchantment.</text>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/WCD-files/img/12_Games Tester.png" num="12">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Rogue Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>3WW</manacost>
+				<cmc>5</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Lady of the Summer</name>
+			<text>Masquerade {W} (You may cast this card face down for {3} as a 2/2 creature with ward—Sacrifice a permanent. Turn it face up any time for its masquerade cost.)
+Other creatures you control get +1/+1.
+Face down creatures you control get +0/+1.</text>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/WCD-files/img/19_Lady of the Summer.png" num="19">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Kor Performer</type>
+				<maintype>Creature</maintype>
+				<manacost>1WW</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Inquisitive Tuspiri</name>
+			<text>Lifelink
+Whenever this creature blocks or is blocked by a creature with power 3 or greater, it gets +1/+1 until end of turn.</text>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/WCD-files/img/17_Inquisitive Tuspiri.png" num="17">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Lizard Beast</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Jollimo&apos;s Grandest Form</name>
+			<text>Masquerade {2}{W}{W} (You may cast this card face down for {3} as a 2/2 creature with ward—Sacrifice a permanent. Turn it face up any time for its masquerade cost.)
+Lifelink
+When this creature is dealt noncombat damage, sacrifice it.</text>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/WCD-files/img/18_Jollimo&apos;s Grandest Form.png" num="18">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment Creature — Performer Giant Illusion</type>
+				<maintype>Creature</maintype>
+				<manacost>3WW</manacost>
+				<cmc>5</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>7/7</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Highborn Brigadier</name>
+			<text>When this creature enters, search your library for a creature card if its mana value is 2 or less or if you&apos;ve tapped or detained a creature you don&apos;t control this turn. If you do, reveal it and put it into your hand, then shuffle.</text>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/WCD-files/img/14_Highborn Brigadier.png" num="14">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Soldier Noble</type>
+				<maintype>Creature</maintype>
+				<manacost>2WW</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Encava, Lanternbearer</name>
+			<text>Flying
+Whenever Encava attacks, permanents defending player controls lose hexproof, shroud and ward until your next turn.</text>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/WCD-files/img/9_Encava, Lanternbearer.png" num="9">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Anointed Armor</name>
+			<text>If damage would be dealt to equipped creature, prevent half that damage, rounded up.
+If equipped creature would deal damage to an opponent or a permanent an opponent controls, it deals double that damage instead.
+Equip {2}</text>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/WCD-files/img/1_Anointed Armor.png" num="1">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>3W</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Ascendant Awareness</name>
+			<text>Creatures you control have vigilance.
+Each creature you control can block an additional creature each combat.</text>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/WCD-files/img/3_Ascendant Awareness.png" num="3">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Imprison</name>
+			<text>Ward {1}
+When this enchantment enters, exile target creature you don&apos;t control until this leaves the battlefield.</text>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/WCD-files/img/15_Imprison.png" num="15">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Form of the Vhalkiri</name>
+			<text>Enchant creature
+Enchanted creature is an Angel in addition to its other types, has flying, first strike, and gets +2/+1.
+At the beginning of your upkeep, you may pay {GW}. If you do, return this card from your graveyard to your hand.</text>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/WCD-files/img/10_Form of the Vhalkiri.png" num="10">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>WG</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Fabricate</name>
+			<text>Search your library for an artifact card, reveal it, put it into your hand, then shuffle.</text>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/WCD-files/img/58_Fabricate.png" num="58">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Deceptive Appraiser</name>
+			<text>{X}: Gain control of target artifact you don&apos;t control with mana value X+1 or less. Activate only if this creature dealt combat damage to an opponent this turn, and only once each turn.</text>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/WCD-files/img/51_Deceptive Appraiser.png" num="51">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ancient Mossback</name>
+			<text>Whenever you scry, if this creature is untapped, you may draw a card.
+Discard a card: This creature gains hexproof until end of turn, then tap it.</text>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/WCD-files/img/43_Ancient Mossback.png" num="43">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Turtle</type>
+				<maintype>Creature</maintype>
+				<manacost>3UU</manacost>
+				<cmc>5</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/7</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Hired Thief</name>
+			<text>Whenever this creature deals combat damage to an opponent, you may return an instant, sorcery or artifact card from your graveyard to your hand.
+{3}{U}: This creature can&apos;t be blocked this turn.</text>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/WCD-files/img/64_Hired Thief.png" num="64">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Rogue Mercenary</type>
+				<maintype>Creature</maintype>
+				<manacost>1UU</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>FCD Aerial Commander</name>
+			<text>Flying
+Whenever a permanent an opponent controls is detained, put a +1/+1 counter on this creature.
+{3}{W}: Detain target creature. (Until your next turn, that creature can&apos;t attack or block and its activated abilities can&apos;t be activated.)</text>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/WCD-files/img/59_FCD Aerial Commander.png" num="59">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>WU</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Heavy Lifter Dirigible</name>
+			<text>Flying
+Whenever this creature attacks, you may pay {1}{U}. If you do, return target nonland artifact or creature to its owner&apos;s hand if it&apos;s tapped or you control it.
+Crew 1</text>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/WCD-files/img/63_Heavy Lifter Dirigible.png" num="63">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Vehicle</type>
+				<maintype>Artifact</maintype>
+				<manacost>1UU</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>A Big Enough Bribe</name>
+			<text>This spell can&apos;t be countered. (Including by ward abilities.)
+Choose one —
+• Draw three cards.
+• Gain control of target creature with mana value 4 or less.</text>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/WCD-files/img/45_A Big Enough Bribe.png" num="45">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>4UU</manacost>
+				<cmc>6</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Astounding Testimony</name>
+			<text>Counter target spell, then choose one—
+• Tap up to one target creature.
+• Up to one target creature can&apos;t be blocked this turn.</text>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/WCD-files/img/44_Astounding Testimony.png" num="44">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1UU</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Join the Family</name>
+			<text>Create a token copy of target Rogue creature.</text>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/WCD-files/img/67_Join the Family.png" num="67">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Glittering Roadster</name>
+			<text>Flash
+Hexproof
+When this artifact enters, target creature you control gains hexproof until end of turn.
+Crew 1</text>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/WCD-files/img/60_Glittering Roadster.png" num="60">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Vehicle</type>
+				<maintype>Artifact</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Greedy Thug</name>
+			<text>Kicker {5}
+If this spell was kicked, this creature enters with four +1/+1 counters on it.
+This creature enters tapped.</text>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/WCD-files/img/103_Greedy Thug.png" num="103">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Infiltrator Partygoer</name>
+			<text>Masquerade {B} (You may cast this card face down for {3} as a 2/2 creature with ward—Sacrifice a permanent. Turn it face up any time for its masquerade cost.)
+Whenever this creature deals combat damage to an opponent, look at the top two cards of your library. Put one of them into your hand and the other into your graveyard.</text>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/WCD-files/img/108_Infiltrator Partygoer.png" num="108">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Scout</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Cartel Pistolier</name>
+			<text>First strike
+Whenever this creature attacks with one or more other Rogues, you may pay {B}. If you do, target creature gets -1/-1 until end of turn.</text>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/WCD-files/img/88_Cartel Pistolier.png" num="88">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Rogue Archer</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Witness to Depravity</name>
+			<text>Creatures you control have ward—pay 2 life and &quot;Pay 2 life: This creature gains flying until end of turn. Activate only once each turn.&quot;</text>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/WCD-files/img/123_Witness to Depravity.png" num="123">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Selani Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>1BB</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Jack of Ripped Hearts</name>
+			<text>Practiced (This spell costs {1} less to cast for each creature you&apos;ve attacked with this turn.)
+Deathtouch
+When this creature enters, it deals 3 damage to any target that was dealt damage by a creature you control this turn.</text>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/WCD-files/img/109_Jack of Ripped Hearts.png" num="109">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Assassin Performer</type>
+				<maintype>Creature</maintype>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Circus&apos; Chief Doctor</name>
+			<text>{1}, Sacrifice another creature: Put a +1/+1 counter on target creature.
+Whenever a creature an opponent controls dies, you gain 1 life.</text>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/WCD-files/img/91_Circus&apos; Chief Doctor.png" num="91">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Vampire Warlock Doctor</type>
+				<maintype>Creature</maintype>
+				<manacost>BB</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Smothered in Flesh</name>
+			<text>Exile target battle, creature or planeswalker with mana value less than or equal to the greatest toughness among creatures you control.
+Create a Food token.</text>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/WCD-files/img/122_Smothered in Flesh.png" num="122">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Shadowfang Cauldron</name>
+			<text>Create X 1/1 black Bat creature tokens with flying.
+If X is 4 or more, you may scry 2.</text>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/WCD-files/img/121_Shadowfang Cauldron.png" num="121">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>XBB</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Dying to Get In</name>
+			<text>Kicker—Sacrifice a creature.
+Each opponent sacrifices a creature with the greatest power among creatures they control.
+Return target creature card from your graveyard to your hand. If this spell was kicked, return that card to the battlefield instead.</text>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/WCD-files/img/95_Dying to Get In.png" num="95">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2BB</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Glimpse Hidden Horrors</name>
+			<text>Surveil 1, then you draw a card and lose 1 life.
+Choose one —
+• You draw a card and lose 1 life.
+• The next face-down spell you cast this turn costs {3} less to cast.</text>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/WCD-files/img/102_Glimpse Hidden Horrors.png" num="102">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Crykal, Sharpshooter</name>
+			<text>Haste
+Equip abilities that target Crykal cost {X} less to activate, where X is 1 plus the number of Equipment attached to him.</text>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/WCD-files/img/129_Crykal, Sharpshooter.png" num="129">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Elf Mercenary</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Fire-Swinger</name>
+			<text>Practiced (This spell costs {1} less to cast for each creature you&apos;ve attacked with this turn.)
+Haste
+When this creature enters, you may discard a card. If you do, it deals X damage to target permanent, where X is the mana value of the discarded card.</text>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/WCD-files/img/137_Fire-Swinger.png" num="137">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Warlock</type>
+				<maintype>Creature</maintype>
+				<manacost>3RR</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Eccentric Engineer</name>
+			<text>Haste
+{T}: Choose one —
+• Exile the top card of your library. Until end of turn, you may play it from exile.
+• Add {R}.</text>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/WCD-files/img/132_Eccentric Engineer.png" num="132">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Wizard Advisor</type>
+				<maintype>Creature</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Scourge of Theros</name>
+			<text>Practiced (This spell costs {1} less to cast for each creature you&apos;ve attacked with this turn.)
+Flying
+As this creature enters, choose from among haste, first strike, and trample. It enters with a counter of the chosen ability on it.</text>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/WCD-files/img/158_Scourge of Theros.png" num="158">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Chimera</type>
+				<maintype>Creature</maintype>
+				<manacost>5RR</manacost>
+				<cmc>7</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>6/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Hellfuel Bike</name>
+			<text>Flash
+Trample, Haste
+This permanent is a creature in addition to its other types as long as you control another nontoken creature.</text>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/WCD-files/img/142_Hellfuel Bike.png" num="142">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Vehicle</type>
+				<maintype>Artifact</maintype>
+				<manacost>1RR</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Persuasive Promotion</name>
+			<text>Gain control of target creature until end of turn. Untap that creature. Until end of turn, it gains haste and &quot;Whenever this creature deals combat damage to a player or battle, create a Treasure token.&quot;</text>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/WCD-files/img/152_Persuasive Promotion.png" num="152">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Start the Real Show</name>
+			<text>Target creature you control gets +3/+3 and gains trample until end of turn. If it&apos;s equipped, it also gains double strike until end of turn.</text>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/WCD-files/img/160_Start the Real Show.png" num="160">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Ring of Fire</name>
+			<text>Creatures you control have haste.
+Whenever a creature you control attacks, you may have it get +1/-1 until end of turn.</text>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/WCD-files/img/155_Ring of Fire.png" num="155">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Fire-wand Phoenix</name>
+			<text>Create a 3/2 red Phoenix enchantment creature token with flying and haste. Sacrifice it at the beginning of the next end step.</text>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/WCD-files/img/138_Fire-wand Phoenix.png" num="138">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Scattering Truths</name>
+			<text>Practiced (This spell costs {1} less to cast for each creature you&apos;ve attacked with this turn.)
+Draw four cards, then discard two cards at random.</text>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/WCD-files/img/157_Scattering Truths.png" num="157">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>4R</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Fireworks Finale</name>
+			<text>Exile target land or artifact.</text>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/WCD-files/img/139_Fireworks Finale.png" num="139">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1RR</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Sir Wybud of Hallost</name>
+			<text>When Sir Wybud enters, create a Food token.
+Sacrifice X tokens: Put an Aura or Equipment card from your hand or graveyard with mana value X onto the battlefield attached to Sir Wybud. Activate only once each turn.</text>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/WCD-files/img/197_Sir Wybud of Hallost.png" num="197">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>1GG</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>4/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>White Tiger Companion</name>
+			<text>When this creature enters, create two 2/2 red Cat creature tokens.
+{1}{G}, {T}: Prevent all damage that would be dealt to Cats you control this turn.</text>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/WCD-files/img/207_White Tiger Companion.png" num="207">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Druid Performer</type>
+				<maintype>Creature</maintype>
+				<manacost>3GG</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Stubborn Stitcher</name>
+			<text>When this creature enters, exile up to X cards from graveyards, where X is the greatest toughness among creatures you control. Put a +1/+1 counter on this for each card exiled this way.
+{B}: This creature gains menace until end of turn.</text>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/WCD-files/img/199_Stubborn Stitcher.png" num="199">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Mutant</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>BG</coloridentity>
+				<pt>0/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Momentivorous Kagi</name>
+			<text>Trample
+Whenever a creature an opponent controls that has no name or shares a name with one or more other creatures dies, put a +1/+1 counter on this creature.</text>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/WCD-files/img/188_Momentivorous Kagi.png" num="188">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Beast Mutant Horror</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Elder Lokar</name>
+			<text>Trample, vigilance</text>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/WCD-files/img/173_Elder Lokar.png" num="173">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elk Beast</type>
+				<maintype>Creature</maintype>
+				<manacost>4GG</manacost>
+				<cmc>6</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>7/7</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Seizure and Requisition Agent</name>
+			<text>When this creature enters, scry 2, then destroy target artifact or enchantment with mana value X or less, where X is the total cards you&apos;ve scried this turn.</text>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/WCD-files/img/196_Seizure and Requisition Agent.png" num="196">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Advisor</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>The Fluffiest Vampire</name>
+			<text>Deathtouch
+{2}{B}: Until end of turn, this creature gains lifelink and gets +2/+2. Activate only once each turn, and only as a sorcery.</text>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/WCD-files/img/177_The Fluffiest Vampire.png" num="177">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Cat Mutant Vampire</type>
+				<maintype>Creature</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>BG</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Search the Area</name>
+			<text>Choose one —
+• Reveal the bottom card of your library. If it&apos;s a land, put it onto the battlefield tapped.
+• Return target basic land card from your graveyard to the battlefield tapped.</text>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/WCD-files/img/194_Search the Area.png" num="194">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Demonstration Match</name>
+			<text>Kicker {2}{RG}{RG}
+Target creature you control fights target creature you don&apos;t control.
+Then if this spell was kicked, you may copy it twice, and choose new targets for the copies.</text>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/WCD-files/img/171_Demonstration Match.png" num="171">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>RG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Surreptitious Compassion</name>
+			<text>Enchant creature
+Enchanted creature has trample.
+Whenever enchanted creature attacks, choose one —
+• It gets +X/+0 until end of turn, where X is the greatest toughness among other creatures you control.
+• It gets +X/+0 until end of turn, where X is the number of other creatures you control.</text>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/WCD-files/img/202_Surreptitious Compassion.png" num="202">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Beneficent Wanderlust</name>
+			<text>Enchant creature
+When this Aura enters, scry X, where X is enchanted creature&apos;s power.
+Whenever enchanted creature deals combat damage to an opponent, look at the top four cards of your library. You may reveal a creature or land card from among them and put it into your hand. Put the rest on the bottom of your library in any order.</text>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/WCD-files/img/168_Beneficent Wanderlust.png" num="168">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1GG</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Trend Chasers</name>
+			<text>Masquerade {2}{W}{W} (You may cast this card face down for {3} as a 2/2 creature with ward—Sacrifice a permanent. Turn it face up any time for its masquerade cost.)
+Double strike
+When this creature enters or is turned face up, you may turn up to one other creature you control face up or face down.</text>
+			<set rarity="rare" picurl="https://Opacana.github.io/sets/WCD-files/img/39_Trend Chasers.png" num="39">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Elf Noble</type>
+				<maintype>Creature</maintype>
+				<manacost>4WW</manacost>
+				<cmc>6</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Maiden of Eternities</name>
+			<text>Whenever you cast an enchantment spell, this creature gains flying until end of turn.
+Whenever this creature deals combat damage to an opponent, you may pay {X}{W}. If you do, return up to one artifact or enchantment card with mana value X from your graveyard to your hand.</text>
+			<set rarity="rare" picurl="https://Opacana.github.io/sets/WCD-files/img/23_Maiden of Eternities.png" num="23">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment Creature — Monk</type>
+				<maintype>Creature</maintype>
+				<manacost>WW</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Lisha, Security Minister</name>
+			<text>You and creatures you control have ward {1}. 
+Each player can&apos;t cast more than one spell each turn.</text>
+			<set rarity="rare" picurl="https://Opacana.github.io/sets/WCD-files/img/21_Lisha, Security Minister.png" num="21">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Advisor</type>
+				<maintype>Creature</maintype>
+				<manacost>1WW</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Cage Dancer</name>
+			<text>Masquerade {W} (You may cast this card face down for {3} as a 2/2 creature with ward—Sacrifice a permanent. Turn it face up any time for its masquerade cost.)
+{W}, {T}: Target creature gets +1/+1 and gains indestructible until end of turn.</text>
+			<set rarity="rare" picurl="https://Opacana.github.io/sets/WCD-files/img/7_Cage Dancer.png" num="7">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Performer Cleric</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Urban Patrol Blimp</name>
+			<text>Flying, vigilance
+Whenever this artifact enters or attacks, you may choose another target creature or Vehicle. If you do, that permanent loses all abilities until another permanent is chosen this way or this leaves the battlefield.
+Crew 3</text>
+			<set rarity="rare" picurl="https://Opacana.github.io/sets/WCD-files/img/41_Urban Patrol Blimp.png" num="41">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Vehicle</type>
+				<maintype>Artifact</maintype>
+				<manacost>5WW</manacost>
+				<cmc>7</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>6/7</pt>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Blessed Bonds</name>
+			<text>Enchant creature
+Indestructible
+Enchanted creature has indestructible as long as you control another creature.
+Whenever enchanted creature attacks, you may pay {W}. If you do, return target permanent card with mana value 1 or less from your graveyard to the battlefield tapped.</text>
+			<set rarity="rare" picurl="https://Opacana.github.io/sets/WCD-files/img/5_Blessed Bonds.png" num="5">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2WW</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Deepsight Siphoner</name>
+			<text>Ward {2}
+Whenever you cast your first spell each turn, scry 1.
+{3}{U}: This creature gets +2/+2 and can&apos;t be blocked until end of turn. This costs {1} less to activate for every spell you&apos;ve cast this turn.</text>
+			<set rarity="rare" picurl="https://Opacana.github.io/sets/WCD-files/img/52_Deepsight Siphoner.png" num="52">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Wizard Detective</type>
+				<maintype>Creature</maintype>
+				<manacost>1UU</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Leycharged Exosuit</name>
+			<text>When this artifact enters, you may attach it to a creature you control.
+Whenever you cast a spell during an opponent&apos;s turn, put a +1/+1 counter on equipped creature.
+Equip {2}</text>
+			<set rarity="rare" picurl="https://Opacana.github.io/sets/WCD-files/img/68_Leycharged Exosuit.png" num="68">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Tabriogni, Minister of Transport</name>
+			<text>Whenever you cast an instant, sorcery, or Vehicle spell, or a spell with Flash, you may pay {R}. If you do, draw a card, then discard a card.
+Opponents can cast spells only any time they could cast a sorcery.</text>
+			<set rarity="rare" picurl="https://Opacana.github.io/sets/WCD-files/img/78_Tabriogni, Minister of Transport.png" num="78">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Elf Human Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>2UU</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>UR</coloridentity>
+				<pt>3/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Eidetic Artisan</name>
+			<text>{1}{W}, {T}: Detain target creature. (Until your next turn, that creature can&apos;t attack or block and its activated abilities can&apos;t be activated.)
+{2}{U}, {T}: Detain another target creature you control with mana value 3 or less. Create a token copy of that creature. Activate only as a sorcery.</text>
+			<set rarity="rare" picurl="https://Opacana.github.io/sets/WCD-files/img/55_Eidetic Artisan.png" num="55">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Advisor</type>
+				<maintype>Creature</maintype>
+				<manacost>1UU</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>WU</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Disgraced Sparkhand</name>
+			<text>Ward {2}
+Blue and/or black spells you cast cost {X} less to cast, where X is the number of Rogues you control that dealt combat damage to an opponent this turn.</text>
+			<set rarity="rare" picurl="https://Opacana.github.io/sets/WCD-files/img/53_Disgraced Sparkhand.png" num="53">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Wizard Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost>3UU</manacost>
+				<cmc>5</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>2/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Summoning Game</name>
+			<text>Target opponent exiles cards from the top of their library until they exile a creature card. You may cast that card without paying its mana cost.</text>
+			<set rarity="rare" picurl="https://Opacana.github.io/sets/WCD-files/img/77_Summoning Game.png" num="77">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3UU</manacost>
+				<cmc>5</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Mob Enforcer</name>
+			<text>Menace, trample
+Pay 2 life: Untap this creature and put a +1/+1 counter on it. Activate only once each turn as a sorcery.</text>
+			<set rarity="rare" picurl="https://Opacana.github.io/sets/WCD-files/img/115_Mob Enforcer.png" num="115">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Orc Rogue Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>2BB</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>5/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Savani Voidrose</name>
+			<text>Masquerade {B}, Pay 2 life (You may cast this card face down for {3} as a 2/2 creature with ward—Sacrifice a permanent. Turn it face up any time for its masquerade cost.)
+When this creature is turned face up, draw two cards.
+Whenever another permanent you control is turned face up, each opponent mills two cards.</text>
+			<set rarity="rare" picurl="https://Opacana.github.io/sets/WCD-files/img/119_Savani Voidrose.png" num="119">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Warlock</type>
+				<maintype>Creature</maintype>
+				<manacost>2B</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Keeper of Gerell Necropolis</name>
+			<text>Hexproof from White and from Blue and from Red
+At the beginning of your end step, if a creature with toughness greater than its power dealt combat damage to an opponent this turn, create a 1/2 black Bird creature token with flying.
+{B}{G}, Sacrifice a creature: Draw a card. Activate only once each turn.</text>
+			<set rarity="rare" picurl="https://Opacana.github.io/sets/WCD-files/img/110_Keeper of Gerell Necropolis.png" num="110">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Bird Mutant Warlock</type>
+				<maintype>Creature</maintype>
+				<manacost>3BB</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>BG</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Depraved Oracle</name>
+			<text>Masquerade {BR} (You may cast this card face down for {3} as a 2/2 creature with ward—Sacrifice a permanent. Turn it face up any time for its masquerade cost.)
+Whenever a creature you control deals combat damage to an opponent, you may pay that much life. If you do, draw a card. This ability triggers only once each turn.</text>
+			<set rarity="rare" picurl="https://Opacana.github.io/sets/WCD-files/img/94_Depraved Oracle.png" num="94">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Warlock Performer</type>
+				<maintype>Creature</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>BR</coloridentity>
+				<pt>2/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Wroszy&apos;s Gravedigger</name>
+			<text>When this creature enters, you may return target creature card from your graveyard to the battlefield. If you do, you lose life equal to that card&apos;s mana value. If nonblack, noncolorless mana was spent to cast this spell, you may return a nonland permanent card this way instead.</text>
+			<set rarity="rare" picurl="https://Opacana.github.io/sets/WCD-files/img/124_Wroszy&apos;s Gravedigger.png" num="124">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Zombie Construct</type>
+				<maintype>Creature</maintype>
+				<manacost>3BB</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Ashiok&apos;s Judgment</name>
+			<text>Until end of turn, creatures you control gain menace and &quot;Whenever this creature deals combat damage to a player, that player exiles a card from their hand.&quot;</text>
+			<set rarity="rare" picurl="https://Opacana.github.io/sets/WCD-files/img/86_Ashiok&apos;s Judgment.png" num="86">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Annihilating Aura</name>
+			<text>Choose target creature. Each other creature gets -X/-X until end of turn, where X is that creature&apos;s power.</text>
+			<set rarity="rare" picurl="https://Opacana.github.io/sets/WCD-files/img/84_Annihilating Aura.png" num="84">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2BB</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Mastermind Nekosyth</name>
+			<text>Whenever this creature deals combat damage to an opponent, exile the top card of that player&apos;s library. Until end of turn, you may play that card, and spend mana as though it were any color to do so. A spell cast this way has practiced. (That spell costs {1} less to cast for each creature you&apos;ve attacked with this turn.)</text>
+			<set rarity="rare" picurl="https://Opacana.github.io/sets/WCD-files/img/148_Mastermind Nekosyth.png" num="148">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Demon Cat Performer</type>
+				<maintype>Creature</maintype>
+				<manacost>RR</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Righteous Longfang</name>
+			<text>When this creature enters, you may put an equipment card from your hand or graveyard onto the battlefield.
+Equipped creatures you control get +1/+1 and have trample.</text>
+			<set rarity="rare" picurl="https://Opacana.github.io/sets/WCD-files/img/154_Righteous Longfang.png" num="154">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Orc Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>2RR</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Tamer of Giants</name>
+			<text>Haste
+{2}{R}, {T}: Create a token that&apos;s a copy of target creature you control, except it has haste. Sacrifice it at the beginning of the next end step.</text>
+			<set rarity="rare" picurl="https://Opacana.github.io/sets/WCD-files/img/162_Tamer of Giants.png" num="162">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Druid Performer</type>
+				<maintype>Creature</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Leytower&apos;s Shattering</name>
+			<text>Choose one. You may choose another for each spell an opponent cast this turn —
+• Target artifact loses indestructible until end of turn. Destroy it.
+• Change the target of target spell or ability with a single target.
+• Discard a card. If you do, draw two cards.</text>
+			<set rarity="rare" picurl="https://Opacana.github.io/sets/WCD-files/img/145_Leytower&apos;s Shattering.png" num="145">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1RR</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Sachal&apos;s Betrayal</name>
+			<text>Practiced (This spell costs {1} less to cast for each creature you&apos;ve attacked with this turn.)
+This spell deals 7 damage to each battle, creature, planeswalker and player.
+Each player discards their hand and draws 3 cards.
+Each player sacrifices 2 nonbasic lands.</text>
+			<set rarity="rare" picurl="https://Opacana.github.io/sets/WCD-files/img/156_Sachal&apos;s Betrayal.png" num="156">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>6RR</manacost>
+				<cmc>8</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Tensionwire Balance</name>
+			<text>Whenever a player casts a noncreature spell, put a distraction counter on this enchantment, then this enchantment deals 1 damage to that player.
+Whenever you attack with a creature, you may remove a distraction counter from this enchantment. If you do, discard a card, then draw a card.
+At the beginning of your end step, if there are 5 or more distraction counters on this enchantment, sacrifice it.</text>
+			<set rarity="rare" picurl="https://Opacana.github.io/sets/WCD-files/img/163_Tensionwire Balance.png" num="163">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1RR</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Glorious Parade</name>
+			<text>Practiced (This spell costs {1} less to cast for each creature you&apos;ve attacked with this turn.)
+Trample
+When this creature enters, put a +1/+1 counter on each creature you attacked with this turn.</text>
+			<set rarity="rare" picurl="https://Opacana.github.io/sets/WCD-files/img/179_Glorious Parade.png" num="179">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elephant</type>
+				<maintype>Creature</maintype>
+				<manacost>5GG</manacost>
+				<cmc>7</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Kara of the Red Ribbons</name>
+			<text>Trample, vigilance
+Whenever another attacking creature you control with toughness greater than its power dies, you may put X +1/+1 counters on Kara, where X is that creature&apos;s toughness.</text>
+			<set rarity="rare" picurl="https://Opacana.github.io/sets/WCD-files/img/184_Kara of the Red Ribbons.png" num="184">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Kor Mutant</type>
+				<maintype>Creature</maintype>
+				<manacost>2GG</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Subject 1951</name>
+			<text>If you would gain life, you may put that many +1/+1 counters on this creature instead.</text>
+			<set rarity="rare" picurl="https://Opacana.github.io/sets/WCD-files/img/201_Subject 1951.png" num="201">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Mutant Ooze</type>
+				<maintype>Creature</maintype>
+				<manacost>2GG</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Gemrai, Unphased</name>
+			<text>Vigilance
+Gemrai, Unphased gets +1/+1 for each Aura attached to her.
+{T}: Add X green mana, where X is the number of Auras attached to Gemrai, Unphased.</text>
+			<set rarity="rare" picurl="https://Opacana.github.io/sets/WCD-files/img/178_Gemrai, Unphased.png" num="178">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Elf Warlock</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Pelina Driue</name>
+			<text>Whenever you scry, you gain 1 life for each card you looked at while scrying this way.
+{G}{U}: Scry 1, then put a +1/+1 counter on target creature you control. Activate only as a sorcery.</text>
+			<set rarity="rare" picurl="https://Opacana.github.io/sets/WCD-files/img/190_Pelina Driue.png" num="190">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Elf Detective</type>
+				<maintype>Creature</maintype>
+				<manacost>GG</manacost>
+				<cmc>2</cmc>
+				<colors>G</colors>
+				<coloridentity>UG</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Primal Communion</name>
+			<text>Enchant creature
+Enchanted creature has &quot;{T}: Until end of turn, play with the top card of your library revealed, and you may play creatures, enchantments and lands from the top of your library.&quot;</text>
+			<set rarity="rare" picurl="https://Opacana.github.io/sets/WCD-files/img/191_Primal Communion.png" num="191">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Blessings of the Martyr Queen</name>
+			<text>When this enchantment enters, put a creature card with mana value 7 or less from your hand onto the battlefield tapped.
+At the beginning of your upkeep, you gain X life, where X is the number of creatures you control.</text>
+			<set rarity="rare" picurl="https://Opacana.github.io/sets/WCD-files/img/169_Blessings of the Martyr Queen.png" num="169">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>3GG</manacost>
+				<cmc>5</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Skuyla, Last of the Vhalkiri</name>
+			<text>Flying, vigilance, hexproof from black
+When Skuyla enters, create Grinli, a legendary 3/3 white Cat creature token.
+Whenever a creature you control named Grinli dies, you may pay {1}{G}. If you do, return target permanent card from your graveyard to your hand.</text>
+			<set rarity="mythic" picurl="https://Opacana.github.io/sets/WCD-files/img/38_Skuyla, Last of the Vhalkiri.png" num="38">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Angel</type>
+				<maintype>Creature</maintype>
+				<manacost>3WW</manacost>
+				<cmc>5</cmc>
+				<colors>W</colors>
+				<coloridentity>WG</coloridentity>
+				<pt>3/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<reverse_related count="1">Grinli</reverse_related>
+		</card>
+		<card>
+			<name>Mariltia&apos;s Inner Despair</name>
+			<text>Whenever a source an opponent controls deals damage to you, you may put that many +1/+1 counters on target permanent.
+At the beginning of your upkeep, you may sacrifice this enchantment. If you do, and you have exactly 1 life, you win the game.</text>
+			<set rarity="mythic" picurl="https://Opacana.github.io/sets/WCD-files/img/25_Mariltia&apos;s Inner Despair.png" num="25">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2W</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Leycore Defenses</name>
+			<text>Kicker {R}
+Counter target spell or ability that targets you or a permanent you control. Then if this spell was kicked, it deals 3 damage to any target.</text>
+			<set rarity="mythic" picurl="https://Opacana.github.io/sets/WCD-files/img/69_Leycore Defenses.png" num="69">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
+				<colors>U</colors>
+				<coloridentity>UR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Morau and Jemel</name>
+			<text>Whenever this creature enters or attacks, scry 2. If you&apos;ve scried this turn, you may draw a card instead.
+When this permanent leaves the battlefield, you may detain target creature or planeswalker. (Until your next turn, that creature can&apos;t attack or block and its activated abilities can&apos;t be activated.)</text>
+			<set rarity="mythic" picurl="https://Opacana.github.io/sets/WCD-files/img/71_Morau and Jemel.png" num="71">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Detective</type>
+				<maintype>Creature</maintype>
+				<manacost>2UU</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>4/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Azania Voidrose</name>
+			<text>Masquerade—{WB}{WB} (You may cast this card face down for {3} as a 2/2 creature with ward—Sacrifice a permanent. Turn it face up any time for its masquerade cost.)
+When this creature enters or is turned face up, return a non-legendary creature card with Masquerade or Morph from your graveyard to the battlefield face up or face down. Put a lifelink counter on that creature and Azania.</text>
+			<set rarity="mythic" picurl="https://Opacana.github.io/sets/WCD-files/img/87_Azania Voidrose.png" num="87">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Elf Warlock</type>
+				<maintype>Creature</maintype>
+				<manacost>3BB</manacost>
+				<cmc>5</cmc>
+				<colors>B</colors>
+				<coloridentity>WB</coloridentity>
+				<pt>3/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Arbiter&apos;s Gavel</name>
+			<text>Indestructible
+Whenever an opponent casts a spell, if that spell isn&apos;t a creature spell cast on their turn, equipped creature deals 2 damage to that player.
+Equip—{1}{RW}</text>
+			<set rarity="mythic" picurl="https://Opacana.github.io/sets/WCD-files/img/125_Arbiter&apos;s Gavel.png" num="125">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>WR</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Nightmares on Tour</name>
+			<text>Put a creature card from your hand onto the battlefield. That creature gains haste until end of turn, and must attack this turn if able. Until end of turn, counter all triggered abilities of that creature.</text>
+			<set rarity="mythic" picurl="https://Opacana.github.io/sets/WCD-files/img/151_Nightmares on Tour.png" num="151">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3RR</manacost>
+				<cmc>5</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Guidance of the Extinct</name>
+			<text>Destroy up to one target enchantment.
+Return up to one enchantment card from your graveyard to your hand.
+Untap all creatures you control.
+Put two +1/+1 counters on target permanent.</text>
+			<set rarity="mythic" picurl="https://Opacana.github.io/sets/WCD-files/img/180_Guidance of the Extinct.png" num="180">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>2GG</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Tagdron&apos;s Call</name>
+			<text>Search your library for a green creature card with mana value X or less, where X is one plus the highest mana value among creatures that died under your control this turn, put it onto the battlefield, then shuffle.</text>
+			<set rarity="mythic" picurl="https://Opacana.github.io/sets/WCD-files/img/204_Tagdron&apos;s Call.png" num="204">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1GG</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Maren, FCD Chief</name>
+			<text>The first time you cast a noncreature spell each turn, choose one —
+• Detain target nonland permanent. (Until your next turn, that permanent can&apos;t attack or block and its activated abilities can&apos;t be activated.)
+• Put a +1/+1 counter on another creature you control.</text>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/WCD-files/img/218_Maren, FCD Chief.png" num="218">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>1WU</manacost>
+				<cmc>3</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Mob Boss</name>
+			<text>Other Rogues you control get +1/+1.
+{1}{UB}, {T}: Create a 1/1 black and blue Rogue creature token. Activate only as a sorcery.</text>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/WCD-files/img/220_Mob Boss.png" num="220">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Rogue Noble</type>
+				<maintype>Creature</maintype>
+				<manacost>2UB</manacost>
+				<cmc>4</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Filigree Acrobat</name>
+			<text>Nontoken creatures you control have haste.
+{1}{B}{R}{R}, Pay X life, sacrifice this creature: Untap X target creatures you control. After this main phase, there is an additional combat phase followed by an additional main phase. Activate only as a sorcery.</text>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/WCD-files/img/214_Filigree Acrobat.png" num="214">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Construct Performer</type>
+				<maintype>Creature</maintype>
+				<manacost>BR</manacost>
+				<cmc>2</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Mistress of Cats</name>
+			<text>Haste
+When this creature enters, create a 2/2 red Cat creature token.
+{T}: The next creature spell you cast this turn has practiced. (That spell costs {1} less to cast for each creature you&apos;ve attacked with this turn.)</text>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/WCD-files/img/219_Mistress of Cats.png" num="219">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Druid</type>
+				<maintype>Creature</maintype>
+				<manacost>2RG</manacost>
+				<cmc>4</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Heroes&apos; Assembly</name>
+			<text>Whenever an enchantment enters under your control, put a +1/+1 counter on up to one target creature you control. Then if that enchantment is an Aura, scry 1.
+Enchanted creatures and enchantment creatures you control have lifelink.</text>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/WCD-files/img/215_Heroes&apos; Assembly.png" num="215">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1GW</manacost>
+				<cmc>3</cmc>
+				<colors>WG</colors>
+				<coloridentity>WG</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Progression of Needles</name>
+			<text>Whenever an opponent sacrifices a permanent, you gain 1 life.
+Whenever you sacrifice a nontoken permanent or turn a permanent face up, each opponent loses 1 life.</text>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/WCD-files/img/221_Progression of Needles.png" num="221">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>WB</manacost>
+				<cmc>2</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Leycore Transformer</name>
+			<text>You may cast spells as though they had flash.
+Whenever you cast a spell during an opponent&apos;s turn, this artifact deals 2 damage to any target. This ability triggers only once each turn.</text>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/WCD-files/img/217_Leycore Transformer.png" num="217">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>1UR</manacost>
+				<cmc>3</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Sir Gremor, the Steadfast</name>
+			<text>Each creature you control assigns combat damage equal to its toughness rather than its power.
+The first time each turn a creature you control with toughness greater than its power deals combat damage to an opponent, you draw a card and lose 1 life.</text>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/WCD-files/img/226_Sir Gremor, the Steadfast.png" num="226">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Elephant Advisor</type>
+				<maintype>Creature</maintype>
+				<manacost>1BG</manacost>
+				<cmc>3</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+				<pt>2/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Eyrik, Wroszy&apos;s Right Hand</name>
+			<text>Aura and Equipment spells you cast cost {1} less to cast.
+Equip abilities you activate {2} less to activate. This effect can&apos;t reduce the mana in that cost to less than one mana.
+Equipped creatures you control have vigilance.</text>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/WCD-files/img/211_Eyrik, Wroszy&apos;s Right Hand.png" num="211">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Dwarf Advisor Warlock</type>
+				<maintype>Creature</maintype>
+				<manacost>RW</manacost>
+				<cmc>2</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Jhan, Committed Investigator</name>
+			<text>The first time you scry each turn, creatures you control get +1/+1 and gain trample until end of turn.
+{1}{U}, {T}: Scry 2, then create a Treasure token.</text>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/WCD-files/img/216_Jhan, Committed Investigator.png" num="216">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Human Detective</type>
+				<maintype>Creature</maintype>
+				<manacost>GU</manacost>
+				<cmc>2</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Shield Charm</name>
+			<text>Choose up to two.
+• Target creature you control gains hexproof until end of turn.
+• Untap up to one target nonland permanent.
+• Detain target creature. (Until your next turn, that creature can&apos;t attack or block and its activated abilities can&apos;t be activated.)
+• You gain 3 life.</text>
+			<set rarity="rare" picurl="https://Opacana.github.io/sets/WCD-files/img/225_Shield Charm.png" num="225">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>WU</manacost>
+				<cmc>2</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Rikh, Don of the Scales</name>
+			<text>Whenever a permanent Rikh dealt damage to this turn dies, create two tapped Treasure tokens.
+{1}{U}{B}: Return target Rogue card from your graveyard to your hand. Activate only as a sorcery.</text>
+			<set rarity="rare" picurl="https://Opacana.github.io/sets/WCD-files/img/222_Rikh, Don of the Scales.png" num="222">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Lizard Rogue Noble</type>
+				<maintype>Creature</maintype>
+				<manacost>2UB</manacost>
+				<cmc>4</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+				<pt>4/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Bloodbath Harlequin</name>
+			<text>Practiced (This spell costs {1} less to cast for each creature you&apos;ve attacked with this turn.)
+Haste
+At the beginning of your end step, if a creature died this turn, draw two cards, then discard a card and you lose 1 life.</text>
+			<set rarity="rare" picurl="https://Opacana.github.io/sets/WCD-files/img/208_Bloodbath Harlequin.png" num="208">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Elf Barbarian Performer</type>
+				<maintype>Creature</maintype>
+				<manacost>4BR</manacost>
+				<cmc>6</cmc>
+				<colors>BR</colors>
+				<coloridentity>BR</coloridentity>
+				<pt>5/4</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Riwaya, Bound Deity</name>
+			<text>Practiced (This spell costs {1} less to cast for each creature you&apos;ve attacked with this turn.)
+Trample, vigilance
+{2}{R}{G}, Discard this card: Create two 1/1 red and green Mercenary creature tokens.</text>
+			<set rarity="rare" picurl="https://Opacana.github.io/sets/WCD-files/img/223_Riwaya, Bound Deity.png" num="223">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Elephant Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost>9RG</manacost>
+				<cmc>11</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
+				<pt>11/12</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Sudden Power-up</name>
+			<text>Search your graveyard and/or library for up to two Aura cards and put them onto the battlefield attached to a permanent you control. Then shuffle. That permanent can&apos;t attack this turn.</text>
+			<set rarity="rare" picurl="https://Opacana.github.io/sets/WCD-files/img/227_Sudden Power-up.png" num="227">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3GW</manacost>
+				<cmc>5</cmc>
+				<colors>WG</colors>
+				<coloridentity>WG</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Ezuki, Savani&apos;s Consort</name>
+			<text>Ward—Exile a card from your hand
+Performer spells you cast and face-down creature spells you cast cost {1} less to cast.
+Whenever you turn another permanent face up, put a +1/+1 counter on Ezuki, Savani&apos;s Consort and gain 2 life. This ability triggers only once each turn.</text>
+			<set rarity="rare" picurl="https://Opacana.github.io/sets/WCD-files/img/213_Ezuki, Savani&apos;s Consort.png" num="213">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Azra Performer</type>
+				<maintype>Creature</maintype>
+				<manacost>WB</manacost>
+				<cmc>2</cmc>
+				<colors>WB</colors>
+				<coloridentity>WB</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Tabriogni&apos;s Fortress</name>
+			<text>Flying
+Whenever this artifact enters or attacks, create a colorless Cargo artifact token with &quot;Sacrifice this token: You may cast creature spells or artifact spells this turn as though they had flash.&quot;
+Crew 3</text>
+			<set rarity="rare" picurl="https://Opacana.github.io/sets/WCD-files/img/228_Tabriogni&apos;s Fortress.png" num="228">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Artifact — Vehicle</type>
+				<maintype>Artifact</maintype>
+				<manacost>3UR</manacost>
+				<cmc>5</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+				<pt>4/8</pt>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Duchess Arane</name>
+			<text>Reach, deathtouch
+Other Spiders, Mutants, Citizens and Peasants you control get +1/+1.
+Whenever a creature you control deals combat damage to a player, you gain life equal to that creature&apos;s toughness.</text>
+			<set rarity="rare" picurl="https://Opacana.github.io/sets/WCD-files/img/210_Duchess Arane.png" num="210">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Creature — Spider Mutant Noble</type>
+				<maintype>Creature</maintype>
+				<manacost>3BG</manacost>
+				<cmc>5</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+				<pt>3/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Eyrik&apos;s Keys</name>
+			<text>When this artifact enters, choose an opponent.
+Equipped creature has protection from the chosen opponent.
+Whenever equipped creature deals combat damage to the chosen opponent, you may pay {2}. If you do, destroy target artifact or enchantment that opponent controls.
+Equip {3}</text>
+			<set rarity="rare" picurl="https://Opacana.github.io/sets/WCD-files/img/212_Eyrik&apos;s Keys.png" num="212">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>1RW</manacost>
+				<cmc>3</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Capital Archives</name>
+			<text>Whenever you scry, put that many charge counters on this.
+{G}{G}{U}, {T}: Creatures you control get +3/+3 and gain trample and hexproof until end of turn. Activate only if there are 10 or more charge counters on this artifact.</text>
+			<set rarity="rare" picurl="https://Opacana.github.io/sets/WCD-files/img/209_Capital Archives.png" num="209">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>GU</manacost>
+				<cmc>2</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Hat of Summoning</name>
+			<text>Equipped creature has &quot;{T}: Add two mana of any color. Spend this mana only to cast a creature spell that shares a color with this creature.&quot;
+Equip {1}</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/241_Hat of Summoning.png" num="241">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>1</manacost>
+				<cmc>1</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Sanguine Boots</name>
+			<text>Equipped creature has lifelink.
+Equip {2}</text>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/WCD-files/img/245_Sanguine Boots.png" num="245">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>1</manacost>
+				<cmc>1</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Hazoret&apos;s Barque Ride</name>
+			<text>{T}: Add {R}.
+{T}: Draw a card, then discard a card at random. Then if you have one or fewer cards in hand, creatures you control get +1/+0 until end of turn</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/242_Hazoret&apos;s Barque Ride.png" num="242">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Doll Collection</name>
+			<text>This artifact enters with four charge counters on it.
+{1}, {T}, Remove a charge counter from this: Create a 0/1 colorless Toy artifact creature token.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/236_Doll Collection.png" num="236">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>4</manacost>
+				<cmc>4</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Fortune Teller&apos;s Tent</name>
+			<text>Whenever fortified land becomes tapped, you may scry 2.
+Fortify {1} ({1}: Attach to target land you control. Fortify only as a sorcery.)</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/238_Fortune Teller&apos;s Tent.png" num="238">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Fortification</type>
+				<maintype>Artifact</maintype>
+				<manacost>1</manacost>
+				<cmc>1</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>The Big Top</name>
+			<text>Fortified land has &quot;{T}, Pay 1 life: Add three mana of any one color.
+Fortify {2} — This ability costs {1} less to activate as long as you control a Performer. Activate only once each turn. ({2}: Attach to target land you control. Fortify only as a sorcery.)</text>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/WCD-files/img/234_The Big Top.png" num="234">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Fortification</type>
+				<maintype>Artifact</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Faerie&apos;s Wheel</name>
+			<text>Fortified land has &quot;{T}: Draw a card, then discard a card.&quot;
+Fortify {2} ({2}: Attach to target land you control. Fortify only as a sorcery.)</text>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/WCD-files/img/237_Faerie&apos;s Wheel.png" num="237">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Fortification</type>
+				<maintype>Artifact</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Beer Garden</name>
+			<text>Fortified land is indestructible.
+Fortified land has &quot;{5}, {T}: Put an indestructible counter on target creature. Activate only as a sorcery.&quot;
+Fortify {1} ({1}: Attach to target land you control. Fortify only as a sorcery.)</text>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/WCD-files/img/233_Beer Garden.png" num="233">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Fortification</type>
+				<maintype>Artifact</maintype>
+				<manacost>1</manacost>
+				<cmc>1</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Carousel of Wonders</name>
+			<text>Fortified land has &quot;{T}: Target creature gains haste until end of turn.&quot;
+Fortify {1} ({1}: Attach to target land you control. Fortify only as a sorcery.)</text>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/WCD-files/img/235_Carousel of Wonders.png" num="235">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Fortification</type>
+				<maintype>Artifact</maintype>
+				<manacost>1</manacost>
+				<cmc>1</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Hall of Could&apos;ves</name>
+			<text>Fortified land has &quot;{2}, {T}: Exile the top card of each opponent&apos;s library. You may play cards exiled this way until the beginning of your next turn.&quot;
+Fortify {1} ({1}: Attach to target land you control. Fortify only as a sorcery.)</text>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/WCD-files/img/240_Hall of Could&apos;ves.png" num="240">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Fortification</type>
+				<maintype>Artifact</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Opulent Study Hall</name>
+			<text>{T}: Add {C}.
+{4}, {T}: Scry 2.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/250_Opulent Study Hall.png" num="250">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Malooth, Capital of Hallost</name>
+			<text>This land enters tapped.
+{T}: Add {G}.
+{1}, {T}: Create a 1/1 colorless Citizen creature token. Activate only if no player controls an artifact or enchantment.</text>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/WCD-files/img/249_Malooth, Capital of Hallost.png" num="249">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Karil-on-the-Wyvern</name>
+			<text>This land enters tapped.
+{T}: Add {W}. 
+{1}, {T}: Create a 1/1 colorless Citizen creature token. Activate only if you control three or more artifacts and/or enchantments.</text>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/WCD-files/img/248_Karil-on-the-Wyvern.png" num="248">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Skull Heights Castle</name>
+			<text>This land enters tapped.
+{T}: Add {B}.
+{1}, {T}: Create a 1/1 colorless Citizen creature token. Activate only if there are X or more creature cards in exile, where X is the number of players.</text>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/WCD-files/img/252_Skull Heights Castle.png" num="252">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Taarept, First City of Wuqran</name>
+			<text>This land enters tapped.
+{T}: Add {U}.
+{1}, {T}: Create a 1/1 colorless Citizen creature token. Activate only if you&apos;ve scried or surveiled this turn.</text>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/WCD-files/img/253_Taarept, First City of Wuqran.png" num="253">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Land</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Rockloop Station</name>
+			<text>This land enters tapped.
+{T}: Add {R}.
+{1}, {T}: Create a 1/1 colorless Citizen creature token. Activate only if you&apos;ve cast an artifact or instant spell this turn.</text>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/WCD-files/img/251_Rockloop Station.png" num="251">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Land — Desert</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Fiendish Solo</name>
+			<text>Practiced (This spell costs {1} less to cast for each creature you&apos;ve attacked with this turn.)
+Until end of turn, whenever target creature deals combat damage, exile that many cards from the top of your library. You may play X of those cards from exile this turn, where X is the number of creatures that attacked this turn.</text>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/WCD-files/img/136_Fiendish Solo.png" num="136">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Ingenious Hostess</name>
+			<text>Masquerade {1}{WB} (You may cast this card face down for {3} as a 2/2 creature with ward—Sacrifice a permanent. Turn it face up any time for its masquerade cost.)
+Flying
+When this creature is turned face up, return target creature card with mana value 3 or less from your graveyard to the battlefield.</text>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/WCD-files/img/16_Ingenious Hostess.png" num="16">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Human Performer</type>
+				<maintype>Creature</maintype>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>WB</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>An Unregulated Route</name>
+			<text>Create two 3/3 blue Bird creature tokens with flying.
+If this spell was cast during your turn, you may scry 3.</text>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/WCD-files/img/81_An Unregulated Route.png" num="81">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>4UU</manacost>
+				<cmc>6</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+			<reverse_related count="2">Bird</reverse_related>
+		</card>
+		<card>
+			<name>Kamigawan Data Capsule</name>
+			<text>As an additional cost to cast this spell, discard a card.
+Whenever equipped creature deals combat damage to an opponent, draw a card.
+Equip {2}</text>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/WCD-files/img/243_Kamigawan Data Capsule.png" num="243">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>1</manacost>
+				<cmc>1</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Necryx Six-shooter</name>
+			<text>Equipped creature has reach and first strike.
+Whenever a creature card is put into an opponent&apos;s graveyard from anywhere, equipped creature gets +1/+0 until end of turn.
+Equip {2}</text>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/WCD-files/img/244_Necryx Six-shooter.png" num="244">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Halberd of the Founding</name>
+			<text>Equipped creature gets +1/+1 and has first strike, hexproof, lifelink and vigilance.
+Equip {5} — This ability costs {1} less to activate for each enchantment, instant or sorcery spell you&apos;ve cast this turn.</text>
+			<set rarity="rare" picurl="https://Opacana.github.io/sets/WCD-files/img/239_Halberd of the Founding.png" num="239">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>1</manacost>
+				<cmc>1</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Chandra&apos;s Flashover</name>
+			<text>This spell deals X damage to any target, where X is one plus the number of colors among creatures you attacked with this turn.</text>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/WCD-files/img/127_Chandra&apos;s Flashover.png" num="127">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Arms Dealer&apos;s Favorite</name>
+			<text>Search your library for an Aura or Equipment card that shares a name with a permanent you control, reveal it and put it into your hand, then shuffle.</text>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/WCD-files/img/2_Arms Dealer&apos;s Favorite.png" num="2">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>W</manacost>
+				<cmc>1</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>All-Seeing Stone of Wuqran</name>
+			<text>{1}, {T}: Create a Treasure token. This ability costs {1} less to activate if you&apos;ve scried this turn or drawn two or more cards this turn.
+{1}{GU}, {T}: Scry 2.
+{7}{GU}, {T}: Scry 10.</text>
+			<set rarity="mythic" picurl="https://Opacana.github.io/sets/WCD-files/img/232_All-Seeing Stone of Wuqran.png" num="232">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+				<coloridentity>UG</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Sawblade Game</name>
+			<text>Discard any number of cards. When you do, an opponent chooses one, then chooses one for each card you discarded. The same mode can be chosen more than once.
+• You draw a card, then surveil 1.
+• Each of your opponents loses 2 life and you gain 2 life.
+• Each of your opponents discards a card at random.</text>
+			<set rarity="rare" picurl="https://Opacana.github.io/sets/WCD-files/img/224_Sawblade Game.png" num="224">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>UBR</manacost>
+				<cmc>3</cmc>
+				<colors>UBR</colors>
+				<coloridentity>UBR</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Zone of Truth</name>
+			<text>Cards can&apos;t be conjured.
+Tokens can&apos;t be created.
+Spells can&apos;t be copied by other spells or abilities.
+Sacrifice this enchantment: Detain target creature. Activate only as a sorcery. (Until your next turn, that creature can&apos;t attack or block and its activated abilities can&apos;t be activated.)</text>
+			<set rarity="mythic" picurl="https://Opacana.github.io/sets/WCD-files/img/231_Zone of Truth.png" num="231">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1W/U</manacost>
+				<cmc>2</cmc>
+				<colors>WU</colors>
+				<coloridentity>WU</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Hall of Nightmares</name>
+			<text>As an additional cost to cast this spell, pay 3 life or sacrifice a nonland, nontoken permanent.
+Target player reveals their hand. You choose a nonland card from it. That player discards that card.</text>
+			<set rarity="rare" picurl="https://Opacana.github.io/sets/WCD-files/img/104_Hall of Nightmares.png" num="104">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Charge — Grand Theft</name>
+			<text></text>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/WCD-files/img/49_Charge — Grand Theft.png" num="49">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Inquest</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Report to Parliament</name>
+			<text></text>
+			<set rarity="rare" picurl="https://Opacana.github.io/sets/WCD-files/img/33_Report to Parliament.png" num="33">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Inquest</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2WW</manacost>
+				<cmc>4</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Mariltia, Dominus of Sceri</name>
+			<text></text>
+			<set rarity="rare" picurl="https://Opacana.github.io/sets/WCD-files/img/24_Mariltia, Dominus of Sceri.png" num="24">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Planeswalker — Mariltia</type>
+				<maintype>Planeswalker</maintype>
+				<manacost>1WW</manacost>
+				<cmc>3</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<loyalty>3</loyalty>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Zanri Edel, Iceling Psion</name>
+			<text></text>
+			<set rarity="rare" picurl="https://Opacana.github.io/sets/WCD-files/img/83_Zanri Edel, Iceling Psion.png" num="83">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Planeswalker — Zanri</type>
+				<maintype>Planeswalker</maintype>
+				<manacost>2UU</manacost>
+				<cmc>4</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<loyalty>5</loyalty>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Ashiok, Bemused</name>
+			<text></text>
+			<set rarity="rare" picurl="https://Opacana.github.io/sets/WCD-files/img/85_Ashiok, Bemused.png" num="85">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Planeswalker — Ashiok</type>
+				<maintype>Planeswalker</maintype>
+				<manacost>2BB</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<loyalty>4</loyalty>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Chandra, Expanding Horizons</name>
+			<text></text>
+			<set rarity="rare" picurl="https://Opacana.github.io/sets/WCD-files/img/230_Chandra, Expanding Horizons.png" num="230">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Planeswalker — Chandra</type>
+				<maintype>Planeswalker</maintype>
+				<manacost>G/WU/BR</manacost>
+				<cmc>3</cmc>
+				<colors>WUBRG</colors>
+				<coloridentity>WUBRG</coloridentity>
+				<loyalty>3</loyalty>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Tagdron, Verdant Archon</name>
+			<text></text>
+			<set rarity="rare" picurl="https://Opacana.github.io/sets/WCD-files/img/203_Tagdron, Verdant Archon.png" num="203">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Planeswalker — Tagdron</type>
+				<maintype>Planeswalker</maintype>
+				<manacost>2GG</manacost>
+				<cmc>4</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<loyalty>4</loyalty>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Charge — Tabriogni&apos;s Grand Plan</name>
+			<text></text>
+			<set rarity="rare" picurl="https://Opacana.github.io/sets/WCD-files/img/50_Charge — Tabriogni&apos;s Grand Plan.png" num="50">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Inquest</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Charge — Forbidden Elementalism</name>
+			<text></text>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/WCD-files/img/90_Charge — Forbidden Elementalism.png" num="90">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Inquest</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1BB</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Wroszy, Circus Founder</name>
+			<text></text>
+			<set rarity="mythic" picurl="https://Opacana.github.io/sets/WCD-files/img/229_Wroszy, Circus Founder.png" num="229">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Planeswalker — Wroszy</type>
+				<maintype>Planeswalker</maintype>
+				<manacost>WUBR</manacost>
+				<cmc>4</cmc>
+				<colors>WUBR</colors>
+				<coloridentity>WUBR</coloridentity>
+				<loyalty>1</loyalty>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Charge — Willful Pollution</name>
+			<text></text>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/WCD-files/img/170_Charge — Willful Pollution.png" num="170">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Inquest</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Charge — Falsifying Records</name>
+			<text></text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/48_Charge — Falsifying Records.png" num="48">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Inquest</type>
+				<maintype>Enchantment</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Charge — Failure</name>
+			<text></text>
+			<set rarity="mythic" picurl="https://Opacana.github.io/sets/WCD-files/img/89_Charge — Failure.png" num="89">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Inquest</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1BB</manacost>
+				<cmc>3</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Saw</name>
+			<text>Equipped creature gets +2/+0.
+Whenever equipped creature attacks, you may sacrifice a permanent other than that creature or this Equipment. If you do, draw a card.
+Equip {2}</text>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/WCD-files/img/246_Saw.png" num="246">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Wandering Scarecrow</name>
+			<text>This creature can&apos;t be blocked by Birds.
+When this creature enters, you may search your library for a basic land card, reveal it, put it into your hand, then shuffle.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/247_Wandering Scarecrow.png" num="247">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Artifact Creature — Construct Scarecrow</type>
+				<maintype>Creature</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>Food WCD</name>
+			<text>{2}, {T}, Sacrifice this artifact: You gain 3 life.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/20t_Food.png" num="20">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Artifact — Food</type>
+				<maintype>Artifact</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Treasure WCD</name>
+			<text>{T}, Sacrifice this artifact: Add one mana of any color.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/22t_Treasure.png" num="22">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Artifact — Treasure</type>
+				<maintype>Artifact</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Phoenix WCD</name>
+			<text>Flying, haste</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/10t_Phoenix.png" num="10">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Phoenix</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Wolf Spirit WCD</name>
+			<text></text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/17t_Wolf Spirit.png" num="17">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Wolf Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>UG</colors>
+				<coloridentity>UG</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Saproling WCD</name>
+			<text></text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/12t_Saproling.png" num="12">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Saproling</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Entrusted WCD</name>
+			<text>Enchant creature
+Enchanted creature gets +2/+0.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/2t_Entrusted.png" num="2">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Enchantment — Aura</type>
+				<maintype>Enchantment</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Bear Warrior WCD</name>
+			<text></text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/8t_Bear Warrior.png" num="8">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Bear Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Grinli WCD</name>
+			<text></text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/3t_Grinli.png" num="3">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Legendary Token Creature — Cat</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Bird WCD</name>
+			<text>Flying</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/4t_Bird.png" num="4">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Bird</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Snake Mutant Warlock WCD</name>
+			<text></text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/13t_Snake Mutant Warlock.png" num="13">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Snake Mutant Warlock</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Nightmare Illusion WCD</name>
+			<text>Flying</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/7t_Nightmare Illusion.png" num="7">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Nightmare Illusion</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Bat WCD</name>
+			<text>Flying</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/5t_Bat.png" num="5">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Bat</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Bird WCD</name>
+			<text>Flying</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/6t_Bird.png" num="6">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Bird</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Batran Volt-Rifle WCD</name>
+			<text>Equipped creature gets +1/+0 and has first strike.
+Equip {2}</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/18t_Batran Volt-Rifle.png" num="18">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Artifact — Equipment</type>
+				<maintype>Artifact</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Beast WCD</name>
+			<text></text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/11t_Beast.png" num="11">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Beast</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Insect WCD</name>
+			<text>Flying</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/14t_Insect.png" num="14">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Insect</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>BG</colors>
+				<coloridentity>BG</coloridentity>
+				<pt>1/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Warrior Citizen WCD</name>
+			<text></text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/16t_Warrior Citizen.png" num="16">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Mercenary</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>RG</colors>
+				<coloridentity>RG</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Cargo WCD</name>
+			<text>Sacrifice this token: You may cast creature spells or artifact spells this turn as though they had flash.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/19t_Cargo.png" num="19">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Cat WCD</name>
+			<text></text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/9t_Cat.png" num="9">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Cat</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Rogue WCD</name>
+			<text></text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/15t_Rogue.png" num="15">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Toy WCD</name>
+			<text></text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/21t_Toy.png" num="21">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Artifact Creature — Toy</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<pt>0/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Charge — Inciting A Riot</name>
+			<text></text>
+			<set rarity="mythic" picurl="https://Opacana.github.io/sets/WCD-files/img/128_Charge — Inciting A Riot.png" num="128">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment — Inquest</type>
+				<maintype>Enchantment</maintype>
+				<manacost>1RR</manacost>
+				<cmc>3</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>1</tablerow>
+		</card>
+		<card>
+			<name>Plains</name>
+			<text></text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/254_Plains.png" num="254">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Plains</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>W</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Island</name>
+			<text></text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/255_Island.png" num="255">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Island</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Swamp</name>
+			<text></text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/256_Swamp.png" num="256">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Swamp</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Mountain</name>
+			<text></text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/257_Mountain.png" num="257">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Mountain</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>R</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Forest</name>
+			<text></text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/258_Forest.png" num="258">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Basic Land — Forest</type>
+				<maintype>Land</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Writ WCD</name>
+			<text>Sacrifice this token: Destroy target permanent you don&apos;t control.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/23t_Writ.png" num="23">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Citizen WCD</name>
+			<text></text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/WCD-files/img/1t_Citizen.png" num="1">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Citizen</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Ley-battery Tank</name>
+			<text>Trample
+Whenever you cast your first spell each turn, if it&apos;s not your turn, untap Ley-battery Tank. 
+{1}{R}, {T}: This Vehicle deals 2 damage to any target.
+Crew 2</text>
+			<set rarity="rare" picurl="https://Opacana.github.io/sets/WCD-files/img/144_Ley-battery Tank.png" num="144">WCD</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Vehicle</type>
+				<maintype>Creature</maintype>
+				<manacost>2RR</manacost>
+				<cmc>4</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>5/5</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+	</cards>
+</cockatrice_carddatabase>

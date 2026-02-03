@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<link rel="icon" type="image/png" href="/sets/WCD-files/icon.png"/>
-	<link rel="stylesheet" href="/resources/header.css">
+	<link rel="icon" type="image/png" href="../sets/WCD-files/icon.png"/>
+	<link rel="stylesheet" href="../resources/header.css">
 	<title>WCD visual preview</title>
+	<script title="root">
+		const rootPath = "..";
+	</script>
 	<style>
 		@font-face {
 			font-family: Beleren;
-			src: url('/resources/beleren.ttf');
+			src: url('../resources/beleren.ttf');
 		}
 		body {
 			font-family: Arial, sans-serif;
@@ -39,19 +42,21 @@
 			position: relative;
 		}
 		.sidebar-h-img {
-			display: none;
-			transform: rotate(90deg);
+			opacity: 0;
+			transform: rotateY(0deg) rotate(90deg);
 			position: absolute;
 			left: 10%;
 			top: 10%;
 			width: 85%;
+			border-radius: 3.733% / 2.677%;
 		}
 		.sidebar-img {
 			vertical-align: middle;
 			width: 100%;
+			border-radius: 3.733% / 2.677%;
 		}
 		.close-btn {
-			background: url('/img/close.png') no-repeat;
+			background: url('../img/close.png') no-repeat;
 			background-size: contain;
 			background-position: center;
 			width: 10%;
@@ -62,7 +67,7 @@
 			right: 4%;
 		}
 		.close-btn:hover {
-			background: url('/img/close-hover.png') no-repeat;
+			background: url('../img/close-hover.png') no-repeat;
 			background-size: contain;
 			background-position: center;
 		}
@@ -82,6 +87,7 @@
 			display: block;
 			visibility: hidden;
 			cursor: pointer;
+			border-radius: 3.733% / 2.677%;
 		}
 		.banner {
 			width: 100%;
@@ -102,9 +108,10 @@
 		.container img {
 			width: 100%;
 			height: auto;
+			border-radius: 3.733% / 2.677%;
 		}
 		.flip-btn {
-			background: url('/img/flip.png') no-repeat;
+			background: url('../img/flip.png') no-repeat;
 			background-size: contain;
 			background-position: center;
 			width: 15%;
@@ -118,7 +125,7 @@
 			opacity: 0.5;
 		}
 		.flip-btn:hover {
-			background: url('/img/flip-hover.png') no-repeat;
+			background: url('../img/flip-hover.png') no-repeat;
 			background-size: contain;
 			background-position: center;
 		}
@@ -126,12 +133,13 @@
 			background: rgba(23, 23, 23, 0.8);
 			border-radius: 8px;
 			position: absolute;
-			left: 10%;
+			left: 5%;
 			width: fit-content;
+			max-width: 90%;
 			margin: 20px 0;
 			padding: 5px 0;
-			display: flex;
-			flex-direction: column;
+			display: grid;
+			grid-template-columns: 1fr;
 			z-index: 3;
 		}
 		.dropdown .set-bar {
@@ -173,386 +181,402 @@
 	</style>
 </head>
 <body>
-	<img class="preload-hidden" src="/img/dot.png" />
-	<img class="preload-hidden" src="/sets/WCD-files/logo.png" />
-	<img class="preload-hidden" src="/sets/AVA-files/icon.png" />
-		<img class="preload-hidden" src="/sets/MST-files/icon.png" />
-		<img class="preload-hidden" src="/sets/WCD-files/icon.png" />
+	<img class="preload-hidden" src="../img/dot.png" />
+	<img class="preload-hidden" src="../sets/WCD-files/logo.png" />
+	<img class="preload-hidden" src="../sets/AVA-files/icon.png" />
+		<img class="preload-hidden" src="../sets/MST-files/icon.png" />
+		<img class="preload-hidden" src="../sets/WCD-files/icon.png" />
 		<div class="header">
 		<div class="search-grid">
-			<a href="/"><img class="sg-logo" src="/img/banner.png"></a>
-			<img class="sg-icon" src="/img/search.png">
-			<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
-			<a href="/all-sets"><img src="/img/sets.png" class="sg-icon">Sets</a>
-			<a href="/deckbuilder"><img src="/img/deck.png" class="sg-icon">Deckbuilder</a>
-			<a onclick="randomCard()"><img src="/img/random.png" class="sg-icon">Random</a>
+			<a onclick="window.location.href = rootPath + '/'"><img class="sg-logo" id="header-banner"></a>
+			<img class="sg-icon" id="header-search" onclick="goToSearch()">
+			<div style="position: relative; width: 100%;">
+				<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
+				<div id="tag-dropdown" style="display: none; position: absolute; top: 100%; left: 0; width: 100%; background: white; border: 1px solid #d5d9d9; z-index: 1000; max-height: 200px; overflow-y: auto; color: black; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"></div>
+			</div>
+			<a onclick="window.location.href = rootPath + '/all-sets'"><img id="header-sets" class="sg-icon">Sets</a>
+			<a onclick="window.location.href = rootPath + '/deckbuilder'"><img id="header-deck" class="sg-icon">Deckbuilder</a>
+			<a onclick="randomCard()"><img id="header-random" class="sg-icon">Random</a>
 		</div>
 	</div>
+	<script>
+		document.addEventListener("DOMContentLoaded", function () {
+			document.getElementById("header-banner").src = rootPath + "/img/banner.png";
+			document.getElementById("header-search").src = rootPath + "/img/search.png";
+			document.getElementById("header-sets").src = rootPath + "/img/sets.png";
+			document.getElementById("header-deck").src = rootPath + "/img/deck.png";
+			document.getElementById("header-random").src = rootPath + "/img/random.png";
+		});
 
-	<div class="dropdown" onmouseenter="rolldown()" onmouseleave="rollup()">
+		function goToSearch() {
+			window.location.href = rootPath + "/search";
+		}
+	</script>
+
+	<div class="dropdown" id="dropdown" onmouseenter="rolldown()" onmouseleave="rollup()">
 	
-		<a class="set-bar" href="WCD"><img src="/sets/WCD-files/icon.png">Wroszy’s Circus of Darkness</a>
+		<a class="set-bar" href="../previews/WCD"><img src="../sets/WCD-files/icon.png">Wroszy’s Circus of Darkness</a>
 	
-		<a class="set-bar inactive" href="AVA"><img src="/sets/AVA-files/icon.png">Avallus: Rediscovery</a>
+		<a class="set-bar inactive" href="../previews/AVA"><img src="../sets/AVA-files/icon.png">Avallus: Rediscovery</a>
 	
-		<a class="set-bar inactive" href="MST"><img src="/sets/MST-files/icon.png">Untitled Anthro Moonstone Standard Set</a>
+		<a class="set-bar inactive" href="../previews/MST"><img src="../sets/MST-files/icon.png">Untitled Anthro Moonstone Standard Set</a>
 	
 		</div>
 		<div class="banner">
-		<img class="logo" src="/sets/WCD-files/logo.png">
+		<img class="logo" src="../sets/WCD-files/logo.png">
 		</div>
 		<div class="main-content" id="main-content">
 			<div class="grid-container">
-					<div class="container"><img alt="/sets\WCD-files\img\25_Mariltia's Inner Despair.png" id="25_Mariltias Inner Despair" data-flag="@X" onclick="openSidebar('25_Mariltias Inner Despair',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\69_Leycore Defenses.png" id="69_Leycore Defenses" data-flag="@X" onclick="openSidebar('69_Leycore Defenses',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\87_Azania Voidrose.png" id="87_Azania Voidrose" data-flag="@X" onclick="openSidebar('87_Azania Voidrose',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\125_Arbiter's Gavel.png" id="125_Arbiters Gavel" data-flag="@X" onclick="openSidebar('125_Arbiters Gavel',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\180_Guidance of the Extinct.png" id="180_Guidance of the Extinct" data-flag="@X" onclick="openSidebar('180_Guidance of the Extinct',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\38_Skuyla, Last of the Vhalkiri.png" id="38_Skuyla, Last of the Vhalkiri" data-flag="@X" onclick="openSidebar('38_Skuyla, Last of the Vhalkiri',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\71_Morau and Jemel.png" id="71_Morau and Jemel" data-flag="@X" onclick="openSidebar('71_Morau and Jemel',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\89_Charge — Failure.png" id="89_Charge — Failure" data-flag="@X" onclick="openSidebar('89_Charge — Failure',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\128_Charge — Inciting A Riot.png" id="128_Charge — Inciting A Riot" data-flag="@X" onclick="openSidebar('128_Charge — Inciting A Riot',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\204_Tagdron's Call.png" id="204_Tagdrons Call" data-flag="@X" onclick="openSidebar('204_Tagdrons Call',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\5_Blessed Bonds.png" id="5_Blessed Bonds" data-flag="@X" onclick="openSidebar('5_Blessed Bonds',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\50_Charge — Tabriogni's Grand Plan.png" id="50_Charge — Tabriognis Grand Plan" data-flag="@X" onclick="openSidebar('50_Charge — Tabriognis Grand Plan',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\84_Annihilating Aura.png" id="84_Annihilating Aura" data-flag="@X" onclick="openSidebar('84_Annihilating Aura',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\151_Nightmares on Tour.png" id="151_Nightmares on Tour" data-flag="@X" onclick="openSidebar('151_Nightmares on Tour',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\169_Blessings of the Martyr Queen.png" id="169_Blessings of the Martyr Queen" data-flag="@X" onclick="openSidebar('169_Blessings of the Martyr Queen',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\7_Cage Dancer.png" id="7_Cage Dancer" data-flag="@X" onclick="openSidebar('7_Cage Dancer',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\52_Deepsight Siphoner.png" id="52_Deepsight Siphoner" data-flag="@X" onclick="openSidebar('52_Deepsight Siphoner',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\85_Ashiok, Bemused.png" id="85_Ashiok, Bemused" data-flag="@X" onclick="openSidebar('85_Ashiok, Bemused',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\144_Ley-battery Tank.png" id="144_Ley-battery Tank" data-flag="@X" onclick="openSidebar('144_Ley-battery Tank',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\178_Gemrai, Unphased.png" id="178_Gemrai, Unphased" data-flag="@X" onclick="openSidebar('178_Gemrai, Unphased',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\21_Lisha, Security Minister.png" id="21_Lisha, Security Minister" data-flag="@X" onclick="openSidebar('21_Lisha, Security Minister',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\53_Disgraced Sparkhand.png" id="53_Disgraced Sparkhand" data-flag="@X" onclick="openSidebar('53_Disgraced Sparkhand',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\86_Ashiok's Judgment.png" id="86_Ashioks Judgment" data-flag="@X" onclick="openSidebar('86_Ashioks Judgment',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\145_Leytower's Shattering.png" id="145_Leytowers Shattering" data-flag="@X" onclick="openSidebar('145_Leytowers Shattering',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\179_Glorious Parade.png" id="179_Glorious Parade" data-flag="@X" onclick="openSidebar('179_Glorious Parade',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\23_Maiden of Eternities.png" id="23_Maiden of Eternities" data-flag="@X" onclick="openSidebar('23_Maiden of Eternities',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\55_Eidetic Artisan.png" id="55_Eidetic Artisan" data-flag="@X" onclick="openSidebar('55_Eidetic Artisan',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\94_Depraved Oracle.png" id="94_Depraved Oracle" data-flag="@X" onclick="openSidebar('94_Depraved Oracle',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\148_Mastermind Nekosyth.png" id="148_Mastermind Nekosyth" data-flag="@X" onclick="openSidebar('148_Mastermind Nekosyth',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\184_Kara of the Red Ribbons.png" id="184_Kara of the Red Ribbons" data-flag="@X" onclick="openSidebar('184_Kara of the Red Ribbons',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\24_Mariltia, Dominus of Sceri.png" id="24_Mariltia, Dominus of Sceri" data-flag="@X" onclick="openSidebar('24_Mariltia, Dominus of Sceri',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\68_Leycharged Exosuit.png" id="68_Leycharged Exosuit" data-flag="@X" onclick="openSidebar('68_Leycharged Exosuit',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\104_Hall of Nightmares.png" id="104_Hall of Nightmares" data-flag="@X" onclick="openSidebar('104_Hall of Nightmares',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\154_Righteous Longfang.png" id="154_Righteous Longfang" data-flag="@X" onclick="openSidebar('154_Righteous Longfang',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\190_Pelina Driue.png" id="190_Pelina Driue" data-flag="@X" onclick="openSidebar('190_Pelina Driue',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\33_Report to Parliament.png" id="33_Report to Parliament" data-flag="@X" onclick="openSidebar('33_Report to Parliament',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\77_Summoning Game.png" id="77_Summoning Game" data-flag="@X" onclick="openSidebar('77_Summoning Game',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\110_Keeper of Gerell Necropolis.png" id="110_Keeper of Gerell Necropolis" data-flag="@X" onclick="openSidebar('110_Keeper of Gerell Necropolis',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\156_Sachal's Betrayal.png" id="156_Sachals Betrayal" data-flag="@X" onclick="openSidebar('156_Sachals Betrayal',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\191_Primal Communion.png" id="191_Primal Communion" data-flag="@X" onclick="openSidebar('191_Primal Communion',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\39_Trend Chasers.png" id="39_Trend Chasers" data-flag="@X" onclick="openSidebar('39_Trend Chasers',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\78_Tabriogni, Minister of Transport.png" id="78_Tabriogni, Minister of Transport" data-flag="@X" onclick="openSidebar('78_Tabriogni, Minister of Transport',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\115_Mob Enforcer.png" id="115_Mob Enforcer" data-flag="@X" onclick="openSidebar('115_Mob Enforcer',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\162_Tamer of Giants.png" id="162_Tamer of Giants" data-flag="@X" onclick="openSidebar('162_Tamer of Giants',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\201_Subject 1951.png" id="201_Subject 1951" data-flag="@X" onclick="openSidebar('201_Subject 1951',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\41_Urban Patrol Blimp.png" id="41_Urban Patrol Blimp" data-flag="@X" onclick="openSidebar('41_Urban Patrol Blimp',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\83_Zanri Edel, Iceling Psion.png" id="83_Zanri Edel, Iceling Psion" data-flag="@X" onclick="openSidebar('83_Zanri Edel, Iceling Psion',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\119_Savani Voidrose.png" id="119_Savani Voidrose" data-flag="@X" onclick="openSidebar('119_Savani Voidrose',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\163_Tensionwire Balance.png" id="163_Tensionwire Balance" data-flag="@X" onclick="openSidebar('163_Tensionwire Balance',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\203_Tagdron, Verdant Archon.png" id="203_Tagdron, Verdant Archon" data-flag="@X" onclick="openSidebar('203_Tagdron, Verdant Archon',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\1_Anointed Armor.png" id="1_Anointed Armor" data-flag="@X" onclick="openSidebar('1_Anointed Armor',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\43_Ancient Mossback.png" id="43_Ancient Mossback" data-flag="@X" onclick="openSidebar('43_Ancient Mossback',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\124_Wroszy's Gravedigger.png" id="124_Wroszys Gravedigger" data-flag="@X" onclick="openSidebar('124_Wroszys Gravedigger',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\127_Chandra's Flashover.png" id="127_Chandras Flashover" data-flag="@X" onclick="openSidebar('127_Chandras Flashover',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\168_Beneficent Wanderlust.png" id="168_Beneficent Wanderlust" data-flag="@X" onclick="openSidebar('168_Beneficent Wanderlust',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\2_Arms Dealer's Favorite.png" id="2_Arms Dealers Favorite" data-flag="@X" onclick="openSidebar('2_Arms Dealers Favorite',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\44_Astounding Testimony.png" id="44_Astounding Testimony" data-flag="@X" onclick="openSidebar('44_Astounding Testimony',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\88_Cartel Pistolier.png" id="88_Cartel Pistolier" data-flag="@X" onclick="openSidebar('88_Cartel Pistolier',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\129_Crykal, Sharpshooter.png" id="129_Crykal, Sharpshooter" data-flag="@X" onclick="openSidebar('129_Crykal, Sharpshooter',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\170_Charge — Willful Pollution.png" id="170_Charge — Willful Pollution" data-flag="@X" onclick="openSidebar('170_Charge — Willful Pollution',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\3_Ascendant Awareness.png" id="3_Ascendant Awareness" data-flag="@X" onclick="openSidebar('3_Ascendant Awareness',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\45_A Big Enough Bribe.png" id="45_A Big Enough Bribe" data-flag="@X" onclick="openSidebar('45_A Big Enough Bribe',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\90_Charge — Forbidden Elementalism.png" id="90_Charge — Forbidden Elementalism" data-flag="@X" onclick="openSidebar('90_Charge — Forbidden Elementalism',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\132_Eccentric Engineer.png" id="132_Eccentric Engineer" data-flag="@X" onclick="openSidebar('132_Eccentric Engineer',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\171_Demonstration Match.png" id="171_Demonstration Match" data-flag="@X" onclick="openSidebar('171_Demonstration Match',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\9_Encava, Lanternbearer.png" id="9_Encava, Lanternbearer" data-flag="@X" onclick="openSidebar('9_Encava, Lanternbearer',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\49_Charge — Grand Theft.png" id="49_Charge — Grand Theft" data-flag="@X" onclick="openSidebar('49_Charge — Grand Theft',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\91_Circus' Chief Doctor.png" id="91_Circus Chief Doctor" data-flag="@X" onclick="openSidebar('91_Circus Chief Doctor',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\136_Fiendish Solo.png" id="136_Fiendish Solo" data-flag="@X" onclick="openSidebar('136_Fiendish Solo',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\173_Elder Lokar.png" id="173_Elder Lokar" data-flag="@X" onclick="openSidebar('173_Elder Lokar',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\10_Form of the Vhalkiri.png" id="10_Form of the Vhalkiri" data-flag="@X" onclick="openSidebar('10_Form of the Vhalkiri',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\51_Deceptive Appraiser.png" id="51_Deceptive Appraiser" data-flag="@X" onclick="openSidebar('51_Deceptive Appraiser',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\95_Dying to Get In.png" id="95_Dying to Get In" data-flag="@X" onclick="openSidebar('95_Dying to Get In',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\137_Fire-Swinger.png" id="137_Fire-Swinger" data-flag="@X" onclick="openSidebar('137_Fire-Swinger',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\177_The Fluffiest Vampire.png" id="177_The Fluffiest Vampire" data-flag="@X" onclick="openSidebar('177_The Fluffiest Vampire',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\12_Games Tester.png" id="12_Games Tester" data-flag="@X" onclick="openSidebar('12_Games Tester',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\58_Fabricate.png" id="58_Fabricate" data-flag="@X" onclick="openSidebar('58_Fabricate',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\101_Gaze Into the Red Door.png" id="101_Gaze Into the Red Door" data-flag="@X" onclick="openSidebar('101_Gaze Into the Red Door',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\138_Fire-wand Phoenix.png" id="138_Fire-wand Phoenix" data-flag="@X" onclick="openSidebar('138_Fire-wand Phoenix',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\188_Momentivorous Kagi.png" id="188_Momentivorous Kagi" data-flag="@X" onclick="openSidebar('188_Momentivorous Kagi',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\14_Highborn Brigadier.png" id="14_Highborn Brigadier" data-flag="@X" onclick="openSidebar('14_Highborn Brigadier',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\59_FCD Aerial Commander.png" id="59_FCD Aerial Commander" data-flag="@X" onclick="openSidebar('59_FCD Aerial Commander',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\102_Glimpse Hidden Horrors.png" id="102_Glimpse Hidden Horrors" data-flag="@X" onclick="openSidebar('102_Glimpse Hidden Horrors',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\139_Fireworks Finale.png" id="139_Fireworks Finale" data-flag="@X" onclick="openSidebar('139_Fireworks Finale',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\194_Search the Area.png" id="194_Search the Area" data-flag="@X" onclick="openSidebar('194_Search the Area',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\15_Imprison.png" id="15_Imprison" data-flag="@X" onclick="openSidebar('15_Imprison',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\60_Glittering Roadster.png" id="60_Glittering Roadster" data-flag="@X" onclick="openSidebar('60_Glittering Roadster',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\103_Greedy Thug.png" id="103_Greedy Thug" data-flag="@X" onclick="openSidebar('103_Greedy Thug',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\142_Hellfuel Bike.png" id="142_Hellfuel Bike" data-flag="@X" onclick="openSidebar('142_Hellfuel Bike',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\196_Seizure and Requisition Agent.png" id="196_Seizure and Requisition Agent" data-flag="@X" onclick="openSidebar('196_Seizure and Requisition Agent',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\16_Ingenious Hostess.png" id="16_Ingenious Hostess" data-flag="@X" onclick="openSidebar('16_Ingenious Hostess',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\63_Heavy Lifter Dirigible.png" id="63_Heavy Lifter Dirigible" data-flag="@X" onclick="openSidebar('63_Heavy Lifter Dirigible',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\108_Infiltrator Partygoer.png" id="108_Infiltrator Partygoer" data-flag="@X" onclick="openSidebar('108_Infiltrator Partygoer',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\152_Persuasive Promotion.png" id="152_Persuasive Promotion" data-flag="@X" onclick="openSidebar('152_Persuasive Promotion',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\197_Sir Wybud of Hallost.png" id="197_Sir Wybud of Hallost" data-flag="@X" onclick="openSidebar('197_Sir Wybud of Hallost',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\17_Inquisitive Tuspiri.png" id="17_Inquisitive Tuspiri" data-flag="@X" onclick="openSidebar('17_Inquisitive Tuspiri',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\64_Hired Thief.png" id="64_Hired Thief" data-flag="@X" onclick="openSidebar('64_Hired Thief',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\109_Jack of Ripped Hearts.png" id="109_Jack of Ripped Hearts" data-flag="@X" onclick="openSidebar('109_Jack of Ripped Hearts',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\155_Ring of Fire.png" id="155_Ring of Fire" data-flag="@X" onclick="openSidebar('155_Ring of Fire',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\199_Stubborn Stitcher.png" id="199_Stubborn Stitcher" data-flag="@X" onclick="openSidebar('199_Stubborn Stitcher',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\18_Jollimo's Grandest Form.png" id="18_Jollimos Grandest Form" data-flag="@X" onclick="openSidebar('18_Jollimos Grandest Form',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\67_Join the Family.png" id="67_Join the Family" data-flag="@X" onclick="openSidebar('67_Join the Family',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\117_Recaptured Experiment.png" id="117_Recaptured Experiment" data-flag="@X" onclick="openSidebar('117_Recaptured Experiment',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\157_Scattering Truths.png" id="157_Scattering Truths" data-flag="@X" onclick="openSidebar('157_Scattering Truths',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\202_Surreptitious Compassion.png" id="202_Surreptitious Compassion" data-flag="@X" onclick="openSidebar('202_Surreptitious Compassion',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\19_Lady of the Summer.png" id="19_Lady of the Summer" data-flag="@X" onclick="openSidebar('19_Lady of the Summer',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\81_An Unregulated Route.png" id="81_An Unregulated Route" data-flag="@X" onclick="openSidebar('81_An Unregulated Route',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\121_Shadowfang Cauldron.png" id="121_Shadowfang Cauldron" data-flag="@X" onclick="openSidebar('121_Shadowfang Cauldron',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\158_Scourge of Theros.png" id="158_Scourge of Theros" data-flag="@X" onclick="openSidebar('158_Scourge of Theros',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\207_White Tiger Companion.png" id="207_White Tiger Companion" data-flag="@X" onclick="openSidebar('207_White Tiger Companion',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\36_Shoola, Dove Dancer.png" id="36_Shoola, Dove Dancer" data-flag="@X" onclick="openSidebar('36_Shoola, Dove Dancer',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\46_Bright-Side Poet.png" id="46_Bright-Side Poet" data-flag="@X" onclick="openSidebar('46_Bright-Side Poet',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\122_Smothered in Flesh.png" id="122_Smothered in Flesh" data-flag="@X" onclick="openSidebar('122_Smothered in Flesh',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\160_Start the Real Show.png" id="160_Start the Real Show" data-flag="@X" onclick="openSidebar('160_Start the Real Show',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\167_Addition to the Landscape.png" id="167_Addition to the Landscape" data-flag="@X" onclick="openSidebar('167_Addition to the Landscape',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\4_Bar the Exit.png" id="4_Bar the Exit" data-flag="@X" onclick="openSidebar('4_Bar the Exit',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\47_Cartel Conjuror.png" id="47_Cartel Conjuror" data-flag="@X" onclick="openSidebar('47_Cartel Conjuror',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\123_Witness to Depravity.png" id="123_Witness to Depravity" data-flag="@X" onclick="openSidebar('123_Witness to Depravity',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\126_Chained Elder Firemaw.png" id="126_Chained Elder Firemaw" data-flag="@X" onclick="openSidebar('126_Chained Elder Firemaw',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\172_Distinguished Scaletrader.png" id="172_Distinguished Scaletrader" data-flag="@X" onclick="openSidebar('172_Distinguished Scaletrader',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\6_Bomb Runner.png" id="6_Bomb Runner" data-flag="@X" onclick="openSidebar('6_Bomb Runner',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\48_Charge — Falsifying Records.png" id="48_Charge — Falsifying Records" data-flag="@X" onclick="openSidebar('48_Charge — Falsifying Records',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\92_Cognition Consumption.png" id="92_Cognition Consumption" data-flag="@X" onclick="openSidebar('92_Cognition Consumption',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\130_Dealer's Deck.png" id="130_Dealers Deck" data-flag="@X" onclick="openSidebar('130_Dealers Deck',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\174_Eumidian Trailtracer.png" id="174_Eumidian Trailtracer" data-flag="@X" onclick="openSidebar('174_Eumidian Trailtracer',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\8_Come to an Understanding.png" id="8_Come to an Understanding" data-flag="@X" onclick="openSidebar('8_Come to an Understanding',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\54_Eager Salvager.png" id="54_Eager Salvager" data-flag="@X" onclick="openSidebar('54_Eager Salvager',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\93_Cunning Bat-Raiser.png" id="93_Cunning Bat-Raiser" data-flag="@X" onclick="openSidebar('93_Cunning Bat-Raiser',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\131_Devilish Wrath.png" id="131_Devilish Wrath" data-flag="@X" onclick="openSidebar('131_Devilish Wrath',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\175_Experienced Harpoonist.png" id="175_Experienced Harpoonist" data-flag="@X" onclick="openSidebar('175_Experienced Harpoonist',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\11_Frontiersville Mascot.png" id="11_Frontiersville Mascot" data-flag="@X" onclick="openSidebar('11_Frontiersville Mascot',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\56_Elder Bidrak.png" id="56_Elder Bidrak" data-flag="@X" onclick="openSidebar('56_Elder Bidrak',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\96_Elimination Contest.png" id="96_Elimination Contest" data-flag="@X" onclick="openSidebar('96_Elimination Contest',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\133_Elite Air Squadron.png" id="133_Elite Air Squadron" data-flag="@X" onclick="openSidebar('133_Elite Air Squadron',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\176_Extravagant Titandua.png" id="176_Extravagant Titandua" data-flag="@X" onclick="openSidebar('176_Extravagant Titandua',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\13_Gift of the Healer.png" id="13_Gift of the Healer" data-flag="@X" onclick="openSidebar('13_Gift of the Healer',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\57_Entrepreneurial Gossip.png" id="57_Entrepreneurial Gossip" data-flag="@X" onclick="openSidebar('57_Entrepreneurial Gossip',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\97_Englamored Hostess.png" id="97_Englamored Hostess" data-flag="@X" onclick="openSidebar('97_Englamored Hostess',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\134_Employment Contract.png" id="134_Employment Contract" data-flag="@X" onclick="openSidebar('134_Employment Contract',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\181_Hallostian Corjak.png" id="181_Hallostian Corjak" data-flag="@X" onclick="openSidebar('181_Hallostian Corjak',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\20_Life-ley Adept.png" id="20_Life-ley Adept" data-flag="@X" onclick="openSidebar('20_Life-ley Adept',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\61_Hallostian Gunslinger.png" id="61_Hallostian Gunslinger" data-flag="@X" onclick="openSidebar('61_Hallostian Gunslinger',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\98_Eternal Cataloguer.png" id="98_Eternal Cataloguer" data-flag="@X" onclick="openSidebar('98_Eternal Cataloguer',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\135_Fend off the Flies.png" id="135_Fend off the Flies" data-flag="@X" onclick="openSidebar('135_Fend off the Flies',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\182_The Indefatigable Man-Cat.png" id="182_The Indefatigable Man-Cat" data-flag="@X" onclick="openSidebar('182_The Indefatigable Man-Cat',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\22_Luxury Skyliner.png" id="22_Luxury Skyliner" data-flag="@X" onclick="openSidebar('22_Luxury Skyliner',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\62_Heavy Bomber.png" id="62_Heavy Bomber" data-flag="@X" onclick="openSidebar('62_Heavy Bomber',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\99_Final Servitude.png" id="99_Final Servitude" data-flag="@X" onclick="openSidebar('99_Final Servitude',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\140_Flamethrower Moll.png" id="140_Flamethrower Moll" data-flag="@X" onclick="openSidebar('140_Flamethrower Moll',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\183_Informant Merlady.png" id="183_Informant Merlady" data-flag="@X" onclick="openSidebar('183_Informant Merlady',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\26_Masked Surgeon.png" id="26_Masked Surgeon" data-flag="@X" onclick="openSidebar('26_Masked Surgeon',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\65_Hyperspeed Agent.png" id="65_Hyperspeed Agent" data-flag="@X" onclick="openSidebar('65_Hyperspeed Agent',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\100_Freelance Oni.png" id="100_Freelance Oni" data-flag="@X" onclick="openSidebar('100_Freelance Oni',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\141_Fleetfoot Courier.png" id="141_Fleetfoot Courier" data-flag="@X" onclick="openSidebar('141_Fleetfoot Courier',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\185_Kept Attack Wolf.png" id="185_Kept Attack Wolf" data-flag="@X" onclick="openSidebar('185_Kept Attack Wolf',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\27_Masterful Ringleader.png" id="27_Masterful Ringleader" data-flag="@X" onclick="openSidebar('27_Masterful Ringleader',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\66_Information Overload.png" id="66_Information Overload" data-flag="@X" onclick="openSidebar('66_Information Overload',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\105_Harvest Vitality.png" id="105_Harvest Vitality" data-flag="@X" onclick="openSidebar('105_Harvest Vitality',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\143_Jolly Stalker.png" id="143_Jolly Stalker" data-flag="@X" onclick="openSidebar('143_Jolly Stalker',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\186_Left to the Elements.png" id="186_Left to the Elements" data-flag="@X" onclick="openSidebar('186_Left to the Elements',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\28_Naval Security Officer.png" id="28_Naval Security Officer" data-flag="@X" onclick="openSidebar('28_Naval Security Officer',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\70_Ministry Inspector.png" id="70_Ministry Inspector" data-flag="@X" onclick="openSidebar('70_Ministry Inspector',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\106_Horrifying Unmasking.png" id="106_Horrifying Unmasking" data-flag="@X" onclick="openSidebar('106_Horrifying Unmasking',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\146_Lightning Familiar.png" id="146_Lightning Familiar" data-flag="@X" onclick="openSidebar('146_Lightning Familiar',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\187_Mantle of the Storm.png" id="187_Mantle of the Storm" data-flag="@X" onclick="openSidebar('187_Mantle of the Storm',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\29_Primalist Abbess.png" id="29_Primalist Abbess" data-flag="@X" onclick="openSidebar('29_Primalist Abbess',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\72_Priest of Lun, the Stormwing.png" id="72_Priest of Lun, the Stormwing" data-flag="@X" onclick="openSidebar('72_Priest of Lun, the Stormwing',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\107_Hypnotizing Coryphee.png" id="107_Hypnotizing Coryphee" data-flag="@X" onclick="openSidebar('107_Hypnotizing Coryphee',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\147_Lucky Dice.png" id="147_Lucky Dice" data-flag="@X" onclick="openSidebar('147_Lucky Dice',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\189_Oracle of Vrogg.png" id="189_Oracle of Vrogg" data-flag="@X" onclick="openSidebar('189_Oracle of Vrogg',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\30_Primalist Vigilante.png" id="30_Primalist Vigilante" data-flag="@X" onclick="openSidebar('30_Primalist Vigilante',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\73_Rain-soaked Getaway.png" id="73_Rain-soaked Getaway" data-flag="@X" onclick="openSidebar('73_Rain-soaked Getaway',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\111_Lethean Payment.png" id="111_Lethean Payment" data-flag="@X" onclick="openSidebar('111_Lethean Payment',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\149_Mine Boss.png" id="149_Mine Boss" data-flag="@X" onclick="openSidebar('149_Mine Boss',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\192_Primal Reversion.png" id="192_Primal Reversion" data-flag="@X" onclick="openSidebar('192_Primal Reversion',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\31_Prophetic Jester.png" id="31_Prophetic Jester" data-flag="@X" onclick="openSidebar('31_Prophetic Jester',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\74_Regiment's Sparkhand.png" id="74_Regiments Sparkhand" data-flag="@X" onclick="openSidebar('74_Regiments Sparkhand',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\112_Lumbering Stiltclaw.png" id="112_Lumbering Stiltclaw" data-flag="@X" onclick="openSidebar('112_Lumbering Stiltclaw',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\150_Ministry Scoutplane.png" id="150_Ministry Scoutplane" data-flag="@X" onclick="openSidebar('150_Ministry Scoutplane',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\193_Rooftop Watcher.png" id="193_Rooftop Watcher" data-flag="@X" onclick="openSidebar('193_Rooftop Watcher',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\32_Reflector Diva.png" id="32_Reflector Diva" data-flag="@X" onclick="openSidebar('32_Reflector Diva',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\75_Request an Audience.png" id="75_Request an Audience" data-flag="@X" onclick="openSidebar('75_Request an Audience',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\113_Machine-gun Maverick.png" id="113_Machine-gun Maverick" data-flag="@X" onclick="openSidebar('113_Machine-gun Maverick',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\153_Rabid Orthroid.png" id="153_Rabid Orthroid" data-flag="@X" onclick="openSidebar('153_Rabid Orthroid',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\195_Seeker of the Spheres.png" id="195_Seeker of the Spheres" data-flag="@X" onclick="openSidebar('195_Seeker of the Spheres',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\34_Riot Control Automaton.png" id="34_Riot Control Automaton" data-flag="@X" onclick="openSidebar('34_Riot Control Automaton',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\76_Sphenisca Guidebot.png" id="76_Sphenisca Guidebot" data-flag="@X" onclick="openSidebar('76_Sphenisca Guidebot',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\114_Marshal of the Sewers.png" id="114_Marshal of the Sewers" data-flag="@X" onclick="openSidebar('114_Marshal of the Sewers',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\159_Sightseeing Bronzehawk.png" id="159_Sightseeing Bronzehawk" data-flag="@X" onclick="openSidebar('159_Sightseeing Bronzehawk',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\198_Sophisticated Barman.png" id="198_Sophisticated Barman" data-flag="@X" onclick="openSidebar('198_Sophisticated Barman',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\35_Seal of Cleansing.png" id="35_Seal of Cleansing" data-flag="@X" onclick="openSidebar('35_Seal of Cleansing',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\79_Take a Moment.png" id="79_Take a Moment" data-flag="@X" onclick="openSidebar('79_Take a Moment',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\116_Prideful Executioner.png" id="116_Prideful Executioner" data-flag="@X" onclick="openSidebar('116_Prideful Executioner',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\161_Sudden Comeback.png" id="161_Sudden Comeback" data-flag="@X" onclick="openSidebar('161_Sudden Comeback',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\200_Sturdy Pitchfork.png" id="200_Sturdy Pitchfork" data-flag="@X" onclick="openSidebar('200_Sturdy Pitchfork',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\37_Siege Raid.png" id="37_Siege Raid" data-flag="@X" onclick="openSidebar('37_Siege Raid',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\80_Unpredicted Tornado.png" id="80_Unpredicted Tornado" data-flag="@X" onclick="openSidebar('80_Unpredicted Tornado',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\118_Retreat to Shadows.png" id="118_Retreat to Shadows" data-flag="@X" onclick="openSidebar('118_Retreat to Shadows',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\164_Tick-Ridden Jipoo.png" id="164_Tick-Ridden Jipoo" data-flag="@X" onclick="openSidebar('164_Tick-Ridden Jipoo',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\205_Timberize.png" id="205_Timberize" data-flag="@X" onclick="openSidebar('205_Timberize',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\40_Unstoppable Friend.png" id="40_Unstoppable Friend" data-flag="@X" onclick="openSidebar('40_Unstoppable Friend',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\82_Vengeant Victim.png" id="82_Vengeant Victim" data-flag="@X" onclick="openSidebar('82_Vengeant Victim',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\120_Secret Siphoner.png" id="120_Secret Siphoner" data-flag="@X" onclick="openSidebar('120_Secret Siphoner',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\165_Waste Tamer of Batra.png" id="165_Waste Tamer of Batra" data-flag="@X" onclick="openSidebar('165_Waste Tamer of Batra',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\206_Twisted Rage.png" id="206_Twisted Rage" data-flag="@X" onclick="openSidebar('206_Twisted Rage',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\42_We Have You Surrounded.png" id="42_We Have You Surrounded" data-flag="@X" onclick="openSidebar('42_We Have You Surrounded',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\166_Withering Sunstroke.png" id="166_Withering Sunstroke" data-flag="@X" onclick="openSidebar('166_Withering Sunstroke',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+					<div class="container"><img loading="lazy" alt="sets\WCD-files\img\25_Mariltia's Inner Despair.png" id="WCD_25_Mariltias Inner Despair" data-flag="@X" onclick="openSidebar('WCD_25_Mariltias Inner Despair',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\69_Leycore Defenses.png" id="WCD_69_Leycore Defenses" data-flag="@X" onclick="openSidebar('WCD_69_Leycore Defenses',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\87_Azania Voidrose.png" id="WCD_87_Azania Voidrose" data-flag="@X" onclick="openSidebar('WCD_87_Azania Voidrose',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\125_Arbiter's Gavel.png" id="WCD_125_Arbiters Gavel" data-flag="@X" onclick="openSidebar('WCD_125_Arbiters Gavel',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\180_Guidance of the Extinct.png" id="WCD_180_Guidance of the Extinct" data-flag="@X" onclick="openSidebar('WCD_180_Guidance of the Extinct',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\38_Skuyla, Last of the Vhalkiri.png" id="WCD_38_Skuyla, Last of the Vhalkiri" data-flag="@X" onclick="openSidebar('WCD_38_Skuyla, Last of the Vhalkiri',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\71_Morau and Jemel.png" id="WCD_71_Morau and Jemel" data-flag="@X" onclick="openSidebar('WCD_71_Morau and Jemel',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\89_Charge — Failure.png" id="WCD_89_Charge — Failure" data-flag="@X" onclick="openSidebar('WCD_89_Charge — Failure',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\128_Charge — Inciting A Riot.png" id="WCD_128_Charge — Inciting A Riot" data-flag="@X" onclick="openSidebar('WCD_128_Charge — Inciting A Riot',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\204_Tagdron's Call.png" id="WCD_204_Tagdrons Call" data-flag="@X" onclick="openSidebar('WCD_204_Tagdrons Call',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\5_Blessed Bonds.png" id="WCD_5_Blessed Bonds" data-flag="@X" onclick="openSidebar('WCD_5_Blessed Bonds',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\50_Charge — Tabriogni's Grand Plan.png" id="WCD_50_Charge — Tabriognis Grand Plan" data-flag="@X" onclick="openSidebar('WCD_50_Charge — Tabriognis Grand Plan',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\84_Annihilating Aura.png" id="WCD_84_Annihilating Aura" data-flag="@X" onclick="openSidebar('WCD_84_Annihilating Aura',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\151_Nightmares on Tour.png" id="WCD_151_Nightmares on Tour" data-flag="@X" onclick="openSidebar('WCD_151_Nightmares on Tour',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\169_Blessings of the Martyr Queen.png" id="WCD_169_Blessings of the Martyr Queen" data-flag="@X" onclick="openSidebar('WCD_169_Blessings of the Martyr Queen',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\7_Cage Dancer.png" id="WCD_7_Cage Dancer" data-flag="@X" onclick="openSidebar('WCD_7_Cage Dancer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\52_Deepsight Siphoner.png" id="WCD_52_Deepsight Siphoner" data-flag="@X" onclick="openSidebar('WCD_52_Deepsight Siphoner',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\85_Ashiok, Bemused.png" id="WCD_85_Ashiok, Bemused" data-flag="@X" onclick="openSidebar('WCD_85_Ashiok, Bemused',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\144_Ley-battery Tank.png" id="WCD_144_Ley-battery Tank" data-flag="@X" onclick="openSidebar('WCD_144_Ley-battery Tank',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\178_Gemrai, Unphased.png" id="WCD_178_Gemrai, Unphased" data-flag="@X" onclick="openSidebar('WCD_178_Gemrai, Unphased',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\21_Lisha, Security Minister.png" id="WCD_21_Lisha, Security Minister" data-flag="@X" onclick="openSidebar('WCD_21_Lisha, Security Minister',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\53_Disgraced Sparkhand.png" id="WCD_53_Disgraced Sparkhand" data-flag="@X" onclick="openSidebar('WCD_53_Disgraced Sparkhand',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\86_Ashiok's Judgment.png" id="WCD_86_Ashioks Judgment" data-flag="@X" onclick="openSidebar('WCD_86_Ashioks Judgment',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\145_Leytower's Shattering.png" id="WCD_145_Leytowers Shattering" data-flag="@X" onclick="openSidebar('WCD_145_Leytowers Shattering',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\179_Glorious Parade.png" id="WCD_179_Glorious Parade" data-flag="@X" onclick="openSidebar('WCD_179_Glorious Parade',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\23_Maiden of Eternities.png" id="WCD_23_Maiden of Eternities" data-flag="@X" onclick="openSidebar('WCD_23_Maiden of Eternities',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\55_Eidetic Artisan.png" id="WCD_55_Eidetic Artisan" data-flag="@X" onclick="openSidebar('WCD_55_Eidetic Artisan',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\94_Depraved Oracle.png" id="WCD_94_Depraved Oracle" data-flag="@X" onclick="openSidebar('WCD_94_Depraved Oracle',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\148_Mastermind Nekosyth.png" id="WCD_148_Mastermind Nekosyth" data-flag="@X" onclick="openSidebar('WCD_148_Mastermind Nekosyth',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\184_Kara of the Red Ribbons.png" id="WCD_184_Kara of the Red Ribbons" data-flag="@X" onclick="openSidebar('WCD_184_Kara of the Red Ribbons',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\24_Mariltia, Dominus of Sceri.png" id="WCD_24_Mariltia, Dominus of Sceri" data-flag="@X" onclick="openSidebar('WCD_24_Mariltia, Dominus of Sceri',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\68_Leycharged Exosuit.png" id="WCD_68_Leycharged Exosuit" data-flag="@X" onclick="openSidebar('WCD_68_Leycharged Exosuit',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\104_Hall of Nightmares.png" id="WCD_104_Hall of Nightmares" data-flag="@X" onclick="openSidebar('WCD_104_Hall of Nightmares',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\154_Righteous Longfang.png" id="WCD_154_Righteous Longfang" data-flag="@X" onclick="openSidebar('WCD_154_Righteous Longfang',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\190_Pelina Driue.png" id="WCD_190_Pelina Driue" data-flag="@X" onclick="openSidebar('WCD_190_Pelina Driue',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\33_Report to Parliament.png" id="WCD_33_Report to Parliament" data-flag="@X" onclick="openSidebar('WCD_33_Report to Parliament',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\77_Summoning Game.png" id="WCD_77_Summoning Game" data-flag="@X" onclick="openSidebar('WCD_77_Summoning Game',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\110_Keeper of Gerell Necropolis.png" id="WCD_110_Keeper of Gerell Necropolis" data-flag="@X" onclick="openSidebar('WCD_110_Keeper of Gerell Necropolis',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\156_Sachal's Betrayal.png" id="WCD_156_Sachals Betrayal" data-flag="@X" onclick="openSidebar('WCD_156_Sachals Betrayal',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\191_Primal Communion.png" id="WCD_191_Primal Communion" data-flag="@X" onclick="openSidebar('WCD_191_Primal Communion',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\39_Trend Chasers.png" id="WCD_39_Trend Chasers" data-flag="@X" onclick="openSidebar('WCD_39_Trend Chasers',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\78_Tabriogni, Minister of Transport.png" id="WCD_78_Tabriogni, Minister of Transport" data-flag="@X" onclick="openSidebar('WCD_78_Tabriogni, Minister of Transport',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\115_Mob Enforcer.png" id="WCD_115_Mob Enforcer" data-flag="@X" onclick="openSidebar('WCD_115_Mob Enforcer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\162_Tamer of Giants.png" id="WCD_162_Tamer of Giants" data-flag="@X" onclick="openSidebar('WCD_162_Tamer of Giants',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\201_Subject 1951.png" id="WCD_201_Subject 1951" data-flag="@X" onclick="openSidebar('WCD_201_Subject 1951',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\41_Urban Patrol Blimp.png" id="WCD_41_Urban Patrol Blimp" data-flag="@X" onclick="openSidebar('WCD_41_Urban Patrol Blimp',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\83_Zanri Edel, Iceling Psion.png" id="WCD_83_Zanri Edel, Iceling Psion" data-flag="@X" onclick="openSidebar('WCD_83_Zanri Edel, Iceling Psion',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\119_Savani Voidrose.png" id="WCD_119_Savani Voidrose" data-flag="@X" onclick="openSidebar('WCD_119_Savani Voidrose',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\163_Tensionwire Balance.png" id="WCD_163_Tensionwire Balance" data-flag="@X" onclick="openSidebar('WCD_163_Tensionwire Balance',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\203_Tagdron, Verdant Archon.png" id="WCD_203_Tagdron, Verdant Archon" data-flag="@X" onclick="openSidebar('WCD_203_Tagdron, Verdant Archon',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\1_Anointed Armor.png" id="WCD_1_Anointed Armor" data-flag="@X" onclick="openSidebar('WCD_1_Anointed Armor',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\43_Ancient Mossback.png" id="WCD_43_Ancient Mossback" data-flag="@X" onclick="openSidebar('WCD_43_Ancient Mossback',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\124_Wroszy's Gravedigger.png" id="WCD_124_Wroszys Gravedigger" data-flag="@X" onclick="openSidebar('WCD_124_Wroszys Gravedigger',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\127_Chandra's Flashover.png" id="WCD_127_Chandras Flashover" data-flag="@X" onclick="openSidebar('WCD_127_Chandras Flashover',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\168_Beneficent Wanderlust.png" id="WCD_168_Beneficent Wanderlust" data-flag="@X" onclick="openSidebar('WCD_168_Beneficent Wanderlust',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\2_Arms Dealer's Favorite.png" id="WCD_2_Arms Dealers Favorite" data-flag="@X" onclick="openSidebar('WCD_2_Arms Dealers Favorite',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\44_Astounding Testimony.png" id="WCD_44_Astounding Testimony" data-flag="@X" onclick="openSidebar('WCD_44_Astounding Testimony',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\88_Cartel Pistolier.png" id="WCD_88_Cartel Pistolier" data-flag="@X" onclick="openSidebar('WCD_88_Cartel Pistolier',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\129_Crykal, Sharpshooter.png" id="WCD_129_Crykal, Sharpshooter" data-flag="@X" onclick="openSidebar('WCD_129_Crykal, Sharpshooter',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\170_Charge — Willful Pollution.png" id="WCD_170_Charge — Willful Pollution" data-flag="@X" onclick="openSidebar('WCD_170_Charge — Willful Pollution',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\3_Ascendant Awareness.png" id="WCD_3_Ascendant Awareness" data-flag="@X" onclick="openSidebar('WCD_3_Ascendant Awareness',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\45_A Big Enough Bribe.png" id="WCD_45_A Big Enough Bribe" data-flag="@X" onclick="openSidebar('WCD_45_A Big Enough Bribe',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\90_Charge — Forbidden Elementalism.png" id="WCD_90_Charge — Forbidden Elementalism" data-flag="@X" onclick="openSidebar('WCD_90_Charge — Forbidden Elementalism',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\132_Eccentric Engineer.png" id="WCD_132_Eccentric Engineer" data-flag="@X" onclick="openSidebar('WCD_132_Eccentric Engineer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\171_Demonstration Match.png" id="WCD_171_Demonstration Match" data-flag="@X" onclick="openSidebar('WCD_171_Demonstration Match',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\9_Encava, Lanternbearer.png" id="WCD_9_Encava, Lanternbearer" data-flag="@X" onclick="openSidebar('WCD_9_Encava, Lanternbearer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\49_Charge — Grand Theft.png" id="WCD_49_Charge — Grand Theft" data-flag="@X" onclick="openSidebar('WCD_49_Charge — Grand Theft',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\91_Circus' Chief Doctor.png" id="WCD_91_Circus Chief Doctor" data-flag="@X" onclick="openSidebar('WCD_91_Circus Chief Doctor',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\136_Fiendish Solo.png" id="WCD_136_Fiendish Solo" data-flag="@X" onclick="openSidebar('WCD_136_Fiendish Solo',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\173_Elder Lokar.png" id="WCD_173_Elder Lokar" data-flag="@X" onclick="openSidebar('WCD_173_Elder Lokar',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\10_Form of the Vhalkiri.png" id="WCD_10_Form of the Vhalkiri" data-flag="@X" onclick="openSidebar('WCD_10_Form of the Vhalkiri',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\51_Deceptive Appraiser.png" id="WCD_51_Deceptive Appraiser" data-flag="@X" onclick="openSidebar('WCD_51_Deceptive Appraiser',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\95_Dying to Get In.png" id="WCD_95_Dying to Get In" data-flag="@X" onclick="openSidebar('WCD_95_Dying to Get In',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\137_Fire-Swinger.png" id="WCD_137_Fire-Swinger" data-flag="@X" onclick="openSidebar('WCD_137_Fire-Swinger',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\177_The Fluffiest Vampire.png" id="WCD_177_The Fluffiest Vampire" data-flag="@X" onclick="openSidebar('WCD_177_The Fluffiest Vampire',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\12_Games Tester.png" id="WCD_12_Games Tester" data-flag="@X" onclick="openSidebar('WCD_12_Games Tester',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\58_Fabricate.png" id="WCD_58_Fabricate" data-flag="@X" onclick="openSidebar('WCD_58_Fabricate',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\101_Gaze Into the Red Door.png" id="WCD_101_Gaze Into the Red Door" data-flag="@X" onclick="openSidebar('WCD_101_Gaze Into the Red Door',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\138_Fire-wand Phoenix.png" id="WCD_138_Fire-wand Phoenix" data-flag="@X" onclick="openSidebar('WCD_138_Fire-wand Phoenix',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\188_Momentivorous Kagi.png" id="WCD_188_Momentivorous Kagi" data-flag="@X" onclick="openSidebar('WCD_188_Momentivorous Kagi',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\14_Highborn Brigadier.png" id="WCD_14_Highborn Brigadier" data-flag="@X" onclick="openSidebar('WCD_14_Highborn Brigadier',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\59_FCD Aerial Commander.png" id="WCD_59_FCD Aerial Commander" data-flag="@X" onclick="openSidebar('WCD_59_FCD Aerial Commander',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\102_Glimpse Hidden Horrors.png" id="WCD_102_Glimpse Hidden Horrors" data-flag="@X" onclick="openSidebar('WCD_102_Glimpse Hidden Horrors',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\139_Fireworks Finale.png" id="WCD_139_Fireworks Finale" data-flag="@X" onclick="openSidebar('WCD_139_Fireworks Finale',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\194_Search the Area.png" id="WCD_194_Search the Area" data-flag="@X" onclick="openSidebar('WCD_194_Search the Area',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\15_Imprison.png" id="WCD_15_Imprison" data-flag="@X" onclick="openSidebar('WCD_15_Imprison',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\60_Glittering Roadster.png" id="WCD_60_Glittering Roadster" data-flag="@X" onclick="openSidebar('WCD_60_Glittering Roadster',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\103_Greedy Thug.png" id="WCD_103_Greedy Thug" data-flag="@X" onclick="openSidebar('WCD_103_Greedy Thug',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\142_Hellfuel Bike.png" id="WCD_142_Hellfuel Bike" data-flag="@X" onclick="openSidebar('WCD_142_Hellfuel Bike',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\196_Seizure and Requisition Agent.png" id="WCD_196_Seizure and Requisition Agent" data-flag="@X" onclick="openSidebar('WCD_196_Seizure and Requisition Agent',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\16_Ingenious Hostess.png" id="WCD_16_Ingenious Hostess" data-flag="@X" onclick="openSidebar('WCD_16_Ingenious Hostess',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\63_Heavy Lifter Dirigible.png" id="WCD_63_Heavy Lifter Dirigible" data-flag="@X" onclick="openSidebar('WCD_63_Heavy Lifter Dirigible',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\108_Infiltrator Partygoer.png" id="WCD_108_Infiltrator Partygoer" data-flag="@X" onclick="openSidebar('WCD_108_Infiltrator Partygoer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\152_Persuasive Promotion.png" id="WCD_152_Persuasive Promotion" data-flag="@X" onclick="openSidebar('WCD_152_Persuasive Promotion',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\197_Sir Wybud of Hallost.png" id="WCD_197_Sir Wybud of Hallost" data-flag="@X" onclick="openSidebar('WCD_197_Sir Wybud of Hallost',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\17_Inquisitive Tuspiri.png" id="WCD_17_Inquisitive Tuspiri" data-flag="@X" onclick="openSidebar('WCD_17_Inquisitive Tuspiri',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\64_Hired Thief.png" id="WCD_64_Hired Thief" data-flag="@X" onclick="openSidebar('WCD_64_Hired Thief',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\109_Jack of Ripped Hearts.png" id="WCD_109_Jack of Ripped Hearts" data-flag="@X" onclick="openSidebar('WCD_109_Jack of Ripped Hearts',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\155_Ring of Fire.png" id="WCD_155_Ring of Fire" data-flag="@X" onclick="openSidebar('WCD_155_Ring of Fire',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\199_Stubborn Stitcher.png" id="WCD_199_Stubborn Stitcher" data-flag="@X" onclick="openSidebar('WCD_199_Stubborn Stitcher',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\18_Jollimo's Grandest Form.png" id="WCD_18_Jollimos Grandest Form" data-flag="@X" onclick="openSidebar('WCD_18_Jollimos Grandest Form',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\67_Join the Family.png" id="WCD_67_Join the Family" data-flag="@X" onclick="openSidebar('WCD_67_Join the Family',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\117_Recaptured Experiment.png" id="WCD_117_Recaptured Experiment" data-flag="@X" onclick="openSidebar('WCD_117_Recaptured Experiment',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\157_Scattering Truths.png" id="WCD_157_Scattering Truths" data-flag="@X" onclick="openSidebar('WCD_157_Scattering Truths',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\202_Surreptitious Compassion.png" id="WCD_202_Surreptitious Compassion" data-flag="@X" onclick="openSidebar('WCD_202_Surreptitious Compassion',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\19_Lady of the Summer.png" id="WCD_19_Lady of the Summer" data-flag="@X" onclick="openSidebar('WCD_19_Lady of the Summer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\81_An Unregulated Route.png" id="WCD_81_An Unregulated Route" data-flag="@X" onclick="openSidebar('WCD_81_An Unregulated Route',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\121_Shadowfang Cauldron.png" id="WCD_121_Shadowfang Cauldron" data-flag="@X" onclick="openSidebar('WCD_121_Shadowfang Cauldron',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\158_Scourge of Theros.png" id="WCD_158_Scourge of Theros" data-flag="@X" onclick="openSidebar('WCD_158_Scourge of Theros',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\207_White Tiger Companion.png" id="WCD_207_White Tiger Companion" data-flag="@X" onclick="openSidebar('WCD_207_White Tiger Companion',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\36_Shoola, Dove Dancer.png" id="WCD_36_Shoola, Dove Dancer" data-flag="@X" onclick="openSidebar('WCD_36_Shoola, Dove Dancer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\46_Bright-Side Poet.png" id="WCD_46_Bright-Side Poet" data-flag="@X" onclick="openSidebar('WCD_46_Bright-Side Poet',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\122_Smothered in Flesh.png" id="WCD_122_Smothered in Flesh" data-flag="@X" onclick="openSidebar('WCD_122_Smothered in Flesh',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\160_Start the Real Show.png" id="WCD_160_Start the Real Show" data-flag="@X" onclick="openSidebar('WCD_160_Start the Real Show',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\167_Addition to the Landscape.png" id="WCD_167_Addition to the Landscape" data-flag="@X" onclick="openSidebar('WCD_167_Addition to the Landscape',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\4_Bar the Exit.png" id="WCD_4_Bar the Exit" data-flag="@X" onclick="openSidebar('WCD_4_Bar the Exit',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\47_Cartel Conjuror.png" id="WCD_47_Cartel Conjuror" data-flag="@X" onclick="openSidebar('WCD_47_Cartel Conjuror',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\123_Witness to Depravity.png" id="WCD_123_Witness to Depravity" data-flag="@X" onclick="openSidebar('WCD_123_Witness to Depravity',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\126_Chained Elder Firemaw.png" id="WCD_126_Chained Elder Firemaw" data-flag="@X" onclick="openSidebar('WCD_126_Chained Elder Firemaw',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\172_Distinguished Scaletrader.png" id="WCD_172_Distinguished Scaletrader" data-flag="@X" onclick="openSidebar('WCD_172_Distinguished Scaletrader',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\6_Bomb Runner.png" id="WCD_6_Bomb Runner" data-flag="@X" onclick="openSidebar('WCD_6_Bomb Runner',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\48_Charge — Falsifying Records.png" id="WCD_48_Charge — Falsifying Records" data-flag="@X" onclick="openSidebar('WCD_48_Charge — Falsifying Records',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\92_Cognition Consumption.png" id="WCD_92_Cognition Consumption" data-flag="@X" onclick="openSidebar('WCD_92_Cognition Consumption',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\130_Dealer's Deck.png" id="WCD_130_Dealers Deck" data-flag="@X" onclick="openSidebar('WCD_130_Dealers Deck',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\174_Eumidian Trailtracer.png" id="WCD_174_Eumidian Trailtracer" data-flag="@X" onclick="openSidebar('WCD_174_Eumidian Trailtracer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\8_Come to an Understanding.png" id="WCD_8_Come to an Understanding" data-flag="@X" onclick="openSidebar('WCD_8_Come to an Understanding',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\54_Eager Salvager.png" id="WCD_54_Eager Salvager" data-flag="@X" onclick="openSidebar('WCD_54_Eager Salvager',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\93_Cunning Bat-Raiser.png" id="WCD_93_Cunning Bat-Raiser" data-flag="@X" onclick="openSidebar('WCD_93_Cunning Bat-Raiser',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\131_Devilish Wrath.png" id="WCD_131_Devilish Wrath" data-flag="@X" onclick="openSidebar('WCD_131_Devilish Wrath',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\175_Experienced Harpoonist.png" id="WCD_175_Experienced Harpoonist" data-flag="@X" onclick="openSidebar('WCD_175_Experienced Harpoonist',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\11_Frontiersville Mascot.png" id="WCD_11_Frontiersville Mascot" data-flag="@X" onclick="openSidebar('WCD_11_Frontiersville Mascot',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\56_Elder Bidrak.png" id="WCD_56_Elder Bidrak" data-flag="@X" onclick="openSidebar('WCD_56_Elder Bidrak',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\96_Elimination Contest.png" id="WCD_96_Elimination Contest" data-flag="@X" onclick="openSidebar('WCD_96_Elimination Contest',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\133_Elite Air Squadron.png" id="WCD_133_Elite Air Squadron" data-flag="@X" onclick="openSidebar('WCD_133_Elite Air Squadron',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\176_Extravagant Titandua.png" id="WCD_176_Extravagant Titandua" data-flag="@X" onclick="openSidebar('WCD_176_Extravagant Titandua',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\13_Gift of the Healer.png" id="WCD_13_Gift of the Healer" data-flag="@X" onclick="openSidebar('WCD_13_Gift of the Healer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\57_Entrepreneurial Gossip.png" id="WCD_57_Entrepreneurial Gossip" data-flag="@X" onclick="openSidebar('WCD_57_Entrepreneurial Gossip',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\97_Englamored Hostess.png" id="WCD_97_Englamored Hostess" data-flag="@X" onclick="openSidebar('WCD_97_Englamored Hostess',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\134_Employment Contract.png" id="WCD_134_Employment Contract" data-flag="@X" onclick="openSidebar('WCD_134_Employment Contract',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\181_Hallostian Corjak.png" id="WCD_181_Hallostian Corjak" data-flag="@X" onclick="openSidebar('WCD_181_Hallostian Corjak',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\20_Life-ley Adept.png" id="WCD_20_Life-ley Adept" data-flag="@X" onclick="openSidebar('WCD_20_Life-ley Adept',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\61_Hallostian Gunslinger.png" id="WCD_61_Hallostian Gunslinger" data-flag="@X" onclick="openSidebar('WCD_61_Hallostian Gunslinger',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\98_Eternal Cataloguer.png" id="WCD_98_Eternal Cataloguer" data-flag="@X" onclick="openSidebar('WCD_98_Eternal Cataloguer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\135_Fend off the Flies.png" id="WCD_135_Fend off the Flies" data-flag="@X" onclick="openSidebar('WCD_135_Fend off the Flies',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\182_The Indefatigable Man-Cat.png" id="WCD_182_The Indefatigable Man-Cat" data-flag="@X" onclick="openSidebar('WCD_182_The Indefatigable Man-Cat',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\22_Luxury Skyliner.png" id="WCD_22_Luxury Skyliner" data-flag="@X" onclick="openSidebar('WCD_22_Luxury Skyliner',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\62_Heavy Bomber.png" id="WCD_62_Heavy Bomber" data-flag="@X" onclick="openSidebar('WCD_62_Heavy Bomber',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\99_Final Servitude.png" id="WCD_99_Final Servitude" data-flag="@X" onclick="openSidebar('WCD_99_Final Servitude',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\140_Flamethrower Moll.png" id="WCD_140_Flamethrower Moll" data-flag="@X" onclick="openSidebar('WCD_140_Flamethrower Moll',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\183_Informant Merlady.png" id="WCD_183_Informant Merlady" data-flag="@X" onclick="openSidebar('WCD_183_Informant Merlady',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\26_Masked Surgeon.png" id="WCD_26_Masked Surgeon" data-flag="@X" onclick="openSidebar('WCD_26_Masked Surgeon',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\65_Hyperspeed Agent.png" id="WCD_65_Hyperspeed Agent" data-flag="@X" onclick="openSidebar('WCD_65_Hyperspeed Agent',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\100_Freelance Oni.png" id="WCD_100_Freelance Oni" data-flag="@X" onclick="openSidebar('WCD_100_Freelance Oni',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\141_Fleetfoot Courier.png" id="WCD_141_Fleetfoot Courier" data-flag="@X" onclick="openSidebar('WCD_141_Fleetfoot Courier',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\185_Kept Attack Wolf.png" id="WCD_185_Kept Attack Wolf" data-flag="@X" onclick="openSidebar('WCD_185_Kept Attack Wolf',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\27_Masterful Ringleader.png" id="WCD_27_Masterful Ringleader" data-flag="@X" onclick="openSidebar('WCD_27_Masterful Ringleader',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\66_Information Overload.png" id="WCD_66_Information Overload" data-flag="@X" onclick="openSidebar('WCD_66_Information Overload',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\105_Harvest Vitality.png" id="WCD_105_Harvest Vitality" data-flag="@X" onclick="openSidebar('WCD_105_Harvest Vitality',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\143_Jolly Stalker.png" id="WCD_143_Jolly Stalker" data-flag="@X" onclick="openSidebar('WCD_143_Jolly Stalker',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\186_Left to the Elements.png" id="WCD_186_Left to the Elements" data-flag="@X" onclick="openSidebar('WCD_186_Left to the Elements',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\28_Naval Security Officer.png" id="WCD_28_Naval Security Officer" data-flag="@X" onclick="openSidebar('WCD_28_Naval Security Officer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\70_Ministry Inspector.png" id="WCD_70_Ministry Inspector" data-flag="@X" onclick="openSidebar('WCD_70_Ministry Inspector',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\106_Horrifying Unmasking.png" id="WCD_106_Horrifying Unmasking" data-flag="@X" onclick="openSidebar('WCD_106_Horrifying Unmasking',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\146_Lightning Familiar.png" id="WCD_146_Lightning Familiar" data-flag="@X" onclick="openSidebar('WCD_146_Lightning Familiar',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\187_Mantle of the Storm.png" id="WCD_187_Mantle of the Storm" data-flag="@X" onclick="openSidebar('WCD_187_Mantle of the Storm',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\29_Primalist Abbess.png" id="WCD_29_Primalist Abbess" data-flag="@X" onclick="openSidebar('WCD_29_Primalist Abbess',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\72_Priest of Lun, the Stormwing.png" id="WCD_72_Priest of Lun, the Stormwing" data-flag="@X" onclick="openSidebar('WCD_72_Priest of Lun, the Stormwing',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\107_Hypnotizing Coryphee.png" id="WCD_107_Hypnotizing Coryphee" data-flag="@X" onclick="openSidebar('WCD_107_Hypnotizing Coryphee',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\147_Lucky Dice.png" id="WCD_147_Lucky Dice" data-flag="@X" onclick="openSidebar('WCD_147_Lucky Dice',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\189_Oracle of Vrogg.png" id="WCD_189_Oracle of Vrogg" data-flag="@X" onclick="openSidebar('WCD_189_Oracle of Vrogg',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\30_Primalist Vigilante.png" id="WCD_30_Primalist Vigilante" data-flag="@X" onclick="openSidebar('WCD_30_Primalist Vigilante',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\73_Rain-soaked Getaway.png" id="WCD_73_Rain-soaked Getaway" data-flag="@X" onclick="openSidebar('WCD_73_Rain-soaked Getaway',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\111_Lethean Payment.png" id="WCD_111_Lethean Payment" data-flag="@X" onclick="openSidebar('WCD_111_Lethean Payment',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\149_Mine Boss.png" id="WCD_149_Mine Boss" data-flag="@X" onclick="openSidebar('WCD_149_Mine Boss',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\192_Primal Reversion.png" id="WCD_192_Primal Reversion" data-flag="@X" onclick="openSidebar('WCD_192_Primal Reversion',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\31_Prophetic Jester.png" id="WCD_31_Prophetic Jester" data-flag="@X" onclick="openSidebar('WCD_31_Prophetic Jester',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\74_Regiment's Sparkhand.png" id="WCD_74_Regiments Sparkhand" data-flag="@X" onclick="openSidebar('WCD_74_Regiments Sparkhand',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\112_Lumbering Stiltclaw.png" id="WCD_112_Lumbering Stiltclaw" data-flag="@X" onclick="openSidebar('WCD_112_Lumbering Stiltclaw',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\150_Ministry Scoutplane.png" id="WCD_150_Ministry Scoutplane" data-flag="@X" onclick="openSidebar('WCD_150_Ministry Scoutplane',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\193_Rooftop Watcher.png" id="WCD_193_Rooftop Watcher" data-flag="@X" onclick="openSidebar('WCD_193_Rooftop Watcher',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\32_Reflector Diva.png" id="WCD_32_Reflector Diva" data-flag="@X" onclick="openSidebar('WCD_32_Reflector Diva',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\75_Request an Audience.png" id="WCD_75_Request an Audience" data-flag="@X" onclick="openSidebar('WCD_75_Request an Audience',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\113_Machine-gun Maverick.png" id="WCD_113_Machine-gun Maverick" data-flag="@X" onclick="openSidebar('WCD_113_Machine-gun Maverick',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\153_Rabid Orthroid.png" id="WCD_153_Rabid Orthroid" data-flag="@X" onclick="openSidebar('WCD_153_Rabid Orthroid',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\195_Seeker of the Spheres.png" id="WCD_195_Seeker of the Spheres" data-flag="@X" onclick="openSidebar('WCD_195_Seeker of the Spheres',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\34_Riot Control Automaton.png" id="WCD_34_Riot Control Automaton" data-flag="@X" onclick="openSidebar('WCD_34_Riot Control Automaton',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\76_Sphenisca Guidebot.png" id="WCD_76_Sphenisca Guidebot" data-flag="@X" onclick="openSidebar('WCD_76_Sphenisca Guidebot',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\114_Marshal of the Sewers.png" id="WCD_114_Marshal of the Sewers" data-flag="@X" onclick="openSidebar('WCD_114_Marshal of the Sewers',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\159_Sightseeing Bronzehawk.png" id="WCD_159_Sightseeing Bronzehawk" data-flag="@X" onclick="openSidebar('WCD_159_Sightseeing Bronzehawk',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\198_Sophisticated Barman.png" id="WCD_198_Sophisticated Barman" data-flag="@X" onclick="openSidebar('WCD_198_Sophisticated Barman',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\35_Seal of Cleansing.png" id="WCD_35_Seal of Cleansing" data-flag="@X" onclick="openSidebar('WCD_35_Seal of Cleansing',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\79_Take a Moment.png" id="WCD_79_Take a Moment" data-flag="@X" onclick="openSidebar('WCD_79_Take a Moment',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\116_Prideful Executioner.png" id="WCD_116_Prideful Executioner" data-flag="@X" onclick="openSidebar('WCD_116_Prideful Executioner',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\161_Sudden Comeback.png" id="WCD_161_Sudden Comeback" data-flag="@X" onclick="openSidebar('WCD_161_Sudden Comeback',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\200_Sturdy Pitchfork.png" id="WCD_200_Sturdy Pitchfork" data-flag="@X" onclick="openSidebar('WCD_200_Sturdy Pitchfork',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\37_Siege Raid.png" id="WCD_37_Siege Raid" data-flag="@X" onclick="openSidebar('WCD_37_Siege Raid',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\80_Unpredicted Tornado.png" id="WCD_80_Unpredicted Tornado" data-flag="@X" onclick="openSidebar('WCD_80_Unpredicted Tornado',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\118_Retreat to Shadows.png" id="WCD_118_Retreat to Shadows" data-flag="@X" onclick="openSidebar('WCD_118_Retreat to Shadows',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\164_Tick-Ridden Jipoo.png" id="WCD_164_Tick-Ridden Jipoo" data-flag="@X" onclick="openSidebar('WCD_164_Tick-Ridden Jipoo',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\205_Timberize.png" id="WCD_205_Timberize" data-flag="@X" onclick="openSidebar('WCD_205_Timberize',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\40_Unstoppable Friend.png" id="WCD_40_Unstoppable Friend" data-flag="@X" onclick="openSidebar('WCD_40_Unstoppable Friend',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\82_Vengeant Victim.png" id="WCD_82_Vengeant Victim" data-flag="@X" onclick="openSidebar('WCD_82_Vengeant Victim',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\120_Secret Siphoner.png" id="WCD_120_Secret Siphoner" data-flag="@X" onclick="openSidebar('WCD_120_Secret Siphoner',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\165_Waste Tamer of Batra.png" id="WCD_165_Waste Tamer of Batra" data-flag="@X" onclick="openSidebar('WCD_165_Waste Tamer of Batra',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\206_Twisted Rage.png" id="WCD_206_Twisted Rage" data-flag="@X" onclick="openSidebar('WCD_206_Twisted Rage',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\42_We Have You Surrounded.png" id="WCD_42_We Have You Surrounded" data-flag="@X" onclick="openSidebar('WCD_42_We Have You Surrounded',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="WCD_e" data-flag="@E" onclick="openSidebar('WCD_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="WCD_e" data-flag="@E" onclick="openSidebar('WCD_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\166_Withering Sunstroke.png" id="WCD_166_Withering Sunstroke" data-flag="@X" onclick="openSidebar('WCD_166_Withering Sunstroke',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="WCD_e" data-flag="@E" onclick="openSidebar('WCD_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WCD_er" data-flag="@E" onclick="openSidebar('WCD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WCD_er" data-flag="@E" onclick="openSidebar('WCD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WCD_er" data-flag="@E" onclick="openSidebar('WCD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WCD_er" data-flag="@E" onclick="openSidebar('WCD_er',false)"></div>
 				<div id="gold" class="anchor"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\231_Zone of Truth.png" id="231_Zone of Truth" data-flag="@X" onclick="openSidebar('231_Zone of Truth',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\222_Rikh, Don of the Scales.png" id="222_Rikh, Don of the Scales" data-flag="@X" onclick="openSidebar('222_Rikh, Don of the Scales',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\208_Bloodbath Harlequin.png" id="208_Bloodbath Harlequin" data-flag="@X" onclick="openSidebar('208_Bloodbath Harlequin',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\223_Riwaya, Bound Deity.png" id="223_Riwaya, Bound Deity" data-flag="@X" onclick="openSidebar('223_Riwaya, Bound Deity',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\227_Sudden Power-up.png" id="227_Sudden Power-up" data-flag="@X" onclick="openSidebar('227_Sudden Power-up',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\225_Shield Charm.png" id="225_Shield Charm" data-flag="@X" onclick="openSidebar('225_Shield Charm',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\220_Mob Boss.png" id="220_Mob Boss" data-flag="@X" onclick="openSidebar('220_Mob Boss',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\214_Filigree Acrobat.png" id="214_Filigree Acrobat" data-flag="@X" onclick="openSidebar('214_Filigree Acrobat',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\219_Mistress of Cats.png" id="219_Mistress of Cats" data-flag="@X" onclick="openSidebar('219_Mistress of Cats',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\215_Heroes' Assembly.png" id="215_Heroes Assembly" data-flag="@X" onclick="openSidebar('215_Heroes Assembly',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\218_Maren, FCD Chief.png" id="218_Maren, FCD Chief" data-flag="@X" onclick="openSidebar('218_Maren, FCD Chief',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\213_Ezuki, Savani's Consort.png" id="213_Ezuki, Savanis Consort" data-flag="@X" onclick="openSidebar('213_Ezuki, Savanis Consort',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\228_Tabriogni's Fortress.png" id="228_Tabriognis Fortress" data-flag="@X" onclick="openSidebar('228_Tabriognis Fortress',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\210_Duchess Arane.png" id="210_Duchess Arane" data-flag="@X" onclick="openSidebar('210_Duchess Arane',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\212_Eyrik's Keys.png" id="212_Eyriks Keys" data-flag="@X" onclick="openSidebar('212_Eyriks Keys',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\209_Capital Archives.png" id="209_Capital Archives" data-flag="@X" onclick="openSidebar('209_Capital Archives',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\221_Progression of Needles.png" id="221_Progression of Needles" data-flag="@X" onclick="openSidebar('221_Progression of Needles',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\217_Leycore Transformer.png" id="217_Leycore Transformer" data-flag="@X" onclick="openSidebar('217_Leycore Transformer',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\226_Sir Gremor, the Steadfast.png" id="226_Sir Gremor, the Steadfast" data-flag="@X" onclick="openSidebar('226_Sir Gremor, the Steadfast',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\211_Eyrik, Wroszy's Right Hand.png" id="211_Eyrik, Wroszys Right Hand" data-flag="@X" onclick="openSidebar('211_Eyrik, Wroszys Right Hand',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\216_Jhan, Committed Investigator.png" id="216_Jhan, Committed Investigator" data-flag="@X" onclick="openSidebar('216_Jhan, Committed Investigator',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\224_Sawblade Game.png" id="224_Sawblade Game" data-flag="@X" onclick="openSidebar('224_Sawblade Game',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\229_Wroszy, Circus Founder.png" id="229_Wroszy, Circus Founder" data-flag="@X" onclick="openSidebar('229_Wroszy, Circus Founder',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\230_Chandra, Expanding Horizons.png" id="230_Chandra, Expanding Horizons" data-flag="@X" onclick="openSidebar('230_Chandra, Expanding Horizons',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\231_Zone of Truth.png" id="WCD_231_Zone of Truth" data-flag="@X" onclick="openSidebar('WCD_231_Zone of Truth',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\222_Rikh, Don of the Scales.png" id="WCD_222_Rikh, Don of the Scales" data-flag="@X" onclick="openSidebar('WCD_222_Rikh, Don of the Scales',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\208_Bloodbath Harlequin.png" id="WCD_208_Bloodbath Harlequin" data-flag="@X" onclick="openSidebar('WCD_208_Bloodbath Harlequin',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\223_Riwaya, Bound Deity.png" id="WCD_223_Riwaya, Bound Deity" data-flag="@X" onclick="openSidebar('WCD_223_Riwaya, Bound Deity',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\227_Sudden Power-up.png" id="WCD_227_Sudden Power-up" data-flag="@X" onclick="openSidebar('WCD_227_Sudden Power-up',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\225_Shield Charm.png" id="WCD_225_Shield Charm" data-flag="@X" onclick="openSidebar('WCD_225_Shield Charm',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\220_Mob Boss.png" id="WCD_220_Mob Boss" data-flag="@X" onclick="openSidebar('WCD_220_Mob Boss',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\214_Filigree Acrobat.png" id="WCD_214_Filigree Acrobat" data-flag="@X" onclick="openSidebar('WCD_214_Filigree Acrobat',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\219_Mistress of Cats.png" id="WCD_219_Mistress of Cats" data-flag="@X" onclick="openSidebar('WCD_219_Mistress of Cats',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\215_Heroes' Assembly.png" id="WCD_215_Heroes Assembly" data-flag="@X" onclick="openSidebar('WCD_215_Heroes Assembly',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\218_Maren, FCD Chief.png" id="WCD_218_Maren, FCD Chief" data-flag="@X" onclick="openSidebar('WCD_218_Maren, FCD Chief',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="WCD_e" data-flag="@E" onclick="openSidebar('WCD_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="WCD_e" data-flag="@E" onclick="openSidebar('WCD_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="WCD_e" data-flag="@E" onclick="openSidebar('WCD_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="WCD_e" data-flag="@E" onclick="openSidebar('WCD_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WCD_er" data-flag="@E" onclick="openSidebar('WCD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WCD_er" data-flag="@E" onclick="openSidebar('WCD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WCD_er" data-flag="@E" onclick="openSidebar('WCD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WCD_er" data-flag="@E" onclick="openSidebar('WCD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WCD_er" data-flag="@E" onclick="openSidebar('WCD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\213_Ezuki, Savani's Consort.png" id="WCD_213_Ezuki, Savanis Consort" data-flag="@X" onclick="openSidebar('WCD_213_Ezuki, Savanis Consort',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\228_Tabriogni's Fortress.png" id="WCD_228_Tabriognis Fortress" data-flag="@X" onclick="openSidebar('WCD_228_Tabriognis Fortress',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\210_Duchess Arane.png" id="WCD_210_Duchess Arane" data-flag="@X" onclick="openSidebar('WCD_210_Duchess Arane',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\212_Eyrik's Keys.png" id="WCD_212_Eyriks Keys" data-flag="@X" onclick="openSidebar('WCD_212_Eyriks Keys',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\209_Capital Archives.png" id="WCD_209_Capital Archives" data-flag="@X" onclick="openSidebar('WCD_209_Capital Archives',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\221_Progression of Needles.png" id="WCD_221_Progression of Needles" data-flag="@X" onclick="openSidebar('WCD_221_Progression of Needles',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\217_Leycore Transformer.png" id="WCD_217_Leycore Transformer" data-flag="@X" onclick="openSidebar('WCD_217_Leycore Transformer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\226_Sir Gremor, the Steadfast.png" id="WCD_226_Sir Gremor, the Steadfast" data-flag="@X" onclick="openSidebar('WCD_226_Sir Gremor, the Steadfast',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\211_Eyrik, Wroszy's Right Hand.png" id="WCD_211_Eyrik, Wroszys Right Hand" data-flag="@X" onclick="openSidebar('WCD_211_Eyrik, Wroszys Right Hand',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\216_Jhan, Committed Investigator.png" id="WCD_216_Jhan, Committed Investigator" data-flag="@X" onclick="openSidebar('WCD_216_Jhan, Committed Investigator',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WCD_er" data-flag="@E" onclick="openSidebar('WCD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WCD_er" data-flag="@E" onclick="openSidebar('WCD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WCD_er" data-flag="@E" onclick="openSidebar('WCD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WCD_er" data-flag="@E" onclick="openSidebar('WCD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WCD_er" data-flag="@E" onclick="openSidebar('WCD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\224_Sawblade Game.png" id="WCD_224_Sawblade Game" data-flag="@X" onclick="openSidebar('WCD_224_Sawblade Game',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\229_Wroszy, Circus Founder.png" id="WCD_229_Wroszy, Circus Founder" data-flag="@X" onclick="openSidebar('WCD_229_Wroszy, Circus Founder',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\230_Chandra, Expanding Horizons.png" id="WCD_230_Chandra, Expanding Horizons" data-flag="@X" onclick="openSidebar('WCD_230_Chandra, Expanding Horizons',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="WCD_e" data-flag="@E" onclick="openSidebar('WCD_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="WCD_e" data-flag="@E" onclick="openSidebar('WCD_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WCD_er" data-flag="@E" onclick="openSidebar('WCD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WCD_er" data-flag="@E" onclick="openSidebar('WCD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WCD_er" data-flag="@E" onclick="openSidebar('WCD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WCD_er" data-flag="@E" onclick="openSidebar('WCD_er',false)"></div>
 				<div id="colorless" class="anchor"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\232_All-Seeing Stone of Wuqran.png" id="232_All-Seeing Stone of Wuqran" data-flag="@X" onclick="openSidebar('232_All-Seeing Stone of Wuqran',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\239_Halberd of the Founding.png" id="239_Halberd of the Founding" data-flag="@X" onclick="openSidebar('239_Halberd of the Founding',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\233_Beer Garden.png" id="233_Beer Garden" data-flag="@X" onclick="openSidebar('233_Beer Garden',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\234_The Big Top.png" id="234_The Big Top" data-flag="@X" onclick="openSidebar('234_The Big Top',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\235_Carousel of Wonders.png" id="235_Carousel of Wonders" data-flag="@X" onclick="openSidebar('235_Carousel of Wonders',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\237_Faerie's Wheel.png" id="237_Faeries Wheel" data-flag="@X" onclick="openSidebar('237_Faeries Wheel',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\240_Hall of Could'ves.png" id="240_Hall of Couldves" data-flag="@X" onclick="openSidebar('240_Hall of Couldves',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\243_Kamigawan Data Capsule.png" id="243_Kamigawan Data Capsule" data-flag="@X" onclick="openSidebar('243_Kamigawan Data Capsule',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\244_Necryx Six-shooter.png" id="244_Necryx Six-shooter" data-flag="@X" onclick="openSidebar('244_Necryx Six-shooter',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\245_Sanguine Boots.png" id="245_Sanguine Boots" data-flag="@X" onclick="openSidebar('245_Sanguine Boots',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\246_Saw.png" id="246_Saw" data-flag="@X" onclick="openSidebar('246_Saw',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\236_Doll Collection.png" id="236_Doll Collection" data-flag="@X" onclick="openSidebar('236_Doll Collection',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\238_Fortune Teller's Tent.png" id="238_Fortune Tellers Tent" data-flag="@X" onclick="openSidebar('238_Fortune Tellers Tent',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\241_Hat of Summoning.png" id="241_Hat of Summoning" data-flag="@X" onclick="openSidebar('241_Hat of Summoning',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\242_Hazoret's Barque Ride.png" id="242_Hazorets Barque Ride" data-flag="@X" onclick="openSidebar('242_Hazorets Barque Ride',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\247_Wandering Scarecrow.png" id="247_Wandering Scarecrow" data-flag="@X" onclick="openSidebar('247_Wandering Scarecrow',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\232_All-Seeing Stone of Wuqran.png" id="WCD_232_All-Seeing Stone of Wuqran" data-flag="@X" onclick="openSidebar('WCD_232_All-Seeing Stone of Wuqran',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\239_Halberd of the Founding.png" id="WCD_239_Halberd of the Founding" data-flag="@X" onclick="openSidebar('WCD_239_Halberd of the Founding',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\233_Beer Garden.png" id="WCD_233_Beer Garden" data-flag="@X" onclick="openSidebar('WCD_233_Beer Garden',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\234_The Big Top.png" id="WCD_234_The Big Top" data-flag="@X" onclick="openSidebar('WCD_234_The Big Top',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\235_Carousel of Wonders.png" id="WCD_235_Carousel of Wonders" data-flag="@X" onclick="openSidebar('WCD_235_Carousel of Wonders',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\237_Faerie's Wheel.png" id="WCD_237_Faeries Wheel" data-flag="@X" onclick="openSidebar('WCD_237_Faeries Wheel',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\240_Hall of Could'ves.png" id="WCD_240_Hall of Couldves" data-flag="@X" onclick="openSidebar('WCD_240_Hall of Couldves',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\243_Kamigawan Data Capsule.png" id="WCD_243_Kamigawan Data Capsule" data-flag="@X" onclick="openSidebar('WCD_243_Kamigawan Data Capsule',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\244_Necryx Six-shooter.png" id="WCD_244_Necryx Six-shooter" data-flag="@X" onclick="openSidebar('WCD_244_Necryx Six-shooter',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\245_Sanguine Boots.png" id="WCD_245_Sanguine Boots" data-flag="@X" onclick="openSidebar('WCD_245_Sanguine Boots',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\246_Saw.png" id="WCD_246_Saw" data-flag="@X" onclick="openSidebar('WCD_246_Saw',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\236_Doll Collection.png" id="WCD_236_Doll Collection" data-flag="@X" onclick="openSidebar('WCD_236_Doll Collection',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\238_Fortune Teller's Tent.png" id="WCD_238_Fortune Tellers Tent" data-flag="@X" onclick="openSidebar('WCD_238_Fortune Tellers Tent',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\241_Hat of Summoning.png" id="WCD_241_Hat of Summoning" data-flag="@X" onclick="openSidebar('WCD_241_Hat of Summoning',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\242_Hazoret's Barque Ride.png" id="WCD_242_Hazorets Barque Ride" data-flag="@X" onclick="openSidebar('WCD_242_Hazorets Barque Ride',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\247_Wandering Scarecrow.png" id="WCD_247_Wandering Scarecrow" data-flag="@X" onclick="openSidebar('WCD_247_Wandering Scarecrow',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="WCD_e" data-flag="@E" onclick="openSidebar('WCD_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="WCD_e" data-flag="@E" onclick="openSidebar('WCD_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="WCD_e" data-flag="@E" onclick="openSidebar('WCD_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="WCD_e" data-flag="@E" onclick="openSidebar('WCD_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WCD_er" data-flag="@E" onclick="openSidebar('WCD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WCD_er" data-flag="@E" onclick="openSidebar('WCD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WCD_er" data-flag="@E" onclick="openSidebar('WCD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WCD_er" data-flag="@E" onclick="openSidebar('WCD_er',false)"></div>
 				<div id="land" class="anchor"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\248_Karil-on-the-Wyvern.png" id="248_Karil-on-the-Wyvern" data-flag="@X" onclick="openSidebar('248_Karil-on-the-Wyvern',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\253_Taarept, First City of Wuqran.png" id="253_Taarept, First City of Wuqran" data-flag="@X" onclick="openSidebar('253_Taarept, First City of Wuqran',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\252_Skull Heights Castle.png" id="252_Skull Heights Castle" data-flag="@X" onclick="openSidebar('252_Skull Heights Castle',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\251_Rockloop Station.png" id="251_Rockloop Station" data-flag="@X" onclick="openSidebar('251_Rockloop Station',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\249_Malooth, Capital of Hallost.png" id="249_Malooth, Capital of Hallost" data-flag="@X" onclick="openSidebar('249_Malooth, Capital of Hallost',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\250_Opulent Study Hall.png" id="250_Opulent Study Hall" data-flag="@X" onclick="openSidebar('250_Opulent Study Hall',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\254_Plains.png" id="254_Plains" data-flag="@X" onclick="openSidebar('254_Plains',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\255_Island.png" id="255_Island" data-flag="@X" onclick="openSidebar('255_Island',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\256_Swamp.png" id="256_Swamp" data-flag="@X" onclick="openSidebar('256_Swamp',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\257_Mountain.png" id="257_Mountain" data-flag="@X" onclick="openSidebar('257_Mountain',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\258_Forest.png" id="258_Forest" data-flag="@X" onclick="openSidebar('258_Forest',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\248_Karil-on-the-Wyvern.png" id="WCD_248_Karil-on-the-Wyvern" data-flag="@X" onclick="openSidebar('WCD_248_Karil-on-the-Wyvern',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\253_Taarept, First City of Wuqran.png" id="WCD_253_Taarept, First City of Wuqran" data-flag="@X" onclick="openSidebar('WCD_253_Taarept, First City of Wuqran',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\252_Skull Heights Castle.png" id="WCD_252_Skull Heights Castle" data-flag="@X" onclick="openSidebar('WCD_252_Skull Heights Castle',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\251_Rockloop Station.png" id="WCD_251_Rockloop Station" data-flag="@X" onclick="openSidebar('WCD_251_Rockloop Station',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\249_Malooth, Capital of Hallost.png" id="WCD_249_Malooth, Capital of Hallost" data-flag="@X" onclick="openSidebar('WCD_249_Malooth, Capital of Hallost',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WCD_er" data-flag="@E" onclick="openSidebar('WCD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WCD_er" data-flag="@E" onclick="openSidebar('WCD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WCD_er" data-flag="@E" onclick="openSidebar('WCD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WCD_er" data-flag="@E" onclick="openSidebar('WCD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WCD_er" data-flag="@E" onclick="openSidebar('WCD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\250_Opulent Study Hall.png" id="WCD_250_Opulent Study Hall" data-flag="@X" onclick="openSidebar('WCD_250_Opulent Study Hall',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="WCD_e" data-flag="@E" onclick="openSidebar('WCD_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="WCD_e" data-flag="@E" onclick="openSidebar('WCD_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="WCD_e" data-flag="@E" onclick="openSidebar('WCD_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="WCD_e" data-flag="@E" onclick="openSidebar('WCD_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WCD_er" data-flag="@E" onclick="openSidebar('WCD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WCD_er" data-flag="@E" onclick="openSidebar('WCD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WCD_er" data-flag="@E" onclick="openSidebar('WCD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WCD_er" data-flag="@E" onclick="openSidebar('WCD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WCD_er" data-flag="@E" onclick="openSidebar('WCD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\254_Plains.png" id="WCD_254_Plains" data-flag="@X" onclick="openSidebar('WCD_254_Plains',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\255_Island.png" id="WCD_255_Island" data-flag="@X" onclick="openSidebar('WCD_255_Island',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\256_Swamp.png" id="WCD_256_Swamp" data-flag="@X" onclick="openSidebar('WCD_256_Swamp',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\257_Mountain.png" id="WCD_257_Mountain" data-flag="@X" onclick="openSidebar('WCD_257_Mountain',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\258_Forest.png" id="WCD_258_Forest" data-flag="@X" onclick="openSidebar('WCD_258_Forest',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WCD_er" data-flag="@E" onclick="openSidebar('WCD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WCD_er" data-flag="@E" onclick="openSidebar('WCD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WCD_er" data-flag="@E" onclick="openSidebar('WCD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WCD_er" data-flag="@E" onclick="openSidebar('WCD_er',false)"></div>
 				<div id="token" class="anchor"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\1t_Citizen.png" id="1t_Citizen" data-flag="@X" onclick="openSidebar('1t_Citizen',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\18t_Batran Volt-Rifle.png" id="18t_Batran Volt-Rifle" data-flag="@X" onclick="openSidebar('18t_Batran Volt-Rifle',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\19t_Cargo.png" id="19t_Cargo" data-flag="@X" onclick="openSidebar('19t_Cargo',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\20t_Food.png" id="20t_Food" data-flag="@X" onclick="openSidebar('20t_Food',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\21t_Toy.png" id="21t_Toy" data-flag="@X" onclick="openSidebar('21t_Toy',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\22t_Treasure.png" id="22t_Treasure" data-flag="@X" onclick="openSidebar('22t_Treasure',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\23t_Writ.png" id="23t_Writ" data-flag="@X" onclick="openSidebar('23t_Writ',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\2t_Entrusted.png" id="2t_Entrusted" data-flag="@X" onclick="openSidebar('2t_Entrusted',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\3t_Grinli.png" id="3t_Grinli" data-flag="@X" onclick="openSidebar('3t_Grinli',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\4t_Bird.png" id="4t_Bird" data-flag="@X" onclick="openSidebar('4t_Bird',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\5t_Bat.png" id="5t_Bat" data-flag="@X" onclick="openSidebar('5t_Bat',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\6t_Bird.png" id="6t_Bird" data-flag="@X" onclick="openSidebar('6t_Bird',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\7t_Nightmare Illusion.png" id="7t_Nightmare Illusion" data-flag="@X" onclick="openSidebar('7t_Nightmare Illusion',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\8t_Bear Warrior.png" id="8t_Bear Warrior" data-flag="@X" onclick="openSidebar('8t_Bear Warrior',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\9t_Cat.png" id="9t_Cat" data-flag="@X" onclick="openSidebar('9t_Cat',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\10t_Phoenix.png" id="10t_Phoenix" data-flag="@X" onclick="openSidebar('10t_Phoenix',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\11t_Beast.png" id="11t_Beast" data-flag="@X" onclick="openSidebar('11t_Beast',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\12t_Saproling.png" id="12t_Saproling" data-flag="@X" onclick="openSidebar('12t_Saproling',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\13t_Snake Mutant Warlock.png" id="13t_Snake Mutant Warlock" data-flag="@X" onclick="openSidebar('13t_Snake Mutant Warlock',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\14t_Insect.png" id="14t_Insect" data-flag="@X" onclick="openSidebar('14t_Insect',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\15t_Rogue.png" id="15t_Rogue" data-flag="@X" onclick="openSidebar('15t_Rogue',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\16t_Warrior Citizen.png" id="16t_Warrior Citizen" data-flag="@X" onclick="openSidebar('16t_Warrior Citizen',false)"></div>
-				<div class="container"><img alt="/sets\WCD-files\img\17t_Wolf Spirit.png" id="17t_Wolf Spirit" data-flag="@X" onclick="openSidebar('17t_Wolf Spirit',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\1t_Citizen.png" id="WCD_1t_Citizen" data-flag="@X" onclick="openSidebar('WCD_1t_Citizen',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\18t_Batran Volt-Rifle.png" id="WCD_18t_Batran Volt-Rifle" data-flag="@X" onclick="openSidebar('WCD_18t_Batran Volt-Rifle',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\19t_Cargo.png" id="WCD_19t_Cargo" data-flag="@X" onclick="openSidebar('WCD_19t_Cargo',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\20t_Food.png" id="WCD_20t_Food" data-flag="@X" onclick="openSidebar('WCD_20t_Food',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\21t_Toy.png" id="WCD_21t_Toy" data-flag="@X" onclick="openSidebar('WCD_21t_Toy',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\22t_Treasure.png" id="WCD_22t_Treasure" data-flag="@X" onclick="openSidebar('WCD_22t_Treasure',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\23t_Writ.png" id="WCD_23t_Writ" data-flag="@X" onclick="openSidebar('WCD_23t_Writ',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\2t_Entrusted.png" id="WCD_2t_Entrusted" data-flag="@X" onclick="openSidebar('WCD_2t_Entrusted',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\3t_Grinli.png" id="WCD_3t_Grinli" data-flag="@X" onclick="openSidebar('WCD_3t_Grinli',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\4t_Bird.png" id="WCD_4t_Bird" data-flag="@X" onclick="openSidebar('WCD_4t_Bird',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\5t_Bat.png" id="WCD_5t_Bat" data-flag="@X" onclick="openSidebar('WCD_5t_Bat',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\6t_Bird.png" id="WCD_6t_Bird" data-flag="@X" onclick="openSidebar('WCD_6t_Bird',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\7t_Nightmare Illusion.png" id="WCD_7t_Nightmare Illusion" data-flag="@X" onclick="openSidebar('WCD_7t_Nightmare Illusion',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\8t_Bear Warrior.png" id="WCD_8t_Bear Warrior" data-flag="@X" onclick="openSidebar('WCD_8t_Bear Warrior',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\9t_Cat.png" id="WCD_9t_Cat" data-flag="@X" onclick="openSidebar('WCD_9t_Cat',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\10t_Phoenix.png" id="WCD_10t_Phoenix" data-flag="@X" onclick="openSidebar('WCD_10t_Phoenix',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\11t_Beast.png" id="WCD_11t_Beast" data-flag="@X" onclick="openSidebar('WCD_11t_Beast',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\12t_Saproling.png" id="WCD_12t_Saproling" data-flag="@X" onclick="openSidebar('WCD_12t_Saproling',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\13t_Snake Mutant Warlock.png" id="WCD_13t_Snake Mutant Warlock" data-flag="@X" onclick="openSidebar('WCD_13t_Snake Mutant Warlock',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\14t_Insect.png" id="WCD_14t_Insect" data-flag="@X" onclick="openSidebar('WCD_14t_Insect',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\15t_Rogue.png" id="WCD_15t_Rogue" data-flag="@X" onclick="openSidebar('WCD_15t_Rogue',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\16t_Warrior Citizen.png" id="WCD_16t_Warrior Citizen" data-flag="@X" onclick="openSidebar('WCD_16t_Warrior Citizen',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\WCD-files\img\17t_Wolf Spirit.png" id="WCD_17t_Wolf Spirit" data-flag="@X" onclick="openSidebar('WCD_17t_Wolf Spirit',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="WCD_e" data-flag="@E" onclick="openSidebar('WCD_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="WCD_e" data-flag="@E" onclick="openSidebar('WCD_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WCD_er" data-flag="@E" onclick="openSidebar('WCD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WCD_er" data-flag="@E" onclick="openSidebar('WCD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WCD_er" data-flag="@E" onclick="openSidebar('WCD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WCD_er" data-flag="@E" onclick="openSidebar('WCD_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="WCD_er" data-flag="@E" onclick="openSidebar('WCD_er',false)"></div>
 	</div>
 	</div>
 	<div class="sidebar" id="sidebar">
 		<div class="sidebar-container">
-			<img id="sidebar_img" class="sidebar-img" src="/img/er.png">
+			<img id="sidebar_img" class="sidebar-img">
 			<img id="sidebar_h_img" class="sidebar-h-img">
 			<button class="flip-btn" id="sidebar-flip-btn" onclick="imgFlip('sidebar_img')"></button>
 		</div>
@@ -565,19 +589,111 @@
 		let specialchars = "";
 
 	document.addEventListener('DOMContentLoaded', async function() {
-		await fetch('/lists/all-cards.json')
+		await fetch(rootPath + '/lists/all-cards.json')
 					.then(response => response.json())
 					.then(json => {
 						card_list = json;
 				}).catch(error => console.error('Error:', error));
 
-				await fetch('/resources/replacechars.txt')
+				await fetch(rootPath + '/resources/replacechars.txt')
 					.then(response => response.text())
 					.then(text => {
 						specialchars = text; 
 				}).catch(error => console.error('Error:', error));
 
 				card_list_arrayified = card_list.cards;
+
+				let all_tags = new Set();
+				card_list_arrayified.forEach(card => {
+					if (card.notes) {
+						const tagMatches = card.notes.matchAll(/!tag(?:<\w+>)?\s+([^\s\n\b]+)/g);
+						for (const match of tagMatches) {
+							all_tags.add(match[1]);
+						}
+					}
+				});
+
+				const searchInput = document.getElementById("search");
+				const tagDropdown = document.getElementById("tag-dropdown");
+
+				// Create a mirror element for position calculation
+				const mirror = document.createElement("div");
+				Object.assign(mirror.style, {
+					position: "absolute",
+					visibility: "hidden",
+					whiteSpace: "pre",
+					font: getComputedStyle(searchInput).font,
+					padding: "0", // No padding for pure text measurement
+					border: "none",
+					boxSizing: "content-box"
+				});
+				document.body.appendChild(mirror);
+
+				if (searchInput && tagDropdown) {
+					tagDropdown.style.width = "auto";
+					tagDropdown.style.minWidth = "75px";
+					tagDropdown.style.maxWidth = "300px";
+					tagDropdown.style.maxHeight = "200px";
+					tagDropdown.style.overflowY = "auto";
+
+					const updateDropdown = function() {
+						const value = searchInput.value;
+						const cursorPosition = searchInput.selectionStart;
+						
+						// Find the tag: prefix immediately preceding the cursor
+						const lastTagIndex = value.substring(0, cursorPosition).lastIndexOf("tag:");
+						
+						if (lastTagIndex !== -1) {
+							const queryStart = lastTagIndex + 4;
+							const query = value.substring(queryStart, cursorPosition);
+							
+							if (!query.includes(" ")) {
+								const filteredTags = Array.from(all_tags).filter(tag => tag.toLowerCase().startsWith(query.toLowerCase())).sort();
+								if (filteredTags.length > 0) {
+									tagDropdown.innerHTML = "";
+									filteredTags.forEach(tag => {
+										const div = document.createElement("div");
+										div.innerText = tag;
+										div.style.padding = "5px 10px";
+										div.style.cursor = "pointer";
+										div.style.whiteSpace = "nowrap";
+										div.onmouseover = () => div.style.background = "#f0f0f0";
+										div.onmouseout = () => div.style.background = "white";
+										div.onclick = () => {
+											const newValue = value.substring(0, queryStart) + tag + " " + value.substring(cursorPosition);
+											searchInput.value = newValue;
+											tagDropdown.style.display = "none";
+											searchInput.focus();
+											const newCursorPos = queryStart + tag.length + 1;
+											searchInput.setSelectionRange(newCursorPos, newCursorPos);
+										};
+										tagDropdown.appendChild(div);
+									});
+
+									// Calculate position
+									mirror.textContent = value.substring(0, lastTagIndex + 4);
+									const textWidth = mirror.getBoundingClientRect().width;
+									const inputPaddingLeft = parseFloat(getComputedStyle(searchInput).paddingLeft) || 0;
+									
+									tagDropdown.style.left = Math.min(textWidth + inputPaddingLeft, searchInput.offsetWidth - tagDropdown.offsetWidth) + "px";
+									tagDropdown.style.display = "block";
+									return;
+								}
+							}
+						}
+						tagDropdown.style.display = "none";
+					};
+
+					searchInput.addEventListener("input", updateDropdown);
+					searchInput.addEventListener("click", updateDropdown);
+					searchInput.addEventListener("keyup", updateDropdown);
+
+					document.addEventListener("click", function(e) {
+						if (e.target !== searchInput && e.target !== tagDropdown) {
+							tagDropdown.style.display = "none";
+						}
+					});
+				}
 
 		preloadImgs = document.getElementsByClassName('preload-hidden');
 
@@ -612,13 +728,16 @@
 			const flag = img.getAttribute('data-flag');
 
 			if (flag === '@N') {
-				img.src = '/img/card_back.png';
+				img.src = rootPath + '/img/card_back.png';
 				img.removeAttribute("onclick");
 				img.style.cursor = 'default';
 			}
 			else
 			{
-				img.src = img.alt;
+				img.src = rootPath + '/' + img.alt;
+				if (img.dataset.alt_src) {
+					img.dataset.alt_src = rootPath + '/' + img.dataset.alt_src;
+				}
 
 				if (flag === '@E') {
 					img.removeAttribute("onclick");
@@ -644,27 +763,51 @@
 	let horizontal = false;
 
 	function imgFlip(num) {
-		tmp = document.getElementById(num).src;
-		console.log(num);
-		document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
-		document.getElementById(num).dataset.alt_src = tmp;
+		const img = document.getElementById(num);
+		const seconds = 0.2;
+		const rotated_img = document.getElementById('sidebar_h_img');
 
-		if (num == 'sidebar_img')
+        img.style.transition = seconds.toString() + "s";
+        img.style.transform = "rotateY(90deg)";
+
+        if (num == 'sidebar_img')
 		{
-			const rotated_img = document.getElementById('sidebar_h_img');
 			const sidebar_img = document.getElementById('sidebar_img');
 
-			if (horizontal && rotated_img.style.display == 'none')
-			{
-				rotated_img.style.display = "block";
-				sidebar_img.style.filter = "blur(2px) brightness(0.7)";
-			}
-			else
-			{
-				rotated_img.style.display = "none";
-				sidebar_img.style.filter = "";
-			}
+			if (horizontal)
+            {
+            	rotated_img.style.transition = seconds.toString() + "s";
+           		rotated_img.style.transform = "rotateY(90deg) rotate(90deg)";
+
+           		if (rotated_img.style.opacity != "0") {
+		            setTimeout(() => {
+		                rotated_img.style.opacity = "0";
+		                img.style.filter = "none";
+		            }, (seconds / 2) * 1000);
+		        }
+		        else {
+		        	setTimeout(() => {
+		                rotated_img.style.opacity = "1";
+		                img.style.filter = "blur(2px) brightness(0.7)";
+		            }, (seconds / 2) * 1000);
+		        }
+            }
 		}
+
+         setTimeout(function() {
+            tmp = document.getElementById(num).src;
+			document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
+			document.getElementById(num).dataset.alt_src = tmp;
+
+            img.style.transition = seconds.toString() + "s";
+            img.style.transform = "rotateY(0deg)";
+
+            if (horizontal)
+            {
+            	rotated_img.style.transition = seconds.toString() + "s";
+           		rotated_img.style.transform = "rotateY(0deg) rotate(90deg)";
+            }
+        }, seconds * 1000);
 	}
 
 	function openSidebar(id, h = false) {
@@ -676,17 +819,19 @@
 		const rotated_img = document.getElementById('sidebar_h_img');
 		const sidebar_img = document.getElementById('sidebar_img');
 
+		sidebar_img.style.transition = "none";
+		rotated_img.style.transition = "none";
 		sidebar_img.src = document.getElementById(id).src;
 		rotated_img.src = document.getElementById(id).src.replace("_back", "_front");
 
 		if (horizontal && !sidebar_img.src.includes("_back"))
 		{
-			rotated_img.style.display = "block";
+			rotated_img.style.opacity = "1";
 			sidebar_img.style.filter = "blur(2px) brightness(0.7)";
 		}
 		else
 		{
-			rotated_img.style.display = "none";
+			rotated_img.style.opacity = "0";
 			sidebar_img.style.filter = "";
 		}
 
@@ -719,6 +864,7 @@
 	}
 
 	function rolldown() {
+		dropdown.style.gridTemplateColumns = "repeat(3, 1fr)";
 		var sets = document.querySelectorAll('.inactive');
 		for(const set of sets)
 		{
@@ -728,6 +874,7 @@
 	}
 
 	function rollup() {
+		dropdown.style.gridTemplateColumns = "1fr";
 		var sets = document.querySelectorAll('.inactive');
 		for(const set of sets)
 		{
@@ -744,27 +891,27 @@
 	});
 
 	function search() {
-		const url = new URL('search', window.location.origin);
+		const url = new URL(rootPath + '/search', window.location.href.split('?')[0].split('/').slice(0, -1).join('/') + '/');
 		url.searchParams.append('search', document.getElementById("search").value);
-		window.location.href = url;
+		window.location.href = url.pathname + url.search;
 	}
 
 		function randomCard() {
-			let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
-			let random_card = card_list_arrayified[i];
+				let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
+				let random_card = card_list_arrayified[i];
 
-			const url = new URL('card', window.location.origin);
-			const params = {
-				set: random_card.set,
-				num: random_card.number,
-				name: random_card.card_name
-			}
-			for (const key in params) {
-				url.searchParams.append(key, params[key]);
-			}
+				const url = new URL(rootPath + '/card', window.location.href.split('?')[0].split('/').slice(0, -1).join('/') + '/');
+				const params = {
+					set: random_card.set,
+					num: random_card.number,
+					name: random_card.card_name
+				}
+				for (const key in params) {
+					url.searchParams.append(key, params[key]);
+				}
 
-			window.location.href = url;
-		}
+				window.location.href = url.pathname + url.search;
+			}
 	</script>
 </body>
 </html>

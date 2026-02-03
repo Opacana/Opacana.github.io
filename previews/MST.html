@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<link rel="icon" type="image/png" href="/sets/MST-files/icon.png"/>
-	<link rel="stylesheet" href="/resources/header.css">
+	<link rel="icon" type="image/png" href="../sets/MST-files/icon.png"/>
+	<link rel="stylesheet" href="../resources/header.css">
 	<title>MST visual preview</title>
+	<script title="root">
+		const rootPath = "..";
+	</script>
 	<style>
 		@font-face {
 			font-family: Beleren;
-			src: url('/resources/beleren.ttf');
+			src: url('../resources/beleren.ttf');
 		}
 		body {
 			font-family: Arial, sans-serif;
@@ -39,19 +42,21 @@
 			position: relative;
 		}
 		.sidebar-h-img {
-			display: none;
-			transform: rotate(90deg);
+			opacity: 0;
+			transform: rotateY(0deg) rotate(90deg);
 			position: absolute;
 			left: 10%;
 			top: 10%;
 			width: 85%;
+			border-radius: 3.733% / 2.677%;
 		}
 		.sidebar-img {
 			vertical-align: middle;
 			width: 100%;
+			border-radius: 3.733% / 2.677%;
 		}
 		.close-btn {
-			background: url('/img/close.png') no-repeat;
+			background: url('../img/close.png') no-repeat;
 			background-size: contain;
 			background-position: center;
 			width: 10%;
@@ -62,7 +67,7 @@
 			right: 4%;
 		}
 		.close-btn:hover {
-			background: url('/img/close-hover.png') no-repeat;
+			background: url('../img/close-hover.png') no-repeat;
 			background-size: contain;
 			background-position: center;
 		}
@@ -82,6 +87,7 @@
 			display: block;
 			visibility: hidden;
 			cursor: pointer;
+			border-radius: 3.733% / 2.677%;
 		}
 		.banner {
 			width: 100%;
@@ -102,9 +108,10 @@
 		.container img {
 			width: 100%;
 			height: auto;
+			border-radius: 3.733% / 2.677%;
 		}
 		.flip-btn {
-			background: url('/img/flip.png') no-repeat;
+			background: url('../img/flip.png') no-repeat;
 			background-size: contain;
 			background-position: center;
 			width: 15%;
@@ -118,7 +125,7 @@
 			opacity: 0.5;
 		}
 		.flip-btn:hover {
-			background: url('/img/flip-hover.png') no-repeat;
+			background: url('../img/flip-hover.png') no-repeat;
 			background-size: contain;
 			background-position: center;
 		}
@@ -126,12 +133,13 @@
 			background: rgba(23, 23, 23, 0.8);
 			border-radius: 8px;
 			position: absolute;
-			left: 10%;
+			left: 5%;
 			width: fit-content;
+			max-width: 90%;
 			margin: 20px 0;
 			padding: 5px 0;
-			display: flex;
-			flex-direction: column;
+			display: grid;
+			grid-template-columns: 1fr;
 			z-index: 3;
 		}
 		.dropdown .set-bar {
@@ -173,381 +181,397 @@
 	</style>
 </head>
 <body>
-	<img class="preload-hidden" src="/img/dot.png" />
-	<img class="preload-hidden" src="/sets/MST-files/logo.png" />
-	<img class="preload-hidden" src="/sets/AVA-files/icon.png" />
-		<img class="preload-hidden" src="/sets/MST-files/icon.png" />
-		<img class="preload-hidden" src="/sets/WCD-files/icon.png" />
+	<img class="preload-hidden" src="../img/dot.png" />
+	<img class="preload-hidden" src="../sets/MST-files/logo.png" />
+	<img class="preload-hidden" src="../sets/AVA-files/icon.png" />
+		<img class="preload-hidden" src="../sets/MST-files/icon.png" />
+		<img class="preload-hidden" src="../sets/WCD-files/icon.png" />
 		<div class="header">
 		<div class="search-grid">
-			<a href="/"><img class="sg-logo" src="/img/banner.png"></a>
-			<img class="sg-icon" src="/img/search.png">
-			<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
-			<a href="/all-sets"><img src="/img/sets.png" class="sg-icon">Sets</a>
-			<a href="/deckbuilder"><img src="/img/deck.png" class="sg-icon">Deckbuilder</a>
-			<a onclick="randomCard()"><img src="/img/random.png" class="sg-icon">Random</a>
+			<a onclick="window.location.href = rootPath + '/'"><img class="sg-logo" id="header-banner"></a>
+			<img class="sg-icon" id="header-search" onclick="goToSearch()">
+			<div style="position: relative; width: 100%;">
+				<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
+				<div id="tag-dropdown" style="display: none; position: absolute; top: 100%; left: 0; width: 100%; background: white; border: 1px solid #d5d9d9; z-index: 1000; max-height: 200px; overflow-y: auto; color: black; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"></div>
+			</div>
+			<a onclick="window.location.href = rootPath + '/all-sets'"><img id="header-sets" class="sg-icon">Sets</a>
+			<a onclick="window.location.href = rootPath + '/deckbuilder'"><img id="header-deck" class="sg-icon">Deckbuilder</a>
+			<a onclick="randomCard()"><img id="header-random" class="sg-icon">Random</a>
 		</div>
 	</div>
+	<script>
+		document.addEventListener("DOMContentLoaded", function () {
+			document.getElementById("header-banner").src = rootPath + "/img/banner.png";
+			document.getElementById("header-search").src = rootPath + "/img/search.png";
+			document.getElementById("header-sets").src = rootPath + "/img/sets.png";
+			document.getElementById("header-deck").src = rootPath + "/img/deck.png";
+			document.getElementById("header-random").src = rootPath + "/img/random.png";
+		});
 
-	<div class="dropdown" onmouseenter="rolldown()" onmouseleave="rollup()">
+		function goToSearch() {
+			window.location.href = rootPath + "/search";
+		}
+	</script>
+
+	<div class="dropdown" id="dropdown" onmouseenter="rolldown()" onmouseleave="rollup()">
 	
-		<a class="set-bar" href="MST"><img src="/sets/MST-files/icon.png">Untitled Anthro Moonstone Standard Set</a>
+		<a class="set-bar" href="../previews/MST"><img src="../sets/MST-files/icon.png">Untitled Anthro Moonstone Standard Set</a>
 	
-		<a class="set-bar inactive" href="AVA"><img src="/sets/AVA-files/icon.png">Avallus: Rediscovery</a>
+		<a class="set-bar inactive" href="../previews/AVA"><img src="../sets/AVA-files/icon.png">Avallus: Rediscovery</a>
 	
-		<a class="set-bar inactive" href="WCD"><img src="/sets/WCD-files/icon.png">Wroszy’s Circus of Darkness</a>
+		<a class="set-bar inactive" href="../previews/WCD"><img src="../sets/WCD-files/icon.png">Wroszy’s Circus of Darkness</a>
 	
 		</div>
 		<div class="banner">
-		<img class="logo" src="/sets/MST-files/logo.png">
+		<img class="logo" src="../sets/MST-files/logo.png">
 		</div>
 		<div class="main-content" id="main-content">
 			<div class="grid-container">
-					<div class="container"><img alt="/sets\MST-files\img\229_UM01 Aerieguard Captain.png" id="229_UM01 Aerieguard Captain" data-flag="@X" onclick="openSidebar('229_UM01 Aerieguard Captain',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\230_UM01 Cenote King.png" id="230_UM01 Cenote King" data-flag="@X" onclick="openSidebar('230_UM01 Cenote King',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\231_UM01 Circumzenith Guardian.png" id="231_UM01 Circumzenith Guardian" data-flag="@X" onclick="openSidebar('231_UM01 Circumzenith Guardian',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\232_UM01 Deathspark Speaker.png" id="232_UM01 Deathspark Speaker" data-flag="@X" onclick="openSidebar('232_UM01 Deathspark Speaker',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\233_UM01 Fireseed WIP.png" id="233_UM01 Fireseed WIP" data-flag="@X" onclick="openSidebar('233_UM01 Fireseed WIP',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\234_UM01 Flux-node Birthing.png" id="234_UM01 Flux-node Birthing" data-flag="@X" onclick="openSidebar('234_UM01 Flux-node Birthing',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\235_UM01 Icon of Dead Futures.png" id="235_UM01 Icon of Dead Futures" data-flag="@X" onclick="openSidebar('235_UM01 Icon of Dead Futures',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\236_UM01 Laughing Path Master.png" id="236_UM01 Laughing Path Master" data-flag="@X" onclick="openSidebar('236_UM01 Laughing Path Master',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\237_UM01 Mayarai, Bonesnouts Leader.png" id="237_UM01 Mayarai, Bonesnouts Leader" data-flag="@X" onclick="openSidebar('237_UM01 Mayarai, Bonesnouts Leader',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\238_UM01 Taza, Exiled Princess.png" id="238_UM01 Taza, Exiled Princess" data-flag="@X" onclick="openSidebar('238_UM01 Taza, Exiled Princess',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\35_MW01 Mouratl, the Eternal.png" id="35_MW01 Mouratl, the Eternal" data-flag="@X" onclick="openSidebar('35_MW01 Mouratl, the Eternal',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\74_MU01 Y'ssna, Cephaloid Oracle.png" id="74_MU01 Yssna, Cephaloid Oracle" data-flag="@X" onclick="openSidebar('74_MU01 Yssna, Cephaloid Oracle',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\114_MB01 Raios, the Founder.png" id="114_MB01 Raios, the Founder" data-flag="@X" onclick="openSidebar('114_MB01 Raios, the Founder',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\153_MR01 Tawikyan, Avaricious Queen.png" id="153_MR01 Tawikyan, Avaricious Queen" data-flag="@X" onclick="openSidebar('153_MR01 Tawikyan, Avaricious Queen',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\192_MG01 Boc, Emerald Hart.png" id="192_MG01 Boc, Emerald Hart" data-flag="@X" onclick="openSidebar('192_MG01 Boc, Emerald Hart',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\36_MW02 Feast with the King.png" id="36_MW02 Feast with the King" data-flag="@X" onclick="openSidebar('36_MW02 Feast with the King',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\75_MU02 Cosmic Secrets.png" id="75_MU02 Cosmic Secrets" data-flag="@X" onclick="openSidebar('75_MU02 Cosmic Secrets',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\115_MB02 Honoring Their Sacrifice.png" id="115_MB02 Honoring Their Sacrifice" data-flag="@X" onclick="openSidebar('115_MB02 Honoring Their Sacrifice',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\154_MR02 M'gruk, Interplanar Plunderer.png" id="154_MR02 Mgruk, Interplanar Plunderer" data-flag="@X" onclick="openSidebar('154_MR02 Mgruk, Interplanar Plunderer',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\193_MG02.png" id="193_MG02" data-flag="@X" onclick="openSidebar('193_MG02',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\37_RW01 Pauri Esken, Mounted Justice.png" id="37_RW01 Pauri Esken, Mounted Justice" data-flag="@X" onclick="openSidebar('37_RW01 Pauri Esken, Mounted Justice',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\76_RU01 Cunning Trader.png" id="76_RU01 Cunning Trader" data-flag="@X" onclick="openSidebar('76_RU01 Cunning Trader',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\116_RB01 Speaker of Ancient Gods.png" id="116_RB01 Speaker of Ancient Gods" data-flag="@X" onclick="openSidebar('116_RB01 Speaker of Ancient Gods',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\155_RR01 Longsight Siege Brother.png" id="155_RR01 Longsight Siege Brother" data-flag="@X" onclick="openSidebar('155_RR01 Longsight Siege Brother',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\194_RG01 Gruszalb, Chief Mountain.png" id="194_RG01 Gruszalb, Chief Mountain" data-flag="@X" onclick="openSidebar('194_RG01 Gruszalb, Chief Mountain',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\38_RW02 Rouser Elder.png" id="38_RW02 Rouser Elder" data-flag="@X" onclick="openSidebar('38_RW02 Rouser Elder',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\77_RU02 Supercell Channeler.png" id="77_RU02 Supercell Channeler" data-flag="@X" onclick="openSidebar('77_RU02 Supercell Channeler',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\117_RB02 rat crea.png" id="117_RB02 rat crea" data-flag="@X" onclick="openSidebar('117_RB02 rat crea',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\156_RR02 Icespine Range Magstier.png" id="156_RR02 Icespine Range Magstier" data-flag="@X" onclick="openSidebar('156_RR02 Icespine Range Magstier',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\195_RG02 Exiled Worldspeaker.png" id="195_RG02 Exiled Worldspeaker" data-flag="@X" onclick="openSidebar('195_RG02 Exiled Worldspeaker',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\39_RW03 Circumzenith Commander.png" id="39_RW03 Circumzenith Commander" data-flag="@X" onclick="openSidebar('39_RW03 Circumzenith Commander',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\78_RU03.png" id="78_RU03" data-flag="@X" onclick="openSidebar('78_RU03',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\118_RB03 Neshezoi, Mad Harbinger.png" id="118_RB03 Neshezoi, Mad Harbinger" data-flag="@X" onclick="openSidebar('118_RB03 Neshezoi, Mad Harbinger',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\157_RR03 Visionary Metalsmith.png" id="157_RR03 Visionary Metalsmith" data-flag="@X" onclick="openSidebar('157_RR03 Visionary Metalsmith',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\196_RG03 gw-related crea.png" id="196_RG03 gw-related crea" data-flag="@X" onclick="openSidebar('196_RG03 gw-related crea',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\40_RW04.png" id="40_RW04" data-flag="@X" onclick="openSidebar('40_RW04',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\79_RU04 Titanic Rudan.png" id="79_RU04 Titanic Rudan" data-flag="@X" onclick="openSidebar('79_RU04 Titanic Rudan',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\119_RB04 nonrat crea maybe wisdom.png" id="119_RB04 nonrat crea maybe wisdom" data-flag="@X" onclick="openSidebar('119_RB04 nonrat crea maybe wisdom',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\158_RR04.png" id="158_RR04" data-flag="@X" onclick="openSidebar('158_RR04',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\197_RG04 UG-related creat.png" id="197_RG04 UG-related creat" data-flag="@X" onclick="openSidebar('197_RG04 UG-related creat',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\41_RW05.png" id="41_RW05" data-flag="@X" onclick="openSidebar('41_RW05',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\80_RU05 Twilight Pickpocketing.png" id="80_RU05 Twilight Pickpocketing" data-flag="@X" onclick="openSidebar('80_RU05 Twilight Pickpocketing',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\120_RB05 Brawl at the Docks.png" id="120_RB05 Brawl at the Docks" data-flag="@X" onclick="openSidebar('120_RB05 Brawl at the Docks',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\159_RR05 mass damage spell.png" id="159_RR05 mass damage spell" data-flag="@X" onclick="openSidebar('159_RR05 mass damage spell',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\198_RG05 BG-related Crea.png" id="198_RG05 BG-related Crea" data-flag="@X" onclick="openSidebar('198_RG05 BG-related Crea',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\42_RW06.png" id="42_RW06" data-flag="@X" onclick="openSidebar('42_RW06',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\81_RU06 Pass Down Secrets.png" id="81_RU06 Pass Down Secrets" data-flag="@X" onclick="openSidebar('81_RU06 Pass Down Secrets',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\121_RB06 Power from Pain.png" id="121_RB06 Power from Pain" data-flag="@X" onclick="openSidebar('121_RB06 Power from Pain',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\160_RR06 Blazing Technique.png" id="160_RR06 Blazing Technique" data-flag="@X" onclick="openSidebar('160_RR06 Blazing Technique',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\199_RG06 noncreature.png" id="199_RG06 noncreature" data-flag="@X" onclick="openSidebar('199_RG06 noncreature',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\43_RW07 Rest in Peace.png" id="43_RW07 Rest in Peace" data-flag="@X" onclick="openSidebar('43_RW07 Rest in Peace',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\82_RU07 noncreature with wisdom.png" id="82_RU07 noncreature with wisdom" data-flag="@X" onclick="openSidebar('82_RU07 noncreature with wisdom',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\122_RB07 Return to Instinct.png" id="122_RB07 Return to Instinct" data-flag="@X" onclick="openSidebar('122_RB07 Return to Instinct',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\161_RR07 In the Presence of Greatness.png" id="161_RR07 In the Presence of Greatness" data-flag="@X" onclick="openSidebar('161_RR07 In the Presence of Greatness',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\200_RG07 Summoning Ancestors.png" id="200_RG07 Summoning Ancestors" data-flag="@X" onclick="openSidebar('200_RG07 Summoning Ancestors',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\44_UW01 Rooftop Pouncer.png" id="44_UW01 Rooftop Pouncer" data-flag="@X" onclick="openSidebar('44_UW01 Rooftop Pouncer',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\83_UU01 Ridgeline Monitor.png" id="83_UU01 Ridgeline Monitor" data-flag="@X" onclick="openSidebar('83_UU01 Ridgeline Monitor',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\123_UB01 Darkside Wish-granter.png" id="123_UB01 Darkside Wish-granter" data-flag="@X" onclick="openSidebar('123_UB01 Darkside Wish-granter',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\162_UR01 Priest of Primordial Fire.png" id="162_UR01 Priest of Primordial Fire" data-flag="@X" onclick="openSidebar('162_UR01 Priest of Primordial Fire',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\201_UG01 naturalizer creature.png" id="201_UG01 naturalizer creature" data-flag="@X" onclick="openSidebar('201_UG01 naturalizer creature',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\45_UW02 Hagzaga Squadron.png" id="45_UW02 Hagzaga Squadron" data-flag="@X" onclick="openSidebar('45_UW02 Hagzaga Squadron',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\84_UU02 Isthmus Guardian.png" id="84_UU02 Isthmus Guardian" data-flag="@X" onclick="openSidebar('84_UU02 Isthmus Guardian',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\124_UB02 Shadowspiller.png" id="124_UB02 Shadowspiller" data-flag="@X" onclick="openSidebar('124_UB02 Shadowspiller',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\163_UR02 Jack of All Spells.png" id="163_UR02 Jack of All Spells" data-flag="@X" onclick="openSidebar('163_UR02 Jack of All Spells',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\202_UG02 Bellowdepths Channeler.png" id="202_UG02 Bellowdepths Channeler" data-flag="@X" onclick="openSidebar('202_UG02 Bellowdepths Channeler',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\46_UW03 bouncer or flicker creat.png" id="46_UW03 bouncer or flicker creat" data-flag="@X" onclick="openSidebar('46_UW03 bouncer or flicker creat',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\85_UU03 Veteran Burglar.png" id="85_UU03 Veteran Burglar" data-flag="@X" onclick="openSidebar('85_UU03 Veteran Burglar',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\125_UB03 Piraji Ambusher.png" id="125_UB03 Piraji Ambusher" data-flag="@X" onclick="openSidebar('125_UB03 Piraji Ambusher',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\164_UR03 Navu, Eager Pyromancer.png" id="164_UR03 Navu, Eager Pyromancer" data-flag="@X" onclick="openSidebar('164_UR03 Navu, Eager Pyromancer',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\203_UG03 crea that draws at least once.png" id="203_UG03 crea that draws at least once" data-flag="@X" onclick="openSidebar('203_UG03 crea that draws at least once',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\47_UW04 Stoic Medic.png" id="47_UW04 Stoic Medic" data-flag="@X" onclick="openSidebar('47_UW04 Stoic Medic',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\86_UU04 grower creat maybe flyer.png" id="86_UU04 grower creat maybe flyer" data-flag="@X" onclick="openSidebar('86_UU04 grower creat maybe flyer',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\126_UB04 Evercursed.png" id="126_UB04 Evercursed" data-flag="@X" onclick="openSidebar('126_UB04 Evercursed',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\165_UR04 Dashing Vigilante.png" id="165_UR04 Dashing Vigilante" data-flag="@X" onclick="openSidebar('165_UR04 Dashing Vigilante',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\204_UG04 creature.png" id="204_UG04 creature" data-flag="@X" onclick="openSidebar('204_UG04 creature',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\48_UW05 Spire Guru.png" id="48_UW05 Spire Guru" data-flag="@X" onclick="openSidebar('48_UW05 Spire Guru',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\87_UU05 Slicefin Thief.png" id="87_UU05 Slicefin Thief" data-flag="@X" onclick="openSidebar('87_UU05 Slicefin Thief',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\127_UB05 Hermit of Erud Swamp.png" id="127_UB05 Hermit of Erud Swamp" data-flag="@X" onclick="openSidebar('127_UB05 Hermit of Erud Swamp',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\166_UR05 Flux Initiate.png" id="166_UR05 Flux Initiate" data-flag="@X" onclick="openSidebar('166_UR05 Flux Initiate',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\205_UG05 Rat Token Generator Cre.png" id="205_UG05 Rat Token Generator Cre" data-flag="@X" onclick="openSidebar('205_UG05 Rat Token Generator Cre',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\49_UW06 Contemplative Relaxation.png" id="49_UW06 Contemplative Relaxation" data-flag="@X" onclick="openSidebar('49_UW06 Contemplative Relaxation',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\88_UU06 Thundersnap Toxibrach.png" id="88_UU06 Thundersnap Toxibrach" data-flag="@X" onclick="openSidebar('88_UU06 Thundersnap Toxibrach',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\128_UB06 Iron Empire Elite.png" id="128_UB06 Iron Empire Elite" data-flag="@X" onclick="openSidebar('128_UB06 Iron Empire Elite',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\167_UR06 Streetwise Adventurer.png" id="167_UR06 Streetwise Adventurer" data-flag="@X" onclick="openSidebar('167_UR06 Streetwise Adventurer',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\206_UG06 very big creature.png" id="206_UG06 very big creature" data-flag="@X" onclick="openSidebar('206_UG06 very big creature',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\50_UW07 Sunblaze Aerie Delegate.png" id="50_UW07 Sunblaze Aerie Delegate" data-flag="@X" onclick="openSidebar('50_UW07 Sunblaze Aerie Delegate',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\89_UU07 Hydrokinetic Mastery.png" id="89_UU07 Hydrokinetic Mastery" data-flag="@X" onclick="openSidebar('89_UU07 Hydrokinetic Mastery',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\129_UB07 Eater of the Forgotten.png" id="129_UB07 Eater of the Forgotten" data-flag="@X" onclick="openSidebar('129_UB07 Eater of the Forgotten',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\168_UR07 Dance of Fire.png" id="168_UR07 Dance of Fire" data-flag="@X" onclick="openSidebar('168_UR07 Dance of Fire',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\207_UG07 noncrea.png" id="207_UG07 noncrea" data-flag="@X" onclick="openSidebar('207_UG07 noncrea',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\51_UW08 Lafahd Royal Expedition.png" id="51_UW08 Lafahd Royal Expedition" data-flag="@X" onclick="openSidebar('51_UW08 Lafahd Royal Expedition',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\90_UU08 Empowered Unraveling.png" id="90_UU08 Empowered Unraveling" data-flag="@X" onclick="openSidebar('90_UU08 Empowered Unraveling',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\130_UB08 Withering Grief.png" id="130_UB08 Withering Grief" data-flag="@X" onclick="openSidebar('130_UB08 Withering Grief',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\169_UR08 Storm the Palace.png" id="169_UR08 Storm the Palace" data-flag="@X" onclick="openSidebar('169_UR08 Storm the Palace',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\208_UG08 Building the Frontier.png" id="208_UG08 Building the Frontier" data-flag="@X" onclick="openSidebar('208_UG08 Building the Frontier',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\52_UW09 Rewoven Fates.png" id="52_UW09 Rewoven Fates" data-flag="@X" onclick="openSidebar('52_UW09 Rewoven Fates',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\91_UU09 Runic Restraints.png" id="91_UU09 Runic Restraints" data-flag="@X" onclick="openSidebar('91_UU09 Runic Restraints',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\131_UB09 Necromancer's Whim.png" id="131_UB09 Necromancers Whim" data-flag="@X" onclick="openSidebar('131_UB09 Necromancers Whim',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\170_UR09 Shattershot.png" id="170_UR09 Shattershot" data-flag="@X" onclick="openSidebar('170_UR09 Shattershot',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\209_UG09 Visions of Other Worlds.png" id="209_UG09 Visions of Other Worlds" data-flag="@X" onclick="openSidebar('209_UG09 Visions of Other Worlds',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\53_UW10 Bracer of Light.png" id="53_UW10 Bracer of Light" data-flag="@X" onclick="openSidebar('53_UW10 Bracer of Light',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\92_UU10 Summon the Soulchasers.png" id="92_UU10 Summon the Soulchasers" data-flag="@X" onclick="openSidebar('92_UU10 Summon the Soulchasers',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\132_UB10 Alleyway Ambush.png" id="132_UB10 Alleyway Ambush" data-flag="@X" onclick="openSidebar('132_UB10 Alleyway Ambush',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\171_UR10 Psychic Enslavement.png" id="171_UR10 Psychic Enslavement" data-flag="@X" onclick="openSidebar('171_UR10 Psychic Enslavement',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\210_UG10 Jade Ritual.png" id="210_UG10 Jade Ritual" data-flag="@X" onclick="openSidebar('210_UG10 Jade Ritual',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\54_UW11 noncrea.png" id="54_UW11 noncrea" data-flag="@X" onclick="openSidebar('54_UW11 noncrea',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\93_UU11 Relevant Texts.png" id="93_UU11 Relevant Texts" data-flag="@X" onclick="openSidebar('93_UU11 Relevant Texts',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\133_UB11 Commune with Shadows.png" id="133_UB11 Commune with Shadows" data-flag="@X" onclick="openSidebar('133_UB11 Commune with Shadows',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\172_UR11 noncreature.png" id="172_UR11 noncreature" data-flag="@X" onclick="openSidebar('172_UR11 noncreature',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\211_UG11 Under the Iron Capitol.png" id="211_UG11 Under the Iron Capitol" data-flag="@X" onclick="openSidebar('211_UG11 Under the Iron Capitol',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\16_CW01 Follower of the Updraft Path.png" id="16_CW01 Follower of the Updraft Path" data-flag="@X" onclick="openSidebar('16_CW01 Follower of the Updraft Path',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\94_UU12 Voracious Elasmodracid.png" id="94_UU12 Voracious Elasmodracid" data-flag="@X" onclick="openSidebar('94_UU12 Voracious Elasmodracid',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\95_CB01 sac fodder crea.png" id="95_CB01 sac fodder crea" data-flag="@X" onclick="openSidebar('95_CB01 sac fodder crea',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\134_CR01 Worldly Sellsword.png" id="134_CR01 Worldly Sellsword" data-flag="@X" onclick="openSidebar('134_CR01 Worldly Sellsword',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\173_CG01 Flower Stalker.png" id="173_CG01 Flower Stalker" data-flag="@X" onclick="openSidebar('173_CG01 Flower Stalker',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\17_CW02 Kitsan Knight-Errant.png" id="17_CW02 Kitsan Knight-Errant" data-flag="@X" onclick="openSidebar('17_CW02 Kitsan Knight-Errant',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\55_CU01 Xolotl Raider.png" id="55_CU01 Xolotl Raider" data-flag="@X" onclick="openSidebar('55_CU01 Xolotl Raider',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\96_CB02 Despair Path Master.png" id="96_CB02 Despair Path Master" data-flag="@X" onclick="openSidebar('96_CB02 Despair Path Master',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\135_CR02 Prepared Fortress Guard.png" id="135_CR02 Prepared Fortress Guard" data-flag="@X" onclick="openSidebar('135_CR02 Prepared Fortress Guard',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\174_CG02 Sika Matriarch.png" id="174_CG02 Sika Matriarch" data-flag="@X" onclick="openSidebar('174_CG02 Sika Matriarch',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\18_CW03 Petalseeker Mistress.png" id="18_CW03 Petalseeker Mistress" data-flag="@X" onclick="openSidebar('18_CW03 Petalseeker Mistress',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\56_CU02 Ortugan Elder.png" id="56_CU02 Ortugan Elder" data-flag="@X" onclick="openSidebar('56_CU02 Ortugan Elder',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\97_CB03 Adept of the Blood Codex.png" id="97_CB03 Adept of the Blood Codex" data-flag="@X" onclick="openSidebar('97_CB03 Adept of the Blood Codex',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\136_CR03 Lafahd Minister of the Arcane.png" id="136_CR03 Lafahd Minister of the Arcane" data-flag="@X" onclick="openSidebar('136_CR03 Lafahd Minister of the Arcane',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\175_CG03 Unphased Journeyers.png" id="175_CG03 Unphased Journeyers" data-flag="@X" onclick="openSidebar('175_CG03 Unphased Journeyers',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\19_CW04 Truth Diviner.png" id="19_CW04 Truth Diviner" data-flag="@X" onclick="openSidebar('19_CW04 Truth Diviner',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\57_CU03 looter cre.png" id="57_CU03 looter cre" data-flag="@X" onclick="openSidebar('57_CU03 looter cre',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\98_CB04 Iron Empire Kenin.png" id="98_CB04 Iron Empire Kenin" data-flag="@X" onclick="openSidebar('98_CB04 Iron Empire Kenin',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\137_CR04 Iceclaw Swordfrey.png" id="137_CR04 Iceclaw Swordfrey" data-flag="@X" onclick="openSidebar('137_CR04 Iceclaw Swordfrey',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\176_CG04 Fangscale Geologist.png" id="176_CG04 Fangscale Geologist" data-flag="@X" onclick="openSidebar('176_CG04 Fangscale Geologist',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\20_CW05 Confident Huntress.png" id="20_CW05 Confident Huntress" data-flag="@X" onclick="openSidebar('20_CW05 Confident Huntress',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\58_CU04 Kodiloan Sentry.png" id="58_CU04 Kodiloan Sentry" data-flag="@X" onclick="openSidebar('58_CU04 Kodiloan Sentry',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\99_CB05 self-miller crea.png" id="99_CB05 self-miller crea" data-flag="@X" onclick="openSidebar('99_CB05 self-miller crea',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\138_CR05 Mountain Miner.png" id="138_CR05 Mountain Miner" data-flag="@X" onclick="openSidebar('138_CR05 Mountain Miner',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\177_CG05 Night-Stroll Guardian.png" id="177_CG05 Night-Stroll Guardian" data-flag="@X" onclick="openSidebar('177_CG05 Night-Stroll Guardian',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\21_CW06 Youngling Protector.png" id="21_CW06 Youngling Protector" data-flag="@X" onclick="openSidebar('21_CW06 Youngling Protector',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\59_CU05 Beachside Patrol.png" id="59_CU05 Beachside Patrol" data-flag="@X" onclick="openSidebar('59_CU05 Beachside Patrol',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\100_CB06 Moonwarped Beast.png" id="100_CB06 Moonwarped Beast" data-flag="@X" onclick="openSidebar('100_CB06 Moonwarped Beast',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\139_CR06 Adventuring Mages of Squa.png" id="139_CR06 Adventuring Mages of Squa" data-flag="@X" onclick="openSidebar('139_CR06 Adventuring Mages of Squa',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\178_CG06 Glacier Lookout.png" id="178_CG06 Glacier Lookout" data-flag="@X" onclick="openSidebar('178_CG06 Glacier Lookout',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\22_CW07 Stubborn Hornblower.png" id="22_CW07 Stubborn Hornblower" data-flag="@X" onclick="openSidebar('22_CW07 Stubborn Hornblower',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\60_CU06 Keensight Sorcerer.png" id="60_CU06 Keensight Sorcerer" data-flag="@X" onclick="openSidebar('60_CU06 Keensight Sorcerer',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\101_CB07 Midnight Messenger.png" id="101_CB07 Midnight Messenger" data-flag="@X" onclick="openSidebar('101_CB07 Midnight Messenger',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\140_CR07 Aardite Brute.png" id="140_CR07 Aardite Brute" data-flag="@X" onclick="openSidebar('140_CR07 Aardite Brute',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\179_CG07 Wildheart Guardian.png" id="179_CG07 Wildheart Guardian" data-flag="@X" onclick="openSidebar('179_CG07 Wildheart Guardian',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\23_CW08 Cheerful Messenger.png" id="23_CW08 Cheerful Messenger" data-flag="@X" onclick="openSidebar('23_CW08 Cheerful Messenger',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\61_CU07 creature with friend.png" id="61_CU07 creature with friend" data-flag="@X" onclick="openSidebar('61_CU07 creature with friend',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\102_CB08 Self-disc outlet cre.png" id="102_CB08 Self-disc outlet cre" data-flag="@X" onclick="openSidebar('102_CB08 Self-disc outlet cre',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\141_CR08 Eccentric Scavenger.png" id="141_CR08 Eccentric Scavenger" data-flag="@X" onclick="openSidebar('141_CR08 Eccentric Scavenger',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\180_CG08 School of Seaquids.png" id="180_CG08 School of Seaquids" data-flag="@X" onclick="openSidebar('180_CG08 School of Seaquids',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\24_CW09 Thraupian Harrier.png" id="24_CW09 Thraupian Harrier" data-flag="@X" onclick="openSidebar('24_CW09 Thraupian Harrier',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\62_CU08 Selaki Stormrider.png" id="62_CU08 Selaki Stormrider" data-flag="@X" onclick="openSidebar('62_CU08 Selaki Stormrider',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\103_CB09 Escaped Lab Rat.png" id="103_CB09 Escaped Lab Rat" data-flag="@X" onclick="openSidebar('103_CB09 Escaped Lab Rat',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\142_CR09 5-drop crea.png" id="142_CR09 5-drop crea" data-flag="@X" onclick="openSidebar('142_CR09 5-drop crea',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\181_CG09 Sociable Inn Owner.png" id="181_CG09 Sociable Inn Owner" data-flag="@X" onclick="openSidebar('181_CG09 Sociable Inn Owner',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\25_CW10 Marks of Guilt.png" id="25_CW10 Marks of Guilt" data-flag="@X" onclick="openSidebar('25_CW10 Marks of Guilt',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\63_CU09 Siltshore Sentinel.png" id="63_CU09 Siltshore Sentinel" data-flag="@X" onclick="openSidebar('63_CU09 Siltshore Sentinel',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\104_CB10 Snatcher Drakeling.png" id="104_CB10 Snatcher Drakeling" data-flag="@X" onclick="openSidebar('104_CB10 Snatcher Drakeling',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\143_CR10 6-7cmc crea.png" id="143_CR10 6-7cmc crea" data-flag="@X" onclick="openSidebar('143_CR10 6-7cmc crea',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\182_CG10 Creature Rat.png" id="182_CG10 Creature Rat" data-flag="@X" onclick="openSidebar('182_CG10 Creature Rat',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\26_CW11 Blue Sky Elite.png" id="26_CW11 Blue Sky Elite" data-flag="@X" onclick="openSidebar('26_CW11 Blue Sky Elite',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\64_CU10 bigger flyer crea.png" id="64_CU10 bigger flyer crea" data-flag="@X" onclick="openSidebar('64_CU10 bigger flyer crea',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\105_CB11 Dalus Desert Askor.png" id="105_CB11 Dalus Desert Askor" data-flag="@X" onclick="openSidebar('105_CB11 Dalus Desert Askor',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\144_CR11 undecided.png" id="144_CR11 undecided" data-flag="@X" onclick="openSidebar('144_CR11 undecided',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\183_CG11 Scallywag Tracker.png" id="183_CG11 Scallywag Tracker" data-flag="@X" onclick="openSidebar('183_CG11 Scallywag Tracker',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\27_CW12 City Gate Patrol.png" id="27_CW12 City Gate Patrol" data-flag="@X" onclick="openSidebar('27_CW12 City Gate Patrol',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\65_CU11 Elder Cirein.png" id="65_CU11 Elder Cirein" data-flag="@X" onclick="openSidebar('65_CU11 Elder Cirein',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\106_CB12 draw spell nonc.png" id="106_CB12 draw spell nonc" data-flag="@X" onclick="openSidebar('106_CB12 draw spell nonc',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\145_CR12 Sprite Bolt.png" id="145_CR12 Sprite Bolt" data-flag="@X" onclick="openSidebar('145_CR12 Sprite Bolt',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\184_CG12 combat trick noncre.png" id="184_CG12 combat trick noncre" data-flag="@X" onclick="openSidebar('184_CG12 combat trick noncre',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\28_CW13 Generous Vendor.png" id="28_CW13 Generous Vendor" data-flag="@X" onclick="openSidebar('28_CW13 Generous Vendor',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\66_CU12 undecided.png" id="66_CU12 undecided" data-flag="@X" onclick="openSidebar('66_CU12 undecided',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\107_CB13 Infernal Resourcefulness.png" id="107_CB13 Infernal Resourcefulness" data-flag="@X" onclick="openSidebar('107_CB13 Infernal Resourcefulness',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\146_CR13 Sound the Dragonhorn.png" id="146_CR13 Sound the Dragonhorn" data-flag="@X" onclick="openSidebar('146_CR13 Sound the Dragonhorn',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\185_CG13 bite ins or sorc.png" id="185_CG13 bite ins or sorc" data-flag="@X" onclick="openSidebar('185_CG13 bite ins or sorc',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\29_CW14 Blessing of Kaniya.png" id="29_CW14 Blessing of Kaniya" data-flag="@X" onclick="openSidebar('29_CW14 Blessing of Kaniya',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\67_CU13 Amulet of the Future.png" id="67_CU13 Amulet of the Future" data-flag="@X" onclick="openSidebar('67_CU13 Amulet of the Future',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\108_CB14 only opp discard nonc.png" id="108_CB14 only opp discard nonc" data-flag="@X" onclick="openSidebar('108_CB14 only opp discard nonc',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\147_CR14 Smash Open.png" id="147_CR14 Smash Open" data-flag="@X" onclick="openSidebar('147_CR14 Smash Open',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\186_CG14 mill then return fr yard.png" id="186_CG14 mill then return fr yard" data-flag="@X" onclick="openSidebar('186_CG14 mill then return fr yard',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\30_CW15 Dub.png" id="30_CW15 Dub" data-flag="@X" onclick="openSidebar('30_CW15 Dub',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\68_CU14 enchantment.png" id="68_CU14 enchantment" data-flag="@X" onclick="openSidebar('68_CU14 enchantment',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\109_CB15 Blow to the Pharynx.png" id="109_CB15 Blow to the Pharynx" data-flag="@X" onclick="openSidebar('109_CB15 Blow to the Pharynx',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\148_CR15 Entrancing Ruby.png" id="148_CR15 Entrancing Ruby" data-flag="@X" onclick="openSidebar('148_CR15 Entrancing Ruby',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\187_CG15 Moonguided Shot.png" id="187_CG15 Moonguided Shot" data-flag="@X" onclick="openSidebar('187_CG15 Moonguided Shot',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\31_CW16 Mobilize the Village.png" id="31_CW16 Mobilize the Village" data-flag="@X" onclick="openSidebar('31_CW16 Mobilize the Village',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\69_CU15 Unsummon.png" id="69_CU15 Unsummon" data-flag="@X" onclick="openSidebar('69_CU15 Unsummon',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\110_CB16 Reluctant Companions.png" id="110_CB16 Reluctant Companions" data-flag="@X" onclick="openSidebar('110_CB16 Reluctant Companions',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\149_CR16 Storm's Strike.png" id="149_CR16 Storms Strike" data-flag="@X" onclick="openSidebar('149_CR16 Storms Strike',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\188_CG16 Ruined Relics.png" id="188_CG16 Ruined Relics" data-flag="@X" onclick="openSidebar('188_CG16 Ruined Relics',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\32_CW17 Plucking A Thorn.png" id="32_CW17 Plucking A Thorn" data-flag="@X" onclick="openSidebar('32_CW17 Plucking A Thorn',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\70_CU16 Raise Shields.png" id="70_CU16 Raise Shields" data-flag="@X" onclick="openSidebar('70_CU16 Raise Shields',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\111_CB17 Carnikinesis.png" id="111_CB17 Carnikinesis" data-flag="@X" onclick="openSidebar('111_CB17 Carnikinesis',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\150_CR17 Fireside Tales.png" id="150_CR17 Fireside Tales" data-flag="@X" onclick="openSidebar('150_CR17 Fireside Tales',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\189_CG17 pump aura.png" id="189_CG17 pump aura" data-flag="@X" onclick="openSidebar('189_CG17 pump aura',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\33_CW18 Serene Crystallization.png" id="33_CW18 Serene Crystallization" data-flag="@X" onclick="openSidebar('33_CW18 Serene Crystallization',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\71_CU17 Unweaving Ritual.png" id="71_CU17 Unweaving Ritual" data-flag="@X" onclick="openSidebar('71_CU17 Unweaving Ritual',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\112_CB18 Unnerving Onyx.png" id="112_CB18 Unnerving Onyx" data-flag="@X" onclick="openSidebar('112_CB18 Unnerving Onyx',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\151_CR18 Flames of Passion.png" id="151_CR18 Flames of Passion" data-flag="@X" onclick="openSidebar('151_CR18 Flames of Passion',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\190_CG18 Tangled in Crops.png" id="190_CG18 Tangled in Crops" data-flag="@X" onclick="openSidebar('190_CG18 Tangled in Crops',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\34_CW19 Ring of Assurance.png" id="34_CW19 Ring of Assurance" data-flag="@X" onclick="openSidebar('34_CW19 Ring of Assurance',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\72_CU18 Anticipate Their Next Moves.png" id="72_CU18 Anticipate Their Next Moves" data-flag="@X" onclick="openSidebar('72_CU18 Anticipate Their Next Moves',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\113_CB19 1mv nonrem noncre.png" id="113_CB19 1mv nonrem noncre" data-flag="@X" onclick="openSidebar('113_CB19 1mv nonrem noncre',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\152_CR19 noncre.png" id="152_CR19 noncre" data-flag="@X" onclick="openSidebar('152_CR19 noncre',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\191_CG19 Shard of Growth.png" id="191_CG19 Shard of Growth" data-flag="@X" onclick="openSidebar('191_CG19 Shard of Growth',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\73_CU19 Plumb the Depths.png" id="73_CU19 Plumb the Depths" data-flag="@X" onclick="openSidebar('73_CU19 Plumb the Depths',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+					<div class="container"><img loading="lazy" alt="sets\MST-files\img\228_UM01 Aerieguard Captain.png" id="MST_228_UM01 Aerieguard Captain" data-flag="@X" onclick="openSidebar('MST_228_UM01 Aerieguard Captain',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\229_UM01 Cenote King.png" id="MST_229_UM01 Cenote King" data-flag="@X" onclick="openSidebar('MST_229_UM01 Cenote King',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\230_UM01 Circumzenith Guardian.png" id="MST_230_UM01 Circumzenith Guardian" data-flag="@X" onclick="openSidebar('MST_230_UM01 Circumzenith Guardian',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\231_UM01 Deathspark Speaker.png" id="MST_231_UM01 Deathspark Speaker" data-flag="@X" onclick="openSidebar('MST_231_UM01 Deathspark Speaker',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\232_UM01 Fireseed WIP.png" id="MST_232_UM01 Fireseed WIP" data-flag="@X" onclick="openSidebar('MST_232_UM01 Fireseed WIP',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\233_UM01 Flux-node Birthing.png" id="MST_233_UM01 Flux-node Birthing" data-flag="@X" onclick="openSidebar('MST_233_UM01 Flux-node Birthing',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\234_UM01 Icon of Dead Futures.png" id="MST_234_UM01 Icon of Dead Futures" data-flag="@X" onclick="openSidebar('MST_234_UM01 Icon of Dead Futures',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\235_UM01 Laughing Path Master.png" id="MST_235_UM01 Laughing Path Master" data-flag="@X" onclick="openSidebar('MST_235_UM01 Laughing Path Master',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\236_UM01 Mayarai, Bonesnouts Leader.png" id="MST_236_UM01 Mayarai, Bonesnouts Leader" data-flag="@X" onclick="openSidebar('MST_236_UM01 Mayarai, Bonesnouts Leader',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\237_UM01 Taza, Exiled Princess.png" id="MST_237_UM01 Taza, Exiled Princess" data-flag="@X" onclick="openSidebar('MST_237_UM01 Taza, Exiled Princess',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MST_er" data-flag="@E" onclick="openSidebar('MST_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MST_er" data-flag="@E" onclick="openSidebar('MST_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MST_er" data-flag="@E" onclick="openSidebar('MST_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MST_er" data-flag="@E" onclick="openSidebar('MST_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MST_er" data-flag="@E" onclick="openSidebar('MST_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\33_MW01 Mouratl, the Eternal.png" id="MST_33_MW01 Mouratl, the Eternal" data-flag="@X" onclick="openSidebar('MST_33_MW01 Mouratl, the Eternal',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\72_MU01 Y'ssna, Cephaloid Oracle.png" id="MST_72_MU01 Yssna, Cephaloid Oracle" data-flag="@X" onclick="openSidebar('MST_72_MU01 Yssna, Cephaloid Oracle',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\112_MB01 Raios, the Founder.png" id="MST_112_MB01 Raios, the Founder" data-flag="@X" onclick="openSidebar('MST_112_MB01 Raios, the Founder',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\151_MR01 Tawikyan, Avaricious Queen.png" id="MST_151_MR01 Tawikyan, Avaricious Queen" data-flag="@X" onclick="openSidebar('MST_151_MR01 Tawikyan, Avaricious Queen',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\190_MG01 Boc, Emerald Hart.png" id="MST_190_MG01 Boc, Emerald Hart" data-flag="@X" onclick="openSidebar('MST_190_MG01 Boc, Emerald Hart',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\34_MW02 Feast with the King.png" id="MST_34_MW02 Feast with the King" data-flag="@X" onclick="openSidebar('MST_34_MW02 Feast with the King',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\73_MU02 Cosmic Secrets.png" id="MST_73_MU02 Cosmic Secrets" data-flag="@X" onclick="openSidebar('MST_73_MU02 Cosmic Secrets',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\113_MB02 Honoring Their Sacrifice.png" id="MST_113_MB02 Honoring Their Sacrifice" data-flag="@X" onclick="openSidebar('MST_113_MB02 Honoring Their Sacrifice',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\152_MR02 M'gruk, Interplanar Plunderer.png" id="MST_152_MR02 Mgruk, Interplanar Plunderer" data-flag="@X" onclick="openSidebar('MST_152_MR02 Mgruk, Interplanar Plunderer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\191_MG02.png" id="MST_191_MG02" data-flag="@X" onclick="openSidebar('MST_191_MG02',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\35_RW01 Pauri Esken, Mounted Justice.png" id="MST_35_RW01 Pauri Esken, Mounted Justice" data-flag="@X" onclick="openSidebar('MST_35_RW01 Pauri Esken, Mounted Justice',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\74_RU01 Cunning Trader.png" id="MST_74_RU01 Cunning Trader" data-flag="@X" onclick="openSidebar('MST_74_RU01 Cunning Trader',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\114_RB01 Speaker of Ancient Gods.png" id="MST_114_RB01 Speaker of Ancient Gods" data-flag="@X" onclick="openSidebar('MST_114_RB01 Speaker of Ancient Gods',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\153_RR01 Longsight Siege Brother.png" id="MST_153_RR01 Longsight Siege Brother" data-flag="@X" onclick="openSidebar('MST_153_RR01 Longsight Siege Brother',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\192_RG01 Gruszalb, Chief Mountain.png" id="MST_192_RG01 Gruszalb, Chief Mountain" data-flag="@X" onclick="openSidebar('MST_192_RG01 Gruszalb, Chief Mountain',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\36_RW02 Rouser Elder.png" id="MST_36_RW02 Rouser Elder" data-flag="@X" onclick="openSidebar('MST_36_RW02 Rouser Elder',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\75_RU02 Supercell Channeler.png" id="MST_75_RU02 Supercell Channeler" data-flag="@X" onclick="openSidebar('MST_75_RU02 Supercell Channeler',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\115_RB02 1cost rat crea w evasion.png" id="MST_115_RB02 1cost rat crea w evasion" data-flag="@X" onclick="openSidebar('MST_115_RB02 1cost rat crea w evasion',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\154_RR02 Icespine Range Magstier.png" id="MST_154_RR02 Icespine Range Magstier" data-flag="@X" onclick="openSidebar('MST_154_RR02 Icespine Range Magstier',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\193_RG02 Exiled Worldspeaker.png" id="MST_193_RG02 Exiled Worldspeaker" data-flag="@X" onclick="openSidebar('MST_193_RG02 Exiled Worldspeaker',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\37_RW03 Circumzenith Commander.png" id="MST_37_RW03 Circumzenith Commander" data-flag="@X" onclick="openSidebar('MST_37_RW03 Circumzenith Commander',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\76_RU03.png" id="MST_76_RU03" data-flag="@X" onclick="openSidebar('MST_76_RU03',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\116_RB03 Neshezoi, Mad Harbinger.png" id="MST_116_RB03 Neshezoi, Mad Harbinger" data-flag="@X" onclick="openSidebar('MST_116_RB03 Neshezoi, Mad Harbinger',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\155_RR03 Visionary Metalsmith.png" id="MST_155_RR03 Visionary Metalsmith" data-flag="@X" onclick="openSidebar('MST_155_RR03 Visionary Metalsmith',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\194_RG03 gw-related crea.png" id="MST_194_RG03 gw-related crea" data-flag="@X" onclick="openSidebar('MST_194_RG03 gw-related crea',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\38_RW04 General of the Guards.png" id="MST_38_RW04 General of the Guards" data-flag="@X" onclick="openSidebar('MST_38_RW04 General of the Guards',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\77_RU04 Titanic Rudan.png" id="MST_77_RU04 Titanic Rudan" data-flag="@X" onclick="openSidebar('MST_77_RU04 Titanic Rudan',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\117_RB04 Memorivore Witch.png" id="MST_117_RB04 Memorivore Witch" data-flag="@X" onclick="openSidebar('MST_117_RB04 Memorivore Witch',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\156_RR04 Carnivorous Blossom.png" id="MST_156_RR04 Carnivorous Blossom" data-flag="@X" onclick="openSidebar('MST_156_RR04 Carnivorous Blossom',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\195_RG04 Seeker of Strength.png" id="MST_195_RG04 Seeker of Strength" data-flag="@X" onclick="openSidebar('MST_195_RG04 Seeker of Strength',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\39_RW05 Iron Empire Brigade.png" id="MST_39_RW05 Iron Empire Brigade" data-flag="@X" onclick="openSidebar('MST_39_RW05 Iron Empire Brigade',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\78_RU05 Twilight Pickpocketing.png" id="MST_78_RU05 Twilight Pickpocketing" data-flag="@X" onclick="openSidebar('MST_78_RU05 Twilight Pickpocketing',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\118_RB05 Brawl at the Docks.png" id="MST_118_RB05 Brawl at the Docks" data-flag="@X" onclick="openSidebar('MST_118_RB05 Brawl at the Docks',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\157_RR05 Boltwhirl.png" id="MST_157_RR05 Boltwhirl" data-flag="@X" onclick="openSidebar('MST_157_RR05 Boltwhirl',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\196_RG05 BG-related Crea.png" id="MST_196_RG05 BG-related Crea" data-flag="@X" onclick="openSidebar('MST_196_RG05 BG-related Crea',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\40_RW06 Vow of Justice.png" id="MST_40_RW06 Vow of Justice" data-flag="@X" onclick="openSidebar('MST_40_RW06 Vow of Justice',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\79_RU06 Pass Down Secrets.png" id="MST_79_RU06 Pass Down Secrets" data-flag="@X" onclick="openSidebar('MST_79_RU06 Pass Down Secrets',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\119_RB06 Power from Pain.png" id="MST_119_RB06 Power from Pain" data-flag="@X" onclick="openSidebar('MST_119_RB06 Power from Pain',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\158_RR06 Blazing Technique.png" id="MST_158_RR06 Blazing Technique" data-flag="@X" onclick="openSidebar('MST_158_RR06 Blazing Technique',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\197_RG06 noncreature.png" id="MST_197_RG06 noncreature" data-flag="@X" onclick="openSidebar('MST_197_RG06 noncreature',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\41_RW07 Rest in Peace.png" id="MST_41_RW07 Rest in Peace" data-flag="@X" onclick="openSidebar('MST_41_RW07 Rest in Peace',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\80_RU07 Dance of the New Cycle.png" id="MST_80_RU07 Dance of the New Cycle" data-flag="@X" onclick="openSidebar('MST_80_RU07 Dance of the New Cycle',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\120_RB07 Return to Instinct.png" id="MST_120_RB07 Return to Instinct" data-flag="@X" onclick="openSidebar('MST_120_RB07 Return to Instinct',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\159_RR07 In the Presence of Greatness.png" id="MST_159_RR07 In the Presence of Greatness" data-flag="@X" onclick="openSidebar('MST_159_RR07 In the Presence of Greatness',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\198_RG07 Summoning Ancestors.png" id="MST_198_RG07 Summoning Ancestors" data-flag="@X" onclick="openSidebar('MST_198_RG07 Summoning Ancestors',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\42_UW01 Rooftop Pouncer.png" id="MST_42_UW01 Rooftop Pouncer" data-flag="@X" onclick="openSidebar('MST_42_UW01 Rooftop Pouncer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\81_UU01 Ridgeline Monitor.png" id="MST_81_UU01 Ridgeline Monitor" data-flag="@X" onclick="openSidebar('MST_81_UU01 Ridgeline Monitor',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\121_UB01 Darkside Wish-granter.png" id="MST_121_UB01 Darkside Wish-granter" data-flag="@X" onclick="openSidebar('MST_121_UB01 Darkside Wish-granter',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\160_UR01 Priest of Primordial Fire.png" id="MST_160_UR01 Priest of Primordial Fire" data-flag="@X" onclick="openSidebar('MST_160_UR01 Priest of Primordial Fire',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\199_UG01 naturalizer creature.png" id="MST_199_UG01 naturalizer creature" data-flag="@X" onclick="openSidebar('MST_199_UG01 naturalizer creature',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\43_UW02 Hagzaga Squadron.png" id="MST_43_UW02 Hagzaga Squadron" data-flag="@X" onclick="openSidebar('MST_43_UW02 Hagzaga Squadron',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\82_UU02 Isthmus Guardian.png" id="MST_82_UU02 Isthmus Guardian" data-flag="@X" onclick="openSidebar('MST_82_UU02 Isthmus Guardian',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\122_UB02 Shadowspiller.png" id="MST_122_UB02 Shadowspiller" data-flag="@X" onclick="openSidebar('MST_122_UB02 Shadowspiller',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\161_UR02 Jack of All Spells.png" id="MST_161_UR02 Jack of All Spells" data-flag="@X" onclick="openSidebar('MST_161_UR02 Jack of All Spells',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\200_UG02 Bellowdepths Channeler.png" id="MST_200_UG02 Bellowdepths Channeler" data-flag="@X" onclick="openSidebar('MST_200_UG02 Bellowdepths Channeler',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\44_UW03 Duchess of the Trials.png" id="MST_44_UW03 Duchess of the Trials" data-flag="@X" onclick="openSidebar('MST_44_UW03 Duchess of the Trials',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\83_UU03 Veteran Burglar.png" id="MST_83_UU03 Veteran Burglar" data-flag="@X" onclick="openSidebar('MST_83_UU03 Veteran Burglar',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\123_UB03 Piraji Ambusher.png" id="MST_123_UB03 Piraji Ambusher" data-flag="@X" onclick="openSidebar('MST_123_UB03 Piraji Ambusher',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\162_UR03 Navu, Eager Pyromancer.png" id="MST_162_UR03 Navu, Eager Pyromancer" data-flag="@X" onclick="openSidebar('MST_162_UR03 Navu, Eager Pyromancer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\201_UG03 crea that draws at least once.png" id="MST_201_UG03 crea that draws at least once" data-flag="@X" onclick="openSidebar('MST_201_UG03 crea that draws at least once',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\45_UW04 Stoic Medic.png" id="MST_45_UW04 Stoic Medic" data-flag="@X" onclick="openSidebar('MST_45_UW04 Stoic Medic',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\84_UU04 Stormwind Master.png" id="MST_84_UU04 Stormwind Master" data-flag="@X" onclick="openSidebar('MST_84_UU04 Stormwind Master',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\124_UB04 Evercursed.png" id="MST_124_UB04 Evercursed" data-flag="@X" onclick="openSidebar('MST_124_UB04 Evercursed',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\163_UR04 Dashing Vigilante.png" id="MST_163_UR04 Dashing Vigilante" data-flag="@X" onclick="openSidebar('MST_163_UR04 Dashing Vigilante',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\202_UG04 Lafahd Sandsprinter.png" id="MST_202_UG04 Lafahd Sandsprinter" data-flag="@X" onclick="openSidebar('MST_202_UG04 Lafahd Sandsprinter',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\46_UW05 Spire Guru.png" id="MST_46_UW05 Spire Guru" data-flag="@X" onclick="openSidebar('MST_46_UW05 Spire Guru',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\85_UU05 Slicefin Thief.png" id="MST_85_UU05 Slicefin Thief" data-flag="@X" onclick="openSidebar('MST_85_UU05 Slicefin Thief',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\125_UB05 Hermit of Erud Swamp.png" id="MST_125_UB05 Hermit of Erud Swamp" data-flag="@X" onclick="openSidebar('MST_125_UB05 Hermit of Erud Swamp',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\164_UR05 Flux Initiate.png" id="MST_164_UR05 Flux Initiate" data-flag="@X" onclick="openSidebar('MST_164_UR05 Flux Initiate',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\203_UG05 Rat Token Generator Cre.png" id="MST_203_UG05 Rat Token Generator Cre" data-flag="@X" onclick="openSidebar('MST_203_UG05 Rat Token Generator Cre',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\47_UW06 Contemplative Relaxation.png" id="MST_47_UW06 Contemplative Relaxation" data-flag="@X" onclick="openSidebar('MST_47_UW06 Contemplative Relaxation',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\86_UU06 Thundersnap Toxibrach.png" id="MST_86_UU06 Thundersnap Toxibrach" data-flag="@X" onclick="openSidebar('MST_86_UU06 Thundersnap Toxibrach',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\126_UB06 Iron Empire Elite.png" id="MST_126_UB06 Iron Empire Elite" data-flag="@X" onclick="openSidebar('MST_126_UB06 Iron Empire Elite',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\165_UR06 Streetwise Adventurer.png" id="MST_165_UR06 Streetwise Adventurer" data-flag="@X" onclick="openSidebar('MST_165_UR06 Streetwise Adventurer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\204_UG06 very big creature.png" id="MST_204_UG06 very big creature" data-flag="@X" onclick="openSidebar('MST_204_UG06 very big creature',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\48_UW07 Sunblaze Aerie Delegate.png" id="MST_48_UW07 Sunblaze Aerie Delegate" data-flag="@X" onclick="openSidebar('MST_48_UW07 Sunblaze Aerie Delegate',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\87_UU07 Hydrokinetic Mastery.png" id="MST_87_UU07 Hydrokinetic Mastery" data-flag="@X" onclick="openSidebar('MST_87_UU07 Hydrokinetic Mastery',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\127_UB07 Eater of the Forgotten.png" id="MST_127_UB07 Eater of the Forgotten" data-flag="@X" onclick="openSidebar('MST_127_UB07 Eater of the Forgotten',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\166_UR07 Dance of Fire.png" id="MST_166_UR07 Dance of Fire" data-flag="@X" onclick="openSidebar('MST_166_UR07 Dance of Fire',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\205_UG07 Solidarity.png" id="MST_205_UG07 Solidarity" data-flag="@X" onclick="openSidebar('MST_205_UG07 Solidarity',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\49_UW08 Lafahd Royal Expedition.png" id="MST_49_UW08 Lafahd Royal Expedition" data-flag="@X" onclick="openSidebar('MST_49_UW08 Lafahd Royal Expedition',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\88_UU08 Empowered Unraveling.png" id="MST_88_UU08 Empowered Unraveling" data-flag="@X" onclick="openSidebar('MST_88_UU08 Empowered Unraveling',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\128_UB08 Withering Grief.png" id="MST_128_UB08 Withering Grief" data-flag="@X" onclick="openSidebar('MST_128_UB08 Withering Grief',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\167_UR08 Storm the Palace.png" id="MST_167_UR08 Storm the Palace" data-flag="@X" onclick="openSidebar('MST_167_UR08 Storm the Palace',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\206_UG08 Building the Frontier.png" id="MST_206_UG08 Building the Frontier" data-flag="@X" onclick="openSidebar('MST_206_UG08 Building the Frontier',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\50_UW09 Rewoven Fates.png" id="MST_50_UW09 Rewoven Fates" data-flag="@X" onclick="openSidebar('MST_50_UW09 Rewoven Fates',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\89_UU09 Runic Restraints.png" id="MST_89_UU09 Runic Restraints" data-flag="@X" onclick="openSidebar('MST_89_UU09 Runic Restraints',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\129_UB09 Necromancer's Whim.png" id="MST_129_UB09 Necromancers Whim" data-flag="@X" onclick="openSidebar('MST_129_UB09 Necromancers Whim',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\168_UR09 Shattershot.png" id="MST_168_UR09 Shattershot" data-flag="@X" onclick="openSidebar('MST_168_UR09 Shattershot',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\207_UG09 Visions of Other Worlds.png" id="MST_207_UG09 Visions of Other Worlds" data-flag="@X" onclick="openSidebar('MST_207_UG09 Visions of Other Worlds',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\51_UW10 Bracer of Light.png" id="MST_51_UW10 Bracer of Light" data-flag="@X" onclick="openSidebar('MST_51_UW10 Bracer of Light',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\90_UU10 Summon the Soulchasers.png" id="MST_90_UU10 Summon the Soulchasers" data-flag="@X" onclick="openSidebar('MST_90_UU10 Summon the Soulchasers',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\130_UB10 Alleyway Ambush.png" id="MST_130_UB10 Alleyway Ambush" data-flag="@X" onclick="openSidebar('MST_130_UB10 Alleyway Ambush',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\169_UR10 Psychic Enslavement.png" id="MST_169_UR10 Psychic Enslavement" data-flag="@X" onclick="openSidebar('MST_169_UR10 Psychic Enslavement',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\208_UG10 Jade Ritual.png" id="MST_208_UG10 Jade Ritual" data-flag="@X" onclick="openSidebar('MST_208_UG10 Jade Ritual',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\52_UW11 Storm of Defiance.png" id="MST_52_UW11 Storm of Defiance" data-flag="@X" onclick="openSidebar('MST_52_UW11 Storm of Defiance',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\91_UU11 Relevant Texts.png" id="MST_91_UU11 Relevant Texts" data-flag="@X" onclick="openSidebar('MST_91_UU11 Relevant Texts',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\131_UB11 Commune with Shadows.png" id="MST_131_UB11 Commune with Shadows" data-flag="@X" onclick="openSidebar('MST_131_UB11 Commune with Shadows',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\170_UR11 Phoenix Mantle.png" id="MST_170_UR11 Phoenix Mantle" data-flag="@X" onclick="openSidebar('MST_170_UR11 Phoenix Mantle',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\209_UG11 Under the Iron Capitol.png" id="MST_209_UG11 Under the Iron Capitol" data-flag="@X" onclick="openSidebar('MST_209_UG11 Under the Iron Capitol',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\14_CW01 Follower of the Updraft Path.png" id="MST_14_CW01 Follower of the Updraft Path" data-flag="@X" onclick="openSidebar('MST_14_CW01 Follower of the Updraft Path',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\92_UU12 Voracious Elasmodracid.png" id="MST_92_UU12 Voracious Elasmodracid" data-flag="@X" onclick="openSidebar('MST_92_UU12 Voracious Elasmodracid',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\93_CB01 Battle-Weary Swordtail.png" id="MST_93_CB01 Battle-Weary Swordtail" data-flag="@X" onclick="openSidebar('MST_93_CB01 Battle-Weary Swordtail',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\132_CR01 Worldly Sellsword.png" id="MST_132_CR01 Worldly Sellsword" data-flag="@X" onclick="openSidebar('MST_132_CR01 Worldly Sellsword',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\171_CG01 Flower Stalker.png" id="MST_171_CG01 Flower Stalker" data-flag="@X" onclick="openSidebar('MST_171_CG01 Flower Stalker',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\15_CW02 Kitsan Knight-Errant.png" id="MST_15_CW02 Kitsan Knight-Errant" data-flag="@X" onclick="openSidebar('MST_15_CW02 Kitsan Knight-Errant',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\53_CU01 Xolotl Raider.png" id="MST_53_CU01 Xolotl Raider" data-flag="@X" onclick="openSidebar('MST_53_CU01 Xolotl Raider',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\94_CB02 Despair Path Master.png" id="MST_94_CB02 Despair Path Master" data-flag="@X" onclick="openSidebar('MST_94_CB02 Despair Path Master',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\133_CR02 Prepared Fortress Guard.png" id="MST_133_CR02 Prepared Fortress Guard" data-flag="@X" onclick="openSidebar('MST_133_CR02 Prepared Fortress Guard',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\172_CG02 Sika Matriarch.png" id="MST_172_CG02 Sika Matriarch" data-flag="@X" onclick="openSidebar('MST_172_CG02 Sika Matriarch',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\16_CW03 Petalseeker Mistress.png" id="MST_16_CW03 Petalseeker Mistress" data-flag="@X" onclick="openSidebar('MST_16_CW03 Petalseeker Mistress',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\54_CU02 Ortugan Elder.png" id="MST_54_CU02 Ortugan Elder" data-flag="@X" onclick="openSidebar('MST_54_CU02 Ortugan Elder',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\95_CB03 Adept of the Blood Codex.png" id="MST_95_CB03 Adept of the Blood Codex" data-flag="@X" onclick="openSidebar('MST_95_CB03 Adept of the Blood Codex',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\134_CR03 Lafahdian Minister of the Arcane.png" id="MST_134_CR03 Lafahdian Minister of the Arcane" data-flag="@X" onclick="openSidebar('MST_134_CR03 Lafahdian Minister of the Arcane',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\173_CG03 Unphased Journeyers.png" id="MST_173_CG03 Unphased Journeyers" data-flag="@X" onclick="openSidebar('MST_173_CG03 Unphased Journeyers',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\17_CW04 Truth Diviner.png" id="MST_17_CW04 Truth Diviner" data-flag="@X" onclick="openSidebar('MST_17_CW04 Truth Diviner',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\55_CU03 Uncompromising Artist.png" id="MST_55_CU03 Uncompromising Artist" data-flag="@X" onclick="openSidebar('MST_55_CU03 Uncompromising Artist',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\96_CB04 Iron Empire Kenin.png" id="MST_96_CB04 Iron Empire Kenin" data-flag="@X" onclick="openSidebar('MST_96_CB04 Iron Empire Kenin',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\135_CR04 Iceclaw Swordfrey.png" id="MST_135_CR04 Iceclaw Swordfrey" data-flag="@X" onclick="openSidebar('MST_135_CR04 Iceclaw Swordfrey',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\174_CG04 Fangscale Geologist.png" id="MST_174_CG04 Fangscale Geologist" data-flag="@X" onclick="openSidebar('MST_174_CG04 Fangscale Geologist',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\18_CW05 Confident Huntress.png" id="MST_18_CW05 Confident Huntress" data-flag="@X" onclick="openSidebar('MST_18_CW05 Confident Huntress',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\56_CU04 Kodiloan Sentry.png" id="MST_56_CU04 Kodiloan Sentry" data-flag="@X" onclick="openSidebar('MST_56_CU04 Kodiloan Sentry',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\97_CB05 Spiked Diggers.png" id="MST_97_CB05 Spiked Diggers" data-flag="@X" onclick="openSidebar('MST_97_CB05 Spiked Diggers',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\136_CR05 Mountain Miner.png" id="MST_136_CR05 Mountain Miner" data-flag="@X" onclick="openSidebar('MST_136_CR05 Mountain Miner',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\175_CG05 Night-Stroll Guardian.png" id="MST_175_CG05 Night-Stroll Guardian" data-flag="@X" onclick="openSidebar('MST_175_CG05 Night-Stroll Guardian',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\19_CW06 Youngling Protector.png" id="MST_19_CW06 Youngling Protector" data-flag="@X" onclick="openSidebar('MST_19_CW06 Youngling Protector',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\57_CU05 Beachside Patrol.png" id="MST_57_CU05 Beachside Patrol" data-flag="@X" onclick="openSidebar('MST_57_CU05 Beachside Patrol',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\98_CB06 Moonwarped Beast.png" id="MST_98_CB06 Moonwarped Beast" data-flag="@X" onclick="openSidebar('MST_98_CB06 Moonwarped Beast',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\137_CR06 Adventuring Mages of Squa.png" id="MST_137_CR06 Adventuring Mages of Squa" data-flag="@X" onclick="openSidebar('MST_137_CR06 Adventuring Mages of Squa',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\176_CG06 Glacier Lookout.png" id="MST_176_CG06 Glacier Lookout" data-flag="@X" onclick="openSidebar('MST_176_CG06 Glacier Lookout',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\20_CW07 Stubborn Hornblower.png" id="MST_20_CW07 Stubborn Hornblower" data-flag="@X" onclick="openSidebar('MST_20_CW07 Stubborn Hornblower',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\58_CU06 Keensight Sorcerer.png" id="MST_58_CU06 Keensight Sorcerer" data-flag="@X" onclick="openSidebar('MST_58_CU06 Keensight Sorcerer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\99_CB07 Midnight Messenger.png" id="MST_99_CB07 Midnight Messenger" data-flag="@X" onclick="openSidebar('MST_99_CB07 Midnight Messenger',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\138_CR07 Aardite Brute.png" id="MST_138_CR07 Aardite Brute" data-flag="@X" onclick="openSidebar('MST_138_CR07 Aardite Brute',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\177_CG07 Wildheart Guardian.png" id="MST_177_CG07 Wildheart Guardian" data-flag="@X" onclick="openSidebar('MST_177_CG07 Wildheart Guardian',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\21_CW08 Cheerful Messenger.png" id="MST_21_CW08 Cheerful Messenger" data-flag="@X" onclick="openSidebar('MST_21_CW08 Cheerful Messenger',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\59_CU07 Hullcutter Duo.png" id="MST_59_CU07 Hullcutter Duo" data-flag="@X" onclick="openSidebar('MST_59_CU07 Hullcutter Duo',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\100_CB08 Banished Clairvoyant.png" id="MST_100_CB08 Banished Clairvoyant" data-flag="@X" onclick="openSidebar('MST_100_CB08 Banished Clairvoyant',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\139_CR08 Eccentric Scavenger.png" id="MST_139_CR08 Eccentric Scavenger" data-flag="@X" onclick="openSidebar('MST_139_CR08 Eccentric Scavenger',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\178_CG08 School of Seaquids.png" id="MST_178_CG08 School of Seaquids" data-flag="@X" onclick="openSidebar('MST_178_CG08 School of Seaquids',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\22_CW09 Thraupian Harrier.png" id="MST_22_CW09 Thraupian Harrier" data-flag="@X" onclick="openSidebar('MST_22_CW09 Thraupian Harrier',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\60_CU08 Selaki Stormrider.png" id="MST_60_CU08 Selaki Stormrider" data-flag="@X" onclick="openSidebar('MST_60_CU08 Selaki Stormrider',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\101_CB09 Escaped Lab Rat.png" id="MST_101_CB09 Escaped Lab Rat" data-flag="@X" onclick="openSidebar('MST_101_CB09 Escaped Lab Rat',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\140_CR09 Army of West Khyth.png" id="MST_140_CR09 Army of West Khyth" data-flag="@X" onclick="openSidebar('MST_140_CR09 Army of West Khyth',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\179_CG09 Sociable Inn Owner.png" id="MST_179_CG09 Sociable Inn Owner" data-flag="@X" onclick="openSidebar('MST_179_CG09 Sociable Inn Owner',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\23_CW10 Marks of Guilt.png" id="MST_23_CW10 Marks of Guilt" data-flag="@X" onclick="openSidebar('MST_23_CW10 Marks of Guilt',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\61_CU09 Siltshore Sentinel.png" id="MST_61_CU09 Siltshore Sentinel" data-flag="@X" onclick="openSidebar('MST_61_CU09 Siltshore Sentinel',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\102_CB10 Snatcher Drakeling.png" id="MST_102_CB10 Snatcher Drakeling" data-flag="@X" onclick="openSidebar('MST_102_CB10 Snatcher Drakeling',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\141_CR10 6-7cmc crea.png" id="MST_141_CR10 6-7cmc crea" data-flag="@X" onclick="openSidebar('MST_141_CR10 6-7cmc crea',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\180_CG10 Unconventional Summoner.png" id="MST_180_CG10 Unconventional Summoner" data-flag="@X" onclick="openSidebar('MST_180_CG10 Unconventional Summoner',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\24_CW11 Blue Sky Elite.png" id="MST_24_CW11 Blue Sky Elite" data-flag="@X" onclick="openSidebar('MST_24_CW11 Blue Sky Elite',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\62_CU10 Armed Delegation.png" id="MST_62_CU10 Armed Delegation" data-flag="@X" onclick="openSidebar('MST_62_CU10 Armed Delegation',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\103_CB11 Dalus Desert Askor.png" id="MST_103_CB11 Dalus Desert Askor" data-flag="@X" onclick="openSidebar('MST_103_CB11 Dalus Desert Askor',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\142_CR11 undecided.png" id="MST_142_CR11 undecided" data-flag="@X" onclick="openSidebar('MST_142_CR11 undecided',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\181_CG11 Scallywag Tracker.png" id="MST_181_CG11 Scallywag Tracker" data-flag="@X" onclick="openSidebar('MST_181_CG11 Scallywag Tracker',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\25_CW12 City Gate Patrol.png" id="MST_25_CW12 City Gate Patrol" data-flag="@X" onclick="openSidebar('MST_25_CW12 City Gate Patrol',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\63_CU11 Elder Cirein.png" id="MST_63_CU11 Elder Cirein" data-flag="@X" onclick="openSidebar('MST_63_CU11 Elder Cirein',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\104_CB12 Sign Your Life Away.png" id="MST_104_CB12 Sign Your Life Away" data-flag="@X" onclick="openSidebar('MST_104_CB12 Sign Your Life Away',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\143_CR12 Sprite Bolt.png" id="MST_143_CR12 Sprite Bolt" data-flag="@X" onclick="openSidebar('MST_143_CR12 Sprite Bolt',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\182_CG12 combat trick noncre.png" id="MST_182_CG12 combat trick noncre" data-flag="@X" onclick="openSidebar('MST_182_CG12 combat trick noncre',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\26_CW13 Generous Vendor.png" id="MST_26_CW13 Generous Vendor" data-flag="@X" onclick="openSidebar('MST_26_CW13 Generous Vendor',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\64_CU12 undecided.png" id="MST_64_CU12 undecided" data-flag="@X" onclick="openSidebar('MST_64_CU12 undecided',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\105_CB13 Infernal Resourcefulness.png" id="MST_105_CB13 Infernal Resourcefulness" data-flag="@X" onclick="openSidebar('MST_105_CB13 Infernal Resourcefulness',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\144_CR13 Sound the Dragonhorn.png" id="MST_144_CR13 Sound the Dragonhorn" data-flag="@X" onclick="openSidebar('MST_144_CR13 Sound the Dragonhorn',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\183_CG13 bite ins or sorc.png" id="MST_183_CG13 bite ins or sorc" data-flag="@X" onclick="openSidebar('MST_183_CG13 bite ins or sorc',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\27_CW14 Blessing of Kaniya.png" id="MST_27_CW14 Blessing of Kaniya" data-flag="@X" onclick="openSidebar('MST_27_CW14 Blessing of Kaniya',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\65_CU13 Amulet of the Future.png" id="MST_65_CU13 Amulet of the Future" data-flag="@X" onclick="openSidebar('MST_65_CU13 Amulet of the Future',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\106_CB14 Deceptive Wagering.png" id="MST_106_CB14 Deceptive Wagering" data-flag="@X" onclick="openSidebar('MST_106_CB14 Deceptive Wagering',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\145_CR14 Smash Open.png" id="MST_145_CR14 Smash Open" data-flag="@X" onclick="openSidebar('MST_145_CR14 Smash Open',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\184_CG14 Grapple with the Past.png" id="MST_184_CG14 Grapple with the Past" data-flag="@X" onclick="openSidebar('MST_184_CG14 Grapple with the Past',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\28_CW15 Dub.png" id="MST_28_CW15 Dub" data-flag="@X" onclick="openSidebar('MST_28_CW15 Dub',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\66_CU14 Moonhalo Restraint.png" id="MST_66_CU14 Moonhalo Restraint" data-flag="@X" onclick="openSidebar('MST_66_CU14 Moonhalo Restraint',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\107_CB15 Blow to the Pharynx.png" id="MST_107_CB15 Blow to the Pharynx" data-flag="@X" onclick="openSidebar('MST_107_CB15 Blow to the Pharynx',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\146_CR15 Entrancing Ruby.png" id="MST_146_CR15 Entrancing Ruby" data-flag="@X" onclick="openSidebar('MST_146_CR15 Entrancing Ruby',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\185_CG15 Moonguided Shot.png" id="MST_185_CG15 Moonguided Shot" data-flag="@X" onclick="openSidebar('MST_185_CG15 Moonguided Shot',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\29_CW16 Mobilize the Village.png" id="MST_29_CW16 Mobilize the Village" data-flag="@X" onclick="openSidebar('MST_29_CW16 Mobilize the Village',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\67_CU15 Unsummon.png" id="MST_67_CU15 Unsummon" data-flag="@X" onclick="openSidebar('MST_67_CU15 Unsummon',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\108_CB16 Reluctant Companions.png" id="MST_108_CB16 Reluctant Companions" data-flag="@X" onclick="openSidebar('MST_108_CB16 Reluctant Companions',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\147_CR16 Storm's Strike.png" id="MST_147_CR16 Storms Strike" data-flag="@X" onclick="openSidebar('MST_147_CR16 Storms Strike',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\186_CG16 Ruined Relics.png" id="MST_186_CG16 Ruined Relics" data-flag="@X" onclick="openSidebar('MST_186_CG16 Ruined Relics',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\30_CW17 Plucking A Thorn.png" id="MST_30_CW17 Plucking A Thorn" data-flag="@X" onclick="openSidebar('MST_30_CW17 Plucking A Thorn',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\68_CU16 Raise Shields.png" id="MST_68_CU16 Raise Shields" data-flag="@X" onclick="openSidebar('MST_68_CU16 Raise Shields',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\109_CB17 Carnikinesis.png" id="MST_109_CB17 Carnikinesis" data-flag="@X" onclick="openSidebar('MST_109_CB17 Carnikinesis',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\148_CR17 Fireside Tales.png" id="MST_148_CR17 Fireside Tales" data-flag="@X" onclick="openSidebar('MST_148_CR17 Fireside Tales',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\187_CG17 Limb Enhancement.png" id="MST_187_CG17 Limb Enhancement" data-flag="@X" onclick="openSidebar('MST_187_CG17 Limb Enhancement',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\31_CW18 Serene Crystallization.png" id="MST_31_CW18 Serene Crystallization" data-flag="@X" onclick="openSidebar('MST_31_CW18 Serene Crystallization',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\69_CU17 Unweaving Ritual.png" id="MST_69_CU17 Unweaving Ritual" data-flag="@X" onclick="openSidebar('MST_69_CU17 Unweaving Ritual',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\110_CB18 Unnerving Onyx.png" id="MST_110_CB18 Unnerving Onyx" data-flag="@X" onclick="openSidebar('MST_110_CB18 Unnerving Onyx',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\149_CR18 Flames of Passion.png" id="MST_149_CR18 Flames of Passion" data-flag="@X" onclick="openSidebar('MST_149_CR18 Flames of Passion',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\188_CG18 Tangled in Crops.png" id="MST_188_CG18 Tangled in Crops" data-flag="@X" onclick="openSidebar('MST_188_CG18 Tangled in Crops',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\32_CW19 Ring of Assurance.png" id="MST_32_CW19 Ring of Assurance" data-flag="@X" onclick="openSidebar('MST_32_CW19 Ring of Assurance',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\70_CU18 Anticipate Their Next Moves.png" id="MST_70_CU18 Anticipate Their Next Moves" data-flag="@X" onclick="openSidebar('MST_70_CU18 Anticipate Their Next Moves',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\111_CB19 1mv nonrem noncre.png" id="MST_111_CB19 1mv nonrem noncre" data-flag="@X" onclick="openSidebar('MST_111_CB19 1mv nonrem noncre',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\150_CR19 Last Breath's Spite.png" id="MST_150_CR19 Last Breaths Spite" data-flag="@X" onclick="openSidebar('MST_150_CR19 Last Breaths Spite',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\189_CG19 Shard of Growth.png" id="MST_189_CG19 Shard of Growth" data-flag="@X" onclick="openSidebar('MST_189_CG19 Shard of Growth',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="MST_e" data-flag="@E" onclick="openSidebar('MST_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\71_CU19 Plumb the Depths.png" id="MST_71_CU19 Plumb the Depths" data-flag="@X" onclick="openSidebar('MST_71_CU19 Plumb the Depths',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="MST_e" data-flag="@E" onclick="openSidebar('MST_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="MST_e" data-flag="@E" onclick="openSidebar('MST_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="MST_e" data-flag="@E" onclick="openSidebar('MST_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MST_er" data-flag="@E" onclick="openSidebar('MST_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MST_er" data-flag="@E" onclick="openSidebar('MST_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MST_er" data-flag="@E" onclick="openSidebar('MST_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MST_er" data-flag="@E" onclick="openSidebar('MST_er',false)"></div>
 				<div id="gold" class="anchor"></div>
-				<div class="container"><img alt="/sets\MST-files\img\223_RM01 Queen Scoraya of Hagzaga.png" id="223_RM01 Queen Scoraya of Hagzaga" data-flag="@X" onclick="openSidebar('223_RM01 Queen Scoraya of Hagzaga',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\225_RM01 Urvinn, Count of Wastehold.png" id="225_RM01 Urvinn, Count of Wastehold" data-flag="@X" onclick="openSidebar('225_RM01 Urvinn, Count of Wastehold',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\216_MX01 Impatient Dragonling.png" id="216_MX01 Impatient Dragonling" data-flag="@X" onclick="openSidebar('216_MX01 Impatient Dragonling',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\219_RM01 Crystal Flameblossom.png" id="219_RM01 Crystal Flameblossom" data-flag="@X" onclick="openSidebar('219_RM01 Crystal Flameblossom',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\221_RM01 Jetrax, Dark Archon.png" id="221_RM01 Jetrax, Dark Archon" data-flag="@X" onclick="openSidebar('221_RM01 Jetrax, Dark Archon',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\222_RM01 Liau, Primordial Mother.png" id="222_RM01 Liau, Primordial Mother" data-flag="@X" onclick="openSidebar('222_RM01 Liau, Primordial Mother',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\217_RM01.png" id="217_RM01" data-flag="@X" onclick="openSidebar('217_RM01',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\220_RM01 Iron Empire Monolith.png" id="220_RM01 Iron Empire Monolith" data-flag="@X" onclick="openSidebar('220_RM01 Iron Empire Monolith',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\224_RM01 Steadfast Retriever.png" id="224_RM01 Steadfast Retriever" data-flag="@X" onclick="openSidebar('224_RM01 Steadfast Retriever',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\228_Strati, Ikli Starspeaker.png" id="228_Strati, Ikli Starspeaker" data-flag="@X" onclick="openSidebar('228_Strati, Ikli Starspeaker',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\240_Righteous Reforging.png" id="240_Righteous Reforging" data-flag="@X" onclick="openSidebar('240_Righteous Reforging',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\212_Jeddina, Digital Huntress.png" id="212_Jeddina, Digital Huntress" data-flag="@X" onclick="openSidebar('212_Jeddina, Digital Huntress',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\213_Klawia, the Journeyer.png" id="213_Klawia, the Journeyer" data-flag="@X" onclick="openSidebar('213_Klawia, the Journeyer',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\215_Migronn, Steadfast Thyl.png" id="215_Migronn, Steadfast Thyl" data-flag="@X" onclick="openSidebar('215_Migronn, Steadfast Thyl',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\227_Skallayt, Ambitious Warlord.png" id="227_Skallayt, Ambitious Warlord" data-flag="@X" onclick="openSidebar('227_Skallayt, Ambitious Warlord',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\214_Leave No Witnesses.png" id="214_Leave No Witnesses" data-flag="@X" onclick="openSidebar('214_Leave No Witnesses',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\226_RX01 Wrathful Lerna.png" id="226_RX01 Wrathful Lerna" data-flag="@X" onclick="openSidebar('226_RX01 Wrathful Lerna',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\239_Courageous Assembly.png" id="239_Courageous Assembly" data-flag="@X" onclick="openSidebar('239_Courageous Assembly',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\222_RM01 Queen Scoraya of Hagzaga.png" id="MST_222_RM01 Queen Scoraya of Hagzaga" data-flag="@X" onclick="openSidebar('MST_222_RM01 Queen Scoraya of Hagzaga',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\224_RM01 Urvinn, Count of Wastehold.png" id="MST_224_RM01 Urvinn, Count of Wastehold" data-flag="@X" onclick="openSidebar('MST_224_RM01 Urvinn, Count of Wastehold',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\214_MX01 Impatient Dragonling.png" id="MST_214_MX01 Impatient Dragonling" data-flag="@X" onclick="openSidebar('MST_214_MX01 Impatient Dragonling',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\218_RM01 Crystal Flameblossom.png" id="MST_218_RM01 Crystal Flameblossom" data-flag="@X" onclick="openSidebar('MST_218_RM01 Crystal Flameblossom',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="MST_e" data-flag="@E" onclick="openSidebar('MST_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="MST_e" data-flag="@E" onclick="openSidebar('MST_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="MST_e" data-flag="@E" onclick="openSidebar('MST_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\215_MX02 The Jamakhora.png" id="MST_215_MX02 The Jamakhora" data-flag="@X" onclick="openSidebar('MST_215_MX02 The Jamakhora',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="MST_e" data-flag="@E" onclick="openSidebar('MST_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="MST_e" data-flag="@E" onclick="openSidebar('MST_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="MST_e" data-flag="@E" onclick="openSidebar('MST_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="MST_e" data-flag="@E" onclick="openSidebar('MST_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\220_RM01 Jetrax, Dark Archon.png" id="MST_220_RM01 Jetrax, Dark Archon" data-flag="@X" onclick="openSidebar('MST_220_RM01 Jetrax, Dark Archon',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="MST_e" data-flag="@E" onclick="openSidebar('MST_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="MST_e" data-flag="@E" onclick="openSidebar('MST_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MST_er" data-flag="@E" onclick="openSidebar('MST_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MST_er" data-flag="@E" onclick="openSidebar('MST_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MST_er" data-flag="@E" onclick="openSidebar('MST_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MST_er" data-flag="@E" onclick="openSidebar('MST_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MST_er" data-flag="@E" onclick="openSidebar('MST_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\221_RM01 Liau, Primordial Mother.png" id="MST_221_RM01 Liau, Primordial Mother" data-flag="@X" onclick="openSidebar('MST_221_RM01 Liau, Primordial Mother',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\216_RM01.png" id="MST_216_RM01" data-flag="@X" onclick="openSidebar('MST_216_RM01',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\219_RM01 Iron Empire Monolith.png" id="MST_219_RM01 Iron Empire Monolith" data-flag="@X" onclick="openSidebar('MST_219_RM01 Iron Empire Monolith',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\223_RM01 Steadfast Retriever.png" id="MST_223_RM01 Steadfast Retriever" data-flag="@X" onclick="openSidebar('MST_223_RM01 Steadfast Retriever',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\227_Strati, Ikli Starspeaker.png" id="MST_227_Strati, Ikli Starspeaker" data-flag="@X" onclick="openSidebar('MST_227_Strati, Ikli Starspeaker',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="MST_e" data-flag="@E" onclick="openSidebar('MST_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="MST_e" data-flag="@E" onclick="openSidebar('MST_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="MST_e" data-flag="@E" onclick="openSidebar('MST_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\239_Righteous Reforging.png" id="MST_239_Righteous Reforging" data-flag="@X" onclick="openSidebar('MST_239_Righteous Reforging',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="MST_e" data-flag="@E" onclick="openSidebar('MST_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MST_er" data-flag="@E" onclick="openSidebar('MST_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MST_er" data-flag="@E" onclick="openSidebar('MST_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MST_er" data-flag="@E" onclick="openSidebar('MST_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MST_er" data-flag="@E" onclick="openSidebar('MST_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MST_er" data-flag="@E" onclick="openSidebar('MST_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\210_Jeddina, Digital Huntress.png" id="MST_210_Jeddina, Digital Huntress" data-flag="@X" onclick="openSidebar('MST_210_Jeddina, Digital Huntress',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\211_Klawia, the Journeyer.png" id="MST_211_Klawia, the Journeyer" data-flag="@X" onclick="openSidebar('MST_211_Klawia, the Journeyer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\213_Migronn, Steadfast Thyl.png" id="MST_213_Migronn, Steadfast Thyl" data-flag="@X" onclick="openSidebar('MST_213_Migronn, Steadfast Thyl',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\226_Skallayt, Ambitious Warlord.png" id="MST_226_Skallayt, Ambitious Warlord" data-flag="@X" onclick="openSidebar('MST_226_Skallayt, Ambitious Warlord',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\212_Leave No Witnesses.png" id="MST_212_Leave No Witnesses" data-flag="@X" onclick="openSidebar('MST_212_Leave No Witnesses',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\225_RX01 Wrathful Lerna.png" id="MST_225_RX01 Wrathful Lerna" data-flag="@X" onclick="openSidebar('MST_225_RX01 Wrathful Lerna',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\238_Courageous Assembly.png" id="MST_238_Courageous Assembly" data-flag="@X" onclick="openSidebar('MST_238_Courageous Assembly',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="MST_e" data-flag="@E" onclick="openSidebar('MST_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="MST_e" data-flag="@E" onclick="openSidebar('MST_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="MST_e" data-flag="@E" onclick="openSidebar('MST_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MST_er" data-flag="@E" onclick="openSidebar('MST_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MST_er" data-flag="@E" onclick="openSidebar('MST_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MST_er" data-flag="@E" onclick="openSidebar('MST_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MST_er" data-flag="@E" onclick="openSidebar('MST_er',false)"></div>
 				<div id="colorless" class="anchor"></div>
-				<div class="container"><img alt="/sets\MST-files\img\1_MX02.png" id="1_MX02" data-flag="@X" onclick="openSidebar('1_MX02',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\2_MX03.png" id="2_MX03" data-flag="@X" onclick="openSidebar('2_MX03',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\3_MX04.png" id="3_MX04" data-flag="@X" onclick="openSidebar('3_MX04',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\4_MX05.png" id="4_MX05" data-flag="@X" onclick="openSidebar('4_MX05',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\5_RX03.png" id="5_RX03" data-flag="@X" onclick="openSidebar('5_RX03',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\6_RX04.png" id="6_RX04" data-flag="@X" onclick="openSidebar('6_RX04',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\7_RX05.png" id="7_RX05" data-flag="@X" onclick="openSidebar('7_RX05',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\8_RX06.png" id="8_RX06" data-flag="@X" onclick="openSidebar('8_RX06',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\9_RX07.png" id="9_RX07" data-flag="@X" onclick="openSidebar('9_RX07',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\10_RX08.png" id="10_RX08" data-flag="@X" onclick="openSidebar('10_RX08',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\246_RX02 Revered Moonstaff.png" id="246_RX02 Revered Moonstaff" data-flag="@X" onclick="openSidebar('246_RX02 Revered Moonstaff',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\11_UX01.png" id="11_UX01" data-flag="@X" onclick="openSidebar('11_UX01',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\12_UX02.png" id="12_UX02" data-flag="@X" onclick="openSidebar('12_UX02',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\13_UX03.png" id="13_UX03" data-flag="@X" onclick="openSidebar('13_UX03',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\14_UX04.png" id="14_UX04" data-flag="@X" onclick="openSidebar('14_UX04',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\15_UX05.png" id="15_UX05" data-flag="@X" onclick="openSidebar('15_UX05',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\247_UA01 Farsight Blade.png" id="247_UA01 Farsight Blade" data-flag="@X" onclick="openSidebar('247_UA01 Farsight Blade',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\248_UA02.png" id="248_UA02" data-flag="@X" onclick="openSidebar('248_UA02',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\249_UA03.png" id="249_UA03" data-flag="@X" onclick="openSidebar('249_UA03',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\250_UA04.png" id="250_UA04" data-flag="@X" onclick="openSidebar('250_UA04',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\251_UA05.png" id="251_UA05" data-flag="@X" onclick="openSidebar('251_UA05',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\241_CA01 land to hand crea.png" id="241_CA01 land to hand crea" data-flag="@X" onclick="openSidebar('241_CA01 land to hand crea',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\242_CA02 Moonlaced Potion.png" id="242_CA02 Moonlaced Potion" data-flag="@X" onclick="openSidebar('242_CA02 Moonlaced Potion',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\243_CA03.png" id="243_CA03" data-flag="@X" onclick="openSidebar('243_CA03',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\244_CA04.png" id="244_CA04" data-flag="@X" onclick="openSidebar('244_CA04',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\245_CA05.png" id="245_CA05" data-flag="@X" onclick="openSidebar('245_CA05',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\253_UL01 Verdant Gorge Falls.png" id="253_UL01 Verdant Gorge Falls" data-flag="@X" onclick="openSidebar('253_UL01 Verdant Gorge Falls',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\254_UL02 Abandoned Prison.png" id="254_UL02 Abandoned Prison" data-flag="@X" onclick="openSidebar('254_UL02 Abandoned Prison',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\255_UL03 Garrisoned Homeland.png" id="255_UL03 Garrisoned Homeland" data-flag="@X" onclick="openSidebar('255_UL03 Garrisoned Homeland',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\256_UL04 Seaweed Nations.png" id="256_UL04 Seaweed Nations" data-flag="@X" onclick="openSidebar('256_UL04 Seaweed Nations',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\257_UL05 Blue Sky Cities.png" id="257_UL05 Blue Sky Cities" data-flag="@X" onclick="openSidebar('257_UL05 Blue Sky Cities',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\252_CL01 A Path Between.png" id="252_CL01 A Path Between" data-flag="@X" onclick="openSidebar('252_CL01 A Path Between',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\258_Plains.png" id="258_Plains" data-flag="@X" onclick="openSidebar('258_Plains',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\259_Island.png" id="259_Island" data-flag="@X" onclick="openSidebar('259_Island',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\260_Swamp.png" id="260_Swamp" data-flag="@X" onclick="openSidebar('260_Swamp',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\261_Mountain.png" id="261_Mountain" data-flag="@X" onclick="openSidebar('261_Mountain',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\262_Forest.png" id="262_Forest" data-flag="@X" onclick="openSidebar('262_Forest',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\1_MX04.png" id="MST_1_MX04" data-flag="@X" onclick="openSidebar('MST_1_MX04',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\2_MX05.png" id="MST_2_MX05" data-flag="@X" onclick="openSidebar('MST_2_MX05',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\245_MX03 Esurvite Holy Book.png" id="MST_245_MX03 Esurvite Holy Book" data-flag="@X" onclick="openSidebar('MST_245_MX03 Esurvite Holy Book',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\3_RX03.png" id="MST_3_RX03" data-flag="@X" onclick="openSidebar('MST_3_RX03',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\4_RX04.png" id="MST_4_RX04" data-flag="@X" onclick="openSidebar('MST_4_RX04',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\5_RX05.png" id="MST_5_RX05" data-flag="@X" onclick="openSidebar('MST_5_RX05',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\6_RX06.png" id="MST_6_RX06" data-flag="@X" onclick="openSidebar('MST_6_RX06',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\7_RX07.png" id="MST_7_RX07" data-flag="@X" onclick="openSidebar('MST_7_RX07',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\8_RX08.png" id="MST_8_RX08" data-flag="@X" onclick="openSidebar('MST_8_RX08',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\246_RX02 Revered Moonstaff.png" id="MST_246_RX02 Revered Moonstaff" data-flag="@X" onclick="openSidebar('MST_246_RX02 Revered Moonstaff',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\9_UX01.png" id="MST_9_UX01" data-flag="@X" onclick="openSidebar('MST_9_UX01',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\10_UX02.png" id="MST_10_UX02" data-flag="@X" onclick="openSidebar('MST_10_UX02',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\11_UX03.png" id="MST_11_UX03" data-flag="@X" onclick="openSidebar('MST_11_UX03',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\12_UX04.png" id="MST_12_UX04" data-flag="@X" onclick="openSidebar('MST_12_UX04',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\13_UX05.png" id="MST_13_UX05" data-flag="@X" onclick="openSidebar('MST_13_UX05',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\247_UA01 Farsight Blade.png" id="MST_247_UA01 Farsight Blade" data-flag="@X" onclick="openSidebar('MST_247_UA01 Farsight Blade',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\248_UA02.png" id="MST_248_UA02" data-flag="@X" onclick="openSidebar('MST_248_UA02',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\249_UA03.png" id="MST_249_UA03" data-flag="@X" onclick="openSidebar('MST_249_UA03',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\250_UA04.png" id="MST_250_UA04" data-flag="@X" onclick="openSidebar('MST_250_UA04',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\251_UA05.png" id="MST_251_UA05" data-flag="@X" onclick="openSidebar('MST_251_UA05',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\240_CA01 Hired Carriage.png" id="MST_240_CA01 Hired Carriage" data-flag="@X" onclick="openSidebar('MST_240_CA01 Hired Carriage',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\241_CA02 Moonlaced Potion.png" id="MST_241_CA02 Moonlaced Potion" data-flag="@X" onclick="openSidebar('MST_241_CA02 Moonlaced Potion',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\242_CA03 Masterpiece Shield.png" id="MST_242_CA03 Masterpiece Shield" data-flag="@X" onclick="openSidebar('MST_242_CA03 Masterpiece Shield',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\243_CA04.png" id="MST_243_CA04" data-flag="@X" onclick="openSidebar('MST_243_CA04',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\244_CA05.png" id="MST_244_CA05" data-flag="@X" onclick="openSidebar('MST_244_CA05',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MST_er" data-flag="@E" onclick="openSidebar('MST_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MST_er" data-flag="@E" onclick="openSidebar('MST_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MST_er" data-flag="@E" onclick="openSidebar('MST_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MST_er" data-flag="@E" onclick="openSidebar('MST_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MST_er" data-flag="@E" onclick="openSidebar('MST_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\253_UL01 Verdant Gorge Falls.png" id="MST_253_UL01 Verdant Gorge Falls" data-flag="@X" onclick="openSidebar('MST_253_UL01 Verdant Gorge Falls',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\254_UL02 Abandoned Prison.png" id="MST_254_UL02 Abandoned Prison" data-flag="@X" onclick="openSidebar('MST_254_UL02 Abandoned Prison',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\255_UL03 Garrisoned Homeland.png" id="MST_255_UL03 Garrisoned Homeland" data-flag="@X" onclick="openSidebar('MST_255_UL03 Garrisoned Homeland',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\256_UL04 Seaweed Nations.png" id="MST_256_UL04 Seaweed Nations" data-flag="@X" onclick="openSidebar('MST_256_UL04 Seaweed Nations',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\257_UL05 Blue Sky Cities.png" id="MST_257_UL05 Blue Sky Cities" data-flag="@X" onclick="openSidebar('MST_257_UL05 Blue Sky Cities',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\252_CL01 A Path Between.png" id="MST_252_CL01 A Path Between" data-flag="@X" onclick="openSidebar('MST_252_CL01 A Path Between',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="MST_e" data-flag="@E" onclick="openSidebar('MST_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="MST_e" data-flag="@E" onclick="openSidebar('MST_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="MST_e" data-flag="@E" onclick="openSidebar('MST_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="MST_e" data-flag="@E" onclick="openSidebar('MST_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MST_er" data-flag="@E" onclick="openSidebar('MST_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MST_er" data-flag="@E" onclick="openSidebar('MST_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MST_er" data-flag="@E" onclick="openSidebar('MST_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MST_er" data-flag="@E" onclick="openSidebar('MST_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MST_er" data-flag="@E" onclick="openSidebar('MST_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\258_Plains.png" id="MST_258_Plains" data-flag="@X" onclick="openSidebar('MST_258_Plains',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\259_Island.png" id="MST_259_Island" data-flag="@X" onclick="openSidebar('MST_259_Island',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\260_Swamp.png" id="MST_260_Swamp" data-flag="@X" onclick="openSidebar('MST_260_Swamp',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\261_Mountain.png" id="MST_261_Mountain" data-flag="@X" onclick="openSidebar('MST_261_Mountain',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\262_Forest.png" id="MST_262_Forest" data-flag="@X" onclick="openSidebar('MST_262_Forest',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MST_er" data-flag="@E" onclick="openSidebar('MST_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MST_er" data-flag="@E" onclick="openSidebar('MST_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MST_er" data-flag="@E" onclick="openSidebar('MST_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MST_er" data-flag="@E" onclick="openSidebar('MST_er',false)"></div>
 				<div id="token" class="anchor"></div>
-				<div class="container"><img alt="/sets\MST-files\img\1t_Moonstones.png" id="1t_Moonstones" data-flag="@X" onclick="openSidebar('1t_Moonstones',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\1t_Cat Peasant.png" id="1t_Cat Peasant" data-flag="@X" onclick="openSidebar('1t_Cat Peasant',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\2t_Goat Peasant.png" id="2t_Goat Peasant" data-flag="@X" onclick="openSidebar('2t_Goat Peasant',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\3t_Rat Citizen.png" id="3t_Rat Citizen" data-flag="@X" onclick="openSidebar('3t_Rat Citizen',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\4t_Rat Rogue.png" id="4t_Rat Rogue" data-flag="@X" onclick="openSidebar('4t_Rat Rogue',false)"></div>
-				<div class="container"><img alt="/sets\MST-files\img\5t_Cat Elemental.png" id="5t_Cat Elemental" data-flag="@X" onclick="openSidebar('5t_Cat Elemental',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\1t_Moonstones.png" id="MST_1t_Moonstones" data-flag="@X" onclick="openSidebar('MST_1t_Moonstones',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\1t_Cat Peasant.png" id="MST_1t_Cat Peasant" data-flag="@X" onclick="openSidebar('MST_1t_Cat Peasant',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\2t_Goat Peasant.png" id="MST_2t_Goat Peasant" data-flag="@X" onclick="openSidebar('MST_2t_Goat Peasant',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\3t_Rat Citizen.png" id="MST_3t_Rat Citizen" data-flag="@X" onclick="openSidebar('MST_3t_Rat Citizen',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\4t_Rat Rogue.png" id="MST_4t_Rat Rogue" data-flag="@X" onclick="openSidebar('MST_4t_Rat Rogue',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\6t_Dragon.png" id="MST_6t_Dragon" data-flag="@X" onclick="openSidebar('MST_6t_Dragon',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\5t_Cat Elemental.png" id="MST_5t_Cat Elemental" data-flag="@X" onclick="openSidebar('MST_5t_Cat Elemental',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\7t_Drake Elemental.png" id="MST_7t_Drake Elemental" data-flag="@X" onclick="openSidebar('MST_7t_Drake Elemental',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\MST-files\img\8t_Rat Soldier.png" id="MST_8t_Rat Soldier" data-flag="@X" onclick="openSidebar('MST_8t_Rat Soldier',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="MST_e" data-flag="@E" onclick="openSidebar('MST_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MST_er" data-flag="@E" onclick="openSidebar('MST_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MST_er" data-flag="@E" onclick="openSidebar('MST_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MST_er" data-flag="@E" onclick="openSidebar('MST_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MST_er" data-flag="@E" onclick="openSidebar('MST_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="MST_er" data-flag="@E" onclick="openSidebar('MST_er',false)"></div>
 	</div>
 	</div>
 	<div class="sidebar" id="sidebar">
 		<div class="sidebar-container">
-			<img id="sidebar_img" class="sidebar-img" src="/img/er.png">
+			<img id="sidebar_img" class="sidebar-img">
 			<img id="sidebar_h_img" class="sidebar-h-img">
 			<button class="flip-btn" id="sidebar-flip-btn" onclick="imgFlip('sidebar_img')"></button>
 		</div>
@@ -560,19 +584,111 @@
 		let specialchars = "";
 
 	document.addEventListener('DOMContentLoaded', async function() {
-		await fetch('/lists/all-cards.json')
+		await fetch(rootPath + '/lists/all-cards.json')
 					.then(response => response.json())
 					.then(json => {
 						card_list = json;
 				}).catch(error => console.error('Error:', error));
 
-				await fetch('/resources/replacechars.txt')
+				await fetch(rootPath + '/resources/replacechars.txt')
 					.then(response => response.text())
 					.then(text => {
 						specialchars = text; 
 				}).catch(error => console.error('Error:', error));
 
 				card_list_arrayified = card_list.cards;
+
+				let all_tags = new Set();
+				card_list_arrayified.forEach(card => {
+					if (card.notes) {
+						const tagMatches = card.notes.matchAll(/!tag(?:<\w+>)?\s+([^\s\n\b]+)/g);
+						for (const match of tagMatches) {
+							all_tags.add(match[1]);
+						}
+					}
+				});
+
+				const searchInput = document.getElementById("search");
+				const tagDropdown = document.getElementById("tag-dropdown");
+
+				// Create a mirror element for position calculation
+				const mirror = document.createElement("div");
+				Object.assign(mirror.style, {
+					position: "absolute",
+					visibility: "hidden",
+					whiteSpace: "pre",
+					font: getComputedStyle(searchInput).font,
+					padding: "0", // No padding for pure text measurement
+					border: "none",
+					boxSizing: "content-box"
+				});
+				document.body.appendChild(mirror);
+
+				if (searchInput && tagDropdown) {
+					tagDropdown.style.width = "auto";
+					tagDropdown.style.minWidth = "75px";
+					tagDropdown.style.maxWidth = "300px";
+					tagDropdown.style.maxHeight = "200px";
+					tagDropdown.style.overflowY = "auto";
+
+					const updateDropdown = function() {
+						const value = searchInput.value;
+						const cursorPosition = searchInput.selectionStart;
+						
+						// Find the tag: prefix immediately preceding the cursor
+						const lastTagIndex = value.substring(0, cursorPosition).lastIndexOf("tag:");
+						
+						if (lastTagIndex !== -1) {
+							const queryStart = lastTagIndex + 4;
+							const query = value.substring(queryStart, cursorPosition);
+							
+							if (!query.includes(" ")) {
+								const filteredTags = Array.from(all_tags).filter(tag => tag.toLowerCase().startsWith(query.toLowerCase())).sort();
+								if (filteredTags.length > 0) {
+									tagDropdown.innerHTML = "";
+									filteredTags.forEach(tag => {
+										const div = document.createElement("div");
+										div.innerText = tag;
+										div.style.padding = "5px 10px";
+										div.style.cursor = "pointer";
+										div.style.whiteSpace = "nowrap";
+										div.onmouseover = () => div.style.background = "#f0f0f0";
+										div.onmouseout = () => div.style.background = "white";
+										div.onclick = () => {
+											const newValue = value.substring(0, queryStart) + tag + " " + value.substring(cursorPosition);
+											searchInput.value = newValue;
+											tagDropdown.style.display = "none";
+											searchInput.focus();
+											const newCursorPos = queryStart + tag.length + 1;
+											searchInput.setSelectionRange(newCursorPos, newCursorPos);
+										};
+										tagDropdown.appendChild(div);
+									});
+
+									// Calculate position
+									mirror.textContent = value.substring(0, lastTagIndex + 4);
+									const textWidth = mirror.getBoundingClientRect().width;
+									const inputPaddingLeft = parseFloat(getComputedStyle(searchInput).paddingLeft) || 0;
+									
+									tagDropdown.style.left = Math.min(textWidth + inputPaddingLeft, searchInput.offsetWidth - tagDropdown.offsetWidth) + "px";
+									tagDropdown.style.display = "block";
+									return;
+								}
+							}
+						}
+						tagDropdown.style.display = "none";
+					};
+
+					searchInput.addEventListener("input", updateDropdown);
+					searchInput.addEventListener("click", updateDropdown);
+					searchInput.addEventListener("keyup", updateDropdown);
+
+					document.addEventListener("click", function(e) {
+						if (e.target !== searchInput && e.target !== tagDropdown) {
+							tagDropdown.style.display = "none";
+						}
+					});
+				}
 
 		preloadImgs = document.getElementsByClassName('preload-hidden');
 
@@ -607,13 +723,16 @@
 			const flag = img.getAttribute('data-flag');
 
 			if (flag === '@N') {
-				img.src = '/img/card_back.png';
+				img.src = rootPath + '/img/card_back.png';
 				img.removeAttribute("onclick");
 				img.style.cursor = 'default';
 			}
 			else
 			{
-				img.src = img.alt;
+				img.src = rootPath + '/' + img.alt;
+				if (img.dataset.alt_src) {
+					img.dataset.alt_src = rootPath + '/' + img.dataset.alt_src;
+				}
 
 				if (flag === '@E') {
 					img.removeAttribute("onclick");
@@ -639,27 +758,51 @@
 	let horizontal = false;
 
 	function imgFlip(num) {
-		tmp = document.getElementById(num).src;
-		console.log(num);
-		document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
-		document.getElementById(num).dataset.alt_src = tmp;
+		const img = document.getElementById(num);
+		const seconds = 0.2;
+		const rotated_img = document.getElementById('sidebar_h_img');
 
-		if (num == 'sidebar_img')
+        img.style.transition = seconds.toString() + "s";
+        img.style.transform = "rotateY(90deg)";
+
+        if (num == 'sidebar_img')
 		{
-			const rotated_img = document.getElementById('sidebar_h_img');
 			const sidebar_img = document.getElementById('sidebar_img');
 
-			if (horizontal && rotated_img.style.display == 'none')
-			{
-				rotated_img.style.display = "block";
-				sidebar_img.style.filter = "blur(2px) brightness(0.7)";
-			}
-			else
-			{
-				rotated_img.style.display = "none";
-				sidebar_img.style.filter = "";
-			}
+			if (horizontal)
+            {
+            	rotated_img.style.transition = seconds.toString() + "s";
+           		rotated_img.style.transform = "rotateY(90deg) rotate(90deg)";
+
+           		if (rotated_img.style.opacity != "0") {
+		            setTimeout(() => {
+		                rotated_img.style.opacity = "0";
+		                img.style.filter = "none";
+		            }, (seconds / 2) * 1000);
+		        }
+		        else {
+		        	setTimeout(() => {
+		                rotated_img.style.opacity = "1";
+		                img.style.filter = "blur(2px) brightness(0.7)";
+		            }, (seconds / 2) * 1000);
+		        }
+            }
 		}
+
+         setTimeout(function() {
+            tmp = document.getElementById(num).src;
+			document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
+			document.getElementById(num).dataset.alt_src = tmp;
+
+            img.style.transition = seconds.toString() + "s";
+            img.style.transform = "rotateY(0deg)";
+
+            if (horizontal)
+            {
+            	rotated_img.style.transition = seconds.toString() + "s";
+           		rotated_img.style.transform = "rotateY(0deg) rotate(90deg)";
+            }
+        }, seconds * 1000);
 	}
 
 	function openSidebar(id, h = false) {
@@ -671,17 +814,19 @@
 		const rotated_img = document.getElementById('sidebar_h_img');
 		const sidebar_img = document.getElementById('sidebar_img');
 
+		sidebar_img.style.transition = "none";
+		rotated_img.style.transition = "none";
 		sidebar_img.src = document.getElementById(id).src;
 		rotated_img.src = document.getElementById(id).src.replace("_back", "_front");
 
 		if (horizontal && !sidebar_img.src.includes("_back"))
 		{
-			rotated_img.style.display = "block";
+			rotated_img.style.opacity = "1";
 			sidebar_img.style.filter = "blur(2px) brightness(0.7)";
 		}
 		else
 		{
-			rotated_img.style.display = "none";
+			rotated_img.style.opacity = "0";
 			sidebar_img.style.filter = "";
 		}
 
@@ -714,6 +859,7 @@
 	}
 
 	function rolldown() {
+		dropdown.style.gridTemplateColumns = "repeat(3, 1fr)";
 		var sets = document.querySelectorAll('.inactive');
 		for(const set of sets)
 		{
@@ -723,6 +869,7 @@
 	}
 
 	function rollup() {
+		dropdown.style.gridTemplateColumns = "1fr";
 		var sets = document.querySelectorAll('.inactive');
 		for(const set of sets)
 		{
@@ -739,27 +886,27 @@
 	});
 
 	function search() {
-		const url = new URL('search', window.location.origin);
+		const url = new URL(rootPath + '/search', window.location.href.split('?')[0].split('/').slice(0, -1).join('/') + '/');
 		url.searchParams.append('search', document.getElementById("search").value);
-		window.location.href = url;
+		window.location.href = url.pathname + url.search;
 	}
 
 		function randomCard() {
-			let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
-			let random_card = card_list_arrayified[i];
+				let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
+				let random_card = card_list_arrayified[i];
 
-			const url = new URL('card', window.location.origin);
-			const params = {
-				set: random_card.set,
-				num: random_card.number,
-				name: random_card.card_name
-			}
-			for (const key in params) {
-				url.searchParams.append(key, params[key]);
-			}
+				const url = new URL(rootPath + '/card', window.location.href.split('?')[0].split('/').slice(0, -1).join('/') + '/');
+				const params = {
+					set: random_card.set,
+					num: random_card.number,
+					name: random_card.card_name
+				}
+				for (const key in params) {
+					url.searchParams.append(key, params[key]);
+				}
 
-			window.location.href = url;
-		}
+				window.location.href = url.pathname + url.search;
+			}
 	</script>
 </body>
 </html>

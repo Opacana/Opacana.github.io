@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<link rel="icon" type="image/png" href="/sets/AVA-files/icon.png"/>
-	<link rel="stylesheet" href="/resources/header.css">
+	<link rel="icon" type="image/png" href="../sets/AVA-files/icon.png"/>
+	<link rel="stylesheet" href="../resources/header.css">
 	<title>AVA visual preview</title>
+	<script title="root">
+		const rootPath = "..";
+	</script>
 	<style>
 		@font-face {
 			font-family: Beleren;
-			src: url('/resources/beleren.ttf');
+			src: url('../resources/beleren.ttf');
 		}
 		body {
 			font-family: Arial, sans-serif;
@@ -39,19 +42,21 @@
 			position: relative;
 		}
 		.sidebar-h-img {
-			display: none;
-			transform: rotate(90deg);
+			opacity: 0;
+			transform: rotateY(0deg) rotate(90deg);
 			position: absolute;
 			left: 10%;
 			top: 10%;
 			width: 85%;
+			border-radius: 3.733% / 2.677%;
 		}
 		.sidebar-img {
 			vertical-align: middle;
 			width: 100%;
+			border-radius: 3.733% / 2.677%;
 		}
 		.close-btn {
-			background: url('/img/close.png') no-repeat;
+			background: url('../img/close.png') no-repeat;
 			background-size: contain;
 			background-position: center;
 			width: 10%;
@@ -62,7 +67,7 @@
 			right: 4%;
 		}
 		.close-btn:hover {
-			background: url('/img/close-hover.png') no-repeat;
+			background: url('../img/close-hover.png') no-repeat;
 			background-size: contain;
 			background-position: center;
 		}
@@ -82,6 +87,7 @@
 			display: block;
 			visibility: hidden;
 			cursor: pointer;
+			border-radius: 3.733% / 2.677%;
 		}
 		.banner {
 			width: 100%;
@@ -102,9 +108,10 @@
 		.container img {
 			width: 100%;
 			height: auto;
+			border-radius: 3.733% / 2.677%;
 		}
 		.flip-btn {
-			background: url('/img/flip.png') no-repeat;
+			background: url('../img/flip.png') no-repeat;
 			background-size: contain;
 			background-position: center;
 			width: 15%;
@@ -118,7 +125,7 @@
 			opacity: 0.5;
 		}
 		.flip-btn:hover {
-			background: url('/img/flip-hover.png') no-repeat;
+			background: url('../img/flip-hover.png') no-repeat;
 			background-size: contain;
 			background-position: center;
 		}
@@ -126,12 +133,13 @@
 			background: rgba(23, 23, 23, 0.8);
 			border-radius: 8px;
 			position: absolute;
-			left: 10%;
+			left: 5%;
 			width: fit-content;
+			max-width: 90%;
 			margin: 20px 0;
 			padding: 5px 0;
-			display: flex;
-			flex-direction: column;
+			display: grid;
+			grid-template-columns: 1fr;
 			z-index: 3;
 		}
 		.dropdown .set-bar {
@@ -173,421 +181,427 @@
 	</style>
 </head>
 <body>
-	<img class="preload-hidden" src="/img/dot.png" />
-	<img class="preload-hidden" src="/sets/AVA-files/logo.png" />
-	<img class="preload-hidden" src="/sets/AVA-files/icon.png" />
-		<img class="preload-hidden" src="/sets/MST-files/icon.png" />
-		<img class="preload-hidden" src="/sets/WCD-files/icon.png" />
+	<img class="preload-hidden" src="../img/dot.png" />
+	<img class="preload-hidden" src="../sets/AVA-files/logo.png" />
+	<img class="preload-hidden" src="../sets/AVA-files/icon.png" />
+		<img class="preload-hidden" src="../sets/MST-files/icon.png" />
+		<img class="preload-hidden" src="../sets/WCD-files/icon.png" />
 		<div class="header">
 		<div class="search-grid">
-			<a href="/"><img class="sg-logo" src="/img/banner.png"></a>
-			<img class="sg-icon" src="/img/search.png">
-			<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
-			<a href="/all-sets"><img src="/img/sets.png" class="sg-icon">Sets</a>
-			<a href="/deckbuilder"><img src="/img/deck.png" class="sg-icon">Deckbuilder</a>
-			<a onclick="randomCard()"><img src="/img/random.png" class="sg-icon">Random</a>
+			<a onclick="window.location.href = rootPath + '/'"><img class="sg-logo" id="header-banner"></a>
+			<img class="sg-icon" id="header-search" onclick="goToSearch()">
+			<div style="position: relative; width: 100%;">
+				<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
+				<div id="tag-dropdown" style="display: none; position: absolute; top: 100%; left: 0; width: 100%; background: white; border: 1px solid #d5d9d9; z-index: 1000; max-height: 200px; overflow-y: auto; color: black; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"></div>
+			</div>
+			<a onclick="window.location.href = rootPath + '/all-sets'"><img id="header-sets" class="sg-icon">Sets</a>
+			<a onclick="window.location.href = rootPath + '/deckbuilder'"><img id="header-deck" class="sg-icon">Deckbuilder</a>
+			<a onclick="randomCard()"><img id="header-random" class="sg-icon">Random</a>
 		</div>
 	</div>
+	<script>
+		document.addEventListener("DOMContentLoaded", function () {
+			document.getElementById("header-banner").src = rootPath + "/img/banner.png";
+			document.getElementById("header-search").src = rootPath + "/img/search.png";
+			document.getElementById("header-sets").src = rootPath + "/img/sets.png";
+			document.getElementById("header-deck").src = rootPath + "/img/deck.png";
+			document.getElementById("header-random").src = rootPath + "/img/random.png";
+		});
 
-	<div class="dropdown" onmouseenter="rolldown()" onmouseleave="rollup()">
+		function goToSearch() {
+			window.location.href = rootPath + "/search";
+		}
+	</script>
+
+	<div class="dropdown" id="dropdown" onmouseenter="rolldown()" onmouseleave="rollup()">
 	
-		<a class="set-bar" href="AVA"><img src="/sets/AVA-files/icon.png">Avallus: Rediscovery</a>
+		<a class="set-bar" href="../previews/AVA"><img src="../sets/AVA-files/icon.png">Avallus: Rediscovery</a>
 	
-		<a class="set-bar inactive" href="MST"><img src="/sets/MST-files/icon.png">Untitled Anthro Moonstone Standard Set</a>
+		<a class="set-bar inactive" href="../previews/MST"><img src="../sets/MST-files/icon.png">Untitled Anthro Moonstone Standard Set</a>
 	
-		<a class="set-bar inactive" href="WCD"><img src="/sets/WCD-files/icon.png">Wroszy’s Circus of Darkness</a>
+		<a class="set-bar inactive" href="../previews/WCD"><img src="../sets/WCD-files/icon.png">Wroszy’s Circus of Darkness</a>
 	
 		</div>
 		<div class="banner">
-		<img class="logo" src="/sets/AVA-files/logo.png">
+		<img class="logo" src="../sets/AVA-files/logo.png">
 		</div>
 		<div class="main-content" id="main-content">
 			<div class="grid-container">
-					<div class="container"><img alt="/sets\AVA-files\img\25_Precision Bomber.png" id="25_Precision Bomber" data-flag="@X" onclick="openSidebar('25_Precision Bomber',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\44_Adult Venipula.png" id="44_Adult Venipula" data-flag="@X" onclick="openSidebar('44_Adult Venipula',false)"></div>
-				<div class="container"><img data-alt_src="/sets\AVA-files\img\109_Primordials Exhibit_back.png" alt="/sets\AVA-files\img\109_Primordials Exhibit_front.png" id="109_Primordials Exhibit" data-flag="@XD" onclick="openSidebar('109_Primordials Exhibit',false)"><button class="flip-btn" onclick="imgFlip('109_Primordials Exhibit')"></button></div>
-				<div class="container"><img alt="/sets\AVA-files\img\143_Demolition Expert.png" id="143_Demolition Expert" data-flag="@X" onclick="openSidebar('143_Demolition Expert',false)"></div>
-				<div class="container"><img data-alt_src="/sets\AVA-files\img\180_Cave of the Vanquished_back.png" alt="/sets\AVA-files\img\180_Cave of the Vanquished_front.png" id="180_Cave of the Vanquished" data-flag="@XD" onclick="openSidebar('180_Cave of the Vanquished',false)"><button class="flip-btn" onclick="imgFlip('180_Cave of the Vanquished')"></button></div>
-				<div class="container"><img alt="/sets\AVA-files\img\41_Warren League Admiral.png" id="41_Warren League Admiral" data-flag="@X" onclick="openSidebar('41_Warren League Admiral',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\83_Timelocked.png" id="83_Timelocked" data-flag="@X" onclick="openSidebar('83_Timelocked',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\128_Unending Insight.png" id="128_Unending Insight" data-flag="@X" onclick="openSidebar('128_Unending Insight',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\162_Phoenix Egg.png" id="162_Phoenix Egg" data-flag="@X" onclick="openSidebar('162_Phoenix Egg',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\199_Mother of the Webbed City.png" id="199_Mother of the Webbed City" data-flag="@X" onclick="openSidebar('199_Mother of the Webbed City',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\2_Admiral's Guile.png" id="2_Admirals Guile" data-flag="@X" onclick="openSidebar('2_Admirals Guile',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\88_Worldwalker Helm.png" id="88_Worldwalker Helm" data-flag="@X" onclick="openSidebar('88_Worldwalker Helm',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\89_Athern, Captain of Traitors.png" id="89_Athern, Captain of Traitors" data-flag="@X" onclick="openSidebar('89_Athern, Captain of Traitors',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\134_Amok Automaton.png" id="134_Amok Automaton" data-flag="@X" onclick="openSidebar('134_Amok Automaton',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\176_Aluki Exile.png" id="176_Aluki Exile" data-flag="@X" onclick="openSidebar('176_Aluki Exile',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\9_Commandant Urscia.png" id="9_Commandant Urscia" data-flag="@X" onclick="openSidebar('9_Commandant Urscia',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\45_Allenord Rascham Esq..png" id="45_Allenord Rascham Esq." data-flag="@X" onclick="openSidebar('45_Allenord Rascham Esq.',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\94_Dragonsoul Cabalist.png" id="94_Dragonsoul Cabalist" data-flag="@X" onclick="openSidebar('94_Dragonsoul Cabalist',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\140_Cogstorm.png" id="140_Cogstorm" data-flag="@X" onclick="openSidebar('140_Cogstorm',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\183_Denaw Goliath.png" id="183_Denaw Goliath" data-flag="@X" onclick="openSidebar('183_Denaw Goliath',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\13_Distracting Saboteur.png" id="13_Distracting Saboteur" data-flag="@X" onclick="openSidebar('13_Distracting Saboteur',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\47_Clockwork Consonance.png" id="47_Clockwork Consonance" data-flag="@X" onclick="openSidebar('47_Clockwork Consonance',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\95_Dramaturgical Extraction.png" id="95_Dramaturgical Extraction" data-flag="@X" onclick="openSidebar('95_Dramaturgical Extraction',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\150_Gift of the Firehen.png" id="150_Gift of the Firehen" data-flag="@X" onclick="openSidebar('150_Gift of the Firehen',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\189_Genteel Expedition.png" id="189_Genteel Expedition" data-flag="@X" onclick="openSidebar('189_Genteel Expedition',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\16_Griffin Elder.png" id="16_Griffin Elder" data-flag="@X" onclick="openSidebar('16_Griffin Elder',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\57_Gravitic Whirlpool.png" id="57_Gravitic Whirlpool" data-flag="@X" onclick="openSidebar('57_Gravitic Whirlpool',false)"></div>
-				<div class="container"><img data-alt_src="/sets\AVA-files\img\104_Masterpiece in the Making_back.png" alt="/sets\AVA-files\img\104_Masterpiece in the Making_front.png" id="104_Masterpiece in the Making" data-flag="@XD" onclick="openSidebar('104_Masterpiece in the Making',false)"><button class="flip-btn" onclick="imgFlip('104_Masterpiece in the Making')"></button></div>
-				<div class="container"><img alt="/sets\AVA-files\img\152_High Stakes Game.png" id="152_High Stakes Game" data-flag="@X" onclick="openSidebar('152_High Stakes Game',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\191_Gift of the Grove.png" id="191_Gift of the Grove" data-flag="@X" onclick="openSidebar('191_Gift of the Grove',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\29_Purifying Maze.png" id="29_Purifying Maze" data-flag="@X" onclick="openSidebar('29_Purifying Maze',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\65_Ivina, Society Archivist.png" id="65_Ivina, Society Archivist" data-flag="@X" onclick="openSidebar('65_Ivina, Society Archivist',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\106_Mr. Aldrand, Eternal Patron.png" id="106_Mr. Aldrand, Eternal Patron" data-flag="@X" onclick="openSidebar('106_Mr. Aldrand, Eternal Patron',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\156_Islandfall.png" id="156_Islandfall" data-flag="@X" onclick="openSidebar('156_Islandfall',false)"></div>
-				<div class="container"><img data-alt_src="/sets\AVA-files\img\197_Kidar, Seeking Justice_back.png" alt="/sets\AVA-files\img\197_Kidar, Seeking Justice_front.png" id="197_Kidar, Seeking Justice" data-flag="@XD" onclick="openSidebar('197_Kidar, Seeking Justice',false)"><button class="flip-btn" onclick="imgFlip('197_Kidar, Seeking Justice')"></button></div>
-				<div class="container"><img alt="/sets\AVA-files\img\30_Retributive Bombardment.png" id="30_Retributive Bombardment" data-flag="@X" onclick="openSidebar('30_Retributive Bombardment',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\66_Jochi, Inspired Tinkerer.png" id="66_Jochi, Inspired Tinkerer" data-flag="@X" onclick="openSidebar('66_Jochi, Inspired Tinkerer',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\112_Rise to Power.png" id="112_Rise to Power" data-flag="@X" onclick="openSidebar('112_Rise to Power',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\160_Nola, Captain of the Mise.png" id="160_Nola, Captain of the Mise" data-flag="@X" onclick="openSidebar('160_Nola, Captain of the Mise',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\201_Paleontological Revelations.png" id="201_Paleontological Revelations" data-flag="@X" onclick="openSidebar('201_Paleontological Revelations',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\31_Scion of the Hidden Burrow.png" id="31_Scion of the Hidden Burrow" data-flag="@X" onclick="openSidebar('31_Scion of the Hidden Burrow',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\67_Julescan Dreadnought.png" id="67_Julescan Dreadnought" data-flag="@X" onclick="openSidebar('67_Julescan Dreadnought',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\117_Secrets of the Ruins.png" id="117_Secrets of the Ruins" data-flag="@X" onclick="openSidebar('117_Secrets of the Ruins',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\167_Slagfall Phoenix.png" id="167_Slagfall Phoenix" data-flag="@X" onclick="openSidebar('167_Slagfall Phoenix',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\205_Rechine Jungle Leaper.png" id="205_Rechine Jungle Leaper" data-flag="@X" onclick="openSidebar('205_Rechine Jungle Leaper',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\4_Armor of Eternal Penance.png" id="4_Armor of Eternal Penance" data-flag="@X" onclick="openSidebar('4_Armor of Eternal Penance',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\71_Nikolaian Matrix.png" id="71_Nikolaian Matrix" data-flag="@X" onclick="openSidebar('71_Nikolaian Matrix',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\119_Shadow Path Exemplar.png" id="119_Shadow Path Exemplar" data-flag="@X" onclick="openSidebar('119_Shadow Path Exemplar',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\174_Whalehunter Eel.png" id="174_Whalehunter Eel" data-flag="@X" onclick="openSidebar('174_Whalehunter Eel',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\209_Salandrix, Lifespeaker.png" id="209_Salandrix, Lifespeaker" data-flag="@X" onclick="openSidebar('209_Salandrix, Lifespeaker',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\5_Arrogant Engineer.png" id="5_Arrogant Engineer" data-flag="@X" onclick="openSidebar('5_Arrogant Engineer',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\86_Unstable Ooze.png" id="86_Unstable Ooze" data-flag="@X" onclick="openSidebar('86_Unstable Ooze',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\92_Contemplative Crime Lord.png" id="92_Contemplative Crime Lord" data-flag="@X" onclick="openSidebar('92_Contemplative Crime Lord',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\136_Break with the Past.png" id="136_Break with the Past" data-flag="@X" onclick="openSidebar('136_Break with the Past',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\179_Beast of the Blandon Savannah.png" id="179_Beast of the Blandon Savannah" data-flag="@X" onclick="openSidebar('179_Beast of the Blandon Savannah',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\7_Canopy-Nest Griffin.png" id="7_Canopy-Nest Griffin" data-flag="@X" onclick="openSidebar('7_Canopy-Nest Griffin',false)"></div>
-				<div class="container"><img data-alt_src="/sets\AVA-files\img\87_Updraft Boneyard_back.png" alt="/sets\AVA-files\img\87_Updraft Boneyard_front.png" id="87_Updraft Boneyard" data-flag="@XD" onclick="openSidebar('87_Updraft Boneyard',false)"><button class="flip-btn" onclick="imgFlip('87_Updraft Boneyard')"></button></div>
-				<div class="container"><img alt="/sets\AVA-files\img\96_Ectoplasmonic Simulacrum.png" id="96_Ectoplasmonic Simulacrum" data-flag="@X" onclick="openSidebar('96_Ectoplasmonic Simulacrum',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\139_Clues to the Cataclysm.png" id="139_Clues to the Cataclysm" data-flag="@X" onclick="openSidebar('139_Clues to the Cataclysm',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\182_Deadwoods Stalker.png" id="182_Deadwoods Stalker" data-flag="@X" onclick="openSidebar('182_Deadwoods Stalker',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\8_Can't Take the Sky From Me.png" id="8_Cant Take the Sky From Me" data-flag="@X" onclick="openSidebar('8_Cant Take the Sky From Me',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\49_Current-Rider Windmill.png" id="49_Current-Rider Windmill" data-flag="@X" onclick="openSidebar('49_Current-Rider Windmill',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\101_Identifying the Villainous.png" id="101_Identifying the Villainous" data-flag="@X" onclick="openSidebar('101_Identifying the Villainous',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\141_Coming in for a Landing.png" id="141_Coming in for a Landing" data-flag="@X" onclick="openSidebar('141_Coming in for a Landing',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\185_Edge Patrol.png" id="185_Edge Patrol" data-flag="@X" onclick="openSidebar('185_Edge Patrol',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\10_Confront the Villainous.png" id="10_Confront the Villainous" data-flag="@X" onclick="openSidebar('10_Confront the Villainous',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\50_Decorated Pilot.png" id="50_Decorated Pilot" data-flag="@X" onclick="openSidebar('50_Decorated Pilot',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\102_Liferipper Miasma.png" id="102_Liferipper Miasma" data-flag="@X" onclick="openSidebar('102_Liferipper Miasma',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\144_Distinguished Captain.png" id="144_Distinguished Captain" data-flag="@X" onclick="openSidebar('144_Distinguished Captain',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\187_Fatemarked Wolf.png" id="187_Fatemarked Wolf" data-flag="@X" onclick="openSidebar('187_Fatemarked Wolf',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\12_Defense of Reedsey.png" id="12_Defense of Reedsey" data-flag="@X" onclick="openSidebar('12_Defense of Reedsey',true)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\51_Deep Summoning.png" id="51_Deep Summoning" data-flag="@X" onclick="openSidebar('51_Deep Summoning',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\103_Lt. Nevor of the Scurvy Wolf.png" id="103_Lt. Nevor of the Scurvy Wolf" data-flag="@X" onclick="openSidebar('103_Lt. Nevor of the Scurvy Wolf',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\145_Don the Crest of Fire.png" id="145_Don the Crest of Fire" data-flag="@X" onclick="openSidebar('145_Don the Crest of Fire',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\190_Giant Corpseseeker.png" id="190_Giant Corpseseeker" data-flag="@X" onclick="openSidebar('190_Giant Corpseseeker',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\15_General's Briefing.png" id="15_Generals Briefing" data-flag="@X" onclick="openSidebar('15_Generals Briefing',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\54_Engineering Prodigy.png" id="54_Engineering Prodigy" data-flag="@X" onclick="openSidebar('54_Engineering Prodigy',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\108_Necromancer's Experiments.png" id="108_Necromancers Experiments" data-flag="@X" onclick="openSidebar('108_Necromancers Experiments',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\146_Eager Experimenter.png" id="146_Eager Experimenter" data-flag="@X" onclick="openSidebar('146_Eager Experimenter',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\194_Heroic Intervention.png" id="194_Heroic Intervention" data-flag="@X" onclick="openSidebar('194_Heroic Intervention',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\18_In For Repairs.png" id="18_In For Repairs" data-flag="@X" onclick="openSidebar('18_In For Repairs',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\55_Experimental Shadowship.png" id="55_Experimental Shadowship" data-flag="@X" onclick="openSidebar('55_Experimental Shadowship',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\113_Rising of a Tambly's Bones.png" id="113_Rising of a Tamblys Bones" data-flag="@X" onclick="openSidebar('113_Rising of a Tamblys Bones',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\147_Embittered Lavawing.png" id="147_Embittered Lavawing" data-flag="@X" onclick="openSidebar('147_Embittered Lavawing',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\195_Highborn Sleuth.png" id="195_Highborn Sleuth" data-flag="@X" onclick="openSidebar('195_Highborn Sleuth',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\19_Julescan Heavy Strider.png" id="19_Julescan Heavy Strider" data-flag="@X" onclick="openSidebar('19_Julescan Heavy Strider',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\56_Gestalt Shock.png" id="56_Gestalt Shock" data-flag="@X" onclick="openSidebar('56_Gestalt Shock',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\115_A Sabotaging of Hope.png" id="115_A Sabotaging of Hope" data-flag="@X" onclick="openSidebar('115_A Sabotaging of Hope',true)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\151_Hatching A New Scheme.png" id="151_Hatching A New Scheme" data-flag="@X" onclick="openSidebar('151_Hatching A New Scheme',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\198_Marla, Gearheart Druid.png" id="198_Marla, Gearheart Druid" data-flag="@X" onclick="openSidebar('198_Marla, Gearheart Druid',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\22_Lemaugean Barded Drabant.png" id="22_Lemaugean Barded Drabant" data-flag="@X" onclick="openSidebar('22_Lemaugean Barded Drabant',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\63_Iridescent Tambly.png" id="63_Iridescent Tambly" data-flag="@X" onclick="openSidebar('63_Iridescent Tambly',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\116_Savoran Razor Galleon.png" id="116_Savoran Razor Galleon" data-flag="@X" onclick="openSidebar('116_Savoran Razor Galleon',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\154_Igneous Dragonhunter.png" id="154_Igneous Dragonhunter" data-flag="@X" onclick="openSidebar('154_Igneous Dragonhunter',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\200_On a Trek Together.png" id="200_On a Trek Together" data-flag="@X" onclick="openSidebar('200_On a Trek Together',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\23_Leogrif Cub.png" id="23_Leogrif Cub" data-flag="@X" onclick="openSidebar('23_Leogrif Cub',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\68_Lemaugean Negator.png" id="68_Lemaugean Negator" data-flag="@X" onclick="openSidebar('68_Lemaugean Negator',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\118_Shackled to the Forge.png" id="118_Shackled to the Forge" data-flag="@X" onclick="openSidebar('118_Shackled to the Forge',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\155_Iruum Streamhopper.png" id="155_Iruum Streamhopper" data-flag="@X" onclick="openSidebar('155_Iruum Streamhopper',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\202_Piper of the Passed.png" id="202_Piper of the Passed" data-flag="@X" onclick="openSidebar('202_Piper of the Passed',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\24_Omenstoat Pack.png" id="24_Omenstoat Pack" data-flag="@X" onclick="openSidebar('24_Omenstoat Pack',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\69_Liline Otothal.png" id="69_Liline Otothal" data-flag="@X" onclick="openSidebar('69_Liline Otothal',false)"></div>
-				<div class="container"><img data-alt_src="/sets\AVA-files\img\121_Skull of the Last Hunter_back.png" alt="/sets\AVA-files\img\121_Skull of the Last Hunter_front.png" id="121_Skull of the Last Hunter" data-flag="@XD" onclick="openSidebar('121_Skull of the Last Hunter',false)"><button class="flip-btn" onclick="imgFlip('121_Skull of the Last Hunter')"></button></div>
-				<div class="container"><img alt="/sets\AVA-files\img\158_Needle Peak Phoenix.png" id="158_Needle Peak Phoenix" data-flag="@X" onclick="openSidebar('158_Needle Peak Phoenix',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\204_Reach the Legendary City.png" id="204_Reach the Legendary City" data-flag="@X" onclick="openSidebar('204_Reach the Legendary City',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\32_Shaiani Nightguard.png" id="32_Shaiani Nightguard" data-flag="@X" onclick="openSidebar('32_Shaiani Nightguard',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\73_Pesuban Riftrider.png" id="73_Pesuban Riftrider" data-flag="@X" onclick="openSidebar('73_Pesuban Riftrider',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\122_Sophisticated Bandit.png" id="122_Sophisticated Bandit" data-flag="@X" onclick="openSidebar('122_Sophisticated Bandit',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\159_Ninth Dawn Public Relations.png" id="159_Ninth Dawn Public Relations" data-flag="@X" onclick="openSidebar('159_Ninth Dawn Public Relations',true)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\206_Reconnect.png" id="206_Reconnect" data-flag="@X" onclick="openSidebar('206_Reconnect',false)"></div>
-				<div class="container"><img data-alt_src="/sets\AVA-files\img\34_Sun-bleached Discovery_back.png" alt="/sets\AVA-files\img\34_Sun-bleached Discovery_front.png" id="34_Sun-bleached Discovery" data-flag="@XD" onclick="openSidebar('34_Sun-bleached Discovery',false)"><button class="flip-btn" onclick="imgFlip('34_Sun-bleached Discovery')"></button></div>
-				<div class="container"><img alt="/sets\AVA-files\img\74_Psionic Control Helm.png" id="74_Psionic Control Helm" data-flag="@X" onclick="openSidebar('74_Psionic Control Helm',false)"></div>
-				<div class="container"><img data-alt_src="/sets\AVA-files\img\125_Swamp Seer's Hut_back.png" alt="/sets\AVA-files\img\125_Swamp Seer's Hut_front.png" id="125_Swamp Seers Hut" data-flag="@XD" onclick="openSidebar('125_Swamp Seers Hut',false)"><button class="flip-btn" onclick="imgFlip('125_Swamp Seers Hut')"></button></div>
-				<div class="container"><img alt="/sets\AVA-files\img\161_Pesuban Cannoneer.png" id="161_Pesuban Cannoneer" data-flag="@X" onclick="openSidebar('161_Pesuban Cannoneer',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\211_Stoic Expedition Guard.png" id="211_Stoic Expedition Guard" data-flag="@X" onclick="openSidebar('211_Stoic Expedition Guard',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\38_Vigilant Cryophoenix.png" id="38_Vigilant Cryophoenix" data-flag="@X" onclick="openSidebar('38_Vigilant Cryophoenix',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\78_Salvaging Company.png" id="78_Salvaging Company" data-flag="@X" onclick="openSidebar('78_Salvaging Company',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\126_Tutor of Dark Sciences.png" id="126_Tutor of Dark Sciences" data-flag="@X" onclick="openSidebar('126_Tutor of Dark Sciences',false)"></div>
-				<div class="container"><img data-alt_src="/sets\AVA-files\img\164_Sandscoured Bones_back.png" alt="/sets\AVA-files\img\164_Sandscoured Bones_front.png" id="164_Sandscoured Bones" data-flag="@XD" onclick="openSidebar('164_Sandscoured Bones',false)"><button class="flip-btn" onclick="imgFlip('164_Sandscoured Bones')"></button></div>
-				<div class="container"><img alt="/sets\AVA-files\img\214_Test of Courage.png" id="214_Test of Courage" data-flag="@X" onclick="openSidebar('214_Test of Courage',true)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\39_Vineyard Tour.png" id="39_Vineyard Tour" data-flag="@X" onclick="openSidebar('39_Vineyard Tour',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\80_Show Your Work.png" id="80_Show Your Work" data-flag="@X" onclick="openSidebar('80_Show Your Work',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\130_Wizened Outlaw.png" id="130_Wizened Outlaw" data-flag="@X" onclick="openSidebar('130_Wizened Outlaw',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\165_Sandstone Town Gunsmith.png" id="165_Sandstone Town Gunsmith" data-flag="@X" onclick="openSidebar('165_Sandstone Town Gunsmith',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\215_Titanur.png" id="215_Titanur" data-flag="@X" onclick="openSidebar('215_Titanur',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\43_Zuun Warrenguard.png" id="43_Zuun Warrenguard" data-flag="@X" onclick="openSidebar('43_Zuun Warrenguard',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\81_Skipping Class.png" id="81_Skipping Class" data-flag="@X" onclick="openSidebar('81_Skipping Class',true)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\90_Burly Executioner.png" id="90_Burly Executioner" data-flag="@X" onclick="openSidebar('90_Burly Executioner',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\166_Scavenged Hulk.png" id="166_Scavenged Hulk" data-flag="@X" onclick="openSidebar('166_Scavenged Hulk',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\216_Untested Elixir.png" id="216_Untested Elixir" data-flag="@X" onclick="openSidebar('216_Untested Elixir',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\1_Adept of the Path of Candor.png" id="1_Adept of the Path of Candor" data-flag="@X" onclick="openSidebar('1_Adept of the Path of Candor',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\82_Sonata of the Wind.png" id="82_Sonata of the Wind" data-flag="@X" onclick="openSidebar('82_Sonata of the Wind',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\91_Caelarian Shadowsprinter.png" id="91_Caelarian Shadowsprinter" data-flag="@X" onclick="openSidebar('91_Caelarian Shadowsprinter',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\170_Storm Mistress.png" id="170_Storm Mistress" data-flag="@X" onclick="openSidebar('170_Storm Mistress',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\217_Unwieldy Steam-tractor.png" id="217_Unwieldy Steam-tractor" data-flag="@X" onclick="openSidebar('217_Unwieldy Steam-tractor',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\3_Alpha Tigress.png" id="3_Alpha Tigress" data-flag="@X" onclick="openSidebar('3_Alpha Tigress',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\84_Turn Back the Clock.png" id="84_Turn Back the Clock" data-flag="@X" onclick="openSidebar('84_Turn Back the Clock',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\93_Death's Hall Caretaker.png" id="93_Deaths Hall Caretaker" data-flag="@X" onclick="openSidebar('93_Deaths Hall Caretaker',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\171_Sundering Shockwave.png" id="171_Sundering Shockwave" data-flag="@X" onclick="openSidebar('171_Sundering Shockwave',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\175_Adult Matosuchi.png" id="175_Adult Matosuchi" data-flag="@X" onclick="openSidebar('175_Adult Matosuchi',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\6_Bonded Griffin.png" id="6_Bonded Griffin" data-flag="@X" onclick="openSidebar('6_Bonded Griffin',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\46_Annul.png" id="46_Annul" data-flag="@X" onclick="openSidebar('46_Annul',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\97_Escaped Experiment.png" id="97_Escaped Experiment" data-flag="@X" onclick="openSidebar('97_Escaped Experiment',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\131_Aerial Bombardment.png" id="131_Aerial Bombardment" data-flag="@X" onclick="openSidebar('131_Aerial Bombardment',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\177_Aluki Hearthguard.png" id="177_Aluki Hearthguard" data-flag="@X" onclick="openSidebar('177_Aluki Hearthguard',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\11_Darkwing Hatchling.png" id="11_Darkwing Hatchling" data-flag="@X" onclick="openSidebar('11_Darkwing Hatchling',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\48_Curious Skywhale.png" id="48_Curious Skywhale" data-flag="@X" onclick="openSidebar('48_Curious Skywhale',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\98_Gersauld's Assassin.png" id="98_Gersaulds Assassin" data-flag="@X" onclick="openSidebar('98_Gersaulds Assassin',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\132_Aezori Hunting Pair.png" id="132_Aezori Hunting Pair" data-flag="@X" onclick="openSidebar('132_Aezori Hunting Pair',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\178_Ambitious Archaeologist.png" id="178_Ambitious Archaeologist" data-flag="@X" onclick="openSidebar('178_Ambitious Archaeologist',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\14_Firing Drills.png" id="14_Firing Drills" data-flag="@X" onclick="openSidebar('14_Firing Drills',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\52_Dour Chauffeur.png" id="52_Dour Chauffeur" data-flag="@X" onclick="openSidebar('52_Dour Chauffeur',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\99_Grim Harpooner.png" id="99_Grim Harpooner" data-flag="@X" onclick="openSidebar('99_Grim Harpooner',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\133_Ambitious Shiftmaster.png" id="133_Ambitious Shiftmaster" data-flag="@X" onclick="openSidebar('133_Ambitious Shiftmaster',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\181_A Choking Serenity.png" id="181_A Choking Serenity" data-flag="@X" onclick="openSidebar('181_A Choking Serenity',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\17_Iceberg Monitor.png" id="17_Iceberg Monitor" data-flag="@X" onclick="openSidebar('17_Iceberg Monitor',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\53_Enchanted Parasol.png" id="53_Enchanted Parasol" data-flag="@X" onclick="openSidebar('53_Enchanted Parasol',false)"></div>
-				<div class="container"><img data-alt_src="/sets\AVA-files\img\100_Hoard of Bones_back.png" alt="/sets\AVA-files\img\100_Hoard of Bones_front.png" id="100_Hoard of Bones" data-flag="@XD" onclick="openSidebar('100_Hoard of Bones',false)"><button class="flip-btn" onclick="imgFlip('100_Hoard of Bones')"></button></div>
-				<div class="container"><img alt="/sets\AVA-files\img\135_Ancient Sunspot Owl.png" id="135_Ancient Sunspot Owl" data-flag="@X" onclick="openSidebar('135_Ancient Sunspot Owl',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\184_Dour Wanderer.png" id="184_Dour Wanderer" data-flag="@X" onclick="openSidebar('184_Dour Wanderer',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\20_Julescan Infantry.png" id="20_Julescan Infantry" data-flag="@X" onclick="openSidebar('20_Julescan Infantry',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\58_Gunner Crew.png" id="58_Gunner Crew" data-flag="@X" onclick="openSidebar('58_Gunner Crew',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\105_Midnight Card Sharp.png" id="105_Midnight Card Sharp" data-flag="@X" onclick="openSidebar('105_Midnight Card Sharp',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\137_Burn Down.png" id="137_Burn Down" data-flag="@X" onclick="openSidebar('137_Burn Down',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\186_Empowered Arrow.png" id="186_Empowered Arrow" data-flag="@X" onclick="openSidebar('186_Empowered Arrow',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\21_Lakeside Watch.png" id="21_Lakeside Watch" data-flag="@X" onclick="openSidebar('21_Lakeside Watch',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\59_Hired Investigator.png" id="59_Hired Investigator" data-flag="@X" onclick="openSidebar('59_Hired Investigator',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\107_Muroid Abomination.png" id="107_Muroid Abomination" data-flag="@X" onclick="openSidebar('107_Muroid Abomination',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\138_Cannonhauler Deckhand.png" id="138_Cannonhauler Deckhand" data-flag="@X" onclick="openSidebar('138_Cannonhauler Deckhand',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\188_Flower Cart.png" id="188_Flower Cart" data-flag="@X" onclick="openSidebar('188_Flower Cart',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\26_Prepared Guide.png" id="26_Prepared Guide" data-flag="@X" onclick="openSidebar('26_Prepared Guide',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\60_Hulldrifter.png" id="60_Hulldrifter" data-flag="@X" onclick="openSidebar('60_Hulldrifter',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\110_Puppeteer's Grace.png" id="110_Puppeteers Grace" data-flag="@X" onclick="openSidebar('110_Puppeteers Grace',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\142_Deepvent Feeder.png" id="142_Deepvent Feeder" data-flag="@X" onclick="openSidebar('142_Deepvent Feeder',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\192_Greater Branchpiler.png" id="192_Greater Branchpiler" data-flag="@X" onclick="openSidebar('192_Greater Branchpiler',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\27_Principled Sellpaw.png" id="27_Principled Sellpaw" data-flag="@X" onclick="openSidebar('27_Principled Sellpaw',false)"></div>
-				<div class="container"><img data-alt_src="/sets\AVA-files\img\61_Icebound Remains_back.png" alt="/sets\AVA-files\img\61_Icebound Remains_front.png" id="61_Icebound Remains" data-flag="@XD" onclick="openSidebar('61_Icebound Remains',false)"><button class="flip-btn" onclick="imgFlip('61_Icebound Remains')"></button></div>
-				<div class="container"><img alt="/sets\AVA-files\img\111_Real Green Dress.png" id="111_Real Green Dress" data-flag="@X" onclick="openSidebar('111_Real Green Dress',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\148_Foolhardy Tinkerer.png" id="148_Foolhardy Tinkerer" data-flag="@X" onclick="openSidebar('148_Foolhardy Tinkerer',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\193_Grey Rofa.png" id="193_Grey Rofa" data-flag="@X" onclick="openSidebar('193_Grey Rofa',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\28_Pull Aetherstrings.png" id="28_Pull Aetherstrings" data-flag="@X" onclick="openSidebar('28_Pull Aetherstrings',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\62_Indomitable Tinkerer.png" id="62_Indomitable Tinkerer" data-flag="@X" onclick="openSidebar('62_Indomitable Tinkerer',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\114_Rogue Ornithologist.png" id="114_Rogue Ornithologist" data-flag="@X" onclick="openSidebar('114_Rogue Ornithologist',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\149_Fresh-Faced Mercenary.png" id="149_Fresh-Faced Mercenary" data-flag="@X" onclick="openSidebar('149_Fresh-Faced Mercenary',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\196_Island Constrictor.png" id="196_Island Constrictor" data-flag="@X" onclick="openSidebar('196_Island Constrictor',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\33_Sit This One Out.png" id="33_Sit This One Out" data-flag="@X" onclick="openSidebar('33_Sit This One Out',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\64_Island Hopping.png" id="64_Island Hopping" data-flag="@X" onclick="openSidebar('64_Island Hopping',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\120_Shadowblood Inoculation.png" id="120_Shadowblood Inoculation" data-flag="@X" onclick="openSidebar('120_Shadowblood Inoculation',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\153_Hull-Shattering Shot.png" id="153_Hull-Shattering Shot" data-flag="@X" onclick="openSidebar('153_Hull-Shattering Shot',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\203_Pounce.png" id="203_Pounce" data-flag="@X" onclick="openSidebar('203_Pounce',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\35_Surge of Determination.png" id="35_Surge of Determination" data-flag="@X" onclick="openSidebar('35_Surge of Determination',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\70_Navy Junior Engineer.png" id="70_Navy Junior Engineer" data-flag="@X" onclick="openSidebar('70_Navy Junior Engineer',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\123_Stolen Wasp-Class.png" id="123_Stolen Wasp-Class" data-flag="@X" onclick="openSidebar('123_Stolen Wasp-Class',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\157_Modified Pit Fighter.png" id="157_Modified Pit Fighter" data-flag="@X" onclick="openSidebar('157_Modified Pit Fighter',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\207_Renowned Winghunter.png" id="207_Renowned Winghunter" data-flag="@X" onclick="openSidebar('207_Renowned Winghunter',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\36_Travelling Chef.png" id="36_Travelling Chef" data-flag="@X" onclick="openSidebar('36_Travelling Chef',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\72_Passwall Rassaphore.png" id="72_Passwall Rassaphore" data-flag="@X" onclick="openSidebar('72_Passwall Rassaphore',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\124_Sulfurous Clouds.png" id="124_Sulfurous Clouds" data-flag="@X" onclick="openSidebar('124_Sulfurous Clouds',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\163_Plasma Core Hammer.png" id="163_Plasma Core Hammer" data-flag="@X" onclick="openSidebar('163_Plasma Core Hammer',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\208_Roaming Allew.png" id="208_Roaming Allew" data-flag="@X" onclick="openSidebar('208_Roaming Allew',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\37_Vengeant Griffin.png" id="37_Vengeant Griffin" data-flag="@X" onclick="openSidebar('37_Vengeant Griffin',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\75_Refile.png" id="75_Refile" data-flag="@X" onclick="openSidebar('75_Refile',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\127_Umbral Teachings.png" id="127_Umbral Teachings" data-flag="@X" onclick="openSidebar('127_Umbral Teachings',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\168_Sow Chaos.png" id="168_Sow Chaos" data-flag="@X" onclick="openSidebar('168_Sow Chaos',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\210_Society Field Reporter.png" id="210_Society Field Reporter" data-flag="@X" onclick="openSidebar('210_Society Field Reporter',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\40_Volunteer Militia.png" id="40_Volunteer Militia" data-flag="@X" onclick="openSidebar('40_Volunteer Militia',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\76_Ropehold Scout.png" id="76_Ropehold Scout" data-flag="@X" onclick="openSidebar('76_Ropehold Scout',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\129_Unscrupulous Surgeon.png" id="129_Unscrupulous Surgeon" data-flag="@X" onclick="openSidebar('129_Unscrupulous Surgeon',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\169_Stick Hand Grenade.png" id="169_Stick Hand Grenade" data-flag="@X" onclick="openSidebar('169_Stick Hand Grenade',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\212_Sylvan Arfyll.png" id="212_Sylvan Arfyll" data-flag="@X" onclick="openSidebar('212_Sylvan Arfyll',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\42_Wide-bore Warning.png" id="42_Wide-bore Warning" data-flag="@X" onclick="openSidebar('42_Wide-bore Warning',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\77_Salvage Mission.png" id="77_Salvage Mission" data-flag="@X" onclick="openSidebar('77_Salvage Mission',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\172_Vainglory Phoenix.png" id="172_Vainglory Phoenix" data-flag="@X" onclick="openSidebar('172_Vainglory Phoenix',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\213_Take the Night Watch.png" id="213_Take the Night Watch" data-flag="@X" onclick="openSidebar('213_Take the Night Watch',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\79_Shipwake Griffin.png" id="79_Shipwake Griffin" data-flag="@X" onclick="openSidebar('79_Shipwake Griffin',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\173_Vurushod Alpha.png" id="173_Vurushod Alpha" data-flag="@X" onclick="openSidebar('173_Vurushod Alpha',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\218_Watch the World Pass By.png" id="218_Watch the World Pass By" data-flag="@X" onclick="openSidebar('218_Watch the World Pass By',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\85_Unplanned Landing.png" id="85_Unplanned Landing" data-flag="@X" onclick="openSidebar('85_Unplanned Landing',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+					<div class="container"><img loading="lazy" alt="sets\AVA-files\img\25_Precision Bomber.png" id="AVA_25_Precision Bomber" data-flag="@X" onclick="openSidebar('AVA_25_Precision Bomber',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\44_Adult Venipula.png" id="AVA_44_Adult Venipula" data-flag="@X" onclick="openSidebar('AVA_44_Adult Venipula',false)"></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\AVA-files\img\109_Primordials Exhibit_back.png" alt="sets\AVA-files\img\109_Primordials Exhibit_front.png" id="AVA_109_Primordials Exhibit" data-flag="@XD" onclick="openSidebar('AVA_109_Primordials Exhibit',false)"><button class="flip-btn" onclick="imgFlip('AVA_109_Primordials Exhibit')"></button></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\143_Demolition Expert.png" id="AVA_143_Demolition Expert" data-flag="@X" onclick="openSidebar('AVA_143_Demolition Expert',false)"></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\AVA-files\img\180_Cave of the Vanquished_back.png" alt="sets\AVA-files\img\180_Cave of the Vanquished_front.png" id="AVA_180_Cave of the Vanquished" data-flag="@XD" onclick="openSidebar('AVA_180_Cave of the Vanquished',false)"><button class="flip-btn" onclick="imgFlip('AVA_180_Cave of the Vanquished')"></button></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\41_Warren League Admiral.png" id="AVA_41_Warren League Admiral" data-flag="@X" onclick="openSidebar('AVA_41_Warren League Admiral',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\83_Timelocked.png" id="AVA_83_Timelocked" data-flag="@X" onclick="openSidebar('AVA_83_Timelocked',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\128_Unending Insight.png" id="AVA_128_Unending Insight" data-flag="@X" onclick="openSidebar('AVA_128_Unending Insight',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\162_Phoenix Egg.png" id="AVA_162_Phoenix Egg" data-flag="@X" onclick="openSidebar('AVA_162_Phoenix Egg',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\199_Mother of the Webbed City.png" id="AVA_199_Mother of the Webbed City" data-flag="@X" onclick="openSidebar('AVA_199_Mother of the Webbed City',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\2_Admiral's Guile.png" id="AVA_2_Admirals Guile" data-flag="@X" onclick="openSidebar('AVA_2_Admirals Guile',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\88_Worldwalker Helm.png" id="AVA_88_Worldwalker Helm" data-flag="@X" onclick="openSidebar('AVA_88_Worldwalker Helm',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\89_Athern, Captain of Traitors.png" id="AVA_89_Athern, Captain of Traitors" data-flag="@X" onclick="openSidebar('AVA_89_Athern, Captain of Traitors',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\134_Amok Automaton.png" id="AVA_134_Amok Automaton" data-flag="@X" onclick="openSidebar('AVA_134_Amok Automaton',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\176_Aluki Exile.png" id="AVA_176_Aluki Exile" data-flag="@X" onclick="openSidebar('AVA_176_Aluki Exile',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\9_Commandant Urscia.png" id="AVA_9_Commandant Urscia" data-flag="@X" onclick="openSidebar('AVA_9_Commandant Urscia',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\45_Allenord Rascham Esq..png" id="AVA_45_Allenord Rascham Esq." data-flag="@X" onclick="openSidebar('AVA_45_Allenord Rascham Esq.',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\94_Dragonsoul Cabalist.png" id="AVA_94_Dragonsoul Cabalist" data-flag="@X" onclick="openSidebar('AVA_94_Dragonsoul Cabalist',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\140_Cogstorm.png" id="AVA_140_Cogstorm" data-flag="@X" onclick="openSidebar('AVA_140_Cogstorm',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\183_Denaw Goliath.png" id="AVA_183_Denaw Goliath" data-flag="@X" onclick="openSidebar('AVA_183_Denaw Goliath',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\13_Distracting Saboteur.png" id="AVA_13_Distracting Saboteur" data-flag="@X" onclick="openSidebar('AVA_13_Distracting Saboteur',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\47_Clockwork Consonance.png" id="AVA_47_Clockwork Consonance" data-flag="@X" onclick="openSidebar('AVA_47_Clockwork Consonance',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\95_Dramaturgical Extraction.png" id="AVA_95_Dramaturgical Extraction" data-flag="@X" onclick="openSidebar('AVA_95_Dramaturgical Extraction',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\150_Gift of the Firehen.png" id="AVA_150_Gift of the Firehen" data-flag="@X" onclick="openSidebar('AVA_150_Gift of the Firehen',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\189_Genteel Expedition.png" id="AVA_189_Genteel Expedition" data-flag="@X" onclick="openSidebar('AVA_189_Genteel Expedition',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\16_Griffin Elder.png" id="AVA_16_Griffin Elder" data-flag="@X" onclick="openSidebar('AVA_16_Griffin Elder',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\57_Gravitic Whirlpool.png" id="AVA_57_Gravitic Whirlpool" data-flag="@X" onclick="openSidebar('AVA_57_Gravitic Whirlpool',false)"></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\AVA-files\img\104_Masterpiece in the Making_back.png" alt="sets\AVA-files\img\104_Masterpiece in the Making_front.png" id="AVA_104_Masterpiece in the Making" data-flag="@XD" onclick="openSidebar('AVA_104_Masterpiece in the Making',false)"><button class="flip-btn" onclick="imgFlip('AVA_104_Masterpiece in the Making')"></button></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\152_High Stakes Game.png" id="AVA_152_High Stakes Game" data-flag="@X" onclick="openSidebar('AVA_152_High Stakes Game',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\191_Gift of the Grove.png" id="AVA_191_Gift of the Grove" data-flag="@X" onclick="openSidebar('AVA_191_Gift of the Grove',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\29_Purifying Maze.png" id="AVA_29_Purifying Maze" data-flag="@X" onclick="openSidebar('AVA_29_Purifying Maze',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\65_Ivina, Society Archivist.png" id="AVA_65_Ivina, Society Archivist" data-flag="@X" onclick="openSidebar('AVA_65_Ivina, Society Archivist',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\106_Mr. Aldrand, Eternal Patron.png" id="AVA_106_Mr. Aldrand, Eternal Patron" data-flag="@X" onclick="openSidebar('AVA_106_Mr. Aldrand, Eternal Patron',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\156_Islandfall.png" id="AVA_156_Islandfall" data-flag="@X" onclick="openSidebar('AVA_156_Islandfall',false)"></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\AVA-files\img\197_Kidar, Seeking Justice_back.png" alt="sets\AVA-files\img\197_Kidar, Seeking Justice_front.png" id="AVA_197_Kidar, Seeking Justice" data-flag="@XD" onclick="openSidebar('AVA_197_Kidar, Seeking Justice',false)"><button class="flip-btn" onclick="imgFlip('AVA_197_Kidar, Seeking Justice')"></button></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\30_Retributive Bombardment.png" id="AVA_30_Retributive Bombardment" data-flag="@X" onclick="openSidebar('AVA_30_Retributive Bombardment',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\66_Jochi, Inspired Tinkerer.png" id="AVA_66_Jochi, Inspired Tinkerer" data-flag="@X" onclick="openSidebar('AVA_66_Jochi, Inspired Tinkerer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\112_Rise to Power.png" id="AVA_112_Rise to Power" data-flag="@X" onclick="openSidebar('AVA_112_Rise to Power',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\160_Nola, Captain of the Mise.png" id="AVA_160_Nola, Captain of the Mise" data-flag="@X" onclick="openSidebar('AVA_160_Nola, Captain of the Mise',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\201_Paleontological Revelations.png" id="AVA_201_Paleontological Revelations" data-flag="@X" onclick="openSidebar('AVA_201_Paleontological Revelations',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\31_Scion of the Hidden Burrow.png" id="AVA_31_Scion of the Hidden Burrow" data-flag="@X" onclick="openSidebar('AVA_31_Scion of the Hidden Burrow',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\67_Julescan Dreadnought.png" id="AVA_67_Julescan Dreadnought" data-flag="@X" onclick="openSidebar('AVA_67_Julescan Dreadnought',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\117_Secrets of the Ruins.png" id="AVA_117_Secrets of the Ruins" data-flag="@X" onclick="openSidebar('AVA_117_Secrets of the Ruins',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\167_Slagfall Phoenix.png" id="AVA_167_Slagfall Phoenix" data-flag="@X" onclick="openSidebar('AVA_167_Slagfall Phoenix',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\205_Rechine Jungle Leaper.png" id="AVA_205_Rechine Jungle Leaper" data-flag="@X" onclick="openSidebar('AVA_205_Rechine Jungle Leaper',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\4_Armor of Eternal Penance.png" id="AVA_4_Armor of Eternal Penance" data-flag="@X" onclick="openSidebar('AVA_4_Armor of Eternal Penance',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\71_Nikolaian Matrix.png" id="AVA_71_Nikolaian Matrix" data-flag="@X" onclick="openSidebar('AVA_71_Nikolaian Matrix',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\119_Shadow Path Exemplar.png" id="AVA_119_Shadow Path Exemplar" data-flag="@X" onclick="openSidebar('AVA_119_Shadow Path Exemplar',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\174_Whalehunter Eel.png" id="AVA_174_Whalehunter Eel" data-flag="@X" onclick="openSidebar('AVA_174_Whalehunter Eel',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\209_Salandrix, Lifespeaker.png" id="AVA_209_Salandrix, Lifespeaker" data-flag="@X" onclick="openSidebar('AVA_209_Salandrix, Lifespeaker',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\5_Arrogant Engineer.png" id="AVA_5_Arrogant Engineer" data-flag="@X" onclick="openSidebar('AVA_5_Arrogant Engineer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\86_Unstable Ooze.png" id="AVA_86_Unstable Ooze" data-flag="@X" onclick="openSidebar('AVA_86_Unstable Ooze',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\92_Contemplative Crime Lord.png" id="AVA_92_Contemplative Crime Lord" data-flag="@X" onclick="openSidebar('AVA_92_Contemplative Crime Lord',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\136_Break with the Past.png" id="AVA_136_Break with the Past" data-flag="@X" onclick="openSidebar('AVA_136_Break with the Past',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\179_Beast of the Blandon Savannah.png" id="AVA_179_Beast of the Blandon Savannah" data-flag="@X" onclick="openSidebar('AVA_179_Beast of the Blandon Savannah',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\7_Canopy-Nest Griffin.png" id="AVA_7_Canopy-Nest Griffin" data-flag="@X" onclick="openSidebar('AVA_7_Canopy-Nest Griffin',false)"></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\AVA-files\img\87_Updraft Boneyard_back.png" alt="sets\AVA-files\img\87_Updraft Boneyard_front.png" id="AVA_87_Updraft Boneyard" data-flag="@XD" onclick="openSidebar('AVA_87_Updraft Boneyard',false)"><button class="flip-btn" onclick="imgFlip('AVA_87_Updraft Boneyard')"></button></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\96_Ectoplasmonic Simulacrum.png" id="AVA_96_Ectoplasmonic Simulacrum" data-flag="@X" onclick="openSidebar('AVA_96_Ectoplasmonic Simulacrum',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\139_Clues to the Cataclysm.png" id="AVA_139_Clues to the Cataclysm" data-flag="@X" onclick="openSidebar('AVA_139_Clues to the Cataclysm',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\182_Deadwoods Stalker.png" id="AVA_182_Deadwoods Stalker" data-flag="@X" onclick="openSidebar('AVA_182_Deadwoods Stalker',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\8_Can't Take the Sky From Me.png" id="AVA_8_Cant Take the Sky From Me" data-flag="@X" onclick="openSidebar('AVA_8_Cant Take the Sky From Me',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\49_Current-Rider Windmill.png" id="AVA_49_Current-Rider Windmill" data-flag="@X" onclick="openSidebar('AVA_49_Current-Rider Windmill',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\101_Identifying the Villainous.png" id="AVA_101_Identifying the Villainous" data-flag="@X" onclick="openSidebar('AVA_101_Identifying the Villainous',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\141_Coming in for a Landing.png" id="AVA_141_Coming in for a Landing" data-flag="@X" onclick="openSidebar('AVA_141_Coming in for a Landing',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\185_Edge Patrol.png" id="AVA_185_Edge Patrol" data-flag="@X" onclick="openSidebar('AVA_185_Edge Patrol',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\10_Confront the Villainous.png" id="AVA_10_Confront the Villainous" data-flag="@X" onclick="openSidebar('AVA_10_Confront the Villainous',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\50_Decorated Pilot.png" id="AVA_50_Decorated Pilot" data-flag="@X" onclick="openSidebar('AVA_50_Decorated Pilot',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\102_Liferipper Miasma.png" id="AVA_102_Liferipper Miasma" data-flag="@X" onclick="openSidebar('AVA_102_Liferipper Miasma',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\144_Distinguished Captain.png" id="AVA_144_Distinguished Captain" data-flag="@X" onclick="openSidebar('AVA_144_Distinguished Captain',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\187_Fatemarked Wolf.png" id="AVA_187_Fatemarked Wolf" data-flag="@X" onclick="openSidebar('AVA_187_Fatemarked Wolf',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\12_Defense of Reedsey.png" id="AVA_12_Defense of Reedsey" data-flag="@X" onclick="openSidebar('AVA_12_Defense of Reedsey',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\51_Deep Summoning.png" id="AVA_51_Deep Summoning" data-flag="@X" onclick="openSidebar('AVA_51_Deep Summoning',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\103_Lt. Nevor of the Scurvy Wolf.png" id="AVA_103_Lt. Nevor of the Scurvy Wolf" data-flag="@X" onclick="openSidebar('AVA_103_Lt. Nevor of the Scurvy Wolf',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\145_Don the Crest of Fire.png" id="AVA_145_Don the Crest of Fire" data-flag="@X" onclick="openSidebar('AVA_145_Don the Crest of Fire',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\190_Giant Corpseseeker.png" id="AVA_190_Giant Corpseseeker" data-flag="@X" onclick="openSidebar('AVA_190_Giant Corpseseeker',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\15_General's Briefing.png" id="AVA_15_Generals Briefing" data-flag="@X" onclick="openSidebar('AVA_15_Generals Briefing',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\54_Engineering Prodigy.png" id="AVA_54_Engineering Prodigy" data-flag="@X" onclick="openSidebar('AVA_54_Engineering Prodigy',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\108_Necromancer's Experiments.png" id="AVA_108_Necromancers Experiments" data-flag="@X" onclick="openSidebar('AVA_108_Necromancers Experiments',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\146_Eager Experimenter.png" id="AVA_146_Eager Experimenter" data-flag="@X" onclick="openSidebar('AVA_146_Eager Experimenter',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\194_Heroic Intervention.png" id="AVA_194_Heroic Intervention" data-flag="@X" onclick="openSidebar('AVA_194_Heroic Intervention',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\18_In For Repairs.png" id="AVA_18_In For Repairs" data-flag="@X" onclick="openSidebar('AVA_18_In For Repairs',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\55_Experimental Shadowship.png" id="AVA_55_Experimental Shadowship" data-flag="@X" onclick="openSidebar('AVA_55_Experimental Shadowship',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\113_Rising of a Tambly's Bones.png" id="AVA_113_Rising of a Tamblys Bones" data-flag="@X" onclick="openSidebar('AVA_113_Rising of a Tamblys Bones',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\147_Embittered Lavawing.png" id="AVA_147_Embittered Lavawing" data-flag="@X" onclick="openSidebar('AVA_147_Embittered Lavawing',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\195_Highborn Sleuth.png" id="AVA_195_Highborn Sleuth" data-flag="@X" onclick="openSidebar('AVA_195_Highborn Sleuth',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\19_Julescan Heavy Strider.png" id="AVA_19_Julescan Heavy Strider" data-flag="@X" onclick="openSidebar('AVA_19_Julescan Heavy Strider',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\56_Gestalt Shock.png" id="AVA_56_Gestalt Shock" data-flag="@X" onclick="openSidebar('AVA_56_Gestalt Shock',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\115_A Sabotaging of Hope.png" id="AVA_115_A Sabotaging of Hope" data-flag="@X" onclick="openSidebar('AVA_115_A Sabotaging of Hope',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\151_Hatching A New Scheme.png" id="AVA_151_Hatching A New Scheme" data-flag="@X" onclick="openSidebar('AVA_151_Hatching A New Scheme',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\198_Marla, Gearheart Druid.png" id="AVA_198_Marla, Gearheart Druid" data-flag="@X" onclick="openSidebar('AVA_198_Marla, Gearheart Druid',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\22_Lemaugean Barded Drabant.png" id="AVA_22_Lemaugean Barded Drabant" data-flag="@X" onclick="openSidebar('AVA_22_Lemaugean Barded Drabant',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\63_Iridescent Tambly.png" id="AVA_63_Iridescent Tambly" data-flag="@X" onclick="openSidebar('AVA_63_Iridescent Tambly',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\116_Savoran Razor Galleon.png" id="AVA_116_Savoran Razor Galleon" data-flag="@X" onclick="openSidebar('AVA_116_Savoran Razor Galleon',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\154_Igneous Dragonhunter.png" id="AVA_154_Igneous Dragonhunter" data-flag="@X" onclick="openSidebar('AVA_154_Igneous Dragonhunter',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\200_On a Trek Together.png" id="AVA_200_On a Trek Together" data-flag="@X" onclick="openSidebar('AVA_200_On a Trek Together',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\23_Leogrif Cub.png" id="AVA_23_Leogrif Cub" data-flag="@X" onclick="openSidebar('AVA_23_Leogrif Cub',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\68_Lemaugean Negator.png" id="AVA_68_Lemaugean Negator" data-flag="@X" onclick="openSidebar('AVA_68_Lemaugean Negator',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\118_Shackled to the Forge.png" id="AVA_118_Shackled to the Forge" data-flag="@X" onclick="openSidebar('AVA_118_Shackled to the Forge',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\155_Iruum Streamhopper.png" id="AVA_155_Iruum Streamhopper" data-flag="@X" onclick="openSidebar('AVA_155_Iruum Streamhopper',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\202_Piper of the Passed.png" id="AVA_202_Piper of the Passed" data-flag="@X" onclick="openSidebar('AVA_202_Piper of the Passed',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\24_Omenstoat Pack.png" id="AVA_24_Omenstoat Pack" data-flag="@X" onclick="openSidebar('AVA_24_Omenstoat Pack',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\69_Liline Otothal.png" id="AVA_69_Liline Otothal" data-flag="@X" onclick="openSidebar('AVA_69_Liline Otothal',false)"></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\AVA-files\img\121_Skull of the Last Hunter_back.png" alt="sets\AVA-files\img\121_Skull of the Last Hunter_front.png" id="AVA_121_Skull of the Last Hunter" data-flag="@XD" onclick="openSidebar('AVA_121_Skull of the Last Hunter',false)"><button class="flip-btn" onclick="imgFlip('AVA_121_Skull of the Last Hunter')"></button></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\158_Needle Peak Phoenix.png" id="AVA_158_Needle Peak Phoenix" data-flag="@X" onclick="openSidebar('AVA_158_Needle Peak Phoenix',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\204_Reach the Legendary City.png" id="AVA_204_Reach the Legendary City" data-flag="@X" onclick="openSidebar('AVA_204_Reach the Legendary City',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\32_Shaiani Nightguard.png" id="AVA_32_Shaiani Nightguard" data-flag="@X" onclick="openSidebar('AVA_32_Shaiani Nightguard',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\73_Pesuban Riftrider.png" id="AVA_73_Pesuban Riftrider" data-flag="@X" onclick="openSidebar('AVA_73_Pesuban Riftrider',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\122_Sophisticated Bandit.png" id="AVA_122_Sophisticated Bandit" data-flag="@X" onclick="openSidebar('AVA_122_Sophisticated Bandit',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\159_Ninth Dawn Public Relations.png" id="AVA_159_Ninth Dawn Public Relations" data-flag="@X" onclick="openSidebar('AVA_159_Ninth Dawn Public Relations',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\206_Reconnect.png" id="AVA_206_Reconnect" data-flag="@X" onclick="openSidebar('AVA_206_Reconnect',false)"></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\AVA-files\img\34_Sun-bleached Discovery_back.png" alt="sets\AVA-files\img\34_Sun-bleached Discovery_front.png" id="AVA_34_Sun-bleached Discovery" data-flag="@XD" onclick="openSidebar('AVA_34_Sun-bleached Discovery',false)"><button class="flip-btn" onclick="imgFlip('AVA_34_Sun-bleached Discovery')"></button></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\74_Psionic Control Helm.png" id="AVA_74_Psionic Control Helm" data-flag="@X" onclick="openSidebar('AVA_74_Psionic Control Helm',false)"></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\AVA-files\img\125_Swamp Seer's Hut_back.png" alt="sets\AVA-files\img\125_Swamp Seer's Hut_front.png" id="AVA_125_Swamp Seers Hut" data-flag="@XD" onclick="openSidebar('AVA_125_Swamp Seers Hut',false)"><button class="flip-btn" onclick="imgFlip('AVA_125_Swamp Seers Hut')"></button></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\161_Pesuban Cannoneer.png" id="AVA_161_Pesuban Cannoneer" data-flag="@X" onclick="openSidebar('AVA_161_Pesuban Cannoneer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\211_Stoic Expedition Guard.png" id="AVA_211_Stoic Expedition Guard" data-flag="@X" onclick="openSidebar('AVA_211_Stoic Expedition Guard',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\38_Vigilant Cryophoenix.png" id="AVA_38_Vigilant Cryophoenix" data-flag="@X" onclick="openSidebar('AVA_38_Vigilant Cryophoenix',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\78_Salvaging Company.png" id="AVA_78_Salvaging Company" data-flag="@X" onclick="openSidebar('AVA_78_Salvaging Company',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\126_Tutor of Dark Sciences.png" id="AVA_126_Tutor of Dark Sciences" data-flag="@X" onclick="openSidebar('AVA_126_Tutor of Dark Sciences',false)"></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\AVA-files\img\164_Sandscoured Bones_back.png" alt="sets\AVA-files\img\164_Sandscoured Bones_front.png" id="AVA_164_Sandscoured Bones" data-flag="@XD" onclick="openSidebar('AVA_164_Sandscoured Bones',false)"><button class="flip-btn" onclick="imgFlip('AVA_164_Sandscoured Bones')"></button></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\214_Test of Courage.png" id="AVA_214_Test of Courage" data-flag="@X" onclick="openSidebar('AVA_214_Test of Courage',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\39_Vineyard Tour.png" id="AVA_39_Vineyard Tour" data-flag="@X" onclick="openSidebar('AVA_39_Vineyard Tour',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\80_Show Your Work.png" id="AVA_80_Show Your Work" data-flag="@X" onclick="openSidebar('AVA_80_Show Your Work',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\130_Wizened Outlaw.png" id="AVA_130_Wizened Outlaw" data-flag="@X" onclick="openSidebar('AVA_130_Wizened Outlaw',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\165_Sandstone Town Gunsmith.png" id="AVA_165_Sandstone Town Gunsmith" data-flag="@X" onclick="openSidebar('AVA_165_Sandstone Town Gunsmith',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\215_Titanur.png" id="AVA_215_Titanur" data-flag="@X" onclick="openSidebar('AVA_215_Titanur',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\43_Zuun Warrenguard.png" id="AVA_43_Zuun Warrenguard" data-flag="@X" onclick="openSidebar('AVA_43_Zuun Warrenguard',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\81_Skipping Class.png" id="AVA_81_Skipping Class" data-flag="@X" onclick="openSidebar('AVA_81_Skipping Class',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\90_Burly Executioner.png" id="AVA_90_Burly Executioner" data-flag="@X" onclick="openSidebar('AVA_90_Burly Executioner',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\166_Scavenged Hulk.png" id="AVA_166_Scavenged Hulk" data-flag="@X" onclick="openSidebar('AVA_166_Scavenged Hulk',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\216_Untested Elixir.png" id="AVA_216_Untested Elixir" data-flag="@X" onclick="openSidebar('AVA_216_Untested Elixir',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\1_Adept of the Path of Candor.png" id="AVA_1_Adept of the Path of Candor" data-flag="@X" onclick="openSidebar('AVA_1_Adept of the Path of Candor',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\82_Sonata of the Wind.png" id="AVA_82_Sonata of the Wind" data-flag="@X" onclick="openSidebar('AVA_82_Sonata of the Wind',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\91_Caelarian Shadowsprinter.png" id="AVA_91_Caelarian Shadowsprinter" data-flag="@X" onclick="openSidebar('AVA_91_Caelarian Shadowsprinter',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\170_Storm Mistress.png" id="AVA_170_Storm Mistress" data-flag="@X" onclick="openSidebar('AVA_170_Storm Mistress',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\217_Unwieldy Steam-tractor.png" id="AVA_217_Unwieldy Steam-tractor" data-flag="@X" onclick="openSidebar('AVA_217_Unwieldy Steam-tractor',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\3_Alpha Tigress.png" id="AVA_3_Alpha Tigress" data-flag="@X" onclick="openSidebar('AVA_3_Alpha Tigress',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\84_Turn Back the Clock.png" id="AVA_84_Turn Back the Clock" data-flag="@X" onclick="openSidebar('AVA_84_Turn Back the Clock',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\93_Death's Hall Caretaker.png" id="AVA_93_Deaths Hall Caretaker" data-flag="@X" onclick="openSidebar('AVA_93_Deaths Hall Caretaker',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\171_Sundering Shockwave.png" id="AVA_171_Sundering Shockwave" data-flag="@X" onclick="openSidebar('AVA_171_Sundering Shockwave',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\175_Adult Matosuchi.png" id="AVA_175_Adult Matosuchi" data-flag="@X" onclick="openSidebar('AVA_175_Adult Matosuchi',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\6_Bonded Griffin.png" id="AVA_6_Bonded Griffin" data-flag="@X" onclick="openSidebar('AVA_6_Bonded Griffin',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\46_Annul.png" id="AVA_46_Annul" data-flag="@X" onclick="openSidebar('AVA_46_Annul',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\97_Escaped Experiment.png" id="AVA_97_Escaped Experiment" data-flag="@X" onclick="openSidebar('AVA_97_Escaped Experiment',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\131_Aerial Bombardment.png" id="AVA_131_Aerial Bombardment" data-flag="@X" onclick="openSidebar('AVA_131_Aerial Bombardment',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\177_Aluki Hearthguard.png" id="AVA_177_Aluki Hearthguard" data-flag="@X" onclick="openSidebar('AVA_177_Aluki Hearthguard',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\11_Darkwing Hatchling.png" id="AVA_11_Darkwing Hatchling" data-flag="@X" onclick="openSidebar('AVA_11_Darkwing Hatchling',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\48_Curious Skywhale.png" id="AVA_48_Curious Skywhale" data-flag="@X" onclick="openSidebar('AVA_48_Curious Skywhale',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\98_Gersauld's Assassin.png" id="AVA_98_Gersaulds Assassin" data-flag="@X" onclick="openSidebar('AVA_98_Gersaulds Assassin',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\132_Aezori Hunting Pair.png" id="AVA_132_Aezori Hunting Pair" data-flag="@X" onclick="openSidebar('AVA_132_Aezori Hunting Pair',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\178_Ambitious Archaeologist.png" id="AVA_178_Ambitious Archaeologist" data-flag="@X" onclick="openSidebar('AVA_178_Ambitious Archaeologist',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\14_Firing Drills.png" id="AVA_14_Firing Drills" data-flag="@X" onclick="openSidebar('AVA_14_Firing Drills',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\52_Dour Chauffeur.png" id="AVA_52_Dour Chauffeur" data-flag="@X" onclick="openSidebar('AVA_52_Dour Chauffeur',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\99_Grim Harpooner.png" id="AVA_99_Grim Harpooner" data-flag="@X" onclick="openSidebar('AVA_99_Grim Harpooner',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\133_Ambitious Shiftmaster.png" id="AVA_133_Ambitious Shiftmaster" data-flag="@X" onclick="openSidebar('AVA_133_Ambitious Shiftmaster',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\181_A Choking Serenity.png" id="AVA_181_A Choking Serenity" data-flag="@X" onclick="openSidebar('AVA_181_A Choking Serenity',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\17_Iceberg Monitor.png" id="AVA_17_Iceberg Monitor" data-flag="@X" onclick="openSidebar('AVA_17_Iceberg Monitor',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\53_Enchanted Parasol.png" id="AVA_53_Enchanted Parasol" data-flag="@X" onclick="openSidebar('AVA_53_Enchanted Parasol',false)"></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\AVA-files\img\100_Hoard of Bones_back.png" alt="sets\AVA-files\img\100_Hoard of Bones_front.png" id="AVA_100_Hoard of Bones" data-flag="@XD" onclick="openSidebar('AVA_100_Hoard of Bones',false)"><button class="flip-btn" onclick="imgFlip('AVA_100_Hoard of Bones')"></button></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\135_Ancient Sunspot Owl.png" id="AVA_135_Ancient Sunspot Owl" data-flag="@X" onclick="openSidebar('AVA_135_Ancient Sunspot Owl',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\184_Dour Wanderer.png" id="AVA_184_Dour Wanderer" data-flag="@X" onclick="openSidebar('AVA_184_Dour Wanderer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\20_Julescan Infantry.png" id="AVA_20_Julescan Infantry" data-flag="@X" onclick="openSidebar('AVA_20_Julescan Infantry',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\58_Gunner Crew.png" id="AVA_58_Gunner Crew" data-flag="@X" onclick="openSidebar('AVA_58_Gunner Crew',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\105_Midnight Card Sharp.png" id="AVA_105_Midnight Card Sharp" data-flag="@X" onclick="openSidebar('AVA_105_Midnight Card Sharp',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\137_Burn Down.png" id="AVA_137_Burn Down" data-flag="@X" onclick="openSidebar('AVA_137_Burn Down',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\186_Empowered Arrow.png" id="AVA_186_Empowered Arrow" data-flag="@X" onclick="openSidebar('AVA_186_Empowered Arrow',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\21_Lakeside Watch.png" id="AVA_21_Lakeside Watch" data-flag="@X" onclick="openSidebar('AVA_21_Lakeside Watch',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\59_Hired Investigator.png" id="AVA_59_Hired Investigator" data-flag="@X" onclick="openSidebar('AVA_59_Hired Investigator',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\107_Muroid Abomination.png" id="AVA_107_Muroid Abomination" data-flag="@X" onclick="openSidebar('AVA_107_Muroid Abomination',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\138_Cannonhauler Deckhand.png" id="AVA_138_Cannonhauler Deckhand" data-flag="@X" onclick="openSidebar('AVA_138_Cannonhauler Deckhand',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\188_Flower Cart.png" id="AVA_188_Flower Cart" data-flag="@X" onclick="openSidebar('AVA_188_Flower Cart',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\26_Prepared Guide.png" id="AVA_26_Prepared Guide" data-flag="@X" onclick="openSidebar('AVA_26_Prepared Guide',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\60_Hulldrifter.png" id="AVA_60_Hulldrifter" data-flag="@X" onclick="openSidebar('AVA_60_Hulldrifter',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\110_Puppeteer's Grace.png" id="AVA_110_Puppeteers Grace" data-flag="@X" onclick="openSidebar('AVA_110_Puppeteers Grace',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\142_Deepvent Feeder.png" id="AVA_142_Deepvent Feeder" data-flag="@X" onclick="openSidebar('AVA_142_Deepvent Feeder',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\192_Greater Branchpiler.png" id="AVA_192_Greater Branchpiler" data-flag="@X" onclick="openSidebar('AVA_192_Greater Branchpiler',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\27_Principled Sellpaw.png" id="AVA_27_Principled Sellpaw" data-flag="@X" onclick="openSidebar('AVA_27_Principled Sellpaw',false)"></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\AVA-files\img\61_Icebound Remains_back.png" alt="sets\AVA-files\img\61_Icebound Remains_front.png" id="AVA_61_Icebound Remains" data-flag="@XD" onclick="openSidebar('AVA_61_Icebound Remains',false)"><button class="flip-btn" onclick="imgFlip('AVA_61_Icebound Remains')"></button></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\111_Real Green Dress.png" id="AVA_111_Real Green Dress" data-flag="@X" onclick="openSidebar('AVA_111_Real Green Dress',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\148_Foolhardy Tinkerer.png" id="AVA_148_Foolhardy Tinkerer" data-flag="@X" onclick="openSidebar('AVA_148_Foolhardy Tinkerer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\193_Grey Rofa.png" id="AVA_193_Grey Rofa" data-flag="@X" onclick="openSidebar('AVA_193_Grey Rofa',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\28_Pull Aetherstrings.png" id="AVA_28_Pull Aetherstrings" data-flag="@X" onclick="openSidebar('AVA_28_Pull Aetherstrings',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\62_Indomitable Tinkerer.png" id="AVA_62_Indomitable Tinkerer" data-flag="@X" onclick="openSidebar('AVA_62_Indomitable Tinkerer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\114_Rogue Ornithologist.png" id="AVA_114_Rogue Ornithologist" data-flag="@X" onclick="openSidebar('AVA_114_Rogue Ornithologist',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\149_Fresh-Faced Mercenary.png" id="AVA_149_Fresh-Faced Mercenary" data-flag="@X" onclick="openSidebar('AVA_149_Fresh-Faced Mercenary',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\196_Island Constrictor.png" id="AVA_196_Island Constrictor" data-flag="@X" onclick="openSidebar('AVA_196_Island Constrictor',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\33_Sit This One Out.png" id="AVA_33_Sit This One Out" data-flag="@X" onclick="openSidebar('AVA_33_Sit This One Out',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\64_Island Hopping.png" id="AVA_64_Island Hopping" data-flag="@X" onclick="openSidebar('AVA_64_Island Hopping',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\120_Shadowblood Inoculation.png" id="AVA_120_Shadowblood Inoculation" data-flag="@X" onclick="openSidebar('AVA_120_Shadowblood Inoculation',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\153_Hull-Shattering Shot.png" id="AVA_153_Hull-Shattering Shot" data-flag="@X" onclick="openSidebar('AVA_153_Hull-Shattering Shot',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\203_Pounce.png" id="AVA_203_Pounce" data-flag="@X" onclick="openSidebar('AVA_203_Pounce',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\35_Surge of Determination.png" id="AVA_35_Surge of Determination" data-flag="@X" onclick="openSidebar('AVA_35_Surge of Determination',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\70_Navy Junior Engineer.png" id="AVA_70_Navy Junior Engineer" data-flag="@X" onclick="openSidebar('AVA_70_Navy Junior Engineer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\123_Stolen Wasp-Class.png" id="AVA_123_Stolen Wasp-Class" data-flag="@X" onclick="openSidebar('AVA_123_Stolen Wasp-Class',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\157_Modified Pit Fighter.png" id="AVA_157_Modified Pit Fighter" data-flag="@X" onclick="openSidebar('AVA_157_Modified Pit Fighter',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\207_Renowned Winghunter.png" id="AVA_207_Renowned Winghunter" data-flag="@X" onclick="openSidebar('AVA_207_Renowned Winghunter',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\36_Travelling Chef.png" id="AVA_36_Travelling Chef" data-flag="@X" onclick="openSidebar('AVA_36_Travelling Chef',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\72_Passwall Rassaphore.png" id="AVA_72_Passwall Rassaphore" data-flag="@X" onclick="openSidebar('AVA_72_Passwall Rassaphore',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\124_Sulfurous Clouds.png" id="AVA_124_Sulfurous Clouds" data-flag="@X" onclick="openSidebar('AVA_124_Sulfurous Clouds',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\163_Plasma Core Hammer.png" id="AVA_163_Plasma Core Hammer" data-flag="@X" onclick="openSidebar('AVA_163_Plasma Core Hammer',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\208_Roaming Allew.png" id="AVA_208_Roaming Allew" data-flag="@X" onclick="openSidebar('AVA_208_Roaming Allew',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\37_Vengeant Griffin.png" id="AVA_37_Vengeant Griffin" data-flag="@X" onclick="openSidebar('AVA_37_Vengeant Griffin',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\75_Refile.png" id="AVA_75_Refile" data-flag="@X" onclick="openSidebar('AVA_75_Refile',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\127_Umbral Teachings.png" id="AVA_127_Umbral Teachings" data-flag="@X" onclick="openSidebar('AVA_127_Umbral Teachings',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\168_Sow Chaos.png" id="AVA_168_Sow Chaos" data-flag="@X" onclick="openSidebar('AVA_168_Sow Chaos',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\210_Society Field Reporter.png" id="AVA_210_Society Field Reporter" data-flag="@X" onclick="openSidebar('AVA_210_Society Field Reporter',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\40_Volunteer Militia.png" id="AVA_40_Volunteer Militia" data-flag="@X" onclick="openSidebar('AVA_40_Volunteer Militia',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\76_Ropehold Scout.png" id="AVA_76_Ropehold Scout" data-flag="@X" onclick="openSidebar('AVA_76_Ropehold Scout',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\129_Unscrupulous Surgeon.png" id="AVA_129_Unscrupulous Surgeon" data-flag="@X" onclick="openSidebar('AVA_129_Unscrupulous Surgeon',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\169_Stick Hand Grenade.png" id="AVA_169_Stick Hand Grenade" data-flag="@X" onclick="openSidebar('AVA_169_Stick Hand Grenade',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\212_Sylvan Arfyll.png" id="AVA_212_Sylvan Arfyll" data-flag="@X" onclick="openSidebar('AVA_212_Sylvan Arfyll',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\42_Wide-bore Warning.png" id="AVA_42_Wide-bore Warning" data-flag="@X" onclick="openSidebar('AVA_42_Wide-bore Warning',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\77_Salvage Mission.png" id="AVA_77_Salvage Mission" data-flag="@X" onclick="openSidebar('AVA_77_Salvage Mission',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AVA_e" data-flag="@E" onclick="openSidebar('AVA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\172_Vainglory Phoenix.png" id="AVA_172_Vainglory Phoenix" data-flag="@X" onclick="openSidebar('AVA_172_Vainglory Phoenix',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\213_Take the Night Watch.png" id="AVA_213_Take the Night Watch" data-flag="@X" onclick="openSidebar('AVA_213_Take the Night Watch',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AVA_e" data-flag="@E" onclick="openSidebar('AVA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\79_Shipwake Griffin.png" id="AVA_79_Shipwake Griffin" data-flag="@X" onclick="openSidebar('AVA_79_Shipwake Griffin',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AVA_e" data-flag="@E" onclick="openSidebar('AVA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\173_Vurushod Alpha.png" id="AVA_173_Vurushod Alpha" data-flag="@X" onclick="openSidebar('AVA_173_Vurushod Alpha',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\218_Watch the World Pass By.png" id="AVA_218_Watch the World Pass By" data-flag="@X" onclick="openSidebar('AVA_218_Watch the World Pass By',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AVA_e" data-flag="@E" onclick="openSidebar('AVA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\85_Unplanned Landing.png" id="AVA_85_Unplanned Landing" data-flag="@X" onclick="openSidebar('AVA_85_Unplanned Landing',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AVA_e" data-flag="@E" onclick="openSidebar('AVA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AVA_e" data-flag="@E" onclick="openSidebar('AVA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AVA_e" data-flag="@E" onclick="openSidebar('AVA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="AVA_er" data-flag="@E" onclick="openSidebar('AVA_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="AVA_er" data-flag="@E" onclick="openSidebar('AVA_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="AVA_er" data-flag="@E" onclick="openSidebar('AVA_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="AVA_er" data-flag="@E" onclick="openSidebar('AVA_er',false)"></div>
 				<div id="gold" class="anchor"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\226_Lemauge Grand Flagship.png" id="226_Lemauge Grand Flagship" data-flag="@X" onclick="openSidebar('226_Lemauge Grand Flagship',false)"></div>
-				<div class="container"><img data-alt_src="/sets\AVA-files\img\231_Monster of Lake Dread_back.png" alt="/sets\AVA-files\img\231_Monster of Lake Dread_front.png" id="231_Monster of Lake Dread" data-flag="@XD" onclick="openSidebar('231_Monster of Lake Dread',false)"><button class="flip-btn" onclick="imgFlip('231_Monster of Lake Dread')"></button></div>
-				<div class="container"><img alt="/sets\AVA-files\img\246_Unlawful Impressment.png" id="246_Unlawful Impressment" data-flag="@X" onclick="openSidebar('246_Unlawful Impressment',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\234_Ornery Betroynt.png" id="234_Ornery Betroynt" data-flag="@X" onclick="openSidebar('234_Ornery Betroynt',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\224_Fishing from the Docks.png" id="224_Fishing from the Docks" data-flag="@X" onclick="openSidebar('224_Fishing from the Docks',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\230_Mobile Base 31, Andren.png" id="230_Mobile Base 31, Andren" data-flag="@X" onclick="openSidebar('230_Mobile Base 31, Andren',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\220_The Bloated Dredger of Caroul.png" id="220_The Bloated Dredger of Caroul" data-flag="@X" onclick="openSidebar('220_The Bloated Dredger of Caroul',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\223_Cindertrap Sabotage.png" id="223_Cindertrap Sabotage" data-flag="@X" onclick="openSidebar('223_Cindertrap Sabotage',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\249_Wielder of the Cursed Bestiary.png" id="249_Wielder of the Cursed Bestiary" data-flag="@X" onclick="openSidebar('249_Wielder of the Cursed Bestiary',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\247_Warren League General.png" id="247_Warren League General" data-flag="@X" onclick="openSidebar('247_Warren League General',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\239_Relieved of Duty.png" id="239_Relieved of Duty" data-flag="@X" onclick="openSidebar('239_Relieved of Duty',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\232_Network of Whispers.png" id="232_Network of Whispers" data-flag="@X" onclick="openSidebar('232_Network of Whispers',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\241_Sfarzia, Pirate Queen.png" id="241_Sfarzia, Pirate Queen" data-flag="@X" onclick="openSidebar('241_Sfarzia, Pirate Queen',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\248_Warren League Lieutenant.png" id="248_Warren League Lieutenant" data-flag="@X" onclick="openSidebar('248_Warren League Lieutenant',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\245_Turncoat Arsenal.png" id="245_Turncoat Arsenal" data-flag="@X" onclick="openSidebar('245_Turncoat Arsenal',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\237_Raise the Banner.png" id="237_Raise the Banner" data-flag="@X" onclick="openSidebar('237_Raise the Banner',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\243_Sourcing Components.png" id="243_Sourcing Components" data-flag="@X" onclick="openSidebar('243_Sourcing Components',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\235_Pulled into the Tar.png" id="235_Pulled into the Tar" data-flag="@X" onclick="openSidebar('235_Pulled into the Tar',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\250_Yolaira, Linkmistress.png" id="250_Yolaira, Linkmistress" data-flag="@X" onclick="openSidebar('250_Yolaira, Linkmistress',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\221_Bronson Celac.png" id="221_Bronson Celac" data-flag="@X" onclick="openSidebar('221_Bronson Celac',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\229_Meeting of Nations.png" id="229_Meeting of Nations" data-flag="@X" onclick="openSidebar('229_Meeting of Nations',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\236_Rabbitfolk Engineer.png" id="236_Rabbitfolk Engineer" data-flag="@X" onclick="openSidebar('236_Rabbitfolk Engineer',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\225_Gersauld, Disgraced Count.png" id="225_Gersauld, Disgraced Count" data-flag="@X" onclick="openSidebar('225_Gersauld, Disgraced Count',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\233_Ninth Dawn Associate.png" id="233_Ninth Dawn Associate" data-flag="@X" onclick="openSidebar('233_Ninth Dawn Associate',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\222_The Call of Rediscovery.png" id="222_The Call of Rediscovery" data-flag="@X" onclick="openSidebar('222_The Call of Rediscovery',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\240_Settlement Over Tea.png" id="240_Settlement Over Tea" data-flag="@X" onclick="openSidebar('240_Settlement Over Tea',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\238_Reconstructed Gate.png" id="238_Reconstructed Gate" data-flag="@X" onclick="openSidebar('238_Reconstructed Gate',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\242_Soilborn Staff.png" id="242_Soilborn Staff" data-flag="@X" onclick="openSidebar('242_Soilborn Staff',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\244_Sunscatter, Firewing Matriarch.png" id="244_Sunscatter, Firewing Matriarch" data-flag="@X" onclick="openSidebar('244_Sunscatter, Firewing Matriarch',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\227_Mapmaker's Society Scoutship.png" id="227_Mapmakers Society Scoutship" data-flag="@X" onclick="openSidebar('227_Mapmakers Society Scoutship',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\228_Marla's Last Stand.png" id="228_Marlas Last Stand" data-flag="@X" onclick="openSidebar('228_Marlas Last Stand',true)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\219_Anstral, of the War and Whimsy.png" id="219_Anstral, of the War and Whimsy" data-flag="@X" onclick="openSidebar('219_Anstral, of the War and Whimsy',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\226_Lemauge Grand Flagship.png" id="AVA_226_Lemauge Grand Flagship" data-flag="@X" onclick="openSidebar('AVA_226_Lemauge Grand Flagship',false)"></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\AVA-files\img\231_Monster of Lake Dread_back.png" alt="sets\AVA-files\img\231_Monster of Lake Dread_front.png" id="AVA_231_Monster of Lake Dread" data-flag="@XD" onclick="openSidebar('AVA_231_Monster of Lake Dread',false)"><button class="flip-btn" onclick="imgFlip('AVA_231_Monster of Lake Dread')"></button></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\246_Unlawful Impressment.png" id="AVA_246_Unlawful Impressment" data-flag="@X" onclick="openSidebar('AVA_246_Unlawful Impressment',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\234_Ornery Betroynt.png" id="AVA_234_Ornery Betroynt" data-flag="@X" onclick="openSidebar('AVA_234_Ornery Betroynt',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\224_Fishing from the Docks.png" id="AVA_224_Fishing from the Docks" data-flag="@X" onclick="openSidebar('AVA_224_Fishing from the Docks',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\239_Relieved of Duty.png" id="AVA_239_Relieved of Duty" data-flag="@X" onclick="openSidebar('AVA_239_Relieved of Duty',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\220_The Bloated Dredger of Caroul.png" id="AVA_220_The Bloated Dredger of Caroul" data-flag="@X" onclick="openSidebar('AVA_220_The Bloated Dredger of Caroul',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\223_Cindertrap Sabotage.png" id="AVA_223_Cindertrap Sabotage" data-flag="@X" onclick="openSidebar('AVA_223_Cindertrap Sabotage',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AVA_e" data-flag="@E" onclick="openSidebar('AVA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\248_Warren League Lieutenant.png" id="AVA_248_Warren League Lieutenant" data-flag="@X" onclick="openSidebar('AVA_248_Warren League Lieutenant',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AVA_e" data-flag="@E" onclick="openSidebar('AVA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\245_Turncoat Arsenal.png" id="AVA_245_Turncoat Arsenal" data-flag="@X" onclick="openSidebar('AVA_245_Turncoat Arsenal',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AVA_e" data-flag="@E" onclick="openSidebar('AVA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AVA_e" data-flag="@E" onclick="openSidebar('AVA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AVA_e" data-flag="@E" onclick="openSidebar('AVA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="AVA_er" data-flag="@E" onclick="openSidebar('AVA_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="AVA_er" data-flag="@E" onclick="openSidebar('AVA_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="AVA_er" data-flag="@E" onclick="openSidebar('AVA_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="AVA_er" data-flag="@E" onclick="openSidebar('AVA_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="AVA_er" data-flag="@E" onclick="openSidebar('AVA_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\237_Raise the Banner.png" id="AVA_237_Raise the Banner" data-flag="@X" onclick="openSidebar('AVA_237_Raise the Banner',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\243_Sourcing Components.png" id="AVA_243_Sourcing Components" data-flag="@X" onclick="openSidebar('AVA_243_Sourcing Components',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\235_Pulled into the Tar.png" id="AVA_235_Pulled into the Tar" data-flag="@X" onclick="openSidebar('AVA_235_Pulled into the Tar',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\250_Yolaira, Linkmistress.png" id="AVA_250_Yolaira, Linkmistress" data-flag="@X" onclick="openSidebar('AVA_250_Yolaira, Linkmistress',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\221_Bronson Celac.png" id="AVA_221_Bronson Celac" data-flag="@X" onclick="openSidebar('AVA_221_Bronson Celac',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\240_Settlement Over Tea.png" id="AVA_240_Settlement Over Tea" data-flag="@X" onclick="openSidebar('AVA_240_Settlement Over Tea',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\238_Reconstructed Gate.png" id="AVA_238_Reconstructed Gate" data-flag="@X" onclick="openSidebar('AVA_238_Reconstructed Gate',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\242_Soilborn Staff.png" id="AVA_242_Soilborn Staff" data-flag="@X" onclick="openSidebar('AVA_242_Soilborn Staff',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\233_Ninth Dawn Associate.png" id="AVA_233_Ninth Dawn Associate" data-flag="@X" onclick="openSidebar('AVA_233_Ninth Dawn Associate',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\222_The Call of Rediscovery.png" id="AVA_222_The Call of Rediscovery" data-flag="@X" onclick="openSidebar('AVA_222_The Call of Rediscovery',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="AVA_er" data-flag="@E" onclick="openSidebar('AVA_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="AVA_er" data-flag="@E" onclick="openSidebar('AVA_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="AVA_er" data-flag="@E" onclick="openSidebar('AVA_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="AVA_er" data-flag="@E" onclick="openSidebar('AVA_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="AVA_er" data-flag="@E" onclick="openSidebar('AVA_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\228_Marla's Last Stand.png" id="AVA_228_Marlas Last Stand" data-flag="@X" onclick="openSidebar('AVA_228_Marlas Last Stand',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\219_Anstral, of the War and Whimsy.png" id="AVA_219_Anstral, of the War and Whimsy" data-flag="@X" onclick="openSidebar('AVA_219_Anstral, of the War and Whimsy',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AVA_e" data-flag="@E" onclick="openSidebar('AVA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AVA_e" data-flag="@E" onclick="openSidebar('AVA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AVA_e" data-flag="@E" onclick="openSidebar('AVA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="AVA_er" data-flag="@E" onclick="openSidebar('AVA_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="AVA_er" data-flag="@E" onclick="openSidebar('AVA_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="AVA_er" data-flag="@E" onclick="openSidebar('AVA_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="AVA_er" data-flag="@E" onclick="openSidebar('AVA_er',false)"></div>
 				<div id="colorless" class="anchor"></div>
-				<div class="container"><img data-alt_src="/sets\AVA-files\img\255_Haunted Skull_back.png" alt="/sets\AVA-files\img\255_Haunted Skull_front.png" id="255_Haunted Skull" data-flag="@XD" onclick="openSidebar('255_Haunted Skull',false)"><button class="flip-btn" onclick="imgFlip('255_Haunted Skull')"></button></div>
-				<div class="container"><img alt="/sets\AVA-files\img\260_Orrery of Avallus.png" id="260_Orrery of Avallus" data-flag="@X" onclick="openSidebar('260_Orrery of Avallus',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\252_Ancient Waystone.png" id="252_Ancient Waystone" data-flag="@X" onclick="openSidebar('252_Ancient Waystone',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\257_Iron Savior Suit.png" id="257_Iron Savior Suit" data-flag="@X" onclick="openSidebar('257_Iron Savior Suit',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\258_Lemauge Heavy Cruiser.png" id="258_Lemauge Heavy Cruiser" data-flag="@X" onclick="openSidebar('258_Lemauge Heavy Cruiser',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\259_Mausoleum of Deities.png" id="259_Mausoleum of Deities" data-flag="@X" onclick="openSidebar('259_Mausoleum of Deities',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\262_Tiazan Freighter.png" id="262_Tiazan Freighter" data-flag="@X" onclick="openSidebar('262_Tiazan Freighter',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\251_Aerie's Legacy.png" id="251_Aeries Legacy" data-flag="@X" onclick="openSidebar('251_Aeries Legacy',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\253_Clockwork Rat.png" id="253_Clockwork Rat" data-flag="@X" onclick="openSidebar('253_Clockwork Rat',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\254_Filigree Propskiff.png" id="254_Filigree Propskiff" data-flag="@X" onclick="openSidebar('254_Filigree Propskiff',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\256_House Barge.png" id="256_House Barge" data-flag="@X" onclick="openSidebar('256_House Barge',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\261_Piston Vambrace.png" id="261_Piston Vambrace" data-flag="@X" onclick="openSidebar('261_Piston Vambrace',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\270_Landing Station.png" id="270_Landing Station" data-flag="@X" onclick="openSidebar('270_Landing Station',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\273_Sanctum of Secrets.png" id="273_Sanctum of Secrets" data-flag="@X" onclick="openSidebar('273_Sanctum of Secrets',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\271_Pirates' Encampment.png" id="271_Pirates Encampment" data-flag="@X" onclick="openSidebar('271_Pirates Encampment',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\275_Volcanic Lair.png" id="275_Volcanic Lair" data-flag="@X" onclick="openSidebar('275_Volcanic Lair',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\265_Erqual, Tiazan Monastery.png" id="265_Erqual, Tiazan Monastery" data-flag="@X" onclick="openSidebar('265_Erqual, Tiazan Monastery',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\276_Warren Capitol.png" id="276_Warren Capitol" data-flag="@X" onclick="openSidebar('276_Warren Capitol',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\264_Baron's Field.png" id="264_Barons Field" data-flag="@X" onclick="openSidebar('264_Barons Field',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\267_Generator Deeps.png" id="267_Generator Deeps" data-flag="@X" onclick="openSidebar('267_Generator Deeps',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\266_Fog-Wreathed Rest.png" id="266_Fog-Wreathed Rest" data-flag="@X" onclick="openSidebar('266_Fog-Wreathed Rest',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\272_Refueling Village.png" id="272_Refueling Village" data-flag="@X" onclick="openSidebar('272_Refueling Village',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\274_Skyvannah.png" id="274_Skyvannah" data-flag="@X" onclick="openSidebar('274_Skyvannah',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\269_Grolle, Prime Node.png" id="269_Grolle, Prime Node" data-flag="@X" onclick="openSidebar('269_Grolle, Prime Node',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\268_Gravity Shear Field.png" id="268_Gravity Shear Field" data-flag="@X" onclick="openSidebar('268_Gravity Shear Field',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\263_Abandoned Dock.png" id="263_Abandoned Dock" data-flag="@X" onclick="openSidebar('263_Abandoned Dock',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\277_Plains.png" id="277_Plains" data-flag="@X" onclick="openSidebar('277_Plains',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\278_Island.png" id="278_Island" data-flag="@X" onclick="openSidebar('278_Island',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\279_Swamp.png" id="279_Swamp" data-flag="@X" onclick="openSidebar('279_Swamp',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\280_Mountain.png" id="280_Mountain" data-flag="@X" onclick="openSidebar('280_Mountain',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\281_Forest.png" id="281_Forest" data-flag="@X" onclick="openSidebar('281_Forest',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" data-alt_src="sets\AVA-files\img\255_Haunted Skull_back.png" alt="sets\AVA-files\img\255_Haunted Skull_front.png" id="AVA_255_Haunted Skull" data-flag="@XD" onclick="openSidebar('AVA_255_Haunted Skull',false)"><button class="flip-btn" onclick="imgFlip('AVA_255_Haunted Skull')"></button></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\260_Orrery of Avallus.png" id="AVA_260_Orrery of Avallus" data-flag="@X" onclick="openSidebar('AVA_260_Orrery of Avallus',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\252_Ancient Waystone.png" id="AVA_252_Ancient Waystone" data-flag="@X" onclick="openSidebar('AVA_252_Ancient Waystone',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\257_Iron Savior Suit.png" id="AVA_257_Iron Savior Suit" data-flag="@X" onclick="openSidebar('AVA_257_Iron Savior Suit',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\258_Lemauge Heavy Cruiser.png" id="AVA_258_Lemauge Heavy Cruiser" data-flag="@X" onclick="openSidebar('AVA_258_Lemauge Heavy Cruiser',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\259_Mausoleum of Deities.png" id="AVA_259_Mausoleum of Deities" data-flag="@X" onclick="openSidebar('AVA_259_Mausoleum of Deities',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\262_Tiazan Freighter.png" id="AVA_262_Tiazan Freighter" data-flag="@X" onclick="openSidebar('AVA_262_Tiazan Freighter',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\251_Aerie's Legacy.png" id="AVA_251_Aeries Legacy" data-flag="@X" onclick="openSidebar('AVA_251_Aeries Legacy',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\253_Clockwork Rat.png" id="AVA_253_Clockwork Rat" data-flag="@X" onclick="openSidebar('AVA_253_Clockwork Rat',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\254_Filigree Propskiff.png" id="AVA_254_Filigree Propskiff" data-flag="@X" onclick="openSidebar('AVA_254_Filigree Propskiff',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\256_House Barge.png" id="AVA_256_House Barge" data-flag="@X" onclick="openSidebar('AVA_256_House Barge',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\261_Piston Vambrace.png" id="AVA_261_Piston Vambrace" data-flag="@X" onclick="openSidebar('AVA_261_Piston Vambrace',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AVA_e" data-flag="@E" onclick="openSidebar('AVA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AVA_e" data-flag="@E" onclick="openSidebar('AVA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AVA_e" data-flag="@E" onclick="openSidebar('AVA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="AVA_er" data-flag="@E" onclick="openSidebar('AVA_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="AVA_er" data-flag="@E" onclick="openSidebar('AVA_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="AVA_er" data-flag="@E" onclick="openSidebar('AVA_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="AVA_er" data-flag="@E" onclick="openSidebar('AVA_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="AVA_er" data-flag="@E" onclick="openSidebar('AVA_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\270_Landing Station.png" id="AVA_270_Landing Station" data-flag="@X" onclick="openSidebar('AVA_270_Landing Station',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\273_Sanctum of Secrets.png" id="AVA_273_Sanctum of Secrets" data-flag="@X" onclick="openSidebar('AVA_273_Sanctum of Secrets',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\271_Pirates' Encampment.png" id="AVA_271_Pirates Encampment" data-flag="@X" onclick="openSidebar('AVA_271_Pirates Encampment',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\275_Volcanic Lair.png" id="AVA_275_Volcanic Lair" data-flag="@X" onclick="openSidebar('AVA_275_Volcanic Lair',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\265_Erqual, Tiazan Monastery.png" id="AVA_265_Erqual, Tiazan Monastery" data-flag="@X" onclick="openSidebar('AVA_265_Erqual, Tiazan Monastery',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AVA_e" data-flag="@E" onclick="openSidebar('AVA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AVA_e" data-flag="@E" onclick="openSidebar('AVA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AVA_e" data-flag="@E" onclick="openSidebar('AVA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AVA_e" data-flag="@E" onclick="openSidebar('AVA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\276_Warren Capitol.png" id="AVA_276_Warren Capitol" data-flag="@X" onclick="openSidebar('AVA_276_Warren Capitol',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="AVA_er" data-flag="@E" onclick="openSidebar('AVA_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="AVA_er" data-flag="@E" onclick="openSidebar('AVA_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="AVA_er" data-flag="@E" onclick="openSidebar('AVA_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="AVA_er" data-flag="@E" onclick="openSidebar('AVA_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="AVA_er" data-flag="@E" onclick="openSidebar('AVA_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\264_Baron's Field.png" id="AVA_264_Barons Field" data-flag="@X" onclick="openSidebar('AVA_264_Barons Field',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\267_Generator Deeps.png" id="AVA_267_Generator Deeps" data-flag="@X" onclick="openSidebar('AVA_267_Generator Deeps',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\266_Fog-Wreathed Rest.png" id="AVA_266_Fog-Wreathed Rest" data-flag="@X" onclick="openSidebar('AVA_266_Fog-Wreathed Rest',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\272_Refueling Village.png" id="AVA_272_Refueling Village" data-flag="@X" onclick="openSidebar('AVA_272_Refueling Village',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\274_Skyvannah.png" id="AVA_274_Skyvannah" data-flag="@X" onclick="openSidebar('AVA_274_Skyvannah',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="AVA_er" data-flag="@E" onclick="openSidebar('AVA_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="AVA_er" data-flag="@E" onclick="openSidebar('AVA_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="AVA_er" data-flag="@E" onclick="openSidebar('AVA_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="AVA_er" data-flag="@E" onclick="openSidebar('AVA_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="AVA_er" data-flag="@E" onclick="openSidebar('AVA_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\269_Grolle, Prime Node.png" id="AVA_269_Grolle, Prime Node" data-flag="@X" onclick="openSidebar('AVA_269_Grolle, Prime Node',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\268_Gravity Shear Field.png" id="AVA_268_Gravity Shear Field" data-flag="@X" onclick="openSidebar('AVA_268_Gravity Shear Field',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\263_Abandoned Dock.png" id="AVA_263_Abandoned Dock" data-flag="@X" onclick="openSidebar('AVA_263_Abandoned Dock',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AVA_e" data-flag="@E" onclick="openSidebar('AVA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AVA_e" data-flag="@E" onclick="openSidebar('AVA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="AVA_er" data-flag="@E" onclick="openSidebar('AVA_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="AVA_er" data-flag="@E" onclick="openSidebar('AVA_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="AVA_er" data-flag="@E" onclick="openSidebar('AVA_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="AVA_er" data-flag="@E" onclick="openSidebar('AVA_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="AVA_er" data-flag="@E" onclick="openSidebar('AVA_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\277_Plains.png" id="AVA_277_Plains" data-flag="@X" onclick="openSidebar('AVA_277_Plains',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\278_Island.png" id="AVA_278_Island" data-flag="@X" onclick="openSidebar('AVA_278_Island',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\279_Swamp.png" id="AVA_279_Swamp" data-flag="@X" onclick="openSidebar('AVA_279_Swamp',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\280_Mountain.png" id="AVA_280_Mountain" data-flag="@X" onclick="openSidebar('AVA_280_Mountain',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\281_Forest.png" id="AVA_281_Forest" data-flag="@X" onclick="openSidebar('AVA_281_Forest',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="AVA_er" data-flag="@E" onclick="openSidebar('AVA_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="AVA_er" data-flag="@E" onclick="openSidebar('AVA_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="AVA_er" data-flag="@E" onclick="openSidebar('AVA_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="AVA_er" data-flag="@E" onclick="openSidebar('AVA_er',false)"></div>
 				<div id="token" class="anchor"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\1t_Corpse.png" id="1t_Corpse" data-flag="@X" onclick="openSidebar('1t_Corpse',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\2t_Dragon Spirit.png" id="2t_Dragon Spirit" data-flag="@X" onclick="openSidebar('2t_Dragon Spirit',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\16t_Clue.png" id="16t_Clue" data-flag="@X" onclick="openSidebar('16t_Clue',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\17t_Construct.png" id="17t_Construct" data-flag="@X" onclick="openSidebar('17t_Construct',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\18t_Crystal-Core Rifle.png" id="18t_Crystal-Core Rifle" data-flag="@X" onclick="openSidebar('18t_Crystal-Core Rifle',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\19t_Food.png" id="19t_Food" data-flag="@X" onclick="openSidebar('19t_Food',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\20t_Map.png" id="20t_Map" data-flag="@X" onclick="openSidebar('20t_Map',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\21t_Minibomb.png" id="21t_Minibomb" data-flag="@X" onclick="openSidebar('21t_Minibomb',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\22t_Treasure.png" id="22t_Treasure" data-flag="@X" onclick="openSidebar('22t_Treasure',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\3t_Butterfly.png" id="3t_Butterfly" data-flag="@X" onclick="openSidebar('3t_Butterfly',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\4t_Darkwing.png" id="4t_Darkwing" data-flag="@X" onclick="openSidebar('4t_Darkwing',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\5t_Bird.png" id="5t_Bird" data-flag="@X" onclick="openSidebar('5t_Bird',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\6t_Bird.png" id="6t_Bird" data-flag="@X" onclick="openSidebar('6t_Bird',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\7t_Skeleton.png" id="7t_Skeleton" data-flag="@X" onclick="openSidebar('7t_Skeleton',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\8t_Soldier.png" id="8t_Soldier" data-flag="@X" onclick="openSidebar('8t_Soldier',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\9t_Zombie.png" id="9t_Zombie" data-flag="@X" onclick="openSidebar('9t_Zombie',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\10t_Boar.png" id="10t_Boar" data-flag="@X" onclick="openSidebar('10t_Boar',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\11t_Giant Spider.png" id="11t_Giant Spider" data-flag="@X" onclick="openSidebar('11t_Giant Spider',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\12t_Human Soldier.png" id="12t_Human Soldier" data-flag="@X" onclick="openSidebar('12t_Human Soldier',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\14t_Rabbit Monk.png" id="14t_Rabbit Monk" data-flag="@X" onclick="openSidebar('14t_Rabbit Monk',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\15t_Rabbit Warrior.png" id="15t_Rabbit Warrior" data-flag="@X" onclick="openSidebar('15t_Rabbit Warrior',false)"></div>
-				<div class="container"><img alt="/sets\AVA-files\img\13t_Pilot Soldier.png" id="13t_Pilot Soldier" data-flag="@X" onclick="openSidebar('13t_Pilot Soldier',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
-				<div class="container"><img alt="/img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\1t_Corpse.png" id="AVA_1t_Corpse" data-flag="@X" onclick="openSidebar('AVA_1t_Corpse',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\2t_Dragon Spirit.png" id="AVA_2t_Dragon Spirit" data-flag="@X" onclick="openSidebar('AVA_2t_Dragon Spirit',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\16t_Clue.png" id="AVA_16t_Clue" data-flag="@X" onclick="openSidebar('AVA_16t_Clue',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\17t_Construct.png" id="AVA_17t_Construct" data-flag="@X" onclick="openSidebar('AVA_17t_Construct',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\18t_Crystal-Core Rifle.png" id="AVA_18t_Crystal-Core Rifle" data-flag="@X" onclick="openSidebar('AVA_18t_Crystal-Core Rifle',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\19t_Food.png" id="AVA_19t_Food" data-flag="@X" onclick="openSidebar('AVA_19t_Food',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\20t_Map.png" id="AVA_20t_Map" data-flag="@X" onclick="openSidebar('AVA_20t_Map',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\21t_Minibomb.png" id="AVA_21t_Minibomb" data-flag="@X" onclick="openSidebar('AVA_21t_Minibomb',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\22t_Treasure.png" id="AVA_22t_Treasure" data-flag="@X" onclick="openSidebar('AVA_22t_Treasure',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\3t_Butterfly.png" id="AVA_3t_Butterfly" data-flag="@X" onclick="openSidebar('AVA_3t_Butterfly',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\4t_Darkwing.png" id="AVA_4t_Darkwing" data-flag="@X" onclick="openSidebar('AVA_4t_Darkwing',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\5t_Bird.png" id="AVA_5t_Bird" data-flag="@X" onclick="openSidebar('AVA_5t_Bird',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\6t_Bird.png" id="AVA_6t_Bird" data-flag="@X" onclick="openSidebar('AVA_6t_Bird',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\7t_Skeleton.png" id="AVA_7t_Skeleton" data-flag="@X" onclick="openSidebar('AVA_7t_Skeleton',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\8t_Soldier.png" id="AVA_8t_Soldier" data-flag="@X" onclick="openSidebar('AVA_8t_Soldier',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\9t_Zombie.png" id="AVA_9t_Zombie" data-flag="@X" onclick="openSidebar('AVA_9t_Zombie',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\10t_Boar.png" id="AVA_10t_Boar" data-flag="@X" onclick="openSidebar('AVA_10t_Boar',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\11t_Giant Spider.png" id="AVA_11t_Giant Spider" data-flag="@X" onclick="openSidebar('AVA_11t_Giant Spider',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\12t_Human Soldier.png" id="AVA_12t_Human Soldier" data-flag="@X" onclick="openSidebar('AVA_12t_Human Soldier',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\14t_Rabbit Monk.png" id="AVA_14t_Rabbit Monk" data-flag="@X" onclick="openSidebar('AVA_14t_Rabbit Monk',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\15t_Rabbit Warrior.png" id="AVA_15t_Rabbit Warrior" data-flag="@X" onclick="openSidebar('AVA_15t_Rabbit Warrior',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\AVA-files\img\13t_Pilot Soldier.png" id="AVA_13t_Pilot Soldier" data-flag="@X" onclick="openSidebar('AVA_13t_Pilot Soldier',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AVA_e" data-flag="@E" onclick="openSidebar('AVA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AVA_e" data-flag="@E" onclick="openSidebar('AVA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="AVA_e" data-flag="@E" onclick="openSidebar('AVA_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="AVA_er" data-flag="@E" onclick="openSidebar('AVA_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="AVA_er" data-flag="@E" onclick="openSidebar('AVA_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="AVA_er" data-flag="@E" onclick="openSidebar('AVA_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="AVA_er" data-flag="@E" onclick="openSidebar('AVA_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="AVA_er" data-flag="@E" onclick="openSidebar('AVA_er',false)"></div>
 	</div>
 	</div>
 	<div class="sidebar" id="sidebar">
 		<div class="sidebar-container">
-			<img id="sidebar_img" class="sidebar-img" src="/img/er.png">
+			<img id="sidebar_img" class="sidebar-img">
 			<img id="sidebar_h_img" class="sidebar-h-img">
 			<button class="flip-btn" id="sidebar-flip-btn" onclick="imgFlip('sidebar_img')"></button>
 		</div>
@@ -600,19 +614,111 @@
 		let specialchars = "";
 
 	document.addEventListener('DOMContentLoaded', async function() {
-		await fetch('/lists/all-cards.json')
+		await fetch(rootPath + '/lists/all-cards.json')
 					.then(response => response.json())
 					.then(json => {
 						card_list = json;
 				}).catch(error => console.error('Error:', error));
 
-				await fetch('/resources/replacechars.txt')
+				await fetch(rootPath + '/resources/replacechars.txt')
 					.then(response => response.text())
 					.then(text => {
 						specialchars = text; 
 				}).catch(error => console.error('Error:', error));
 
 				card_list_arrayified = card_list.cards;
+
+				let all_tags = new Set();
+				card_list_arrayified.forEach(card => {
+					if (card.notes) {
+						const tagMatches = card.notes.matchAll(/!tag(?:<\w+>)?\s+([^\s\n\b]+)/g);
+						for (const match of tagMatches) {
+							all_tags.add(match[1]);
+						}
+					}
+				});
+
+				const searchInput = document.getElementById("search");
+				const tagDropdown = document.getElementById("tag-dropdown");
+
+				// Create a mirror element for position calculation
+				const mirror = document.createElement("div");
+				Object.assign(mirror.style, {
+					position: "absolute",
+					visibility: "hidden",
+					whiteSpace: "pre",
+					font: getComputedStyle(searchInput).font,
+					padding: "0", // No padding for pure text measurement
+					border: "none",
+					boxSizing: "content-box"
+				});
+				document.body.appendChild(mirror);
+
+				if (searchInput && tagDropdown) {
+					tagDropdown.style.width = "auto";
+					tagDropdown.style.minWidth = "75px";
+					tagDropdown.style.maxWidth = "300px";
+					tagDropdown.style.maxHeight = "200px";
+					tagDropdown.style.overflowY = "auto";
+
+					const updateDropdown = function() {
+						const value = searchInput.value;
+						const cursorPosition = searchInput.selectionStart;
+						
+						// Find the tag: prefix immediately preceding the cursor
+						const lastTagIndex = value.substring(0, cursorPosition).lastIndexOf("tag:");
+						
+						if (lastTagIndex !== -1) {
+							const queryStart = lastTagIndex + 4;
+							const query = value.substring(queryStart, cursorPosition);
+							
+							if (!query.includes(" ")) {
+								const filteredTags = Array.from(all_tags).filter(tag => tag.toLowerCase().startsWith(query.toLowerCase())).sort();
+								if (filteredTags.length > 0) {
+									tagDropdown.innerHTML = "";
+									filteredTags.forEach(tag => {
+										const div = document.createElement("div");
+										div.innerText = tag;
+										div.style.padding = "5px 10px";
+										div.style.cursor = "pointer";
+										div.style.whiteSpace = "nowrap";
+										div.onmouseover = () => div.style.background = "#f0f0f0";
+										div.onmouseout = () => div.style.background = "white";
+										div.onclick = () => {
+											const newValue = value.substring(0, queryStart) + tag + " " + value.substring(cursorPosition);
+											searchInput.value = newValue;
+											tagDropdown.style.display = "none";
+											searchInput.focus();
+											const newCursorPos = queryStart + tag.length + 1;
+											searchInput.setSelectionRange(newCursorPos, newCursorPos);
+										};
+										tagDropdown.appendChild(div);
+									});
+
+									// Calculate position
+									mirror.textContent = value.substring(0, lastTagIndex + 4);
+									const textWidth = mirror.getBoundingClientRect().width;
+									const inputPaddingLeft = parseFloat(getComputedStyle(searchInput).paddingLeft) || 0;
+									
+									tagDropdown.style.left = Math.min(textWidth + inputPaddingLeft, searchInput.offsetWidth - tagDropdown.offsetWidth) + "px";
+									tagDropdown.style.display = "block";
+									return;
+								}
+							}
+						}
+						tagDropdown.style.display = "none";
+					};
+
+					searchInput.addEventListener("input", updateDropdown);
+					searchInput.addEventListener("click", updateDropdown);
+					searchInput.addEventListener("keyup", updateDropdown);
+
+					document.addEventListener("click", function(e) {
+						if (e.target !== searchInput && e.target !== tagDropdown) {
+							tagDropdown.style.display = "none";
+						}
+					});
+				}
 
 		preloadImgs = document.getElementsByClassName('preload-hidden');
 
@@ -647,13 +753,16 @@
 			const flag = img.getAttribute('data-flag');
 
 			if (flag === '@N') {
-				img.src = '/img/card_back.png';
+				img.src = rootPath + '/img/card_back.png';
 				img.removeAttribute("onclick");
 				img.style.cursor = 'default';
 			}
 			else
 			{
-				img.src = img.alt;
+				img.src = rootPath + '/' + img.alt;
+				if (img.dataset.alt_src) {
+					img.dataset.alt_src = rootPath + '/' + img.dataset.alt_src;
+				}
 
 				if (flag === '@E') {
 					img.removeAttribute("onclick");
@@ -679,27 +788,51 @@
 	let horizontal = false;
 
 	function imgFlip(num) {
-		tmp = document.getElementById(num).src;
-		console.log(num);
-		document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
-		document.getElementById(num).dataset.alt_src = tmp;
+		const img = document.getElementById(num);
+		const seconds = 0.2;
+		const rotated_img = document.getElementById('sidebar_h_img');
 
-		if (num == 'sidebar_img')
+        img.style.transition = seconds.toString() + "s";
+        img.style.transform = "rotateY(90deg)";
+
+        if (num == 'sidebar_img')
 		{
-			const rotated_img = document.getElementById('sidebar_h_img');
 			const sidebar_img = document.getElementById('sidebar_img');
 
-			if (horizontal && rotated_img.style.display == 'none')
-			{
-				rotated_img.style.display = "block";
-				sidebar_img.style.filter = "blur(2px) brightness(0.7)";
-			}
-			else
-			{
-				rotated_img.style.display = "none";
-				sidebar_img.style.filter = "";
-			}
+			if (horizontal)
+            {
+            	rotated_img.style.transition = seconds.toString() + "s";
+           		rotated_img.style.transform = "rotateY(90deg) rotate(90deg)";
+
+           		if (rotated_img.style.opacity != "0") {
+		            setTimeout(() => {
+		                rotated_img.style.opacity = "0";
+		                img.style.filter = "none";
+		            }, (seconds / 2) * 1000);
+		        }
+		        else {
+		        	setTimeout(() => {
+		                rotated_img.style.opacity = "1";
+		                img.style.filter = "blur(2px) brightness(0.7)";
+		            }, (seconds / 2) * 1000);
+		        }
+            }
 		}
+
+         setTimeout(function() {
+            tmp = document.getElementById(num).src;
+			document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
+			document.getElementById(num).dataset.alt_src = tmp;
+
+            img.style.transition = seconds.toString() + "s";
+            img.style.transform = "rotateY(0deg)";
+
+            if (horizontal)
+            {
+            	rotated_img.style.transition = seconds.toString() + "s";
+           		rotated_img.style.transform = "rotateY(0deg) rotate(90deg)";
+            }
+        }, seconds * 1000);
 	}
 
 	function openSidebar(id, h = false) {
@@ -711,17 +844,19 @@
 		const rotated_img = document.getElementById('sidebar_h_img');
 		const sidebar_img = document.getElementById('sidebar_img');
 
+		sidebar_img.style.transition = "none";
+		rotated_img.style.transition = "none";
 		sidebar_img.src = document.getElementById(id).src;
 		rotated_img.src = document.getElementById(id).src.replace("_back", "_front");
 
 		if (horizontal && !sidebar_img.src.includes("_back"))
 		{
-			rotated_img.style.display = "block";
+			rotated_img.style.opacity = "1";
 			sidebar_img.style.filter = "blur(2px) brightness(0.7)";
 		}
 		else
 		{
-			rotated_img.style.display = "none";
+			rotated_img.style.opacity = "0";
 			sidebar_img.style.filter = "";
 		}
 
@@ -754,6 +889,7 @@
 	}
 
 	function rolldown() {
+		dropdown.style.gridTemplateColumns = "repeat(3, 1fr)";
 		var sets = document.querySelectorAll('.inactive');
 		for(const set of sets)
 		{
@@ -763,6 +899,7 @@
 	}
 
 	function rollup() {
+		dropdown.style.gridTemplateColumns = "1fr";
 		var sets = document.querySelectorAll('.inactive');
 		for(const set of sets)
 		{
@@ -779,27 +916,27 @@
 	});
 
 	function search() {
-		const url = new URL('search', window.location.origin);
+		const url = new URL(rootPath + '/search', window.location.href.split('?')[0].split('/').slice(0, -1).join('/') + '/');
 		url.searchParams.append('search', document.getElementById("search").value);
-		window.location.href = url;
+		window.location.href = url.pathname + url.search;
 	}
 
 		function randomCard() {
-			let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
-			let random_card = card_list_arrayified[i];
+				let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
+				let random_card = card_list_arrayified[i];
 
-			const url = new URL('card', window.location.origin);
-			const params = {
-				set: random_card.set,
-				num: random_card.number,
-				name: random_card.card_name
-			}
-			for (const key in params) {
-				url.searchParams.append(key, params[key]);
-			}
+				const url = new URL(rootPath + '/card', window.location.href.split('?')[0].split('/').slice(0, -1).join('/') + '/');
+				const params = {
+					set: random_card.set,
+					num: random_card.number,
+					name: random_card.card_name
+				}
+				for (const key in params) {
+					url.searchParams.append(key, params[key]);
+				}
 
-			window.location.href = url;
-		}
+				window.location.href = url.pathname + url.search;
+			}
 	</script>
 </body>
 </html>

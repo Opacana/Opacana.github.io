@@ -1,0 +1,257 @@
+﻿VERSION 2 CHANGELOG
+====================
+
+CU03 Uncompromising Artist added.
+CU07 Hullcutter Duo added.
+CU10 Armed Delegation added.
+CU14 Moonhalo Restraint added.
+CB01 Battle-Weary Swordtail added.
+CB05 Spiked Diggers added.
+CB08 Banished Clairvoyant added.
+CB12 Sign Your Life Away added.
+CB14 Deceptive Wagering added.
+CR03 Lafahdian Minister of the Arcane added.
+CR09 Army of West Khyth added.
+CR19 Last Breath's Spite added.
+CG10 Unconventional Summoner added.
+CG14 Grapple with the Past added.
+CG17 Limb Enhancement added.
+UW03 Duchess of the Trials added.
+UW11 Storm of Defiance added.
+UU04 Stormwind Master added.
+UR11 Phoenix Mantle added.
+UG04 Lafahd Sandsprinter added.
+UG07 Solidarity added.
+RW04 General of the Guards added.
+RW05 Iron Empire Brigade added.
+RW06 Vow of Justice added.
+RU07 Dance of the New Cycle added.
+RB02 1cost rat crea w evasion added.
+RB04 Memorivore Witch added.
+RR04 Carnivorous Blossom added.
+RR05 Boltwhirl added.
+RG04 Seeker of Strength added.
+CA01 Hired Carriage added.
+CA03 Masterpiece Shield added.
+MX02 The Jamakhora added.
+MX03 Esurvite Holy Book added.
+Drake Elemental added.
+Dragon added.
+Rat Soldier added.
+
+CU03 looter cre removed.
+CU07 creature with friend removed.
+CU10 bigger flyer crea removed.
+CU14 enchantment removed.
+CB01 sac fodder crea removed.
+CB05 self-miller crea removed.
+CB08 Self-disc outlet cre removed.
+CB12 draw spell nonc removed.
+CB14 only opp discard nonc removed.
+CR03 Lafahd Minister of the Arcane removed.
+CR09 5-drop crea removed.
+CR19 noncre removed.
+CG10 Creature Rat removed.
+CG14 mill then return fr yard removed.
+CG17 pump aura removed.
+UW03 bouncer or flicker creat removed.
+UW11 noncrea removed.
+UU04 grower creat maybe flyer removed.
+UR11 noncreature removed.
+UG04 creature removed.
+UG07 noncrea removed.
+RW04 removed.
+RW05 removed.
+RW06 removed.
+RU07 noncreature with wisdom removed.
+RB02 rat crea removed.
+RB04 nonrat crea maybe wisdom removed.
+RR04 removed.
+RR05 mass damage spell removed.
+RG04 UG-related creat removed.
+CA01 land to hand crea removed.
+CA03 removed.
+MX02 removed.
+MX03 removed.
+
+UM01 Flux-node Birthing
+
+CW03 Petalseeker Mistress
+rules_text: Whenever another token creature you control attacks, you gain 1 life. => Whenever a token creature you control attacks, you gain 1 life.
+
+CU13 Amulet of the Future
+rules_text: This artifact enters tapped.
+When this artifact enters, scry 3. [i](Look at the top three cards of your library, then put any number of them on the bottom and the rest on top in any order.)[/i]
+{T}: Add {U}. => This artifact enters tapped.
+When this artifact enters, scry 3.
+{T}: Add {U}.
+
+CB02 Despair Path Master
+cost: {1}{B} => {B}
+pt: 1/1 => 0/1
+
+CB03 Adept of the Blood Codex
+
+CR01 Worldly Sellsword
+
+CG04 Fangscale Geologist
+pt: 2/3 => 2/2
+
+UW02 Hagzaga Squadron
+rules_text: Flying, vigilance
+Whenever another creature with flying enters under your control, put a +1/+1 counter on this creature. This triggers only once each turn. => Flying, vigilance
+Whenever another creature with flying enters under your control for the first time each turn, put a +1/+1 counter on this creature.
+
+UW07 Sunblaze Aerie Delegate
+rules_text: Flying, lifelink
+The first time each turn another creature dies while this creature is tapped, untap this creature. => Flying, lifelink
+Whenever another creature dies for the first time each turn while this creature is tapped, untap this creature.
+
+UU01 Ridgeline Monitor
+cost: {1}{U}{U} => {2}{U}{U}
+rules_text: Flying
+When this creature enters, choose one —
+• Scry 1, then draw a card.
+• Return target creature you don't control to its owner's hand. => Flash
+Flying
+When this creature enters, choose one —
+• Scry 1, then draw a card.
+• Return target creature you don't control to its owner's hand.
+
+UB07 Eater of the Forgotten
+
+UG08 Building the Frontier
+rules_text: The first time each turn a land enters under your control, put a +1/+1 counter on target creature you control. If that creature is a Paladin, put two +1/+1 counters on it instead. [i](Armies, Heroes, Knights, Soldiers and Warriors are paladins.)[/i]
+[i]Landfall[/i] — Whenever a land enters under your control, you gain 1 life. => Whenever a land enters under your control for the first time each turn, put a +1/+1 counter on target creature you control. If that creature is a Paladin, put two +1/+1 counters on it instead. [i](Armies, Heroes, Knights, Soldiers and Warriors are paladins.)[/i]
+[i]Landfall[/i] — Whenever a land enters under your control, you gain 1 life.
+
+UG10 Jade Ritual
+rules_text: Create a 2/2 green Rhino Druid creature token with vigilance.
+Choose one —
+• You get a Moonstone counter, then put a +1/+1 counter on a creature you control.
+• Add two mana of any color. => Create a 2/2 green Rhino Druid creature token with vigilance.
+Choose one —
+• You get a Moonstone counter, then put a +1/+1 counter on a creature you control.
+• Add two mana of any one color.
+
+RU02 Supercell Channeler
+rules_text: Flash
+Flying
+When this creature enters the battlefield, you may pay {2}. If you do, copy target instant, sorcery, or ability.
+The first time you copy a spell each turn, draw a card. => Flash
+Flying
+When this creature enters the battlefield, you may pay {2}. If you do, copy target instant, sorcery, or ability.
+Whenever you copy a spell for the first time each turn, draw a card.
+
+RG02 Exiled Worldspeaker
+pt: 3/3 => 2/3
+
+RG07 Summoning Ancestors
+
+MU01 Y'ssna, Cephaloid Oracle
+rules_text: Ward {3}
+When Y'ssna enters, if you have twenty or more counters, you win the game. If you don't, you draw a card and double the number of each kind of counter you have.
+Whenever Y'ssna deals combat damage to a creature, tap and put a stun counter on that creature. => Ward {3}
+When Y'ssna enters, if you have fifteen or more counters, you win the game. If you don't, you draw a card and double the number of each kind of counter you have.
+Whenever Y'ssna deals combat damage to a creature, tap and put a stun counter on that creature.
+
+UA01 Farsight Blade
+rules_text: Equipped creature gets +1/+2.
+At the beginning of your end step, untap equipped creature.
+Equip {1} => Equipped creature has first strike.
+Whenever equipped creature attacks, scry 1.
+Equip {1}
+
+Cat Peasant
+
+
+VERSION 5 CHANGELOG
+====================
+
+CW04 Truth Diviner added.
+CB11 Dalus Desert Askor added.
+CG15 Moonguided Shot added.
+MU02 Cosmic Secrets added.
+MU01 Y'ssna, Cephaloid Oracle added.
+RM01 Crystal Flameblossom added.
+
+CW04 disenchanter cr removed.
+CB11 5mv creature removed.
+CG15 flyer removal noncre removed.
+MU01 Cosmic Secrets removed.
+MU02 Y'ssna, Cephaloid Oracle removed.
+RM01 removed.
+
+UM01 Circumzenith Guardian
+
+UM01 Icon of Dead Futures
+
+UM01 Deathspark Speaker
+
+UM01 Fireseed WIP
+
+UM01 Laughing Path Master
+
+UM01 Mayarai, Bonesnouts Leader
+
+UM01 Flux-node Birthing
+
+UM01 Taza, Exiled Princess
+
+UM01 Aerieguard Captain
+
+UM01 Cenote King
+
+RM01 Urvinn, Count of Wastehold
+rules_text: Flying, deathtouch, ward {1}
+Whenever this creature deals combat damage to an opponent or planeswalker, you draw a card and that player or that planeswalker's controller discards a card. => Flying, deathtouch, ward {1}
+Whenever Urvinn deals combat damage to an opponent or planeswalker, you draw a card and that player or that planeswalker's controller discards a card.
+
+RM01
+cost: {R}{G} => {G}{W}
+
+RM01
+cost: {G}{W} => {U}{R}
+
+
+VERSION 4 CHANGELOG
+====================
+
+No changes.
+
+VERSION 3 CHANGELOG
+====================
+
+UM01 Circumzenith Guardian added.
+UM01 Icon of Dead Futures added.
+UM01 Deathspark Speaker added.
+UM01 Fireseed WIP added.
+UM01 Laughing Path Master added.
+UM01 Mayarai, Bonesnouts Leader added.
+UM01 Flux-node Birthing added.
+UM01 Taza, Exiled Princess added.
+UM01 Aerieguard Captain added.
+UM01 Cenote King added.
+
+
+
+VERSION 2 CHANGELOG
+====================
+
+
+UM01 Circumzenith Guardian removed.
+UM01 Icon of Dead Futures removed.
+UM01 Deathspark Speaker removed.
+UM01 Fireseed WIP removed.
+UM01 Laughing Path Master removed.
+UM01 Mayarai, Bonesnouts Leader removed.
+UM01 Flux-node Birthing removed.
+UM01 Taza, Exiled Princess removed.
+UM01 Aerieguard Captain removed.
+UM01 Cenote King removed.
+
+
+VERSION 1 CHANGELOG
+====================
+
+First version published.
