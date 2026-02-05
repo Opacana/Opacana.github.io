@@ -1591,13 +1591,13 @@
 			}
 		},
 		{
-			"name": "UG03 crea that draws at least once",
+			"name": "UG03 Matriarch of Ancient Ways",
 			"rarity": "uncommon",
-			"mana_cost": "",
-			"type": "Creature",
+			"mana_cost": "{1}{G}{G}",
+			"type": "Creature — Lizard Druid Warlock",
 			"collector_number": "201",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/201_UG03 crea that draws at least once.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/201_UG03 Matriarch of Ancient Ways.png"
 			}
 		},
 		{
@@ -1621,13 +1621,13 @@
 			}
 		},
 		{
-			"name": "UG06 very big creature",
+			"name": "UG06 Escaped Anuroid",
 			"rarity": "uncommon",
-			"mana_cost": "",
-			"type": "Creature",
+			"mana_cost": "{4}{G}{G}",
+			"type": "Creature — Frog Mutant",
 			"collector_number": "204",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/204_UG06 very big creature.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/204_UG06 Escaped Anuroid.png"
 			}
 		},
 		{
@@ -2846,10 +2846,10 @@
 	4 UR11 Phoenix Mantle
 	4 UG01 naturalizer creature
 	4 UG02 Bellowdepths Channeler
-	4 UG03 crea that draws at least once
+	4 UG03 Matriarch of Ancient Ways
 	4 UG04 Lafahd Sandsprinter
 	4 UG05 Rat Token Generator Cre
-	4 UG06 very big creature
+	4 UG06 Escaped Anuroid
 	4 UG07 Solidarity
 	4 UG08 Building the Frontier
 	4 UG09 Visions of Other Worlds
@@ -3233,10 +3233,10 @@
 	6 UR11 Phoenix Mantle
 	6 UG01 naturalizer creature
 	6 UG02 Bellowdepths Channeler
-	6 UG03 crea that draws at least once
+	6 UG03 Matriarch of Ancient Ways
 	6 UG04 Lafahd Sandsprinter
 	6 UG05 Rat Token Generator Cre
-	6 UG06 very big creature
+	6 UG06 Escaped Anuroid
 	6 UG07 Solidarity
 	6 UG08 Building the Frontier
 	6 UG09 Visions of Other Worlds
@@ -3491,10 +3491,10 @@
 	15 UR11 Phoenix Mantle
 	15 UG01 naturalizer creature
 	15 UG02 Bellowdepths Channeler
-	15 UG03 crea that draws at least once
+	15 UG03 Matriarch of Ancient Ways
 	15 UG04 Lafahd Sandsprinter
 	15 UG05 Rat Token Generator Cre
-	15 UG06 very big creature
+	15 UG06 Escaped Anuroid
 	15 UG07 Solidarity
 	15 UG08 Building the Frontier
 	15 UG09 Visions of Other Worlds

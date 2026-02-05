@@ -1,5 +1,5 @@
 ﻿{
-    "name": "Untitled Anthro Moonstone Standard Set",
+    "name": "Morasca: Search for the Moonstones",
     "formats": "Revolution",
     "trimmed": "n",
     "image_type": "png",
@@ -507,7 +507,7 @@
             "set": "MST",
             "loyalty": "",
             "artist": "Joanna Szczepanska",
-            "notes": ""
+            "notes": "Art might be too cheery and smooth..."
         },
         {
             "card_name": "CW09 Thraupian Harrier",
@@ -897,7 +897,7 @@
             "cost": "{4}{U}{U}",
             "rules_text": "When this creature enters, you draw a card.\nThis creature can't be blocked as long as you've cast two or more instant and/or sorcery spells this turn.",
             "flavor_text": "[i]Many tried to tame or harness these clever and vicious giants of the sea, for Cireins were attracted to sources of magical energy.[/i]",
-            "pt": "6/6",
+            "pt": "5/5",
             "special_text": "",
             "shape": "normal",
             "set": "MST",
@@ -2868,21 +2868,21 @@
             "notes": ""
         },
         {
-            "card_name": "UG03 crea that draws at least once",
+            "card_name": "UG03 Matriarch of Ancient Ways",
             "color": "G",
             "rarity": "uncommon",
-            "type": "Creature",
+            "type": "Creature \u2014 Lizard Druid Warlock",
             "number": 201,
             "color_identity": "G",
-            "cost": "",
-            "rules_text": "mana value 1+",
+            "cost": "{1}{G}{G}",
+            "rules_text": "The first time each turn an opponent casts a noncreature spell with a single target, you draw a card.\n{1}{G}, {T}: Proliferate. [i](Choose any number of permanents and/or players, then give each another counter of each kind already there.)[/i]",
             "flavor_text": "[i][/i]",
-            "pt": "",
+            "pt": "2/3",
             "special_text": "",
             "shape": "normal",
             "set": "MST",
             "loyalty": "",
-            "artist": "",
+            "artist": "Valeza & Or for Gunship Revolution",
             "notes": ""
         },
         {
@@ -2922,21 +2922,21 @@
             "notes": ""
         },
         {
-            "card_name": "UG06 very big creature",
+            "card_name": "UG06 Escaped Anuroid",
             "color": "G",
             "rarity": "uncommon",
-            "type": "Creature",
+            "type": "Creature \u2014 Frog Mutant",
             "number": 204,
             "color_identity": "G",
-            "cost": "",
-            "rules_text": "mana value 5+\nbigger than 6/6",
-            "flavor_text": "[i][/i]",
-            "pt": "",
+            "cost": "{4}{G}{G}",
+            "rules_text": "As an additional cost to cast this spell, remove a Moonstone counter from yourself or sacrifice a land.\nReach, trample, vigilance, ward {1}",
+            "flavor_text": "[i]A few of the experiments run by xolotl physicians to save the dying frogfolk species had escaped their cages.[/i]",
+            "pt": "8/8",
             "special_text": "",
             "shape": "normal",
             "set": "MST",
             "loyalty": "",
-            "artist": "",
+            "artist": "Angelo Bortolini",
             "notes": ""
         },
         {

@@ -1,4 +1,19 @@
-﻿VERSION 2 CHANGELOG
+﻿VERSION 3 CHANGELOG
+====================
+
+UG03 Matriarch of Ancient Ways added.
+UG06 Escaped Anuroid added.
+
+UG03 crea that draws at least once removed.
+UG06 very big creature removed.
+
+CW08 Cheerful Messenger
+
+CU11 Elder Cirein
+pt: 6/6 => 5/5
+
+
+VERSION 2 CHANGELOG
 ====================
 
 CU03 Uncompromising Artist added.

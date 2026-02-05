@@ -3,9 +3,9 @@
 	<sets>
 		<set>
 			<name>MST</name>
-			<longname>Untitled Anthro Moonstone Standard Set</longname>
+			<longname>Morasca: Search for the Moonstones</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-02-02</releasedate>
+			<releasedate>2026-02-04</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -880,7 +880,7 @@ This creature can&apos;t be blocked as long as you&apos;ve cast two or more inst
 				<cmc>6</cmc>
 				<colors>U</colors>
 				<coloridentity>U</coloridentity>
-				<pt>6/6</pt>
+				<pt>5/5</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
@@ -2800,18 +2800,20 @@ Whenever one or more creatures you control deal combat damage to an opponent, pu
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>UG03 crea that draws at least once</name>
-			<text>mana value 1+</text>
-			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/201_UG03 crea that draws at least once.png" num="201">MST</set>
+			<name>UG03 Matriarch of Ancient Ways</name>
+			<text>The first time each turn an opponent casts a noncreature spell with a single target, you draw a card.
+{1}{G}, {T}: Proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)</text>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/201_UG03 Matriarch of Ancient Ways.png" num="201">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Creature</type>
+				<type>Creature — Lizard Druid Warlock</type>
 				<maintype>Creature</maintype>
-				<manacost></manacost>
-				<cmc>0</cmc>
+				<manacost>1GG</manacost>
+				<cmc>3</cmc>
 				<colors>G</colors>
 				<coloridentity>G</coloridentity>
+				<pt>2/3</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
@@ -2853,19 +2855,20 @@ X is the number of lands you control. Activate only if this creature dealt comba
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>UG06 very big creature</name>
-			<text>mana value 5+
-bigger than 6/6</text>
-			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/204_UG06 very big creature.png" num="204">MST</set>
+			<name>UG06 Escaped Anuroid</name>
+			<text>As an additional cost to cast this spell, remove a Moonstone counter from yourself or sacrifice a land.
+Reach, trample, vigilance, ward {1}</text>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/204_UG06 Escaped Anuroid.png" num="204">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Creature</type>
+				<type>Creature — Frog Mutant</type>
 				<maintype>Creature</maintype>
-				<manacost></manacost>
-				<cmc>0</cmc>
+				<manacost>4GG</manacost>
+				<cmc>6</cmc>
 				<colors>G</colors>
 				<coloridentity>G</coloridentity>
+				<pt>8/8</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
