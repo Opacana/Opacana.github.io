@@ -343,7 +343,7 @@ Paladin creatures you control have haste.</text>
 		<card>
 			<name>Migronn, Steadfast Thyl</name>
 			<text>Trample, reach, ward {1}
-The first spell without Wisdom you cast each turn has Wisdom 5. (As an additional cost to cast that spell, you may exile 5 cards from your graveyard. If you do, copy it, and you may choose new targets for the copy.)</text>
+The first spell you cast each turn has Wisdom 5. (As an additional cost to cast that spell, you may exile 5 cards from your graveyard. If you do, copy it, and you may choose new targets for the copy.)</text>
 			<set rarity="mythic" picurl="https://Opacana.github.io/sets/MST-files/img/213_Migronn, Steadfast Thyl.png" num="213">MST</set>
 			<prop>
 				<layout>normal</layout>
@@ -378,7 +378,7 @@ The first spell without Wisdom you cast each turn has Wisdom 5. (As an additiona
 		</card>
 		<card>
 			<name>CW02 Kitsan Knight-Errant</name>
-			<text>When this creature dies, you may pay {1}. If you do, put a +1/+1 counter on another target paladin you control. If you don&apos;t, you gain 1 life. (Armies, Heroes, Knights, Soldiers and Warriors are paladins.)</text>
+			<text>When this creature dies, you may pay {1}. When you do, put a +1/+1 counter on another target paladin you control. If you don&apos;t, you gain 1 life. (Armies, Heroes, Knights, Soldiers and Warriors are paladins.)</text>
 			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/15_CW02 Kitsan Knight-Errant.png" num="15">MST</set>
 			<prop>
 				<layout>normal</layout>
@@ -1130,7 +1130,7 @@ Pay 1 life: This creature gains flying until end of turn. Activate only once eac
 		<card>
 			<name>CB08 Banished Clairvoyant</name>
 			<text>Flying
-Whenever this creature attacks, you may discard a card. If you do, target creature you control gains menace until end of turn.
+Whenever this creature attacks, you may discard a card. When you do, target creature you control gains menace until end of turn.
 At the beginning of your end step, if any player discarded two or more cards, you scry 2.</text>
 			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/100_CB08 Banished Clairvoyant.png" num="100">MST</set>
 			<prop>
@@ -1603,7 +1603,7 @@ Target creature gets +2/+0 and gains first strike until end of turn.</text>
 		<card>
 			<name>CR17 Fireside Tales</name>
 			<text>Wisdom 2 (As an additional cost to cast this, you may exile 2 cards from your graveyard. If you do, copy it, and you may choose new targets for the copy.)
-Discard a card. If you do, draw two cards.</text>
+Discard a card, then draw two cards.</text>
 			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/148_CR17 Fireside Tales.png" num="148">MST</set>
 			<prop>
 				<layout>normal</layout>
@@ -2592,7 +2592,7 @@ Look at the top four cards of your library. Put two of them into your hand and t
 		<card>
 			<name>UR02 Jack of All Spells</name>
 			<text>Flying
-When this creature deals combat damage to an opponent, you may discard a card. If you do, exile the top two cards of target player&apos;s library. Until end of turn, you may play cards exiled this way. Then add one mana of any color. Until end of turn, you don&apos;t lose this mana as steps and phases end.</text>
+When this creature deals combat damage to an opponent, you may discard a card. When you do, exile the top two cards of that player&apos;s library. Until end of turn, you may play cards exiled this way.</text>
 			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/161_UR02 Jack of All Spells.png" num="161">MST</set>
 			<prop>
 				<layout>normal</layout>
@@ -2666,7 +2666,7 @@ Whenever this creature attacks, instant and/or sorcery spells you cast cost {1} 
 			<name>UR06 Streetwise Adventurer</name>
 			<text>Menace
 Whenever this creature attacks, you may sacrifice a land. If you do, this creature gets +2/+0 until end of turn.
-Whenever this creature attacks, you may pay {1}{G}. If you do, return target land card from your graveyard to the battlefield tapped.</text>
+Whenever this creature attacks, you may pay {1}{G}. When you do, return target land card from your graveyard to the battlefield tapped.</text>
 			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/165_UR06 Streetwise Adventurer.png" num="165">MST</set>
 			<prop>
 				<layout>normal</layout>
@@ -3107,7 +3107,7 @@ If a card or token would be put into a graveyard from anywhere, exile it instead
 			<name>RU02 Supercell Channeler</name>
 			<text>Flash
 Flying
-When this creature enters the battlefield, you may pay {2}. If you do, copy target instant, sorcery, or ability.
+When this creature enters the battlefield, you may pay {2}. When you do, copy target instant, sorcery, or ability.
 Whenever you copy a spell for the first time each turn, draw a card.</text>
 			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/75_RU02 Supercell Channeler.png" num="75">MST</set>
 			<prop>

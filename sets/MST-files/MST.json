@@ -355,7 +355,7 @@
             "number": 213,
             "color_identity": "URG",
             "cost": "{1}{G}{U}{R}",
-            "rules_text": "Trample, reach, ward {1}\nThe first spell without Wisdom you cast each turn has Wisdom 5. [i](As an additional cost to cast that spell, you may exile 5 cards from your graveyard. If you do, copy it, and you may choose new targets for the copy.)[/i]",
+            "rules_text": "Trample, reach, ward {1}\nThe first spell you cast each turn has Wisdom 5. [i](As an additional cost to cast that spell, you may exile 5 cards from your graveyard. If you do, copy it, and you may choose new targets for the copy.)[/i]",
             "flavor_text": "[i][/i]",
             "pt": "5/5",
             "special_text": "",
@@ -391,7 +391,7 @@
             "number": 15,
             "color_identity": "W",
             "cost": "{W}",
-            "rules_text": "When this creature dies, you may pay {1}. If you do, put a +1/+1 counter on another target paladin you control. If you don't, you gain 1 life. [i](Armies, Heroes, Knights, Soldiers and Warriors are paladins.)[/i]",
+            "rules_text": "When this creature dies, you may pay {1}. When you do, put a +1/+1 counter on another target paladin you control. If you don't, you gain 1 life. [i](Armies, Heroes, Knights, Soldiers and Warriors are paladins.)[/i]",
             "flavor_text": "[i]brief flavor text?[/i]",
             "pt": "2/1",
             "special_text": "",
@@ -1165,7 +1165,7 @@
             "number": 100,
             "color_identity": "B",
             "cost": "{1}{B}",
-            "rules_text": "Flying\nWhenever this creature attacks, you may discard a card. If you do, target creature you control gains menace until end of turn.\nAt the beginning of your end step, if any player discarded two or more cards, you scry 2.",
+            "rules_text": "Flying\nWhenever this creature attacks, you may discard a card. When you do, target creature you control gains menace until end of turn.\nAt the beginning of your end step, if any player discarded two or more cards, you scry 2.",
             "flavor_text": "[i][/i]",
             "pt": "2/1",
             "special_text": "",
@@ -1651,7 +1651,7 @@
             "number": 148,
             "color_identity": "R",
             "cost": "{1}{R}",
-            "rules_text": "Wisdom 2 [i](As an additional cost to cast this, you may exile 2 cards from your graveyard. If you do, copy it, and you may choose new targets for the copy.)[/i]\nDiscard a card. If you do, draw two cards.",
+            "rules_text": "Wisdom 2 [i](As an additional cost to cast this, you may exile 2 cards from your graveyard. If you do, copy it, and you may choose new targets for the copy.)[/i]\nDiscard a card, then draw two cards.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -2659,7 +2659,7 @@
             "number": 161,
             "color_identity": "R",
             "cost": "{2}{R}{R}",
-            "rules_text": "Flying\nWhen this creature deals combat damage to an opponent, you may discard a card. If you do, exile the top two cards of target player's library. Until end of turn, you may play cards exiled this way. Then add one mana of any color. Until end of turn, you don't lose this mana as steps and phases end.",
+            "rules_text": "Flying\nWhen this creature deals combat damage to an opponent, you may discard a card. When you do, exile the top two cards of that player's library. Until end of turn, you may play cards exiled this way.",
             "flavor_text": "[i][/i]",
             "pt": "3/3",
             "special_text": "",
@@ -2731,7 +2731,7 @@
             "number": 165,
             "color_identity": "RG",
             "cost": "{2}{R}",
-            "rules_text": "Menace\nWhenever this creature attacks, you may sacrifice a land. If you do, this creature gets +2/+0 until end of turn.\nWhenever this creature attacks, you may pay {1}{G}. If you do, return target land card from your graveyard to the battlefield tapped.",
+            "rules_text": "Menace\nWhenever this creature attacks, you may sacrifice a land. If you do, this creature gets +2/+0 until end of turn.\nWhenever this creature attacks, you may pay {1}{G}. When you do, return target land card from your graveyard to the battlefield tapped.",
             "flavor_text": "[i][/i]",
             "pt": "3/2",
             "special_text": "",
@@ -3181,7 +3181,7 @@
             "number": 75,
             "color_identity": "U",
             "cost": "{2}{U}",
-            "rules_text": "Flash\nFlying\nWhen this creature enters the battlefield, you may pay {2}. If you do, copy target instant, sorcery, or ability.\nWhenever you copy a spell for the first time each turn, draw a card.",
+            "rules_text": "Flash\nFlying\nWhen this creature enters the battlefield, you may pay {2}. When you do, copy target instant, sorcery, or ability.\nWhenever you copy a spell for the first time each turn, draw a card.",
             "flavor_text": "[i][/i]",
             "pt": "2/3",
             "special_text": "",
@@ -3333,7 +3333,7 @@
             "set": "MST",
             "loyalty": "",
             "artist": "Saltamor",
-            "notes": ""
+            "notes": "rewrite ability to be a bit simpler/less wordy."
         },
         {
             "card_name": "RB04 Memorivore Witch",
@@ -4884,5 +4884,5 @@
             "notes": ""
         }
     ],
-    "version": 3
+    "version": 4
 }

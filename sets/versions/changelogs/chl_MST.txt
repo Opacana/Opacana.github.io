@@ -1,4 +1,53 @@
-﻿VERSION 3 CHANGELOG
+﻿VERSION 4 CHANGELOG
+====================
+
+
+
+Migronn, Steadfast Thyl
+rules_text: Trample, reach, ward {1}
+The first spell without Wisdom you cast each turn has Wisdom 5. [i](As an additional cost to cast that spell, you may exile 5 cards from your graveyard. If you do, copy it, and you may choose new targets for the copy.)[/i] => Trample, reach, ward {1}
+The first spell you cast each turn has Wisdom 5. [i](As an additional cost to cast that spell, you may exile 5 cards from your graveyard. If you do, copy it, and you may choose new targets for the copy.)[/i]
+
+CW02 Kitsan Knight-Errant
+rules_text: When this creature dies, you may pay {1}. If you do, put a +1/+1 counter on another target paladin you control. If you don't, you gain 1 life. [i](Armies, Heroes, Knights, Soldiers and Warriors are paladins.)[/i] => When this creature dies, you may pay {1}. When you do, put a +1/+1 counter on another target paladin you control. If you don't, you gain 1 life. [i](Armies, Heroes, Knights, Soldiers and Warriors are paladins.)[/i]
+
+CB08 Banished Clairvoyant
+rules_text: Flying
+Whenever this creature attacks, you may discard a card. If you do, target creature you control gains menace until end of turn.
+At the beginning of your end step, if any player discarded two or more cards, you scry 2. => Flying
+Whenever this creature attacks, you may discard a card. When you do, target creature you control gains menace until end of turn.
+At the beginning of your end step, if any player discarded two or more cards, you scry 2.
+
+CR17 Fireside Tales
+rules_text: Wisdom 2 [i](As an additional cost to cast this, you may exile 2 cards from your graveyard. If you do, copy it, and you may choose new targets for the copy.)[/i]
+Discard a card. If you do, draw two cards. => Wisdom 2 [i](As an additional cost to cast this, you may exile 2 cards from your graveyard. If you do, copy it, and you may choose new targets for the copy.)[/i]
+Discard a card, then draw two cards.
+
+UR02 Jack of All Spells
+rules_text: Flying
+When this creature deals combat damage to an opponent, you may discard a card. If you do, exile the top two cards of target player's library. Until end of turn, you may play cards exiled this way. Then add one mana of any color. Until end of turn, you don't lose this mana as steps and phases end. => Flying
+When this creature deals combat damage to an opponent, you may discard a card. When you do, exile the top two cards of that player's library. Until end of turn, you may play cards exiled this way.
+
+UR06 Streetwise Adventurer
+rules_text: Menace
+Whenever this creature attacks, you may sacrifice a land. If you do, this creature gets +2/+0 until end of turn.
+Whenever this creature attacks, you may pay {1}{G}. If you do, return target land card from your graveyard to the battlefield tapped. => Menace
+Whenever this creature attacks, you may sacrifice a land. If you do, this creature gets +2/+0 until end of turn.
+Whenever this creature attacks, you may pay {1}{G}. When you do, return target land card from your graveyard to the battlefield tapped.
+
+RU02 Supercell Channeler
+rules_text: Flash
+Flying
+When this creature enters the battlefield, you may pay {2}. If you do, copy target instant, sorcery, or ability.
+Whenever you copy a spell for the first time each turn, draw a card. => Flash
+Flying
+When this creature enters the battlefield, you may pay {2}. When you do, copy target instant, sorcery, or ability.
+Whenever you copy a spell for the first time each turn, draw a card.
+
+RB03 Neshezoi, Mad Harbinger
+
+
+VERSION 3 CHANGELOG
 ====================
 
 UG03 Matriarch of Ancient Ways added.
