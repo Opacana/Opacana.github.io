@@ -1,4 +1,183 @@
-﻿VERSION 4 CHANGELOG
+﻿VERSION 5 CHANGELOG
+====================
+
+CG12 Thunder God's Boon added.
+
+CG12 combat trick noncre removed.
+
+CU19 Plumb the Depths
+rules_text: Surveil 2, then draw a card. [i](To surveil 2, look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)[/i] => Surveil 2, then draw a card.
+
+CR04 Iceclaw Swordfrey
+rules_text: When this creature enters, you may remove a moonstone counter from yourself. If you do, it gains haste until end of turn.
+First strike => When this creature enters, you may remove a Moonstone counter from yourself. If you do, it gains haste until end of turn.
+First strike
+
+UM01 Taza, Exiled Princess
+rules_text: When Taza enters, create a 1/1 black Rat creature token.
+Other Rat creatures you control get +1/+1.
+At the beginning of combat, target nontoken Rat you control gains lifelink until end of turn. => When Taza enters, create a 1/1 black Rat creature token.
+Other Rat creatures you control get +1/+1.
+At the beginning of combat, target Rat you control gains lifelink until end of turn.
+
+CU04 Kodiloan Sentry
+rules_text: Ward {1} [i](Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {1}.)[/i]
+This creature gets +2/+0 as long as you have 2 or more Moonstone counters. => Ward {1}
+This creature gets +2/+0 as long as you have 2 or more Moonstone counters.
+
+CU18 Anticipate Their Next Moves
+rules_text: Counter target spell unless its controller pays {X}, where X is 2 plus the number of cards with Wisdom in your graveyard and the number of permanents you control with Wisdom. => Counter target spell unless its controller pays {X}, where X is 2 plus the total number of cards with Wisdom in your graveyard and the number of permanents you control with Wisdom.
+
+CB02 Despair Path Master
+rules_text: When this enters, choose one —
+• You draw a card and lose 1 life.
+• You draw a card, then discard a card. => When this creature enters, choose one —
+• You draw a card and lose 1 life.
+• You draw a card, then discard a card.
+
+CB05 Spiked Diggers
+
+CB14 Deceptive Wagering
+rules_text: Target player discards two cards, then if you discarded one or more cards this turn, sacrifices a creature.
+You surveil 2. => Target player discards two cards, then if you discarded one or more cards this turn, sacrifices a creature.
+Surveil 2.
+
+CG09 Sociable Inn Owner
+rules_text: Trample
+This creature enters with a +1/+1 counter on it if you've gained life this turn.
+When this creature enters, you gain 2 life and scry 1. [i](Look at the top card of your library. You may put that card on the bottom of your library.)[/i] => Trample
+This creature enters with a +1/+1 counter on it if you've gained life this turn.
+When this creature enters, you gain 2 life and scry 1.
+
+CG15 Moonguided Shot
+
+CG16 Ruined Relics
+rules_text: Destroy target artifact or enchantment. If an artifact is destroyed this way, put a +1/+1 counter on up to one target creature you control. Otherwise, you gain 2 life. => Destroy target artifact or enchantment. If an artifact is destroyed this way, put a +1/+1 counter on target creature you control. Otherwise, you gain 2 life.
+
+UW03 Duchess of the Trials
+rules_text: When this creature enters, for each player, exile up to one target nonland permanent that player controls. Each of those cards' owners may pay 1 as a sorcery to put them into their hand. => When this creature enters, for each player, exile up to one target nonland permanent that player controls. Each of those cards' owners may pay {1} as a sorcery to put them into their hand.
+
+UW08 Lafahd Royal Expedition
+rules_text: Ward {2} [i](Whenever this creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2}.)[/i]
+When this creature attacks for the first time each turn, it gets +X/+X until end of turn, where X is the number of cards in defending player's graveyard. => Ward {2}
+Whenever this creature attacks, if defending player has seven or more cards in their graveyard, this creature gains double strike until end of turn.
+
+UW09 Rewoven Fates
+rules_text: As an additional cost to cast this spell, sacrifice a creature or a legendary noncreature permanent.
+Return target creature or planeswalker card from your graveyard to the battlefield. => As an additional cost to cast this spell, sacrifice a creature or a nontoken, noncreature permanent.
+Return target creature or planeswalker card from your graveyard to the battlefield.
+
+UU03 Veteran Burglar
+rules_text: Ward {1}
+Whenever this creature attacks and isn't blocked, search defending player's library for a nonland, noncreature card and exile it, then that player shuffles. As long as that card remains exiled, you may play it, and spend mana as if it were any color to cast it. => Ward {1}
+Whenever this creature deals combat damage to an opponent, you search that player's library for a nonland, noncreature card and exile it, then that player shuffles. As long as that card remains exiled, you may cast it, and spend mana as if it were any color to cast it.
+pt: 0/2 => 1/2
+
+UU04 Stormwind Master
+rules_text: Ward {1}
+Whenever you cast an instant or sorcery spell, or a spell with Wisdom, put a +1/+1 counter on this creature.
+{1}{R}: This creature gains trample until end of turn. Activate only as a sorcery. => Ward {1}
+Whenever you cast an instant or sorcery spell, or a spell with Wisdom, put a +1/+1 counter on this creature.
+{R}: This creature gains trample until end of turn. Activate only as a sorcery.
+
+UU05 Slicefin Thief
+rules_text: Whenever this creature attacks, until end of turn, if you would get one or more counters, you get that many plus one of each kind of those counters instead.
+{1}{B}: This creature gains menace until end of turn. Activate only as a sorcery. => Whenever this creature attacks, until end of turn, if you would get one or more counters, you get that many plus one of each kind of those counters instead.
+{B}: This creature gains menace until end of turn. Activate only as a sorcery.
+
+UB01 Darkside Wish-granter
+rules_text: When this enters, you get a Moonstone counter, then draw a card.
+{1}{B}, {T}, Discard a card: Search target opponent's library for a card, reveal it, and put it into their hand. That player loses life equal to that card's mana value, then shuffles. Activate only as a sorcery. => When this enters, you get a Moonstone counter, then draw a card.
+{1}{B}, {T}, Discard a card: Search target opponent's library for a card and reveal it. That player loses life equal to that card's mana value, puts it into their hand, then shuffles. Activate only as a sorcery.
+
+UB02 Shadowspiller
+
+UR05 Flux Initiate
+rules_text: Haste
+Whenever this creature enters, you may return target instant or sorcery card from your graveyard until end of turn.
+Whenever this creature attacks, instant and/or sorcery spells you cast cost {1} less to cast until end of turn. => Haste
+When this creature enters, return target instant or sorcery card from your graveyard.
+Whenever this creature attacks, instant and/or sorcery spells you cast cost {1} less to cast until end of turn.
+
+UR10 Psychic Enslavement
+rules_text: Untap target creature and gain control of it until end of turn. That creature gains haste until end of turn. Whenever that creature deals combat damage to its owner this turn, you may draw a card. If you do, pay {1} or discard a card. => Untap target creature and gain control of it until end of turn. Until end of turn, it gains haste and “Whenever this creature deals combat damage to an opponent, you may pay {1} or discard a card. If you do, draw a card.”
+
+UR11 Phoenix Mantle
+rules_text: Enchant creature
+Enchanted creature has flying and “{R}: This creature gets +1/+0 until end of turn.”
+{3}{B}{R}: Return target creature card with mana value 3 or less from your graveyard to the battlefield, then return this Aura to the battlefield attached to that creature. Activate only as a sorcery. => Enchant creature
+Enchanted creature has flying and “{R}: This creature gets +1/+0 until end of turn.”
+{3}{B}{R}: If this card is in your graveyard, return target creature card with mana value 3 or less from your graveyard to the battlefield, then return this Aura to the battlefield attached to that creature. Activate only as a sorcery.
+
+UG04 Lafahd Sandsprinter
+rules_text: This creature can't be blocked except by creatures with flying or reach.
+{4}{R}{G}, {T}: Choose one —
+• Put X +1/+1 counters on target creature.
+• This creature deals X damage to any target.
+X is the number of lands you control. Activate only if this creature dealt combat damage to an opponent this turn. => This creature can't be blocked except by creatures with flying or reach.
+{4}{R}{G}: Choose one —
+• Put X +1/+1 counters on target creature.
+• This creature deals X damage to any target.
+X is the number of lands you control. Activate only if this creature dealt combat damage to an opponent this turn.
+
+UG09 Visions of Other Worlds
+rules_text: Mill four cards, then return a land card milled this way to your hand. If nongreen mana was spent to cast this spell, you may instead return a nonland card milled this way to your hand. => Mill four cards, then return a land card milled this way to your hand. If nongreen, noncolorless mana was spent to cast this spell, you may instead return a nonland card milled this way to your hand.
+
+UG11 Under the Iron Capitol
+rules_text: Kicker—{B} [i](You may pay an additional {B} as you cast this spell.)[/i]
+Create a 1/1 black Rat Rogue creature token with menace and a 1/1 white Rat Citizen creature token. Then if this spell was kicked, you lose 2 life and put a +1/+1 counter on each Rat you control. => Kicker—{B}
+Create a 1/1 black Rat Rogue creature token with menace and a 1/1 white Rat Citizen creature token. Then if this spell was kicked, you lose 2 life and put a +1/+1 counter on each Rat you control.
+
+RU05 Twilight Pickpocketing
+rules_text: This spell costs {2} less to cast if two or more unblocked creatures you controlled dealt combat damage to an opponent this turn.
+Search target opponent's library for a noncreature, nonland card with mana value 7 or less and exile it. Until end of turn, you may cast that card from exile without paying its mana cost. => This spell costs {2} less to cast if two or more unblocked creatures you controlled dealt combat damage to an opponent this turn.
+Search target opponent's library for a nonland card with mana value 7 or less and exile it. Until end of turn, you may cast that card from exile without paying its mana cost.
+
+RB03 Neshezoi, Mad Harbinger
+rules_text: Ward—Pay 3 life
+Flying
+Whenever a player discards one or more cards, put a +1/+1 counter on this creature.
+Whenever Neshezoi attacks, if any player has no cards in hand, you may cast target nonland card from defending player's graveyard with mana value less than Neshezoi's power without paying its mana cost. => Ward—Pay 3 life
+Flying
+Whenever a player discards one or more cards, put a +1/+1 counter on this creature.
+Whenever Neshezoi attacks, if any player has no cards in hand, you may put target creature card from a graveyard onto the battlefield.
+
+RB04 Memorivore Witch
+rules_text: Flying
+As long as another creature died under your control this turn, black spells you cast have Wisdom X, where X is their mana value. [i](As an additional cost to cast a black spell, you may exile X cards from your graveyard. If you do, copy that spell, and you may choose new targets for the copy.)[/i] => Flying
+As long as a creature died under your control this turn, black spells you cast have Wisdom X, where X is their mana value. [i](As an additional cost to cast a black spell, you may exile X cards from your graveyard. If you do, copy that spell, and you may choose new targets for the copy.)[/i]
+
+RR02 Icespine Range Magstier
+rules_text: Haste
+Whenever this creature attacks, you discard a card. If the discarded card is an instant or sorcery, draw a card. If it isn't, put a +1/+1 counter on this creature. => Haste
+Whenever this creature attacks, discard a card. If the discarded card is an instant or sorcery, draw a card. If it isn't, put a +1/+1 counter on this creature.
+
+RG07 Summoning Ancestors
+cost: {3}{G}{G} => {2}{G}{G}
+
+MR02 M'gruk, Interplanar Plunderer
+
+MG01 Boc, Emerald Hart
+cost: {4}{G}{G} => {5}{G}{G}
+rules_text: This spell can't be countered if mana was spent to cast it.
+Reach, vigilance
+When Boc enters, if you have eight or more Moonstone counters, search your library for up to ten land cards and put them onto the battlefield, then shuffle. Otherwise, you get three Moonstone counters and put up to two land cards from your hand onto the battlefield tapped. => Reach, vigilance
+When Boc enters, if you have eight or more Moonstone counters, search your library for up to ten land cards and put them onto the battlefield, then shuffle. Otherwise, you get three Moonstone counters and put up to two land cards from your hand onto the battlefield tapped.
+
+CA01 Hired Carriage
+rules_text: When this artifact enters, search your library for a basic land card, reveal it and put it into your hand, then shuffle.
+Crew 2 [i](Tap any number of creatures you control with total power 2 or more: This Vehicle becomes an artifact creature until end of turn.)[/i] => When this artifact enters, search your library for a basic land card, reveal it and put it into your hand, then shuffle.
+Crew 2
+
+CL01 A Path Between
+rules_text: This land enters tapped.
+When this land enters, scry 1.
+Whenever this land becomes untapped, sacrifice it, then search your library for a basic land card, put it onto the battlefield, then shuffle. => This land enters tapped.
+When this land enters, scry 1.
+When this land enters or becomes untapped, sacrifice it, then search your library for a basic land card, put it onto the battlefield, then shuffle.
+
+
+VERSION 4 CHANGELOG
 ====================
 
 

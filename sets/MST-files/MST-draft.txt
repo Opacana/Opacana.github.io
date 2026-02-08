@@ -1051,13 +1051,13 @@
 			}
 		},
 		{
-			"name": "CG12 combat trick noncre",
+			"name": "CG12 Thunder God's Boon",
 			"rarity": "common",
-			"mana_cost": "",
+			"mana_cost": "{1}{G}",
 			"type": "Instant",
 			"collector_number": "182",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/182_CG12 combat trick noncre.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/182_CG12 Thunder God's Boon.png"
 			}
 		},
 		{
@@ -2023,7 +2023,7 @@
 		{
 			"name": "RG07 Summoning Ancestors",
 			"rarity": "rare",
-			"mana_cost": "{3}{G}{G}",
+			"mana_cost": "{2}{G}{G}",
 			"type": "Enchantment",
 			"collector_number": "198",
 			"image_uris": {
@@ -2113,7 +2113,7 @@
 		{
 			"name": "MG01 Boc, Emerald Hart",
 			"rarity": "mythic",
-			"mana_cost": "{4}{G}{G}",
+			"mana_cost": "{5}{G}{G}",
 			"type": "Legendary Creature — Deer Demigod",
 			"collector_number": "190",
 			"image_uris": {
@@ -2958,7 +2958,7 @@
 	8 CG09 Sociable Inn Owner
 	8 CG10 Unconventional Summoner
 	8 CG11 Scallywag Tracker
-	8 CG12 combat trick noncre
+	8 CG12 Thunder God's Boon
 	8 CG13 bite ins or sorc
 	8 CG14 Grapple with the Past
 	8 CG15 Moonguided Shot
@@ -3060,7 +3060,7 @@
 	8 CG09 Sociable Inn Owner
 	8 CG10 Unconventional Summoner
 	8 CG11 Scallywag Tracker
-	8 CG12 combat trick noncre
+	8 CG12 Thunder God's Boon
 	8 CG13 bite ins or sorc
 	8 CG14 Grapple with the Past
 	8 CG15 Moonguided Shot
@@ -3179,7 +3179,7 @@
 	12 CG09 Sociable Inn Owner
 	12 CG10 Unconventional Summoner
 	12 CG11 Scallywag Tracker
-	12 CG12 combat trick noncre
+	12 CG12 Thunder God's Boon
 	12 CG13 bite ins or sorc
 	12 CG14 Grapple with the Past
 	12 CG15 Moonguided Shot
@@ -3437,7 +3437,7 @@
 	6 CG09 Sociable Inn Owner
 	6 CG10 Unconventional Summoner
 	6 CG11 Scallywag Tracker
-	6 CG12 combat trick noncre
+	6 CG12 Thunder God's Boon
 	6 CG13 bite ins or sorc
 	6 CG14 Grapple with the Past
 	6 CG15 Moonguided Shot
