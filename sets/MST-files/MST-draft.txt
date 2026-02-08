@@ -501,13 +501,13 @@
 			}
 		},
 		{
-			"name": "CU12 undecided",
+			"name": "CU12 Brash Saorbeak",
 			"rarity": "common",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{U}",
+			"type": "Creature — Bird Mercenary",
 			"collector_number": "64",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/64_CU12 undecided.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/64_CU12 Brash Saorbeak.png"
 			}
 		},
 		{
@@ -931,13 +931,13 @@
 			}
 		},
 		{
-			"name": "CR19 Last Breath's Spite",
+			"name": "CR19",
 			"rarity": "common",
-			"mana_cost": "{3}{R}",
+			"mana_cost": "{R}",
 			"type": "Sorcery",
 			"collector_number": "150",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/150_CR19 Last Breath's Spite.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/150_CR19.png"
 			}
 		},
 		{
@@ -1204,7 +1204,7 @@
 			"name": "UW08 Lafahd Royal Expedition",
 			"rarity": "uncommon",
 			"mana_cost": "{3}{W}{W}",
-			"type": "Creature — Cat Army",
+			"type": "Creature — Cat Noble Army",
 			"collector_number": "49",
 			"image_uris": {
 				"en": "https://Opacana.github.io/sets/MST-files/img/49_UW08 Lafahd Royal Expedition.png"
@@ -2903,7 +2903,7 @@
 	8 CU09 Siltshore Sentinel
 	8 CU10 Armed Delegation
 	8 CU11 Elder Cirein
-	8 CU12 undecided
+	8 CU12 Brash Saorbeak
 	8 CU13 Amulet of the Future
 	8 CU14 Moonhalo Restraint
 	8 CU15 Unsummon
@@ -2946,7 +2946,7 @@
 	8 CR16 Storm's Strike
 	8 CR17 Fireside Tales
 	8 CR18 Flames of Passion
-	8 CR19 Last Breath's Spite
+	8 CR19
 	8 CG01 Flower Stalker
 	8 CG02 Sika Matriarch
 	8 CG03 Unphased Journeyers
@@ -3005,7 +3005,7 @@
 	8 CU09 Siltshore Sentinel
 	8 CU10 Armed Delegation
 	8 CU11 Elder Cirein
-	8 CU12 undecided
+	8 CU12 Brash Saorbeak
 	8 CU13 Amulet of the Future
 	8 CU14 Moonhalo Restraint
 	8 CU15 Unsummon
@@ -3048,7 +3048,7 @@
 	8 CR16 Storm's Strike
 	8 CR17 Fireside Tales
 	8 CR18 Flames of Passion
-	8 CR19 Last Breath's Spite
+	8 CR19
 	8 CG01 Flower Stalker
 	8 CG02 Sika Matriarch
 	8 CG03 Unphased Journeyers
@@ -3124,7 +3124,7 @@
 	12 CU09 Siltshore Sentinel
 	12 CU10 Armed Delegation
 	12 CU11 Elder Cirein
-	12 CU12 undecided
+	12 CU12 Brash Saorbeak
 	12 CU13 Amulet of the Future
 	12 CU14 Moonhalo Restraint
 	12 CU15 Unsummon
@@ -3167,7 +3167,7 @@
 	12 CR16 Storm's Strike
 	12 CR17 Fireside Tales
 	12 CR18 Flames of Passion
-	12 CR19 Last Breath's Spite
+	12 CR19
 	12 CG01 Flower Stalker
 	12 CG02 Sika Matriarch
 	12 CG03 Unphased Journeyers
@@ -3382,7 +3382,7 @@
 	6 CU09 Siltshore Sentinel
 	6 CU10 Armed Delegation
 	6 CU11 Elder Cirein
-	6 CU12 undecided
+	6 CU12 Brash Saorbeak
 	6 CU13 Amulet of the Future
 	6 CU14 Moonhalo Restraint
 	6 CU15 Unsummon
@@ -3425,7 +3425,7 @@
 	6 CR16 Storm's Strike
 	6 CR17 Fireside Tales
 	6 CR18 Flames of Passion
-	6 CR19 Last Breath's Spite
+	6 CR19
 	6 CG01 Flower Stalker
 	6 CG02 Sika Matriarch
 	6 CG03 Unphased Journeyers

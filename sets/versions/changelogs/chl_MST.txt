@@ -1,4 +1,44 @@
-﻿VERSION 5 CHANGELOG
+﻿VERSION 6 CHANGELOG
+====================
+
+CU12 Brash Saorbeak added.
+CR19 added.
+
+CU12 undecided removed.
+CR19 Last Breath's Spite removed.
+
+CR18 Flames of Passion
+rules_text: This spell costs {2} less to cast if there are five or more cards in your graveyard.
+This spell deals 5 damage to target permanent.
+Draw a card. => This spell costs {2} less to cast if you've discarded one or more cards this turn.
+This spell deals 5 damage to target permanent.
+Draw a card.
+
+UW08 Lafahd Royal Expedition
+type: Creature — Cat Army => Creature — Cat Noble Army
+
+RW01 Pauri Esken, Mounted Justice
+rules_text: Flash
+Lifelink
+This creature enters the battlefield tapped unless you control four or more lands. => Flash
+Lifelink
+
+RR04 Carnivorous Blossom
+rules_text: This spell can't be countered as long as two or more lands entered under your control this turn.
+Haste, reach, trample
+This creature's power and toughness are each equal to the number of lands you control.
+{1}{G}: Return this creature to its owner's hand. => This spell can't be countered as long as two or more lands entered under your control this turn.
+Haste, reach, trample
+This creature's power and toughness are each equal to the number of lands you control.
+
+MW02 Feast with the King
+rules_text: Create a Food token.
+Until end of turn, whenever you gain life, creatures you control get +X/+X until end of turn, where X is the life gained this way.
+Until end of turn, activated abilities of Food you control cost {2} less to activate. => Create a Food token.
+Until end of turn, whenever you gain life, creatures you control get +X/+X until end of turn, where X is the life gained this way.
+
+
+VERSION 5 CHANGELOG
 ====================
 
 CG12 Thunder God's Boon added.

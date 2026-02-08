@@ -885,20 +885,22 @@ This creature can&apos;t be blocked as long as you&apos;ve cast two or more inst
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>CU12 undecided</name>
-			<text></text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/64_CU12 undecided.png" num="64">MST</set>
+			<name>CU12 Brash Saorbeak</name>
+			<text>Flying
+When this creature leaves the battlefield, if it attacked or blocked this turn, scry 2.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/64_CU12 Brash Saorbeak.png" num="64">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type></type>
-				<maintype></maintype>
-				<manacost></manacost>
-				<cmc>0</cmc>
+				<type>Creature — Bird Mercenary</type>
+				<maintype>Creature</maintype>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
 				<colors>U</colors>
 				<coloridentity>U</coloridentity>
+				<pt>1/1</pt>
 			</prop>
-			<tablerow>1</tablerow>
+			<tablerow>2</tablerow>
 		</card>
 		<card>
 			<name>CU13 Amulet of the Future</name>
@@ -1619,7 +1621,7 @@ Discard a card, then draw two cards.</text>
 		</card>
 		<card>
 			<name>CR18 Flames of Passion</name>
-			<text>This spell costs {2} less to cast if there are five or more cards in your graveyard.
+			<text>This spell costs {2} less to cast if you&apos;ve discarded one or more cards this turn.
 This spell deals 5 damage to target permanent.
 Draw a card.</text>
 			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/149_CR18 Flames of Passion.png" num="149">MST</set>
@@ -1636,16 +1638,16 @@ Draw a card.</text>
 			<tablerow>3</tablerow>
 		</card>
 		<card>
-			<name>CR19 Last Breath&apos;s Spite</name>
-			<text>Sacrifice any number of lands. This spell deals X damage to any target, where X is the number of lands sacrificed this way. Damage dealt this way can&apos;t be prevented.</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/150_CR19 Last Breath&apos;s Spite.png" num="150">MST</set>
+			<name>CR19</name>
+			<text></text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/150_CR19.png" num="150">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
 				<type>Sorcery</type>
 				<maintype>Sorcery</maintype>
-				<manacost>3R</manacost>
-				<cmc>4</cmc>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
 				<colors>R</colors>
 				<coloridentity>R</coloridentity>
 			</prop>
@@ -2117,7 +2119,7 @@ Whenever this creature attacks, if defending player has seven or more cards in t
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Creature — Cat Army</type>
+				<type>Creature — Cat Noble Army</type>
 				<maintype>Creature</maintype>
 				<manacost>3WW</manacost>
 				<cmc>5</cmc>
@@ -2961,8 +2963,7 @@ Create a 1/1 black Rat Rogue creature token with menace and a 1/1 white Rat Citi
 		<card>
 			<name>RW01 Pauri Esken, Mounted Justice</name>
 			<text>Flash
-Lifelink
-This creature enters the battlefield tapped unless you control four or more lands.</text>
+Lifelink</text>
 			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/35_RW01 Pauri Esken, Mounted Justice.png" num="35">MST</set>
 			<prop>
 				<layout>normal</layout>
@@ -3391,8 +3392,7 @@ Artifact spells you cast cost {1} less to cast for every Moonstone counter you h
 			<name>RR04 Carnivorous Blossom</name>
 			<text>This spell can&apos;t be countered as long as two or more lands entered under your control this turn.
 Haste, reach, trample
-This creature&apos;s power and toughness are each equal to the number of lands you control.
-{1}{G}: Return this creature to its owner&apos;s hand.</text>
+This creature&apos;s power and toughness are each equal to the number of lands you control.</text>
 			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/156_RR04 Carnivorous Blossom.png" num="156">MST</set>
 			<prop>
 				<layout>normal</layout>
@@ -3402,7 +3402,7 @@ This creature&apos;s power and toughness are each equal to the number of lands y
 				<manacost>5RR</manacost>
 				<cmc>7</cmc>
 				<colors>R</colors>
-				<coloridentity>RG</coloridentity>
+				<coloridentity>R</coloridentity>
 				<pt>*/*</pt>
 			</prop>
 			<tablerow>2</tablerow>
@@ -3602,8 +3602,7 @@ When Mouratl enters, if you have five or more Moonstone counters, double your li
 		<card>
 			<name>MW02 Feast with the King</name>
 			<text>Create a Food token.
-Until end of turn, whenever you gain life, creatures you control get +X/+X until end of turn, where X is the life gained this way.
-Until end of turn, activated abilities of Food you control cost {2} less to activate.</text>
+Until end of turn, whenever you gain life, creatures you control get +X/+X until end of turn, where X is the life gained this way.</text>
 			<set rarity="mythic" picurl="https://Opacana.github.io/sets/MST-files/img/34_MW02 Feast with the King.png" num="34">MST</set>
 			<prop>
 				<layout>normal</layout>
