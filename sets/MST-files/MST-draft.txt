@@ -5,9 +5,9 @@
 			"rarity": "rare",
 			"mana_cost": "{3}{R/W}{R/W}",
 			"type": "Sorcery",
-			"collector_number": "239",
+			"collector_number": "238",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/239_Righteous Reforging.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/238_Righteous Reforging.png"
 			}
 		},
 		{
@@ -15,9 +15,9 @@
 			"rarity": "rare",
 			"mana_cost": "{G}{U}",
 			"type": "Legendary Creature — Salamander Cleric",
-			"collector_number": "227",
+			"collector_number": "226",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/227_Strati, Ikli Starspeaker.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/226_Strati, Ikli Starspeaker.png"
 			}
 		},
 		{
@@ -25,9 +25,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{U}",
 			"type": "Instant",
-			"collector_number": "71",
+			"collector_number": "70",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/71_CU19 Plumb the Depths.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/70_CU19 Plumb the Depths.png"
 			}
 		},
 		{
@@ -35,9 +35,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{4}{U}{U}",
 			"type": "Creature — Serpent",
-			"collector_number": "92",
+			"collector_number": "91",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/92_UU12 Voracious Elasmodracid.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/91_UU12 Voracious Elasmodracid.png"
 			}
 		},
 		{
@@ -45,9 +45,9 @@
 			"rarity": "mythic",
 			"mana_cost": "{3}{W}{B}{G}",
 			"type": "Legendary Creature — Rat Warlock",
-			"collector_number": "226",
+			"collector_number": "225",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/226_Skallayt, Ambitious Warlord.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/225_Skallayt, Ambitious Warlord.png"
 			}
 		},
 		{
@@ -65,9 +65,9 @@
 			"rarity": "rare",
 			"mana_cost": "{3}{U}{R/W}",
 			"type": "Sorcery",
-			"collector_number": "238",
+			"collector_number": "237",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/238_Courageous Assembly.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/237_Courageous Assembly.png"
 			}
 		},
 		{
@@ -75,9 +75,9 @@
 			"rarity": "rare",
 			"mana_cost": "{R}{W}{B}",
 			"type": "Sorcery",
-			"collector_number": "212",
+			"collector_number": "211",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/212_Leave No Witnesses.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/211_Leave No Witnesses.png"
 			}
 		},
 		{
@@ -85,9 +85,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{R}{R}",
 			"type": "Creature — Bear Warrior",
-			"collector_number": "135",
+			"collector_number": "134",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/135_CR04 Iceclaw Swordfrey.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/134_CR04 Iceclaw Swordfrey.png"
 			}
 		},
 		{
@@ -95,9 +95,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{W}{U}",
 			"type": "Creature — Bird Hero",
-			"collector_number": "230",
+			"collector_number": "229",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/230_UM01 Circumzenith Guardian.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/229_UM01 Circumzenith Guardian.png"
 			}
 		},
 		{
@@ -105,9 +105,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{U}{B}",
 			"type": "Artifact",
-			"collector_number": "234",
+			"collector_number": "233",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/234_UM01 Icon of Dead Futures.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/233_UM01 Icon of Dead Futures.png"
 			}
 		},
 		{
@@ -115,9 +115,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{B}{R}",
 			"type": "Creature — Bird Warlock Mercenary",
-			"collector_number": "231",
+			"collector_number": "230",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/231_UM01 Deathspark Speaker.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/230_UM01 Deathspark Speaker.png"
 			}
 		},
 		{
@@ -125,9 +125,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{R}{G}",
 			"type": "Enchantment",
-			"collector_number": "232",
+			"collector_number": "231",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/232_UM01 Fireseed WIP.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/231_UM01 Fireseed WIP.png"
 			}
 		},
 		{
@@ -135,9 +135,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{G}{W}",
 			"type": "Creature — Rat Monk Advisor",
-			"collector_number": "235",
+			"collector_number": "234",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/235_UM01 Laughing Path Master.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/234_UM01 Laughing Path Master.png"
 			}
 		},
 		{
@@ -145,9 +145,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{W}{B}",
 			"type": "Legendary Creature — Rat Mercenary Warlock",
-			"collector_number": "236",
+			"collector_number": "235",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/236_UM01 Mayarai, Bonesnouts Leader.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/235_UM01 Mayarai, Bonesnouts Leader.png"
 			}
 		},
 		{
@@ -155,9 +155,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{U}{R}",
 			"type": "Enchantment",
-			"collector_number": "233",
+			"collector_number": "232",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/233_UM01 Flux-node Birthing.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/232_UM01 Flux-node Birthing.png"
 			}
 		},
 		{
@@ -165,9 +165,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{B}{G}",
 			"type": "Legendary Creature — Rat Warlock Noble",
-			"collector_number": "237",
+			"collector_number": "236",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/237_UM01 Taza, Exiled Princess.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/236_UM01 Taza, Exiled Princess.png"
 			}
 		},
 		{
@@ -175,9 +175,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{R}{W}",
 			"type": "Creature — Bird Soldier Noble",
-			"collector_number": "228",
+			"collector_number": "227",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/228_UM01 Aerieguard Captain.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/227_UM01 Aerieguard Captain.png"
 			}
 		},
 		{
@@ -185,9 +185,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{G}{U}",
 			"type": "Creature — Frog Noble",
-			"collector_number": "229",
+			"collector_number": "228",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/229_UM01 Cenote King.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/228_UM01 Cenote King.png"
 			}
 		},
 		{
@@ -195,9 +195,9 @@
 			"rarity": "mythic",
 			"mana_cost": "{1}{G}{U}{R}",
 			"type": "Legendary Creature — Bear Druid Ranger",
-			"collector_number": "213",
+			"collector_number": "212",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/213_Migronn, Steadfast Thyl.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/212_Migronn, Steadfast Thyl.png"
 			}
 		},
 		{
@@ -205,9 +205,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{W}{W}",
 			"type": "Creature — Bird Monk",
-			"collector_number": "14",
+			"collector_number": "13",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/14_CW01 Follower of the Updraft Path.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/13_CW01 Follower of the Updraft Path.png"
 			}
 		},
 		{
@@ -215,9 +215,9 @@
 			"rarity": "common",
 			"mana_cost": "{W}",
 			"type": "Creature — Fox Rogue Hero",
-			"collector_number": "15",
+			"collector_number": "14",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/15_CW02 Kitsan Knight-Errant.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/14_CW02 Kitsan Knight-Errant.png"
 			}
 		},
 		{
@@ -225,9 +225,9 @@
 			"rarity": "common",
 			"mana_cost": "{W}",
 			"type": "Creature — Rat Sorcerer",
-			"collector_number": "16",
+			"collector_number": "15",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/16_CW03 Petalseeker Mistress.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/15_CW03 Petalseeker Mistress.png"
 			}
 		},
 		{
@@ -235,9 +235,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{W}{W}",
 			"type": "Creature — Bird Monk",
-			"collector_number": "17",
+			"collector_number": "16",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/17_CW04 Truth Diviner.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/16_CW04 Truth Diviner.png"
 			}
 		},
 		{
@@ -245,9 +245,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{W}",
 			"type": "Creature — Cat Warrior",
-			"collector_number": "18",
+			"collector_number": "17",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/18_CW05 Confident Huntress.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/17_CW05 Confident Huntress.png"
 			}
 		},
 		{
@@ -255,9 +255,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{W}",
 			"type": "Creature — Rat Monk",
-			"collector_number": "19",
+			"collector_number": "18",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/19_CW06 Youngling Protector.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/18_CW06 Youngling Protector.png"
 			}
 		},
 		{
@@ -265,9 +265,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{W}",
 			"type": "Creature — Goat Bard",
-			"collector_number": "20",
+			"collector_number": "19",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/20_CW07 Stubborn Hornblower.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/19_CW07 Stubborn Hornblower.png"
 			}
 		},
 		{
@@ -275,9 +275,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{W}",
 			"type": "Creature — Bird Advisor",
-			"collector_number": "21",
+			"collector_number": "20",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/21_CW08 Cheerful Messenger.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/20_CW08 Cheerful Messenger.png"
 			}
 		},
 		{
@@ -285,9 +285,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{W}",
 			"type": "Creature — Bird Warrior Scout",
-			"collector_number": "22",
+			"collector_number": "21",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/22_CW09 Thraupian Harrier.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/21_CW09 Thraupian Harrier.png"
 			}
 		},
 		{
@@ -295,9 +295,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{W}",
 			"type": "Enchantment — Aura",
-			"collector_number": "23",
+			"collector_number": "22",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/23_CW10 Marks of Guilt.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/22_CW10 Marks of Guilt.png"
 			}
 		},
 		{
@@ -305,9 +305,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{W}{W}",
 			"type": "Creature — Cat Knight",
-			"collector_number": "24",
+			"collector_number": "23",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/24_CW11 Blue Sky Elite.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/23_CW11 Blue Sky Elite.png"
 			}
 		},
 		{
@@ -315,9 +315,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{W}",
 			"type": "Creature — Dog Soldier",
-			"collector_number": "25",
+			"collector_number": "24",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/25_CW12 City Gate Patrol.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/24_CW12 City Gate Patrol.png"
 			}
 		},
 		{
@@ -325,9 +325,9 @@
 			"rarity": "common",
 			"mana_cost": "{3}{W}",
 			"type": "Creature — Rat Citizen",
-			"collector_number": "26",
+			"collector_number": "25",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/26_CW13 Generous Vendor.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/25_CW13 Generous Vendor.png"
 			}
 		},
 		{
@@ -335,9 +335,9 @@
 			"rarity": "common",
 			"mana_cost": "{W}",
 			"type": "Instant",
-			"collector_number": "27",
+			"collector_number": "26",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/27_CW14 Blessing of Kaniya.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/26_CW14 Blessing of Kaniya.png"
 			}
 		},
 		{
@@ -345,9 +345,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{W}",
 			"type": "Enchantment — Aura",
-			"collector_number": "28",
+			"collector_number": "27",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/28_CW15 Dub.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/27_CW15 Dub.png"
 			}
 		},
 		{
@@ -355,9 +355,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{W}{W}",
 			"type": "Sorcery",
-			"collector_number": "29",
+			"collector_number": "28",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/29_CW16 Mobilize the Village.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/28_CW16 Mobilize the Village.png"
 			}
 		},
 		{
@@ -365,9 +365,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{W}",
 			"type": "Instant",
-			"collector_number": "30",
+			"collector_number": "29",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/30_CW17 Plucking A Thorn.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/29_CW17 Plucking A Thorn.png"
 			}
 		},
 		{
@@ -375,9 +375,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{W}",
 			"type": "Enchantment",
-			"collector_number": "31",
+			"collector_number": "30",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/31_CW18 Serene Crystallization.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/30_CW18 Serene Crystallization.png"
 			}
 		},
 		{
@@ -385,9 +385,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{W}",
 			"type": "Artifact",
-			"collector_number": "32",
+			"collector_number": "31",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/32_CW19 Ring of Assurance.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/31_CW19 Ring of Assurance.png"
 			}
 		},
 		{
@@ -395,9 +395,9 @@
 			"rarity": "common",
 			"mana_cost": "{U}",
 			"type": "Creature — Salamander Warrior",
-			"collector_number": "53",
+			"collector_number": "52",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/53_CU01 Xolotl Raider.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/52_CU01 Xolotl Raider.png"
 			}
 		},
 		{
@@ -405,9 +405,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{U}",
 			"type": "Creature — Turtle Elder Monk",
-			"collector_number": "54",
+			"collector_number": "53",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/54_CU02 Ortugan Elder.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/53_CU02 Ortugan Elder.png"
 			}
 		},
 		{
@@ -415,9 +415,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{U}",
 			"type": "Creature — Horse Wizard Advisor",
-			"collector_number": "55",
+			"collector_number": "54",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/55_CU03 Uncompromising Artist.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/54_CU03 Uncompromising Artist.png"
 			}
 		},
 		{
@@ -425,9 +425,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{U}",
 			"type": "Creature — Crocodile Knight",
-			"collector_number": "56",
+			"collector_number": "55",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/56_CU04 Kodiloan Sentry.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/55_CU04 Kodiloan Sentry.png"
 			}
 		},
 		{
@@ -435,9 +435,9 @@
 			"rarity": "common",
 			"mana_cost": "{3}{U}",
 			"type": "Creature — Salamander Soldier",
-			"collector_number": "57",
+			"collector_number": "56",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/57_CU05 Beachside Patrol.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/56_CU05 Beachside Patrol.png"
 			}
 		},
 		{
@@ -445,9 +445,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{U}",
 			"type": "Creature — Dog Wizard",
-			"collector_number": "58",
+			"collector_number": "57",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/58_CU06 Keensight Sorcerer.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/57_CU06 Keensight Sorcerer.png"
 			}
 		},
 		{
@@ -455,9 +455,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{U}{U}",
 			"type": "Creature — Shark Pirate",
-			"collector_number": "59",
+			"collector_number": "58",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/59_CU07 Hullcutter Duo.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/58_CU07 Hullcutter Duo.png"
 			}
 		},
 		{
@@ -465,9 +465,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{U}",
 			"type": "Creature — Shark Warrior",
-			"collector_number": "60",
+			"collector_number": "59",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/60_CU08 Selaki Stormrider.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/59_CU08 Selaki Stormrider.png"
 			}
 		},
 		{
@@ -475,9 +475,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{U}{U}",
 			"type": "Creature — Frog Soldier",
-			"collector_number": "61",
+			"collector_number": "60",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/61_CU09 Siltshore Sentinel.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/60_CU09 Siltshore Sentinel.png"
 			}
 		},
 		{
@@ -485,9 +485,9 @@
 			"rarity": "common",
 			"mana_cost": "{3}{U}{U}",
 			"type": "Creature — Bird Army",
-			"collector_number": "62",
+			"collector_number": "61",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/62_CU10 Armed Delegation.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/61_CU10 Armed Delegation.png"
 			}
 		},
 		{
@@ -495,9 +495,9 @@
 			"rarity": "common",
 			"mana_cost": "{4}{U}{U}",
 			"type": "Creature — Fish Beast",
-			"collector_number": "63",
+			"collector_number": "62",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/63_CU11 Elder Cirein.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/62_CU11 Elder Cirein.png"
 			}
 		},
 		{
@@ -505,9 +505,9 @@
 			"rarity": "common",
 			"mana_cost": "{U}",
 			"type": "Creature — Bird Mercenary",
-			"collector_number": "64",
+			"collector_number": "63",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/64_CU12 Brash Saorbeak.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/63_CU12 Brash Saorbeak.png"
 			}
 		},
 		{
@@ -515,9 +515,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{U}",
 			"type": "Artifact",
-			"collector_number": "65",
+			"collector_number": "64",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/65_CU13 Amulet of the Future.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/64_CU13 Amulet of the Future.png"
 			}
 		},
 		{
@@ -525,9 +525,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{U}",
 			"type": "Enchantment — Aura",
-			"collector_number": "66",
+			"collector_number": "65",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/66_CU14 Moonhalo Restraint.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/65_CU14 Moonhalo Restraint.png"
 			}
 		},
 		{
@@ -535,9 +535,9 @@
 			"rarity": "common",
 			"mana_cost": "{U}",
 			"type": "Instant",
-			"collector_number": "67",
+			"collector_number": "66",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/67_CU15 Unsummon.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/66_CU15 Unsummon.png"
 			}
 		},
 		{
@@ -545,9 +545,9 @@
 			"rarity": "common",
 			"mana_cost": "{U}",
 			"type": "Instant",
-			"collector_number": "68",
+			"collector_number": "67",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/68_CU16 Raise Shields.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/67_CU16 Raise Shields.png"
 			}
 		},
 		{
@@ -555,9 +555,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{U}",
 			"type": "Instant",
-			"collector_number": "69",
+			"collector_number": "68",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/69_CU17 Unweaving Ritual.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/68_CU17 Unweaving Ritual.png"
 			}
 		},
 		{
@@ -565,9 +565,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{U}",
 			"type": "Instant",
-			"collector_number": "70",
+			"collector_number": "69",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/70_CU18 Anticipate Their Next Moves.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/69_CU18 Anticipate Their Next Moves.png"
 			}
 		},
 		{
@@ -575,9 +575,9 @@
 			"rarity": "common",
 			"mana_cost": "{B}",
 			"type": "Creature — Rat Warrior",
-			"collector_number": "93",
+			"collector_number": "92",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/93_CB01 Battle-Weary Swordtail.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/92_CB01 Battle-Weary Swordtail.png"
 			}
 		},
 		{
@@ -585,9 +585,9 @@
 			"rarity": "common",
 			"mana_cost": "{B}",
 			"type": "Creature — Rat Warlock",
-			"collector_number": "94",
+			"collector_number": "93",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/94_CB02 Despair Path Master.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/93_CB02 Despair Path Master.png"
 			}
 		},
 		{
@@ -595,9 +595,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{B}",
 			"type": "Creature — Dog Warlock",
-			"collector_number": "95",
+			"collector_number": "94",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/95_CB03 Adept of the Blood Codex.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/94_CB03 Adept of the Blood Codex.png"
 			}
 		},
 		{
@@ -605,9 +605,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{B}",
 			"type": "Creature — Mouse Rat Soldier",
-			"collector_number": "96",
+			"collector_number": "95",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/96_CB04 Iron Empire Kenin.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/95_CB04 Iron Empire Kenin.png"
 			}
 		},
 		{
@@ -615,9 +615,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{B}",
 			"type": "Creature — Insect",
-			"collector_number": "97",
+			"collector_number": "96",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/97_CB05 Spiked Diggers.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/96_CB05 Spiked Diggers.png"
 			}
 		},
 		{
@@ -625,9 +625,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{B}",
 			"type": "Creature — Beast Horror",
-			"collector_number": "98",
+			"collector_number": "97",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/98_CB06 Moonwarped Beast.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/97_CB06 Moonwarped Beast.png"
 			}
 		},
 		{
@@ -635,9 +635,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{B}",
 			"type": "Creature — Bird Mercenary",
-			"collector_number": "99",
+			"collector_number": "98",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/99_CB07 Midnight Messenger.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/98_CB07 Midnight Messenger.png"
 			}
 		},
 		{
@@ -645,9 +645,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{B}",
 			"type": "Creature — Owl Rogue Wizard",
-			"collector_number": "100",
+			"collector_number": "99",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/100_CB08 Banished Clairvoyant.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/99_CB08 Banished Clairvoyant.png"
 			}
 		},
 		{
@@ -655,9 +655,9 @@
 			"rarity": "common",
 			"mana_cost": "{4}{B}{B}",
 			"type": "Creature — Rat Giant Barbarian",
-			"collector_number": "101",
+			"collector_number": "100",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/101_CB09 Escaped Lab Rat.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/100_CB09 Escaped Lab Rat.png"
 			}
 		},
 		{
@@ -665,9 +665,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{B}",
 			"type": "Creature — Drake",
-			"collector_number": "102",
+			"collector_number": "101",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/102_CB10 Snatcher Drakeling.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/101_CB10 Snatcher Drakeling.png"
 			}
 		},
 		{
@@ -675,9 +675,9 @@
 			"rarity": "common",
 			"mana_cost": "{3}{B}{B}",
 			"type": "Creature — Scorpion",
-			"collector_number": "103",
+			"collector_number": "102",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/103_CB11 Dalus Desert Askor.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/102_CB11 Dalus Desert Askor.png"
 			}
 		},
 		{
@@ -685,9 +685,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{B}{B}",
 			"type": "Instant",
-			"collector_number": "104",
+			"collector_number": "103",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/104_CB12 Sign Your Life Away.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/103_CB12 Sign Your Life Away.png"
 			}
 		},
 		{
@@ -695,9 +695,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{B}",
 			"type": "Instant",
-			"collector_number": "105",
+			"collector_number": "104",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/105_CB13 Infernal Resourcefulness.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/104_CB13 Infernal Resourcefulness.png"
 			}
 		},
 		{
@@ -705,9 +705,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{B}{B}",
 			"type": "Sorcery",
-			"collector_number": "106",
+			"collector_number": "105",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/106_CB14 Deceptive Wagering.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/105_CB14 Deceptive Wagering.png"
 			}
 		},
 		{
@@ -715,9 +715,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{B}",
 			"type": "Instant",
-			"collector_number": "107",
+			"collector_number": "106",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/107_CB15 Blow to the Pharynx.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/106_CB15 Blow to the Pharynx.png"
 			}
 		},
 		{
@@ -725,9 +725,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{B}",
 			"type": "Sorcery",
-			"collector_number": "108",
+			"collector_number": "107",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/108_CB16 Reluctant Companions.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/107_CB16 Reluctant Companions.png"
 			}
 		},
 		{
@@ -735,9 +735,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{B}",
 			"type": "Instant",
-			"collector_number": "109",
+			"collector_number": "108",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/109_CB17 Carnikinesis.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/108_CB17 Carnikinesis.png"
 			}
 		},
 		{
@@ -745,19 +745,19 @@
 			"rarity": "common",
 			"mana_cost": "{1}{B}",
 			"type": "Artifact",
-			"collector_number": "110",
+			"collector_number": "109",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/110_CB18 Unnerving Onyx.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/109_CB18 Unnerving Onyx.png"
 			}
 		},
 		{
-			"name": "CB19 1mv nonrem noncre",
+			"name": "CB19 Play Dead",
 			"rarity": "common",
 			"mana_cost": "{B}",
-			"type": "",
-			"collector_number": "111",
+			"type": "Instant",
+			"collector_number": "110",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/111_CB19 1mv nonrem noncre.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/110_CB19 Play Dead.png"
 			}
 		},
 		{
@@ -765,9 +765,9 @@
 			"rarity": "common",
 			"mana_cost": "{R}",
 			"type": "Creature — Dog Mercenary",
-			"collector_number": "132",
+			"collector_number": "131",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/132_CR01 Worldly Sellsword.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/131_CR01 Worldly Sellsword.png"
 			}
 		},
 		{
@@ -775,9 +775,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{R}",
 			"type": "Creature — Cat Warrior",
-			"collector_number": "133",
+			"collector_number": "132",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/133_CR02 Prepared Fortress Guard.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/132_CR02 Prepared Fortress Guard.png"
 			}
 		},
 		{
@@ -785,9 +785,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{R}",
 			"type": "Creature — Dragon Wizard Noble",
-			"collector_number": "134",
+			"collector_number": "133",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/134_CR03 Lafahdian Minister of the Arcane.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/133_CR03 Lafahdian Minister of the Arcane.png"
 			}
 		},
 		{
@@ -795,9 +795,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{R}{R}",
 			"type": "Creature — Minotaur Citizen",
-			"collector_number": "136",
+			"collector_number": "135",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/136_CR05 Mountain Miner.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/135_CR05 Mountain Miner.png"
 			}
 		},
 		{
@@ -805,9 +805,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{R}{R}",
 			"type": "Creature — Lizard Scout Wizard",
-			"collector_number": "137",
+			"collector_number": "136",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/137_CR06 Adventuring Mages of Squa.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/136_CR06 Adventuring Mages of Squa.png"
 			}
 		},
 		{
@@ -815,9 +815,9 @@
 			"rarity": "common",
 			"mana_cost": "{R}",
 			"type": "Creature — Dog Warrior",
-			"collector_number": "138",
+			"collector_number": "137",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/138_CR07 Aardite Brute.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/137_CR07 Aardite Brute.png"
 			}
 		},
 		{
@@ -825,9 +825,9 @@
 			"rarity": "common",
 			"mana_cost": "{3}{R}{R}",
 			"type": "Creature — Raccoon Rogue",
-			"collector_number": "139",
+			"collector_number": "138",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/139_CR08 Eccentric Scavenger.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/138_CR08 Eccentric Scavenger.png"
 			}
 		},
 		{
@@ -835,29 +835,29 @@
 			"rarity": "common",
 			"mana_cost": "{1}{R}{R}",
 			"type": "Creature — Dog Army",
+			"collector_number": "139",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/MST-files/img/139_CR09 Army of West Khyth.png"
+			}
+		},
+		{
+			"name": "CR10 Greater Imaca",
+			"rarity": "common",
+			"mana_cost": "{4}{R}{R}",
+			"type": "Creature — Lizard Beast",
 			"collector_number": "140",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/140_CR09 Army of West Khyth.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/140_CR10 Greater Imaca.png"
 			}
 		},
 		{
-			"name": "CR10 6-7cmc crea",
-			"rarity": "common",
-			"mana_cost": "",
-			"type": "Creature",
-			"collector_number": "141",
-			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/141_CR10 6-7cmc crea.png"
-			}
-		},
-		{
-			"name": "CR11 undecided",
+			"name": "CR11 undecided creature",
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "",
-			"collector_number": "142",
+			"collector_number": "141",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/142_CR11 undecided.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/141_CR11 undecided creature.png"
 			}
 		},
 		{
@@ -865,9 +865,9 @@
 			"rarity": "common",
 			"mana_cost": "{R}",
 			"type": "Instant",
-			"collector_number": "143",
+			"collector_number": "142",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/143_CR12 Sprite Bolt.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/142_CR12 Sprite Bolt.png"
 			}
 		},
 		{
@@ -875,9 +875,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{R}",
 			"type": "Instant",
-			"collector_number": "144",
+			"collector_number": "143",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/144_CR13 Sound the Dragonhorn.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/143_CR13 Sound the Dragonhorn.png"
 			}
 		},
 		{
@@ -885,9 +885,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{R}{R}",
 			"type": "Sorcery",
-			"collector_number": "145",
+			"collector_number": "144",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/145_CR14 Smash Open.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/144_CR14 Smash Open.png"
 			}
 		},
 		{
@@ -895,9 +895,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{R}",
 			"type": "Artifact",
-			"collector_number": "146",
+			"collector_number": "145",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/146_CR15 Entrancing Ruby.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/145_CR15 Entrancing Ruby.png"
 			}
 		},
 		{
@@ -905,9 +905,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{R}",
 			"type": "Instant",
-			"collector_number": "147",
+			"collector_number": "146",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/147_CR16 Storm's Strike.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/146_CR16 Storm's Strike.png"
 			}
 		},
 		{
@@ -915,9 +915,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{R}",
 			"type": "Sorcery",
-			"collector_number": "148",
+			"collector_number": "147",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/148_CR17 Fireside Tales.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/147_CR17 Fireside Tales.png"
 			}
 		},
 		{
@@ -925,19 +925,19 @@
 			"rarity": "common",
 			"mana_cost": "{3}{R}{R}",
 			"type": "Instant",
-			"collector_number": "149",
+			"collector_number": "148",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/149_CR18 Flames of Passion.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/148_CR18 Flames of Passion.png"
 			}
 		},
 		{
-			"name": "CR19",
+			"name": "CR19 Driven to Destruction",
 			"rarity": "common",
-			"mana_cost": "{R}",
+			"mana_cost": "{2}{R}{R}",
 			"type": "Sorcery",
-			"collector_number": "150",
+			"collector_number": "149",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/150_CR19.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/149_CR19 Driven to Destruction.png"
 			}
 		},
 		{
@@ -945,9 +945,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{G}",
 			"type": "Creature — Cat Druid Mercenary",
-			"collector_number": "171",
+			"collector_number": "170",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/171_CG01 Flower Stalker.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/170_CG01 Flower Stalker.png"
 			}
 		},
 		{
@@ -955,9 +955,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{G}",
 			"type": "Creature — Deer Cleric",
-			"collector_number": "172",
+			"collector_number": "171",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/172_CG02 Sika Matriarch.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/171_CG02 Sika Matriarch.png"
 			}
 		},
 		{
@@ -965,9 +965,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{G}",
 			"type": "Creature — Bear Citizen",
-			"collector_number": "173",
+			"collector_number": "172",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/173_CG03 Unphased Journeyers.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/172_CG03 Unphased Journeyers.png"
 			}
 		},
 		{
@@ -975,9 +975,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{G}",
 			"type": "Creature — Lizard Scout Advisor",
-			"collector_number": "174",
+			"collector_number": "173",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/174_CG04 Fangscale Geologist.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/173_CG04 Fangscale Geologist.png"
 			}
 		},
 		{
@@ -985,9 +985,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{G}",
 			"type": "Creature — Rat Warrior",
-			"collector_number": "175",
+			"collector_number": "174",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/175_CG05 Night-Stroll Guardian.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/174_CG05 Night-Stroll Guardian.png"
 			}
 		},
 		{
@@ -995,9 +995,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{G}{G}",
 			"type": "Creature — Beast Archer",
-			"collector_number": "176",
+			"collector_number": "175",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/176_CG06 Glacier Lookout.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/175_CG06 Glacier Lookout.png"
 			}
 		},
 		{
@@ -1005,9 +1005,9 @@
 			"rarity": "common",
 			"mana_cost": "{3}{G}",
 			"type": "Creature — Cat Druid",
-			"collector_number": "177",
+			"collector_number": "176",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/177_CG07 Wildheart Guardian.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/176_CG07 Wildheart Guardian.png"
 			}
 		},
 		{
@@ -1015,9 +1015,9 @@
 			"rarity": "common",
 			"mana_cost": "{3}{G}{G}",
 			"type": "Creature — Fish Horse",
-			"collector_number": "178",
+			"collector_number": "177",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/178_CG08 School of Seaquids.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/177_CG08 School of Seaquids.png"
 			}
 		},
 		{
@@ -1025,9 +1025,9 @@
 			"rarity": "common",
 			"mana_cost": "{4}{G}{G}",
 			"type": "Creature — Bear Noble Advisor",
-			"collector_number": "179",
+			"collector_number": "178",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/179_CG09 Sociable Inn Owner.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/178_CG09 Sociable Inn Owner.png"
 			}
 		},
 		{
@@ -1035,9 +1035,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{G}{G}",
 			"type": "Creature — Rat Druid Warlock",
-			"collector_number": "180",
+			"collector_number": "179",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/180_CG10 Unconventional Summoner.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/179_CG10 Unconventional Summoner.png"
 			}
 		},
 		{
@@ -1045,9 +1045,9 @@
 			"rarity": "common",
 			"mana_cost": "{G}",
 			"type": "Creature — Dog Druid Rogue",
-			"collector_number": "181",
+			"collector_number": "180",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/181_CG11 Scallywag Tracker.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/180_CG11 Scallywag Tracker.png"
 			}
 		},
 		{
@@ -1055,19 +1055,19 @@
 			"rarity": "common",
 			"mana_cost": "{1}{G}",
 			"type": "Instant",
-			"collector_number": "182",
+			"collector_number": "181",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/182_CG12 Thunder God's Boon.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/181_CG12 Thunder God's Boon.png"
 			}
 		},
 		{
-			"name": "CG13 bite ins or sorc",
+			"name": "CG13 Haul In the Nets",
 			"rarity": "common",
-			"mana_cost": "",
-			"type": "",
-			"collector_number": "183",
+			"mana_cost": "{1}{G}",
+			"type": "Sorcery",
+			"collector_number": "182",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/183_CG13 bite ins or sorc.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/182_CG13 Haul In the Nets.png"
 			}
 		},
 		{
@@ -1075,9 +1075,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{G}",
 			"type": "Instant",
-			"collector_number": "184",
+			"collector_number": "183",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/184_CG14 Grapple with the Past.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/183_CG14 Grapple with the Past.png"
 			}
 		},
 		{
@@ -1085,9 +1085,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{G}",
 			"type": "Instant",
-			"collector_number": "185",
+			"collector_number": "184",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/185_CG15 Moonguided Shot.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/184_CG15 Moonguided Shot.png"
 			}
 		},
 		{
@@ -1095,9 +1095,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{G}",
 			"type": "Instant",
-			"collector_number": "186",
+			"collector_number": "185",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/186_CG16 Ruined Relics.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/185_CG16 Ruined Relics.png"
 			}
 		},
 		{
@@ -1105,9 +1105,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{G}",
 			"type": "Enchantment — Aura",
-			"collector_number": "187",
+			"collector_number": "186",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/187_CG17 Limb Enhancement.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/186_CG17 Limb Enhancement.png"
 			}
 		},
 		{
@@ -1115,9 +1115,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{G}",
 			"type": "Instant",
-			"collector_number": "188",
+			"collector_number": "187",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/188_CG18 Tangled in Crops.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/187_CG18 Tangled in Crops.png"
 			}
 		},
 		{
@@ -1125,9 +1125,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{G}",
 			"type": "Artifact",
-			"collector_number": "189",
+			"collector_number": "188",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/189_CG19 Shard of Growth.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/188_CG19 Shard of Growth.png"
 			}
 		},
 		{
@@ -1135,9 +1135,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{W}",
 			"type": "Creature — Cat Warrior Rogue",
-			"collector_number": "42",
+			"collector_number": "41",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/42_UW01 Rooftop Pouncer.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/41_UW01 Rooftop Pouncer.png"
 			}
 		},
 		{
@@ -1145,9 +1145,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{W}",
 			"type": "Creature — Bird Army",
-			"collector_number": "43",
+			"collector_number": "42",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/43_UW02 Hagzaga Squadron.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/42_UW02 Hagzaga Squadron.png"
 			}
 		},
 		{
@@ -1155,9 +1155,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{W}{W}",
 			"type": "Creature — Cat Noble Advisor",
-			"collector_number": "44",
+			"collector_number": "43",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/44_UW03 Duchess of the Trials.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/43_UW03 Duchess of the Trials.png"
 			}
 		},
 		{
@@ -1165,9 +1165,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{W}",
 			"type": "Creature — Dog Knight Doctor",
-			"collector_number": "45",
+			"collector_number": "44",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/45_UW04 Stoic Medic.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/44_UW04 Stoic Medic.png"
 			}
 		},
 		{
@@ -1175,9 +1175,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{W}{W}",
 			"type": "Creature — Bird Warrior Monk",
-			"collector_number": "46",
+			"collector_number": "45",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/46_UW05 Spire Guru.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/45_UW05 Spire Guru.png"
 			}
 		},
 		{
@@ -1185,9 +1185,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{W}{W}",
 			"type": "Sorcery",
-			"collector_number": "47",
+			"collector_number": "46",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/47_UW06 Contemplative Relaxation.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/46_UW06 Contemplative Relaxation.png"
 			}
 		},
 		{
@@ -1195,9 +1195,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{W}{W}",
 			"type": "Creature — Bird Hero",
-			"collector_number": "48",
+			"collector_number": "47",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/48_UW07 Sunblaze Aerie Delegate.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/47_UW07 Sunblaze Aerie Delegate.png"
 			}
 		},
 		{
@@ -1205,9 +1205,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{W}{W}",
 			"type": "Creature — Cat Noble Army",
-			"collector_number": "49",
+			"collector_number": "48",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/49_UW08 Lafahd Royal Expedition.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/48_UW08 Lafahd Royal Expedition.png"
 			}
 		},
 		{
@@ -1215,9 +1215,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{W}{W}",
 			"type": "Sorcery",
-			"collector_number": "50",
+			"collector_number": "49",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/50_UW09 Rewoven Fates.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/49_UW09 Rewoven Fates.png"
 			}
 		},
 		{
@@ -1225,9 +1225,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{W}",
 			"type": "Enchantment — Aura",
-			"collector_number": "51",
+			"collector_number": "50",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/51_UW10 Bracer of Light.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/50_UW10 Bracer of Light.png"
 			}
 		},
 		{
@@ -1235,9 +1235,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{W}{W}",
 			"type": "Instant",
-			"collector_number": "52",
+			"collector_number": "51",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/52_UW11 Storm of Defiance.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/51_UW11 Storm of Defiance.png"
 			}
 		},
 		{
@@ -1245,9 +1245,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{U}{U}",
 			"type": "Creature — Bird Scout",
-			"collector_number": "81",
+			"collector_number": "80",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/81_UU01 Ridgeline Monitor.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/80_UU01 Ridgeline Monitor.png"
 			}
 		},
 		{
@@ -1255,9 +1255,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{6}{U}{U}",
 			"type": "Creature — Salamander Giant",
-			"collector_number": "82",
+			"collector_number": "81",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/82_UU02 Isthmus Guardian.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/81_UU02 Isthmus Guardian.png"
 			}
 		},
 		{
@@ -1265,9 +1265,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{U}",
 			"type": "Creature — Cat Rogue",
-			"collector_number": "83",
+			"collector_number": "82",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/83_UU03 Veteran Burglar.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/82_UU03 Veteran Burglar.png"
 			}
 		},
 		{
@@ -1275,9 +1275,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{U}",
 			"type": "Creature — Lizard Monk",
-			"collector_number": "84",
+			"collector_number": "83",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/84_UU04 Stormwind Master.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/83_UU04 Stormwind Master.png"
 			}
 		},
 		{
@@ -1285,9 +1285,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{U}",
 			"type": "Creature — Shark Rogue Warrior",
-			"collector_number": "85",
+			"collector_number": "84",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/85_UU05 Slicefin Thief.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/84_UU05 Slicefin Thief.png"
 			}
 		},
 		{
@@ -1295,9 +1295,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{U}{U}",
 			"type": "Creature — Crab Horror",
-			"collector_number": "86",
+			"collector_number": "85",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/86_UU06 Thundersnap Toxibrach.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/85_UU06 Thundersnap Toxibrach.png"
 			}
 		},
 		{
@@ -1305,9 +1305,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{U}{U}",
 			"type": "Enchantment — Aura",
-			"collector_number": "87",
+			"collector_number": "86",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/87_UU07 Hydrokinetic Mastery.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/86_UU07 Hydrokinetic Mastery.png"
 			}
 		},
 		{
@@ -1315,9 +1315,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{U}",
 			"type": "Instant",
-			"collector_number": "88",
+			"collector_number": "87",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/88_UU08 Empowered Unraveling.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/87_UU08 Empowered Unraveling.png"
 			}
 		},
 		{
@@ -1325,9 +1325,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{U}",
 			"type": "Instant",
-			"collector_number": "89",
+			"collector_number": "88",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/89_UU09 Runic Restraints.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/88_UU09 Runic Restraints.png"
 			}
 		},
 		{
@@ -1335,9 +1335,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{U}",
 			"type": "Sorcery",
-			"collector_number": "90",
+			"collector_number": "89",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/90_UU10 Summon the Soulchasers.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/89_UU10 Summon the Soulchasers.png"
 			}
 		},
 		{
@@ -1345,9 +1345,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{U}",
 			"type": "Instant",
-			"collector_number": "91",
+			"collector_number": "90",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/91_UU11 Relevant Texts.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/90_UU11 Relevant Texts.png"
 			}
 		},
 		{
@@ -1355,9 +1355,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{B}{B}",
 			"type": "Creature — Cat Warlock Rogue",
-			"collector_number": "121",
+			"collector_number": "120",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/121_UB01 Darkside Wish-granter.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/120_UB01 Darkside Wish-granter.png"
 			}
 		},
 		{
@@ -1365,9 +1365,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{B}{B}",
 			"type": "Creature — Rat Assassin",
-			"collector_number": "122",
+			"collector_number": "121",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/122_UB02 Shadowspiller.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/121_UB02 Shadowspiller.png"
 			}
 		},
 		{
@@ -1375,9 +1375,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{B}",
 			"type": "Creature — Merfolk Warrior",
-			"collector_number": "123",
+			"collector_number": "122",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/123_UB03 Piraji Ambusher.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/122_UB03 Piraji Ambusher.png"
 			}
 		},
 		{
@@ -1385,9 +1385,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{B}",
 			"type": "Creature — Bird Zombie",
-			"collector_number": "124",
+			"collector_number": "123",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/124_UB04 Evercursed.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/123_UB04 Evercursed.png"
 			}
 		},
 		{
@@ -1395,9 +1395,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{B}{B}",
 			"type": "Creature — Bird Warlock",
-			"collector_number": "125",
+			"collector_number": "124",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/125_UB05 Hermit of Erud Swamp.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/124_UB05 Hermit of Erud Swamp.png"
 			}
 		},
 		{
@@ -1405,9 +1405,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{B}{B}",
 			"type": "Creature — Rat Knight",
-			"collector_number": "126",
+			"collector_number": "125",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/126_UB06 Iron Empire Elite.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/125_UB06 Iron Empire Elite.png"
 			}
 		},
 		{
@@ -1415,9 +1415,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{B}{B}",
 			"type": "Creature — Goat Nightmare",
-			"collector_number": "127",
+			"collector_number": "126",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/127_UB07 Eater of the Forgotten.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/126_UB07 Eater of the Forgotten.png"
 			}
 		},
 		{
@@ -1425,9 +1425,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{B}{B}",
 			"type": "Sorcery",
-			"collector_number": "128",
+			"collector_number": "127",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/128_UB08 Withering Grief.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/127_UB08 Withering Grief.png"
 			}
 		},
 		{
@@ -1435,9 +1435,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{B}",
 			"type": "Sorcery",
-			"collector_number": "129",
+			"collector_number": "128",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/129_UB09 Necromancer's Whim.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/128_UB09 Necromancer's Whim.png"
 			}
 		},
 		{
@@ -1445,9 +1445,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{B}",
 			"type": "Instant",
-			"collector_number": "130",
+			"collector_number": "129",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/130_UB10 Alleyway Ambush.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/129_UB10 Alleyway Ambush.png"
 			}
 		},
 		{
@@ -1455,9 +1455,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{B}",
 			"type": "Sorcery",
-			"collector_number": "131",
+			"collector_number": "130",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/131_UB11 Commune with Shadows.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/130_UB11 Commune with Shadows.png"
 			}
 		},
 		{
@@ -1465,9 +1465,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{R}",
 			"type": "Creature — Wolf Warlock Druid",
-			"collector_number": "160",
+			"collector_number": "159",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/160_UR01 Priest of Primordial Fire.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/159_UR01 Priest of Primordial Fire.png"
 			}
 		},
 		{
@@ -1475,9 +1475,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{R}{R}",
 			"type": "Creature — Dragon Warlock",
-			"collector_number": "161",
+			"collector_number": "160",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/161_UR02 Jack of All Spells.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/160_UR02 Jack of All Spells.png"
 			}
 		},
 		{
@@ -1485,9 +1485,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{R}{R}",
 			"type": "Legendary Creature — Fox Wizard",
-			"collector_number": "162",
+			"collector_number": "161",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/162_UR03 Navu, Eager Pyromancer.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/161_UR03 Navu, Eager Pyromancer.png"
 			}
 		},
 		{
@@ -1495,9 +1495,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{R}",
 			"type": "Creature — Wolf Warrior",
-			"collector_number": "163",
+			"collector_number": "162",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/163_UR04 Dashing Vigilante.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/162_UR04 Dashing Vigilante.png"
 			}
 		},
 		{
@@ -1505,9 +1505,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{4}{R}{R}",
 			"type": "Creature — Beast Warrior Wizard",
-			"collector_number": "164",
+			"collector_number": "163",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/164_UR05 Flux Initiate.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/163_UR05 Flux Initiate.png"
 			}
 		},
 		{
@@ -1515,9 +1515,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{R}",
 			"type": "Creature — Beast Mercenary",
-			"collector_number": "165",
+			"collector_number": "164",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/165_UR06 Streetwise Adventurer.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/164_UR06 Streetwise Adventurer.png"
 			}
 		},
 		{
@@ -1525,9 +1525,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{R}",
 			"type": "Sorcery",
-			"collector_number": "166",
+			"collector_number": "165",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/166_UR07 Dance of Fire.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/165_UR07 Dance of Fire.png"
 			}
 		},
 		{
@@ -1535,9 +1535,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{R}{R}",
 			"type": "Sorcery",
-			"collector_number": "167",
+			"collector_number": "166",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/167_UR08 Storm the Palace.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/166_UR08 Storm the Palace.png"
 			}
 		},
 		{
@@ -1545,9 +1545,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{R}",
 			"type": "Sorcery",
-			"collector_number": "168",
+			"collector_number": "167",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/168_UR09 Shattershot.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/167_UR09 Shattershot.png"
 			}
 		},
 		{
@@ -1555,9 +1555,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{R}",
 			"type": "Sorcery",
-			"collector_number": "169",
+			"collector_number": "168",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/169_UR10 Psychic Enslavement.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/168_UR10 Psychic Enslavement.png"
 			}
 		},
 		{
@@ -1565,19 +1565,19 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{R}{R}",
 			"type": "Enchantment — Aura",
-			"collector_number": "170",
+			"collector_number": "169",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/170_UR11 Phoenix Mantle.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/169_UR11 Phoenix Mantle.png"
 			}
 		},
 		{
-			"name": "UG01 naturalizer creature",
+			"name": "UG01 Summer Coast Druid",
 			"rarity": "uncommon",
-			"mana_cost": "",
-			"type": "Creature",
-			"collector_number": "199",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Cat Druid",
+			"collector_number": "198",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/199_UG01 naturalizer creature.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/198_UG01 Summer Coast Druid.png"
 			}
 		},
 		{
@@ -1585,9 +1585,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{G}",
 			"type": "Creature — Crocodile Warlock Warrior",
-			"collector_number": "200",
+			"collector_number": "199",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/200_UG02 Bellowdepths Channeler.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/199_UG02 Bellowdepths Channeler.png"
 			}
 		},
 		{
@@ -1595,9 +1595,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{G}{G}",
 			"type": "Creature — Lizard Druid Warlock",
-			"collector_number": "201",
+			"collector_number": "200",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/201_UG03 Matriarch of Ancient Ways.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/200_UG03 Matriarch of Ancient Ways.png"
 			}
 		},
 		{
@@ -1605,9 +1605,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{G}",
 			"type": "Creature — Fox Scout",
-			"collector_number": "202",
+			"collector_number": "201",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/202_UG04 Lafahd Sandsprinter.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/201_UG04 Lafahd Sandsprinter.png"
 			}
 		},
 		{
@@ -1615,9 +1615,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Creature",
-			"collector_number": "203",
+			"collector_number": "202",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/203_UG05 Rat Token Generator Cre.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/202_UG05 Rat Token Generator Cre.png"
 			}
 		},
 		{
@@ -1625,9 +1625,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{4}{G}{G}",
 			"type": "Creature — Frog Mutant",
-			"collector_number": "204",
+			"collector_number": "203",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/204_UG06 Escaped Anuroid.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/203_UG06 Escaped Anuroid.png"
 			}
 		},
 		{
@@ -1635,9 +1635,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{4}{G}",
 			"type": "Enchantment",
-			"collector_number": "205",
+			"collector_number": "204",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/205_UG07 Solidarity.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/204_UG07 Solidarity.png"
 			}
 		},
 		{
@@ -1645,9 +1645,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{G}",
 			"type": "Enchantment",
-			"collector_number": "206",
+			"collector_number": "205",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/206_UG08 Building the Frontier.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/205_UG08 Building the Frontier.png"
 			}
 		},
 		{
@@ -1655,9 +1655,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{G}",
 			"type": "Sorcery",
-			"collector_number": "207",
+			"collector_number": "206",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/207_UG09 Visions of Other Worlds.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/206_UG09 Visions of Other Worlds.png"
 			}
 		},
 		{
@@ -1665,9 +1665,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{G}{G}",
 			"type": "Sorcery",
-			"collector_number": "208",
+			"collector_number": "207",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/208_UG10 Jade Ritual.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/207_UG10 Jade Ritual.png"
 			}
 		},
 		{
@@ -1675,9 +1675,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{G}",
 			"type": "Sorcery",
-			"collector_number": "209",
+			"collector_number": "208",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/209_UG11 Under the Iron Capitol.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/208_UG11 Under the Iron Capitol.png"
 			}
 		},
 		{
@@ -1685,9 +1685,9 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{W}{W}",
 			"type": "Legendary Creature — Cat Hero",
-			"collector_number": "35",
+			"collector_number": "34",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/35_RW01 Pauri Esken, Mounted Justice.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/34_RW01 Pauri Esken, Mounted Justice.png"
 			}
 		},
 		{
@@ -1695,9 +1695,9 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{W}",
 			"type": "Creature — Rat Noble",
-			"collector_number": "36",
+			"collector_number": "35",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/36_RW02 Rouser Elder.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/35_RW02 Rouser Elder.png"
 			}
 		},
 		{
@@ -1705,9 +1705,9 @@
 			"rarity": "rare",
 			"mana_cost": "{4}{W}{W}",
 			"type": "Creature — Bird Cleric Knight",
-			"collector_number": "37",
+			"collector_number": "36",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/37_RW03 Circumzenith Commander.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/36_RW03 Circumzenith Commander.png"
 			}
 		},
 		{
@@ -1715,9 +1715,9 @@
 			"rarity": "rare",
 			"mana_cost": "{3}{W}{W}",
 			"type": "Creature — Bear Knight Soldier",
-			"collector_number": "38",
+			"collector_number": "37",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/38_RW04 General of the Guards.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/37_RW04 General of the Guards.png"
 			}
 		},
 		{
@@ -1725,9 +1725,9 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{W}",
 			"type": "Creature — Rat Army",
-			"collector_number": "39",
+			"collector_number": "38",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/39_RW05 Iron Empire Brigade.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/38_RW05 Iron Empire Brigade.png"
 			}
 		},
 		{
@@ -1735,9 +1735,9 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{W}",
 			"type": "Instant",
-			"collector_number": "40",
+			"collector_number": "39",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/40_RW06 Vow of Justice.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/39_RW06 Vow of Justice.png"
 			}
 		},
 		{
@@ -1745,9 +1745,9 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{W}",
 			"type": "Enchantment",
-			"collector_number": "41",
+			"collector_number": "40",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/41_RW07 Rest in Peace.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/40_RW07 Rest in Peace.png"
 			}
 		},
 		{
@@ -1755,9 +1755,9 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{U}",
 			"type": "Creature — Lizard Artificer Advisor",
-			"collector_number": "74",
+			"collector_number": "73",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/74_RU01 Cunning Trader.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/73_RU01 Cunning Trader.png"
 			}
 		},
 		{
@@ -1765,19 +1765,19 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{U}",
 			"type": "Creature — Bird Wizard",
-			"collector_number": "75",
+			"collector_number": "74",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/75_RU02 Supercell Channeler.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/74_RU02 Supercell Channeler.png"
 			}
 		},
 		{
-			"name": "RU03",
+			"name": "RU03 Mistress of Misplacement",
 			"rarity": "rare",
-			"mana_cost": "",
-			"type": "",
-			"collector_number": "76",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Cat Rogue Assassin",
+			"collector_number": "75",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/76_RU03.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/75_RU03 Mistress of Misplacement.png"
 			}
 		},
 		{
@@ -1785,9 +1785,9 @@
 			"rarity": "rare",
 			"mana_cost": "{8}{U}{U}",
 			"type": "Creature — Bird Giant Mutant",
-			"collector_number": "77",
+			"collector_number": "76",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/77_RU04 Titanic Rudan.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/76_RU04 Titanic Rudan.png"
 			}
 		},
 		{
@@ -1795,9 +1795,9 @@
 			"rarity": "rare",
 			"mana_cost": "{3}{U}{U}",
 			"type": "Sorcery",
-			"collector_number": "78",
+			"collector_number": "77",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/78_RU05 Twilight Pickpocketing.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/77_RU05 Twilight Pickpocketing.png"
 			}
 		},
 		{
@@ -1805,9 +1805,9 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{U}{U}",
 			"type": "Sorcery",
-			"collector_number": "79",
+			"collector_number": "78",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/79_RU06 Pass Down Secrets.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/78_RU06 Pass Down Secrets.png"
 			}
 		},
 		{
@@ -1815,9 +1815,9 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{U}{U}",
 			"type": "Sorcery",
-			"collector_number": "80",
+			"collector_number": "79",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/80_RU07 Dance of the New Cycle.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/79_RU07 Dance of the New Cycle.png"
 			}
 		},
 		{
@@ -1825,19 +1825,19 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{B}",
 			"type": "Legendary Creature — Rat Cleric",
-			"collector_number": "114",
+			"collector_number": "113",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/114_RB01 Speaker of Ancient Gods.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/113_RB01 Speaker of Ancient Gods.png"
 			}
 		},
 		{
-			"name": "RB02 1cost rat crea w evasion",
+			"name": "RB02 Honortail Paragon",
 			"rarity": "rare",
-			"mana_cost": "",
-			"type": "",
-			"collector_number": "115",
+			"mana_cost": "{B}",
+			"type": "Creature — Rat Warrior Monk",
+			"collector_number": "114",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/115_RB02 1cost rat crea w evasion.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/114_RB02 Honortail Paragon.png"
 			}
 		},
 		{
@@ -1845,9 +1845,9 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{B}{B}",
 			"type": "Legendary Creature — Wolf Warlock",
-			"collector_number": "116",
+			"collector_number": "115",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/116_RB03 Neshezoi, Mad Harbinger.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/115_RB03 Neshezoi, Mad Harbinger.png"
 			}
 		},
 		{
@@ -1855,9 +1855,9 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{B}",
 			"type": "Creature — Bat Warlock",
-			"collector_number": "117",
+			"collector_number": "116",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/117_RB04 Memorivore Witch.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/116_RB04 Memorivore Witch.png"
 			}
 		},
 		{
@@ -1865,9 +1865,9 @@
 			"rarity": "rare",
 			"mana_cost": "{3}{B}{B}",
 			"type": "Sorcery",
-			"collector_number": "118",
+			"collector_number": "117",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/118_RB05 Brawl at the Docks.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/117_RB05 Brawl at the Docks.png"
 			}
 		},
 		{
@@ -1875,9 +1875,9 @@
 			"rarity": "rare",
 			"mana_cost": "{B}",
 			"type": "Sorcery",
-			"collector_number": "119",
+			"collector_number": "118",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/119_RB06 Power from Pain.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/118_RB06 Power from Pain.png"
 			}
 		},
 		{
@@ -1885,9 +1885,9 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{B}{B}",
 			"type": "Enchantment",
-			"collector_number": "120",
+			"collector_number": "119",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/120_RB07 Return to Instinct.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/119_RB07 Return to Instinct.png"
 			}
 		},
 		{
@@ -1895,9 +1895,9 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{R}{R}",
 			"type": "Creature — Rhino Warrior",
-			"collector_number": "153",
+			"collector_number": "152",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/153_RR01 Longsight Siege Brother.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/152_RR01 Longsight Siege Brother.png"
 			}
 		},
 		{
@@ -1905,9 +1905,9 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{R}",
 			"type": "Creature — Ox Warlock Warrior",
-			"collector_number": "154",
+			"collector_number": "153",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/154_RR02 Icespine Range Magstier.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/153_RR02 Icespine Range Magstier.png"
 			}
 		},
 		{
@@ -1915,9 +1915,9 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{R}",
 			"type": "Legendary Creature — Raccoon Artificer",
-			"collector_number": "155",
+			"collector_number": "154",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/155_RR03 Visionary Metalsmith.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/154_RR03 Visionary Metalsmith.png"
 			}
 		},
 		{
@@ -1925,9 +1925,9 @@
 			"rarity": "rare",
 			"mana_cost": "{5}{R}{R}",
 			"type": "Creature — Plant Mutant",
-			"collector_number": "156",
+			"collector_number": "155",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/156_RR04 Carnivorous Blossom.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/155_RR04 Carnivorous Blossom.png"
 			}
 		},
 		{
@@ -1935,9 +1935,9 @@
 			"rarity": "rare",
 			"mana_cost": "{3}{R}{R}",
 			"type": "Sorcery",
-			"collector_number": "157",
+			"collector_number": "156",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/157_RR05 Boltwhirl.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/156_RR05 Boltwhirl.png"
 			}
 		},
 		{
@@ -1945,9 +1945,9 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{R}{R}",
 			"type": "Enchantment — Aura",
-			"collector_number": "158",
+			"collector_number": "157",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/158_RR06 Blazing Technique.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/157_RR06 Blazing Technique.png"
 			}
 		},
 		{
@@ -1955,9 +1955,9 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{R}{R}",
 			"type": "Enchantment",
-			"collector_number": "159",
+			"collector_number": "158",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/159_RR07 In the Presence of Greatness.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/158_RR07 In the Presence of Greatness.png"
 			}
 		},
 		{
@@ -1965,9 +1965,9 @@
 			"rarity": "rare",
 			"mana_cost": "{3}{G}{G}",
 			"type": "Legendary Creature — Bear Knight",
-			"collector_number": "192",
+			"collector_number": "191",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/192_RG01 Gruszalb, Chief Mountain.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/191_RG01 Gruszalb, Chief Mountain.png"
 			}
 		},
 		{
@@ -1975,9 +1975,9 @@
 			"rarity": "rare",
 			"mana_cost": "{3}{G}",
 			"type": "Creature — Deer Druid Warlock",
-			"collector_number": "193",
+			"collector_number": "192",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/193_RG02 Exiled Worldspeaker.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/192_RG02 Exiled Worldspeaker.png"
 			}
 		},
 		{
@@ -1985,9 +1985,9 @@
 			"rarity": "rare",
 			"mana_cost": "",
 			"type": "",
-			"collector_number": "194",
+			"collector_number": "193",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/194_RG03 gw-related crea.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/193_RG03 gw-related crea.png"
 			}
 		},
 		{
@@ -1995,9 +1995,9 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{G}{G}",
 			"type": "Creature — Cat Noble Warlock",
-			"collector_number": "195",
+			"collector_number": "194",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/195_RG04 Seeker of Strength.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/194_RG04 Seeker of Strength.png"
 			}
 		},
 		{
@@ -2005,9 +2005,9 @@
 			"rarity": "rare",
 			"mana_cost": "",
 			"type": "",
-			"collector_number": "196",
+			"collector_number": "195",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/196_RG05 BG-related Crea.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/195_RG05 BG-related Crea.png"
 			}
 		},
 		{
@@ -2015,9 +2015,9 @@
 			"rarity": "rare",
 			"mana_cost": "",
 			"type": "",
-			"collector_number": "197",
+			"collector_number": "196",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/197_RG06 noncreature.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/196_RG06 noncreature.png"
 			}
 		},
 		{
@@ -2025,9 +2025,9 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{G}{G}",
 			"type": "Enchantment",
-			"collector_number": "198",
+			"collector_number": "197",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/198_RG07 Summoning Ancestors.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/197_RG07 Summoning Ancestors.png"
 			}
 		},
 		{
@@ -2035,9 +2035,9 @@
 			"rarity": "mythic",
 			"mana_cost": "{3}{W}{W}",
 			"type": "Legendary Creature — Dragon Demigod",
-			"collector_number": "33",
+			"collector_number": "32",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/33_MW01 Mouratl, the Eternal.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/32_MW01 Mouratl, the Eternal.png"
 			}
 		},
 		{
@@ -2045,9 +2045,9 @@
 			"rarity": "mythic",
 			"mana_cost": "{1}{W}",
 			"type": "Instant",
-			"collector_number": "34",
+			"collector_number": "33",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/34_MW02 Feast with the King.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/33_MW02 Feast with the King.png"
 			}
 		},
 		{
@@ -2055,9 +2055,9 @@
 			"rarity": "mythic",
 			"mana_cost": "{2}{U}",
 			"type": "Sorcery",
-			"collector_number": "73",
+			"collector_number": "72",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/73_MU02 Cosmic Secrets.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/72_MU02 Cosmic Secrets.png"
 			}
 		},
 		{
@@ -2065,9 +2065,9 @@
 			"rarity": "mythic",
 			"mana_cost": "{4}{U}{U}",
 			"type": "Legendary Creature — Octopus Demigod",
-			"collector_number": "72",
+			"collector_number": "71",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/72_MU01 Y'ssna, Cephaloid Oracle.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/71_MU01 Y'ssna, Cephaloid Oracle.png"
 			}
 		},
 		{
@@ -2075,9 +2075,9 @@
 			"rarity": "mythic",
 			"mana_cost": "{2}{B}{B}{B}",
 			"type": "Legendary Creature — Rat Zombie Demigod",
-			"collector_number": "112",
+			"collector_number": "111",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/112_MB01 Raios, the Founder.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/111_MB01 Raios, the Founder.png"
 			}
 		},
 		{
@@ -2085,9 +2085,9 @@
 			"rarity": "mythic",
 			"mana_cost": "{1}{B}{B}",
 			"type": "Enchantment",
-			"collector_number": "113",
+			"collector_number": "112",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/113_MB02 Honoring Their Sacrifice.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/112_MB02 Honoring Their Sacrifice.png"
 			}
 		},
 		{
@@ -2095,9 +2095,9 @@
 			"rarity": "mythic",
 			"mana_cost": "{4}{R}{R}",
 			"type": "Legendary Creature — Dragon Demigod",
-			"collector_number": "151",
+			"collector_number": "150",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/151_MR01 Tawikyan, Avaricious Queen.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/150_MR01 Tawikyan, Avaricious Queen.png"
 			}
 		},
 		{
@@ -2105,9 +2105,9 @@
 			"rarity": "mythic",
 			"mana_cost": "{2}{R}{R}",
 			"type": "Legendary Creature — Orc Pirate",
-			"collector_number": "152",
+			"collector_number": "151",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/152_MR02 M'gruk, Interplanar Plunderer.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/151_MR02 M'gruk, Interplanar Plunderer.png"
 			}
 		},
 		{
@@ -2115,19 +2115,19 @@
 			"rarity": "mythic",
 			"mana_cost": "{5}{G}{G}",
 			"type": "Legendary Creature — Deer Demigod",
-			"collector_number": "190",
+			"collector_number": "189",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/190_MG01 Boc, Emerald Hart.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/189_MG01 Boc, Emerald Hart.png"
 			}
 		},
 		{
-			"name": "MG02",
+			"name": "MG02 Klawia's Ascent",
 			"rarity": "mythic",
-			"mana_cost": "",
-			"type": "",
-			"collector_number": "191",
+			"mana_cost": "{1}{G}",
+			"type": "Instant",
+			"collector_number": "190",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/191_MG02.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/190_MG02 Klawia's Ascent.png"
 			}
 		},
 		{
@@ -2135,9 +2135,9 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{R}{W}",
 			"type": "Creature — Dog Hero",
-			"collector_number": "223",
+			"collector_number": "222",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/223_RM01 Steadfast Retriever.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/222_RM01 Steadfast Retriever.png"
 			}
 		},
 		{
@@ -2145,9 +2145,9 @@
 			"rarity": "rare",
 			"mana_cost": "{W}{U}",
 			"type": "Legendary Creature — Owl Noble",
-			"collector_number": "222",
+			"collector_number": "221",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/222_RM01 Queen Scoraya of Hagzaga.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/221_RM01 Queen Scoraya of Hagzaga.png"
 			}
 		},
 		{
@@ -2155,9 +2155,9 @@
 			"rarity": "rare",
 			"mana_cost": "{U}{B}",
 			"type": "Legendary Creature — Bat Noble",
-			"collector_number": "224",
+			"collector_number": "223",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/224_RM01 Urvinn, Count of Wastehold.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/223_RM01 Urvinn, Count of Wastehold.png"
 			}
 		},
 		{
@@ -2165,9 +2165,9 @@
 			"rarity": "rare",
 			"mana_cost": "{3}{B}{R}",
 			"type": "Legendary Creature — Dragon Mercenary",
-			"collector_number": "220",
+			"collector_number": "218",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/220_RM01 Jetrax, Dark Archon.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/218_RM01 Jetrax, Dark Archon.png"
 			}
 		},
 		{
@@ -2175,9 +2175,9 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{R}{G}",
 			"type": "Enchantment",
-			"collector_number": "218",
+			"collector_number": "216",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/218_RM01 Crystal Flameblossom.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/216_RM01 Crystal Flameblossom.png"
 			}
 		},
 		{
@@ -2185,9 +2185,9 @@
 			"rarity": "rare",
 			"mana_cost": "{G}{W}",
 			"type": "",
-			"collector_number": "217",
+			"collector_number": "215",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/217_RM01.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/215_RM01.png"
 			}
 		},
 		{
@@ -2195,19 +2195,19 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{W}{B}",
 			"type": "Legendary Creature — Cat Elemental",
-			"collector_number": "221",
+			"collector_number": "220",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/221_RM01 Liau, Primordial Mother.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/220_RM01 Liau, Primordial Mother.png"
 			}
 		},
 		{
-			"name": "RM01",
+			"name": "RM01 Klawia's Disguise",
 			"rarity": "rare",
 			"mana_cost": "{U}{R}",
-			"type": "",
-			"collector_number": "216",
+			"type": "Instant",
+			"collector_number": "219",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/216_RM01.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/219_RM01 Klawia's Disguise.png"
 			}
 		},
 		{
@@ -2215,9 +2215,9 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{B}{G}",
 			"type": "Artifact",
-			"collector_number": "219",
+			"collector_number": "217",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/219_RM01 Iron Empire Monolith.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/217_RM01 Iron Empire Monolith.png"
 			}
 		},
 		{
@@ -2225,9 +2225,9 @@
 			"rarity": "common",
 			"mana_cost": "{3}",
 			"type": "Artifact — Vehicle",
-			"collector_number": "240",
+			"collector_number": "239",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/240_CA01 Hired Carriage.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/239_CA01 Hired Carriage.png"
 			}
 		},
 		{
@@ -2235,9 +2235,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}",
 			"type": "Artifact",
-			"collector_number": "241",
+			"collector_number": "240",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/241_CA02 Moonlaced Potion.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/240_CA02 Moonlaced Potion.png"
 			}
 		},
 		{
@@ -2245,9 +2245,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}",
 			"type": "Artifact — Equipment",
-			"collector_number": "242",
+			"collector_number": "241",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/242_CA03 Masterpiece Shield.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/241_CA03 Masterpiece Shield.png"
 			}
 		},
 		{
@@ -2255,9 +2255,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Artifact",
-			"collector_number": "243",
+			"collector_number": "242",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/243_CA04.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/242_CA04.png"
 			}
 		},
 		{
@@ -2265,9 +2265,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Artifact",
-			"collector_number": "244",
+			"collector_number": "243",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/244_CA05.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/243_CA05.png"
 			}
 		},
 		{
@@ -2385,9 +2385,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "",
-			"collector_number": "9",
+			"collector_number": "8",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/9_UX01.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/8_UX01.png"
 			}
 		},
 		{
@@ -2395,9 +2395,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "",
-			"collector_number": "10",
+			"collector_number": "9",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/10_UX02.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/9_UX02.png"
 			}
 		},
 		{
@@ -2405,9 +2405,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "",
-			"collector_number": "11",
+			"collector_number": "10",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/11_UX03.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/10_UX03.png"
 			}
 		},
 		{
@@ -2415,9 +2415,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "",
-			"collector_number": "12",
+			"collector_number": "11",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/12_UX04.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/11_UX04.png"
 			}
 		},
 		{
@@ -2425,9 +2425,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "",
-			"collector_number": "13",
+			"collector_number": "12",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/13_UX05.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/12_UX05.png"
 			}
 		},
 		{
@@ -2435,9 +2435,9 @@
 			"rarity": "rare",
 			"mana_cost": "{X}{B}{G}{U}",
 			"type": "Creature — Eel Hydra",
-			"collector_number": "225",
+			"collector_number": "224",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/225_RX01 Wrathful Lerna.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/224_RX01 Wrathful Lerna.png"
 			}
 		},
 		{
@@ -2445,19 +2445,19 @@
 			"rarity": "rare",
 			"mana_cost": "{3}",
 			"type": "Legendary Artifact — Equipment",
-			"collector_number": "246",
+			"collector_number": "245",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/246_RX02 Revered Moonstaff.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/245_RX02 Revered Moonstaff.png"
 			}
 		},
 		{
-			"name": "RX03",
+			"name": "RX03 Repulsive Soulblade",
 			"rarity": "rare",
-			"mana_cost": "",
-			"type": "",
-			"collector_number": "3",
+			"mana_cost": "{3}",
+			"type": "Legendary Artifact — Equipment",
+			"collector_number": "246",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/3_RX03.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/246_RX03 Repulsive Soulblade.png"
 			}
 		},
 		{
@@ -2465,9 +2465,9 @@
 			"rarity": "rare",
 			"mana_cost": "",
 			"type": "",
-			"collector_number": "4",
+			"collector_number": "3",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/4_RX04.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/3_RX04.png"
 			}
 		},
 		{
@@ -2475,9 +2475,9 @@
 			"rarity": "rare",
 			"mana_cost": "",
 			"type": "",
-			"collector_number": "5",
+			"collector_number": "4",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/5_RX05.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/4_RX05.png"
 			}
 		},
 		{
@@ -2485,9 +2485,9 @@
 			"rarity": "rare",
 			"mana_cost": "",
 			"type": "",
-			"collector_number": "6",
+			"collector_number": "5",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/6_RX06.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/5_RX06.png"
 			}
 		},
 		{
@@ -2495,9 +2495,9 @@
 			"rarity": "rare",
 			"mana_cost": "",
 			"type": "",
-			"collector_number": "7",
+			"collector_number": "6",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/7_RX07.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/6_RX07.png"
 			}
 		},
 		{
@@ -2505,9 +2505,9 @@
 			"rarity": "rare",
 			"mana_cost": "",
 			"type": "",
-			"collector_number": "8",
+			"collector_number": "7",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/8_RX08.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/7_RX08.png"
 			}
 		},
 		{
@@ -2515,9 +2515,9 @@
 			"rarity": "mythic",
 			"mana_cost": "{1}{B}{R}",
 			"type": "Creature — Dragon Warlock",
-			"collector_number": "214",
+			"collector_number": "213",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/214_MX01 Impatient Dragonling.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/213_MX01 Impatient Dragonling.png"
 			}
 		},
 		{
@@ -2525,9 +2525,9 @@
 			"rarity": "mythic",
 			"mana_cost": "{2}{B}{R}",
 			"type": "Legendary Creature — Manticore Demon",
-			"collector_number": "215",
+			"collector_number": "214",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/215_MX02 The Jamakhora.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/214_MX02 The Jamakhora.png"
 			}
 		},
 		{
@@ -2535,9 +2535,9 @@
 			"rarity": "mythic",
 			"mana_cost": "{4}",
 			"type": "Legendary Artifact",
-			"collector_number": "245",
+			"collector_number": "244",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/245_MX03 Esurvite Holy Book.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/244_MX03 Esurvite Holy Book.png"
 			}
 		},
 		{
@@ -2625,9 +2625,9 @@
 			"rarity": "mythic",
 			"mana_cost": "{R}{G}{W}",
 			"type": "Legendary Planeswalker — Klawia",
-			"collector_number": "211",
+			"collector_number": "210",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/211_Klawia, the Journeyer.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/210_Klawia, the Journeyer.png"
 			}
 		},
 		{
@@ -2635,9 +2635,9 @@
 			"rarity": "mythic",
 			"mana_cost": "{R}{W}{B}",
 			"type": "Legendary Creature — Mouse Knight",
-			"collector_number": "210",
+			"collector_number": "209",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/210_Jeddina, Digital Huntress.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/209_Jeddina, Digital Huntress.png"
 			}
 		},
 		{
@@ -2728,13 +2728,13 @@
 	2 RW07 Rest in Peace
 	2 RU01 Cunning Trader
 	2 RU02 Supercell Channeler
-	2 RU03
+	2 RU03 Mistress of Misplacement
 	2 RU04 Titanic Rudan
 	2 RU05 Twilight Pickpocketing
 	2 RU06 Pass Down Secrets
 	2 RU07 Dance of the New Cycle
 	2 RB01 Speaker of Ancient Gods
-	2 RB02 1cost rat crea w evasion
+	2 RB02 Honortail Paragon
 	2 RB03 Neshezoi, Mad Harbinger
 	2 RB04 Memorivore Witch
 	2 RB05 Brawl at the Docks
@@ -2763,7 +2763,7 @@
 	1 MR01 Tawikyan, Avaricious Queen
 	1 MR02 M'gruk, Interplanar Plunderer
 	1 MG01 Boc, Emerald Hart
-	1 MG02
+	1 MG02 Klawia's Ascent
 	2 RM01 Steadfast Retriever
 	2 RM01 Queen Scoraya of Hagzaga
 	2 RM01 Urvinn, Count of Wastehold
@@ -2771,11 +2771,11 @@
 	2 RM01 Crystal Flameblossom
 	2 RM01
 	2 RM01 Liau, Primordial Mother
-	2 RM01
+	2 RM01 Klawia's Disguise
 	2 RM01 Iron Empire Monolith
 	2 RX01 Wrathful Lerna
 	2 RX02 Revered Moonstaff
-	2 RX03
+	2 RX03 Repulsive Soulblade
 	2 RX04
 	2 RX05
 	2 RX06
@@ -2844,7 +2844,7 @@
 	4 UR09 Shattershot
 	4 UR10 Psychic Enslavement
 	4 UR11 Phoenix Mantle
-	4 UG01 naturalizer creature
+	4 UG01 Summer Coast Druid
 	4 UG02 Bellowdepths Channeler
 	4 UG03 Matriarch of Ancient Ways
 	4 UG04 Lafahd Sandsprinter
@@ -2928,7 +2928,7 @@
 	8 CB16 Reluctant Companions
 	8 CB17 Carnikinesis
 	8 CB18 Unnerving Onyx
-	8 CB19 1mv nonrem noncre
+	8 CB19 Play Dead
 	8 CR01 Worldly Sellsword
 	8 CR02 Prepared Fortress Guard
 	8 CR03 Lafahdian Minister of the Arcane
@@ -2937,8 +2937,8 @@
 	8 CR07 Aardite Brute
 	8 CR08 Eccentric Scavenger
 	8 CR09 Army of West Khyth
-	8 CR10 6-7cmc crea
-	8 CR11 undecided
+	8 CR10 Greater Imaca
+	8 CR11 undecided creature
 	8 CR12 Sprite Bolt
 	8 CR13 Sound the Dragonhorn
 	8 CR14 Smash Open
@@ -2946,7 +2946,7 @@
 	8 CR16 Storm's Strike
 	8 CR17 Fireside Tales
 	8 CR18 Flames of Passion
-	8 CR19
+	8 CR19 Driven to Destruction
 	8 CG01 Flower Stalker
 	8 CG02 Sika Matriarch
 	8 CG03 Unphased Journeyers
@@ -2959,7 +2959,7 @@
 	8 CG10 Unconventional Summoner
 	8 CG11 Scallywag Tracker
 	8 CG12 Thunder God's Boon
-	8 CG13 bite ins or sorc
+	8 CG13 Haul In the Nets
 	8 CG14 Grapple with the Past
 	8 CG15 Moonguided Shot
 	8 CG16 Ruined Relics
@@ -3030,7 +3030,7 @@
 	8 CB16 Reluctant Companions
 	8 CB17 Carnikinesis
 	8 CB18 Unnerving Onyx
-	8 CB19 1mv nonrem noncre
+	8 CB19 Play Dead
 	8 CR01 Worldly Sellsword
 	8 CR02 Prepared Fortress Guard
 	8 CR03 Lafahdian Minister of the Arcane
@@ -3039,8 +3039,8 @@
 	8 CR07 Aardite Brute
 	8 CR08 Eccentric Scavenger
 	8 CR09 Army of West Khyth
-	8 CR10 6-7cmc crea
-	8 CR11 undecided
+	8 CR10 Greater Imaca
+	8 CR11 undecided creature
 	8 CR12 Sprite Bolt
 	8 CR13 Sound the Dragonhorn
 	8 CR14 Smash Open
@@ -3048,7 +3048,7 @@
 	8 CR16 Storm's Strike
 	8 CR17 Fireside Tales
 	8 CR18 Flames of Passion
-	8 CR19
+	8 CR19 Driven to Destruction
 	8 CG01 Flower Stalker
 	8 CG02 Sika Matriarch
 	8 CG03 Unphased Journeyers
@@ -3061,7 +3061,7 @@
 	8 CG10 Unconventional Summoner
 	8 CG11 Scallywag Tracker
 	8 CG12 Thunder God's Boon
-	8 CG13 bite ins or sorc
+	8 CG13 Haul In the Nets
 	8 CG14 Grapple with the Past
 	8 CG15 Moonguided Shot
 	8 CG16 Ruined Relics
@@ -3149,7 +3149,7 @@
 	12 CB16 Reluctant Companions
 	12 CB17 Carnikinesis
 	12 CB18 Unnerving Onyx
-	12 CB19 1mv nonrem noncre
+	12 CB19 Play Dead
 	12 CR01 Worldly Sellsword
 	12 CR02 Prepared Fortress Guard
 	12 CR03 Lafahdian Minister of the Arcane
@@ -3158,8 +3158,8 @@
 	12 CR07 Aardite Brute
 	12 CR08 Eccentric Scavenger
 	12 CR09 Army of West Khyth
-	12 CR10 6-7cmc crea
-	12 CR11 undecided
+	12 CR10 Greater Imaca
+	12 CR11 undecided creature
 	12 CR12 Sprite Bolt
 	12 CR13 Sound the Dragonhorn
 	12 CR14 Smash Open
@@ -3167,7 +3167,7 @@
 	12 CR16 Storm's Strike
 	12 CR17 Fireside Tales
 	12 CR18 Flames of Passion
-	12 CR19
+	12 CR19 Driven to Destruction
 	12 CG01 Flower Stalker
 	12 CG02 Sika Matriarch
 	12 CG03 Unphased Journeyers
@@ -3180,7 +3180,7 @@
 	12 CG10 Unconventional Summoner
 	12 CG11 Scallywag Tracker
 	12 CG12 Thunder God's Boon
-	12 CG13 bite ins or sorc
+	12 CG13 Haul In the Nets
 	12 CG14 Grapple with the Past
 	12 CG15 Moonguided Shot
 	12 CG16 Ruined Relics
@@ -3231,7 +3231,7 @@
 	6 UR09 Shattershot
 	6 UR10 Psychic Enslavement
 	6 UR11 Phoenix Mantle
-	6 UG01 naturalizer creature
+	6 UG01 Summer Coast Druid
 	6 UG02 Bellowdepths Channeler
 	6 UG03 Matriarch of Ancient Ways
 	6 UG04 Lafahd Sandsprinter
@@ -3251,13 +3251,13 @@
 	2 RW07 Rest in Peace
 	2 RU01 Cunning Trader
 	2 RU02 Supercell Channeler
-	2 RU03
+	2 RU03 Mistress of Misplacement
 	2 RU04 Titanic Rudan
 	2 RU05 Twilight Pickpocketing
 	2 RU06 Pass Down Secrets
 	2 RU07 Dance of the New Cycle
 	2 RB01 Speaker of Ancient Gods
-	2 RB02 1cost rat crea w evasion
+	2 RB02 Honortail Paragon
 	2 RB03 Neshezoi, Mad Harbinger
 	2 RB04 Memorivore Witch
 	2 RB05 Brawl at the Docks
@@ -3286,7 +3286,7 @@
 	1 MR01 Tawikyan, Avaricious Queen
 	1 MR02 M'gruk, Interplanar Plunderer
 	1 MG01 Boc, Emerald Hart
-	1 MG02
+	1 MG02 Klawia's Ascent
 	2 RM01 Steadfast Retriever
 	2 RM01 Queen Scoraya of Hagzaga
 	2 RM01 Urvinn, Count of Wastehold
@@ -3294,7 +3294,7 @@
 	2 RM01 Crystal Flameblossom
 	2 RM01
 	2 RM01 Liau, Primordial Mother
-	2 RM01
+	2 RM01 Klawia's Disguise
 	2 RM01 Iron Empire Monolith
 	12 CA01 Hired Carriage
 	12 CA02 Moonlaced Potion
@@ -3319,7 +3319,7 @@
 	6 UX05
 	2 RX01 Wrathful Lerna
 	2 RX02 Revered Moonstaff
-	2 RX03
+	2 RX03 Repulsive Soulblade
 	2 RX04
 	2 RX05
 	2 RX06
@@ -3407,7 +3407,7 @@
 	6 CB16 Reluctant Companions
 	6 CB17 Carnikinesis
 	6 CB18 Unnerving Onyx
-	6 CB19 1mv nonrem noncre
+	6 CB19 Play Dead
 	6 CR01 Worldly Sellsword
 	6 CR02 Prepared Fortress Guard
 	6 CR03 Lafahdian Minister of the Arcane
@@ -3416,8 +3416,8 @@
 	6 CR07 Aardite Brute
 	6 CR08 Eccentric Scavenger
 	6 CR09 Army of West Khyth
-	6 CR10 6-7cmc crea
-	6 CR11 undecided
+	6 CR10 Greater Imaca
+	6 CR11 undecided creature
 	6 CR12 Sprite Bolt
 	6 CR13 Sound the Dragonhorn
 	6 CR14 Smash Open
@@ -3425,7 +3425,7 @@
 	6 CR16 Storm's Strike
 	6 CR17 Fireside Tales
 	6 CR18 Flames of Passion
-	6 CR19
+	6 CR19 Driven to Destruction
 	6 CG01 Flower Stalker
 	6 CG02 Sika Matriarch
 	6 CG03 Unphased Journeyers
@@ -3438,7 +3438,7 @@
 	6 CG10 Unconventional Summoner
 	6 CG11 Scallywag Tracker
 	6 CG12 Thunder God's Boon
-	6 CG13 bite ins or sorc
+	6 CG13 Haul In the Nets
 	6 CG14 Grapple with the Past
 	6 CG15 Moonguided Shot
 	6 CG16 Ruined Relics
@@ -3489,7 +3489,7 @@
 	15 UR09 Shattershot
 	15 UR10 Psychic Enslavement
 	15 UR11 Phoenix Mantle
-	15 UG01 naturalizer creature
+	15 UG01 Summer Coast Druid
 	15 UG02 Bellowdepths Channeler
 	15 UG03 Matriarch of Ancient Ways
 	15 UG04 Lafahd Sandsprinter
@@ -3509,13 +3509,13 @@
 	7 RW07 Rest in Peace
 	7 RU01 Cunning Trader
 	7 RU02 Supercell Channeler
-	7 RU03
+	7 RU03 Mistress of Misplacement
 	7 RU04 Titanic Rudan
 	7 RU05 Twilight Pickpocketing
 	7 RU06 Pass Down Secrets
 	7 RU07 Dance of the New Cycle
 	7 RB01 Speaker of Ancient Gods
-	7 RB02 1cost rat crea w evasion
+	7 RB02 Honortail Paragon
 	7 RB03 Neshezoi, Mad Harbinger
 	7 RB04 Memorivore Witch
 	7 RB05 Brawl at the Docks
@@ -3544,7 +3544,7 @@
 	4 MR01 Tawikyan, Avaricious Queen
 	4 MR02 M'gruk, Interplanar Plunderer
 	4 MG01 Boc, Emerald Hart
-	4 MG02
+	4 MG02 Klawia's Ascent
 	7 RM01 Steadfast Retriever
 	7 RM01 Queen Scoraya of Hagzaga
 	7 RM01 Urvinn, Count of Wastehold
@@ -3552,7 +3552,7 @@
 	7 RM01 Crystal Flameblossom
 	7 RM01
 	7 RM01 Liau, Primordial Mother
-	7 RM01
+	7 RM01 Klawia's Disguise
 	7 RM01 Iron Empire Monolith
 	6 CA01 Hired Carriage
 	6 CA02 Moonlaced Potion
@@ -3577,7 +3577,7 @@
 	15 UX05
 	7 RX01 Wrathful Lerna
 	7 RX02 Revered Moonstaff
-	7 RX03
+	7 RX03 Repulsive Soulblade
 	7 RX04
 	7 RX05
 	7 RX06

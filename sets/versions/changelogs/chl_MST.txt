@@ -1,4 +1,60 @@
-﻿VERSION 6 CHANGELOG
+﻿VERSION 7 CHANGELOG
+====================
+
+CB19 Play Dead added.
+CR10 Greater Imaca added.
+CR11 undecided creature added.
+CR19 Driven to Destruction added.
+CG13 Haul In the Nets added.
+UG01 Summer Coast Druid added.
+RU03 Mistress of Misplacement added.
+RB02 Honortail Paragon added.
+MG02 Klawia's Ascent added.
+RM01 Klawia's Disguise added.
+RX03 Repulsive Soulblade added.
+
+CB19 1mv nonrem noncre removed.
+CR10 6-7cmc crea removed.
+CR11 undecided removed.
+CR19 removed.
+CG13 bite ins or sorc removed.
+UG01 naturalizer creature removed.
+RU03 removed.
+RB02 1cost rat crea w evasion removed.
+MG02 removed.
+RM01 removed.
+RX03 removed.
+
+CB14 Deceptive Wagering
+rules_text: Target player discards two cards, then if you discarded one or more cards this turn, sacrifices a creature.
+Surveil 2. => Target player discards two cards. Then if you discarded one or more cards this turn, that player sacrifices a creature.
+Surveil 2.
+
+CR14 Smash Open
+
+CG15 Moonguided Shot
+rules_text: Choose one —
+• Destroy target tapped creature with flying you don't control.
+• Untap target creature you control. Until end of turn, that creature gets +2/+2 and gains reach and lifelink. => Choose one —
+• Destroy target creature with flying.
+• Untap target creature you control. Until end of turn, that creature gets +1/+1 and gains reach and lifelink.
+
+UR11 Phoenix Mantle
+
+RM01 Crystal Flameblossom
+rules_text: If a land would enter under your control tapped, you may have it deal 2 damage to you. If you do, it enters untapped instead.
+Creatures you control get +X/+0, where X is the number of lands that entered and/or left your graveyard this turn. => If a land would enter under your control tapped, you may have it deal 1 damage to you. If you do, it enters untapped instead.
+Creatures you control get +X/+0, where X is the number of lands that entered and/or left your graveyard this turn.
+
+CL01 A Path Between
+rules_text: This land enters tapped.
+When this land enters, scry 1.
+When this land enters or becomes untapped, sacrifice it, then search your library for a basic land card, put it onto the battlefield, then shuffle. => This land enters tapped.
+When this land enters, scry 1.
+When this land becomes untapped, sacrifice it, then search your library for a basic land card, put it onto the battlefield, then shuffle.
+
+
+VERSION 6 CHANGELOG
 ====================
 
 CU12 Brash Saorbeak added.
