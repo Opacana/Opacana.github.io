@@ -87,13 +87,13 @@
             "cost": "{3}{W}{W}",
             "rules_text": "This spell costs {1} less to cast if there are one or more Griffin creature cards in your graveyard.\nFlying",
             "flavor_text": "[i]The Black-Crested species of griffin leapt to protect and avenge almost any griffin, not just fellow Black-Cresteds.[/i]",
-            "pt": "4/4",
+            "pt": "5/4",
             "special_text": "",
             "shape": "normal",
             "set": "AVA",
             "loyalty": "",
             "artist": "Markella Stav",
-            "notes": ""
+            "notes": "February 14th, 2026: Power upped from 4 to 5."
         },
         {
             "card_name": "Darkwing Hatchling",
@@ -246,7 +246,7 @@
             "type": "Sorcery",
             "number": 14,
             "color_identity": "W",
-            "cost": "{2}{W}",
+            "cost": "{1}{W}",
             "rules_text": "Choose one \u2014\n\u2022 Creatures you control get +1/+1 until end of turn.\n\u2022 Creature you control gain reach and vigilance until your next turn.",
             "flavor_text": "[i]Some human nations and kingdoms shared in the Rabbitfolk's affection for military gallantry, ceremony and accuracy.[/i]",
             "pt": "",
@@ -255,7 +255,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Sang Han",
-            "notes": "Revised December 12th, 2025 according to Rev curator feedback \u2014 Reworked to be better, inspired by canon card Defend the Campus."
+            "notes": "Revised December 12th, 2025 according to Rev curator feedback \u2014 Reworked to be better, inspired by canon card Defend the Campus.\n\nFebruary 13th, 2026: Lowered cost from 2W to 1W."
         },
         {
             "card_name": "Sit This One Out",
@@ -725,7 +725,7 @@
             "number": 97,
             "color_identity": "B",
             "cost": "{2}{B}",
-            "rules_text": "When this creature enters, mill two cards, then exile the top card of your library.",
+            "rules_text": "When this creature enters, mill two cards.",
             "flavor_text": "[i]\u201cSubject 233 seems to be capable of few executive functions. It is, however, quite proficient in scuttling and screaming.\u201d[/i]",
             "pt": "3/3",
             "special_text": "",
@@ -733,7 +733,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Maros Manhardt",
-            "notes": ""
+            "notes": "February 13th, 2026: Removed part of enter ability that makes you exile a card."
         },
         {
             "card_name": "Unscrupulous Surgeon",
@@ -796,8 +796,8 @@
             "type": "Creature \u2014 Human Pirate",
             "number": 90,
             "color_identity": "B",
-            "cost": "{4}{B}{B}",
-            "rules_text": "Whenever this creature attacks, up to one target creature gains deathtouch until end of turn.",
+            "cost": "{5}{B}",
+            "rules_text": "Whenever this creature attacks, up to one target creature gets +1/+0 and gains deathtouch until end of turn.",
             "flavor_text": "[i]Many crews had their own warped laws, and breaking them was often punishable by death.[/i]",
             "pt": "5/4",
             "special_text": "",
@@ -805,7 +805,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Andrew Theophilopoulos",
-            "notes": "January 13th, 2026: Removed equipment token creation with simply a trigger to hand out deathtouch until eot."
+            "notes": "January 13th, 2026: Removed equipment token creation with simply a trigger to hand out deathtouch until eot.\n\nFeb. 13th, 2026: Now also gives out a power boost to the creature. Cost changed from 4BB to 5B."
         },
         {
             "card_name": "Death's Hall Caretaker",
@@ -851,7 +851,7 @@
             "number": 92,
             "color_identity": "B",
             "cost": "{3}{B}{B}",
-            "rules_text": "Menace\nWhen this creature enters, create two 1/1 white Butterfly enchantment creature tokens named Butterfly.\nWhenever a permanent you control that's two or more card types is put into a graveyard, each opponent loses 1 life and you gain 1 life.",
+            "rules_text": "Menace\nWhen this creature enters, create two 1/1 white Insect enchantment creature tokens with flying named Buttefly\nWhenever a permanent you control that's two or more card types is put into a graveyard, each opponent loses 1 life and you gain 1 life.",
             "flavor_text": "[i][/i]",
             "pt": "2/3",
             "special_text": "",
@@ -859,7 +859,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Lorenzo Mastroianni",
-            "notes": "December 17th, 2025 revision based on Rev curator feedback: Added a point of toughness, and broadened last ability to count any multi-type permanent of yours, not just creatures.\n\nJanuary 4, 2026: Fixed wording issues."
+            "notes": "December 17th, 2025 revision based on Rev curator feedback: Added a point of toughness, and broadened last ability to count any multi-type permanent of yours, not just creatures.\n\nJanuary 4, 2026: Fixed wording issues.\n\nFeb. 13th, 2026: Fixed his wording to specify the tokens have flying."
         },
         {
             "card_name": "Stolen Wasp-Class",
@@ -987,7 +987,7 @@
             "artist": "Felicia Cano",
             "card_name2": "Ossuaerie Keeper",
             "color2": "B",
-            "type2": "Creature \u2014 Dragon Zombie",
+            "type2": "Creature \u2014 Dragon Skeleton",
             "cost2": "",
             "rules_text2": "Flying\nWhen this creature dies, if it's not a token, you may pay {1}{B}. If you do, create a token copy of it.",
             "flavor_text2": "[i]Some instincts are so ingrained that they linger on after death.[/i]",
@@ -995,7 +995,7 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "Sandara",
-            "notes": "August14th, 2025: Removed cast qualifier.\n\nJanuary 17, 2026: Lowered casting cost of front side to 2B, and lowered Boneborn mana cost to 1BB."
+            "notes": "August14th, 2025: Removed cast qualifier.\n\nJanuary 17, 2026: Lowered casting cost of front side to 2B, and lowered Boneborn mana cost to 1BB.\n\nFebruary 13th, 2026: Keeper side given Skeleton creature type. instead of Zombie."
         },
         {
             "card_name": "Necromancer's Experiments",
@@ -1185,7 +1185,7 @@
             "number": 157,
             "color_identity": "R",
             "cost": "{3}{R}{R}",
-            "rules_text": "This creature attacks each turn if able.\nWhenever this creature attacks, it gets +X/+0 until end of turn, where X is the number of artifacts you control.",
+            "rules_text": "Menace\nThis creature attacks each turn if able.\nWhenever this creature attacks, it gets +X/+0 until end of turn, where X is the number of artifacts you control.",
             "flavor_text": "[i][/i]",
             "pt": "2/5",
             "special_text": "",
@@ -1193,7 +1193,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Guz Boroda",
-            "notes": ""
+            "notes": "Feb 14th, 2026: Given Menace, to make it a little better for its cost."
         },
         {
             "card_name": "Aezori Hunting Pair",
@@ -1671,7 +1671,7 @@
             "number": 218,
             "color_identity": "G",
             "cost": "{1}{G}",
-            "rules_text": "Target creature gains hexproof and indestructible until end of turn, then explores. [i](Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on that creature, then put the card back or put it into your graveyard.)[/i]",
+            "rules_text": "Target creature gains hexproof and indestructible until end of turn, then create a Map token. [i](It's an artifact with \u201c{1}, {T}, Sacrifice this artifact: Target creature you control explores. Activate only as a sorcery.\u201d)[/i]",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -1679,7 +1679,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Maximilian Jasionowski",
-            "notes": ""
+            "notes": "Changed February 13th, 2026 to create a map instead of force an explore."
         },
         {
             "card_name": "Take the Night Watch",
@@ -1707,7 +1707,7 @@
             "number": 188,
             "color_identity": "G",
             "cost": "{1}{G}",
-            "rules_text": "{T}: Untap target basic land. If this is a creature, you may untap target land instead.\nCrew 1 [i](Tap any number of creatures you control with total power 1 or more: This Vehicle Plant becomes an artifact creature until end of turn.)[/i]",
+            "rules_text": "{T}: Untap target nonlegendary land. If this is a creature, you may untap two target nonlegendary lands instead.\nCrew 2 [i](Tap any number of creatures you control with total power 2 or more: This Vehicle Plant becomes an artifact creature until end of turn.)[/i]",
             "flavor_text": "[i][/i]",
             "pt": "1/2",
             "special_text": "",
@@ -1715,7 +1715,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Afuchan",
-            "notes": "August 30th, 2025: Addred Kindred Plant types."
+            "notes": "August 30th, 2025: Addred Kindred Plant types.\n\nFebruary 13th, 2026: Upped crew cost to 2, and changed activated ability to untap any nonlegendary land, and up two if it's a creature."
         },
         {
             "card_name": "Julescan Heavy Strider",
@@ -3369,7 +3369,7 @@
             "number": 191,
             "color_identity": "G",
             "cost": "{3}{G}",
-            "rules_text": "Search your library for a basic land card, put it onto the battlefield tapped, then shuffle. Then target creature you control gains trample and gets +X/+X until end of turn, where X is the greatest number of basic lands you control with the same name.",
+            "rules_text": "Search your library for a basic land card, put it onto the battlefield tapped, then shuffle. Then target creature you control gains trample and gets +X/+X until end of turn, where X is the greatest number of lands you control with the same name.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -5280,7 +5280,7 @@
             "shape": "token",
             "set": "AVA",
             "loyalty": "",
-            "artist": "AQ Ritz",
+            "artist": "MartinCi",
             "notes": ""
         },
         {
@@ -5453,7 +5453,7 @@
             "number": 98,
             "color_identity": "B",
             "cost": "{2}{B}{B}",
-            "rules_text": "Whenever this becomes blocked by a creature that isn't a Zombie or Skeleton, you may pay {B}. If you do, choose one \u2014\n\u2022 This creature gains indestructible until end of turn.\n\u2022 This creature gains deathtouch until end of turn.",
+            "rules_text": "Whenever this creature attacks, you may pay {B}. If you do, choose one \u2014\n\u2022 This creature gains indestructible until end of turn.\n\u2022 This creature gains deathtouch until end of turn.",
             "flavor_text": "[i][/i]",
             "pt": "3/3",
             "special_text": "",
@@ -5461,7 +5461,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Aurore Kerboethau",
-            "notes": "December 18th, 2025: Added Assassin creature type."
+            "notes": "December 18th, 2025: Added Assassin creature type.\n\nFebruary 13th, 2026: Removed blocked by restrictions, to make its ability simply be an on-attack trigger."
         },
         {
             "card_name": "Wide-bore Warning",

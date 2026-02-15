@@ -133,7 +133,7 @@
 		{
 			"name": "Firing Drills",
 			"rarity": "common",
-			"mana_cost": "{2}{W}",
+			"mana_cost": "{1}{W}",
 			"type": "Sorcery",
 			"collector_number": "14",
 			"image_uris": {
@@ -440,7 +440,7 @@
 		{
 			"name": "Burly Executioner",
 			"rarity": "common",
-			"mana_cost": "{4}{B}{B}",
+			"mana_cost": "{5}{B}",
 			"type": "Creature — Human Pirate",
 			"collector_number": "90",
 			"image_uris": {

@@ -5,7 +5,7 @@
 			<name>AVA</name>
 			<longname>Avallus: Rediscovery</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-02-13</releasedate>
+			<releasedate>2026-02-14</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -95,7 +95,7 @@ Flying</text>
 				<cmc>5</cmc>
 				<colors>W</colors>
 				<coloridentity>W</coloridentity>
-				<pt>4/4</pt>
+				<pt>5/4</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
@@ -248,8 +248,8 @@ Crew 3 (Tap any number of creatures you control with total power 3 or more: This
 				<side>front</side>
 				<type>Sorcery</type>
 				<maintype>Sorcery</maintype>
-				<manacost>2W</manacost>
-				<cmc>3</cmc>
+				<manacost>1W</manacost>
+				<cmc>2</cmc>
 				<colors>W</colors>
 				<coloridentity>W</coloridentity>
 			</prop>
@@ -721,7 +721,7 @@ Then put a stun counter on each creature tapped this way.</text>
 		</card>
 		<card>
 			<name>Escaped Experiment</name>
-			<text>When this creature enters, mill two cards, then exile the top card of your library.</text>
+			<text>When this creature enters, mill two cards.</text>
 			<set rarity="common" picurl="https://Opacana.github.io/sets/AVA-files/img/97_Escaped Experiment.png" num="97">AVA</set>
 			<prop>
 				<layout>normal</layout>
@@ -790,14 +790,14 @@ Whenever a Bird you control dies, you may surveil 2.</text>
 		</card>
 		<card>
 			<name>Burly Executioner</name>
-			<text>Whenever this creature attacks, up to one target creature gains deathtouch until end of turn.</text>
+			<text>Whenever this creature attacks, up to one target creature gets +1/+0 and gains deathtouch until end of turn.</text>
 			<set rarity="common" picurl="https://Opacana.github.io/sets/AVA-files/img/90_Burly Executioner.png" num="90">AVA</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
 				<type>Creature — Human Pirate</type>
 				<maintype>Creature</maintype>
-				<manacost>4BB</manacost>
+				<manacost>5B</manacost>
 				<cmc>6</cmc>
 				<colors>B</colors>
 				<coloridentity>B</coloridentity>
@@ -844,7 +844,7 @@ At the beginning of your upkeep, sacrifice a creature or exile a creature card f
 		<card>
 			<name>Contemplative Crime Lord</name>
 			<text>Menace
-When this creature enters, create two 1/1 white Butterfly enchantment creature tokens named Butterfly.
+When this creature enters, create two 1/1 white Insect enchantment creature tokens with flying named Buttefly
 Whenever a permanent you control that&apos;s two or more card types is put into a graveyard, each opponent loses 1 life and you gain 1 life.</text>
 			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/AVA-files/img/92_Contemplative Crime Lord.png" num="92">AVA</set>
 			<prop>
@@ -995,7 +995,7 @@ When this creature dies, if it&apos;s not a token, you may pay {1}{B}. If you do
 			<prop>
 				<layout>transform</layout>
 				<side>back</side>
-				<type>Creature — Dragon Zombie</type>
+				<type>Creature — Dragon Skeleton</type>
 				<maintype>Creature</maintype>
 				<manacost></manacost>
 				<cmc>0</cmc>
@@ -1184,7 +1184,8 @@ When this creature dies, create two 1/1 red Boar creature tokens.</text>
 		</card>
 		<card>
 			<name>Modified Pit Fighter</name>
-			<text>This creature attacks each turn if able.
+			<text>Menace
+This creature attacks each turn if able.
 Whenever this creature attacks, it gets +X/+0 until end of turn, where X is the number of artifacts you control.</text>
 			<set rarity="common" picurl="https://Opacana.github.io/sets/AVA-files/img/157_Modified Pit Fighter.png" num="157">AVA</set>
 			<prop>
@@ -1659,7 +1660,7 @@ When this creature dies, put up to one land card from your graveyard onto the ba
 		</card>
 		<card>
 			<name>Watch the World Pass By</name>
-			<text>Target creature gains hexproof and indestructible until end of turn, then explores. (Reveal the top card of your library. Put that card into your hand if it&apos;s a land. Otherwise, put a +1/+1 counter on that creature, then put the card back or put it into your graveyard.)</text>
+			<text>Target creature gains hexproof and indestructible until end of turn, then create a Map token. (It&apos;s an artifact with &quot;{1}, {T}, Sacrifice this artifact: Target creature you control explores. Activate only as a sorcery.&quot;)</text>
 			<set rarity="common" picurl="https://Opacana.github.io/sets/AVA-files/img/218_Watch the World Pass By.png" num="218">AVA</set>
 			<prop>
 				<layout>normal</layout>
@@ -1691,8 +1692,8 @@ When this creature dies, put up to one land card from your graveyard onto the ba
 		</card>
 		<card>
 			<name>Flower Cart</name>
-			<text>{T}: Untap target basic land. If this is a creature, you may untap target land instead.
-Crew 1 (Tap any number of creatures you control with total power 1 or more: This Vehicle Plant becomes an artifact creature until end of turn.)</text>
+			<text>{T}: Untap target nonlegendary land. If this is a creature, you may untap two target nonlegendary lands instead.
+Crew 2 (Tap any number of creatures you control with total power 2 or more: This Vehicle Plant becomes an artifact creature until end of turn.)</text>
 			<set rarity="common" picurl="https://Opacana.github.io/sets/AVA-files/img/188_Flower Cart.png" num="188">AVA</set>
 			<prop>
 				<layout>normal</layout>
@@ -3404,7 +3405,7 @@ When this card is put into your graveyard from your library, you may shuffle you
 		</card>
 		<card>
 			<name>Gift of the Grove</name>
-			<text>Search your library for a basic land card, put it onto the battlefield tapped, then shuffle. Then target creature you control gains trample and gets +X/+X until end of turn, where X is the greatest number of basic lands you control with the same name.</text>
+			<text>Search your library for a basic land card, put it onto the battlefield tapped, then shuffle. Then target creature you control gains trample and gets +X/+X until end of turn, where X is the greatest number of lands you control with the same name.</text>
 			<set rarity="rare" picurl="https://Opacana.github.io/sets/AVA-files/img/191_Gift of the Grove.png" num="191">AVA</set>
 			<prop>
 				<layout>normal</layout>
@@ -5478,7 +5479,7 @@ When this creature enters, choose one —
 		</card>
 		<card>
 			<name>Gersauld&apos;s Assassin</name>
-			<text>Whenever this becomes blocked by a creature that isn&apos;t a Zombie or Skeleton, you may pay {B}. If you do, choose one —
+			<text>Whenever this creature attacks, you may pay {B}. If you do, choose one —
 • This creature gains indestructible until end of turn.
 • This creature gains deathtouch until end of turn.</text>
 			<set rarity="common" picurl="https://Opacana.github.io/sets/AVA-files/img/98_Gersauld&apos;s Assassin.png" num="98">AVA</set>
