@@ -1,4 +1,24 @@
-﻿VERSION 4 CHANGELOG
+﻿VERSION 5 CHANGELOG
+====================
+
+
+
+Pulled into the Tar
+rules_text: Destroy target artifact, creature or planeswalker. If a permanent card is put into a graveyard this way, return it to the battlefield under your control. Sacrifice it at the beginning of your next end step. => Destroy target nonland permanent. If a permanent card is put into a graveyard this way, return it to the battlefield under your control. Sacrifice it at the beginning of your next end step.
+
+Ancient Waystone
+cost: {4} => {3}
+rules_text: When this artifact enters, draw a card.
+{1}, {T}: Create a tapped Map token. [i](It's an artifact with “{1}, {T}, Sacrifice this artifact: Target creature you control explores. Activate only as a sorcery.”)[/i] => When this artifact enters, draw a card.
+{1}, {T}: Create a Map token. [i](It's an artifact with “{1}, {T}, Sacrifice this artifact: Target creature you control explores. Activate only as a sorcery.”)[/i]
+
+Marla, Gearheart Druid
+rules_text: Ward {1}
+Whenever a card would be put into an opponent's graveyard from anywhere, that player instead puts that card onto the bottom of their library and you gain 1 life. => Ward {1}
+If a card would be put into an opponent's graveyard from anywhere, that player instead puts that card onto the bottom of their library and you gain 1 life.
+
+
+VERSION 4 CHANGELOG
 ====================
 
 

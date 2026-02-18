@@ -3893,7 +3893,7 @@
             "number": 235,
             "color_identity": "BG",
             "cost": "{2}{B}{G}",
-            "rules_text": "Destroy target artifact, creature or planeswalker. If a permanent card is put into a graveyard this way, return it to the battlefield under your control. Sacrifice it at the beginning of your next end step.",
+            "rules_text": "Destroy target nonland permanent. If a permanent card is put into a graveyard this way, return it to the battlefield under your control. Sacrifice it at the beginning of your next end step.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -3901,7 +3901,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Michael Katchan, Modified by Opacana",
-            "notes": "January 2026: Reworked to be closer to its inspiration, Come Back Wrong."
+            "notes": "January 2026: Reworked to be closer to its inspiration, Come Back Wrong.\n\nFebruary 17th, 2026: revised to destroy 'nonland permanent' instead of listing out everything."
         },
         {
             "card_name": "Yolaira, Linkmistress",
@@ -4036,8 +4036,8 @@
             "type": "Artifact",
             "number": 252,
             "color_identity": "C",
-            "cost": "{4}",
-            "rules_text": "When this artifact enters, draw a card.\n{1}, {T}: Create a tapped Map token. [i](It's an artifact with \u201c{1}, {T}, Sacrifice this artifact: Target creature you control explores. Activate only as a sorcery.\u201d)[/i]",
+            "cost": "{3}",
+            "rules_text": "When this artifact enters, draw a card.\n{1}, {T}: Create a Map token. [i](It's an artifact with \u201c{1}, {T}, Sacrifice this artifact: Target creature you control explores. Activate only as a sorcery.\u201d)[/i]",
             "flavor_text": "[i]\u201cMr. Celac, I think we've hit the jackpot...\u201d[/i]",
             "pt": "",
             "special_text": "",
@@ -4045,7 +4045,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Ondrej Hrdina",
-            "notes": "August 17th: Changed cost of aa to 1 and tap, and changed scry to draw for on enter ability."
+            "notes": "August 17th: Changed cost of aa to 1 and tap, and changed scry to draw for on enter ability.\n\nFebruary 13th, 2026: The Maps it makes no longer enter tapped. Casting cost of Ancient Waystone lowered to 3."
         },
         {
             "card_name": "Mausoleum of Deities",
@@ -5525,7 +5525,7 @@
             "number": 198,
             "color_identity": "G",
             "cost": "{G}{G}",
-            "rules_text": "Ward {1}\nWhenever a card would be put into an opponent's graveyard from anywhere, that player instead puts that card onto the bottom of their library and you gain 1 life.",
+            "rules_text": "Ward {1}\nIf a card would be put into an opponent's graveyard from anywhere, that player instead puts that card onto the bottom of their library and you gain 1 life.",
             "flavor_text": "[i]\u201cTrust me, Kidar. Sfarzia is not your real enemy. Mr. Aldrand is. He destroyed your village...and my body.\u201d[/i]",
             "pt": "2/3",
             "special_text": "",
@@ -5533,7 +5533,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Midhat Kapetanovic",
-            "notes": "Entirely new card, first draft created December 20th, 2025."
+            "notes": "Entirely new card, first draft created December 20th, 2025.\n\nChanged 'Whenever' to 'If', February 13th, 2026."
         },
         {
             "card_name": "Marla's Last Stand",

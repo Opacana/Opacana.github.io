@@ -1,4 +1,108 @@
-﻿VERSION 7 CHANGELOG
+﻿VERSION 8 CHANGELOG
+====================
+
+CR11 Gem Igniter added.
+UG05 Grand Council of the Iron Empire added.
+RG03 Yewdodelg, Ancient and Wise added.
+RG05 Dedicated Mining Crew added.
+RG06 Debate the Fauna added.
+RM01 The Flower Picker Inn added.
+CA04 Necklace of Fangs added.
+CA05 Honeywine Elixir added.
+UA02 Deciphered Relic added.
+UA03 Summer Throne added.
+UA04 Tezakayt Fortress added.
+UA05 Voidmind Axe added.
+Bird Noble added.
+
+CR11 undecided creature removed.
+UG05 Rat Token Generator Cre removed.
+RG03 gw-related crea removed.
+RG05 BG-related Crea removed.
+RG06 noncreature removed.
+RM01 removed.
+CA04 removed.
+CA05 removed.
+UA02 removed.
+UA03 removed.
+UA04 removed.
+UA05 removed.
+
+Righteous Reforging
+
+UM01 Laughing Path Master
+rules_text: Whenever another creature enters under your control, you gain 1 life.
+At the beginning of your end step, if you've gained 3 or more life this turn, draw a card. => Whenever another creature you control enters, you gain 1 life.
+At the beginning of your end step, if you've gained 3 or more life this turn, draw a card.
+
+Migronn, Steadfast Thyl
+rules_text: Trample, reach, ward {1}
+The first spell you cast each turn has Wisdom 5. [i](As an additional cost to cast that spell, you may exile 5 cards from your graveyard. If you do, copy it, and you may choose new targets for the copy.)[/i] => Trample, reach, ward {1}
+The first spell you cast each turn has Wisdom 4. [i](As an additional cost to cast that spell, you may exile 4 cards from your graveyard. If you do, copy it, and you may choose new targets for the copy.)[/i]
+
+CW02 Kitsan Knight-Errant
+
+CU03 Uncompromising Artist
+
+CU04 Kodiloan Sentry
+
+CU13 Amulet of the Future
+
+CU17 Unweaving Ritual
+rules_text: Counter target permanent spell. => Choose one —
+• Counter target permanent spell.
+• Return target nonland permanent to its owner's hand.
+
+CG05 Night-Stroll Guardian
+pt: 3/3 => 3/2
+
+CG15 Moonguided Shot
+
+UW02 Hagzaga Squadron
+rules_text: Flying, vigilance
+Whenever another creature with flying enters under your control for the first time each turn, put a +1/+1 counter on this creature. => Flying, vigilance
+Whenever another creature with flying you control enters, put a +1/+1 counter on this creature. This triggers only once each turn.
+
+UU07 Hydrokinetic Mastery
+
+UG07 Solidarity
+rules_text: Whenever a creature enters under your control, put a +1/+1 counter on each creature you control. This triggers only once each turn. => Whenever a creature you control enters, put a +1/+1 counter on each creature you control. This triggers only once each turn.
+
+UG08 Building the Frontier
+rules_text: Whenever a land enters under your control for the first time each turn, put a +1/+1 counter on target creature you control. If that creature is a Paladin, put two +1/+1 counters on it instead. [i](Armies, Heroes, Knights, Soldiers and Warriors are paladins.)[/i]
+[i]Landfall[/i] — Whenever a land enters under your control, you gain 1 life. => Whenever a land you control enters, put a +1/+1 counter on target creature you control. If that creature is a Paladin, put two +1/+1 counters on it instead. This triggers only once each turn. [i](Armies, Heroes, Knights, Soldiers and Warriors are paladins.)[/i]
+[i]Landfall[/i] — Whenever a land you control enters, you gain 1 life.
+
+UG09 Visions of Other Worlds
+cost: {1}{G} => {1}{G}{G}
+rules_text: Mill four cards, then return a land card milled this way to your hand. If nongreen, noncolorless mana was spent to cast this spell, you may instead return a nonland card milled this way to your hand. => Mill five cards, then you may return a card milled this way to your hand.
+
+RW05 Iron Empire Brigade
+rules_text: Vigilance
+Whenever another nontoken Rat enters under your control, put a +1/+1 counter on this creature.
+Whenever this creature attacks, create a 1/1 white, black, and green Rat Soldier creature token. => Vigilance
+Whenever another nontoken Rat you control enters, put a +1/+1 counter on this creature.
+Whenever this creature attacks, create a 1/1 white, black, and green Rat Soldier creature token.
+
+RG07 Summoning Ancestors
+cost: {2}{G}{G} => {1}{G}{G}
+
+MW02 Feast with the King
+
+MG02 Klawia's Ascent
+rules_text: Kicker {W} and/or {R}
+Search your library for a land card, reveal it and put it into your hand, then shuffle. If this spell was kicked with its {W} kicker, you gain 4 life. If this spell was kicked with its {R} kicker, it deals 3 damage to target creature. => Kicker {W} and/or {R}
+Search your library for a land card, reveal it and put it into your hand, then shuffle. If this spell was kicked with its {W} kicker, you gain 4 life. If this spell was kicked with its {R} kicker, it deals 3 damage to any target.
+
+RM01 Crystal Flameblossom
+rules_text: If a land would enter under your control tapped, you may have it deal 1 damage to you. If you do, it enters untapped instead.
+Creatures you control get +X/+0, where X is the number of lands that entered and/or left your graveyard this turn. => If a land you control would enter tapped, you may have it deal 1 damage to you. If you do, it enters untapped instead.
+Creatures you control get +X/+0, where X is the number of lands that entered and/or left your graveyard this turn.
+
+CA01 Hired Carriage
+
+
+VERSION 7 CHANGELOG
 ====================
 
 CB19 Play Dead added.

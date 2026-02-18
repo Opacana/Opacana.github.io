@@ -5,7 +5,7 @@
 			<name>AVA</name>
 			<longname>Avallus: Rediscovery</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-02-14</releasedate>
+			<releasedate>2026-02-18</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -3950,7 +3950,7 @@ At the beginning of your end step, create a Map token. (It&apos;s an artifact wi
 		</card>
 		<card>
 			<name>Pulled into the Tar</name>
-			<text>Destroy target artifact, creature or planeswalker. If a permanent card is put into a graveyard this way, return it to the battlefield under your control. Sacrifice it at the beginning of your next end step.</text>
+			<text>Destroy target nonland permanent. If a permanent card is put into a graveyard this way, return it to the battlefield under your control. Sacrifice it at the beginning of your next end step.</text>
 			<set rarity="rare" picurl="https://Opacana.github.io/sets/AVA-files/img/235_Pulled into the Tar.png" num="235">AVA</set>
 			<prop>
 				<layout>normal</layout>
@@ -4085,15 +4085,15 @@ When this creature dies, you may put its counters on target artifact or creature
 		<card>
 			<name>Ancient Waystone</name>
 			<text>When this artifact enters, draw a card.
-{1}, {T}: Create a tapped Map token. (It&apos;s an artifact with &quot;{1}, {T}, Sacrifice this artifact: Target creature you control explores. Activate only as a sorcery.&quot;)</text>
+{1}, {T}: Create a Map token. (It&apos;s an artifact with &quot;{1}, {T}, Sacrifice this artifact: Target creature you control explores. Activate only as a sorcery.&quot;)</text>
 			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/AVA-files/img/252_Ancient Waystone.png" num="252">AVA</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
 				<type>Artifact</type>
 				<maintype>Artifact</maintype>
-				<manacost>4</manacost>
-				<cmc>4</cmc>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
 			</prop>
 			<tablerow>1</tablerow>
 		</card>
@@ -5550,7 +5550,7 @@ Whenever a creature dies, you gain 1 life. If this is the second time this abili
 		<card>
 			<name>Marla, Gearheart Druid</name>
 			<text>Ward {1}
-Whenever a card would be put into an opponent&apos;s graveyard from anywhere, that player instead puts that card onto the bottom of their library and you gain 1 life.</text>
+If a card would be put into an opponent&apos;s graveyard from anywhere, that player instead puts that card onto the bottom of their library and you gain 1 life.</text>
 			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/AVA-files/img/198_Marla, Gearheart Druid.png" num="198">AVA</set>
 			<prop>
 				<layout>normal</layout>

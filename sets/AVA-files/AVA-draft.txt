@@ -2253,7 +2253,7 @@
 		{
 			"name": "Ancient Waystone",
 			"rarity": "uncommon",
-			"mana_cost": "{4}",
+			"mana_cost": "{3}",
 			"type": "Artifact",
 			"collector_number": "252",
 			"image_uris": {
