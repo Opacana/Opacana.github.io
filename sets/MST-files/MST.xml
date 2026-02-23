@@ -5,7 +5,7 @@
 			<name>MST</name>
 			<longname>Morasca: Search for the Moonstones</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-02-18</releasedate>
+			<releasedate>2026-02-23</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -62,8 +62,8 @@
 		</card>
 		<card>
 			<name>UU12 Voracious Elasmodracid</name>
-			<text>This creature can&apos;t be blocked as long as defending player controls an Island.
-{1}{U}, Discard this card: You get a Moonstone counter.</text>
+			<text>As long as defending player controls an island, this creature can&apos;t be blocked by fewer than three creatures.
+{U}, Discard this card: You get a Moonstone counter.</text>
 			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/91_UU12 Voracious Elasmodracid.png" num="91">MST</set>
 			<prop>
 				<layout>normal</layout>
@@ -182,7 +182,7 @@ Whenever you attack, creatures you control with flying get +1/+0 until end of tu
 		</card>
 		<card>
 			<name>UM01 Icon of Dead Futures</name>
-			<text>At the beginning of your end step, target opponent reveals X cards from their hand, where X is the number of Moonstone counters you have, and you choose one of them. That player discards that card.
+			<text>At the beginning of your end step, target opponent reveals X cards from their hand, where X is 1 plus the number of Moonstone counters you have, and you choose one of them. That player discards that card.
 {2}{U}: Target creature can&apos;t be blocked this turn. Activate only as a sorcery.</text>
 			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/233_UM01 Icon of Dead Futures.png" num="233">MST</set>
 			<prop>
@@ -271,7 +271,7 @@ Whenever you attack, you may sacrifice a creature. If you do, draw a card and ga
 		<card>
 			<name>UM01 Flux-node Birthing</name>
 			<text>Wisdom 4 (As an additional cost to cast this, you may exile 4 cards from your graveyard. If you do, copy it, and you may choose new targets for the copy.)
-Whenever you pay a Wisdom cost, create a 2/2 blue and red Drake Elemental creature token with flying.</text>
+Whenever you pay a Wisdom cost, create a 3/2 blue and red Drake Elemental creature token with flying.</text>
 			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/232_UM01 Flux-node Birthing.png" num="232">MST</set>
 			<prop>
 				<layout>normal</layout>
@@ -378,7 +378,9 @@ The first spell you cast each turn has Wisdom 4. (As an additional cost to cast 
 		</card>
 		<card>
 			<name>CW02 Kitsan Knight-Errant</name>
-			<text>When this creature dies, you may pay {1}. When you do, put a +1/+1 counter on another target paladin you control. If you don&apos;t, you gain 1 life. (Armies, Heroes, Knights, Soldiers and Warriors are paladins.)</text>
+			<text>When this creature dies, choose one —
+• You gain 2 life.
+• Put a +1/+1 counter on target Paladin you control. (Armies, Heroes, Knights, Soldiers and Warriors are paladins.)</text>
 			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/14_CW02 Kitsan Knight-Errant.png" num="14">MST</set>
 			<prop>
 				<layout>normal</layout>
@@ -520,7 +522,7 @@ When this creature enters, you gain 1 life, then draw a card.</text>
 			<name>CW10 Marks of Guilt</name>
 			<text>Enchant creature you don&apos;t control
 When this enchantment enters, you gain 3 life.
-Enchanted creature can&apos;t attack or block, and its abilities can&apos;t be activated.</text>
+Prevent all damage enchanted creature would deal.</text>
 			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/22_CW10 Marks of Guilt.png" num="22">MST</set>
 			<prop>
 				<layout>normal</layout>
@@ -1026,9 +1028,9 @@ Target creature gains hexproof and gets +0/+2 until end of turn.</text>
 		</card>
 		<card>
 			<name>CB02 Despair Path Master</name>
-			<text>When this creature enters, choose one —
-• You draw a card and lose 1 life.
-• You draw a card, then discard a card.</text>
+			<text>When this creature enters, draw a card, then choose one —
+• You lose 1 life.
+• You discard a card.</text>
 			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/93_CB02 Despair Path Master.png" num="93">MST</set>
 			<prop>
 				<layout>normal</layout>
@@ -1505,7 +1507,7 @@ This creature has trample as long as you&apos;ve cast an instant or sorcery this
 		<card>
 			<name>CR11 Gem Igniter</name>
 			<text>Whenever you sacrifice one or more lands, or discard one or more land cards, this creature deals 1 damage to target opponent.
-{3}, Sacrifice a land: Draw a card. Activate only once per turn as a sorcery.</text>
+{3}, Sacrifice a land: Draw a card. Activate only once each turn as a sorcery.</text>
 			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/141_CR11 Gem Igniter.png" num="141">MST</set>
 			<prop>
 				<layout>normal</layout>
@@ -1540,14 +1542,14 @@ This spell deals 2 damage to any target.</text>
 		<card>
 			<name>CR13 Sound the Dragonhorn</name>
 			<text>Creatures you control get +2/+0 until end of turn, then choose one —
-• Untap target creature.
+• Target creature gains haste until end of turn.
 • Target creature can&apos;t block this turn.</text>
 			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/143_CR13 Sound the Dragonhorn.png" num="143">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Instant</type>
-				<maintype>Instant</maintype>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
 				<manacost>2R</manacost>
 				<cmc>3</cmc>
 				<colors>R</colors>
@@ -1651,8 +1653,8 @@ This spell deals 4 damage to any target if that target is a permanent or if this
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Sorcery</type>
-				<maintype>Sorcery</maintype>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
 				<manacost>2RR</manacost>
 				<cmc>4</cmc>
 				<colors>R</colors>
@@ -1995,9 +1997,9 @@ When this artifact enters, put a +1/+1 counter on target creature you control.
 		</card>
 		<card>
 			<name>UW01 Rooftop Pouncer</name>
-			<text>This spell costs {1} less to cast as long as a Paladin you controlled attacked this turn. (Armies, Heroes, Knights, Soldiers and Warriors are paladins.)
-During your turn, this creature has first strike.
-{W}: Untap this creature. It gains first strike and reach until your next turn. Activate only once each turn and only as a sorcery.</text>
+			<text>This creature enters with a +1/+1 counter on it as long as you control another paladin. (Armies, Heroes, Knights, Soldiers and Warriors are paladins.)
+First strike
+{W}: Untap this creature. It gains reach until your next turn. Activate only once each turn and only as a sorcery.</text>
 			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/41_UW01 Rooftop Pouncer.png" num="41">MST</set>
 			<prop>
 				<layout>normal</layout>
@@ -2008,7 +2010,7 @@ During your turn, this creature has first strike.
 				<cmc>2</cmc>
 				<colors>W</colors>
 				<coloridentity>W</coloridentity>
-				<pt>2/2</pt>
+				<pt>1/3</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
@@ -2196,7 +2198,7 @@ Exile target attacking or blocking creature.</text>
 Flying
 When this creature enters, choose one —
 • Scry 1, then draw a card.
-• Return target creature you don&apos;t control to its owner&apos;s hand.</text>
+• Return target permanent you don&apos;t control to its owner&apos;s hand.</text>
 			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/80_UU01 Ridgeline Monitor.png" num="80">MST</set>
 			<prop>
 				<layout>normal</layout>
@@ -3061,7 +3063,7 @@ Whenever this creature attacks, create a 1/1 white, black, and green Rat Soldier
 				<cmc>3</cmc>
 				<colors>W</colors>
 				<coloridentity>W</coloridentity>
-				<pt>1/1</pt>
+				<pt>1/2</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
@@ -3286,7 +3288,7 @@ Whenever Neshezoi attacks, if any player has no cards in hand, you may put targe
 		<card>
 			<name>RB04 Memorivore Witch</name>
 			<text>Flying
-As long as a creature died under your control this turn, black spells you cast have Wisdom X, where X is their mana value. (As an additional cost to cast a black spell, you may exile X cards from your graveyard. If you do, copy that spell, and you may choose new targets for the copy.)</text>
+As long as a creature died this turn, black spells you cast have Wisdom X, where X is their mana value. (As an additional cost to cast a black spell, you may exile X cards from your graveyard. If you do, copy that spell, and you may choose new targets for the copy.)</text>
 			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/116_RB04 Memorivore Witch.png" num="116">MST</set>
 			<prop>
 				<layout>normal</layout>
@@ -3389,8 +3391,8 @@ Whenever this creature attacks, discard a card. If the discarded card is an inst
 		</card>
 		<card>
 			<name>RR03 Visionary Metalsmith</name>
-			<text>When this creature enters, you get a Moonstone counter.
-Artifact spells you cast cost {1} less to cast for every Moonstone counter you have.</text>
+			<text>Remove a Moonstone counter from yourself: Add two mana of any one color. Use this mana only to cast artifact spells or activate artifact abilities. Activate only once each turn.
+Artifact creatures and equipped creatures you control have haste.</text>
 			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/154_RR03 Visionary Metalsmith.png" num="154">MST</set>
 			<prop>
 				<layout>normal</layout>
@@ -3516,9 +3518,8 @@ Landfall — Whenever a land you control enters, put a +1/+1 counter on target n
 		</card>
 		<card>
 			<name>RG03 Yewdodelg, Ancient and Wise</name>
-			<text>Yewdodelg has hexproof as long as you&apos;ve gained life this turn.
-At the beginning of your upkeep, if you have more than double your starting life total, you win the game.
-{1}, {T}: You gain 1 life for each creature you control.</text>
+			<text>{3}, {T}, Sacrifice Yewdodelg: If you have more than double your starting life total, you win the game. Activate only as a sorcery.
+{3}, {T}: You gain 1 life for each creature you control</text>
 			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/193_RG03 Yewdodelg, Ancient and Wise.png" num="193">MST</set>
 			<prop>
 				<layout>normal</layout>
@@ -3861,7 +3862,7 @@ Whenever Jetrax deals combat damage to an opponent, return all cards in your gra
 		</card>
 		<card>
 			<name>RM01 Crystal Flameblossom</name>
-			<text>If a land you control would enter tapped, you may have it deal 1 damage to you. If you do, it enters untapped instead.
+			<text>If a land you control would enter tapped, you may have it deal 1 damage to you. When you do, it enters untapped instead.
 Creatures you control get +X/+0, where X is the number of lands that entered and/or left your graveyard this turn.</text>
 			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/215_RM01 Crystal Flameblossom.png" num="215">MST</set>
 			<prop>
@@ -4199,9 +4200,9 @@ When this land becomes untapped, sacrifice it, then search your library for a ba
 			<tablerow>0</tablerow>
 		</card>
 		<card>
-			<name>UX01</name>
+			<name>UX01 Green Uncommon</name>
 			<text></text>
-			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/8_UX01.png" num="8">MST</set>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/8_UX01 Green Uncommon.png" num="8">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4213,9 +4214,9 @@ When this land becomes untapped, sacrifice it, then search your library for a ba
 			<tablerow>1</tablerow>
 		</card>
 		<card>
-			<name>UX02</name>
+			<name>UX02 Red Uncommon</name>
 			<text></text>
-			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/9_UX02.png" num="9">MST</set>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/9_UX02 Red Uncommon.png" num="9">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4227,9 +4228,9 @@ When this land becomes untapped, sacrifice it, then search your library for a ba
 			<tablerow>1</tablerow>
 		</card>
 		<card>
-			<name>UX03</name>
+			<name>UX03 Black Uncommon</name>
 			<text></text>
-			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/10_UX03.png" num="10">MST</set>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/10_UX03 Black Uncommon.png" num="10">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4241,9 +4242,9 @@ When this land becomes untapped, sacrifice it, then search your library for a ba
 			<tablerow>1</tablerow>
 		</card>
 		<card>
-			<name>UX04</name>
-			<text></text>
-			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/11_UX04.png" num="11">MST</set>
+			<name>UX04 White Uncommon</name>
+			<text>[probably something to help bw aristocrats archetype]</text>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/11_UX04 White Uncommon.png" num="11">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4255,9 +4256,9 @@ When this land becomes untapped, sacrifice it, then search your library for a ba
 			<tablerow>1</tablerow>
 		</card>
 		<card>
-			<name>UX05</name>
+			<name>UX05 land/cl-art uncommon</name>
 			<text></text>
-			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/12_UX05.png" num="12">MST</set>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/12_UX05 land/cl-art uncommon.png" num="12">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>

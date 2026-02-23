@@ -874,7 +874,7 @@
 			"name": "CR13 Sound the Dragonhorn",
 			"rarity": "common",
 			"mana_cost": "{2}{R}",
-			"type": "Instant",
+			"type": "Sorcery",
 			"collector_number": "143",
 			"image_uris": {
 				"en": "https://Opacana.github.io/sets/MST-files/img/143_CR13 Sound the Dragonhorn.png"
@@ -934,7 +934,7 @@
 			"name": "CR19 Driven to Destruction",
 			"rarity": "common",
 			"mana_cost": "{2}{R}{R}",
-			"type": "Sorcery",
+			"type": "Instant",
 			"collector_number": "149",
 			"image_uris": {
 				"en": "https://Opacana.github.io/sets/MST-files/img/149_CR19 Driven to Destruction.png"
@@ -2381,53 +2381,53 @@
 			}
 		},
 		{
-			"name": "UX01",
+			"name": "UX01 Green Uncommon",
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "",
 			"collector_number": "8",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/8_UX01.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/8_UX01 Green Uncommon.png"
 			}
 		},
 		{
-			"name": "UX02",
+			"name": "UX02 Red Uncommon",
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "",
 			"collector_number": "9",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/9_UX02.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/9_UX02 Red Uncommon.png"
 			}
 		},
 		{
-			"name": "UX03",
+			"name": "UX03 Black Uncommon",
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "",
 			"collector_number": "10",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/10_UX03.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/10_UX03 Black Uncommon.png"
 			}
 		},
 		{
-			"name": "UX04",
+			"name": "UX04 White Uncommon",
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "",
 			"collector_number": "11",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/11_UX04.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/11_UX04 White Uncommon.png"
 			}
 		},
 		{
-			"name": "UX05",
+			"name": "UX05 land/cl-art uncommon",
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "",
 			"collector_number": "12",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/12_UX05.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/12_UX05 land/cl-art uncommon.png"
 			}
 		},
 		{
@@ -2875,11 +2875,11 @@
 	4 UL03 Garrisoned Homeland
 	4 UL04 Seaweed Nations
 	4 UL05 Blue Sky Cities
-	4 UX01
-	4 UX02
-	4 UX03
-	4 UX04
-	4 UX05
+	4 UX01 Green Uncommon
+	4 UX02 Red Uncommon
+	4 UX03 Black Uncommon
+	4 UX04 White Uncommon
+	4 UX05 land/cl-art uncommon
 [common(6)]
 	8 CU19 Plumb the Depths
 	8 CR04 Iceclaw Swordfrey
@@ -3322,11 +3322,11 @@
 	6 UL03 Garrisoned Homeland
 	6 UL04 Seaweed Nations
 	6 UL05 Blue Sky Cities
-	6 UX01
-	6 UX02
-	6 UX03
-	6 UX04
-	6 UX05
+	6 UX01 Green Uncommon
+	6 UX02 Red Uncommon
+	6 UX03 Black Uncommon
+	6 UX04 White Uncommon
+	6 UX05 land/cl-art uncommon
 	2 RX01 Wrathful Lerna
 	2 RX02 Revered Moonstaff
 	2 RX03 Repulsive Soulblade
@@ -3580,11 +3580,11 @@
 	15 UL03 Garrisoned Homeland
 	15 UL04 Seaweed Nations
 	15 UL05 Blue Sky Cities
-	15 UX01
-	15 UX02
-	15 UX03
-	15 UX04
-	15 UX05
+	15 UX01 Green Uncommon
+	15 UX02 Red Uncommon
+	15 UX03 Black Uncommon
+	15 UX04 White Uncommon
+	15 UX05 land/cl-art uncommon
 	7 RX01 Wrathful Lerna
 	7 RX02 Revered Moonstaff
 	7 RX03 Repulsive Soulblade

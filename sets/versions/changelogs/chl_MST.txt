@@ -1,4 +1,125 @@
-﻿VERSION 8 CHANGELOG
+﻿VERSION 9 CHANGELOG
+====================
+
+UX01 Green Uncommon added.
+UX02 Red Uncommon added.
+UX03 Black Uncommon added.
+UX04 White Uncommon added.
+UX05 land/cl-art uncommon added.
+
+UX01 removed.
+UX02 removed.
+UX03 removed.
+UX04 removed.
+UX05 removed.
+
+UU12 Voracious Elasmodracid
+rules_text: This creature can't be blocked as long as defending player controls an Island.
+{1}{U}, Discard this card: You get a Moonstone counter. => As long as defending player controls an island, this creature can't be blocked by fewer than three creatures.
+{U}, Discard this card: You get a Moonstone counter.
+
+UM01 Icon of Dead Futures
+rules_text: At the beginning of your end step, target opponent reveals X cards from their hand, where X is the number of Moonstone counters you have, and you choose one of them. That player discards that card.
+{2}{U}: Target creature can't be blocked this turn. Activate only as a sorcery. => At the beginning of your end step, target opponent reveals X cards from their hand, where X is 1 plus the number of Moonstone counters you have, and you choose one of them. That player discards that card.
+{2}{U}: Target creature can't be blocked this turn. Activate only as a sorcery.
+
+UM01 Flux-node Birthing
+rules_text: Wisdom 4 [i](As an additional cost to cast this, you may exile 4 cards from your graveyard. If you do, copy it, and you may choose new targets for the copy.)[/i]
+Whenever you pay a Wisdom cost, create a 2/2 blue and red Drake Elemental creature token with flying. => Wisdom 4 [i](As an additional cost to cast this, you may exile 4 cards from your graveyard. If you do, copy it, and you may choose new targets for the copy.)[/i]
+Whenever you pay a Wisdom cost, create a 3/2 blue and red Drake Elemental creature token with flying.
+
+CW02 Kitsan Knight-Errant
+rules_text: When this creature dies, you may pay {1}. When you do, put a +1/+1 counter on another target paladin you control. If you don't, you gain 1 life. [i](Armies, Heroes, Knights, Soldiers and Warriors are paladins.)[/i] => When this creature dies, choose one —
+• You gain 2 life.
+• Put a +1/+1 counter on target Paladin you control. [i](Armies, Heroes, Knights, Soldiers and Warriors are paladins.)[/i]
+
+CW10 Marks of Guilt
+rules_text: Enchant creature you don't control
+When this enchantment enters, you gain 3 life.
+Enchanted creature can't attack or block, and its abilities can't be activated. => Enchant creature you don't control
+When this enchantment enters, you gain 3 life.
+Prevent all damage enchanted creature would deal.
+
+CB02 Despair Path Master
+rules_text: When this creature enters, choose one —
+• You draw a card and lose 1 life.
+• You draw a card, then discard a card. => When this creature enters, draw a card, then choose one —
+• You lose 1 life.
+• You discard a card.
+
+CB03 Adept of the Blood Codex
+
+CB13 Infernal Resourcefulness
+
+CB14 Deceptive Wagering
+
+CB15 Blow to the Pharynx
+
+CR11 Gem Igniter
+rules_text: Whenever you sacrifice one or more lands, or discard one or more land cards, this creature deals 1 damage to target opponent.
+{3}, Sacrifice a land: Draw a card. Activate only once per turn as a sorcery. => Whenever you sacrifice one or more lands, or discard one or more land cards, this creature deals 1 damage to target opponent.
+{3}, Sacrifice a land: Draw a card. Activate only once each turn as a sorcery.
+
+CR13 Sound the Dragonhorn
+type: Instant => Sorcery
+rules_text: Creatures you control get +2/+0 until end of turn, then choose one —
+• Untap target creature.
+• Target creature can't block this turn. => Creatures you control get +2/+0 until end of turn, then choose one —
+• Target creature gains haste until end of turn.
+• Target creature can't block this turn.
+
+CR19 Driven to Destruction
+type: Sorcery => Instant
+
+UW01 Rooftop Pouncer
+rules_text: This spell costs {1} less to cast as long as a Paladin you controlled attacked this turn. [i](Armies, Heroes, Knights, Soldiers and Warriors are paladins.)[/i]
+During your turn, this creature has first strike.
+{W}: Untap this creature. It gains first strike and reach until your next turn. Activate only once each turn and only as a sorcery. => This creature enters with a +1/+1 counter on it as long as you control another paladin. [i](Armies, Heroes, Knights, Soldiers and Warriors are paladins.)[/i]
+First strike
+{W}: Untap this creature. It gains reach until your next turn. Activate only once each turn and only as a sorcery.
+pt: 2/2 => 1/3
+
+UU01 Ridgeline Monitor
+rules_text: Flash
+Flying
+When this creature enters, choose one —
+• Scry 1, then draw a card.
+• Return target creature you don't control to its owner's hand. => Flash
+Flying
+When this creature enters, choose one —
+• Scry 1, then draw a card.
+• Return target permanent you don't control to its owner's hand.
+
+RW05 Iron Empire Brigade
+pt: 1/1 => 1/2
+
+RB03 Neshezoi, Mad Harbinger
+
+RB04 Memorivore Witch
+rules_text: Flying
+As long as a creature died under your control this turn, black spells you cast have Wisdom X, where X is their mana value. [i](As an additional cost to cast a black spell, you may exile X cards from your graveyard. If you do, copy that spell, and you may choose new targets for the copy.)[/i] => Flying
+As long as a creature died this turn, black spells you cast have Wisdom X, where X is their mana value. [i](As an additional cost to cast a black spell, you may exile X cards from your graveyard. If you do, copy that spell, and you may choose new targets for the copy.)[/i]
+
+RR03 Visionary Metalsmith
+rules_text: When this creature enters, you get a Moonstone counter.
+Artifact spells you cast cost {1} less to cast for every Moonstone counter you have. => Remove a Moonstone counter from yourself: Add two mana of any one color. Use this mana only to cast artifact spells or activate artifact abilities. Activate only once each turn.
+Artifact creatures and equipped creatures you control have haste.
+
+RG03 Yewdodelg, Ancient and Wise
+rules_text: Yewdodelg has hexproof as long as you've gained life this turn.
+At the beginning of your upkeep, if you have more than double your starting life total, you win the game.
+{1}, {T}: You gain 1 life for each creature you control. => {3}, {T}, Sacrifice Yewdodelg: If you have more than double your starting life total, you win the game. Activate only as a sorcery.
+{3}, {T}: You gain 1 life for each creature you control
+
+RM01 Crystal Flameblossom
+rules_text: If a land you control would enter tapped, you may have it deal 1 damage to you. If you do, it enters untapped instead.
+Creatures you control get +X/+0, where X is the number of lands that entered and/or left your graveyard this turn. => If a land you control would enter tapped, you may have it deal 1 damage to you. When you do, it enters untapped instead.
+Creatures you control get +X/+0, where X is the number of lands that entered and/or left your graveyard this turn.
+
+RM01 Iron Empire Monolith
+
+
+VERSION 8 CHANGELOG
 ====================
 
 CR11 Gem Igniter added.
