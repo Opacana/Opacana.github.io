@@ -1,4 +1,83 @@
-﻿VERSION 9 CHANGELOG
+﻿VERSION 10 CHANGELOG
+====================
+
+UX02 Defend the Temple added.
+UX04 Oracle's Encouragement added.
+
+UX02 Red Uncommon removed.
+UX04 White Uncommon removed.
+
+Courageous Assembly
+rules_text: Create a token copy of each paladin creature you control. [i](Armies, Heroes, Knights, Soldiers and Warriors are paladins.)[/i] => Create a token copy of each militant creature you control. [i](Armies, Heroes, Knights, Soldiers and Warriors are militants.)[/i]
+
+UM01 Aerieguard Captain
+rules_text: When this creature enters, search your library for a paladin card, reveal it and put it into your hand, then shuffle. [i](Armies, Heroes, Knights, Soldiers and Warriors are paladins.)[/i]
+Paladin creatures you control have haste. => When this creature enters, search your library for a militant card, reveal it and put it into your hand, then shuffle. [i](Armies, Heroes, Knights, Soldiers and Warriors are militants.)[/i]
+Militant creatures you control have haste.
+
+CW02 Kitsan Knight-Errant
+rules_text: When this creature dies, choose one —
+• You gain 2 life.
+• Put a +1/+1 counter on target Paladin you control. [i](Armies, Heroes, Knights, Soldiers and Warriors are paladins.)[/i] => When this creature dies, choose one —
+• You gain 2 life.
+• Put a +1/+1 counter on target Militant you control. [i](Armies, Heroes, Knights, Soldiers and Warriors are militants.)[/i]
+
+CW09 Thraupian Harrier
+rules_text: Flying
+{1}{W}, {T}: Tap target creature. This ability costs {1} more to activate if it target a Paladin creature. [i](Armies, Heroes, Knights, Soldiers and Warriors are paladins.)[/i] => Flying
+{W}, {T}: Tap target creature. This ability costs {1} more to activate if it targets a militant creature. [i](Armies, Heroes, Knights, Soldiers and Warriors are militants.)[/i]
+
+UW01 Rooftop Pouncer
+rules_text: This creature enters with a +1/+1 counter on it as long as you control another paladin. [i](Armies, Heroes, Knights, Soldiers and Warriors are paladins.)[/i]
+First strike
+{W}: Untap this creature. It gains reach until your next turn. Activate only once each turn and only as a sorcery. => This creature enters with a +1/+1 counter on it as long as you control another militant creature. [i](Armies, Heroes, Knights, Soldiers and Warriors are militants.)[/i]
+First strike
+{W}: Untap this creature. It gains reach until your next turn. Activate only once each turn and only as a sorcery.
+
+UW11 Storm of Defiance
+rules_text: This spell costs {W} less to cast as long as you control 3 or more creatures or a nontoken Paladin. [i](Armies, Heroes, Knights, Soldiers and Warriors are paladins.)[/i]
+Exile target attacking or blocking creature. => This spell costs {W} less to cast as long as you control 3 or more creatures or a nontoken militant creature. [i](Armies, Heroes, Knights, Soldiers and Warriors are militants.)[/i]
+Exile target attacking or blocking creature.
+
+UR04 Dashing Vigilante
+rules_text: This creature has haste as long as you control another Paladin. [i](Armies, Heroes, Knights, Soldiers and Warriors are paladins.)[/i]
+During your turn, this creature has first strike. => This creature has haste as long as you control another militant. [i](Armies, Heroes, Knights, Soldiers and Warriors are militants.)[/i]
+During your turn, this creature has first strike.
+
+UG08 Building the Frontier
+rules_text: Whenever a land you control enters, put a +1/+1 counter on target creature you control. If that creature is a Paladin, put two +1/+1 counters on it instead. This triggers only once each turn. [i](Armies, Heroes, Knights, Soldiers and Warriors are paladins.)[/i]
+[i]Landfall[/i] — Whenever a land you control enters, you gain 1 life. => Whenever a land you control enters, put a +1/+1 counter on target creature you control. If that creature is a militant, put two +1/+1 counters on it instead. This triggers only once each turn. [i](Armies, Heroes, Knights, Soldiers and Warriors are militants.)[/i]
+[i]Landfall[/i] — Whenever a land you control enters, you gain 1 life.
+
+RW02 Rouser Elder
+rules_text: Paladin creatures you control get +1/+0. [i](Armies, Heroes, Knights, Soldiers and Warriors are paladins.)[/i]
+Whenever this creature attacks, up to two target Rats become a Hero in addition to their other creature types.
+At the beginning of your end step, create a 1/1 white Rat Citizen creature token. => Militant creatures you control get +1/+0. [i](Armies, Heroes, Knights, Soldiers and Warriors are militants.)[/i]
+Whenever this creature attacks, up to two target Rats become a Hero in addition to their other creature types. [i](This effect lasts indefinitely.)[/i]
+At the beginning of your end step, create a 1/1 white Rat Citizen creature token.
+
+RW04 General of the Guards
+rules_text: Protection from outlaws [i](This creature can't be blocked, targeted, dealt damage, enchanted, or equipped by Assassins, Mercenaries, Pirates, Rogues or Warlocks.)[/i]
+Double strike
+Opponents can't cast spells or activate abilities during your turn. => Protection from non-militant creatures [i](This creature can't be blocked, targeted, or dealt damage by creatures that aren't Armies, Heroes, Knights, Soldiers or Warriors.)[/i] 
+Double strike
+Opponents can't cast spells or activate abilities during your turn.
+
+RU04 Titanic Rudan
+rules_text: This spell costs {1} less to cast for each Moonstone counter you have and each Bird you control.
+Flying, trample
+This creature gets +1/+0 for each Paladin your opponents control. [i](Armies, Heroes, Knights, Soldiers and Warriors are paladins.)[/i] => This spell costs {1} less to cast for each Moonstone counter you have and each Bird you control.
+Flying, trample
+This creature gets +1/+0 for each militant creature your opponents control. [i](Armies, Heroes, Knights, Soldiers and Warriors are militants.)[/i]
+
+UA04 Tezakayt Fortress
+cost: {5} => {6}
+
+UX03 Black Uncommon
+rules_text:  => should make one or more tokens
+
+
+VERSION 9 CHANGELOG
 ====================
 
 UX01 Green Uncommon added.
