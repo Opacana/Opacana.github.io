@@ -1,4 +1,168 @@
-﻿VERSION 11 CHANGELOG
+﻿VERSION 12 CHANGELOG
+====================
+
+
+
+Moonstones
+
+Courageous Assembly
+rules_text: Create a token copy of each militant creature you control. [i](Armies, Heroes, Knights, Soldiers and Warriors are militants.)[/i] => Create a token copy of each militant you control. [i](Armies, Heroes, Knights, Soldiers and Warriors are militants.)[/i]
+
+UM01 Flux-node Birthing
+rules_text: Wisdom 4 [i](As an additional cost to cast this, you may exile 4 cards from your graveyard. If you do, copy it, and you may choose new targets for the copy.)[/i]
+Whenever you pay a Wisdom cost, create a 3/2 blue and red Drake Elemental creature token with flying. => Wisdom 4 [i](As an additional cost to cast this, you may exile four cards from your graveyard. If you do, copy it, and you may choose new targets for the copy.)[/i]
+Whenever you pay a Wisdom cost, create a 3/2 blue and red Drake Elemental creature token with flying.
+
+CW07 Stubborn Hornblower
+rules_text: This creature enters tapped.
+When this creature dies, create two 1/1 white Goat Peasant creature tokens. => When this creature dies, create two 1/1 white Goat Peasant creature tokens.
+
+CW09 Thraupian Harrier
+rules_text: Flying
+{W}, {T}: Tap target creature. This ability costs {1} more to activate if it targets a militant creature. [i](Armies, Heroes, Knights, Soldiers and Warriors are militants.)[/i] => Flying
+{W}, {T}: Tap target creature. This ability costs {1} more to activate if it targets a militant. [i](Armies, Heroes, Knights, Soldiers and Warriors are militants.)[/i]
+
+CW10 Marks of Guilt
+rules_text: Enchant creature you don't control
+When this enchantment enters, you gain 3 life.
+Prevent all damage enchanted creature would deal. => Wisdom 4 [i](As an additional cost to cast this, you may exile four cards from your graveyard. If you do, copy it, and you may choose new targets for the copy.)[/i]
+Enchant creature
+Enchanted creature can't attack or block, and its activated abilities can't be activated.
+
+CW18 Serene Crystallization
+rules_text: Wisdom 4 [i](As an additional cost to cast this, you may exile 4 cards from your graveyard. If you do, copy it, and you may choose new targets for the copy.)[/i]
+Enchant creature
+Enchanted creature can't attack or block, and its activated abilities can't be activated. => When this enchantment enters, exile target nonland permanent an opponent controls until this enchantment leaves the battlefield.
+
+CU04 Kodiloan Sentry
+rules_text: Ward {1}
+This creature gets +2/+0 as long as you have 2 or more Moonstone counters. => Ward {1}
+This creature gets +2/+0 as long as you have two or more Moonstone counters.
+
+CU16 Raise Shields
+rules_text: Wisdom 3 [i](As an additional cost to cast this, you may exile 3 cards from your graveyard. If you do, copy it, and you may choose new targets for the copy.)[/i]
+Target creature gains hexproof and gets +0/+2 until end of turn. => Wisdom 3 [i](As an additional cost to cast this, you may exile three cards from your graveyard. If you do, copy it, and you may choose new targets for the copy.)[/i]
+Target creature gains hexproof and gets +0/+2 until end of turn.
+
+CB10 Snatcher Drakeling
+pt: 2/1 => 1/1
+
+CR12 Sprite Bolt
+rules_text: Wisdom 5 [i](As an additional cost to cast this, you may exile 5 cards from your graveyard. If you do, copy it, and you may choose new targets for the copy.)[/i]
+This spell deals 2 damage to any target. => Wisdom 5 [i](As an additional cost to cast this, you may exile five cards from your graveyard. If you do, copy it, and you may choose new targets for the copy.)[/i]
+This spell deals 2 damage to any target.
+
+CR14 Smash Open
+rules_text: Choose one —
+• Exile target artifact.
+• Destroy target nonbasic land. => Choose one —
+• Exile target artifact.
+• Target creature gets +3/+3 and gains trample until end of turn.
+
+CR16 Storm's Strike
+rules_text: Wisdom 2 [i](As an additional cost to cast this, you may exile 2 cards from your graveyard. If you do, copy it, and you may choose new targets for the copy.)[/i]
+Target creature gets +2/+0 and gains first strike until end of turn. => Wisdom 2 [i](As an additional cost to cast this, you may exile two cards from your graveyard. If you do, copy it, and you may choose new targets for the copy.)[/i]
+Target creature gets +2/+0 and gains first strike until end of turn.
+
+CR17 Fireside Tales
+rules_text: Wisdom 2 [i](As an additional cost to cast this, you may exile 2 cards from your graveyard. If you do, copy it, and you may choose new targets for the copy.)[/i]
+Discard a card, then draw two cards. => Wisdom 2 [i](As an additional cost to cast this, you may exile two cards from your graveyard. If you do, copy it, and you may choose new targets for the copy.)[/i]
+Discard a card, then draw two cards.
+
+CG03 Unphased Journeyers
+rules_text: Wisdom 4 [i](As an additional cost to cast this, you may exile 4 cards from your graveyard. If you do, copy it, and you may choose new targets for the copy.)[/i] => Wisdom 4 [i](As an additional cost to cast this, you may exile four cards from your graveyard. If you do, copy it, and you may choose new targets for the copy.)[/i]
+
+CG15 Moonguided Shot
+rules_text: Choose one —
+• Destroy target creature with flying.
+• Untap target creature you control. Until end of turn, that creature gets +1/+1 and gains reach and lifelink. => Choose one —
+• Destroy target creature with flying.
+• Untap target creature you control. Until end of turn, that creature gets +1/+2 and gains reach.
+
+UW01 Rooftop Pouncer
+rules_text: This creature enters with a +1/+1 counter on it as long as you control another militant creature. [i](Armies, Heroes, Knights, Soldiers and Warriors are militants.)[/i]
+First strike
+{W}: Untap this creature. It gains reach until your next turn. Activate only once each turn and only as a sorcery. => This creature enters with a +1/+1 counter on it as long as you control another militant. [i](Armies, Heroes, Knights, Soldiers and Warriors are militants.)[/i]
+First strike
+{W}: Untap this creature. It gains reach until your next turn. Activate only once each turn and only as a sorcery.
+
+UW05 Spire Guru
+rules_text: Flying
+Pay 3 life: This creature gains first strike and indestructible until end of turn. Activate only once each turn. => Flying
+Pay 3 life: This creature gains first strike and indestructible until end of turn. Tap this creature. Activate only once each turn.
+
+UU09 Runic Restraints
+rules_text: Wisdom 4 [i](As an additional cost to cast this, you may exile 4 cards from your graveyard. If you do, copy it, and you may choose new targets for the copy.)[/i]
+Tap target nonland permanent and put two stun counters on it.
+Draw a card. => Wisdom 4 [i](As an additional cost to cast this, you may exile four cards from your graveyard. If you do, copy it, and you may choose new targets for the copy.)[/i]
+Tap target nonland permanent and put two stun counters on it.
+Draw a card.
+
+UU10 Summon the Soulchasers
+rules_text: Wisdom 2 [i](As an additional cost to cast this, you may exile 2 cards from your graveyard. If you do, copy it, and you may choose new targets for the copy.)[/i]
+Create two 1/1 blue Bird Spirit creature tokens with flying. => Wisdom 2 [i](As an additional cost to cast this, you may exile two cards from your graveyard. If you do, copy it, and you may choose new targets for the copy.)[/i]
+Create two 1/1 blue Bird Spirit creature tokens with flying.
+
+UB09 Necromancer's Whim
+rules_text: Kicker {3} [i](You may pay an additional {3} as you cast this spell.)[/i]
+Return target creature card from your graveyard to your hand. If this spell was kicked, return that creature card to the battlefield tapped instead. => Kicker {3}{B} [i](You may pay an additional {3}{B} as you cast this spell.)[/i]
+Return target creature card from your graveyard to your hand. If this spell was kicked, return that creature card to the battlefield tapped instead.
+
+UR01 Priest of Primordial Fire
+cost: {R} => {1}{R}
+pt: 1/1 => 1/2
+
+UR09 Shattershot
+cost: {2}{R} => {1}{R}{R}
+
+UG08 Building the Frontier
+rules_text: Whenever a land you control enters, put a +1/+1 counter on target creature you control. If that creature is a militant, put two +1/+1 counters on it instead. This triggers only once each turn. [i](Armies, Heroes, Knights, Soldiers and Warriors are militants.)[/i]
+[i]Landfall[/i] — Whenever a land you control enters, you gain 1 life. => [i]Landfall[/i] — Whenever a land you control enters, you gain 1 life. If this is the first time this ability has resolved this turn, put a +1/+1 counter on target creature you control. If that creature is militant, put two +1/+1 counters on it instead. [i](Armies, Heroes, Knights, Soldiers and Warriors are militants.)[/i]
+
+RU02 Supercell Channeler
+rules_text: Flash
+Flying
+When this creature enters the battlefield, you may pay {2}. When you do, copy target instant, sorcery, or ability.
+Whenever you copy a spell for the first time each turn, draw a card. => Flash, kicker {2}
+Flying
+When this creature enters the battlefield, if it was kicked, copy target instant, sorcery, or ability.
+Whenever you copy a spell for the first time each turn, draw a card.
+
+RU07 Dance of the New Cycle
+rules_text: Wisdom 5 [i](As an additional cost to cast this, you may exile 5 cards from your graveyard. If you do, copy it, and you may choose new targets for the copy.)[/i]
+Create a token copy of target creature you control. You may then tap that token. If you do, you mill cards equal to its power, then draw two cards. => Wisdom 5 [i](As an additional cost to cast this, you may exile five cards from your graveyard. If you do, copy it, and you may choose new targets for the copy.)[/i]
+Create a token copy of target creature you control. You may then tap that token. If you do, you mill cards equal to its power, then draw two cards.
+
+RR06 Blazing Technique
+rules_text: Wisdom 2 [i](As an additional cost to cast this, you may exile 2 cards from your graveyard. If you do, copy it, and you may choose new targets for the copy.)[/i]
+Enchant creature you control
+Enchanted creature gets +2/+1 and has haste, first strike, and menace. => Wisdom 2 [i](As an additional cost to cast this, you may exile two cards from your graveyard. If you do, copy it, and you may choose new targets for the copy.)[/i]
+Enchant creature you control
+Enchanted creature gets +2/+1 and has haste, first strike, and menace.
+
+MU01 Y'ssna, Cephaloid Oracle
+
+CA05 Honeywine Elixir
+rules_text: This artifact enters tapped.
+{T}: Add {W} or {G}. You gain 1 life. => {T}: You gain 1 life.
+{2}, {T}, Sacrifice this artifact: Target creature gains lifelink until end of turn.
+
+UA02 Deciphered Relic
+rules_text: Wisdom 4 [i](As an additional cost to cast this, you may exile 4 cards from your graveyard. If you do, copy it, and you may choose new targets for the copy.)[/i]
+This artifact enters tapped.
+{T}: Add two mana of any one color among cards put into your graveyard from anywhere this turn. => Wisdom 4 [i](As an additional cost to cast this, you may exile four cards from your graveyard. If you do, copy it, and you may choose new targets for the copy.)[/i]
+This artifact enters tapped.
+{T}: Add two mana of any one color among cards put into your graveyard from anywhere this turn.
+
+UX02 Defend the Temple
+rules_text: This spell can't be countered.
+This spell deals 3 damage to any target.
+If you control a militant creature, exile the top card of your library. Until the end of your next turn, you may play that card. [i](Armies, Heroes, Knights, Soldiers and Warriors are militants.)[/i] => This spell can't be countered.
+This spell deals 3 damage to any target.
+If you control a militant, exile the top card of your library. Until the end of your next turn, you may play that card. [i](Armies, Heroes, Knights, Soldiers and Warriors are militants.)[/i]
+
+
+VERSION 11 CHANGELOG
 ====================
 
 No changes.

@@ -1463,7 +1463,7 @@
 		{
 			"name": "UR01 Priest of Primordial Fire",
 			"rarity": "uncommon",
-			"mana_cost": "{R}",
+			"mana_cost": "{1}{R}",
 			"type": "Creature — Wolf Warlock Druid",
 			"collector_number": "158",
 			"image_uris": {
@@ -1543,7 +1543,7 @@
 		{
 			"name": "UR09 Shattershot",
 			"rarity": "uncommon",
-			"mana_cost": "{2}{R}",
+			"mana_cost": "{1}{R}{R}",
 			"type": "Sorcery",
 			"collector_number": "166",
 			"image_uris": {
