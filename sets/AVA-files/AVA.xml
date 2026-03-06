@@ -5,7 +5,7 @@
 			<name>AVA</name>
 			<longname>Avallus: Rediscovery</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-02-18</releasedate>
+			<releasedate>2026-03-05</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -362,7 +362,7 @@ Sacrifice a Map: This creature can&apos;t be blocked this turn.</text>
 			<name>Indomitable Tinkerer</name>
 			<text>This spell costs {1} less to cast as long as you control an artifact.
 Reach
-When this enters, create a tapped Treasure token.</text>
+When this creature enters, create a tapped Treasure token.</text>
 			<set rarity="common" picurl="https://Opacana.github.io/sets/AVA-files/img/62_Indomitable Tinkerer.png" num="62">AVA</set>
 			<prop>
 				<layout>normal</layout>
@@ -632,16 +632,17 @@ Pay 2 life: Untap this creature. Activate only once each turn as a sorcery.
 		</card>
 		<card>
 			<name>Unplanned Landing</name>
-			<text>Kicker—Sacrifice an artifact
-Create a Map token. If this spell was kicked, create two Map tokens this way instead. (It&apos;s an artifact with &quot;{1}, {T}, Sacrifice this artifact: Target creature you control explores. Activate only as a sorcery.&quot;)</text>
+			<text>Choose one —
+• Draw two cards.
+• Create three Map tokens. (They&apos;re artifacts with &quot;{1}, {T}, Sacrifice this artifact: Target creature you control explores. Activate only as a sorcery.&quot;)</text>
 			<set rarity="common" picurl="https://Opacana.github.io/sets/AVA-files/img/85_Unplanned Landing.png" num="85">AVA</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Instant</type>
-				<maintype>Instant</maintype>
-				<manacost>U</manacost>
-				<cmc>1</cmc>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
 				<colors>U</colors>
 				<coloridentity>U</coloridentity>
 			</prop>
@@ -651,12 +652,12 @@ Create a Map token. If this spell was kicked, create two Map tokens this way ins
 			<name>Hulldrifter</name>
 			<text>Flying
 When this Vehicle enters, draw two cards.
-Crew 3 (Tap any number of creatures you control with total power 3 or more: This Vehicle Scout becomes an artifact creature until end of turn.)</text>
+Crew 3 (Tap any number of creatures you control with total power 3 or more: This Scout Vehicle becomes an artifact creature until end of turn.)</text>
 			<set rarity="common" picurl="https://Opacana.github.io/sets/AVA-files/img/60_Hulldrifter.png" num="60">AVA</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Kindred Artifact — Vehicle Scout</type>
+				<type>Kindred Artifact — Scout Vehicle</type>
 				<maintype>Artifact</maintype>
 				<manacost>3UU</manacost>
 				<cmc>5</cmc>
@@ -738,7 +739,7 @@ Then put a stun counter on each creature tapped this way.</text>
 		</card>
 		<card>
 			<name>Unscrupulous Surgeon</name>
-			<text>When this enters, you may discard a card. If you do, up to one other target creature you control explores. (Reveal the top card of your library. Put that card into your hand if it&apos;s a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)</text>
+			<text>When this creature enters, you may discard a card. If you do, up to one other target creature you control explores. (Reveal the top card of your library. Put that card into your hand if it&apos;s a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)</text>
 			<set rarity="common" picurl="https://Opacana.github.io/sets/AVA-files/img/129_Unscrupulous Surgeon.png" num="129">AVA</set>
 			<prop>
 				<layout>normal</layout>
@@ -808,7 +809,7 @@ Whenever a Bird you control dies, you may surveil 2.</text>
 		<card>
 			<name>Death&apos;s Hall Caretaker</name>
 			<text>Kicker—Discard a card
-When this enters, target opponent discards a card. If it was kicked, instead target opponent reveals their hand, you choose a nonland card from it, and that player discards that card.</text>
+When this creature enters, target opponent discards a card. If it was kicked, instead target opponent reveals their hand, you choose a nonland card from it, and that player discards that card.</text>
 			<set rarity="common" picurl="https://Opacana.github.io/sets/AVA-files/img/93_Death&apos;s Hall Caretaker.png" num="93">AVA</set>
 			<prop>
 				<layout>normal</layout>
@@ -988,7 +989,7 @@ Boneborn {1}{B}{B} ({1}{B}{B}, Exile a creature card from your graveyard or sacr
 		<card>
 			<name>Ossuaerie Keeper</name>
 			<text>Flying
-When this creature dies, if it&apos;s not a token, you may pay {1}{B}. If you do, create a token copy of it.
+When this creature dies, if it&apos;s not a token, you may pay {1}{B}. If you do, create a token that&apos;s a copy of it.
 ---
 (Front): Hoard of Bones</text>
 			<set rarity="common" picurl="https://Opacana.github.io/sets/AVA-files/img/100_Hoard of Bones_back.png" num="100b">AVA</set>
@@ -1364,7 +1365,7 @@ Flying, first strike</text>
 		<card>
 			<name>Eager Experimenter</name>
 			<text>Haste
-{X}{1}, {T}, Reveal an artifact card with mana value X from your hand: Create a token copy of the revealed card. Activate only once each turn, and only as a sorcery.</text>
+{X}{1}, {T}, Reveal an artifact card with mana value X from your hand: Create a token that&apos;s a copy of the revealed card. Activate only once each turn, and only as a sorcery.</text>
 			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/AVA-files/img/146_Eager Experimenter.png" num="146">AVA</set>
 			<prop>
 				<layout>normal</layout>
@@ -1381,8 +1382,7 @@ Flying, first strike</text>
 		</card>
 		<card>
 			<name>Greater Branchpiler</name>
-			<text>This creature can&apos;t crew Vehicles.
-Spells and abilities you control that target this creature cost {1} less to cast or activate.</text>
+			<text>Spells and abilities you control that target this creature cost {1} less to cast or activate.</text>
 			<set rarity="common" picurl="https://Opacana.github.io/sets/AVA-files/img/192_Greater Branchpiler.png" num="192">AVA</set>
 			<prop>
 				<layout>normal</layout>
@@ -1693,12 +1693,12 @@ When this creature dies, put up to one land card from your graveyard onto the ba
 		<card>
 			<name>Flower Cart</name>
 			<text>{T}: Untap target nonlegendary land. If this is a creature, you may untap two target nonlegendary lands instead.
-Crew 2 (Tap any number of creatures you control with total power 2 or more: This Vehicle Plant becomes an artifact creature until end of turn.)</text>
+Crew 2 (Tap any number of creatures you control with total power 2 or more: This Plant Vehicle becomes an artifact creature until end of turn.)</text>
 			<set rarity="common" picurl="https://Opacana.github.io/sets/AVA-files/img/188_Flower Cart.png" num="188">AVA</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Kindred Artifact — Vehicle Plant</type>
+				<type>Kindred Artifact — Plant Vehicle</type>
 				<maintype>Artifact</maintype>
 				<manacost>1G</manacost>
 				<cmc>2</cmc>
@@ -1911,7 +1911,7 @@ Crew 1</text>
 		<card>
 			<name>Can&apos;t Take the Sky From Me</name>
 			<text>Creatures you control have &quot;This creature crews Vehicles with flying and saddles Mounts with flying as if its power was 2 greater.&quot;
-Creatures and Vehicles you control with flying get +1/+0.</text>
+Creatures you control with flying get +1/+0.</text>
 			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/AVA-files/img/8_Can&apos;t Take the Sky From Me.png" num="8">AVA</set>
 			<prop>
 				<layout>normal</layout>
@@ -1927,7 +1927,7 @@ Creatures and Vehicles you control with flying get +1/+0.</text>
 		</card>
 		<card>
 			<name>Decorated Pilot</name>
-			<text>When this enters, if you cast it, you may untap target Vehicle or artifact creature.
+			<text>When this creature enters, if you cast it, you may untap target Vehicle or artifact creature.
 This creature crews Vehicles as if its power were 3 greater.</text>
 			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/AVA-files/img/50_Decorated Pilot.png" num="50">AVA</set>
 			<prop>
@@ -2040,7 +2040,7 @@ Crew 1</text>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Kindred Artifact — Vehicle Rogue</type>
+				<type>Kindred Artifact — Rogue Vehicle</type>
 				<maintype>Artifact</maintype>
 				<manacost>UU</manacost>
 				<cmc>2</cmc>
@@ -2053,7 +2053,7 @@ Crew 1</text>
 		<card>
 			<name>Show Your Work</name>
 			<text>This spell can&apos;t be copied.
-Copy target noncreature spell. (A copy of a permanent spell becomes a token.)</text>
+Copy target noncreature spell. You may choose new targets for the copy. (A copy of a permanent spell becomes a token.)</text>
 			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/AVA-files/img/80_Show Your Work.png" num="80">AVA</set>
 			<prop>
 				<layout>normal</layout>
@@ -2301,7 +2301,7 @@ Each player mills two cards.</text>
 		</card>
 		<card>
 			<name>Skull of the Last Hunter</name>
-			<text>When this enters, exile up to one target creature or Vehicle with power 4 or greater.
+			<text>When this artifact enters, exile up to one target creature or Vehicle with power 4 or greater.
 Boneborn {4} ({4}, Exile a creature card from your graveyard or sacrifice a creature: Transform this permanent. Activate only as a sorcery.)
 ---
 (Back): Noxious Devourer</text>
@@ -2350,7 +2350,7 @@ Crew 2</text>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Kindred Artifact — Vehicle Soldier</type>
+				<type>Kindred Artifact — Soldier Vehicle</type>
 				<maintype>Artifact</maintype>
 				<manacost>1BB</manacost>
 				<cmc>3</cmc>
@@ -2850,7 +2850,7 @@ Crew 3</text>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Kindred Artifact — Vehicle Soldier</type>
+				<type>Kindred Artifact — Soldier Vehicle</type>
 				<maintype>Artifact</maintype>
 				<manacost>1WW</manacost>
 				<cmc>3</cmc>
@@ -2923,7 +2923,7 @@ Crew 2</text>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Kindred Artifact — Vehicle Soldier</type>
+				<type>Kindred Artifact — Soldier Vehicle</type>
 				<maintype>Artifact</maintype>
 				<manacost>3UU</manacost>
 				<cmc>5</cmc>
@@ -3241,7 +3241,7 @@ Each player sacrifices a land.</text>
 		</card>
 		<card>
 			<name>Amok Automaton</name>
-			<text>Create a token copy of target artifact, except it has haste, first strike and &quot;At the beginning of the end step, sacrifice this token and draw a card.&quot;</text>
+			<text>Create a token that&apos;s a copy of target artifact, except it has haste, first strike and &quot;At the beginning of the end step, sacrifice this token and draw a card.&quot;</text>
 			<set rarity="rare" picurl="https://Opacana.github.io/sets/AVA-files/img/134_Amok Automaton.png" num="134">AVA</set>
 			<prop>
 				<layout>normal</layout>
@@ -3565,7 +3565,7 @@ At the beginning of your end step, put an ember counter on this creature. Then i
 		</card>
 		<card>
 			<name>High Stakes Game</name>
-			<text>When this enters, and at the beginning of your upkeep, you may discard a card. If you do, choose a permanent you control. Whenever that permanent deals combat damage to an opponent this turn, draw a card and create a Treasure token.</text>
+			<text>When this enchantment enters, and at the beginning of your upkeep, you may discard a card. If you do, choose a permanent you control. Whenever that permanent deals combat damage to an opponent this turn, draw a card and create a Treasure token.</text>
 			<set rarity="rare" picurl="https://Opacana.github.io/sets/AVA-files/img/152_High Stakes Game.png" num="152">AVA</set>
 			<prop>
 				<layout>normal</layout>
@@ -3599,7 +3599,7 @@ Whenever this creature is dealt damage, create a 2/4 green Giant Spider creature
 		</card>
 		<card>
 			<name>Cave of the Vanquished</name>
-			<text>When this enters, choose up to three. You may choose the same mode multiple times. —
+			<text>When this artifact enters, choose up to two. You may choose the same mode multiple times. —
 • Destroy target creature with flying.
 • Destroy target noncreature, nonbasic permanent.
 Boneborn {2}{B} ({2}{B}, Exile a creature card from your graveyard or sacrifice a creature: Transform this permanent. Activate only as a sorcery.)
@@ -3752,7 +3752,7 @@ Discard a card or pay 2 life: Target permanent gains vigilance until end of turn
 		</card>
 		<card>
 			<name>Rabbitfolk Engineer</name>
-			<text>{1}, {T}: Add two mana of any color. Spend this only to cast artifact spells or activate abilities of artifacts.
+			<text>{1}, {T}: Add two mana of any one color. Spend this only to cast artifact spells or activate abilities of artifacts.
 {2}, {T}, Sacrifice an artifact: Draw a card.</text>
 			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/AVA-files/img/236_Rabbitfolk Engineer.png" num="236">AVA</set>
 			<prop>
@@ -3814,7 +3814,7 @@ Crew 1</text>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Kindred Artifact — Vehicle Scout</type>
+				<type>Kindred Artifact — Scout Vehicle</type>
 				<maintype>Artifact</maintype>
 				<manacost>1GU</manacost>
 				<cmc>3</cmc>
@@ -4006,12 +4006,12 @@ Whenever a creature you control explores, you may pay {G}. If you do, put a +1/+
 			<name>Filigree Propskiff</name>
 			<text>Flying
 When this Vehicle enters, create a tapped Treasure token.
-Crew 1 (Tap any number of creatures you control with total power 1 or more: This Vehicle Noble becomes an artifact creature until end of turn.)</text>
+Crew 1 (Tap any number of creatures you control with total power 1 or more: This Noble Vehicle becomes an artifact creature until end of turn.)</text>
 			<set rarity="common" picurl="https://Opacana.github.io/sets/AVA-files/img/254_Filigree Propskiff.png" num="254">AVA</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Kindred Artifact — Vehicle Noble</type>
+				<type>Kindred Artifact — Noble Vehicle</type>
 				<maintype>Artifact</maintype>
 				<manacost>2</manacost>
 				<cmc>2</cmc>

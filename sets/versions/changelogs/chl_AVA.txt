@@ -1,4 +1,121 @@
-﻿VERSION 5 CHANGELOG
+﻿VERSION 6 CHANGELOG
+====================
+
+
+
+Indomitable Tinkerer
+rules_text: This spell costs {1} less to cast as long as you control an artifact.
+Reach
+When this enters, create a tapped Treasure token. => This spell costs {1} less to cast as long as you control an artifact.
+Reach
+When this creature enters, create a tapped Treasure token.
+
+Unplanned Landing
+type: Instant => Sorcery
+cost: {U} => {2}{U}
+rules_text: Kicker—Sacrifice an artifact
+Create a Map token. If this spell was kicked, create two Map tokens this way instead. [i](It's an artifact with “{1}, {T}, Sacrifice this artifact: Target creature you control explores. Activate only as a sorcery.”)[/i] => Choose one —
+• Draw two cards.
+• Create three Map tokens. [i](They're artifacts with “{1}, {T}, Sacrifice this artifact: Target creature you control explores. Activate only as a sorcery.”)[/i]
+
+Hulldrifter
+type: Kindred Artifact — Vehicle Scout => Kindred Artifact — Scout Vehicle
+rules_text: Flying
+When this Vehicle enters, draw two cards.
+Crew 3 [i](Tap any number of creatures you control with total power 3 or more: This Vehicle Scout becomes an artifact creature until end of turn.)[/i] => Flying
+When this Vehicle enters, draw two cards.
+Crew 3 [i](Tap any number of creatures you control with total power 3 or more: This Scout Vehicle becomes an artifact creature until end of turn.)[/i]
+
+Unscrupulous Surgeon
+rules_text: When this enters, you may discard a card. If you do, up to one other target creature you control explores. [i](Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)[/i] => When this creature enters, you may discard a card. If you do, up to one other target creature you control explores. [i](Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)[/i]
+
+Death's Hall Caretaker
+rules_text: Kicker—Discard a card
+When this enters, target opponent discards a card. If it was kicked, instead target opponent reveals their hand, you choose a nonland card from it, and that player discards that card. => Kicker—Discard a card
+When this creature enters, target opponent discards a card. If it was kicked, instead target opponent reveals their hand, you choose a nonland card from it, and that player discards that card.
+
+Hoard of Bones
+
+Eager Experimenter
+rules_text: Haste
+{X}{1}, {T}, Reveal an artifact card with mana value X from your hand: Create a token copy of the revealed card. Activate only once each turn, and only as a sorcery. => Haste
+{X}{1}, {T}, Reveal an artifact card with mana value X from your hand: Create a token that's a copy of the revealed card. Activate only once each turn, and only as a sorcery.
+
+Greater Branchpiler
+rules_text: This creature can't crew Vehicles.
+Spells and abilities you control that target this creature cost {1} less to cast or activate. => Spells and abilities you control that target this creature cost {1} less to cast or activate.
+
+Flower Cart
+type: Kindred Artifact — Vehicle Plant => Kindred Artifact — Plant Vehicle
+rules_text: {T}: Untap target nonlegendary land. If this is a creature, you may untap two target nonlegendary lands instead.
+Crew 2 [i](Tap any number of creatures you control with total power 2 or more: This Vehicle Plant becomes an artifact creature until end of turn.)[/i] => {T}: Untap target nonlegendary land. If this is a creature, you may untap two target nonlegendary lands instead.
+Crew 2 [i](Tap any number of creatures you control with total power 2 or more: This Plant Vehicle becomes an artifact creature until end of turn.)[/i]
+
+Can't Take the Sky From Me
+rules_text: Creatures you control have “This creature crews Vehicles with flying and saddles Mounts with flying as if its power was 2 greater.”
+Creatures and Vehicles you control with flying get +1/+0. => Creatures you control have “This creature crews Vehicles with flying and saddles Mounts with flying as if its power was 2 greater.”
+Creatures you control with flying get +1/+0.
+
+Decorated Pilot
+rules_text: When this enters, if you cast it, you may untap target Vehicle or artifact creature.
+This creature crews Vehicles as if its power were 3 greater. => When this creature enters, if you cast it, you may untap target Vehicle or artifact creature.
+This creature crews Vehicles as if its power were 3 greater.
+
+Experimental Shadowship
+type: Kindred Artifact — Vehicle Rogue => Kindred Artifact — Rogue Vehicle
+
+Show Your Work
+rules_text: This spell can't be copied.
+Copy target noncreature spell. [i](A copy of a permanent spell becomes a token.)[/i] => This spell can't be copied.
+Copy target noncreature spell. You may choose new targets for the copy. [i](A copy of a permanent spell becomes a token.)[/i]
+
+Skull of the Last Hunter
+rules_text: When this enters, exile up to one target creature or Vehicle with power 4 or greater.
+Boneborn {4} [i]({4}, Exile a creature card from your graveyard or sacrifice a creature: Transform this permanent. Activate only as a sorcery.)[/i] => When this artifact enters, exile up to one target creature or Vehicle with power 4 or greater.
+Boneborn {4} [i]({4}, Exile a creature card from your graveyard or sacrifice a creature: Transform this permanent. Activate only as a sorcery.)[/i]
+
+Savoran Razor Galleon
+type: Kindred Artifact — Vehicle Soldier => Kindred Artifact — Soldier Vehicle
+
+Precision Bomber
+type: Kindred Artifact — Vehicle Soldier => Kindred Artifact — Soldier Vehicle
+
+Julescan Dreadnought
+type: Kindred Artifact — Vehicle Soldier => Kindred Artifact — Soldier Vehicle
+
+Amok Automaton
+rules_text: Create a token copy of target artifact, except it has haste, first strike and “At the beginning of the end step, sacrifice this token and draw a card.” => Create a token that's a copy of target artifact, except it has haste, first strike and “At the beginning of the end step, sacrifice this token and draw a card.”
+
+High Stakes Game
+rules_text: When this enters, and at the beginning of your upkeep, you may discard a card. If you do, choose a permanent you control. Whenever that permanent deals combat damage to an opponent this turn, draw a card and create a Treasure token. => When this enchantment enters, and at the beginning of your upkeep, you may discard a card. If you do, choose a permanent you control. Whenever that permanent deals combat damage to an opponent this turn, draw a card and create a Treasure token.
+
+Cave of the Vanquished
+rules_text: When this enters, choose up to three. You may choose the same mode multiple times. —
+• Destroy target creature with flying.
+• Destroy target noncreature, nonbasic permanent.
+Boneborn {2}{B} [i]({2}{B}, Exile a creature card from your graveyard or sacrifice a creature: Transform this permanent. Activate only as a sorcery.)[/i] => When this artifact enters, choose up to two. You may choose the same mode multiple times. —
+• Destroy target creature with flying.
+• Destroy target noncreature, nonbasic permanent.
+Boneborn {2}{B} [i]({2}{B}, Exile a creature card from your graveyard or sacrifice a creature: Transform this permanent. Activate only as a sorcery.)[/i]
+
+Rabbitfolk Engineer
+rules_text: {1}, {T}: Add two mana of any color. Spend this only to cast artifact spells or activate abilities of artifacts.
+{2}, {T}, Sacrifice an artifact: Draw a card. => {1}, {T}: Add two mana of any one color. Spend this only to cast artifact spells or activate abilities of artifacts.
+{2}, {T}, Sacrifice an artifact: Draw a card.
+
+Mapmaker's Society Scoutship
+type: Kindred Artifact — Vehicle Scout => Kindred Artifact — Scout Vehicle
+
+Filigree Propskiff
+type: Kindred Artifact — Vehicle Noble => Kindred Artifact — Noble Vehicle
+rules_text: Flying
+When this Vehicle enters, create a tapped Treasure token.
+Crew 1 [i](Tap any number of creatures you control with total power 1 or more: This Vehicle Noble becomes an artifact creature until end of turn.)[/i] => Flying
+When this Vehicle enters, create a tapped Treasure token.
+Crew 1 [i](Tap any number of creatures you control with total power 1 or more: This Noble Vehicle becomes an artifact creature until end of turn.)[/i]
+
+
+VERSION 5 CHANGELOG
 ====================
 
 

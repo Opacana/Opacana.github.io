@@ -1,4 +1,115 @@
-﻿VERSION 12 CHANGELOG
+﻿VERSION 13 CHANGELOG
+====================
+
+UM01 Fireseed added.
+UG12 The Life of an Epicure added.
+UR12 Defend the Temple added.
+UB12 Cultist of Dus Acasui added.
+UW12 Oracle's Encouragement added.
+UX05 Watchpost Village added.
+RX04 will be mono-green added.
+RX05 will be mono-red added.
+RX08 Eela, Tropical Windspeaker added.
+MX04 will be multicolor added.
+
+UM01 Fireseed WIP removed.
+UX01 Green Uncommon removed.
+UX02 Defend the Temple removed.
+UX03 Black Uncommon removed.
+UX04 Oracle's Encouragement removed.
+UX05 land/cl-art uncommon removed.
+RX04 removed.
+RX05 removed.
+RX08 removed.
+MX04 removed.
+
+Courageous Assembly
+rules_text: Create a token copy of each militant you control. [i](Armies, Heroes, Knights, Soldiers and Warriors are militants.)[/i] => For each militant you control, create a token that's a copy of it. [i](Armies, Heroes, Knights, Soldiers and Warriors are militants.)[/i]
+
+UM01 Icon of Dead Futures
+rules_text: At the beginning of your end step, target opponent reveals X cards from their hand, where X is 1 plus the number of Moonstone counters you have, and you choose one of them. That player discards that card.
+{2}{U}: Target creature can't be blocked this turn. Activate only as a sorcery. => Whenever one or more creatures you control deal combat damage to an opponent, that player loses 1 life for each creature that dealt combat damage to them, then you draw a card.
+{2}{U}: Target creature can't be blocked this turn. Activate only as a sorcery.
+
+CB02 Despair Path Master
+cost: {B} => {1}{B}
+pt: 0/1 => 1/1
+
+CR06 Adventuring Mages of Squa
+rules_text: When this creature enters, if it's not a token, create a token copy of it.
+Whenever this creature deals combat damage to a player or planeswalker, instant and/or sorcery spells you cast this turn cost {1} less to cast. => When this creature enters, if it's not a token, create a token that's a copy of it.
+Whenever this creature deals combat damage to a player or planeswalker, instant and/or sorcery spells you cast this turn cost {1} less to cast.
+
+CR11 Gem Igniter
+rules_text: Whenever you sacrifice one or more lands, or discard one or more land cards, this creature deals 1 damage to target opponent.
+{3}, Sacrifice a land: Draw a card. Activate only once each turn as a sorcery. => Whenever you sacrifice one or more lands, or discard one or more land cards, this creature deals 1 damage to each opponent.
+{3}, Sacrifice a land: Draw a card. Activate only once each turn as a sorcery.
+
+CG16 Ruined Relics
+rules_text: Destroy target artifact or enchantment. If an artifact is destroyed this way, put a +1/+1 counter on target creature you control. Otherwise, you gain 2 life. => Destroy target artifact or enchantment. If an artifact is destroyed this way, put a +1/+1 counter on a creature you control. Otherwise, you gain 2 life.
+
+UB07 Eater of the Forgotten
+
+UB10 Alleyway Ambush
+rules_text: Destroy target tapped creature. If you don't control a creature with equal or greater power than it, you lose 2 life. => Exile target tapped creature. If you don't control a creature with equal or greater power than it, you lose 2 life.
+
+RW06 Vow of Justice
+cost: {1}{W} => {2}{W}
+rules_text: This spell can't be countered as long as an opponent has 4 or more life than you.
+Creatures you control with flying get +1/+1 and gain first strike and lifelink until end of turn. => This spell can't be countered as long as you control two or more Birds.
+Creatures you control with flying get +1/+1 and gain first strike and lifelink until end of turn.
+
+RU07 Dance of the New Cycle
+rules_text: Wisdom 5 [i](As an additional cost to cast this, you may exile five cards from your graveyard. If you do, copy it, and you may choose new targets for the copy.)[/i]
+Create a token copy of target creature you control. You may then tap that token. If you do, you mill cards equal to its power, then draw two cards. => Wisdom 5 [i](As an additional cost to cast this, you may exile five cards from your graveyard. If you do, copy it, and you may choose new targets for the copy.)[/i]
+Create a token that's a copy of target creature you control. You may then tap that token. If you do, you mill cards equal to its power, then draw two cards.
+
+RB05 Brawl at the Docks
+rules_text: This spell can't be countered as long as you control two or more nontoken Rat permanents.
+Create three 1/1 black Rat Rogue creature tokens, then target opponent loses X life, where X is the number of Rats you control. => This spell can't be countered as long as you control two or more Rats.
+Create three 1/1 black Rat Rogue creature tokens, then target opponent loses X life, where X is the number of Rats you control.
+
+RB06 Power from Pain
+rules_text: Until end of turn, whenever a creature you control deals combat damage to a battle, opponent or planeswalker, you lose 1 life and draw a card. => Until end of turn, whenever a creature you control deals combat damage to a battle, opponent or planeswalker, you may lose 1 life and draw a card.
+
+RR04 Carnivorous Blossom
+rules_text: This spell can't be countered as long as two or more lands entered under your control this turn.
+Haste, reach, trample
+This creature's power and toughness are each equal to the number of lands you control. => This spell can't be countered as long as a land entered under your control this turn.
+Haste, reach, trample
+This creature's power and toughness are each equal to the number of lands you control.
+
+RG01 Gruszalb, Chief Mountain
+rules_text: Trample
+Whenever Gruszalb deals excess combat damage to an opponent, you gain that many Moonstone counters.
+Sacrifice Gruszalb: Mill X cards, then each creature you control gets +X/+X and gains trample until end of turn, where X is Gruszalb's power. Activate only as a sorcery. => This spell can't be countered as long as you've attacked with two or more creatures this turn.
+Trample
+Whenever Gruszalb deals excess combat damage to an opponent, you gain that many Moonstone counters.
+Whenever you scry, each other creature you control gets +1/+1 until end of turn.
+
+MW01 Mouratl, the Eternal
+rules_text: This spell can't be countered.
+Flying, vigilance
+When Mouratl enters, if you have five or more Moonstone counters, double your life total. If you don't, you gain 3 life and get three Moonstone counters. => Flying, vigilance
+When Mouratl enters, if you have five or more Moonstone counters, double your life total. When you don't, you gain 4 life and get three Moonstone counters.
+
+MU01 Y'ssna, Cephaloid Oracle
+rules_text: Ward {3}
+When Y'ssna enters, if you have fifteen or more counters, you win the game. If you don't, you draw a card and double the number of each kind of counter you have.
+Whenever Y'ssna deals combat damage to a creature, tap and put a stun counter on that creature. => Ward {3}
+When Y'ssna enters, if you have fifteen or more counters, you win the game. When you don't, draw a card and double the number of each kind of counter you have.
+At the beginning of each combat, tap target creature you don't control.
+pt: 5/6 => 4/8
+
+MB01 Raios, the Founder
+rules_text: Lifelink, ward—Pay 3 life
+When Raios enters, you may pay X life. If you do, you get X Moonstone counters.
+Pay X life or remove X Moonstone counters from yourself: Return target Rat card with mana value X from your graveyard to the battlefield. Activate only once each turn, and only as a sorcery. => Lifelink, ward—Pay 3 life
+When Raios enters, you may pay X life. When you do, you get X Moonstone counters.
+Pay X life or remove X Moonstone counters from yourself: Return target Rat card with mana value X from your graveyard to the battlefield. Activate only once each turn, and only as a sorcery.
+
+
+VERSION 12 CHANGELOG
 ====================
 
 

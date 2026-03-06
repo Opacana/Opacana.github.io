@@ -350,8 +350,8 @@
 		{
 			"name": "Unplanned Landing",
 			"rarity": "common",
-			"mana_cost": "{U}",
-			"type": "Instant",
+			"mana_cost": "{2}{U}",
+			"type": "Sorcery",
 			"collector_number": "85",
 			"image_uris": {
 				"en": "https://Opacana.github.io/sets/AVA-files/img/85_Unplanned Landing.png"
@@ -361,7 +361,7 @@
 			"name": "Hulldrifter",
 			"rarity": "common",
 			"mana_cost": "{3}{U}{U}",
-			"type": "Kindred Artifact — Vehicle Scout",
+			"type": "Kindred Artifact — Scout Vehicle",
 			"collector_number": "60",
 			"image_uris": {
 				"en": "https://Opacana.github.io/sets/AVA-files/img/60_Hulldrifter.png"
@@ -948,7 +948,7 @@
 			"name": "Flower Cart",
 			"rarity": "common",
 			"mana_cost": "{1}{G}",
-			"type": "Kindred Artifact — Vehicle Plant",
+			"type": "Kindred Artifact — Plant Vehicle",
 			"collector_number": "188",
 			"image_uris": {
 				"en": "https://Opacana.github.io/sets/AVA-files/img/188_Flower Cart.png"
@@ -1135,7 +1135,7 @@
 			"name": "Experimental Shadowship",
 			"rarity": "uncommon",
 			"mana_cost": "{U}{U}",
-			"type": "Kindred Artifact — Vehicle Rogue",
+			"type": "Kindred Artifact — Rogue Vehicle",
 			"collector_number": "55",
 			"image_uris": {
 				"en": "https://Opacana.github.io/sets/AVA-files/img/55_Experimental Shadowship.png"
@@ -1299,7 +1299,7 @@
 			"name": "Savoran Razor Galleon",
 			"rarity": "uncommon",
 			"mana_cost": "{1}{B}{B}",
-			"type": "Kindred Artifact — Vehicle Soldier",
+			"type": "Kindred Artifact — Soldier Vehicle",
 			"collector_number": "116",
 			"image_uris": {
 				"en": "https://Opacana.github.io/sets/AVA-files/img/116_Savoran Razor Galleon.png"
@@ -1576,7 +1576,7 @@
 			"name": "Precision Bomber",
 			"rarity": "mythic",
 			"mana_cost": "{1}{W}{W}",
-			"type": "Kindred Artifact — Vehicle Soldier",
+			"type": "Kindred Artifact — Soldier Vehicle",
 			"collector_number": "25",
 			"image_uris": {
 				"en": "https://Opacana.github.io/sets/AVA-files/img/25_Precision Bomber.png"
@@ -1616,7 +1616,7 @@
 			"name": "Julescan Dreadnought",
 			"rarity": "rare",
 			"mana_cost": "{3}{U}{U}",
-			"type": "Kindred Artifact — Vehicle Soldier",
+			"type": "Kindred Artifact — Soldier Vehicle",
 			"collector_number": "67",
 			"image_uris": {
 				"en": "https://Opacana.github.io/sets/AVA-files/img/67_Julescan Dreadnought.png"
@@ -2094,7 +2094,7 @@
 			"name": "Mapmaker's Society Scoutship",
 			"rarity": "uncommon",
 			"mana_cost": "{1}{G}{U}",
-			"type": "Kindred Artifact — Vehicle Scout",
+			"type": "Kindred Artifact — Scout Vehicle",
 			"collector_number": "227",
 			"image_uris": {
 				"en": "https://Opacana.github.io/sets/AVA-files/img/227_Mapmaker's Society Scoutship.png"
@@ -2204,7 +2204,7 @@
 			"name": "Filigree Propskiff",
 			"rarity": "common",
 			"mana_cost": "{2}",
-			"type": "Kindred Artifact — Vehicle Noble",
+			"type": "Kindred Artifact — Noble Vehicle",
 			"collector_number": "254",
 			"image_uris": {
 				"en": "https://Opacana.github.io/sets/AVA-files/img/254_Filigree Propskiff.png"
