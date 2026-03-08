@@ -8,7 +8,7 @@
             "number": 36,
             "color_identity": "W",
             "cost": "{1}{W}",
-            "rules_text": "When this creature enters, you may pay {1}. If you do, put a +1/+1 counter on another target creature.\nWhen this creature dies, if all lands you control are basic, you gain 2 life.",
+            "rules_text": "When this creature enters, you may pay {1}. When you do, put a +1/+1 counter on another target creature.\nWhen this creature dies, if all lands you control are basic, you gain 2 life.",
             "flavor_text": "[i][/i]",
             "pt": "2/2",
             "special_text": "",
@@ -16,7 +16,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "kingkocookie",
-            "notes": "January 13th, 2026: Changed death trigger from Food token creation to simply gaining 2 life.",
+            "notes": "January 13th, 2026: Changed death trigger from Food token creation to simply gaining 2 life.\n\nMarch 7th, 2026: changed 'if' to 'when' in first ability.",
             "image_type": "png"
         },
         {
@@ -122,7 +122,7 @@
             "number": 1,
             "color_identity": "W",
             "cost": "{W}",
-            "rules_text": "Whenever this creature attacks, you may pay {1}. If you do, put a +1/+1 counter on target creature.",
+            "rules_text": "Whenever this creature attacks, you may pay {1}. When you do, put a +1/+1 counter on target creature.",
             "flavor_text": "[i]\u201cNature has an order, and we all have our place in it. Defying that order leads to disaster.\u201d[/i]",
             "pt": "1/1",
             "special_text": "",
@@ -293,7 +293,7 @@
             "number": 28,
             "color_identity": "W",
             "cost": "{1}{W}",
-            "rules_text": "Choose up to two target artifacts and/or creatures. For each target chosen this way, you may tap or untap it.",
+            "rules_text": "Choose up to two target artifacts and/or creatures. For each target chosen this way, tap or untap it.",
             "flavor_text": "[i]While basic, it's a rarely seen technique, taught by only one school and a few isolated mages.[/i]",
             "pt": "",
             "special_text": "",
@@ -301,7 +301,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "ReubenYeoArt",
-            "notes": "",
+            "notes": "March 7th, 2026: removed unnecessary 'you may'.",
             "image_type": "png"
         },
         {
@@ -778,7 +778,7 @@
             "number": 129,
             "color_identity": "B",
             "cost": "{1}{B}{B}",
-            "rules_text": "When this creature enters, you may discard a card. If you do, up to one other target creature you control explores. [i](Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)[/i]",
+            "rules_text": "When this creature enters, you may discard a card. When you do, up to one other target creature you control explores. [i](Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)[/i]",
             "flavor_text": "[i][/i]",
             "pt": "2/2",
             "special_text": "",
@@ -786,7 +786,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Grafit Studio, nor Salamandra",
-            "notes": "",
+            "notes": "March 7th, 2026: Wording of ability changed to use the 'when you do' formatting.",
             "image_type": "png"
         },
         {
@@ -1919,7 +1919,7 @@
             "number": 38,
             "color_identity": "W",
             "cost": "{3}{W}{W}",
-            "rules_text": "Flying, vigilance\nWhen this creature enters, you may pay {1}. If you do, tap target nonland permanent you don't control and put a stun counter on it. [i](If a permanent with a stun counter would become untapped, remove one from it instead.)[/i]",
+            "rules_text": "Flying, vigilance\nWhen this creature enters, you may pay {1}. When you do, tap target nonland permanent you don't control and put a stun counter on it. [i](If a permanent with a stun counter would become untapped, remove one from it instead.)[/i]",
             "flavor_text": "[i][/i]",
             "pt": "4/4",
             "special_text": "",
@@ -1927,7 +1927,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Grafit studio",
-            "notes": "Revised October 23rd, 2025\n\nRevised December 12th, 2025 according to Rev curator feedback \u2014 made the stun enter ability cost 1 instead of free. Optional baseline of being a Serra Angel, and can be better if you get or play it on a later turn.",
+            "notes": "Revised October 23rd, 2025\n\nRevised December 12th, 2025 according to Rev curator feedback \u2014 made the stun enter ability cost 1 instead of free. Optional baseline of being a Serra Angel, and can be better if you get or play it on a later turn.\n\nMarch 7th, 2026: Changed 'if you do' to 'when you do'.",
             "image_type": "png"
         },
         {
@@ -2364,7 +2364,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Istrandar",
-            "notes": "December 18th, 2025: Reworked this to be a sorcery that does all that the previous draft, an enchantment did, all at once.",
+            "notes": "December 18th, 2025: Reworked this to be a sorcery that does all that the previous draft, an enchantment did, all at once. \n\nKept this instance of 'you may' in combination with 'up to', in order to preserve clarity and shorter wording.",
             "image_type": "png"
         },
         {
@@ -2435,13 +2435,13 @@
             "color2": "B",
             "type2": "Creature \u2013 Dragon Zombie",
             "cost2": "",
-            "rules_text2": "Flying, deathtouch\nWhenever a nonartifact creature dealt damage by this creature this turn dies, you may pay {B}. If you do, return target creature card from your graveyard to your hand.",
+            "rules_text2": "Flying, deathtouch\nWhenever a nonartifact creature dealt damage by this creature this turn dies, you may pay {B}. When you do, return target creature card from your graveyard to your hand.",
             "flavor_text2": "[i][/i]",
             "pt2": "5/4",
             "special_text2": "",
             "loyalty2": "",
             "artist2": "sandara",
-            "notes": "change to up to one.",
+            "notes": "March 7th, 2026: Wording of triggered ability on backside changed to 'when you do'.",
             "image_type": "png"
         },
         {
@@ -2690,7 +2690,7 @@
             "number": 185,
             "color_identity": "G",
             "cost": "{1}{G}",
-            "rules_text": "At the beginning of combat on your turn, you may pay {G}. If you do, this creature explores. [i](Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)[/i]",
+            "rules_text": "At the beginning of combat on your turn, you may pay {G}. When you do, this creature explores. [i](Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)[/i]",
             "flavor_text": "[i][/i]",
             "pt": "2/2",
             "special_text": "",
@@ -2698,7 +2698,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Egor Zhbannikov",
-            "notes": "Jan. 13th, 2026: Art changed, and timing of triggered ability changed to beginning of combat.",
+            "notes": "Jan. 13th, 2026: Art changed, and timing of triggered ability changed to beginning of combat.\n\nMarch 7th, 2026: Changed ability to reflexive trigger with 'When you do' wording.",
             "image_type": "png"
         },
         {
@@ -3032,7 +3032,7 @@
             "number": 45,
             "color_identity": "U",
             "cost": "{2}{U}{U}",
-            "rules_text": "Ward {2}\nWhenever Allenord attacks, you may sacrifice any number of artifacts. If you do, return target artifact card with mana value X from your graveyard to the battlefield, where X is the number of artifacts sacrificed this way.",
+            "rules_text": "Ward {2}\nWhenever Allenord attacks, you may sacrifice any number of artifacts. When you do, return target artifact card with mana value X from your graveyard to the battlefield, where X is the number of artifacts sacrificed this way.",
             "flavor_text": "[i][/i]",
             "pt": "3/4",
             "special_text": "",
@@ -3040,7 +3040,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Hyeonsick Choi",
-            "notes": "Revised December 15th, 2025; switched power and toughness to make attacking easer.",
+            "notes": "Revised December 15th, 2025; switched power and toughness to make attacking easer.\n\nMarch 7th, 2026: Changed 'if you do' to 'When you do'.",
             "image_type": "png"
         },
         {
@@ -3716,7 +3716,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Phoenix Park",
-            "notes": "December 18th, 2025: Dropped to rare from mythic.",
+            "notes": "December 18th, 2025: Dropped to rare from mythic.\n\nKept as an 'If you do' trigger to make resolving this easier and better.",
             "image_type": "png"
         },
         {
@@ -4307,7 +4307,7 @@
             "number": 257,
             "color_identity": "C",
             "cost": "{3}",
-            "rules_text": "Whenever equipped creature attacks, create a Treasure token, then you may sacrifice an artifact. If you do, choose one \u2013\n\u2022 Draw a card.\n\u2022 Iron Savior Suit deals X damage to each opponent, where X is 1 plus the mana value of the sacrificed artifact.\nEquip {2}",
+            "rules_text": "Whenever equipped creature attacks, create a Treasure token, then you may sacrifice an artifact. When you do, choose one \u2013\n\u2022 Draw a card.\n\u2022 Iron Savior Suit deals X damage to each opponent, where X is 1 plus the mana value of the sacrificed artifact.\nEquip {2}",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -4315,7 +4315,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Sava Ivkov",
-            "notes": "Given new art, July 1st, 2025.\n\nJanuary 3rd, 2026: Changed to shoot opponents rather than permanents.",
+            "notes": "Given new art, July 1st, 2025.\n\nJanuary 3rd, 2026: Changed to shoot opponents rather than permanents.\n\nMarch 7th, 2026: Changed 'If you do' wording to 'When you do'.",
             "image_type": "png"
         },
         {
@@ -5249,7 +5249,7 @@
             "number": 81,
             "color_identity": "U",
             "cost": "{U}",
-            "rules_text": "[i](As a Skirmish enters, choose an opponent to protect it. All other players may attack it. Creatures attacking a Skirmish have flying.)[/i]\nFlash\nWhen this Battle enters, return up to one target creature you control to its owner's hand.\nWhen this Battle is defeated, you may return up to one target creature you don't control to its owner's hand.",
+            "rules_text": "[i](As a Skirmish enters, choose an opponent to protect it. All other players may attack it. Creatures attacking a Skirmish have flying.)[/i]\nFlash\nWhen this Battle enters, return up to one target creature you control to its owner's hand.\nWhen this Battle is defeated, return up to one target creature you don't control to its owner's hand.",
             "flavor_text": "[i][/i]",
             "pt": "1",
             "special_text": "",
@@ -5257,7 +5257,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Candice Broersma",
-            "notes": "December 16th, 2025 Revision according to Rev curator feedback: No real changes as of yet, just reworded it from may to up to one, to make things clearer.\n\nJanuary 14th, 2026: Changed all Skirmishes to grant Flying to creatures attacking them.",
+            "notes": "December 16th, 2025 Revision according to Rev curator feedback: No real changes as of yet, just reworded it from may to up to one, to make things clearer.\n\nJanuary 14th, 2026: Changed all Skirmishes to grant Flying to creatures attacking them.\n\nMarch 7th, 2026: Removed unnecessary 'you may' from last effect.",
             "image_type": "png"
         },
         {
@@ -5743,7 +5743,7 @@
             "number": 98,
             "color_identity": "B",
             "cost": "{2}{B}{B}",
-            "rules_text": "Whenever this creature attacks, you may pay {B}. If you do, choose one \u2013\n\u2022 This creature gains indestructible until end of turn.\n\u2022 This creature gains deathtouch until end of turn.",
+            "rules_text": "Whenever this creature attacks, you may pay {B}. When you do, choose one \u2013\n\u2022 This creature gains indestructible until end of turn.\n\u2022 This creature gains deathtouch until end of turn.",
             "flavor_text": "[i][/i]",
             "pt": "3/3",
             "special_text": "",
@@ -5751,7 +5751,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Aurore Kerboethau",
-            "notes": "December 18th, 2025: Added Assassin creature type.\n\nFebruary 13th, 2026: Removed blocked by restrictions, to make its ability simply be an on-attack trigger.",
+            "notes": "December 18th, 2025: Added Assassin creature type.\n\nFebruary 13th, 2026: Removed blocked by restrictions, to make its ability simply be an on-attack trigger.\n\nMarch 7th, 2026: changed ability to be a reflexive trigger using 'When you do' wording.",
             "image_type": "png"
         },
         {

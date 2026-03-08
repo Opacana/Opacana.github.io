@@ -1,4 +1,68 @@
-﻿VERSION 6 CHANGELOG
+﻿VERSION 7 CHANGELOG
+====================
+
+
+
+Travelling Chef
+rules_text: When this creature enters, you may pay {1}. If you do, put a +1/+1 counter on another target creature.
+When this creature dies, if all lands you control are basic, you gain 2 life. => When this creature enters, you may pay {1}. When you do, put a +1/+1 counter on another target creature.
+When this creature dies, if all lands you control are basic, you gain 2 life.
+
+Adept of the Path of Candor
+rules_text: Whenever this creature attacks, you may pay {1}. If you do, put a +1/+1 counter on target creature. => Whenever this creature attacks, you may pay {1}. When you do, put a +1/+1 counter on target creature.
+
+Pull Aetherstrings
+rules_text: Choose up to two target artifacts and/or creatures. For each target chosen this way, you may tap or untap it. => Choose up to two target artifacts and/or creatures. For each target chosen this way, tap or untap it.
+
+Unscrupulous Surgeon
+rules_text: When this creature enters, you may discard a card. If you do, up to one other target creature you control explores. [i](Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)[/i] => When this creature enters, you may discard a card. When you do, up to one other target creature you control explores. [i](Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)[/i]
+
+Vigilant Cryophoenix
+rules_text: Flying, vigilance
+When this creature enters, you may pay {1}. If you do, tap target nonland permanent you don't control and put a stun counter on it. [i](If a permanent with a stun counter would become untapped, remove one from it instead.)[/i] => Flying, vigilance
+When this creature enters, you may pay {1}. When you do, tap target nonland permanent you don't control and put a stun counter on it. [i](If a permanent with a stun counter would become untapped, remove one from it instead.)[/i]
+
+Rising of a Tambly's Bones
+
+Skull of the Last Hunter
+
+Edge Patrol
+rules_text: At the beginning of combat on your turn, you may pay {G}. If you do, this creature explores. [i](Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)[/i] => At the beginning of combat on your turn, you may pay {G}. When you do, this creature explores. [i](Reveal the top card of your library. Put that card into your hand if it's a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)[/i]
+
+Allenord Rascham Esq.
+rules_text: Ward {2}
+Whenever Allenord attacks, you may sacrifice any number of artifacts. If you do, return target artifact card with mana value X from your graveyard to the battlefield, where X is the number of artifacts sacrificed this way. => Ward {2}
+Whenever Allenord attacks, you may sacrifice any number of artifacts. When you do, return target artifact card with mana value X from your graveyard to the battlefield, where X is the number of artifacts sacrificed this way.
+
+High Stakes Game
+
+Iron Savior Suit
+rules_text: Whenever equipped creature attacks, create a Treasure token, then you may sacrifice an artifact. If you do, choose one —
+• Draw a card.
+• Iron Savior Suit deals X damage to each opponent, where X is 1 plus the mana value of the sacrificed artifact.
+Equip {2} => Whenever equipped creature attacks, create a Treasure token, then you may sacrifice an artifact. When you do, choose one —
+• Draw a card.
+• Iron Savior Suit deals X damage to each opponent, where X is 1 plus the mana value of the sacrificed artifact.
+Equip {2}
+
+Skipping Class
+rules_text: [i](As a Skirmish enters, choose an opponent to protect it. All other players may attack it. Creatures attacking a Skirmish have flying.)[/i]
+Flash
+When this Battle enters, return up to one target creature you control to its owner's hand.
+When this Battle is defeated, you may return up to one target creature you don't control to its owner's hand. => [i](As a Skirmish enters, choose an opponent to protect it. All other players may attack it. Creatures attacking a Skirmish have flying.)[/i]
+Flash
+When this Battle enters, return up to one target creature you control to its owner's hand.
+When this Battle is defeated, return up to one target creature you don't control to its owner's hand.
+
+Gersauld's Assassin
+rules_text: Whenever this creature attacks, you may pay {B}. If you do, choose one —
+• This creature gains indestructible until end of turn.
+• This creature gains deathtouch until end of turn. => Whenever this creature attacks, you may pay {B}. When you do, choose one —
+• This creature gains indestructible until end of turn.
+• This creature gains deathtouch until end of turn.
+
+
+VERSION 6 CHANGELOG
 ====================
 
 

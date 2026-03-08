@@ -5,13 +5,13 @@
 			<name>AVA</name>
 			<longname>Avallus: Rediscovery</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-03-05</releasedate>
+			<releasedate>2026-03-07</releasedate>
 		</set>
 	</sets>
 	<cards>
 		<card>
 			<name>Travelling Chef</name>
-			<text>When this creature enters, you may pay {1}. If you do, put a +1/+1 counter on another target creature.
+			<text>When this creature enters, you may pay {1}. When you do, put a +1/+1 counter on another target creature.
 When this creature dies, if all lands you control are basic, you gain 2 life.</text>
 			<set rarity="common" picurl="https://Opacana.github.io/sets/AVA-files/img/36_Travelling Chef.png" num="36">AVA</set>
 			<prop>
@@ -119,7 +119,7 @@ Flying</text>
 		</card>
 		<card>
 			<name>Adept of the Path of Candor</name>
-			<text>Whenever this creature attacks, you may pay {1}. If you do, put a +1/+1 counter on target creature.</text>
+			<text>Whenever this creature attacks, you may pay {1}. When you do, put a +1/+1 counter on target creature.</text>
 			<set rarity="common" picurl="https://Opacana.github.io/sets/AVA-files/img/1_Adept of the Path of Candor.png" num="1">AVA</set>
 			<prop>
 				<layout>normal</layout>
@@ -273,7 +273,7 @@ Crew 3 (Tap any number of creatures you control with total power 3 or more: This
 		</card>
 		<card>
 			<name>Pull Aetherstrings</name>
-			<text>Choose up to two target artifacts and/or creatures. For each target chosen this way, you may tap or untap it.</text>
+			<text>Choose up to two target artifacts and/or creatures. For each target chosen this way, tap or untap it.</text>
 			<set rarity="common" picurl="https://Opacana.github.io/sets/AVA-files/img/28_Pull Aetherstrings.png" num="28">AVA</set>
 			<prop>
 				<layout>normal</layout>
@@ -739,7 +739,7 @@ Then put a stun counter on each creature tapped this way.</text>
 		</card>
 		<card>
 			<name>Unscrupulous Surgeon</name>
-			<text>When this creature enters, you may discard a card. If you do, up to one other target creature you control explores. (Reveal the top card of your library. Put that card into your hand if it&apos;s a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)</text>
+			<text>When this creature enters, you may discard a card. When you do, up to one other target creature you control explores. (Reveal the top card of your library. Put that card into your hand if it&apos;s a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)</text>
 			<set rarity="common" picurl="https://Opacana.github.io/sets/AVA-files/img/129_Unscrupulous Surgeon.png" num="129">AVA</set>
 			<prop>
 				<layout>normal</layout>
@@ -1820,7 +1820,7 @@ Boneborn {B}{B} ({B}{B}, Exile a creature card from your graveyard or sacrifice 
 		<card>
 			<name>Vigilant Cryophoenix</name>
 			<text>Flying, vigilance
-When this creature enters, you may pay {1}. If you do, tap target nonland permanent you don&apos;t control and put a stun counter on it. (If a permanent with a stun counter would become untapped, remove one from it instead.)</text>
+When this creature enters, you may pay {1}. When you do, tap target nonland permanent you don&apos;t control and put a stun counter on it. (If a permanent with a stun counter would become untapped, remove one from it instead.)</text>
 			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/AVA-files/img/38_Vigilant Cryophoenix.png" num="38">AVA</set>
 			<prop>
 				<layout>normal</layout>
@@ -2322,7 +2322,7 @@ Boneborn {4} ({4}, Exile a creature card from your graveyard or sacrifice a crea
 		<card>
 			<name>Noxious Devourer</name>
 			<text>Flying, deathtouch
-Whenever a nonartifact creature dealt damage by this creature this turn dies, you may pay {B}. If you do, return target creature card from your graveyard to your hand.
+Whenever a nonartifact creature dealt damage by this creature this turn dies, you may pay {B}. When you do, return target creature card from your graveyard to your hand.
 ---
 (Front): Skull of the Last Hunter</text>
 			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/AVA-files/img/121_Skull of the Last Hunter_back.png" num="121b">AVA</set>
@@ -2581,7 +2581,7 @@ At the beginning of your upkeep, if you control a creature with power 5 or great
 		</card>
 		<card>
 			<name>Edge Patrol</name>
-			<text>At the beginning of combat on your turn, you may pay {G}. If you do, this creature explores. (Reveal the top card of your library. Put that card into your hand if it&apos;s a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)</text>
+			<text>At the beginning of combat on your turn, you may pay {G}. When you do, this creature explores. (Reveal the top card of your library. Put that card into your hand if it&apos;s a land. Otherwise, put a +1/+1 counter on this creature, then put the card back or put it into your graveyard.)</text>
 			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/AVA-files/img/185_Edge Patrol.png" num="185">AVA</set>
 			<prop>
 				<layout>normal</layout>
@@ -2898,7 +2898,7 @@ At the beginning of combat on your turn, untap all creatures you control.</text>
 		<card>
 			<name>Allenord Rascham Esq.</name>
 			<text>Ward {2}
-Whenever Allenord attacks, you may sacrifice any number of artifacts. If you do, return target artifact card with mana value X from your graveyard to the battlefield, where X is the number of artifacts sacrificed this way.</text>
+Whenever Allenord attacks, you may sacrifice any number of artifacts. When you do, return target artifact card with mana value X from your graveyard to the battlefield, where X is the number of artifacts sacrificed this way.</text>
 			<set rarity="rare" picurl="https://Opacana.github.io/sets/AVA-files/img/45_Allenord Rascham Esq..png" num="45">AVA</set>
 			<prop>
 				<layout>normal</layout>
@@ -4132,7 +4132,7 @@ Crew 2</text>
 		</card>
 		<card>
 			<name>Iron Savior Suit</name>
-			<text>Whenever equipped creature attacks, create a Treasure token, then you may sacrifice an artifact. If you do, choose one —
+			<text>Whenever equipped creature attacks, create a Treasure token, then you may sacrifice an artifact. When you do, choose one —
 • Draw a card.
 • Iron Savior Suit deals X damage to each opponent, where X is 1 plus the mana value of the sacrificed artifact.
 Equip {2}</text>
@@ -5021,7 +5021,7 @@ When this Battle is defeated, you may destroy target artifact or enchantment.</t
 			<text>(As a Skirmish enters, choose an opponent to protect it. All other players may attack it. Creatures attacking a Skirmish have flying.)
 Flash
 When this Battle enters, return up to one target creature you control to its owner&apos;s hand.
-When this Battle is defeated, you may return up to one target creature you don&apos;t control to its owner&apos;s hand.</text>
+When this Battle is defeated, return up to one target creature you don&apos;t control to its owner&apos;s hand.</text>
 			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/AVA-files/img/81_Skipping Class.png" num="81">AVA</set>
 			<prop>
 				<layout>normal</layout>
@@ -5479,7 +5479,7 @@ When this creature enters, choose one —
 		</card>
 		<card>
 			<name>Gersauld&apos;s Assassin</name>
-			<text>Whenever this creature attacks, you may pay {B}. If you do, choose one —
+			<text>Whenever this creature attacks, you may pay {B}. When you do, choose one —
 • This creature gains indestructible until end of turn.
 • This creature gains deathtouch until end of turn.</text>
 			<set rarity="common" picurl="https://Opacana.github.io/sets/AVA-files/img/98_Gersauld&apos;s Assassin.png" num="98">AVA</set>
