@@ -1157,7 +1157,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Simone Torcasio",
-            "notes": "Changed from 2/1 to 1/1 base.",
+            "notes": "",
             "image_type": "png"
         },
         {
@@ -1594,7 +1594,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Wesley Gardner",
-            "notes": "August 14th, 2025: Removed cast qualifier.",
+            "notes": "",
             "image_type": "png"
         },
         {
@@ -1803,7 +1803,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Afuchan",
-            "notes": "August 30th, 2025: Addred Kindred Plant types.\n\nFebruary 13th, 2026: Upped crew cost to 2, and changed activated ability to untap any nonlegendary land, and up two if it's a creature.",
+            "notes": "\nFebruary 13th, 2026: Upped crew cost to 2, and changed activated ability to untap any nonlegendary land, and up two if it's a creature.",
             "image_type": "png"
         },
         {
@@ -3478,7 +3478,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "delowar",
-            "notes": "Changed to be better, on October 26th, 2025.",
+            "notes": "",
             "image_type": "png"
         },
         {
@@ -3535,7 +3535,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "viergacht",
-            "notes": "\u201cMost curious...the last common ancestor of our species and the Arfyll seems to have been...an omnivore?\u201d\nSignificantly reworked August 25th, 2025.\nMade to require a minimum of one creature card, september 9th, 2025.",
+            "notes": "\u201cMost curious...the last common ancestor of our species and the Arfyll seems to have been...an omnivore?\u201d",
             "image_type": "png"
         },
         {
@@ -3764,7 +3764,7 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "NegaNeura",
-            "notes": "Oct. 26th, 2025: Added 'target' to enters the battlefield plummet effect.\n\nDecember 19th, 2025: Basec on Rev curator feedback, reworked front half to have an enter ability that kills up to three nb/nc or flyers.\n\nJanuary 4, 2026: Reformatted front half enter ability to be clearer.\n\nJanuary 17, 2026: Gave back half vigilance, and now it gains you 2 life an an opposing flier dies.\n\nMarch 4th, 2026: Reduced to two on front from three choices.\nMarch 5th, 2026: Changed wording to 'this artifact' on front, to conform to formatting.",
+            "notes": "December 19th, 2025: Basec on Rev curator feedback, reworked front half to have an enter ability that kills up to three nb/nc or flyers.\n\nJanuary 4, 2026: Reformatted front half enter ability to be clearer.\n\nJanuary 17, 2026: Gave back half vigilance, and now it gains you 2 life an an opposing flier dies.\n\nMarch 4th, 2026: Reduced to two on front from three choices.\nMarch 5th, 2026: Changed wording to 'this artifact' on front, to conform to formatting.",
             "image_type": "png"
         },
         {
@@ -3783,7 +3783,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Hans Ekaputra",
-            "notes": "!group Arcun",
+            "notes": "",
             "image_type": "png"
         },
         {
@@ -3802,7 +3802,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Grafit Studio",
-            "notes": "!group Arcun",
+            "notes": "",
             "image_type": "png"
         },
         {
@@ -3821,7 +3821,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Victor Garcia",
-            "notes": "!group Arcun",
+            "notes": "",
             "image_type": "png"
         },
         {
@@ -3840,7 +3840,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Sam Perin",
-            "notes": "!group Arcun",
+            "notes": "",
             "image_type": "png"
         },
         {
@@ -3859,7 +3859,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Andrew Soman",
-            "notes": "December 20th, 2025: Based on curator feedback, reduced power by 1, and removed scry aspect of trigger ability.\n\n!group Arcun",
+            "notes": "December 20th, 2025: Based on curator feedback, reduced power by 1, and removed scry aspect of trigger ability.\n\n",
             "image_type": "png"
         },
         {
@@ -3878,7 +3878,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "JoelChaimHoltzman",
-            "notes": "!group Arcun",
+            "notes": "",
             "image_type": "png"
         },
         {
@@ -3897,7 +3897,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Tekila-onRice",
-            "notes": "!group Arcun",
+            "notes": "",
             "image_type": "png"
         },
         {
@@ -3916,7 +3916,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Diego Lafuente",
-            "notes": "!group Arcun",
+            "notes": "",
             "image_type": "png"
         },
         {
@@ -3935,7 +3935,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Marton Adam",
-            "notes": "!group Arcun",
+            "notes": "",
             "image_type": "png"
         },
         {
@@ -3954,7 +3954,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Coraline Lyu",
-            "notes": "!group Arcun",
+            "notes": "",
             "image_type": "png"
         },
         {
@@ -4562,7 +4562,7 @@
             "set": "AVA",
             "loyalty": "",
             "artist": "Vladimir Matic-Kuriljov",
-            "notes": "May 21, 2025 removed need to exile either it or the creature, after getting feedback in project channel. Make sure to playtest this at least once in Field Test \u2014 remember there are cards in this set that can recur enchantments (Piper of the Passed, Reconnect, Masterpiece in the Making).",
+            "notes": "",
             "image_type": "png"
         },
         {

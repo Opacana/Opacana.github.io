@@ -1818,8 +1818,8 @@
         "position": ""
     },
     {
-        "card_name": "Relieved of Duty",
-        "number": 239,
+        "card_name": "Mobile Base 31, Andren",
+        "number": 230,
         "shape": "normal",
         "set": "AVA",
         "rotated": false,
@@ -1836,6 +1836,46 @@
     {
         "card_name": "Cindertrap Sabotage",
         "number": 223,
+        "shape": "normal",
+        "set": "AVA",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Wielder of the Cursed Bestiary",
+        "number": 249,
+        "shape": "normal",
+        "set": "AVA",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Warren League General",
+        "number": 247,
+        "shape": "normal",
+        "set": "AVA",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Relieved of Duty",
+        "number": 239,
+        "shape": "normal",
+        "set": "AVA",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Network of Whispers",
+        "number": 232,
+        "shape": "normal",
+        "set": "AVA",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Sfarzia, Pirate Queen",
+        "number": 241,
         "shape": "normal",
         "set": "AVA",
         "rotated": false,
@@ -1928,6 +1968,46 @@
         "position": ""
     },
     {
+        "card_name": "Meeting of Nations",
+        "number": 229,
+        "shape": "normal",
+        "set": "AVA",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Rabbitfolk Engineer",
+        "number": 236,
+        "shape": "normal",
+        "set": "AVA",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Gersauld, Disgraced Count",
+        "number": 225,
+        "shape": "normal",
+        "set": "AVA",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Ninth Dawn Associate",
+        "number": 233,
+        "shape": "normal",
+        "set": "AVA",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "The Call of Rediscovery",
+        "number": 222,
+        "shape": "normal",
+        "set": "AVA",
+        "rotated": false,
+        "position": ""
+    },
+    {
         "card_name": "Settlement Over Tea",
         "number": 240,
         "shape": "normal",
@@ -1952,16 +2032,16 @@
         "position": ""
     },
     {
-        "card_name": "Ninth Dawn Associate",
-        "number": 233,
+        "card_name": "Sunscatter, Firewing Matriarch",
+        "number": 244,
         "shape": "normal",
         "set": "AVA",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "The Call of Rediscovery",
-        "number": 222,
+        "card_name": "Mapmaker's Society Scoutship",
+        "number": 227,
         "shape": "normal",
         "set": "AVA",
         "rotated": false,

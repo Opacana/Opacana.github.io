@@ -1,4 +1,44 @@
-﻿VERSION 7 CHANGELOG
+﻿VERSION 8 CHANGELOG
+====================
+
+
+
+Vainglory Phoenix
+
+Dour Wanderer
+
+Flower Cart
+
+Denaw Goliath
+
+Paleontological Revelations
+
+Cave of the Vanquished
+
+Mobile Base 31, Andren
+
+Network of Whispers
+
+Sfarzia, Pirate Queen
+
+Wielder of the Cursed Bestiary
+
+Warren League General
+
+Meeting of Nations
+
+Rabbitfolk Engineer
+
+Gersauld, Disgraced Count
+
+Sunscatter, Firewing Matriarch
+
+Mapmaker's Society Scoutship
+
+Gift of the Firehen
+
+
+VERSION 7 CHANGELOG
 ====================
 
 
