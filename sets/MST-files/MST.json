@@ -28,7 +28,7 @@
             "color": "UG",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 Salamander Cleric",
-            "number": 225,
+            "number": 231,
             "color_identity": "UG",
             "cost": "{G}{U}",
             "rules_text": "Ward {2}\n{2}{G}: You get a moonstone counter.\n{2}{U}: Draw 4 cards. Activate only once each turn as a sorcery, and only if you have 4 or more Moonstone counters.",
@@ -42,11 +42,11 @@
             "notes": "December 17th, 2025: Found a more stylistically-matching artwork that will do for now. Before submission, search again to see if there's a piece that matches AND has action and/or implies more status/power."
         },
         {
-            "card_name": "CU19 Plumb the Depths",
+            "card_name": "Plumb the Depths",
             "color": "U",
             "rarity": "common",
             "type": "Instant",
-            "number": 65,
+            "number": 62,
             "color_identity": "U",
             "cost": "{1}{U}",
             "rules_text": "Surveil 2, then draw a card.",
@@ -60,11 +60,11 @@
             "notes": ""
         },
         {
-            "card_name": "UU12 Voracious Elasmodracid",
+            "card_name": "Voracious Elasmodracid",
             "color": "U",
             "rarity": "uncommon",
             "type": "Creature \u2014 Serpent",
-            "number": 87,
+            "number": 80,
             "color_identity": "U",
             "cost": "{4}{U}{U}",
             "rules_text": "As long as defending player controls an island, this creature can't be blocked by fewer than three creatures.\n{U}, Discard this card: You get a Moonstone counter.",
@@ -82,7 +82,7 @@
             "color": "WBG",
             "rarity": "mythic",
             "type": "Legendary Creature \u2014 Rat Warlock",
-            "number": 224,
+            "number": 229,
             "color_identity": "WBG",
             "cost": "{3}{W}{B}{G}",
             "rules_text": "Menace, vigilance, trample\nAs long as an opponent controls more lands or has more Moonstone counters than you, other creatures you control have menace and get +1/+0. Otherwise, other creatures you control have vigilance and get +0/+1.",
@@ -136,7 +136,7 @@
             "color": "WBR",
             "rarity": "rare",
             "type": "Sorcery",
-            "number": 210,
+            "number": 224,
             "color_identity": "WBR",
             "cost": "{R}{W}{B}",
             "rules_text": "Destroy all non-outlaw creatures. [i](Assassins, Mercenaries, Pirates, Rogues, and Warlocks are outlaws.)[/i]",
@@ -150,11 +150,11 @@
             "notes": ""
         },
         {
-            "card_name": "CR04 Iceclaw Swordfrey",
+            "card_name": "Iceclaw Swordfrey",
             "color": "R",
             "rarity": "common",
             "type": "Creature \u2014 Bear Warrior",
-            "number": 131,
+            "number": 141,
             "color_identity": "R",
             "cost": "{2}{R}{R}",
             "rules_text": "When this creature enters, you may remove a Moonstone counter from yourself. If you do, it gains haste until end of turn.\nFirst strike",
@@ -168,11 +168,11 @@
             "notes": ""
         },
         {
-            "card_name": "UM01 Circumzenith Guardian",
+            "card_name": "Circumzenith Guardian",
             "color": "WU",
             "rarity": "uncommon",
             "type": "Creature \u2014 Bird Hero",
-            "number": 228,
+            "number": 208,
             "color_identity": "WU",
             "cost": "{2}{W}{U}",
             "rules_text": "Flying, vigilance\nWhenever you attack, creatures you control with flying get +1/+0 until end of turn.",
@@ -186,11 +186,11 @@
             "notes": "!group Arcun"
         },
         {
-            "card_name": "UM01 Icon of Dead Futures",
+            "card_name": "Icon of Dead Futures",
             "color": "UB",
             "rarity": "uncommon",
             "type": "Artifact",
-            "number": 232,
+            "number": 214,
             "color_identity": "UB",
             "cost": "{1}{U}{B}",
             "rules_text": "Whenever one or more creatures you control deal combat damage to an opponent, that player loses 1 life for each creature that dealt combat damage to them, then you draw a card.\n{2}{U}: Target creature can't be blocked this turn. Activate only as a sorcery.",
@@ -204,11 +204,11 @@
             "notes": "!group Arcun\n\nMarch 1st, 2026: Main ability changed to make an opponent lose life for each creature of yours that hit them in combat and you draw a card (NOT per creature, just one or more)."
         },
         {
-            "card_name": "UM01 Deathspark Speaker",
+            "card_name": "Deathspark Speaker",
             "color": "BR",
             "rarity": "uncommon",
             "type": "Creature \u2014 Bird Warlock Mercenary",
-            "number": 229,
+            "number": 210,
             "color_identity": "BR",
             "cost": "{B}{R}",
             "rules_text": "Ward\u2014Exile two cards from your graveyard\n{B}{R}, {T}, Discard a card: This creature deals 1 damage to any target and you gain 1 life.",
@@ -222,11 +222,11 @@
             "notes": "!group Arcun"
         },
         {
-            "card_name": "UM01 Fireseed",
+            "card_name": "Fireseed",
             "color": "RG",
             "rarity": "uncommon",
             "type": "Enchantment",
-            "number": 230,
+            "number": 211,
             "color_identity": "RG",
             "cost": "{R}{G}",
             "rules_text": "{2}{G}: Mill 3 cards. You may return a land card from your graveyard to the battlefield tapped.\n{1}{R}, Discard a card: This enchantment deals X damage to any target, where X is the number of land cards put into your graveyard from anywhere this turn. Activate only once each turn as a sorcery.",
@@ -240,15 +240,15 @@
             "notes": "!group Arcun"
         },
         {
-            "card_name": "UM01 Laughing Path Master",
+            "card_name": "Laughing Path Master",
             "color": "WG",
             "rarity": "uncommon",
             "type": "Creature \u2014 Rat Monk Advisor",
-            "number": 233,
+            "number": 223,
             "color_identity": "WG",
             "cost": "{G}{W}",
             "rules_text": "Whenever another creature you control enters, you gain 1 life.\nAt the beginning of your end step, if you've gained 3 or more life this turn, draw a card.",
-            "flavor_text": "[i]flavor text[/i]",
+            "flavor_text": "[i]\u201cTo see the comedy in both the dark and the light, that is true wisdom.\u201d[/i]",
             "pt": "1/2",
             "special_text": "",
             "shape": "normal",
@@ -258,11 +258,11 @@
             "notes": "!group Arcun"
         },
         {
-            "card_name": "UM01 Mayarai, Bonesnouts Leader",
+            "card_name": "Mayarai, Bonesnouts Leader",
             "color": "WB",
             "rarity": "uncommon",
             "type": "Legendary Creature \u2014 Rat Mercenary Warlock",
-            "number": 234,
+            "number": 226,
             "color_identity": "WB",
             "cost": "{1}{W}{B}",
             "rules_text": "At the beginning of your upkeep, you may pay 2 life. If you do, create a 1/1 black Rat Rogue creature token with menace.\nWhenever you attack, you may sacrifice a creature. If you do, draw a card and gain 1 life.",
@@ -276,11 +276,11 @@
             "notes": "!group Arcun"
         },
         {
-            "card_name": "UM01 Flux-node Birthing",
+            "card_name": "Flux-node Birthing",
             "color": "UR",
             "rarity": "uncommon",
             "type": "Enchantment",
-            "number": 231,
+            "number": 213,
             "color_identity": "UR",
             "cost": "{1}{U}{R}",
             "rules_text": "Wisdom 4 [i](As an additional cost to cast this, you may exile four cards from your graveyard. If you do, copy it, and you may choose new targets for the copy.)[/i]\nWhenever you pay a Wisdom cost, create a 3/2 blue and red Drake Elemental creature token with flying.",
@@ -294,14 +294,14 @@
             "notes": "!group Arcun"
         },
         {
-            "card_name": "UM01 Taza, Exiled Princess",
+            "card_name": "Taza, Exiled Princess",
             "color": "BG",
             "rarity": "uncommon",
             "type": "Legendary Creature \u2014 Rat Warlock Noble",
-            "number": 235,
+            "number": 233,
             "color_identity": "BG",
             "cost": "{2}{B}{G}",
-            "rules_text": "When Taza enters, create a 1/1 black Rat creature token.\nOther Rat creatures you control get +1/+1.\nAt the beginning of combat, target Rat you control gains lifelink until end of turn.",
+            "rules_text": "When Taza enters, create a 1/1 black Rat Rogue creature token with menace.\nOther Rat creatures you control get +1/+1.\nAt the beginning of combat, target Rat you control gains lifelink until end of turn.",
             "flavor_text": "[i][/i]",
             "pt": "2/3",
             "special_text": "",
@@ -312,11 +312,11 @@
             "notes": "!group Arcun"
         },
         {
-            "card_name": "UM01 Aerieguard Captain",
+            "card_name": "Aerieguard Captain",
             "color": "WR",
             "rarity": "uncommon",
             "type": "Creature \u2014 Bird Soldier Noble",
-            "number": 226,
+            "number": 206,
             "color_identity": "WR",
             "cost": "{2}{R}{W}",
             "rules_text": "When this creature enters, search your library for a militant card, reveal it and put it into your hand, then shuffle. [i](Armies, Heroes, Knights, Soldiers and Warriors are militants.)[/i]\nMilitant creatures you control have haste.",
@@ -330,11 +330,11 @@
             "notes": "!group Arcun"
         },
         {
-            "card_name": "UM01 Cenote King",
+            "card_name": "Cenote King",
             "color": "UG",
             "rarity": "uncommon",
             "type": "Creature \u2014 Frog Noble",
-            "number": 227,
+            "number": 207,
             "color_identity": "UG",
             "cost": "{3}{G}{U}",
             "rules_text": "When this creature enters, you get a Moonstone counter.\n{1}{G}: Put a +1/+1 counter on each creature you control. Activate only once each turn as a sorcery, and only if you have 3 or more Moonstone counters.",
@@ -352,7 +352,7 @@
             "color": "URG",
             "rarity": "mythic",
             "type": "Legendary Creature \u2014 Bear Druid Ranger",
-            "number": 211,
+            "number": 227,
             "color_identity": "URG",
             "cost": "{1}{G}{U}{R}",
             "rules_text": "Trample, reach, ward {1}\nThe first spell you cast each turn has Wisdom 4. [i](As an additional cost to cast that spell, you may exile 4 cards from your graveyard. If you do, copy it, and you may choose new targets for the copy.)[/i]",
@@ -366,11 +366,11 @@
             "notes": ""
         },
         {
-            "card_name": "CW01 Follower of the Updraft Path",
+            "card_name": "Follower of the Updraft Path",
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2014 Bird Monk",
-            "number": 7,
+            "number": 12,
             "color_identity": "W",
             "cost": "{2}{W}{W}",
             "rules_text": "Flying\n{W}: This creature gains lifelink until end of turn. Activate only once each turn.",
@@ -384,11 +384,11 @@
             "notes": ""
         },
         {
-            "card_name": "CW02 Kitsan Knight-Errant",
+            "card_name": "Kitsan Knight-Errant",
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2014 Fox Rogue Hero",
-            "number": 8,
+            "number": 18,
             "color_identity": "W",
             "cost": "{W}",
             "rules_text": "When this creature dies, choose one \u2014\n\u2022 You gain 2 life.\n\u2022 Put a +1/+1 counter on target Militant you control. [i](Armies, Heroes, Knights, Soldiers and Warriors are militants.)[/i]",
@@ -402,11 +402,11 @@
             "notes": ""
         },
         {
-            "card_name": "CW03 Petalseeker Mistress",
+            "card_name": "Petalseeker Mistress",
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2014 Rat Sorcerer",
-            "number": 9,
+            "number": 25,
             "color_identity": "W",
             "cost": "{W}",
             "rules_text": "Whenever a token creature you control attacks, you gain 1 life.",
@@ -420,11 +420,11 @@
             "notes": ""
         },
         {
-            "card_name": "CW04 Truth Diviner",
+            "card_name": "Truth Diviner",
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2014 Bird Monk",
-            "number": 10,
+            "number": 39,
             "color_identity": "W",
             "cost": "{1}{W}{W}",
             "rules_text": "Flying\nWhen this creature enters, destroy target artifact or enchantment.",
@@ -438,11 +438,11 @@
             "notes": ""
         },
         {
-            "card_name": "CW05 Confident Huntress",
+            "card_name": "Confident Huntress",
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2014 Cat Warrior",
-            "number": 11,
+            "number": 7,
             "color_identity": "W",
             "cost": "{2}{W}",
             "rules_text": "When this creature dies, put a +1/+1 counter on target Cat you control.",
@@ -456,11 +456,11 @@
             "notes": ""
         },
         {
-            "card_name": "CW06 Youngling Protector",
+            "card_name": "Youngling Protector",
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2014 Rat Monk",
-            "number": 12,
+            "number": 41,
             "color_identity": "W",
             "cost": "{1}{W}",
             "rules_text": "Sacrifice this creature: Creature tokens you control gain indestructible until end of turn.",
@@ -474,11 +474,11 @@
             "notes": ""
         },
         {
-            "card_name": "CW07 Stubborn Hornblower",
+            "card_name": "Stubborn Hornblower",
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2014 Goat Bard",
-            "number": 13,
+            "number": 36,
             "color_identity": "W",
             "cost": "{1}{W}",
             "rules_text": "When this creature dies, create two 1/1 white Goat Peasant creature tokens.",
@@ -492,15 +492,15 @@
             "notes": ""
         },
         {
-            "card_name": "CW08 Cheerful Messenger",
+            "card_name": "Cheerful Messenger",
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2014 Bird Advisor",
-            "number": 14,
+            "number": 4,
             "color_identity": "W",
             "cost": "{2}{W}",
             "rules_text": "Flying\nWhen this creature enters, you gain 1 life, then draw a card.",
-            "flavor_text": "[i]flavor text wip[/i]",
+            "flavor_text": "[i]\u201cAt your service, from sunup to sundown! No weapons or contraband, though.\u201d[/i]",
             "pt": "2/1",
             "special_text": "",
             "shape": "normal",
@@ -510,11 +510,11 @@
             "notes": "Art might be too cheery and smooth..."
         },
         {
-            "card_name": "CW09 Thraupian Harrier",
+            "card_name": "Thraupian Harrier",
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2014 Bird Warrior Scout",
-            "number": 15,
+            "number": 38,
             "color_identity": "W",
             "cost": "{1}{W}",
             "rules_text": "Flying\n{W}, {T}: Tap target creature. This ability costs {1} more to activate if it targets a militant. [i](Armies, Heroes, Knights, Soldiers and Warriors are militants.)[/i]",
@@ -528,11 +528,11 @@
             "notes": ""
         },
         {
-            "card_name": "CW10 Marks of Guilt",
+            "card_name": "Marks of Guilt",
             "color": "W",
             "rarity": "common",
             "type": "Enchantment \u2014 Aura",
-            "number": 16,
+            "number": 20,
             "color_identity": "W",
             "cost": "{2}{W}",
             "rules_text": "Wisdom 4 [i](As an additional cost to cast this, you may exile four cards from your graveyard. If you do, copy it, and you may choose new targets for the copy.)[/i]\nEnchant creature\nEnchanted creature can't attack or block, and its activated abilities can't be activated.",
@@ -546,11 +546,11 @@
             "notes": "February 20, 2026: Changed to prevent all damage enchanted creature would deal, after noticing it was basically a duplicate of Serene Crystallization."
         },
         {
-            "card_name": "CW11 Blue Sky Elite",
+            "card_name": "Blue Sky Elite",
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2014 Cat Knight",
-            "number": 17,
+            "number": 2,
             "color_identity": "W",
             "cost": "{1}{W}{W}",
             "rules_text": "This creature has first strike as long as it's your turn.",
@@ -564,11 +564,11 @@
             "notes": ""
         },
         {
-            "card_name": "CW12 City Gate Patrol",
+            "card_name": "City Gate Patrol",
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2014 Dog Soldier",
-            "number": 18,
+            "number": 6,
             "color_identity": "W",
             "cost": "{2}{W}",
             "rules_text": "Vigilance\nWhen this creature enters, create a 1/1 white Dog Soldier creature token.",
@@ -582,11 +582,11 @@
             "notes": ""
         },
         {
-            "card_name": "CW13 Generous Vendor",
+            "card_name": "Generous Vendor",
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2014 Rat Citizen",
-            "number": 19,
+            "number": 14,
             "color_identity": "W",
             "cost": "{3}{W}",
             "rules_text": "When this creature enters, creatures you control get +1/+1 until end of turn.",
@@ -600,11 +600,11 @@
             "notes": ""
         },
         {
-            "card_name": "CW14 Blessing of Kaniya",
+            "card_name": "Blessing of Kaniya",
             "color": "W",
             "rarity": "common",
             "type": "Instant",
-            "number": 20,
+            "number": 1,
             "color_identity": "W",
             "cost": "{W}",
             "rules_text": "Target creature gets +2/+2 until end of turn. If it's blocking, it gets +3/+3 until end of turn instead.",
@@ -618,11 +618,11 @@
             "notes": ""
         },
         {
-            "card_name": "CW15 Dub",
+            "card_name": "Dub",
             "color": "W",
             "rarity": "common",
             "type": "Enchantment \u2014 Aura",
-            "number": 21,
+            "number": 9,
             "color_identity": "W",
             "cost": "{2}{W}",
             "rules_text": "Enchant creature\nEnchanted creature gets +2/+2, has first strike, and is a Knight in addition to its other types.",
@@ -636,11 +636,11 @@
             "notes": ""
         },
         {
-            "card_name": "CW16 Mobilize the Village",
+            "card_name": "Mobilize the Village",
             "color": "W",
             "rarity": "common",
             "type": "Sorcery",
-            "number": 22,
+            "number": 21,
             "color_identity": "W",
             "cost": "{1}{W}{W}",
             "rules_text": "Create three 1/1 white Rat Citizen creature tokens.",
@@ -654,11 +654,11 @@
             "notes": ""
         },
         {
-            "card_name": "CW17 Plucking A Thorn",
+            "card_name": "Plucking A Thorn",
             "color": "W",
             "rarity": "common",
             "type": "Instant",
-            "number": 23,
+            "number": 26,
             "color_identity": "W",
             "cost": "{1}{W}",
             "rules_text": "This spell deals 4 damage to target attacking or blocking creature. You gain life equal to the excess damage dealt this way.",
@@ -672,11 +672,11 @@
             "notes": ""
         },
         {
-            "card_name": "CW18 Serene Crystallization",
+            "card_name": "Serene Crystallization",
             "color": "W",
             "rarity": "common",
             "type": "Enchantment",
-            "number": 24,
+            "number": 32,
             "color_identity": "W",
             "cost": "{2}{W}",
             "rules_text": "When this enchantment enters, exile target nonland permanent an opponent controls until this enchantment leaves the battlefield.",
@@ -690,11 +690,11 @@
             "notes": "Feb. 27th, 2026: Changed this and Marks of Guilt; Marks is now the wisdom pacify, and this is now a Banishing Light."
         },
         {
-            "card_name": "CW19 Ring of Assurance",
+            "card_name": "Ring of Assurance",
             "color": "W",
             "rarity": "common",
             "type": "Artifact",
-            "number": 25,
+            "number": 29,
             "color_identity": "W",
             "cost": "{1}{W}",
             "rules_text": "This artifact enters tapped.\nWhenever this artifact becomes tapped, you gain 1 life.\n{T}: Add {W}.",
@@ -708,11 +708,11 @@
             "notes": ""
         },
         {
-            "card_name": "CU01 Xolotl Raider",
+            "card_name": "Xolotl Raider",
             "color": "U",
             "rarity": "common",
             "type": "Creature \u2014 Salamander Warrior",
-            "number": 47,
+            "number": 81,
             "color_identity": "UB",
             "cost": "{U}",
             "rules_text": "Whenever this creature deals combat damage to an opponent, you may pay {1}{B}. If you do, that player discards a card.",
@@ -726,11 +726,11 @@
             "notes": ""
         },
         {
-            "card_name": "CU02 Ortugan Elder",
+            "card_name": "Ortugan Elder",
             "color": "U",
             "rarity": "common",
             "type": "Creature \u2014 Turtle Elder Monk",
-            "number": 48,
+            "number": 60,
             "color_identity": "U",
             "cost": "{1}{U}",
             "rules_text": "Defender\n{2}{U}: Until end of turn, this creature loses defender, gets +2/+0, and can't be blocked. Activate only once each turn, and only as a sorcery. This ability costs {2} less to activate if you've paid a Wisdom cost this turn.",
@@ -744,11 +744,11 @@
             "notes": ""
         },
         {
-            "card_name": "CU03 Uncompromising Artist",
+            "card_name": "Uncompromising Artist",
             "color": "U",
             "rarity": "common",
             "type": "Creature \u2014 Horse Wizard Advisor",
-            "number": 49,
+            "number": 76,
             "color_identity": "U",
             "cost": "{1}{U}",
             "rules_text": "When this creature enters, draw a card. Then discard a card unless there are two or more noncreature cards in your graveyard.",
@@ -762,11 +762,11 @@
             "notes": ""
         },
         {
-            "card_name": "CU04 Kodiloan Sentry",
+            "card_name": "Kodiloan Sentry",
             "color": "U",
             "rarity": "common",
             "type": "Creature \u2014 Crocodile Knight",
-            "number": 50,
+            "number": 57,
             "color_identity": "U",
             "cost": "{2}{U}",
             "rules_text": "Ward {1}\nThis creature gets +2/+0 as long as you have two or more Moonstone counters.",
@@ -780,11 +780,11 @@
             "notes": ""
         },
         {
-            "card_name": "CU05 Beachside Patrol",
+            "card_name": "Beachside Patrol",
             "color": "U",
             "rarity": "common",
             "type": "Creature \u2014 Salamander Soldier",
-            "number": 51,
+            "number": 45,
             "color_identity": "U",
             "cost": "{3}{U}",
             "rules_text": "Remove a Moonstone counter from yourself: Untap this creature. It gets -1/+2 until the beginning of your next turn. Activate only once each turn, and only as a sorcery.",
@@ -798,11 +798,11 @@
             "notes": ""
         },
         {
-            "card_name": "CU06 Keensight Sorcerer",
+            "card_name": "Keensight Sorcerer",
             "color": "U",
             "rarity": "common",
             "type": "Creature \u2014 Dog Wizard",
-            "number": 52,
+            "number": 56,
             "color_identity": "U",
             "cost": "{2}{U}",
             "rules_text": "When this creature enters, you get a Moonstone counter.\nSpells you cast cost {1} less to cast as long as you've gotten one or more Moonstone counters this turn.",
@@ -816,7 +816,7 @@
             "notes": ""
         },
         {
-            "card_name": "CU07 Hullcutter Duo",
+            "card_name": "Hullcutter Duo",
             "color": "U",
             "rarity": "common",
             "type": "Creature \u2014 Shark Pirate",
@@ -834,11 +834,11 @@
             "notes": ""
         },
         {
-            "card_name": "CU08 Selaki Stormrider",
+            "card_name": "Selaki Stormrider",
             "color": "U",
             "rarity": "common",
             "type": "Creature \u2014 Shark Warrior",
-            "number": 54,
+            "number": 67,
             "color_identity": "U",
             "cost": "{1}{U}",
             "rules_text": "Whenever this creature attacks, red and/or blue noncreature spells you cast cost {1} less to cast until your next turn. This triggers only once each turn.",
@@ -852,11 +852,11 @@
             "notes": ""
         },
         {
-            "card_name": "CU09 Siltshore Sentinel",
+            "card_name": "Siltshore Sentinel",
             "color": "U",
             "rarity": "common",
             "type": "Creature \u2014 Frog Soldier",
-            "number": 55,
+            "number": 68,
             "color_identity": "U",
             "cost": "{2}{U}{U}",
             "rules_text": "When this creature enters, choose one \u2014\n\u2022 Return target creature you don't control to its owner's hand.\n\u2022 Scry 2, then you get a Moonstone counter.",
@@ -870,11 +870,11 @@
             "notes": ""
         },
         {
-            "card_name": "CU10 Armed Delegation",
+            "card_name": "Armed Delegation",
             "color": "U",
             "rarity": "common",
             "type": "Creature \u2014 Bird Army",
-            "number": 56,
+            "number": 44,
             "color_identity": "U",
             "cost": "{3}{U}{U}",
             "rules_text": "Flying\nWhenever this creature deals combat damage to an opponent, that opponent chooses one \u2014\n\u2022 You draw a card.\n\u2022 They tap a creature they control. That creature doesn't untap during their next untap step.",
@@ -888,11 +888,11 @@
             "notes": ""
         },
         {
-            "card_name": "CU11 Elder Cirein",
+            "card_name": "Elder Cirein",
             "color": "U",
             "rarity": "common",
             "type": "Creature \u2014 Fish Beast",
-            "number": 57,
+            "number": 51,
             "color_identity": "U",
             "cost": "{4}{U}{U}",
             "rules_text": "When this creature enters, you draw a card.\nThis creature can't be blocked as long as you've cast two or more instant and/or sorcery spells this turn.",
@@ -906,11 +906,11 @@
             "notes": ""
         },
         {
-            "card_name": "CU12 Brash Saorbeak",
+            "card_name": "Brash Saorbeak",
             "color": "U",
             "rarity": "common",
             "type": "Creature \u2014 Bird Mercenary",
-            "number": 58,
+            "number": 46,
             "color_identity": "U",
             "cost": "{U}",
             "rules_text": "Flying\nWhen this creature leaves the battlefield, if it attacked or blocked this turn, scry 2.",
@@ -924,11 +924,11 @@
             "notes": ""
         },
         {
-            "card_name": "CU13 Amulet of the Future",
+            "card_name": "Amulet of the Future",
             "color": "U",
             "rarity": "common",
             "type": "Artifact",
-            "number": 59,
+            "number": 42,
             "color_identity": "U",
             "cost": "{1}{U}",
             "rules_text": "This artifact enters tapped.\nWhen this artifact enters, scry 3.\n{T}: Add {U}.",
@@ -942,11 +942,11 @@
             "notes": ""
         },
         {
-            "card_name": "CU14 Moonhalo Restraint",
+            "card_name": "Moonhalo Restraint",
             "color": "U",
             "rarity": "common",
             "type": "Enchantment \u2014 Aura",
-            "number": 60,
+            "number": 59,
             "color_identity": "U",
             "cost": "{1}{U}",
             "rules_text": "Enchant creature\nEnchanted creature can't attack or block.\nRemove three Moonstone counters from yourself: Return this Aura to your hand. Enchanted creature's owner shuffles it into their library.",
@@ -960,11 +960,11 @@
             "notes": ""
         },
         {
-            "card_name": "CU15 Unsummon",
+            "card_name": "Unsummon",
             "color": "U",
             "rarity": "common",
             "type": "Instant",
-            "number": 61,
+            "number": 77,
             "color_identity": "U",
             "cost": "{U}",
             "rules_text": "Return target creature to its owner's hand.",
@@ -978,11 +978,11 @@
             "notes": ""
         },
         {
-            "card_name": "CU16 Raise Shields",
+            "card_name": "Raise Shields",
             "color": "U",
             "rarity": "common",
             "type": "Instant",
-            "number": 62,
+            "number": 63,
             "color_identity": "U",
             "cost": "{U}",
             "rules_text": "Wisdom 3 [i](As an additional cost to cast this, you may exile three cards from your graveyard. If you do, copy it, and you may choose new targets for the copy.)[/i]\nTarget creature gains hexproof and gets +0/+2 until end of turn.",
@@ -996,11 +996,11 @@
             "notes": ""
         },
         {
-            "card_name": "CU17 Unweaving Ritual",
+            "card_name": "Unweaving Ritual",
             "color": "U",
             "rarity": "common",
             "type": "Instant",
-            "number": 63,
+            "number": 78,
             "color_identity": "U",
             "cost": "{2}{U}",
             "rules_text": "Choose one \u2014\n\u2022 Counter target permanent spell.\n\u2022 Return target nonland permanent to its owner's hand.",
@@ -1014,11 +1014,11 @@
             "notes": ""
         },
         {
-            "card_name": "CU18 Anticipate Their Next Moves",
+            "card_name": "Anticipate Their Next Moves",
             "color": "U",
             "rarity": "common",
             "type": "Instant",
-            "number": 64,
+            "number": 43,
             "color_identity": "U",
             "cost": "{1}{U}",
             "rules_text": "Counter target spell unless its controller pays {X}, where X is 2 plus the total number of cards with Wisdom in your graveyard and the number of permanents you control with Wisdom.",
@@ -1032,11 +1032,11 @@
             "notes": ""
         },
         {
-            "card_name": "CB01 Battle-Weary Swordtail",
+            "card_name": "Battle-Weary Swordtail",
             "color": "B",
             "rarity": "common",
             "type": "Creature \u2014 Rat Warrior",
-            "number": 88,
+            "number": 86,
             "color_identity": "B",
             "cost": "{B}",
             "rules_text": "When this creature dies, choose one \u2014\n\u2022 Put a +1/+1 counter on another target creature you control.\n\u2022 Create a 1/1 white Rat Citizen creature token.",
@@ -1050,11 +1050,11 @@
             "notes": ""
         },
         {
-            "card_name": "CB02 Despair Path Master",
+            "card_name": "Despair Path Master",
             "color": "B",
             "rarity": "common",
             "type": "Creature \u2014 Rat Warlock",
-            "number": 89,
+            "number": 95,
             "color_identity": "B",
             "cost": "{1}{B}",
             "rules_text": "When this creature enters, draw a card, then choose one \u2014\n\u2022 You lose 1 life.\n\u2022 You discard a card.",
@@ -1068,11 +1068,11 @@
             "notes": "March 2nd, 2026: Cost raised to 1B, power raised to 1."
         },
         {
-            "card_name": "CB03 Adept of the Blood Codex",
+            "card_name": "Adept of the Blood Codex",
             "color": "B",
             "rarity": "common",
             "type": "Creature \u2014 Dog Warlock",
-            "number": 90,
+            "number": 83,
             "color_identity": "B",
             "cost": "{2}{B}",
             "rules_text": "Ward\u2014pay 2 life\n{2}, Sacrifice a creature: You draw a card, then each opponent loses 1 life and you gain 1 life. Activate only once each turn.",
@@ -1086,11 +1086,11 @@
             "notes": ""
         },
         {
-            "card_name": "CB04 Iron Empire Kenin",
+            "card_name": "Iron Empire Kenin",
             "color": "B",
             "rarity": "common",
             "type": "Creature \u2014 Mouse Rat Soldier",
-            "number": 91,
+            "number": 104,
             "color_identity": "B",
             "cost": "{1}{B}",
             "rules_text": "Deathtouch",
@@ -1104,11 +1104,11 @@
             "notes": ""
         },
         {
-            "card_name": "CB05 Spiked Diggers",
+            "card_name": "Spiked Diggers",
             "color": "B",
             "rarity": "common",
             "type": "Creature \u2014 Insect",
-            "number": 92,
+            "number": 121,
             "color_identity": "B",
             "cost": "{1}{B}",
             "rules_text": "When this creature enters, mill three cards. Then if there are two or more creature cards in your graveyard, put a +1/+1 counter on this creature.",
@@ -1122,11 +1122,11 @@
             "notes": ""
         },
         {
-            "card_name": "CB06 Moonwarped Beast",
+            "card_name": "Moonwarped Beast",
             "color": "B",
             "rarity": "common",
             "type": "Creature \u2014 Beast Horror",
-            "number": 93,
+            "number": 107,
             "color_identity": "B",
             "cost": "{2}{B}",
             "rules_text": "As an additional cost to cast this spell, sacrifice a creature or remove a Moonstone counter from yourself.\nMenace",
@@ -1140,11 +1140,11 @@
             "notes": ""
         },
         {
-            "card_name": "CB07 Midnight Messenger",
+            "card_name": "Midnight Messenger",
             "color": "B",
             "rarity": "common",
             "type": "Creature \u2014 Bird Mercenary",
-            "number": 94,
+            "number": 106,
             "color_identity": "B",
             "cost": "{2}{B}",
             "rules_text": "When this creature enters, each player discards a card.\nPay 1 life: This creature gains flying until end of turn. Activate only once each turn, and only as a sorcery.",
@@ -1158,11 +1158,11 @@
             "notes": ""
         },
         {
-            "card_name": "CB08 Banished Clairvoyant",
+            "card_name": "Banished Clairvoyant",
             "color": "B",
             "rarity": "common",
             "type": "Creature \u2014 Owl Rogue Wizard",
-            "number": 95,
+            "number": 85,
             "color_identity": "B",
             "cost": "{1}{B}",
             "rules_text": "Flying\nWhenever this creature attacks, you may discard a card. When you do, target creature you control gains menace until end of turn.\nAt the beginning of your end step, if any player discarded two or more cards, you scry 2.",
@@ -1176,11 +1176,11 @@
             "notes": ""
         },
         {
-            "card_name": "CB09 Escaped Lab Rat",
+            "card_name": "Escaped Lab Rat",
             "color": "B",
             "rarity": "common",
             "type": "Creature \u2014 Rat Giant Barbarian",
-            "number": 96,
+            "number": 97,
             "color_identity": "B",
             "cost": "{4}{B}{B}",
             "rules_text": "Trample\nWhen this creature enters, each player discards a card.",
@@ -1194,11 +1194,11 @@
             "notes": ""
         },
         {
-            "card_name": "CB10 Snatcher Drakeling",
+            "card_name": "Snatcher Drakeling",
             "color": "B",
             "rarity": "common",
             "type": "Creature \u2014 Drake",
-            "number": 97,
+            "number": 119,
             "color_identity": "B",
             "cost": "{2}{B}",
             "rules_text": "Flying\nWhen this creature enters, return target artifact, creature or planeswalker card from your graveyard to your hand.",
@@ -1212,11 +1212,11 @@
             "notes": ""
         },
         {
-            "card_name": "CB11 Dalus Desert Askor",
+            "card_name": "Dalus Desert Askor",
             "color": "B",
             "rarity": "common",
             "type": "Creature \u2014 Scorpion",
-            "number": 98,
+            "number": 92,
             "color_identity": "B",
             "cost": "{3}{B}{B}",
             "rules_text": "Menace\nWhenever this creature attacks, target creature you control with power 2 or less gains menace until end of turn.",
@@ -1230,11 +1230,11 @@
             "notes": ""
         },
         {
-            "card_name": "CB12 Sign Your Life Away",
+            "card_name": "Sign Your Life Away",
             "color": "B",
             "rarity": "common",
             "type": "Instant",
-            "number": 99,
+            "number": 118,
             "color_identity": "B",
             "cost": "{1}{B}{B}",
             "rules_text": "As an additional cost to cast this spell, sacrifice a creature.\nEach player loses 2 life.\nYou draw two cards. If a token creature was sacrificed to cast this spell, you draw three cards instead.",
@@ -1248,11 +1248,11 @@
             "notes": ""
         },
         {
-            "card_name": "CB13 Infernal Resourcefulness",
+            "card_name": "Infernal Resourcefulness",
             "color": "B",
             "rarity": "common",
             "type": "Instant",
-            "number": 100,
+            "number": 102,
             "color_identity": "B",
             "cost": "{1}{B}",
             "rules_text": "Destroy target creature with mana value 2 or less. If that creature doesn't share a creature type with a creature you control, you may return up to one target creature card from your graveyard to your hand.",
@@ -1266,11 +1266,11 @@
             "notes": ""
         },
         {
-            "card_name": "CB14 Deceptive Wagering",
+            "card_name": "Deceptive Wagering",
             "color": "B",
             "rarity": "common",
             "type": "Sorcery",
-            "number": 101,
+            "number": 94,
             "color_identity": "B",
             "cost": "{2}{B}{B}",
             "rules_text": "Target player discards two cards. Then if you discarded one or more cards this turn, that player sacrifices a creature.\nSurveil 2.",
@@ -1284,11 +1284,11 @@
             "notes": ""
         },
         {
-            "card_name": "CB15 Blow to the Pharynx",
+            "card_name": "Blow to the Pharynx",
             "color": "B",
             "rarity": "common",
             "type": "Instant",
-            "number": 102,
+            "number": 87,
             "color_identity": "B",
             "cost": "{2}{B}",
             "rules_text": "As an additional cost to cast this spell, discard a card.\nDestroy target creature or planeswalker.",
@@ -1302,11 +1302,11 @@
             "notes": ""
         },
         {
-            "card_name": "CB16 Reluctant Companions",
+            "card_name": "Reluctant Companions",
             "color": "B",
             "rarity": "common",
             "type": "Sorcery",
-            "number": 103,
+            "number": 115,
             "color_identity": "B",
             "cost": "{1}{B}",
             "rules_text": "Create a 1/1 black Rat Rogue creature token with menace and a 1/1 white Rat Citizen creature token. Then you lose 1 life unless you control three or more Rats.",
@@ -1320,11 +1320,11 @@
             "notes": ""
         },
         {
-            "card_name": "CB17 Carnikinesis",
+            "card_name": "Carnikinesis",
             "color": "B",
             "rarity": "common",
             "type": "Instant",
-            "number": 104,
+            "number": 89,
             "color_identity": "B",
             "cost": "{1}{B}",
             "rules_text": "Choose one \u2014\n\u2022 Target creature gets -2/-2 until end of turn.\n\u2022 Target creature gains indestructible until end of turn.",
@@ -1338,11 +1338,11 @@
             "notes": ""
         },
         {
-            "card_name": "CB18 Unnerving Onyx",
+            "card_name": "Unnerving Onyx",
             "color": "B",
             "rarity": "common",
             "type": "Artifact",
-            "number": 105,
+            "number": 122,
             "color_identity": "B",
             "cost": "{1}{B}",
             "rules_text": "This artifact enters tapped.\nWhen this artifact enters, you may put target creature card in your graveyard on top of your library.\n{T}: Add {B}.",
@@ -1356,11 +1356,11 @@
             "notes": ""
         },
         {
-            "card_name": "CB19 Play Dead",
+            "card_name": "Play Dead",
             "color": "B",
             "rarity": "common",
             "type": "Instant",
-            "number": 106,
+            "number": 112,
             "color_identity": "B",
             "cost": "{B}",
             "rules_text": "Until end of turn, target creature you control gains \u201cWhen this creature dies, return it to the battlefield tapped under its owner's control.\u201d",
@@ -1374,11 +1374,11 @@
             "notes": ""
         },
         {
-            "card_name": "CR01 Worldly Sellsword",
+            "card_name": "Worldly Sellsword",
             "color": "R",
             "rarity": "common",
             "type": "Creature \u2014 Dog Mercenary",
-            "number": 128,
+            "number": 164,
             "color_identity": "R",
             "cost": "{R}",
             "rules_text": "Haste\nWhen this creature dies, if it attacked this turn or if you discarded a card this turn, draw a card.",
@@ -1392,11 +1392,11 @@
             "notes": ""
         },
         {
-            "card_name": "CR02 Prepared Fortress Guard",
+            "card_name": "Prepared Fortress Guard",
             "color": "R",
             "rarity": "common",
             "type": "Creature \u2014 Cat Warrior",
-            "number": 129,
+            "number": 152,
             "color_identity": "R",
             "cost": "{1}{R}",
             "rules_text": "Haste\nWhenever this creature attacks, you may pay {1}. If you do, it deals 1 damage to defending player.",
@@ -1410,11 +1410,11 @@
             "notes": ""
         },
         {
-            "card_name": "CR03 Lafahdian Minister of the Arcane",
+            "card_name": "Lafahdian Minister of the Arcane",
             "color": "R",
             "rarity": "common",
             "type": "Creature \u2014 Dragon Wizard Noble",
-            "number": 130,
+            "number": 145,
             "color_identity": "R",
             "cost": "{1}{R}",
             "rules_text": "Whenever this creature enters or attacks, you may discard a card. If you do, draw a card.\nThis creature gets +1/+0 as long as there are five or more cards in your graveyard.",
@@ -1428,11 +1428,11 @@
             "notes": ""
         },
         {
-            "card_name": "CR05 Mountain Miner",
+            "card_name": "Mountain Miner",
             "color": "R",
             "rarity": "common",
             "type": "Creature \u2014 Minotaur Citizen",
-            "number": 132,
+            "number": 149,
             "color_identity": "R",
             "cost": "{2}{R}{R}",
             "rules_text": "This creature has trample as long as there are two or more land cards in your graveyard.\nWhenever this creature attacks, you may discard a card. If you do, draw a card.",
@@ -1446,11 +1446,11 @@
             "notes": ""
         },
         {
-            "card_name": "CR06 Adventuring Mages of Squa",
+            "card_name": "Adventuring Mages of Squa",
             "color": "R",
             "rarity": "common",
             "type": "Creature \u2014 Lizard Scout Wizard",
-            "number": 133,
+            "number": 125,
             "color_identity": "R",
             "cost": "{1}{R}{R}",
             "rules_text": "When this creature enters, if it's not a token, create a token that's a copy of it.\nWhenever this creature deals combat damage to a player or planeswalker, instant and/or sorcery spells you cast this turn cost {1} less to cast.",
@@ -1464,11 +1464,11 @@
             "notes": ""
         },
         {
-            "card_name": "CR07 Aardite Brute",
+            "card_name": "Aardite Brute",
             "color": "R",
             "rarity": "common",
             "type": "Creature \u2014 Dog Warrior",
-            "number": 134,
+            "number": 124,
             "color_identity": "R",
             "cost": "{R}",
             "rules_text": "Whenever this creature attacks or blocks, if it isn't attacking or blocking alone, it gets +1/+1 until end of turn.",
@@ -1482,11 +1482,11 @@
             "notes": ""
         },
         {
-            "card_name": "CR08 Eccentric Scavenger",
+            "card_name": "Eccentric Scavenger",
             "color": "R",
             "rarity": "common",
             "type": "Creature \u2014 Raccoon Rogue",
-            "number": 135,
+            "number": 134,
             "color_identity": "R",
             "cost": "{3}{R}{R}",
             "rules_text": "Haste\nWhen this creature enters, if you cast it, return target instant or sorcery card from your graveyard to your hand, then return a card at random from your graveyard to your hand.",
@@ -1500,11 +1500,11 @@
             "notes": ""
         },
         {
-            "card_name": "CR09 Army of West Khyth",
+            "card_name": "Army of West Khyth",
             "color": "R",
             "rarity": "common",
             "type": "Creature \u2014 Dog Army",
-            "number": 136,
+            "number": 126,
             "color_identity": "R",
             "cost": "{1}{R}{R}",
             "rules_text": "Kicker {2}\nTrample\nThis creature enters with two +1/+1 counters on it if it was kicked.",
@@ -1518,11 +1518,11 @@
             "notes": ""
         },
         {
-            "card_name": "CR10 Greater Imaca",
+            "card_name": "Greater Imaca",
             "color": "R",
             "rarity": "common",
             "type": "Creature \u2014 Lizard Beast",
-            "number": 137,
+            "number": 140,
             "color_identity": "R",
             "cost": "{4}{R}{R}",
             "rules_text": "Haste\nThis creature has trample as long as you've cast an instant or sorcery this turn.",
@@ -1536,11 +1536,11 @@
             "notes": ""
         },
         {
-            "card_name": "CR11 Gem Igniter",
+            "card_name": "Gem Igniter",
             "color": "R",
             "rarity": "common",
             "type": "Creature \u2014 Fox Shaman Warrior",
-            "number": 138,
+            "number": 139,
             "color_identity": "R",
             "cost": "{1}{R}",
             "rules_text": "Whenever you sacrifice one or more lands, or discard one or more land cards, this creature deals 1 damage to each opponent.\n{3}, Sacrifice a land: Draw a card. Activate only once each turn as a sorcery.",
@@ -1554,11 +1554,11 @@
             "notes": "March 5th, 2026: Changed from 'target' opponent to 'each'."
         },
         {
-            "card_name": "CR12 Sprite Bolt",
+            "card_name": "Sprite Bolt",
             "color": "R",
             "rarity": "common",
             "type": "Instant",
-            "number": 139,
+            "number": 158,
             "color_identity": "R",
             "cost": "{R}",
             "rules_text": "Wisdom 5 [i](As an additional cost to cast this, you may exile five cards from your graveyard. If you do, copy it, and you may choose new targets for the copy.)[/i]\nThis spell deals 2 damage to any target.",
@@ -1572,11 +1572,11 @@
             "notes": ""
         },
         {
-            "card_name": "CR13 Sound the Dragonhorn",
+            "card_name": "Sound the Dragonhorn",
             "color": "R",
             "rarity": "common",
             "type": "Sorcery",
-            "number": 140,
+            "number": 157,
             "color_identity": "R",
             "cost": "{2}{R}",
             "rules_text": "Creatures you control get +2/+0 until end of turn, then choose one \u2014\n\u2022 Target creature gains haste until end of turn.\n\u2022 Target creature can't block this turn.",
@@ -1590,11 +1590,11 @@
             "notes": ""
         },
         {
-            "card_name": "CR14 Smash Open",
+            "card_name": "Smash Open",
             "color": "R",
             "rarity": "common",
             "type": "Sorcery",
-            "number": 141,
+            "number": 156,
             "color_identity": "R",
             "cost": "{1}{R}{R}",
             "rules_text": "Choose one \u2014\n\u2022 Exile target artifact.\n\u2022 Target creature gets +3/+3 and gains trample until end of turn.",
@@ -1608,11 +1608,11 @@
             "notes": ""
         },
         {
-            "card_name": "CR15 Entrancing Ruby",
+            "card_name": "Entrancing Ruby",
             "color": "R",
             "rarity": "common",
             "type": "Artifact",
-            "number": 142,
+            "number": 135,
             "color_identity": "R",
             "cost": "{1}{R}",
             "rules_text": "This artifact enters tapped.\nWhen this artifact enters, you may discard a card. If you do, draw a card.\n{T}: Add {R}.",
@@ -1626,11 +1626,11 @@
             "notes": ""
         },
         {
-            "card_name": "CR16 Storm's Strike",
+            "card_name": "Storm's Strike",
             "color": "R",
             "rarity": "common",
             "type": "Instant",
-            "number": 143,
+            "number": 160,
             "color_identity": "R",
             "cost": "{1}{R}",
             "rules_text": "Wisdom 2 [i](As an additional cost to cast this, you may exile two cards from your graveyard. If you do, copy it, and you may choose new targets for the copy.)[/i]\nTarget creature gets +2/+0 and gains first strike until end of turn.",
@@ -1644,11 +1644,11 @@
             "notes": ""
         },
         {
-            "card_name": "CR17 Fireside Tales",
+            "card_name": "Fireside Tales",
             "color": "R",
             "rarity": "common",
             "type": "Sorcery",
-            "number": 144,
+            "number": 136,
             "color_identity": "R",
             "cost": "{1}{R}",
             "rules_text": "Wisdom 2 [i](As an additional cost to cast this, you may exile two cards from your graveyard. If you do, copy it, and you may choose new targets for the copy.)[/i]\nDiscard a card, then draw two cards.",
@@ -1662,11 +1662,11 @@
             "notes": ""
         },
         {
-            "card_name": "CR18 Flames of Passion",
+            "card_name": "Flames of Passion",
             "color": "R",
             "rarity": "common",
             "type": "Instant",
-            "number": 145,
+            "number": 137,
             "color_identity": "R",
             "cost": "{3}{R}{R}",
             "rules_text": "This spell costs {2} less to cast if you've discarded one or more cards this turn.\nThis spell deals 5 damage to target permanent.\nDraw a card.",
@@ -1680,11 +1680,11 @@
             "notes": ""
         },
         {
-            "card_name": "CR19 Driven to Destruction",
+            "card_name": "Driven to Destruction",
             "color": "R",
             "rarity": "common",
             "type": "Instant",
-            "number": 146,
+            "number": 133,
             "color_identity": "R",
             "cost": "{2}{R}{R}",
             "rules_text": "Kicker\u2014sacrifice a land\nThis spell deals 4 damage to any target if that target is a permanent or if this spell was kicked.",
@@ -1698,11 +1698,11 @@
             "notes": ""
         },
         {
-            "card_name": "CG01 Flower Stalker",
+            "card_name": "Flower Stalker",
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2014 Cat Druid Mercenary",
-            "number": 168,
+            "number": 173,
             "color_identity": "G",
             "cost": "{1}{G}",
             "rules_text": "This creature has vigilance as long as you've gotten a Moonstone counter or discarded a card this turn.\n{T}: Add one mana of any color.",
@@ -1716,11 +1716,11 @@
             "notes": ""
         },
         {
-            "card_name": "CG02 Sika Matriarch",
+            "card_name": "Sika Matriarch",
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2014 Deer Cleric",
-            "number": 169,
+            "number": 193,
             "color_identity": "G",
             "cost": "{1}{G}",
             "rules_text": "When this creature enters, you gain 4 life.",
@@ -1734,11 +1734,11 @@
             "notes": ""
         },
         {
-            "card_name": "CG03 Unphased Journeyers",
+            "card_name": "Unphased Journeyers",
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2014 Bear Citizen",
-            "number": 170,
+            "number": 202,
             "color_identity": "G",
             "cost": "{1}{G}",
             "rules_text": "Wisdom 4 [i](As an additional cost to cast this, you may exile four cards from your graveyard. If you do, copy it, and you may choose new targets for the copy.)[/i]",
@@ -1752,11 +1752,11 @@
             "notes": ""
         },
         {
-            "card_name": "CG04 Fangscale Geologist",
+            "card_name": "Fangscale Geologist",
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2014 Lizard Scout Advisor",
-            "number": 171,
+            "number": 172,
             "color_identity": "G",
             "cost": "{2}{G}",
             "rules_text": "When this creature enters, mill three cards, then return a land card from your graveyard to your hand.",
@@ -1770,11 +1770,11 @@
             "notes": ""
         },
         {
-            "card_name": "CG05 Night-Stroll Guardian",
+            "card_name": "Night-Stroll Guardian",
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2014 Rat Warrior",
-            "number": 172,
+            "number": 186,
             "color_identity": "G",
             "cost": "{2}{G}",
             "rules_text": "When this creature enters, reveal the top card of your library. If it's a Rat card, you may put it into your hand. Otherwise, put it back on top of your library or into your graveyard.",
@@ -1788,11 +1788,11 @@
             "notes": ""
         },
         {
-            "card_name": "CG06 Glacier Lookout",
+            "card_name": "Glacier Lookout",
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2014 Beast Archer",
-            "number": 173,
+            "number": 174,
             "color_identity": "G",
             "cost": "{2}{G}{G}",
             "rules_text": "Kicker {2} [i](You may pay an additional {2} as you cast this spell.)[/i]\nReach\nWhen this creature enters, if it was kicked, create a creature token that's a copy of it.\nWhen this creature enters, you get a Moonstone counter.",
@@ -1806,11 +1806,11 @@
             "notes": ""
         },
         {
-            "card_name": "CG07 Wildheart Guardian",
+            "card_name": "Wildheart Guardian",
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2014 Cat Druid",
-            "number": 174,
+            "number": 204,
             "color_identity": "G",
             "cost": "{3}{G}",
             "rules_text": "Ward {1}\nThis creature gets +2/+2 as long as there are two or more land cards in your graveyard.",
@@ -1824,11 +1824,11 @@
             "notes": ""
         },
         {
-            "card_name": "CG08 School of Seaquids",
+            "card_name": "School of Seaquids",
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2014 Fish Horse",
-            "number": 175,
+            "number": 190,
             "color_identity": "UG",
             "cost": "{3}{G}{G}",
             "rules_text": "This creature enters with three +1/+1 counters on it.\n{1}{U}: For each kind of counter on target permanent or player, give that permanent or player another counter of that kind. Activate only once each turn, and only as a sorcery.",
@@ -1842,11 +1842,11 @@
             "notes": ""
         },
         {
-            "card_name": "CG09 Sociable Inn Owner",
+            "card_name": "Sociable Inn Owner",
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2014 Bear Noble Advisor",
-            "number": 176,
+            "number": 194,
             "color_identity": "G",
             "cost": "{4}{G}{G}",
             "rules_text": "Trample\nThis creature enters with a +1/+1 counter on it if you've gained life this turn.\nWhen this creature enters, you gain 2 life and scry 1.",
@@ -1860,11 +1860,11 @@
             "notes": "Eventually come up with a more interesting name for this card."
         },
         {
-            "card_name": "CG10 Unconventional Summoner",
+            "card_name": "Unconventional Summoner",
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2014 Rat Druid Warlock",
-            "number": 177,
+            "number": 200,
             "color_identity": "G",
             "cost": "{1}{G}{G}",
             "rules_text": "When this enters, create a 1/1 white Dragon creature token with flying.",
@@ -1878,11 +1878,11 @@
             "notes": ""
         },
         {
-            "card_name": "CG11 Scallywag Tracker",
+            "card_name": "Scallywag Tracker",
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2014 Dog Druid Rogue",
-            "number": 178,
+            "number": 189,
             "color_identity": "G",
             "cost": "{G}",
             "rules_text": "When this enters, if a land card entered or left your graveyard this turn, put a +1/+1 counter on target creature you control.",
@@ -1896,11 +1896,11 @@
             "notes": ""
         },
         {
-            "card_name": "CG12 Thunder God's Boon",
+            "card_name": "Thunder God's Boon",
             "color": "G",
             "rarity": "common",
             "type": "Instant",
-            "number": 179,
+            "number": 199,
             "color_identity": "G",
             "cost": "{1}{G}",
             "rules_text": "Until end of turn, target creature you control gets +3/+3 and gains reach.\nScry 1.",
@@ -1914,11 +1914,11 @@
             "notes": ""
         },
         {
-            "card_name": "CG13 Haul In the Nets",
+            "card_name": "Haul In the Nets",
             "color": "G",
             "rarity": "common",
             "type": "Sorcery",
-            "number": 180,
+            "number": 178,
             "color_identity": "G",
             "cost": "{1}{G}",
             "rules_text": "Choose one \u2014\n\u2022 You get three Moonstone counters, then may put a land card from your hand onto the battlefield.\n\u2022 Target creature you control deals damage equal to its power to target creature or planeswalker you don't control.",
@@ -1932,11 +1932,11 @@
             "notes": ""
         },
         {
-            "card_name": "CG14 Grapple with the Past",
+            "card_name": "Grapple with the Past",
             "color": "G",
             "rarity": "common",
             "type": "Instant",
-            "number": 181,
+            "number": 176,
             "color_identity": "G",
             "cost": "{1}{G}",
             "rules_text": "Mill three cards, then you may return a creature or land card from your graveyard to your hand.",
@@ -1950,11 +1950,11 @@
             "notes": ""
         },
         {
-            "card_name": "CG15 Moonguided Shot",
+            "card_name": "Moonguided Shot",
             "color": "G",
             "rarity": "common",
             "type": "Instant",
-            "number": 182,
+            "number": 185,
             "color_identity": "G",
             "cost": "{2}{G}",
             "rules_text": "Choose one \u2014\n\u2022 Destroy target creature with flying.\n\u2022 Untap target creature you control. Until end of turn, that creature gets +1/+2 and gains reach.",
@@ -1968,11 +1968,11 @@
             "notes": ""
         },
         {
-            "card_name": "CG16 Ruined Relics",
+            "card_name": "Ruined Relics",
             "color": "G",
             "rarity": "common",
             "type": "Instant",
-            "number": 183,
+            "number": 187,
             "color_identity": "G",
             "cost": "{2}{G}",
             "rules_text": "Destroy target artifact or enchantment. If an artifact is destroyed this way, put a +1/+1 counter on a creature you control. Otherwise, you gain 2 life.",
@@ -1986,11 +1986,11 @@
             "notes": "March 4th, 2026: In an effort to make the casting process simpler for this, the putting a counter aspect no longer targets."
         },
         {
-            "card_name": "CG17 Limb Enhancement",
+            "card_name": "Limb Enhancement",
             "color": "G",
             "rarity": "common",
             "type": "Enchantment \u2014 Aura",
-            "number": 184,
+            "number": 183,
             "color_identity": "G",
             "cost": "{1}{G}",
             "rules_text": "Enchant creature\nWhen this Aura enters, you get a Moonstone counter.\nEnchanted creature gets +2/+3.",
@@ -2004,11 +2004,11 @@
             "notes": ""
         },
         {
-            "card_name": "CG18 Tangled in Crops",
+            "card_name": "Tangled in Crops",
             "color": "G",
             "rarity": "common",
             "type": "Instant",
-            "number": 185,
+            "number": 198,
             "color_identity": "G",
             "cost": "{2}{G}",
             "rules_text": "Search your library for a basic land card, put that card onto the battlefield tapped, then shuffle.\nPrevent all combat damage that would be dealt this turn.",
@@ -2022,11 +2022,11 @@
             "notes": ""
         },
         {
-            "card_name": "CG19 Shard of Growth",
+            "card_name": "Shard of Growth",
             "color": "G",
             "rarity": "common",
             "type": "Artifact",
-            "number": 186,
+            "number": 192,
             "color_identity": "G",
             "cost": "{1}{G}",
             "rules_text": "This artifact enters tapped.\nWhen this artifact enters, put a +1/+1 counter on target creature you control.\n{T}: Add {G}.",
@@ -2040,11 +2040,11 @@
             "notes": ""
         },
         {
-            "card_name": "UW01 Rooftop Pouncer",
+            "card_name": "Rooftop Pouncer",
             "color": "W",
             "rarity": "uncommon",
             "type": "Creature \u2014 Cat Warrior Rogue",
-            "number": 35,
+            "number": 30,
             "color_identity": "W",
             "cost": "{1}{W}",
             "rules_text": "This creature enters with a +1/+1 counter on it as long as you control another militant. [i](Armies, Heroes, Knights, Soldiers and Warriors are militants.)[/i]\nFirst strike\n{W}: Untap this creature. It gains reach until your next turn. Activate only once each turn and only as a sorcery.",
@@ -2058,11 +2058,11 @@
             "notes": ""
         },
         {
-            "card_name": "UW02 Hagzaga Squadron",
+            "card_name": "Hagzaga Squadron",
             "color": "W",
             "rarity": "uncommon",
             "type": "Creature \u2014 Bird Army",
-            "number": 36,
+            "number": 15,
             "color_identity": "W",
             "cost": "{1}{W}",
             "rules_text": "Flying, vigilance\nWhenever another creature with flying you control enters, put a +1/+1 counter on this creature. This triggers only once each turn.",
@@ -2076,11 +2076,11 @@
             "notes": ""
         },
         {
-            "card_name": "UW03 Duchess of the Trials",
+            "card_name": "Duchess of the Trials",
             "color": "W",
             "rarity": "uncommon",
             "type": "Creature \u2014 Cat Noble Advisor",
-            "number": 37,
+            "number": 10,
             "color_identity": "W",
             "cost": "{1}{W}{W}",
             "rules_text": "When this creature enters, for each player, exile up to one target nonland permanent that player controls. Each of those cards' owners may pay {1} as a sorcery to put them into their hand.",
@@ -2094,11 +2094,11 @@
             "notes": ""
         },
         {
-            "card_name": "UW04 Stoic Medic",
+            "card_name": "Stoic Medic",
             "color": "W",
             "rarity": "uncommon",
             "type": "Creature \u2014 Dog Knight Doctor",
-            "number": 38,
+            "number": 34,
             "color_identity": "W",
             "cost": "{1}{W}",
             "rules_text": "Flash\nKicker {W}\nWhen this creature enters, another target creature you control gains indestructible until end of turn. Then if this spell was kicked, put a +1/+1 counter on target creature you control.",
@@ -2112,11 +2112,11 @@
             "notes": ""
         },
         {
-            "card_name": "UW05 Spire Guru",
+            "card_name": "Spire Guru",
             "color": "W",
             "rarity": "uncommon",
             "type": "Creature \u2014 Bird Warrior Monk",
-            "number": 39,
+            "number": 33,
             "color_identity": "W",
             "cost": "{1}{W}{W}",
             "rules_text": "Flying\nPay 3 life: This creature gains first strike and indestructible until end of turn. Tap this creature. Activate only once each turn.",
@@ -2130,11 +2130,11 @@
             "notes": ""
         },
         {
-            "card_name": "UW06 Contemplative Relaxation",
+            "card_name": "Contemplative Relaxation",
             "color": "W",
             "rarity": "uncommon",
             "type": "Sorcery",
-            "number": 40,
+            "number": 8,
             "color_identity": "W",
             "cost": "{2}{W}{W}",
             "rules_text": "Gain 5 life.\nCreate a 1/1 white Cat Peasant creature, then put a +1/+1 counter on each creature you control.\nDraw a card.",
@@ -2148,11 +2148,11 @@
             "notes": ""
         },
         {
-            "card_name": "UW07 Sunblaze Aerie Delegate",
+            "card_name": "Sunblaze Aerie Delegate",
             "color": "W",
             "rarity": "uncommon",
             "type": "Creature \u2014 Bird Hero",
-            "number": 41,
+            "number": 37,
             "color_identity": "W",
             "cost": "{2}{W}{W}",
             "rules_text": "Flying, lifelink\nWhenever another creature dies for the first time each turn while this creature is tapped, untap this creature.",
@@ -2166,11 +2166,11 @@
             "notes": ""
         },
         {
-            "card_name": "UW08 Lafahd Royal Expedition",
+            "card_name": "Lafahd Royal Expedition",
             "color": "W",
             "rarity": "uncommon",
             "type": "Creature \u2014 Cat Noble Army",
-            "number": 42,
+            "number": 19,
             "color_identity": "W",
             "cost": "{3}{W}{W}",
             "rules_text": "Ward {2}\nWhenever this creature attacks, if defending player has seven or more cards in their graveyard, this creature gains double strike until end of turn.",
@@ -2184,11 +2184,11 @@
             "notes": ""
         },
         {
-            "card_name": "UW09 Rewoven Fates",
+            "card_name": "Rewoven Fates",
             "color": "W",
             "rarity": "uncommon",
             "type": "Sorcery",
-            "number": 43,
+            "number": 28,
             "color_identity": "W",
             "cost": "{1}{W}{W}",
             "rules_text": "As an additional cost to cast this spell, sacrifice a creature or a nontoken, noncreature permanent.\nReturn target creature or planeswalker card from your graveyard to the battlefield.",
@@ -2202,11 +2202,11 @@
             "notes": ""
         },
         {
-            "card_name": "UW10 Bracer of Light",
+            "card_name": "Bracer of Light",
             "color": "W",
             "rarity": "uncommon",
             "type": "Enchantment \u2014 Aura",
-            "number": 44,
+            "number": 3,
             "color_identity": "W",
             "cost": "{1}{W}",
             "rules_text": "Enchant creature\nWhen this Aura enters, draw a card.\nEnchanted creature gets +2/+1 and has ward {2}. [i](Whenever this permanent becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2}.)[/i]",
@@ -2220,11 +2220,11 @@
             "notes": ""
         },
         {
-            "card_name": "UW11 Storm of Defiance",
+            "card_name": "Storm of Defiance",
             "color": "W",
             "rarity": "uncommon",
             "type": "Instant",
-            "number": 45,
+            "number": 35,
             "color_identity": "W",
             "cost": "{W}{W}",
             "rules_text": "This spell costs {W} less to cast as long as you control 3 or more creatures or a nontoken militant creature. [i](Armies, Heroes, Knights, Soldiers and Warriors are militants.)[/i]\nExile target attacking or blocking creature.",
@@ -2238,11 +2238,11 @@
             "notes": ""
         },
         {
-            "card_name": "UU01 Ridgeline Monitor",
+            "card_name": "Ridgeline Monitor",
             "color": "U",
             "rarity": "uncommon",
             "type": "Creature \u2014 Bird Scout",
-            "number": 76,
+            "number": 65,
             "color_identity": "U",
             "cost": "{2}{U}{U}",
             "rules_text": "Flash\nFlying\nWhen this creature enters, choose one \u2014\n\u2022 Scry 1, then draw a card.\n\u2022 Return target permanent you don't control to its owner's hand.",
@@ -2256,11 +2256,11 @@
             "notes": ""
         },
         {
-            "card_name": "UU02 Isthmus Guardian",
+            "card_name": "Isthmus Guardian",
             "color": "U",
             "rarity": "uncommon",
             "type": "Creature \u2014 Salamander Giant",
-            "number": 77,
+            "number": 55,
             "color_identity": "U",
             "cost": "{6}{U}{U}",
             "rules_text": "This spell costs {1} less to cast for each Moonstone counter you have.\nVigilance\nWhen this creature enters, draw two cards.",
@@ -2274,11 +2274,11 @@
             "notes": ""
         },
         {
-            "card_name": "UU03 Veteran Burglar",
+            "card_name": "Veteran Burglar",
             "color": "U",
             "rarity": "uncommon",
             "type": "Creature \u2014 Cat Rogue",
-            "number": 78,
+            "number": 79,
             "color_identity": "U",
             "cost": "{1}{U}",
             "rules_text": "Ward {1}\nWhenever this creature deals combat damage to an opponent, you search that player's library for a nonland, noncreature card and exile it, then that player shuffles. As long as that card remains exiled, you may cast it, and spend mana as if it were any color to cast it.",
@@ -2292,11 +2292,11 @@
             "notes": ""
         },
         {
-            "card_name": "UU04 Stormwind Master",
+            "card_name": "Stormwind Master",
             "color": "U",
             "rarity": "uncommon",
             "type": "Creature \u2014 Lizard Monk",
-            "number": 79,
+            "number": 70,
             "color_identity": "UR",
             "cost": "{1}{U}",
             "rules_text": "Ward {1}\nWhenever you cast an instant or sorcery spell, or a spell with Wisdom, put a +1/+1 counter on this creature.\n{R}: This creature gains trample until end of turn. Activate only as a sorcery.",
@@ -2310,11 +2310,11 @@
             "notes": ""
         },
         {
-            "card_name": "UU05 Slicefin Thief",
+            "card_name": "Slicefin Thief",
             "color": "U",
             "rarity": "uncommon",
             "type": "Creature \u2014 Shark Rogue Warrior",
-            "number": 80,
+            "number": 69,
             "color_identity": "UB",
             "cost": "{2}{U}",
             "rules_text": "Whenever this creature attacks, until end of turn, if you would get one or more counters, you get that many plus one of each kind of those counters instead.\n{B}: This creature gains menace until end of turn. Activate only as a sorcery.",
@@ -2328,11 +2328,11 @@
             "notes": ""
         },
         {
-            "card_name": "UU06 Thundersnap Toxibrach",
+            "card_name": "Thundersnap Toxibrach",
             "color": "U",
             "rarity": "uncommon",
             "type": "Creature \u2014 Crab Horror",
-            "number": 81,
+            "number": 73,
             "color_identity": "U",
             "cost": "{2}{U}{U}",
             "rules_text": "When this creature enters, tap target creature you don't control and put a stun counter on it.\nWhen this creature blocks, return all creatures it blocked to their owner's hand at end of combat.",
@@ -2346,11 +2346,11 @@
             "notes": ""
         },
         {
-            "card_name": "UU07 Hydrokinetic Mastery",
+            "card_name": "Hydrokinetic Mastery",
             "color": "U",
             "rarity": "uncommon",
             "type": "Enchantment \u2014 Aura",
-            "number": 82,
+            "number": 54,
             "color_identity": "U",
             "cost": "{2}{U}{U}",
             "rules_text": "Enchant creature\nWhen this Aura enters, draw a card.\nEnchanted creature gets +1/+1 and has flying, vigilance, and ward {2}.",
@@ -2364,11 +2364,11 @@
             "notes": ""
         },
         {
-            "card_name": "UU08 Empowered Unraveling",
+            "card_name": "Empowered Unraveling",
             "color": "U",
             "rarity": "uncommon",
             "type": "Instant",
-            "number": 83,
+            "number": 52,
             "color_identity": "U",
             "cost": "{U}",
             "rules_text": "Counter target spell unless its controller pays {1} for each Moonstone counter you have.",
@@ -2382,11 +2382,11 @@
             "notes": ""
         },
         {
-            "card_name": "UU09 Runic Restraints",
+            "card_name": "Runic Restraints",
             "color": "U",
             "rarity": "uncommon",
             "type": "Instant",
-            "number": 84,
+            "number": 66,
             "color_identity": "U",
             "cost": "{1}{U}",
             "rules_text": "Wisdom 4 [i](As an additional cost to cast this, you may exile four cards from your graveyard. If you do, copy it, and you may choose new targets for the copy.)[/i]\nTap target nonland permanent and put two stun counters on it.\nDraw a card.",
@@ -2400,11 +2400,11 @@
             "notes": ""
         },
         {
-            "card_name": "UU10 Summon the Soulchasers",
+            "card_name": "Summon the Soulchasers",
             "color": "U",
             "rarity": "uncommon",
             "type": "Sorcery",
-            "number": 85,
+            "number": 71,
             "color_identity": "U",
             "cost": "{2}{U}",
             "rules_text": "Wisdom 2 [i](As an additional cost to cast this, you may exile two cards from your graveyard. If you do, copy it, and you may choose new targets for the copy.)[/i]\nCreate two 1/1 blue Bird Spirit creature tokens with flying.",
@@ -2418,11 +2418,11 @@
             "notes": ""
         },
         {
-            "card_name": "UU11 Relevant Texts",
+            "card_name": "Relevant Texts",
             "color": "U",
             "rarity": "uncommon",
             "type": "Instant",
-            "number": 86,
+            "number": 64,
             "color_identity": "U",
             "cost": "{2}{U}",
             "rules_text": "Draw two cards.\nYou get a Moonstone counter.",
@@ -2436,11 +2436,11 @@
             "notes": ""
         },
         {
-            "card_name": "UB01 Darkside Wish-granter",
+            "card_name": "Darkside Wish-granter",
             "color": "B",
             "rarity": "uncommon",
             "type": "Creature \u2014 Cat Warlock Rogue",
-            "number": 116,
+            "number": 93,
             "color_identity": "B",
             "cost": "{2}{B}{B}",
             "rules_text": "When this enters, you get a Moonstone counter, then draw a card.\n{1}{B}, {T}, Discard a card: Search target opponent's library for a card and reveal it. That player loses life equal to that card's mana value, puts it into their hand, then shuffles. Activate only as a sorcery.",
@@ -2454,7 +2454,7 @@
             "notes": ""
         },
         {
-            "card_name": "UB02 Shadowspiller",
+            "card_name": "Shadowspiller",
             "color": "B",
             "rarity": "uncommon",
             "type": "Creature \u2014 Rat Assassin",
@@ -2472,11 +2472,11 @@
             "notes": ""
         },
         {
-            "card_name": "UB03 Piraji Ambusher",
+            "card_name": "Piraji Ambusher",
             "color": "B",
             "rarity": "uncommon",
             "type": "Creature \u2014 Merfolk Warrior",
-            "number": 118,
+            "number": 111,
             "color_identity": "UB",
             "cost": "{B}",
             "rules_text": "Whenever this creature attacks, each player loses 1 life.\n{U}: This creature can't be blocked until end of turn. This ability costs {X} more to activate, where X is this creature's power minus one. Activate only as a sorcery.",
@@ -2490,11 +2490,11 @@
             "notes": ""
         },
         {
-            "card_name": "UB04 Evercursed",
+            "card_name": "Evercursed",
             "color": "B",
             "rarity": "uncommon",
             "type": "Creature \u2014 Bird Zombie",
-            "number": 119,
+            "number": 98,
             "color_identity": "B",
             "cost": "{1}{B}",
             "rules_text": "Deathtouch\nAt the beginning of your end step, if this card is in your graveyard, you may pay {1}. If you do, return it to your hand.",
@@ -2508,11 +2508,11 @@
             "notes": "eventually find better art of a zombie anthro animal (can change to a different species, as long as it's not a rat)"
         },
         {
-            "card_name": "UB05 Hermit of Erud Swamp",
+            "card_name": "Hermit of Erud Swamp",
             "color": "B",
             "rarity": "uncommon",
             "type": "Creature \u2014 Bird Warlock",
-            "number": 120,
+            "number": 99,
             "color_identity": "B",
             "cost": "{1}{B}{B}",
             "rules_text": "Your maximum hand size is six.\nAt the beginning of your end step, draw a card.\nWhen this creature dies, if it didn't enter this turn, you lose 2 life.",
@@ -2526,11 +2526,11 @@
             "notes": ""
         },
         {
-            "card_name": "UB06 Iron Empire Elite",
+            "card_name": "Iron Empire Elite",
             "color": "B",
             "rarity": "uncommon",
             "type": "Creature \u2014 Rat Knight",
-            "number": 121,
+            "number": 103,
             "color_identity": "B",
             "cost": "{2}{B}{B}",
             "rules_text": "This creature has haste and lifelink as long as you control another Rat.\nRemove two Moonstone counters from yourself: This creature gets +1/+1 until end of turn. Activate only as a sorcery.",
@@ -2544,11 +2544,11 @@
             "notes": ""
         },
         {
-            "card_name": "UB07 Eater of the Forgotten",
+            "card_name": "Eater of the Forgotten",
             "color": "B",
             "rarity": "uncommon",
             "type": "Creature \u2014 Goat Nightmare",
-            "number": 122,
+            "number": 96,
             "color_identity": "B",
             "cost": "{1}{B}{B}",
             "rules_text": "Ward {2}\nTrample\nWhenever you discard one or more cards, put a +1/+1 counter on this creature.",
@@ -2562,7 +2562,7 @@
             "notes": ""
         },
         {
-            "card_name": "UB08 Withering Grief",
+            "card_name": "Withering Grief",
             "color": "B",
             "rarity": "uncommon",
             "type": "Sorcery",
@@ -2580,11 +2580,11 @@
             "notes": ""
         },
         {
-            "card_name": "UB09 Necromancer's Whim",
+            "card_name": "Necromancer's Whim",
             "color": "B",
             "rarity": "uncommon",
             "type": "Sorcery",
-            "number": 124,
+            "number": 108,
             "color_identity": "B",
             "cost": "{B}",
             "rules_text": "Kicker {3}{B} [i](You may pay an additional {3}{B} as you cast this spell.)[/i]\nReturn target creature card from your graveyard to your hand. If this spell was kicked, return that creature card to the battlefield tapped instead.",
@@ -2598,11 +2598,11 @@
             "notes": ""
         },
         {
-            "card_name": "UB10 Alleyway Ambush",
+            "card_name": "Alleyway Ambush",
             "color": "B",
             "rarity": "uncommon",
             "type": "Instant",
-            "number": 125,
+            "number": 84,
             "color_identity": "B",
             "cost": "{1}{B}",
             "rules_text": "Exile target tapped creature. If you don't control a creature with equal or greater power than it, you lose 2 life.",
@@ -2616,11 +2616,11 @@
             "notes": "March 2nd, 2026: Changed from destroy to exile, to better compensate for tapped restriction."
         },
         {
-            "card_name": "UB11 Commune with Shadows",
+            "card_name": "Commune with Shadows",
             "color": "B",
             "rarity": "uncommon",
             "type": "Sorcery",
-            "number": 126,
+            "number": 90,
             "color_identity": "B",
             "cost": "{1}{B}",
             "rules_text": "As an additional cost to cast this spell, discard a card.\nLook at the top four cards of your library. Put two of them into your hand and the rest into your graveyard.",
@@ -2634,11 +2634,11 @@
             "notes": ""
         },
         {
-            "card_name": "UR01 Priest of Primordial Fire",
+            "card_name": "Priest of Primordial Fire",
             "color": "R",
             "rarity": "uncommon",
             "type": "Creature \u2014 Wolf Warlock Druid",
-            "number": 156,
+            "number": 153,
             "color_identity": "R",
             "cost": "{1}{R}",
             "rules_text": "Whenever this creature becomes the target of a spell or ability, it deals 1 damage to that spell or ability's controller.\n{T}: Add {R}. This mana can only be spent to cast red spells or activate abilities of red permanents.",
@@ -2652,11 +2652,11 @@
             "notes": ""
         },
         {
-            "card_name": "UR02 Jack of All Spells",
+            "card_name": "Jack of All Spells",
             "color": "R",
             "rarity": "uncommon",
             "type": "Creature \u2014 Dragon Warlock",
-            "number": 157,
+            "number": 144,
             "color_identity": "R",
             "cost": "{2}{R}{R}",
             "rules_text": "Flying\nWhen this creature deals combat damage to an opponent, you may discard a card. When you do, exile the top two cards of that player's library. Until end of turn, you may play cards exiled this way.",
@@ -2670,11 +2670,11 @@
             "notes": ""
         },
         {
-            "card_name": "UR03 Navu, Eager Pyromancer",
+            "card_name": "Navu, Eager Pyromancer",
             "color": "R",
             "rarity": "uncommon",
             "type": "Legendary Creature \u2014 Fox Wizard",
-            "number": 158,
+            "number": 150,
             "color_identity": "R",
             "cost": "{1}{R}{R}",
             "rules_text": "Menace\n{R}, {T}, Exile two cards from your graveyard: This creature deals 2 damage to any target.",
@@ -2688,11 +2688,11 @@
             "notes": ""
         },
         {
-            "card_name": "UR04 Dashing Vigilante",
+            "card_name": "Dashing Vigilante",
             "color": "R",
             "rarity": "uncommon",
             "type": "Creature \u2014 Wolf Warrior",
-            "number": 159,
+            "number": 131,
             "color_identity": "R",
             "cost": "{1}{R}",
             "rules_text": "This creature has haste as long as you control another militant. [i](Armies, Heroes, Knights, Soldiers and Warriors are militants.)[/i]\nDuring your turn, this creature has first strike.",
@@ -2706,11 +2706,11 @@
             "notes": ""
         },
         {
-            "card_name": "UR05 Flux Initiate",
+            "card_name": "Flux Initiate",
             "color": "R",
             "rarity": "uncommon",
             "type": "Creature \u2014 Beast Warrior Wizard",
-            "number": 160,
+            "number": 138,
             "color_identity": "R",
             "cost": "{4}{R}{R}",
             "rules_text": "Haste\nWhen this creature enters, return target instant or sorcery card from your graveyard.\nWhenever this creature attacks, instant and/or sorcery spells you cast cost {1} less to cast until end of turn.",
@@ -2724,7 +2724,7 @@
             "notes": ""
         },
         {
-            "card_name": "UR06 Streetwise Adventurer",
+            "card_name": "Streetwise Adventurer",
             "color": "R",
             "rarity": "uncommon",
             "type": "Creature \u2014 Beast Mercenary",
@@ -2742,11 +2742,11 @@
             "notes": ""
         },
         {
-            "card_name": "UR07 Dance of Fire",
+            "card_name": "Dance of Fire",
             "color": "R",
             "rarity": "uncommon",
             "type": "Sorcery",
-            "number": 162,
+            "number": 130,
             "color_identity": "R",
             "cost": "{1}{R}",
             "rules_text": "This spell deals 2 damage to each creature.",
@@ -2760,11 +2760,11 @@
             "notes": ""
         },
         {
-            "card_name": "UR08 Storm the Palace",
+            "card_name": "Storm the Palace",
             "color": "R",
             "rarity": "uncommon",
             "type": "Sorcery",
-            "number": 163,
+            "number": 159,
             "color_identity": "R",
             "cost": "{1}{R}{R}",
             "rules_text": "Creatures you control get +1/+0 and gain menace and trample until end of turn.",
@@ -2778,11 +2778,11 @@
             "notes": ""
         },
         {
-            "card_name": "UR09 Shattershot",
+            "card_name": "Shattershot",
             "color": "R",
             "rarity": "uncommon",
             "type": "Sorcery",
-            "number": 164,
+            "number": 155,
             "color_identity": "R",
             "cost": "{1}{R}{R}",
             "rules_text": "Choose one \u2014\n\u2022 Exile target nonbasic land.\n\u2022 Exile target artifact.",
@@ -2796,11 +2796,11 @@
             "notes": ""
         },
         {
-            "card_name": "UR10 Psychic Enslavement",
+            "card_name": "Psychic Enslavement",
             "color": "R",
             "rarity": "uncommon",
             "type": "Sorcery",
-            "number": 165,
+            "number": 154,
             "color_identity": "R",
             "cost": "{2}{R}",
             "rules_text": "Untap target creature and gain control of it until end of turn. Until end of turn, it gains haste and \u201cWhenever this creature deals combat damage to an opponent, you may pay {1} or discard a card. If you do, draw a card.\u201d",
@@ -2814,11 +2814,11 @@
             "notes": ""
         },
         {
-            "card_name": "UR11 Phoenix Mantle",
+            "card_name": "Phoenix Mantle",
             "color": "R",
             "rarity": "uncommon",
             "type": "Enchantment \u2014 Aura",
-            "number": 166,
+            "number": 151,
             "color_identity": "BR",
             "cost": "{1}{R}{R}",
             "rules_text": "Enchant creature\nEnchanted creature has flying and \u201c{R}: This creature gets +1/+0 until end of turn.\u201d\n{3}{B}{R}: If this card is in your graveyard, return target creature card with mana value 3 or less from your graveyard to the battlefield, then return this Aura to the battlefield attached to that creature. Activate only as a sorcery.",
@@ -2832,7 +2832,7 @@
             "notes": "not entirely happy with art"
         },
         {
-            "card_name": "UG01 Summer Coast Druid",
+            "card_name": "Summer Coast Druid",
             "color": "G",
             "rarity": "uncommon",
             "type": "Creature \u2014 Cat Druid",
@@ -2850,11 +2850,11 @@
             "notes": ""
         },
         {
-            "card_name": "UG02 Bellowdepths Channeler",
+            "card_name": "Bellowdepths Channeler",
             "color": "G",
             "rarity": "uncommon",
             "type": "Creature \u2014 Crocodile Warlock Warrior",
-            "number": 197,
+            "number": 165,
             "color_identity": "G",
             "cost": "{3}{G}",
             "rules_text": "Remove a Moonstone counter from yourself or exile two cards from your graveyard: This creature gains hexproof until end of turn.\nWhenever one or more creatures you control deal combat damage to an opponent, put a +1/+1 counter on this creature.",
@@ -2868,11 +2868,11 @@
             "notes": ""
         },
         {
-            "card_name": "UG03 Matriarch of Ancient Ways",
+            "card_name": "Matriarch of Ancient Ways",
             "color": "G",
             "rarity": "uncommon",
             "type": "Creature \u2014 Lizard Druid Warlock",
-            "number": 198,
+            "number": 184,
             "color_identity": "G",
             "cost": "{1}{G}{G}",
             "rules_text": "The first time each turn an opponent casts a noncreature spell with a single target, you draw a card.\n{1}{G}, {T}: Proliferate. [i](Choose any number of permanents and/or players, then give each another counter of each kind already there.)[/i]",
@@ -2886,11 +2886,11 @@
             "notes": ""
         },
         {
-            "card_name": "UG04 Lafahd Sandsprinter",
+            "card_name": "Lafahd Sandsprinter",
             "color": "G",
             "rarity": "uncommon",
             "type": "Creature \u2014 Fox Scout",
-            "number": 199,
+            "number": 181,
             "color_identity": "RG",
             "cost": "{1}{G}",
             "rules_text": "This creature can't be blocked except by creatures with flying or reach.\n{4}{R}{G}: Choose one \u2014\n\u2022 Put X +1/+1 counters on target creature.\n\u2022 This creature deals X damage to any target.\nX is the number of lands you control. Activate only if this creature dealt combat damage to an opponent this turn.",
@@ -2904,11 +2904,11 @@
             "notes": ""
         },
         {
-            "card_name": "UG05 Grand Council of the Iron Empire",
+            "card_name": "Grand Council of the Iron Empire",
             "color": "G",
             "rarity": "uncommon",
             "type": "Legendary Creature \u2014 Rat Advisor",
-            "number": 200,
+            "number": 175,
             "color_identity": "G",
             "cost": "{X}{G}",
             "rules_text": "This creature enters with X +1/+1 counters on it.\nWhen this creature dies, you may exile it. When you do, search your library for a black, green, white, Rat or Mouse card with mana value equal to this creature's power, reveal it and put it into your hand, then shuffle.",
@@ -2922,11 +2922,11 @@
             "notes": ""
         },
         {
-            "card_name": "UG06 Escaped Anuroid",
+            "card_name": "Escaped Anuroid",
             "color": "G",
             "rarity": "uncommon",
             "type": "Creature \u2014 Frog Mutant",
-            "number": 201,
+            "number": 170,
             "color_identity": "G",
             "cost": "{4}{G}{G}",
             "rules_text": "As an additional cost to cast this spell, remove a Moonstone counter from yourself or sacrifice a land.\nReach, trample, vigilance, ward {1}",
@@ -2940,11 +2940,11 @@
             "notes": ""
         },
         {
-            "card_name": "UG07 Solidarity",
+            "card_name": "Solidarity",
             "color": "G",
             "rarity": "uncommon",
             "type": "Enchantment",
-            "number": 202,
+            "number": 195,
             "color_identity": "G",
             "cost": "{4}{G}",
             "rules_text": "Whenever a creature you control enters, put a +1/+1 counter on each creature you control. This triggers only once each turn.",
@@ -2958,11 +2958,11 @@
             "notes": ""
         },
         {
-            "card_name": "UG08 Building the Frontier",
+            "card_name": "Building the Frontier",
             "color": "G",
             "rarity": "uncommon",
             "type": "Enchantment",
-            "number": 203,
+            "number": 167,
             "color_identity": "G",
             "cost": "{2}{G}",
             "rules_text": "[i]Landfall[/i] \u2014 Whenever a land you control enters, you gain 1 life. If this is the first time this ability has resolved this turn, put a +1/+1 counter on target creature you control. If that creature is militant, put two +1/+1 counters on it instead. [i](Armies, Heroes, Knights, Soldiers and Warriors are militants.)[/i]",
@@ -2976,11 +2976,11 @@
             "notes": ""
         },
         {
-            "card_name": "UG09 Visions of Other Worlds",
+            "card_name": "Visions of Other Worlds",
             "color": "G",
             "rarity": "uncommon",
             "type": "Sorcery",
-            "number": 204,
+            "number": 203,
             "color_identity": "G",
             "cost": "{1}{G}{G}",
             "rules_text": "Mill five cards, then you may return a card milled this way to your hand.",
@@ -2994,11 +2994,11 @@
             "notes": ""
         },
         {
-            "card_name": "UG10 Jade Ritual",
+            "card_name": "Jade Ritual",
             "color": "G",
             "rarity": "uncommon",
             "type": "Sorcery",
-            "number": 205,
+            "number": 179,
             "color_identity": "G",
             "cost": "{2}{G}{G}",
             "rules_text": "Create a 2/2 green Rhino Druid creature token with vigilance.\nChoose one \u2014\n\u2022 You get a Moonstone counter, then put a +1/+1 counter on a creature you control.\n\u2022 Add two mana of any one color.",
@@ -3012,11 +3012,11 @@
             "notes": ""
         },
         {
-            "card_name": "UG11 Under the Iron Capitol",
+            "card_name": "Under the Iron Capitol",
             "color": "G",
             "rarity": "uncommon",
             "type": "Sorcery",
-            "number": 206,
+            "number": 201,
             "color_identity": "BG",
             "cost": "{2}{G}",
             "rules_text": "Kicker\u2014{B}\nCreate a 1/1 black Rat Rogue creature token with menace and a 1/1 white Rat Citizen creature token. Then if this spell was kicked, you lose 2 life and put a +1/+1 counter on each Rat you control.",
@@ -3030,11 +3030,11 @@
             "notes": ""
         },
         {
-            "card_name": "RW01 Pauri Esken, Mounted Justice",
+            "card_name": "Pauri Esken, Mounted Justice",
             "color": "W",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 Cat Hero",
-            "number": 28,
+            "number": 24,
             "color_identity": "W",
             "cost": "{2}{W}{W}",
             "rules_text": "Flash\nLifelink",
@@ -3048,11 +3048,11 @@
             "notes": ""
         },
         {
-            "card_name": "RW02 Rouser Elder",
+            "card_name": "Rouser Elder",
             "color": "W",
             "rarity": "rare",
             "type": "Creature \u2014 Rat Noble",
-            "number": 29,
+            "number": 31,
             "color_identity": "W",
             "cost": "{2}{W}",
             "rules_text": "Militant creatures you control get +1/+0. [i](Armies, Heroes, Knights, Soldiers and Warriors are militants.)[/i]\nWhenever this creature attacks, up to two target Rats become a Hero in addition to their other creature types. [i](This effect lasts indefinitely.)[/i]\nAt the beginning of your end step, create a 1/1 white Rat Citizen creature token.",
@@ -3063,14 +3063,14 @@
             "set": "MST",
             "loyalty": "",
             "artist": "Joao Pedro Mascellani",
-            "notes": "name wip"
+            "notes": ""
         },
         {
-            "card_name": "RW03 Circumzenith Commander",
+            "card_name": "Circumzenith Commander",
             "color": "W",
             "rarity": "rare",
             "type": "Creature \u2014 Bird Cleric Knight",
-            "number": 30,
+            "number": 5,
             "color_identity": "W",
             "cost": "{4}{W}{W}",
             "rules_text": "Flying\nWhenever you gain life, put that many +1/+1 counters on each creature you control. This ability triggers only once each turn.",
@@ -3084,11 +3084,11 @@
             "notes": ""
         },
         {
-            "card_name": "RW04 General of the Guards",
+            "card_name": "General of the Guards",
             "color": "W",
             "rarity": "rare",
             "type": "Creature \u2014 Bear Knight Soldier",
-            "number": 31,
+            "number": 13,
             "color_identity": "W",
             "cost": "{3}{W}{W}",
             "rules_text": "Protection from non-militant creatures [i](This creature can't be blocked, targeted, or dealt damage by creatures that aren't Armies, Heroes, Knights, Soldiers or Warriors.)[/i] \nDouble strike\nOpponents can't cast spells or activate abilities during your turn.",
@@ -3102,11 +3102,11 @@
             "notes": ""
         },
         {
-            "card_name": "RW05 Iron Empire Brigade",
+            "card_name": "Iron Empire Brigade",
             "color": "W",
             "rarity": "rare",
             "type": "Creature \u2014 Rat Army",
-            "number": 32,
+            "number": 17,
             "color_identity": "W",
             "cost": "{2}{W}",
             "rules_text": "Vigilance\nWhenever another nontoken Rat you control enters, put a +1/+1 counter on this creature.\nWhenever this creature attacks, create a 1/1 white, black, and green Rat Soldier creature token.",
@@ -3120,11 +3120,11 @@
             "notes": ""
         },
         {
-            "card_name": "RW06 Vow of Justice",
+            "card_name": "Vow of Justice",
             "color": "W",
             "rarity": "rare",
             "type": "Instant",
-            "number": 33,
+            "number": 40,
             "color_identity": "W",
             "cost": "{2}{W}",
             "rules_text": "This spell can't be countered as long as you control two or more Birds.\nCreatures you control with flying get +1/+1 and gain first strike and lifelink until end of turn.",
@@ -3138,11 +3138,11 @@
             "notes": "March 1st, 2026: Changed to only be uncounterable if you have two or more Birds, and cost raised from 1W to 2W."
         },
         {
-            "card_name": "RW07 Rest in Peace",
+            "card_name": "Rest in Peace",
             "color": "W",
             "rarity": "rare",
             "type": "Enchantment",
-            "number": 34,
+            "number": 27,
             "color_identity": "W",
             "cost": "{1}{W}",
             "rules_text": "When this enchantment enters, exile all graveyards.\nIf a card or token would be put into a graveyard from anywhere, exile it instead.",
@@ -3156,11 +3156,11 @@
             "notes": ""
         },
         {
-            "card_name": "RU01 Cunning Trader",
+            "card_name": "Cunning Trader",
             "color": "U",
             "rarity": "rare",
             "type": "Creature \u2014 Lizard Artificer Advisor",
-            "number": 68,
+            "number": 48,
             "color_identity": "U",
             "cost": "{2}{U}",
             "rules_text": "{1}, {T}: Target opponent gains control of target permanent you control. You get Moonstone counters equal to that permanent's mana value.\n{U}{U}, {T}, Remove X Moonstone counters from yourself: Gain control of target nonland permanent with mana value X.",
@@ -3174,11 +3174,11 @@
             "notes": ""
         },
         {
-            "card_name": "RU02 Supercell Channeler",
+            "card_name": "Supercell Channeler",
             "color": "U",
             "rarity": "rare",
             "type": "Creature \u2014 Bird Wizard",
-            "number": 69,
+            "number": 72,
             "color_identity": "U",
             "cost": "{2}{U}",
             "rules_text": "Flash, kicker {2}\nFlying\nWhen this creature enters the battlefield, if it was kicked, copy target instant, sorcery, or ability.\nWhenever you copy a spell for the first time each turn, draw a card.",
@@ -3192,11 +3192,11 @@
             "notes": ""
         },
         {
-            "card_name": "RU03 Mistress of Misplacement",
+            "card_name": "Mistress of Misplacement",
             "color": "U",
             "rarity": "rare",
             "type": "Creature \u2014 Cat Rogue Assassin",
-            "number": 70,
+            "number": 58,
             "color_identity": "U",
             "cost": "{1}{U}",
             "rules_text": "Hexproof\nThis creature can't be blocked.\nIf this creature would deal more than 1 damage to an opponent, you may have it instead deal 1 damage to that opponent and you draw a card.",
@@ -3210,11 +3210,11 @@
             "notes": ""
         },
         {
-            "card_name": "RU04 Titanic Rudan",
+            "card_name": "Titanic Rudan",
             "color": "U",
             "rarity": "rare",
             "type": "Creature \u2014 Bird Giant Mutant",
-            "number": 71,
+            "number": 74,
             "color_identity": "U",
             "cost": "{8}{U}{U}",
             "rules_text": "This spell costs {1} less to cast for each Moonstone counter you have and each Bird you control.\nFlying, trample\nThis creature gets +1/+0 for each militant creature your opponents control. [i](Armies, Heroes, Knights, Soldiers and Warriors are militants.)[/i]",
@@ -3228,11 +3228,11 @@
             "notes": ""
         },
         {
-            "card_name": "RU05 Twilight Pickpocketing",
+            "card_name": "Twilight Pickpocketing",
             "color": "U",
             "rarity": "rare",
             "type": "Sorcery",
-            "number": 72,
+            "number": 75,
             "color_identity": "U",
             "cost": "{3}{U}{U}",
             "rules_text": "This spell costs {2} less to cast if two or more unblocked creatures you controlled dealt combat damage to an opponent this turn.\nSearch target opponent's library for a nonland card with mana value 7 or less and exile it. Until end of turn, you may cast that card from exile without paying its mana cost.",
@@ -3246,11 +3246,11 @@
             "notes": ""
         },
         {
-            "card_name": "RU06 Pass Down Secrets",
+            "card_name": "Pass Down Secrets",
             "color": "U",
             "rarity": "rare",
             "type": "Sorcery",
-            "number": 73,
+            "number": 61,
             "color_identity": "U",
             "cost": "{2}{U}{U}",
             "rules_text": "Choose one \u2014\n\u2022 Return up to three target instant, sorcery and/or artifact cards from your graveyard to your hand.\n\u2022 Return all cards with Wisdom from your graveyard to your hand.\nExile this spell.",
@@ -3264,11 +3264,11 @@
             "notes": ""
         },
         {
-            "card_name": "RU07 Dance of the New Cycle",
+            "card_name": "Dance of the New Cycle",
             "color": "U",
             "rarity": "rare",
             "type": "Sorcery",
-            "number": 74,
+            "number": 49,
             "color_identity": "U",
             "cost": "{2}{U}{U}",
             "rules_text": "Wisdom 5 [i](As an additional cost to cast this, you may exile five cards from your graveyard. If you do, copy it, and you may choose new targets for the copy.)[/i]\nCreate a token that's a copy of target creature you control. You may then tap that token. If you do, you mill cards equal to its power, then draw two cards.",
@@ -3282,11 +3282,11 @@
             "notes": ""
         },
         {
-            "card_name": "RB01 Speaker of Ancient Gods",
+            "card_name": "Speaker of Ancient Gods",
             "color": "B",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 Rat Cleric",
-            "number": 109,
+            "number": 120,
             "color_identity": "B",
             "cost": "{1}{B}",
             "rules_text": "At the beginning of your end step, draw a card, then if you don't control another Rat, you lose 2 life.",
@@ -3300,11 +3300,11 @@
             "notes": ""
         },
         {
-            "card_name": "RB02 Honortail Paragon",
+            "card_name": "Honortail Paragon",
             "color": "B",
             "rarity": "rare",
             "type": "Creature \u2014 Rat Warrior Monk",
-            "number": 110,
+            "number": 101,
             "color_identity": "B",
             "cost": "{B}",
             "rules_text": "Menace\nWhenever this creature attacks, Rats you control get +1/+0 until end of turn.",
@@ -3318,11 +3318,11 @@
             "notes": ""
         },
         {
-            "card_name": "RB03 Neshezoi, Mad Harbinger",
+            "card_name": "Neshezoi, Mad Harbinger",
             "color": "B",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 Wolf Warlock",
-            "number": 111,
+            "number": 109,
             "color_identity": "B",
             "cost": "{2}{B}{B}",
             "rules_text": "Ward\u2014Pay 3 life\nFlying\nWhenever a player discards one or more cards, put a +1/+1 counter on this creature.\nWhenever Neshezoi attacks, if any player has no cards in hand, you may put target creature card from a graveyard onto the battlefield.",
@@ -3336,11 +3336,11 @@
             "notes": ""
         },
         {
-            "card_name": "RB04 Memorivore Witch",
+            "card_name": "Memorivore Witch",
             "color": "B",
             "rarity": "rare",
             "type": "Creature \u2014 Bat Warlock",
-            "number": 112,
+            "number": 105,
             "color_identity": "B",
             "cost": "{2}{B}",
             "rules_text": "Flying\nAs long as a creature died this turn, black spells you cast have Wisdom X, where X is their mana value. [i](As an additional cost to cast a black spell, you may exile X cards from your graveyard. If you do, copy that spell, and you may choose new targets for the copy.)[/i]",
@@ -3354,14 +3354,14 @@
             "notes": ""
         },
         {
-            "card_name": "RB05 Brawl at the Docks",
+            "card_name": "Brawl at the Docks",
             "color": "B",
             "rarity": "rare",
             "type": "Sorcery",
-            "number": 113,
+            "number": 88,
             "color_identity": "B",
             "cost": "{3}{B}{B}",
-            "rules_text": "This spell can't be countered as long as you control two or more Rats.\nCreate three 1/1 black Rat Rogue creature tokens, then target opponent loses X life, where X is the number of Rats you control.",
+            "rules_text": "This spell can't be countered as long as you control two or more Rats.\nCreate three 1/1 black Rat Rogue creature tokens with Menace, then target opponent loses X life, where X is the number of Rats you control.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -3372,11 +3372,11 @@
             "notes": "March 1st, 2026: Changed to be uncounterable based on simple Rat count."
         },
         {
-            "card_name": "RB06 Power from Pain",
+            "card_name": "Power from Pain",
             "color": "B",
             "rarity": "rare",
             "type": "Sorcery",
-            "number": 114,
+            "number": 113,
             "color_identity": "B",
             "cost": "{B}",
             "rules_text": "Until end of turn, whenever a creature you control deals combat damage to a battle, opponent or planeswalker, you may lose 1 life and draw a card.",
@@ -3390,11 +3390,11 @@
             "notes": "March 1st, 2026: Since Icon of Dead Futures now emphasized the unblocked part more, PFP here has been changed to be optional, so as not to conflict with the goal of attacking with as many unblocked creatures as possible. Plus it gives a little more flexibility to a card that doesn't really do anything without having creatures already."
         },
         {
-            "card_name": "RB07 Return to Instinct",
+            "card_name": "Return to Instinct",
             "color": "B",
             "rarity": "rare",
             "type": "Enchantment",
-            "number": 115,
+            "number": 116,
             "color_identity": "B",
             "cost": "{2}{B}{B}",
             "rules_text": "If a player discarding a card causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time.",
@@ -3408,11 +3408,11 @@
             "notes": ""
         },
         {
-            "card_name": "RR01 Longsight Siege Brother",
+            "card_name": "Longsight Siege Brother",
             "color": "R",
             "rarity": "rare",
             "type": "Creature \u2014 Rhino Warrior",
-            "number": 149,
+            "number": 146,
             "color_identity": "R",
             "cost": "{2}{R}{R}",
             "rules_text": "Haste, trample\nWhen this creature enters, for each player, destroy target nonbasic land that player controls.\nWhenever you pay a Wisdom cost, you may exile this creature, then return it to the battlefield under its owner's control.",
@@ -3426,11 +3426,11 @@
             "notes": ""
         },
         {
-            "card_name": "RR02 Icespine Range Magstier",
+            "card_name": "Icespine Range Magstier",
             "color": "R",
             "rarity": "rare",
             "type": "Creature \u2014 Ox Warlock Warrior",
-            "number": 150,
+            "number": 142,
             "color_identity": "R",
             "cost": "{2}{R}",
             "rules_text": "Haste\nWhenever this creature attacks, discard a card. If the discarded card is an instant or sorcery, draw a card. If it isn't, put a +1/+1 counter on this creature.",
@@ -3444,11 +3444,11 @@
             "notes": ""
         },
         {
-            "card_name": "RR03 Visionary Metalsmith",
+            "card_name": "Visionary Metalsmith",
             "color": "R",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 Raccoon Artificer",
-            "number": 151,
+            "number": 163,
             "color_identity": "R",
             "cost": "{1}{R}",
             "rules_text": "Remove a Moonstone counter from yourself: Add two mana of any one color. Use this mana only to cast artifact spells or activate artifact abilities. Activate only once each turn.\nArtifact creatures and equipped creatures you control have haste.",
@@ -3462,11 +3462,11 @@
             "notes": ""
         },
         {
-            "card_name": "RR04 Carnivorous Blossom",
+            "card_name": "Carnivorous Blossom",
             "color": "R",
             "rarity": "rare",
             "type": "Creature \u2014 Plant Mutant",
-            "number": 152,
+            "number": 129,
             "color_identity": "R",
             "cost": "{5}{R}{R}",
             "rules_text": "This spell can't be countered as long as a land entered under your control this turn.\nHaste, reach, trample\nThis creature's power and toughness are each equal to the number of lands you control.",
@@ -3480,11 +3480,11 @@
             "notes": "March 1st, 2026: Uncounterability threshold changed to only having had a land enter under your control this turn, to make it easier to reach."
         },
         {
-            "card_name": "RR05 Boltwhirl",
+            "card_name": "Boltwhirl",
             "color": "R",
             "rarity": "rare",
             "type": "Sorcery",
-            "number": 153,
+            "number": 128,
             "color_identity": "R",
             "cost": "{3}{R}{R}",
             "rules_text": "Choose target creature. Until end of turn, if that creature would be dealt excess damage by sources you control, that damage is dealt to each opponent instead.\nThis spell deals 4 damage to each battle, creature and planeswalker.",
@@ -3498,11 +3498,11 @@
             "notes": ""
         },
         {
-            "card_name": "RR06 Blazing Technique",
+            "card_name": "Blazing Technique",
             "color": "R",
             "rarity": "rare",
             "type": "Enchantment \u2014 Aura",
-            "number": 154,
+            "number": 127,
             "color_identity": "R",
             "cost": "{1}{R}{R}",
             "rules_text": "Wisdom 2 [i](As an additional cost to cast this, you may exile two cards from your graveyard. If you do, copy it, and you may choose new targets for the copy.)[/i]\nEnchant creature you control\nEnchanted creature gets +2/+1 and has haste, first strike, and menace.",
@@ -3516,11 +3516,11 @@
             "notes": ""
         },
         {
-            "card_name": "RR07 In the Presence of Greatness",
+            "card_name": "In the Presence of Greatness",
             "color": "R",
             "rarity": "rare",
             "type": "Enchantment",
-            "number": 155,
+            "number": 143,
             "color_identity": "R",
             "cost": "{1}{R}{R}",
             "rules_text": "As long as you control a legendary creature or a creature with power 5 or greater, this enchantment has ward\u2014pay 3 life.\nAttacking creatures you control get +1/+0 and have menace.\nYour opponents can't gain life.",
@@ -3534,11 +3534,11 @@
             "notes": ""
         },
         {
-            "card_name": "RG01 Gruszalb, Chief Mountain",
+            "card_name": "Gruszalb, Chief Mountain",
             "color": "G",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 Bear Knight",
-            "number": 189,
+            "number": 177,
             "color_identity": "G",
             "cost": "{3}{G}{G}",
             "rules_text": "This spell can't be countered as long as you've attacked with two or more creatures this turn.\nTrample\nWhenever Gruszalb deals excess combat damage to an opponent, you gain that many Moonstone counters.\nWhenever you scry, each other creature you control gets +1/+1 until end of turn.",
@@ -3552,11 +3552,11 @@
             "notes": "March 1st, 2026: Changed to be part of the conditional uncounterable rare cycle. Last ability changed to buff your other creatures by 1 whenever you scry (such as using your Moonstones)."
         },
         {
-            "card_name": "RG02 Exiled Worldspeaker",
+            "card_name": "Exiled Worldspeaker",
             "color": "G",
             "rarity": "rare",
             "type": "Creature \u2014 Deer Druid Warlock",
-            "number": 190,
+            "number": 171,
             "color_identity": "G",
             "cost": "{3}{G}",
             "rules_text": "At the beginning of your end step, mill two cards, then return a land card from your graveyard to the battlefield tapped.\n[i]Landfall[/i] \u2014 Whenever a land you control enters, put a +1/+1 counter on target nonartifact permanent you control.",
@@ -3570,11 +3570,11 @@
             "notes": ""
         },
         {
-            "card_name": "RG03 Yewdodelg, Ancient and Wise",
+            "card_name": "Yewdodelg, Ancient and Wise",
             "color": "G",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 Beast Shaman",
-            "number": 191,
+            "number": 205,
             "color_identity": "G",
             "cost": "{G}",
             "rules_text": "{3}, {T}, Sacrifice Yewdodelg: If you have more than double your starting life total, you win the game. Activate only as a sorcery.\n{3}, {T}: You gain 1 life for each creature you control",
@@ -3588,11 +3588,11 @@
             "notes": ""
         },
         {
-            "card_name": "RG04 Seeker of Strength",
+            "card_name": "Seeker of Strength",
             "color": "G",
             "rarity": "rare",
             "type": "Creature \u2014 Cat Noble Warlock",
-            "number": 192,
+            "number": 191,
             "color_identity": "G",
             "cost": "{1}{G}{G}",
             "rules_text": "Trample\nWhenever you get one or more Moonstone counters, or remove one or more Moonstone counters from yourself, put a +1/+1 counter on target creature you control.",
@@ -3606,11 +3606,11 @@
             "notes": ""
         },
         {
-            "card_name": "RG05 Dedicated Mining Crew",
+            "card_name": "Dedicated Mining Crew",
             "color": "G",
             "rarity": "rare",
             "type": "Creature \u2014 Rat Peasant Citizen",
-            "number": 193,
+            "number": 169,
             "color_identity": "G",
             "cost": "{2}{G}{G}",
             "rules_text": "Ward {1}\nWhenever this creature enters or attacks, choose one \u2014\n\u2022 Create a tapped Treasure token.\n\u2022 You get a Moonstone counter.\n\u2022 Create a 1/1 white Rat Citizen creature token.",
@@ -3624,11 +3624,11 @@
             "notes": ""
         },
         {
-            "card_name": "RG06 Debate the Fauna",
+            "card_name": "Debate the Fauna",
             "color": "G",
             "rarity": "rare",
             "type": "Sorcery",
-            "number": 194,
+            "number": 168,
             "color_identity": "G",
             "cost": "{1}{G}",
             "rules_text": "Look at the top X cards of your library, where X is the number of creatures you control. Reveal two of those cards. An opponent chooses one of them. Put it into your hand. Then put any number of the other cards you looked at into your graveyard and the rest on the bottom of your library in a random order.",
@@ -3642,14 +3642,14 @@
             "notes": ""
         },
         {
-            "card_name": "RG07 Summoning Ancestors",
+            "card_name": "Summoning Ancestors",
             "color": "G",
             "rarity": "rare",
             "type": "Enchantment",
-            "number": 195,
+            "number": 197,
             "color_identity": "G",
             "cost": "{1}{G}{G}",
-            "rules_text": "Whenever a land leaves your graveyard or is put into your graveyard from anywhere, put a charge counter on this enchantment.\nSacrifice this enchantment: Create a 3/1 green Dog Beast Spirit creature token with vigilance for every charge counter on this enchantment.",
+            "rules_text": "Whenever a land leaves your graveyard or is put into your graveyard from anywhere, put a charge counter on this enchantment.\nSacrifice this enchantment: Create a 3/1 green Dog Spirit creature token with vigilance for every charge counter on this enchantment.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -3660,11 +3660,11 @@
             "notes": ""
         },
         {
-            "card_name": "MW01 Mouratl, the Eternal",
+            "card_name": "Mouratl, the Eternal",
             "color": "W",
             "rarity": "mythic",
             "type": "Legendary Creature \u2014 Dragon Demigod",
-            "number": 26,
+            "number": 22,
             "color_identity": "W",
             "cost": "{3}{W}{W}",
             "rules_text": "Flying, vigilance\nWhen Mouratl enters, if you have five or more Moonstone counters, double your life total. When you don't, you gain 4 life and get three Moonstone counters.",
@@ -3678,15 +3678,15 @@
             "notes": "March 1st, 2026: Removed can't be countered ability, and life gain amount on failstate raised to 4."
         },
         {
-            "card_name": "MW02 Feast with the King",
+            "card_name": "Feast with the King",
             "color": "W",
             "rarity": "mythic",
             "type": "Instant",
-            "number": 27,
+            "number": 11,
             "color_identity": "W",
             "cost": "{1}{W}",
             "rules_text": "Create a Food token.\nUntil end of turn, whenever you gain life, creatures you control get +X/+X until end of turn, where X is the life gained this way.",
-            "flavor_text": "[i]\u201cA toast! To the peace and good health of Hagzaga!\u201d[/i]",
+            "flavor_text": "[i]Kagiz, Scoraya's brother and the closest thing Hagzaga currently had to a king, liked to propose toasts every chance he got.[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
@@ -3696,15 +3696,15 @@
             "notes": ""
         },
         {
-            "card_name": "MU02 Cosmic Secrets",
+            "card_name": "Cosmic Secrets",
             "color": "U",
             "rarity": "mythic",
             "type": "Sorcery",
-            "number": 67,
+            "number": 47,
             "color_identity": "U",
             "cost": "{2}{U}",
             "rules_text": "Draw two cards. If you have four or more Moonstone counters, instead scry 2, then draw 3 cards.",
-            "flavor_text": "[i]flavor text wip[/i]",
+            "flavor_text": "[i]\u201cIt seems that no matter the size, Moonstones react much more readily with magical fire than with mundane fire.\u201d[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
@@ -3714,11 +3714,11 @@
             "notes": ""
         },
         {
-            "card_name": "MU01 Y'ssna, Cephaloid Oracle",
+            "card_name": "Y'ssna, Cephaloid Oracle",
             "color": "U",
             "rarity": "mythic",
             "type": "Legendary Creature \u2014 Octopus Demigod",
-            "number": 66,
+            "number": 82,
             "color_identity": "U",
             "cost": "{4}{U}{U}",
             "rules_text": "Ward {3}\nWhen Y'ssna enters, if you have fifteen or more counters, you win the game. When you don't, draw a card and double the number of each kind of counter you have.\nAt the beginning of each combat, tap target creature you don't control.",
@@ -3732,11 +3732,11 @@
             "notes": "March 1st, 2026: Art, p/t, and third ability significantly changed.\n\nMarch 2nd, 2026: Art changed again."
         },
         {
-            "card_name": "MB01 Raios, the Founder",
+            "card_name": "Raios, the Founder",
             "color": "B",
             "rarity": "mythic",
             "type": "Legendary Creature \u2014 Rat Zombie Demigod",
-            "number": 107,
+            "number": 114,
             "color_identity": "B",
             "cost": "{2}{B}{B}{B}",
             "rules_text": "Lifelink, ward\u2014Pay 3 life\nWhen Raios enters, you may pay X life. When you do, you get X Moonstone counters.\nPay X life or remove X Moonstone counters from yourself: Return target Rat card with mana value X from your graveyard to the battlefield. Activate only once each turn, and only as a sorcery.",
@@ -3750,11 +3750,11 @@
             "notes": ""
         },
         {
-            "card_name": "MB02 Honoring Their Sacrifice",
+            "card_name": "Honoring Their Sacrifice",
             "color": "B",
             "rarity": "mythic",
             "type": "Enchantment",
-            "number": 108,
+            "number": 100,
             "color_identity": "B",
             "cost": "{1}{B}{B}",
             "rules_text": "Whenever you sacrifice a creature, creatures you control get +1/+0 until end of turn.\nSacrifice a creature: Gain 2 life, then scry 1. Activate only once each turn, and only as a sorcery.\nAt the beginning of your end step, if no creatures died this turn, sacrifice this enchantment.",
@@ -3768,14 +3768,14 @@
             "notes": ""
         },
         {
-            "card_name": "MR01 Tawikyan, Avaricious Queen",
+            "card_name": "Tawikyan, Avaricious Queen",
             "color": "R",
             "rarity": "mythic",
             "type": "Legendary Creature \u2014 Dragon Demigod",
-            "number": 147,
+            "number": 162,
             "color_identity": "R",
             "cost": "{4}{R}{R}",
-            "rules_text": "When Tawikyan enters, if you have eight or more Moonstone counters, she deals ten damage to each opponent. Otherwise, she deals 3 damage to each opponent and you get two Moonstone counters.\nFlying, haste",
+            "rules_text": "Flying, haste\nWhen Tawikyan enters, if you have eight or more Moonstone counters, she deals ten damage to each opponent. Otherwise, she deals 3 damage to each opponent and you get two Moonstone counters.",
             "flavor_text": "[i][/i]",
             "pt": "5/5",
             "special_text": "",
@@ -3786,11 +3786,11 @@
             "notes": ""
         },
         {
-            "card_name": "MR02 M'gruk, Interplanar Plunderer",
+            "card_name": "M'gruk, Interplanar Plunderer",
             "color": "R",
             "rarity": "mythic",
             "type": "Legendary Creature \u2014 Orc Pirate",
-            "number": 148,
+            "number": 147,
             "color_identity": "R",
             "cost": "{2}{R}{R}",
             "rules_text": "Flying, haste\nWhenever M'gruk deals combat damage to an opponent, create a Treasure token.\nTap an untapped nonland artifact you control: M'gruk gets +1/+0 until end of turn.",
@@ -3804,11 +3804,11 @@
             "notes": ""
         },
         {
-            "card_name": "MG01 Boc, Emerald Hart",
+            "card_name": "Boc, Emerald Hart",
             "color": "G",
             "rarity": "mythic",
             "type": "Legendary Creature \u2014 Deer Demigod",
-            "number": 187,
+            "number": 166,
             "color_identity": "G",
             "cost": "{5}{G}{G}",
             "rules_text": "Reach, vigilance\nWhen Boc enters, if you have eight or more Moonstone counters, search your library for up to ten land cards and put them onto the battlefield, then shuffle. Otherwise, you get three Moonstone counters and put up to two land cards from your hand onto the battlefield tapped.",
@@ -3822,11 +3822,11 @@
             "notes": ""
         },
         {
-            "card_name": "MG02 Klawia's Ascent",
+            "card_name": "Klawia's Ascent",
             "color": "G",
             "rarity": "mythic",
             "type": "Instant",
-            "number": 188,
+            "number": 180,
             "color_identity": "WRG",
             "cost": "{1}{G}",
             "rules_text": "Kicker {W} and/or {R}\nSearch your library for a land card, reveal it and put it into your hand, then shuffle. If this spell was kicked with its {W} kicker, you gain 4 life. If this spell was kicked with its {R} kicker, it deals 3 damage to any target.",
@@ -3840,11 +3840,11 @@
             "notes": ""
         },
         {
-            "card_name": "RM01 Steadfast Retriever",
+            "card_name": "Steadfast Retriever",
             "color": "WR",
             "rarity": "rare",
             "type": "Creature \u2014 Dog Hero",
-            "number": 220,
+            "number": 230,
             "color_identity": "WR",
             "cost": "{2}{R}{W}",
             "rules_text": "Haste, reach, vigilance\nAt the beginning of your end step, you may return a nonland creature you control to its owner's hand. If you do, put a +1/+1 counter on this creature.",
@@ -3858,15 +3858,15 @@
             "notes": "Art used already (multiple times!) in MSEM, but not been used yet in Revolution/ Rev Eternal"
         },
         {
-            "card_name": "RM01 Queen Scoraya of Hagzaga",
+            "card_name": "Queen Scoraya of Hagzaga",
             "color": "WU",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 Owl Noble",
-            "number": 219,
+            "number": 228,
             "color_identity": "WU",
             "cost": "{W}{U}",
             "rules_text": "Flying, hexproof\nPermanent spells you cast with flying cost {1} less to cast.\nAt the beginning of your end step, scry 1.",
-            "flavor_text": "[i]brief ft[/i]",
+            "flavor_text": "[i]Scoraya was the first unmarried queen of Hagzaga in centuries. Her mind was instead focused on the country's well-being and security.[/i]",
             "pt": "2/2",
             "special_text": "",
             "shape": "normal",
@@ -3876,11 +3876,11 @@
             "notes": ""
         },
         {
-            "card_name": "RM01 Urvinn, Count of Wastehold",
+            "card_name": "Urvinn, Count of Wastehold",
             "color": "UB",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 Bat Noble",
-            "number": 222,
+            "number": 234,
             "color_identity": "UB",
             "cost": "{U}{B}",
             "rules_text": "Flying, deathtouch, ward {1}\nWhenever Urvinn deals combat damage to an opponent or planeswalker, you draw a card and that player or that planeswalker's controller discards a card.",
@@ -3894,11 +3894,11 @@
             "notes": ""
         },
         {
-            "card_name": "RM01 Jetrax, Dark Archon",
+            "card_name": "Jetrax, Dark Archon",
             "color": "BR",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 Dragon Mercenary",
-            "number": 216,
+            "number": 219,
             "color_identity": "BR",
             "cost": "{3}{B}{R}",
             "rules_text": "Flying, haste\nWhenever Jetrax deals combat damage to an opponent, return all cards in your graveyard that you discarded this turn to your hand.\n{B}{R}, Discard a card: Jetrax deals 1 damage to any target. Activate only once each turn, and only as a sorcery.",
@@ -3912,11 +3912,11 @@
             "notes": ""
         },
         {
-            "card_name": "RM01 Crystal Flameblossom",
+            "card_name": "Crystal Flameblossom",
             "color": "RG",
             "rarity": "rare",
             "type": "Enchantment",
-            "number": 214,
+            "number": 209,
             "color_identity": "RG",
             "cost": "{1}{R}{G}",
             "rules_text": "If a land you control would enter tapped, you may have it deal 1 damage to you. When you do, it enters untapped instead.\nCreatures you control get +X/+0, where X is the number of lands that entered and/or left your graveyard this turn.",
@@ -3930,11 +3930,11 @@
             "notes": ""
         },
         {
-            "card_name": "RM01 The Flower Picker Inn",
+            "card_name": "The Flower Picker Inn",
             "color": "WG",
             "rarity": "rare",
             "type": "Legendary Artifact",
-            "number": 221,
+            "number": 212,
             "color_identity": "WG",
             "cost": "{2}{G}{W}",
             "rules_text": "When this enchantment enters, create a Food token.\nAt the beginning of your end step, you may put a creature or planeswalker card with mana value X or less from your hand onto the battlefield, where X is the life you've gained this turn.",
@@ -3948,11 +3948,11 @@
             "notes": ""
         },
         {
-            "card_name": "RM01 Liau, Primordial Mother",
+            "card_name": "Liau, Primordial Mother",
             "color": "WB",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 Cat Elemental",
-            "number": 218,
+            "number": 225,
             "color_identity": "WB",
             "cost": "{2}{W}{B}",
             "rules_text": "Liau enters with four +1/+1 counters on her.\nAt the beginning of your end step, create a token that's a copy of target creature token you control.\nIf Liau would be dealt damage, instead prevent that damage, remove a counter from Liau, and create a 1/1 black and white Cat Elemental creature token.",
@@ -3966,11 +3966,11 @@
             "notes": ""
         },
         {
-            "card_name": "RM01 Klawia's Disguise",
+            "card_name": "Klawia's Disguise",
             "color": "UR",
             "rarity": "rare",
             "type": "Instant",
-            "number": 217,
+            "number": 222,
             "color_identity": "UR",
             "cost": "{U}{R}",
             "rules_text": "Until end of turn, target creature you control becomes a copy of another creature, gains haste, and can't be blocked by creatures with the same name.",
@@ -3984,11 +3984,11 @@
             "notes": ""
         },
         {
-            "card_name": "RM01 Iron Empire Monolith",
+            "card_name": "Iron Empire Monolith",
             "color": "BG",
             "rarity": "rare",
             "type": "Artifact",
-            "number": 215,
+            "number": 216,
             "color_identity": "BG",
             "cost": "{1}{B}{G}",
             "rules_text": "Rats you control get +1/+1. \nMice you control get +1/+0.\nAt the beginning of each end step, if a Rat you controlled died this turn, draw a card.",
@@ -4002,11 +4002,11 @@
             "notes": ""
         },
         {
-            "card_name": "CA01 Hired Carriage",
+            "card_name": "Hired Carriage",
             "color": "",
             "rarity": "common",
             "type": "Artifact \u2014 Vehicle",
-            "number": 238,
+            "number": 241,
             "color_identity": "C",
             "cost": "{3}",
             "rules_text": "When this artifact enters, search your library for a basic land card, reveal it and put it into your hand, then shuffle.\nCrew 2",
@@ -4020,11 +4020,11 @@
             "notes": ""
         },
         {
-            "card_name": "CA02 Moonlaced Potion",
+            "card_name": "Moonlaced Potion",
             "color": "",
             "rarity": "common",
             "type": "Artifact",
-            "number": 239,
+            "number": 244,
             "color_identity": "C",
             "cost": "{1}",
             "rules_text": "When this artifact enters, you gain a Moonstone counter.\n{1}, {T}, Sacrifice this artifact: Draw a card, then add one mana of any color.",
@@ -4038,11 +4038,11 @@
             "notes": ""
         },
         {
-            "card_name": "CA03 Masterpiece Shield",
+            "card_name": "Masterpiece Shield",
             "color": "",
             "rarity": "common",
             "type": "Artifact \u2014 Equipment",
-            "number": 240,
+            "number": 243,
             "color_identity": "C",
             "cost": "{2}",
             "rules_text": "Equipped creature gets +0/+2 and has vigilance.\nEquip {3}",
@@ -4056,11 +4056,11 @@
             "notes": ""
         },
         {
-            "card_name": "CA04 Necklace of Fangs",
+            "card_name": "Necklace of Fangs",
             "color": "",
             "rarity": "common",
             "type": "Artifact \u2014 Equipment",
-            "number": 241,
+            "number": 245,
             "color_identity": "C",
             "cost": "{1}",
             "rules_text": "Whenever you cast an instant or sorcery spell, equipped creature gets +1/+1 and gains first strike until end of turn. This triggers only once each turn.\nEquip {1}",
@@ -4074,7 +4074,7 @@
             "notes": ""
         },
         {
-            "card_name": "CA05 Honeywine Elixir",
+            "card_name": "Honeywine Elixir",
             "color": "",
             "rarity": "common",
             "type": "Artifact",
@@ -4092,11 +4092,11 @@
             "notes": ""
         },
         {
-            "card_name": "UA01 Farsight Blade",
+            "card_name": "Farsight Blade",
             "color": "",
             "rarity": "uncommon",
             "type": "Artifact \u2014 Equipment",
-            "number": 246,
+            "number": 240,
             "color_identity": "C",
             "cost": "{2}",
             "rules_text": "Equipped creature has first strike.\nWhenever equipped creature attacks, scry 1.\nEquip {1}",
@@ -4110,11 +4110,11 @@
             "notes": ""
         },
         {
-            "card_name": "UA02 Deciphered Relic",
+            "card_name": "Deciphered Relic",
             "color": "",
             "rarity": "uncommon",
             "type": "Artifact",
-            "number": 247,
+            "number": 238,
             "color_identity": "C",
             "cost": "{3}",
             "rules_text": "Wisdom 4 [i](As an additional cost to cast this, you may exile four cards from your graveyard. If you do, copy it, and you may choose new targets for the copy.)[/i]\nThis artifact enters tapped.\n{T}: Add two mana of any one color among cards put into your graveyard from anywhere this turn.",
@@ -4128,7 +4128,7 @@
             "notes": ""
         },
         {
-            "card_name": "UA03 Summer Throne",
+            "card_name": "Summer Throne",
             "color": "",
             "rarity": "uncommon",
             "type": "Legendary Artifact",
@@ -4146,7 +4146,7 @@
             "notes": ""
         },
         {
-            "card_name": "UA04 Tezakayt Fortress",
+            "card_name": "Tezakayt Fortress",
             "color": "",
             "rarity": "uncommon",
             "type": "Legendary Artifact",
@@ -4164,7 +4164,7 @@
             "notes": "Cost upped to 6 from 5. February 23rd, 2026."
         },
         {
-            "card_name": "UA05 Voidmind Axe",
+            "card_name": "Voidmind Axe",
             "color": "",
             "rarity": "uncommon",
             "type": "Artifact \u2014 Equipment",
@@ -4182,11 +4182,11 @@
             "notes": ""
         },
         {
-            "card_name": "CL01 A Path Between",
+            "card_name": "A Path Between",
             "color": "",
             "rarity": "common",
             "type": "Land",
-            "number": 251,
+            "number": 254,
             "color_identity": "C",
             "cost": "",
             "rules_text": "This land enters tapped.\nWhen this land enters, scry 1.\nWhen this land becomes untapped, sacrifice it, then search your library for a basic land card, put it onto the battlefield, then shuffle.",
@@ -4200,11 +4200,11 @@
             "notes": ""
         },
         {
-            "card_name": "UL01 Verdant Gorge Falls",
+            "card_name": "Verdant Gorge Falls",
             "color": "",
             "rarity": "uncommon",
             "type": "Land",
-            "number": 252,
+            "number": 256,
             "color_identity": "URG",
             "cost": "",
             "rules_text": "As this enters, you may sacrifice a land or discard a land card from your hand. If you don't, this enters tapped.\n{T}: Add {U}, {R}, or {G}.",
@@ -4218,11 +4218,11 @@
             "notes": ""
         },
         {
-            "card_name": "UL02 Abandoned Prison",
+            "card_name": "Abandoned Prison",
             "color": "",
             "rarity": "uncommon",
             "type": "Land",
-            "number": 253,
+            "number": 251,
             "color_identity": "WBR",
             "cost": "",
             "rules_text": "As this enters, you may sacrifice a land or discard a land card from your hand. If you don't, this enters tapped.\n{T}: Add {W}, {B}, or {R}.",
@@ -4236,11 +4236,11 @@
             "notes": ""
         },
         {
-            "card_name": "UL03 Garrisoned Homeland",
+            "card_name": "Garrisoned Homeland",
             "color": "",
             "rarity": "uncommon",
             "type": "Land",
-            "number": 254,
+            "number": 253,
             "color_identity": "WBG",
             "cost": "",
             "rules_text": "As this enters, you may sacrifice a land or discard a land card from your hand. If you don't, this enters tapped.\n{T}: Add {W}, {B}, or {G}.",
@@ -4254,7 +4254,7 @@
             "notes": ""
         },
         {
-            "card_name": "UL04 Seaweed Nations",
+            "card_name": "Seaweed Nations",
             "color": "",
             "rarity": "uncommon",
             "type": "Land",
@@ -4272,11 +4272,11 @@
             "notes": ""
         },
         {
-            "card_name": "UL05 Blue Sky Cities",
+            "card_name": "Blue Sky Cities",
             "color": "",
             "rarity": "uncommon",
             "type": "Land",
-            "number": 256,
+            "number": 252,
             "color_identity": "WUR",
             "cost": "",
             "rules_text": "As this enters, you may sacrifice a land or discard a land card from your hand. If you don't, this enters tapped.\n{T}: Add {W}, {U}, or {R}.",
@@ -4290,11 +4290,11 @@
             "notes": ""
         },
         {
-            "card_name": "UG12 The Life of an Epicure",
+            "card_name": "The Life of an Epicure",
             "color": "G",
             "rarity": "uncommon",
             "type": "Enchantment \u2014 Aura",
-            "number": 207,
+            "number": 182,
             "color_identity": "G",
             "cost": "{G}",
             "rules_text": "Enchant creature you control\nWhen this Aura enters, you gain 2 life.\nEnchanted creature gets +1/+1 and has trample.\nThe first time you gain life each turn, enchanted creature gets +1/+1 until end of turn.",
@@ -4308,11 +4308,11 @@
             "notes": "Added MArch 4th, 2026: To fill in lower end of Green uncommon mana curve a bit more, to push GW lifegain archetype, and to include another Aura in the set."
         },
         {
-            "card_name": "UR12 Defend the Temple",
+            "card_name": "Defend the Temple",
             "color": "R",
             "rarity": "uncommon",
             "type": "Instant",
-            "number": 167,
+            "number": 132,
             "color_identity": "R",
             "cost": "{R}{R}",
             "rules_text": "This spell can't be countered.\nThis spell deals 3 damage to any target.\nIf you control a militant, exile the top card of your library. Until the end of your next turn, you may play that card. [i](Armies, Heroes, Knights, Soldiers and Warriors are militants.)[/i]",
@@ -4326,11 +4326,11 @@
             "notes": ""
         },
         {
-            "card_name": "UB12 Cultist of Dus Acasui",
+            "card_name": "Cultist of Dus Acasui",
             "color": "B",
             "rarity": "uncommon",
             "type": "Creature \u2014 Minotaur Warrior Assassin",
-            "number": 127,
+            "number": 91,
             "color_identity": "B",
             "cost": "{3}{B}{B}",
             "rules_text": "Menace\nWhen this creature enters, choose one \u2014\n\u2022 Target creature gets -4/-4 until end of turn.\n\u2022 Return target creature card with mana value 2 or less from your graveyard to the battlefield tapped.",
@@ -4344,11 +4344,11 @@
             "notes": ""
         },
         {
-            "card_name": "UW12 Oracle's Encouragement",
+            "card_name": "Oracle's Encouragement",
             "color": "W",
             "rarity": "uncommon",
             "type": "Enchantment",
-            "number": 46,
+            "number": 23,
             "color_identity": "W",
             "cost": "{1}{W}{W}",
             "rules_text": "When this enchantment enters, create a 1/1 white Bird Citizen creature token with flying.\nCreature tokens you control have vigilance.\nWhenever you attack with four or more creatures, scry 2, then draw a card.",
@@ -4362,7 +4362,7 @@
             "notes": ""
         },
         {
-            "card_name": "UX05 Watchpost Village",
+            "card_name": "Watchpost Village",
             "color": "",
             "rarity": "uncommon",
             "type": "Land",
@@ -4380,11 +4380,11 @@
             "notes": "March 3rd, 2026: Added this card to support set-wide combat theme as well as the RG land-yard moving theme."
         },
         {
-            "card_name": "RX01 Wrathful Lerna",
+            "card_name": "Wrathful Lerna",
             "color": "UBG",
             "rarity": "rare",
             "type": "Creature \u2014 Eel Hydra",
-            "number": 223,
+            "number": 235,
             "color_identity": "UBG",
             "cost": "{X}{B}{G}{U}",
             "rules_text": "This creature enters with a +1/+1 counter on it for each mana spent to cast it.\nTrample\nWhenever this creature enters or attacks, you may remove a counter from yourself or a permanent you control. If you do, draw a card, gain 1 life, and each opponent loses 1 life.",
@@ -4398,11 +4398,11 @@
             "notes": ""
         },
         {
-            "card_name": "RX02 Revered Moonstaff",
+            "card_name": "Revered Moonstaff",
             "color": "",
             "rarity": "rare",
             "type": "Legendary Artifact \u2014 Equipment",
-            "number": 244,
+            "number": 247,
             "color_identity": "C",
             "cost": "{3}",
             "rules_text": "Equipped creature gets +X/+X and has ward {X}, where X is the number of Moonstone counters you have.\nEquip {2} or remove a Moonstone counter from yourself",
@@ -4413,14 +4413,14 @@
             "set": "MST",
             "loyalty": "",
             "artist": "Alex Susani",
-            "notes": ""
+            "notes": "Will need to find new art for this at some point, as this art is already used in Rev on 'Staff of Balance'."
         },
         {
-            "card_name": "RX03 Repulsive Soulblade",
+            "card_name": "Repulsive Soulblade",
             "color": "",
             "rarity": "rare",
             "type": "Legendary Artifact \u2014 Equipment",
-            "number": 245,
+            "number": 246,
             "color_identity": "C",
             "cost": "{3}",
             "rules_text": "Equipped creature has menace and hexproof from white.\nWhenever a player discards one or more cards, equipped creature gets +1/+1 until end of turn. If one or more creature cards are discarded this way, put a +1/+1 counter on equipped creature instead.\nEquip {2}",
@@ -4434,83 +4434,83 @@
             "notes": ""
         },
         {
-            "card_name": "RX04 will be mono-green",
-            "color": "",
+            "card_name": "RX04 Starshine Charms",
+            "color": "G",
             "rarity": "rare",
-            "type": "",
-            "number": 3,
-            "color_identity": "C",
-            "cost": "",
-            "rules_text": "",
+            "type": "Sorcery",
+            "number": 188,
+            "color_identity": "G",
+            "cost": "{2}{G}",
+            "rules_text": "Choose one. If you've gained life this turn, choose any number instead \u2014\n\u2022 Exile target artifact or enchantment.\n\u2022 Draw a card, then you may put a land card from your hand onto the battlefield.\n\u2022 Put three +1/+1 counters on target creature you control.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "MST",
             "loyalty": "",
-            "artist": "",
-            "notes": ""
+            "artist": "Red-IzaK",
+            "notes": "Added wholesale, March 6th, 2026. Pushing lifegain a bit more, but still useable by any green deck."
         },
         {
-            "card_name": "RX05 will be mono-red",
-            "color": "",
+            "card_name": "Moonrise Bravado",
+            "color": "R",
             "rarity": "rare",
-            "type": "",
-            "number": 4,
-            "color_identity": "C",
-            "cost": "",
-            "rules_text": "",
+            "type": "Enchantment",
+            "number": 148,
+            "color_identity": "R",
+            "cost": "{R}",
+            "rules_text": "Creatures you control have haste and attack each combat if able.",
+            "flavor_text": "[i]Now that Sonor's Eye rose in the sky alone, it inspired some to take risks by themselves that they wouldn't have before.[/i]",
+            "pt": "",
+            "special_text": "",
+            "shape": "normal",
+            "set": "MST",
+            "loyalty": "",
+            "artist": "Derten",
+            "notes": "Added wholesale, March 6th, 2026."
+        },
+        {
+            "card_name": "Nourishing Misery",
+            "color": "B",
+            "rarity": "rare",
+            "type": "Enchantment",
+            "number": 110,
+            "color_identity": "B",
+            "cost": "{4}{B}{B}",
+            "rules_text": "At the beginning of your end step, each opponent sacrifices a creature of their choice, discards a card, mills two cards, and loses 2 life. Then if any opponent didn't sacrifice a creature or discard a card this way, you draw a card.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "MST",
             "loyalty": "",
-            "artist": "",
+            "artist": "Antonio J. Manzanedo",
             "notes": ""
         },
         {
-            "card_name": "RX06",
-            "color": "",
+            "card_name": "Icespark",
+            "color": "W",
             "rarity": "rare",
-            "type": "",
-            "number": 5,
-            "color_identity": "C",
-            "cost": "",
-            "rules_text": "",
+            "type": "Enchantment",
+            "number": 16,
+            "color_identity": "W",
+            "cost": "{W}{W}",
+            "rules_text": "At the beginning of your upkeep, scry 2, then if you have more life than each opponent, draw a card.\nSacrifice this enchantment: Tap target creature and put six stun counters on it.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "MST",
             "loyalty": "",
-            "artist": "",
+            "artist": "Envak Enkaqti",
             "notes": ""
         },
         {
-            "card_name": "RX07",
-            "color": "",
-            "rarity": "rare",
-            "type": "",
-            "number": 6,
-            "color_identity": "C",
-            "cost": "",
-            "rules_text": "",
-            "flavor_text": "[i][/i]",
-            "pt": "",
-            "special_text": "",
-            "shape": "normal",
-            "set": "MST",
-            "loyalty": "",
-            "artist": "",
-            "notes": ""
-        },
-        {
-            "card_name": "RX08 Eela, Tropical Windspeaker",
+            "card_name": "Eela, Tropical Windspeaker",
             "color": "U",
             "rarity": "rare",
             "type": "Legendary Creature \u2014 Bird",
-            "number": 75,
+            "number": 50,
             "color_identity": "UR",
             "cost": "{U}",
             "rules_text": "Flying\nWhenever Eela deals combat damage to an opponent, you may pay {X}{UR}. When you do, exile target instant or sorcery card from a graveyard.\nAt the beginning of your upkeep, choose a card exiled with Eela. You may cast that card this turn without paying its mana cost.",
@@ -4524,11 +4524,11 @@
             "notes": "Added wholesale, March 5th, 2026. Primarily to push the U/R archetype further."
         },
         {
-            "card_name": "MX01 Impatient Dragonling",
+            "card_name": "Impatient Dragonling",
             "color": "BR",
             "rarity": "mythic",
             "type": "Creature \u2014 Dragon Warlock",
-            "number": 212,
+            "number": 215,
             "color_identity": "WBR",
             "cost": "{1}{B}{R}",
             "rules_text": "Haste, ward\u2014pay 2 life\nThis creature gets +3/+3 and has flying as long as it's a token.\nEncore {3}{WB}{R} [i]({3}{WB}{R}, Exile this card from your graveyard: For each opponent, create a token copy that attacks that opponent this turn if able. They gain haste. Sacrifice them at the beginning of the next end step. Activate only as a sorcery.)[/i]",
@@ -4542,14 +4542,14 @@
             "notes": "(only appearance of Encore in entire set)"
         },
         {
-            "card_name": "MX02 The Jamakhora",
+            "card_name": "The Jamakhora",
             "color": "BR",
             "rarity": "mythic",
             "type": "Legendary Creature \u2014 Manticore Demon",
-            "number": 213,
+            "number": 217,
             "color_identity": "BR",
             "cost": "{2}{B}{R}",
-            "rules_text": "Haste, flying, deathtouch\nMX02 The Jamakhora has indestructible as long as a creature an opponent controlled died this turn.\nWhenever MX02 The Jamakhora attacks, you may have it fight target creature you don't control.",
+            "rules_text": "Haste, flying, deathtouch\nThe Jamakhora has indestructible as long as a creature an opponent controlled died this turn.\nWhenever The Jamakhora attacks, you may have it fight target creature you don't control.",
             "flavor_text": "[i][/i]",
             "pt": "5/3",
             "special_text": "",
@@ -4560,11 +4560,11 @@
             "notes": ""
         },
         {
-            "card_name": "MX03 Esurvite Holy Book",
+            "card_name": "Esurvite Holy Book",
             "color": "",
             "rarity": "mythic",
             "type": "Legendary Artifact",
-            "number": 243,
+            "number": 239,
             "color_identity": "C",
             "cost": "{4}",
             "rules_text": "When this artifact enters, draw a card.\nAt the beginning of your upkeep, mill ten cards.\nAt the beginning of your end step, if there are one or more cards in your graveyard, shuffle them into your library.",
@@ -4578,40 +4578,40 @@
             "notes": ""
         },
         {
-            "card_name": "MX04 will be multicolor",
-            "color": "",
+            "card_name": "Jury of the Midnight Court",
+            "color": "UBG",
             "rarity": "mythic",
-            "type": "",
-            "number": 1,
-            "color_identity": "C",
-            "cost": "",
-            "rules_text": "",
+            "type": "Creature \u2014 Advisor Cleric Wizard",
+            "number": 220,
+            "color_identity": "UBG",
+            "cost": "{1}{B}{G}{U}",
+            "rules_text": "When this creature enters, choose one \u2014\n\u2022 You get three Moonstone counters.\n\u2022 Return a card from your graveyard to your hand.\n{X}{B}{G}{U}, {T}: Return target permanent card with mana value X from your graveyard to the battlefield. This costs {1} less to activate for each Moonstone counter you have.",
             "flavor_text": "[i][/i]",
-            "pt": "",
+            "pt": "3/4",
             "special_text": "",
             "shape": "normal",
             "set": "MST",
             "loyalty": "",
-            "artist": "",
+            "artist": "MarmaduX-Smite",
             "notes": ""
         },
         {
-            "card_name": "MX05",
-            "color": "",
+            "card_name": "Stunning Theft",
+            "color": "UBR",
             "rarity": "mythic",
-            "type": "",
-            "number": 2,
-            "color_identity": "C",
-            "cost": "",
-            "rules_text": "",
+            "type": "Instant",
+            "number": 232,
+            "color_identity": "UBR",
+            "cost": "{1}{U}{B}{R}",
+            "rules_text": "As an additional cost to cast this spell, discard up to two cards.\nGain control of target spell with mana value less than or equal to the total mana value of the discarded cards. You may choose new targets for it. [i](If that spell becomes a permanent, it enters under your control.)[/i]",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "MST",
             "loyalty": "",
-            "artist": "",
-            "notes": ""
+            "artist": "Marishka Kleyman",
+            "notes": "slat was once \u2018Profound Mysteries'"
         },
         {
             "card_name": "Plains",
@@ -4708,7 +4708,7 @@
             "color": "B",
             "rarity": "common",
             "type": "Token Creature \u2014 Rat Rogue",
-            "number": 5,
+            "number": 10,
             "color_identity": "B",
             "cost": "",
             "rules_text": "Menace",
@@ -4719,14 +4719,14 @@
             "set": "MST",
             "loyalty": "",
             "artist": "Max Dunbar",
-            "notes": ""
+            "notes": "!related Brawl at the Docks<3>;\n!related Mayarai, Bonesnouts Leader<1>;\n!related Reluctant Companions<1>;\n!related Taza, Exiled Princess<1>;\n!related Under the Iron Capitol<1>;"
         },
         {
             "card_name": "Klawia, the Journeyer",
             "color": "WRG",
             "rarity": "mythic",
             "type": "Legendary Planeswalker \u2014 Klawia",
-            "number": 209,
+            "number": 221,
             "color_identity": "WRG",
             "cost": "{R}{G}{W}",
             "rules_text": "",
@@ -4744,7 +4744,7 @@
             "color": "WBR",
             "rarity": "mythic",
             "type": "Legendary Creature \u2014 Mouse Knight",
-            "number": 208,
+            "number": 218,
             "color_identity": "WBR",
             "cost": "{R}{W}{B}",
             "rules_text": "Haste, reach, vigilance\nAt the beginning of each combat, if an opponent controls a legendary creature, Jeddina gains deathtouch until end of turn.",
@@ -4762,7 +4762,7 @@
             "color": "WB",
             "rarity": "common",
             "type": "Token Creature \u2014 Cat Elemental",
-            "number": 6,
+            "number": 13,
             "color_identity": "WB",
             "cost": "",
             "rules_text": "",
@@ -4772,15 +4772,15 @@
             "shape": "token",
             "set": "MST",
             "loyalty": "",
-            "artist": "",
-            "notes": ""
+            "artist": "Oksana Hulak",
+            "notes": "!related Liau, Primordial Mother<1>"
         },
         {
             "card_name": "Rat Citizen",
             "color": "W",
             "rarity": "common",
             "type": "Token Creature \u2014 Rat Citizen",
-            "number": 4,
+            "number": 7,
             "color_identity": "W",
             "cost": "",
             "rules_text": "",
@@ -4790,15 +4790,15 @@
             "shape": "token",
             "set": "MST",
             "loyalty": "",
-            "artist": "",
-            "notes": ""
+            "artist": "A. Lundell",
+            "notes": "!related Mobilize the Village<3>;\n!related Rouser Elder<1>;\n!related Battle-weary Swordtail<1>;\n!related Reluctant Companions<1>;\n!related Dedicated Mining Crew<1>;\n!related Under the Iron Capitol<1>;"
         },
         {
             "card_name": "Goat Peasant",
             "color": "W",
             "rarity": "common",
             "type": "Token Creature \u2014 Goat Peasant",
-            "number": 3,
+            "number": 6,
             "color_identity": "W",
             "cost": "",
             "rules_text": "",
@@ -4809,14 +4809,14 @@
             "set": "MST",
             "loyalty": "",
             "artist": "Alice Malvisi",
-            "notes": ""
+            "notes": "!related Stubborn Hornblower<2>"
         },
         {
             "card_name": "Cat Peasant",
             "color": "W",
             "rarity": "common",
             "type": "Token Creature \u2014 Cat Peasant",
-            "number": 2,
+            "number": 3,
             "color_identity": "W",
             "cost": "",
             "rules_text": "",
@@ -4827,32 +4827,32 @@
             "set": "MST",
             "loyalty": "",
             "artist": "Grey Serjeant",
-            "notes": ""
+            "notes": "!related Contemplative Relaxation<1>"
         },
         {
             "card_name": "Drake Elemental",
             "color": "UR",
             "rarity": "common",
             "type": "Token Creature \u2014 Drake Elemental",
-            "number": 8,
+            "number": 14,
             "color_identity": "UR",
             "cost": "",
             "rules_text": "Flying",
             "flavor_text": "[i][/i]",
-            "pt": "2/2",
+            "pt": "3/2",
             "special_text": "",
             "shape": "token",
             "set": "MST",
             "loyalty": "",
             "artist": "Gamepack Studio",
-            "notes": ""
+            "notes": "!related Flux-Node Birthing<1>"
         },
         {
             "card_name": "Dragon",
             "color": "W",
             "rarity": "common",
             "type": "Token Creature \u2014 Dragon",
-            "number": 7,
+            "number": 5,
             "color_identity": "W",
             "cost": "",
             "rules_text": "Flying",
@@ -4863,14 +4863,14 @@
             "set": "MST",
             "loyalty": "",
             "artist": "Nathanael Mortenson",
-            "notes": ""
+            "notes": "!related Unconventional Summoner<1>"
         },
         {
             "card_name": "Rat Soldier",
             "color": "WBG",
             "rarity": "common",
             "type": "Token Creature \u2014 Rat Soldier",
-            "number": 9,
+            "number": 15,
             "color_identity": "WBG",
             "cost": "",
             "rules_text": "",
@@ -4881,7 +4881,7 @@
             "set": "MST",
             "loyalty": "",
             "artist": "Diego Lafuente",
-            "notes": ""
+            "notes": "!related Iron Empire Brigade<1>\n\nEventually find art of an anthro rodent warrior/soldier with less prominent/rounded ears, get closer to a rat"
         },
         {
             "card_name": "Bird Noble",
@@ -4898,9 +4898,153 @@
             "shape": "token",
             "set": "MST",
             "loyalty": "",
-            "artist": "Gamepack Studio",
-            "notes": ""
+            "artist": "Egor Kapustin",
+            "notes": "!related Summer Throne<1>"
+        },
+        {
+            "card_name": "Dog Soldier",
+            "color": "W",
+            "rarity": "common",
+            "type": "Token Creature \u2014 Dog Soldier",
+            "number": 4,
+            "color_identity": "W",
+            "cost": "",
+            "rules_text": "",
+            "flavor_text": "[i][/i]",
+            "pt": "1/1",
+            "special_text": "",
+            "shape": "token",
+            "set": "MST",
+            "loyalty": "",
+            "artist": "Brian Valeza",
+            "notes": "!related City Gate Patrol<1>"
+        },
+        {
+            "card_name": "Food",
+            "color": "",
+            "rarity": "common",
+            "type": "Token Artifact \u2014 Food",
+            "number": 16,
+            "color_identity": "C",
+            "cost": "",
+            "rules_text": "{2}, {T}, Sacrifice this artifact: Gain 3 life.",
+            "flavor_text": "[i][/i]",
+            "pt": "",
+            "special_text": "",
+            "shape": "token",
+            "set": "MST",
+            "loyalty": "",
+            "artist": "Nikolai Ostertag",
+            "notes": "!related Feast with the King<1>;\n!related The Flower Picker Inn<1>;"
+        },
+        {
+            "card_name": "Bird Citizen",
+            "color": "W",
+            "rarity": "common",
+            "type": "Token Creature \u2014 Bird Citizen",
+            "number": 2,
+            "color_identity": "W",
+            "cost": "",
+            "rules_text": "Flying",
+            "flavor_text": "[i][/i]",
+            "pt": "1/1",
+            "special_text": "",
+            "shape": "token",
+            "set": "MST",
+            "loyalty": "",
+            "artist": "RobustaArt",
+            "notes": "!related Oracle's Encouragement<1>"
+        },
+        {
+            "card_name": "Octopus Rogue",
+            "color": "U",
+            "rarity": "common",
+            "type": "Token Creature \u2014 Octopus Rogue",
+            "number": 9,
+            "color_identity": "U",
+            "cost": "",
+            "rules_text": "",
+            "flavor_text": "[i][/i]",
+            "pt": "",
+            "special_text": "",
+            "shape": "token",
+            "set": "MST",
+            "loyalty": "",
+            "artist": "Manuel Javier Nore\u00f1a Casta\u00f1o",
+            "notes": "!related Hullcutter Duo<1>;"
+        },
+        {
+            "card_name": "Bird Spirit",
+            "color": "U",
+            "rarity": "common",
+            "type": "Token Creature \u2014 Bird Spirit",
+            "number": 8,
+            "color_identity": "U",
+            "cost": "",
+            "rules_text": "Flying",
+            "flavor_text": "[i][/i]",
+            "pt": "1/1",
+            "special_text": "",
+            "shape": "token",
+            "set": "MST",
+            "loyalty": "",
+            "artist": "Elif Aydin",
+            "notes": "!related Summon the Soulchasers<2>;"
+        },
+        {
+            "card_name": "Treasure",
+            "color": "",
+            "rarity": "common",
+            "type": "Token Artifact \u2014 Food",
+            "number": 17,
+            "color_identity": "C",
+            "cost": "",
+            "rules_text": "{T}, Sacrifice this artifact: Add one mana of any color.",
+            "flavor_text": "[i][/i]",
+            "pt": "",
+            "special_text": "",
+            "shape": "token",
+            "set": "MST",
+            "loyalty": "",
+            "artist": "Joe Howard",
+            "notes": "!related M'gruk, Interplanar Plunderer<1>;\n!related Dedicated Mining Crew<1>;"
+        },
+        {
+            "card_name": "Dog Spirit",
+            "color": "G",
+            "rarity": "common",
+            "type": "Token Creature \u2014 Dog Spirit",
+            "number": 11,
+            "color_identity": "G",
+            "cost": "",
+            "rules_text": "Vigilance",
+            "flavor_text": "[i][/i]",
+            "pt": "3/1",
+            "special_text": "",
+            "shape": "token",
+            "set": "MST",
+            "loyalty": "",
+            "artist": "Petra Koch",
+            "notes": "!related Summoning Ancestors<1>"
+        },
+        {
+            "card_name": "Rhino Druid",
+            "color": "G",
+            "rarity": "common",
+            "type": "Token Creature \u2014 Rhino Druid",
+            "number": 12,
+            "color_identity": "G",
+            "cost": "",
+            "rules_text": "Vigilance",
+            "flavor_text": "[i][/i]",
+            "pt": "2/2",
+            "special_text": "",
+            "shape": "token",
+            "set": "MST",
+            "loyalty": "",
+            "artist": "Joe Howard",
+            "notes": "!related Jade Ritual<1>"
         }
     ],
-    "version": 13
+    "version": 14
 }

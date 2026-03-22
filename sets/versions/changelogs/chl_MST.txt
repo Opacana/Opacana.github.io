@@ -1,4 +1,535 @@
-﻿VERSION 13 CHANGELOG
+﻿VERSION 14 CHANGELOG
+====================
+
+Plumb the Depths added.
+Voracious Elasmodracid added.
+Iceclaw Swordfrey added.
+Circumzenith Guardian added.
+Icon of Dead Futures added.
+Deathspark Speaker added.
+Fireseed added.
+Laughing Path Master added.
+Mayarai, Bonesnouts Leader added.
+Flux-node Birthing added.
+Taza, Exiled Princess added.
+Aerieguard Captain added.
+Cenote King added.
+Follower of the Updraft Path added.
+Kitsan Knight-Errant added.
+Petalseeker Mistress added.
+Truth Diviner added.
+Confident Huntress added.
+Youngling Protector added.
+Stubborn Hornblower added.
+Cheerful Messenger added.
+Thraupian Harrier added.
+Marks of Guilt added.
+Blue Sky Elite added.
+City Gate Patrol added.
+Generous Vendor added.
+Blessing of Kaniya added.
+Dub added.
+Mobilize the Village added.
+Plucking A Thorn added.
+Serene Crystallization added.
+Ring of Assurance added.
+Xolotl Raider added.
+Ortugan Elder added.
+Uncompromising Artist added.
+Kodiloan Sentry added.
+Beachside Patrol added.
+Keensight Sorcerer added.
+Hullcutter Duo added.
+Selaki Stormrider added.
+Siltshore Sentinel added.
+Armed Delegation added.
+Elder Cirein added.
+Brash Saorbeak added.
+Amulet of the Future added.
+Moonhalo Restraint added.
+Unsummon added.
+Raise Shields added.
+Unweaving Ritual added.
+Anticipate Their Next Moves added.
+Battle-Weary Swordtail added.
+Despair Path Master added.
+Adept of the Blood Codex added.
+Iron Empire Kenin added.
+Spiked Diggers added.
+Moonwarped Beast added.
+Midnight Messenger added.
+Banished Clairvoyant added.
+Escaped Lab Rat added.
+Snatcher Drakeling added.
+Dalus Desert Askor added.
+Sign Your Life Away added.
+Infernal Resourcefulness added.
+Deceptive Wagering added.
+Blow to the Pharynx added.
+Reluctant Companions added.
+Carnikinesis added.
+Unnerving Onyx added.
+Play Dead added.
+Worldly Sellsword added.
+Prepared Fortress Guard added.
+Lafahdian Minister of the Arcane added.
+Mountain Miner added.
+Adventuring Mages of Squa added.
+Aardite Brute added.
+Eccentric Scavenger added.
+Army of West Khyth added.
+Greater Imaca added.
+Gem Igniter added.
+Sprite Bolt added.
+Sound the Dragonhorn added.
+Smash Open added.
+Entrancing Ruby added.
+Storm's Strike added.
+Fireside Tales added.
+Flames of Passion added.
+Driven to Destruction added.
+Flower Stalker added.
+Sika Matriarch added.
+Unphased Journeyers added.
+Fangscale Geologist added.
+Night-Stroll Guardian added.
+Glacier Lookout added.
+Wildheart Guardian added.
+School of Seaquids added.
+Sociable Inn Owner added.
+Unconventional Summoner added.
+Scallywag Tracker added.
+Thunder God's Boon added.
+Haul In the Nets added.
+Grapple with the Past added.
+Moonguided Shot added.
+Ruined Relics added.
+Limb Enhancement added.
+Tangled in Crops added.
+Shard of Growth added.
+Rooftop Pouncer added.
+Hagzaga Squadron added.
+Duchess of the Trials added.
+Stoic Medic added.
+Spire Guru added.
+Contemplative Relaxation added.
+Sunblaze Aerie Delegate added.
+Lafahd Royal Expedition added.
+Rewoven Fates added.
+Bracer of Light added.
+Storm of Defiance added.
+Ridgeline Monitor added.
+Isthmus Guardian added.
+Veteran Burglar added.
+Stormwind Master added.
+Slicefin Thief added.
+Thundersnap Toxibrach added.
+Hydrokinetic Mastery added.
+Empowered Unraveling added.
+Runic Restraints added.
+Summon the Soulchasers added.
+Relevant Texts added.
+Darkside Wish-granter added.
+Shadowspiller added.
+Piraji Ambusher added.
+Evercursed added.
+Hermit of Erud Swamp added.
+Iron Empire Elite added.
+Eater of the Forgotten added.
+Withering Grief added.
+Necromancer's Whim added.
+Alleyway Ambush added.
+Commune with Shadows added.
+Priest of Primordial Fire added.
+Jack of All Spells added.
+Navu, Eager Pyromancer added.
+Dashing Vigilante added.
+Flux Initiate added.
+Streetwise Adventurer added.
+Dance of Fire added.
+Storm the Palace added.
+Shattershot added.
+Psychic Enslavement added.
+Phoenix Mantle added.
+Summer Coast Druid added.
+Bellowdepths Channeler added.
+Matriarch of Ancient Ways added.
+Lafahd Sandsprinter added.
+Grand Council of the Iron Empire added.
+Escaped Anuroid added.
+Solidarity added.
+Building the Frontier added.
+Visions of Other Worlds added.
+Jade Ritual added.
+Under the Iron Capitol added.
+Pauri Esken, Mounted Justice added.
+Rouser Elder added.
+Circumzenith Commander added.
+General of the Guards added.
+Iron Empire Brigade added.
+Vow of Justice added.
+Rest in Peace added.
+Cunning Trader added.
+Supercell Channeler added.
+Mistress of Misplacement added.
+Titanic Rudan added.
+Twilight Pickpocketing added.
+Pass Down Secrets added.
+Dance of the New Cycle added.
+Speaker of Ancient Gods added.
+Honortail Paragon added.
+Neshezoi, Mad Harbinger added.
+Memorivore Witch added.
+Brawl at the Docks added.
+Power from Pain added.
+Return to Instinct added.
+Longsight Siege Brother added.
+Icespine Range Magstier added.
+Visionary Metalsmith added.
+Carnivorous Blossom added.
+Boltwhirl added.
+Blazing Technique added.
+In the Presence of Greatness added.
+Gruszalb, Chief Mountain added.
+Exiled Worldspeaker added.
+Yewdodelg, Ancient and Wise added.
+Seeker of Strength added.
+Dedicated Mining Crew added.
+Debate the Fauna added.
+Summoning Ancestors added.
+Mouratl, the Eternal added.
+Feast with the King added.
+Cosmic Secrets added.
+Y'ssna, Cephaloid Oracle added.
+Raios, the Founder added.
+Honoring Their Sacrifice added.
+Tawikyan, Avaricious Queen added.
+M'gruk, Interplanar Plunderer added.
+Boc, Emerald Hart added.
+Klawia's Ascent added.
+Steadfast Retriever added.
+Queen Scoraya of Hagzaga added.
+Urvinn, Count of Wastehold added.
+Jetrax, Dark Archon added.
+Crystal Flameblossom added.
+The Flower Picker Inn added.
+Liau, Primordial Mother added.
+Klawia's Disguise added.
+Iron Empire Monolith added.
+Hired Carriage added.
+Moonlaced Potion added.
+Masterpiece Shield added.
+Necklace of Fangs added.
+Honeywine Elixir added.
+Farsight Blade added.
+Deciphered Relic added.
+Summer Throne added.
+Tezakayt Fortress added.
+Voidmind Axe added.
+A Path Between added.
+Verdant Gorge Falls added.
+Abandoned Prison added.
+Garrisoned Homeland added.
+Seaweed Nations added.
+Blue Sky Cities added.
+The Life of an Epicure added.
+Defend the Temple added.
+Cultist of Dus Acasui added.
+Oracle's Encouragement added.
+Watchpost Village added.
+Wrathful Lerna added.
+Revered Moonstaff added.
+Repulsive Soulblade added.
+RX04 Starshine Charms added.
+Moonrise Bravado added.
+Nourishing Misery added.
+Icespark added.
+Eela, Tropical Windspeaker added.
+Impatient Dragonling added.
+The Jamakhora added.
+Esurvite Holy Book added.
+Jury of the Midnight Court added.
+Stunning Theft added.
+Dog Soldier added.
+Food added.
+Bird Citizen added.
+Octopus Rogue added.
+Bird Spirit added.
+Treasure added.
+Dog Spirit added.
+Rhino Druid added.
+
+CU19 Plumb the Depths removed.
+UU12 Voracious Elasmodracid removed.
+CR04 Iceclaw Swordfrey removed.
+UM01 Circumzenith Guardian removed.
+UM01 Icon of Dead Futures removed.
+UM01 Deathspark Speaker removed.
+UM01 Fireseed removed.
+UM01 Laughing Path Master removed.
+UM01 Mayarai, Bonesnouts Leader removed.
+UM01 Flux-node Birthing removed.
+UM01 Taza, Exiled Princess removed.
+UM01 Aerieguard Captain removed.
+UM01 Cenote King removed.
+CW01 Follower of the Updraft Path removed.
+CW02 Kitsan Knight-Errant removed.
+CW03 Petalseeker Mistress removed.
+CW04 Truth Diviner removed.
+CW05 Confident Huntress removed.
+CW06 Youngling Protector removed.
+CW07 Stubborn Hornblower removed.
+CW08 Cheerful Messenger removed.
+CW09 Thraupian Harrier removed.
+CW10 Marks of Guilt removed.
+CW11 Blue Sky Elite removed.
+CW12 City Gate Patrol removed.
+CW13 Generous Vendor removed.
+CW14 Blessing of Kaniya removed.
+CW15 Dub removed.
+CW16 Mobilize the Village removed.
+CW17 Plucking A Thorn removed.
+CW18 Serene Crystallization removed.
+CW19 Ring of Assurance removed.
+CU01 Xolotl Raider removed.
+CU02 Ortugan Elder removed.
+CU03 Uncompromising Artist removed.
+CU04 Kodiloan Sentry removed.
+CU05 Beachside Patrol removed.
+CU06 Keensight Sorcerer removed.
+CU07 Hullcutter Duo removed.
+CU08 Selaki Stormrider removed.
+CU09 Siltshore Sentinel removed.
+CU10 Armed Delegation removed.
+CU11 Elder Cirein removed.
+CU12 Brash Saorbeak removed.
+CU13 Amulet of the Future removed.
+CU14 Moonhalo Restraint removed.
+CU15 Unsummon removed.
+CU16 Raise Shields removed.
+CU17 Unweaving Ritual removed.
+CU18 Anticipate Their Next Moves removed.
+CB01 Battle-Weary Swordtail removed.
+CB02 Despair Path Master removed.
+CB03 Adept of the Blood Codex removed.
+CB04 Iron Empire Kenin removed.
+CB05 Spiked Diggers removed.
+CB06 Moonwarped Beast removed.
+CB07 Midnight Messenger removed.
+CB08 Banished Clairvoyant removed.
+CB09 Escaped Lab Rat removed.
+CB10 Snatcher Drakeling removed.
+CB11 Dalus Desert Askor removed.
+CB12 Sign Your Life Away removed.
+CB13 Infernal Resourcefulness removed.
+CB14 Deceptive Wagering removed.
+CB15 Blow to the Pharynx removed.
+CB16 Reluctant Companions removed.
+CB17 Carnikinesis removed.
+CB18 Unnerving Onyx removed.
+CB19 Play Dead removed.
+CR01 Worldly Sellsword removed.
+CR02 Prepared Fortress Guard removed.
+CR03 Lafahdian Minister of the Arcane removed.
+CR05 Mountain Miner removed.
+CR06 Adventuring Mages of Squa removed.
+CR07 Aardite Brute removed.
+CR08 Eccentric Scavenger removed.
+CR09 Army of West Khyth removed.
+CR10 Greater Imaca removed.
+CR11 Gem Igniter removed.
+CR12 Sprite Bolt removed.
+CR13 Sound the Dragonhorn removed.
+CR14 Smash Open removed.
+CR15 Entrancing Ruby removed.
+CR16 Storm's Strike removed.
+CR17 Fireside Tales removed.
+CR18 Flames of Passion removed.
+CR19 Driven to Destruction removed.
+CG01 Flower Stalker removed.
+CG02 Sika Matriarch removed.
+CG03 Unphased Journeyers removed.
+CG04 Fangscale Geologist removed.
+CG05 Night-Stroll Guardian removed.
+CG06 Glacier Lookout removed.
+CG07 Wildheart Guardian removed.
+CG08 School of Seaquids removed.
+CG09 Sociable Inn Owner removed.
+CG10 Unconventional Summoner removed.
+CG11 Scallywag Tracker removed.
+CG12 Thunder God's Boon removed.
+CG13 Haul In the Nets removed.
+CG14 Grapple with the Past removed.
+CG15 Moonguided Shot removed.
+CG16 Ruined Relics removed.
+CG17 Limb Enhancement removed.
+CG18 Tangled in Crops removed.
+CG19 Shard of Growth removed.
+UW01 Rooftop Pouncer removed.
+UW02 Hagzaga Squadron removed.
+UW03 Duchess of the Trials removed.
+UW04 Stoic Medic removed.
+UW05 Spire Guru removed.
+UW06 Contemplative Relaxation removed.
+UW07 Sunblaze Aerie Delegate removed.
+UW08 Lafahd Royal Expedition removed.
+UW09 Rewoven Fates removed.
+UW10 Bracer of Light removed.
+UW11 Storm of Defiance removed.
+UU01 Ridgeline Monitor removed.
+UU02 Isthmus Guardian removed.
+UU03 Veteran Burglar removed.
+UU04 Stormwind Master removed.
+UU05 Slicefin Thief removed.
+UU06 Thundersnap Toxibrach removed.
+UU07 Hydrokinetic Mastery removed.
+UU08 Empowered Unraveling removed.
+UU09 Runic Restraints removed.
+UU10 Summon the Soulchasers removed.
+UU11 Relevant Texts removed.
+UB01 Darkside Wish-granter removed.
+UB02 Shadowspiller removed.
+UB03 Piraji Ambusher removed.
+UB04 Evercursed removed.
+UB05 Hermit of Erud Swamp removed.
+UB06 Iron Empire Elite removed.
+UB07 Eater of the Forgotten removed.
+UB08 Withering Grief removed.
+UB09 Necromancer's Whim removed.
+UB10 Alleyway Ambush removed.
+UB11 Commune with Shadows removed.
+UR01 Priest of Primordial Fire removed.
+UR02 Jack of All Spells removed.
+UR03 Navu, Eager Pyromancer removed.
+UR04 Dashing Vigilante removed.
+UR05 Flux Initiate removed.
+UR06 Streetwise Adventurer removed.
+UR07 Dance of Fire removed.
+UR08 Storm the Palace removed.
+UR09 Shattershot removed.
+UR10 Psychic Enslavement removed.
+UR11 Phoenix Mantle removed.
+UG01 Summer Coast Druid removed.
+UG02 Bellowdepths Channeler removed.
+UG03 Matriarch of Ancient Ways removed.
+UG04 Lafahd Sandsprinter removed.
+UG05 Grand Council of the Iron Empire removed.
+UG06 Escaped Anuroid removed.
+UG07 Solidarity removed.
+UG08 Building the Frontier removed.
+UG09 Visions of Other Worlds removed.
+UG10 Jade Ritual removed.
+UG11 Under the Iron Capitol removed.
+RW01 Pauri Esken, Mounted Justice removed.
+RW02 Rouser Elder removed.
+RW03 Circumzenith Commander removed.
+RW04 General of the Guards removed.
+RW05 Iron Empire Brigade removed.
+RW06 Vow of Justice removed.
+RW07 Rest in Peace removed.
+RU01 Cunning Trader removed.
+RU02 Supercell Channeler removed.
+RU03 Mistress of Misplacement removed.
+RU04 Titanic Rudan removed.
+RU05 Twilight Pickpocketing removed.
+RU06 Pass Down Secrets removed.
+RU07 Dance of the New Cycle removed.
+RB01 Speaker of Ancient Gods removed.
+RB02 Honortail Paragon removed.
+RB03 Neshezoi, Mad Harbinger removed.
+RB04 Memorivore Witch removed.
+RB05 Brawl at the Docks removed.
+RB06 Power from Pain removed.
+RB07 Return to Instinct removed.
+RR01 Longsight Siege Brother removed.
+RR02 Icespine Range Magstier removed.
+RR03 Visionary Metalsmith removed.
+RR04 Carnivorous Blossom removed.
+RR05 Boltwhirl removed.
+RR06 Blazing Technique removed.
+RR07 In the Presence of Greatness removed.
+RG01 Gruszalb, Chief Mountain removed.
+RG02 Exiled Worldspeaker removed.
+RG03 Yewdodelg, Ancient and Wise removed.
+RG04 Seeker of Strength removed.
+RG05 Dedicated Mining Crew removed.
+RG06 Debate the Fauna removed.
+RG07 Summoning Ancestors removed.
+MW01 Mouratl, the Eternal removed.
+MW02 Feast with the King removed.
+MU02 Cosmic Secrets removed.
+MU01 Y'ssna, Cephaloid Oracle removed.
+MB01 Raios, the Founder removed.
+MB02 Honoring Their Sacrifice removed.
+MR01 Tawikyan, Avaricious Queen removed.
+MR02 M'gruk, Interplanar Plunderer removed.
+MG01 Boc, Emerald Hart removed.
+MG02 Klawia's Ascent removed.
+RM01 Steadfast Retriever removed.
+RM01 Queen Scoraya of Hagzaga removed.
+RM01 Urvinn, Count of Wastehold removed.
+RM01 Jetrax, Dark Archon removed.
+RM01 Crystal Flameblossom removed.
+RM01 The Flower Picker Inn removed.
+RM01 Liau, Primordial Mother removed.
+RM01 Klawia's Disguise removed.
+RM01 Iron Empire Monolith removed.
+CA01 Hired Carriage removed.
+CA02 Moonlaced Potion removed.
+CA03 Masterpiece Shield removed.
+CA04 Necklace of Fangs removed.
+CA05 Honeywine Elixir removed.
+UA01 Farsight Blade removed.
+UA02 Deciphered Relic removed.
+UA03 Summer Throne removed.
+UA04 Tezakayt Fortress removed.
+UA05 Voidmind Axe removed.
+CL01 A Path Between removed.
+UL01 Verdant Gorge Falls removed.
+UL02 Abandoned Prison removed.
+UL03 Garrisoned Homeland removed.
+UL04 Seaweed Nations removed.
+UL05 Blue Sky Cities removed.
+UG12 The Life of an Epicure removed.
+UR12 Defend the Temple removed.
+UB12 Cultist of Dus Acasui removed.
+UW12 Oracle's Encouragement removed.
+UX05 Watchpost Village removed.
+RX01 Wrathful Lerna removed.
+RX02 Revered Moonstaff removed.
+RX03 Repulsive Soulblade removed.
+RX04 will be mono-green removed.
+RX05 will be mono-red removed.
+RX06 removed.
+RX07 removed.
+RX08 Eela, Tropical Windspeaker removed.
+MX01 Impatient Dragonling removed.
+MX02 The Jamakhora removed.
+MX03 Esurvite Holy Book removed.
+MX04 will be multicolor removed.
+MX05 removed.
+
+Rat Rogue
+
+Cat Elemental
+
+Rat Citizen
+
+Goat Peasant
+
+Cat Peasant
+
+Drake Elemental
+pt: 2/2 => 3/2
+
+Dragon
+
+Rat Soldier
+
+Bird Noble
+
+
+VERSION 13 CHANGELOG
 ====================
 
 UM01 Fireseed added.

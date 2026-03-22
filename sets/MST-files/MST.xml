@@ -5,7 +5,7 @@
 			<name>MST</name>
 			<longname>Morasca: Search for the Moonstones</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-03-05</releasedate>
+			<releasedate>2026-03-21</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -30,7 +30,7 @@
 			<text>Ward {2}
 {2}{G}: You get a moonstone counter.
 {2}{U}: Draw 4 cards. Activate only once each turn as a sorcery, and only if you have 4 or more Moonstone counters.</text>
-			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/225_Strati, Ikli Starspeaker.png" num="225">MST</set>
+			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/231_Strati, Ikli Starspeaker.png" num="231">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -45,9 +45,9 @@
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>CU19 Plumb the Depths</name>
+			<name>Plumb the Depths</name>
 			<text>Surveil 2, then draw a card.</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/65_CU19 Plumb the Depths.png" num="65">MST</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/62_Plumb the Depths.png" num="62">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -61,10 +61,10 @@
 			<tablerow>3</tablerow>
 		</card>
 		<card>
-			<name>UU12 Voracious Elasmodracid</name>
+			<name>Voracious Elasmodracid</name>
 			<text>As long as defending player controls an island, this creature can&apos;t be blocked by fewer than three creatures.
 {U}, Discard this card: You get a Moonstone counter.</text>
-			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/87_UU12 Voracious Elasmodracid.png" num="87">MST</set>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/80_Voracious Elasmodracid.png" num="80">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -82,7 +82,7 @@
 			<name>Skallayt, Ambitious Warlord</name>
 			<text>Menace, vigilance, trample
 As long as an opponent controls more lands or has more Moonstone counters than you, other creatures you control have menace and get +1/+0. Otherwise, other creatures you control have vigilance and get +0/+1.</text>
-			<set rarity="mythic" picurl="https://Opacana.github.io/sets/MST-files/img/224_Skallayt, Ambitious Warlord.png" num="224">MST</set>
+			<set rarity="mythic" picurl="https://Opacana.github.io/sets/MST-files/img/229_Skallayt, Ambitious Warlord.png" num="229">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -131,7 +131,7 @@ Remove two Moonstone counters from yourself: Scry 2. Activate only once each tur
 		<card>
 			<name>Leave No Witnesses</name>
 			<text>Destroy all non-outlaw creatures. (Assassins, Mercenaries, Pirates, Rogues, and Warlocks are outlaws.)</text>
-			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/210_Leave No Witnesses.png" num="210">MST</set>
+			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/224_Leave No Witnesses.png" num="224">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -145,10 +145,10 @@ Remove two Moonstone counters from yourself: Scry 2. Activate only once each tur
 			<tablerow>3</tablerow>
 		</card>
 		<card>
-			<name>CR04 Iceclaw Swordfrey</name>
+			<name>Iceclaw Swordfrey</name>
 			<text>When this creature enters, you may remove a Moonstone counter from yourself. If you do, it gains haste until end of turn.
 First strike</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/131_CR04 Iceclaw Swordfrey.png" num="131">MST</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/141_Iceclaw Swordfrey.png" num="141">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -163,10 +163,10 @@ First strike</text>
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>UM01 Circumzenith Guardian</name>
+			<name>Circumzenith Guardian</name>
 			<text>Flying, vigilance
 Whenever you attack, creatures you control with flying get +1/+0 until end of turn.</text>
-			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/228_UM01 Circumzenith Guardian.png" num="228">MST</set>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/208_Circumzenith Guardian.png" num="208">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -181,10 +181,10 @@ Whenever you attack, creatures you control with flying get +1/+0 until end of tu
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>UM01 Icon of Dead Futures</name>
+			<name>Icon of Dead Futures</name>
 			<text>Whenever one or more creatures you control deal combat damage to an opponent, that player loses 1 life for each creature that dealt combat damage to them, then you draw a card.
 {2}{U}: Target creature can&apos;t be blocked this turn. Activate only as a sorcery.</text>
-			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/232_UM01 Icon of Dead Futures.png" num="232">MST</set>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/214_Icon of Dead Futures.png" num="214">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -198,10 +198,10 @@ Whenever you attack, creatures you control with flying get +1/+0 until end of tu
 			<tablerow>1</tablerow>
 		</card>
 		<card>
-			<name>UM01 Deathspark Speaker</name>
+			<name>Deathspark Speaker</name>
 			<text>Ward—Exile two cards from your graveyard
 {B}{R}, {T}, Discard a card: This creature deals 1 damage to any target and you gain 1 life.</text>
-			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/229_UM01 Deathspark Speaker.png" num="229">MST</set>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/210_Deathspark Speaker.png" num="210">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -216,10 +216,10 @@ Whenever you attack, creatures you control with flying get +1/+0 until end of tu
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>UM01 Fireseed</name>
+			<name>Fireseed</name>
 			<text>{2}{G}: Mill 3 cards. You may return a land card from your graveyard to the battlefield tapped.
 {1}{R}, Discard a card: This enchantment deals X damage to any target, where X is the number of land cards put into your graveyard from anywhere this turn. Activate only once each turn as a sorcery.</text>
-			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/230_UM01 Fireseed.png" num="230">MST</set>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/211_Fireseed.png" num="211">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -233,10 +233,10 @@ Whenever you attack, creatures you control with flying get +1/+0 until end of tu
 			<tablerow>1</tablerow>
 		</card>
 		<card>
-			<name>UM01 Laughing Path Master</name>
+			<name>Laughing Path Master</name>
 			<text>Whenever another creature you control enters, you gain 1 life.
 At the beginning of your end step, if you&apos;ve gained 3 or more life this turn, draw a card.</text>
-			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/233_UM01 Laughing Path Master.png" num="233">MST</set>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/223_Laughing Path Master.png" num="223">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -251,10 +251,10 @@ At the beginning of your end step, if you&apos;ve gained 3 or more life this tur
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>UM01 Mayarai, Bonesnouts Leader</name>
+			<name>Mayarai, Bonesnouts Leader</name>
 			<text>At the beginning of your upkeep, you may pay 2 life. If you do, create a 1/1 black Rat Rogue creature token with menace.
 Whenever you attack, you may sacrifice a creature. If you do, draw a card and gain 1 life.</text>
-			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/234_UM01 Mayarai, Bonesnouts Leader.png" num="234">MST</set>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/226_Mayarai, Bonesnouts Leader.png" num="226">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -269,10 +269,10 @@ Whenever you attack, you may sacrifice a creature. If you do, draw a card and ga
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>UM01 Flux-node Birthing</name>
+			<name>Flux-node Birthing</name>
 			<text>Wisdom 4 (As an additional cost to cast this, you may exile four cards from your graveyard. If you do, copy it, and you may choose new targets for the copy.)
 Whenever you pay a Wisdom cost, create a 3/2 blue and red Drake Elemental creature token with flying.</text>
-			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/231_UM01 Flux-node Birthing.png" num="231">MST</set>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/213_Flux-node Birthing.png" num="213">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -286,11 +286,11 @@ Whenever you pay a Wisdom cost, create a 3/2 blue and red Drake Elemental creatu
 			<tablerow>1</tablerow>
 		</card>
 		<card>
-			<name>UM01 Taza, Exiled Princess</name>
-			<text>When Taza enters, create a 1/1 black Rat creature token.
+			<name>Taza, Exiled Princess</name>
+			<text>When Taza enters, create a 1/1 black Rat Rogue creature token with menace.
 Other Rat creatures you control get +1/+1.
 At the beginning of combat, target Rat you control gains lifelink until end of turn.</text>
-			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/235_UM01 Taza, Exiled Princess.png" num="235">MST</set>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/233_Taza, Exiled Princess.png" num="233">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -305,10 +305,10 @@ At the beginning of combat, target Rat you control gains lifelink until end of t
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>UM01 Aerieguard Captain</name>
+			<name>Aerieguard Captain</name>
 			<text>When this creature enters, search your library for a militant card, reveal it and put it into your hand, then shuffle. (Armies, Heroes, Knights, Soldiers and Warriors are militants.)
 Militant creatures you control have haste.</text>
-			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/226_UM01 Aerieguard Captain.png" num="226">MST</set>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/206_Aerieguard Captain.png" num="206">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -323,10 +323,10 @@ Militant creatures you control have haste.</text>
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>UM01 Cenote King</name>
+			<name>Cenote King</name>
 			<text>When this creature enters, you get a Moonstone counter.
 {1}{G}: Put a +1/+1 counter on each creature you control. Activate only once each turn as a sorcery, and only if you have 3 or more Moonstone counters.</text>
-			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/227_UM01 Cenote King.png" num="227">MST</set>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/207_Cenote King.png" num="207">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -344,7 +344,7 @@ Militant creatures you control have haste.</text>
 			<name>Migronn, Steadfast Thyl</name>
 			<text>Trample, reach, ward {1}
 The first spell you cast each turn has Wisdom 4. (As an additional cost to cast that spell, you may exile 4 cards from your graveyard. If you do, copy it, and you may choose new targets for the copy.)</text>
-			<set rarity="mythic" picurl="https://Opacana.github.io/sets/MST-files/img/211_Migronn, Steadfast Thyl.png" num="211">MST</set>
+			<set rarity="mythic" picurl="https://Opacana.github.io/sets/MST-files/img/227_Migronn, Steadfast Thyl.png" num="227">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -359,10 +359,10 @@ The first spell you cast each turn has Wisdom 4. (As an additional cost to cast 
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>CW01 Follower of the Updraft Path</name>
+			<name>Follower of the Updraft Path</name>
 			<text>Flying
 {W}: This creature gains lifelink until end of turn. Activate only once each turn.</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/7_CW01 Follower of the Updraft Path.png" num="7">MST</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/12_Follower of the Updraft Path.png" num="12">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -377,11 +377,11 @@ The first spell you cast each turn has Wisdom 4. (As an additional cost to cast 
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>CW02 Kitsan Knight-Errant</name>
+			<name>Kitsan Knight-Errant</name>
 			<text>When this creature dies, choose one —
 • You gain 2 life.
 • Put a +1/+1 counter on target Militant you control. (Armies, Heroes, Knights, Soldiers and Warriors are militants.)</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/8_CW02 Kitsan Knight-Errant.png" num="8">MST</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/18_Kitsan Knight-Errant.png" num="18">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -396,9 +396,9 @@ The first spell you cast each turn has Wisdom 4. (As an additional cost to cast 
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>CW03 Petalseeker Mistress</name>
+			<name>Petalseeker Mistress</name>
 			<text>Whenever a token creature you control attacks, you gain 1 life.</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/9_CW03 Petalseeker Mistress.png" num="9">MST</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/25_Petalseeker Mistress.png" num="25">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -413,10 +413,10 @@ The first spell you cast each turn has Wisdom 4. (As an additional cost to cast 
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>CW04 Truth Diviner</name>
+			<name>Truth Diviner</name>
 			<text>Flying
 When this creature enters, destroy target artifact or enchantment.</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/10_CW04 Truth Diviner.png" num="10">MST</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/39_Truth Diviner.png" num="39">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -431,9 +431,9 @@ When this creature enters, destroy target artifact or enchantment.</text>
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>CW05 Confident Huntress</name>
+			<name>Confident Huntress</name>
 			<text>When this creature dies, put a +1/+1 counter on target Cat you control.</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/11_CW05 Confident Huntress.png" num="11">MST</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/7_Confident Huntress.png" num="7">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -448,9 +448,9 @@ When this creature enters, destroy target artifact or enchantment.</text>
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>CW06 Youngling Protector</name>
+			<name>Youngling Protector</name>
 			<text>Sacrifice this creature: Creature tokens you control gain indestructible until end of turn.</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/12_CW06 Youngling Protector.png" num="12">MST</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/41_Youngling Protector.png" num="41">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -465,9 +465,9 @@ When this creature enters, destroy target artifact or enchantment.</text>
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>CW07 Stubborn Hornblower</name>
+			<name>Stubborn Hornblower</name>
 			<text>When this creature dies, create two 1/1 white Goat Peasant creature tokens.</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/13_CW07 Stubborn Hornblower.png" num="13">MST</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/36_Stubborn Hornblower.png" num="36">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -482,10 +482,10 @@ When this creature enters, destroy target artifact or enchantment.</text>
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>CW08 Cheerful Messenger</name>
+			<name>Cheerful Messenger</name>
 			<text>Flying
 When this creature enters, you gain 1 life, then draw a card.</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/14_CW08 Cheerful Messenger.png" num="14">MST</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/4_Cheerful Messenger.png" num="4">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -500,10 +500,10 @@ When this creature enters, you gain 1 life, then draw a card.</text>
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>CW09 Thraupian Harrier</name>
+			<name>Thraupian Harrier</name>
 			<text>Flying
 {W}, {T}: Tap target creature. This ability costs {1} more to activate if it targets a militant. (Armies, Heroes, Knights, Soldiers and Warriors are militants.)</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/15_CW09 Thraupian Harrier.png" num="15">MST</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/38_Thraupian Harrier.png" num="38">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -518,11 +518,11 @@ When this creature enters, you gain 1 life, then draw a card.</text>
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>CW10 Marks of Guilt</name>
+			<name>Marks of Guilt</name>
 			<text>Wisdom 4 (As an additional cost to cast this, you may exile four cards from your graveyard. If you do, copy it, and you may choose new targets for the copy.)
 Enchant creature
 Enchanted creature can&apos;t attack or block, and its activated abilities can&apos;t be activated.</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/16_CW10 Marks of Guilt.png" num="16">MST</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/20_Marks of Guilt.png" num="20">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -536,9 +536,9 @@ Enchanted creature can&apos;t attack or block, and its activated abilities can&a
 			<tablerow>1</tablerow>
 		</card>
 		<card>
-			<name>CW11 Blue Sky Elite</name>
+			<name>Blue Sky Elite</name>
 			<text>This creature has first strike as long as it&apos;s your turn.</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/17_CW11 Blue Sky Elite.png" num="17">MST</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/2_Blue Sky Elite.png" num="2">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -553,10 +553,10 @@ Enchanted creature can&apos;t attack or block, and its activated abilities can&a
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>CW12 City Gate Patrol</name>
+			<name>City Gate Patrol</name>
 			<text>Vigilance
 When this creature enters, create a 1/1 white Dog Soldier creature token.</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/18_CW12 City Gate Patrol.png" num="18">MST</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/6_City Gate Patrol.png" num="6">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -571,9 +571,9 @@ When this creature enters, create a 1/1 white Dog Soldier creature token.</text>
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>CW13 Generous Vendor</name>
+			<name>Generous Vendor</name>
 			<text>When this creature enters, creatures you control get +1/+1 until end of turn.</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/19_CW13 Generous Vendor.png" num="19">MST</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/14_Generous Vendor.png" num="14">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -588,9 +588,9 @@ When this creature enters, create a 1/1 white Dog Soldier creature token.</text>
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>CW14 Blessing of Kaniya</name>
+			<name>Blessing of Kaniya</name>
 			<text>Target creature gets +2/+2 until end of turn. If it&apos;s blocking, it gets +3/+3 until end of turn instead.</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/20_CW14 Blessing of Kaniya.png" num="20">MST</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/1_Blessing of Kaniya.png" num="1">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -604,10 +604,10 @@ When this creature enters, create a 1/1 white Dog Soldier creature token.</text>
 			<tablerow>3</tablerow>
 		</card>
 		<card>
-			<name>CW15 Dub</name>
+			<name>Dub</name>
 			<text>Enchant creature
 Enchanted creature gets +2/+2, has first strike, and is a Knight in addition to its other types.</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/21_CW15 Dub.png" num="21">MST</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/9_Dub.png" num="9">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -621,9 +621,9 @@ Enchanted creature gets +2/+2, has first strike, and is a Knight in addition to 
 			<tablerow>1</tablerow>
 		</card>
 		<card>
-			<name>CW16 Mobilize the Village</name>
+			<name>Mobilize the Village</name>
 			<text>Create three 1/1 white Rat Citizen creature tokens.</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/22_CW16 Mobilize the Village.png" num="22">MST</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/21_Mobilize the Village.png" num="21">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -637,9 +637,9 @@ Enchanted creature gets +2/+2, has first strike, and is a Knight in addition to 
 			<tablerow>3</tablerow>
 		</card>
 		<card>
-			<name>CW17 Plucking A Thorn</name>
+			<name>Plucking A Thorn</name>
 			<text>This spell deals 4 damage to target attacking or blocking creature. You gain life equal to the excess damage dealt this way.</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/23_CW17 Plucking A Thorn.png" num="23">MST</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/26_Plucking A Thorn.png" num="26">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -653,9 +653,9 @@ Enchanted creature gets +2/+2, has first strike, and is a Knight in addition to 
 			<tablerow>3</tablerow>
 		</card>
 		<card>
-			<name>CW18 Serene Crystallization</name>
+			<name>Serene Crystallization</name>
 			<text>When this enchantment enters, exile target nonland permanent an opponent controls until this enchantment leaves the battlefield.</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/24_CW18 Serene Crystallization.png" num="24">MST</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/32_Serene Crystallization.png" num="32">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -669,11 +669,11 @@ Enchanted creature gets +2/+2, has first strike, and is a Knight in addition to 
 			<tablerow>1</tablerow>
 		</card>
 		<card>
-			<name>CW19 Ring of Assurance</name>
+			<name>Ring of Assurance</name>
 			<text>This artifact enters tapped.
 Whenever this artifact becomes tapped, you gain 1 life.
 {T}: Add {W}.</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/25_CW19 Ring of Assurance.png" num="25">MST</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/29_Ring of Assurance.png" num="29">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -687,9 +687,9 @@ Whenever this artifact becomes tapped, you gain 1 life.
 			<tablerow>1</tablerow>
 		</card>
 		<card>
-			<name>CU01 Xolotl Raider</name>
+			<name>Xolotl Raider</name>
 			<text>Whenever this creature deals combat damage to an opponent, you may pay {1}{B}. If you do, that player discards a card.</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/47_CU01 Xolotl Raider.png" num="47">MST</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/81_Xolotl Raider.png" num="81">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -704,10 +704,10 @@ Whenever this artifact becomes tapped, you gain 1 life.
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>CU02 Ortugan Elder</name>
+			<name>Ortugan Elder</name>
 			<text>Defender
 {2}{U}: Until end of turn, this creature loses defender, gets +2/+0, and can&apos;t be blocked. Activate only once each turn, and only as a sorcery. This ability costs {2} less to activate if you&apos;ve paid a Wisdom cost this turn.</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/48_CU02 Ortugan Elder.png" num="48">MST</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/60_Ortugan Elder.png" num="60">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -722,9 +722,9 @@ Whenever this artifact becomes tapped, you gain 1 life.
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>CU03 Uncompromising Artist</name>
+			<name>Uncompromising Artist</name>
 			<text>When this creature enters, draw a card. Then discard a card unless there are two or more noncreature cards in your graveyard.</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/49_CU03 Uncompromising Artist.png" num="49">MST</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/76_Uncompromising Artist.png" num="76">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -739,10 +739,10 @@ Whenever this artifact becomes tapped, you gain 1 life.
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>CU04 Kodiloan Sentry</name>
+			<name>Kodiloan Sentry</name>
 			<text>Ward {1}
 This creature gets +2/+0 as long as you have two or more Moonstone counters.</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/50_CU04 Kodiloan Sentry.png" num="50">MST</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/57_Kodiloan Sentry.png" num="57">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -757,9 +757,9 @@ This creature gets +2/+0 as long as you have two or more Moonstone counters.</te
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>CU05 Beachside Patrol</name>
+			<name>Beachside Patrol</name>
 			<text>Remove a Moonstone counter from yourself: Untap this creature. It gets -1/+2 until the beginning of your next turn. Activate only once each turn, and only as a sorcery.</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/51_CU05 Beachside Patrol.png" num="51">MST</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/45_Beachside Patrol.png" num="45">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -774,10 +774,10 @@ This creature gets +2/+0 as long as you have two or more Moonstone counters.</te
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>CU06 Keensight Sorcerer</name>
+			<name>Keensight Sorcerer</name>
 			<text>When this creature enters, you get a Moonstone counter.
 Spells you cast cost {1} less to cast as long as you&apos;ve gotten one or more Moonstone counters this turn.</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/52_CU06 Keensight Sorcerer.png" num="52">MST</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/56_Keensight Sorcerer.png" num="56">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -792,10 +792,10 @@ Spells you cast cost {1} less to cast as long as you&apos;ve gotten one or more 
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>CU07 Hullcutter Duo</name>
+			<name>Hullcutter Duo</name>
 			<text>When this creature enters, create a 1/1 blue Octopus Rogue creature token.
 Whenever this creature attacks, target creature you control with lesser power can&apos;t be blocked this turn.</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/53_CU07 Hullcutter Duo.png" num="53">MST</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/53_Hullcutter Duo.png" num="53">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -810,9 +810,9 @@ Whenever this creature attacks, target creature you control with lesser power ca
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>CU08 Selaki Stormrider</name>
+			<name>Selaki Stormrider</name>
 			<text>Whenever this creature attacks, red and/or blue noncreature spells you cast cost {1} less to cast until your next turn. This triggers only once each turn.</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/54_CU08 Selaki Stormrider.png" num="54">MST</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/67_Selaki Stormrider.png" num="67">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -827,11 +827,11 @@ Whenever this creature attacks, target creature you control with lesser power ca
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>CU09 Siltshore Sentinel</name>
+			<name>Siltshore Sentinel</name>
 			<text>When this creature enters, choose one —
 • Return target creature you don&apos;t control to its owner&apos;s hand.
 • Scry 2, then you get a Moonstone counter.</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/55_CU09 Siltshore Sentinel.png" num="55">MST</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/68_Siltshore Sentinel.png" num="68">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -846,12 +846,12 @@ Whenever this creature attacks, target creature you control with lesser power ca
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>CU10 Armed Delegation</name>
+			<name>Armed Delegation</name>
 			<text>Flying
 Whenever this creature deals combat damage to an opponent, that opponent chooses one —
 • You draw a card.
 • They tap a creature they control. That creature doesn&apos;t untap during their next untap step.</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/56_CU10 Armed Delegation.png" num="56">MST</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/44_Armed Delegation.png" num="44">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -866,10 +866,10 @@ Whenever this creature deals combat damage to an opponent, that opponent chooses
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>CU11 Elder Cirein</name>
+			<name>Elder Cirein</name>
 			<text>When this creature enters, you draw a card.
 This creature can&apos;t be blocked as long as you&apos;ve cast two or more instant and/or sorcery spells this turn.</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/57_CU11 Elder Cirein.png" num="57">MST</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/51_Elder Cirein.png" num="51">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -884,10 +884,10 @@ This creature can&apos;t be blocked as long as you&apos;ve cast two or more inst
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>CU12 Brash Saorbeak</name>
+			<name>Brash Saorbeak</name>
 			<text>Flying
 When this creature leaves the battlefield, if it attacked or blocked this turn, scry 2.</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/58_CU12 Brash Saorbeak.png" num="58">MST</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/46_Brash Saorbeak.png" num="46">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -902,11 +902,11 @@ When this creature leaves the battlefield, if it attacked or blocked this turn, 
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>CU13 Amulet of the Future</name>
+			<name>Amulet of the Future</name>
 			<text>This artifact enters tapped.
 When this artifact enters, scry 3.
 {T}: Add {U}.</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/59_CU13 Amulet of the Future.png" num="59">MST</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/42_Amulet of the Future.png" num="42">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -920,11 +920,11 @@ When this artifact enters, scry 3.
 			<tablerow>1</tablerow>
 		</card>
 		<card>
-			<name>CU14 Moonhalo Restraint</name>
+			<name>Moonhalo Restraint</name>
 			<text>Enchant creature
 Enchanted creature can&apos;t attack or block.
 Remove three Moonstone counters from yourself: Return this Aura to your hand. Enchanted creature&apos;s owner shuffles it into their library.</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/60_CU14 Moonhalo Restraint.png" num="60">MST</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/59_Moonhalo Restraint.png" num="59">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -938,9 +938,9 @@ Remove three Moonstone counters from yourself: Return this Aura to your hand. En
 			<tablerow>1</tablerow>
 		</card>
 		<card>
-			<name>CU15 Unsummon</name>
+			<name>Unsummon</name>
 			<text>Return target creature to its owner&apos;s hand.</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/61_CU15 Unsummon.png" num="61">MST</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/77_Unsummon.png" num="77">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -954,10 +954,10 @@ Remove three Moonstone counters from yourself: Return this Aura to your hand. En
 			<tablerow>3</tablerow>
 		</card>
 		<card>
-			<name>CU16 Raise Shields</name>
+			<name>Raise Shields</name>
 			<text>Wisdom 3 (As an additional cost to cast this, you may exile three cards from your graveyard. If you do, copy it, and you may choose new targets for the copy.)
 Target creature gains hexproof and gets +0/+2 until end of turn.</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/62_CU16 Raise Shields.png" num="62">MST</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/63_Raise Shields.png" num="63">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -971,11 +971,11 @@ Target creature gains hexproof and gets +0/+2 until end of turn.</text>
 			<tablerow>3</tablerow>
 		</card>
 		<card>
-			<name>CU17 Unweaving Ritual</name>
+			<name>Unweaving Ritual</name>
 			<text>Choose one —
 • Counter target permanent spell.
 • Return target nonland permanent to its owner&apos;s hand.</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/63_CU17 Unweaving Ritual.png" num="63">MST</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/78_Unweaving Ritual.png" num="78">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -989,9 +989,9 @@ Target creature gains hexproof and gets +0/+2 until end of turn.</text>
 			<tablerow>3</tablerow>
 		</card>
 		<card>
-			<name>CU18 Anticipate Their Next Moves</name>
+			<name>Anticipate Their Next Moves</name>
 			<text>Counter target spell unless its controller pays {X}, where X is 2 plus the total number of cards with Wisdom in your graveyard and the number of permanents you control with Wisdom.</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/64_CU18 Anticipate Their Next Moves.png" num="64">MST</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/43_Anticipate Their Next Moves.png" num="43">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1005,11 +1005,11 @@ Target creature gains hexproof and gets +0/+2 until end of turn.</text>
 			<tablerow>3</tablerow>
 		</card>
 		<card>
-			<name>CB01 Battle-Weary Swordtail</name>
+			<name>Battle-Weary Swordtail</name>
 			<text>When this creature dies, choose one —
 • Put a +1/+1 counter on another target creature you control.
 • Create a 1/1 white Rat Citizen creature token.</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/88_CB01 Battle-Weary Swordtail.png" num="88">MST</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/86_Battle-Weary Swordtail.png" num="86">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1024,11 +1024,11 @@ Target creature gains hexproof and gets +0/+2 until end of turn.</text>
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>CB02 Despair Path Master</name>
+			<name>Despair Path Master</name>
 			<text>When this creature enters, draw a card, then choose one —
 • You lose 1 life.
 • You discard a card.</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/89_CB02 Despair Path Master.png" num="89">MST</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/95_Despair Path Master.png" num="95">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1043,10 +1043,10 @@ Target creature gains hexproof and gets +0/+2 until end of turn.</text>
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>CB03 Adept of the Blood Codex</name>
+			<name>Adept of the Blood Codex</name>
 			<text>Ward—pay 2 life
 {2}, Sacrifice a creature: You draw a card, then each opponent loses 1 life and you gain 1 life. Activate only once each turn.</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/90_CB03 Adept of the Blood Codex.png" num="90">MST</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/83_Adept of the Blood Codex.png" num="83">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1061,9 +1061,9 @@ Target creature gains hexproof and gets +0/+2 until end of turn.</text>
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>CB04 Iron Empire Kenin</name>
+			<name>Iron Empire Kenin</name>
 			<text>Deathtouch</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/91_CB04 Iron Empire Kenin.png" num="91">MST</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/104_Iron Empire Kenin.png" num="104">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1078,9 +1078,9 @@ Target creature gains hexproof and gets +0/+2 until end of turn.</text>
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>CB05 Spiked Diggers</name>
+			<name>Spiked Diggers</name>
 			<text>When this creature enters, mill three cards. Then if there are two or more creature cards in your graveyard, put a +1/+1 counter on this creature.</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/92_CB05 Spiked Diggers.png" num="92">MST</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/121_Spiked Diggers.png" num="121">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1095,10 +1095,10 @@ Target creature gains hexproof and gets +0/+2 until end of turn.</text>
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>CB06 Moonwarped Beast</name>
+			<name>Moonwarped Beast</name>
 			<text>As an additional cost to cast this spell, sacrifice a creature or remove a Moonstone counter from yourself.
 Menace</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/93_CB06 Moonwarped Beast.png" num="93">MST</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/107_Moonwarped Beast.png" num="107">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1113,10 +1113,10 @@ Menace</text>
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>CB07 Midnight Messenger</name>
+			<name>Midnight Messenger</name>
 			<text>When this creature enters, each player discards a card.
 Pay 1 life: This creature gains flying until end of turn. Activate only once each turn, and only as a sorcery.</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/94_CB07 Midnight Messenger.png" num="94">MST</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/106_Midnight Messenger.png" num="106">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1131,11 +1131,11 @@ Pay 1 life: This creature gains flying until end of turn. Activate only once eac
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>CB08 Banished Clairvoyant</name>
+			<name>Banished Clairvoyant</name>
 			<text>Flying
 Whenever this creature attacks, you may discard a card. When you do, target creature you control gains menace until end of turn.
 At the beginning of your end step, if any player discarded two or more cards, you scry 2.</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/95_CB08 Banished Clairvoyant.png" num="95">MST</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/85_Banished Clairvoyant.png" num="85">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1150,10 +1150,10 @@ At the beginning of your end step, if any player discarded two or more cards, yo
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>CB09 Escaped Lab Rat</name>
+			<name>Escaped Lab Rat</name>
 			<text>Trample
 When this creature enters, each player discards a card.</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/96_CB09 Escaped Lab Rat.png" num="96">MST</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/97_Escaped Lab Rat.png" num="97">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1168,10 +1168,10 @@ When this creature enters, each player discards a card.</text>
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>CB10 Snatcher Drakeling</name>
+			<name>Snatcher Drakeling</name>
 			<text>Flying
 When this creature enters, return target artifact, creature or planeswalker card from your graveyard to your hand.</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/97_CB10 Snatcher Drakeling.png" num="97">MST</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/119_Snatcher Drakeling.png" num="119">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1186,10 +1186,10 @@ When this creature enters, return target artifact, creature or planeswalker card
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>CB11 Dalus Desert Askor</name>
+			<name>Dalus Desert Askor</name>
 			<text>Menace
 Whenever this creature attacks, target creature you control with power 2 or less gains menace until end of turn.</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/98_CB11 Dalus Desert Askor.png" num="98">MST</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/92_Dalus Desert Askor.png" num="92">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1204,11 +1204,11 @@ Whenever this creature attacks, target creature you control with power 2 or less
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>CB12 Sign Your Life Away</name>
+			<name>Sign Your Life Away</name>
 			<text>As an additional cost to cast this spell, sacrifice a creature.
 Each player loses 2 life.
 You draw two cards. If a token creature was sacrificed to cast this spell, you draw three cards instead.</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/99_CB12 Sign Your Life Away.png" num="99">MST</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/118_Sign Your Life Away.png" num="118">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1222,9 +1222,9 @@ You draw two cards. If a token creature was sacrificed to cast this spell, you d
 			<tablerow>3</tablerow>
 		</card>
 		<card>
-			<name>CB13 Infernal Resourcefulness</name>
+			<name>Infernal Resourcefulness</name>
 			<text>Destroy target creature with mana value 2 or less. If that creature doesn&apos;t share a creature type with a creature you control, you may return up to one target creature card from your graveyard to your hand.</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/100_CB13 Infernal Resourcefulness.png" num="100">MST</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/102_Infernal Resourcefulness.png" num="102">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1238,10 +1238,10 @@ You draw two cards. If a token creature was sacrificed to cast this spell, you d
 			<tablerow>3</tablerow>
 		</card>
 		<card>
-			<name>CB14 Deceptive Wagering</name>
+			<name>Deceptive Wagering</name>
 			<text>Target player discards two cards. Then if you discarded one or more cards this turn, that player sacrifices a creature.
 Surveil 2.</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/101_CB14 Deceptive Wagering.png" num="101">MST</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/94_Deceptive Wagering.png" num="94">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1255,10 +1255,10 @@ Surveil 2.</text>
 			<tablerow>3</tablerow>
 		</card>
 		<card>
-			<name>CB15 Blow to the Pharynx</name>
+			<name>Blow to the Pharynx</name>
 			<text>As an additional cost to cast this spell, discard a card.
 Destroy target creature or planeswalker.</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/102_CB15 Blow to the Pharynx.png" num="102">MST</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/87_Blow to the Pharynx.png" num="87">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1272,9 +1272,9 @@ Destroy target creature or planeswalker.</text>
 			<tablerow>3</tablerow>
 		</card>
 		<card>
-			<name>CB16 Reluctant Companions</name>
+			<name>Reluctant Companions</name>
 			<text>Create a 1/1 black Rat Rogue creature token with menace and a 1/1 white Rat Citizen creature token. Then you lose 1 life unless you control three or more Rats.</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/103_CB16 Reluctant Companions.png" num="103">MST</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/115_Reluctant Companions.png" num="115">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1288,11 +1288,11 @@ Destroy target creature or planeswalker.</text>
 			<tablerow>3</tablerow>
 		</card>
 		<card>
-			<name>CB17 Carnikinesis</name>
+			<name>Carnikinesis</name>
 			<text>Choose one —
 • Target creature gets -2/-2 until end of turn.
 • Target creature gains indestructible until end of turn.</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/104_CB17 Carnikinesis.png" num="104">MST</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/89_Carnikinesis.png" num="89">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1306,11 +1306,11 @@ Destroy target creature or planeswalker.</text>
 			<tablerow>3</tablerow>
 		</card>
 		<card>
-			<name>CB18 Unnerving Onyx</name>
+			<name>Unnerving Onyx</name>
 			<text>This artifact enters tapped.
 When this artifact enters, you may put target creature card in your graveyard on top of your library.
 {T}: Add {B}.</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/105_CB18 Unnerving Onyx.png" num="105">MST</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/122_Unnerving Onyx.png" num="122">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1324,9 +1324,9 @@ When this artifact enters, you may put target creature card in your graveyard on
 			<tablerow>1</tablerow>
 		</card>
 		<card>
-			<name>CB19 Play Dead</name>
+			<name>Play Dead</name>
 			<text>Until end of turn, target creature you control gains &quot;When this creature dies, return it to the battlefield tapped under its owner&apos;s control.&quot;</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/106_CB19 Play Dead.png" num="106">MST</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/112_Play Dead.png" num="112">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1340,10 +1340,10 @@ When this artifact enters, you may put target creature card in your graveyard on
 			<tablerow>3</tablerow>
 		</card>
 		<card>
-			<name>CR01 Worldly Sellsword</name>
+			<name>Worldly Sellsword</name>
 			<text>Haste
 When this creature dies, if it attacked this turn or if you discarded a card this turn, draw a card.</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/128_CR01 Worldly Sellsword.png" num="128">MST</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/164_Worldly Sellsword.png" num="164">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1358,10 +1358,10 @@ When this creature dies, if it attacked this turn or if you discarded a card thi
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>CR02 Prepared Fortress Guard</name>
+			<name>Prepared Fortress Guard</name>
 			<text>Haste
 Whenever this creature attacks, you may pay {1}. If you do, it deals 1 damage to defending player.</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/129_CR02 Prepared Fortress Guard.png" num="129">MST</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/152_Prepared Fortress Guard.png" num="152">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1376,10 +1376,10 @@ Whenever this creature attacks, you may pay {1}. If you do, it deals 1 damage to
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>CR03 Lafahdian Minister of the Arcane</name>
+			<name>Lafahdian Minister of the Arcane</name>
 			<text>Whenever this creature enters or attacks, you may discard a card. If you do, draw a card.
 This creature gets +1/+0 as long as there are five or more cards in your graveyard.</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/130_CR03 Lafahdian Minister of the Arcane.png" num="130">MST</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/145_Lafahdian Minister of the Arcane.png" num="145">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1394,10 +1394,10 @@ This creature gets +1/+0 as long as there are five or more cards in your graveya
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>CR05 Mountain Miner</name>
+			<name>Mountain Miner</name>
 			<text>This creature has trample as long as there are two or more land cards in your graveyard.
 Whenever this creature attacks, you may discard a card. If you do, draw a card.</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/132_CR05 Mountain Miner.png" num="132">MST</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/149_Mountain Miner.png" num="149">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1412,10 +1412,10 @@ Whenever this creature attacks, you may discard a card. If you do, draw a card.<
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>CR06 Adventuring Mages of Squa</name>
+			<name>Adventuring Mages of Squa</name>
 			<text>When this creature enters, if it&apos;s not a token, create a token that&apos;s a copy of it.
 Whenever this creature deals combat damage to a player or planeswalker, instant and/or sorcery spells you cast this turn cost {1} less to cast.</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/133_CR06 Adventuring Mages of Squa.png" num="133">MST</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/125_Adventuring Mages of Squa.png" num="125">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1430,9 +1430,9 @@ Whenever this creature deals combat damage to a player or planeswalker, instant 
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>CR07 Aardite Brute</name>
+			<name>Aardite Brute</name>
 			<text>Whenever this creature attacks or blocks, if it isn&apos;t attacking or blocking alone, it gets +1/+1 until end of turn.</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/134_CR07 Aardite Brute.png" num="134">MST</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/124_Aardite Brute.png" num="124">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1447,10 +1447,10 @@ Whenever this creature deals combat damage to a player or planeswalker, instant 
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>CR08 Eccentric Scavenger</name>
+			<name>Eccentric Scavenger</name>
 			<text>Haste
 When this creature enters, if you cast it, return target instant or sorcery card from your graveyard to your hand, then return a card at random from your graveyard to your hand.</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/135_CR08 Eccentric Scavenger.png" num="135">MST</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/134_Eccentric Scavenger.png" num="134">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1465,11 +1465,11 @@ When this creature enters, if you cast it, return target instant or sorcery card
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>CR09 Army of West Khyth</name>
+			<name>Army of West Khyth</name>
 			<text>Kicker {2}
 Trample
 This creature enters with two +1/+1 counters on it if it was kicked.</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/136_CR09 Army of West Khyth.png" num="136">MST</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/126_Army of West Khyth.png" num="126">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1484,10 +1484,10 @@ This creature enters with two +1/+1 counters on it if it was kicked.</text>
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>CR10 Greater Imaca</name>
+			<name>Greater Imaca</name>
 			<text>Haste
 This creature has trample as long as you&apos;ve cast an instant or sorcery this turn.</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/137_CR10 Greater Imaca.png" num="137">MST</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/140_Greater Imaca.png" num="140">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1502,10 +1502,10 @@ This creature has trample as long as you&apos;ve cast an instant or sorcery this
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>CR11 Gem Igniter</name>
+			<name>Gem Igniter</name>
 			<text>Whenever you sacrifice one or more lands, or discard one or more land cards, this creature deals 1 damage to each opponent.
 {3}, Sacrifice a land: Draw a card. Activate only once each turn as a sorcery.</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/138_CR11 Gem Igniter.png" num="138">MST</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/139_Gem Igniter.png" num="139">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1520,10 +1520,10 @@ This creature has trample as long as you&apos;ve cast an instant or sorcery this
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>CR12 Sprite Bolt</name>
+			<name>Sprite Bolt</name>
 			<text>Wisdom 5 (As an additional cost to cast this, you may exile five cards from your graveyard. If you do, copy it, and you may choose new targets for the copy.)
 This spell deals 2 damage to any target.</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/139_CR12 Sprite Bolt.png" num="139">MST</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/158_Sprite Bolt.png" num="158">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1537,11 +1537,11 @@ This spell deals 2 damage to any target.</text>
 			<tablerow>3</tablerow>
 		</card>
 		<card>
-			<name>CR13 Sound the Dragonhorn</name>
+			<name>Sound the Dragonhorn</name>
 			<text>Creatures you control get +2/+0 until end of turn, then choose one —
 • Target creature gains haste until end of turn.
 • Target creature can&apos;t block this turn.</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/140_CR13 Sound the Dragonhorn.png" num="140">MST</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/157_Sound the Dragonhorn.png" num="157">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1555,11 +1555,11 @@ This spell deals 2 damage to any target.</text>
 			<tablerow>3</tablerow>
 		</card>
 		<card>
-			<name>CR14 Smash Open</name>
+			<name>Smash Open</name>
 			<text>Choose one —
 • Exile target artifact.
 • Target creature gets +3/+3 and gains trample until end of turn.</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/141_CR14 Smash Open.png" num="141">MST</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/156_Smash Open.png" num="156">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1573,11 +1573,11 @@ This spell deals 2 damage to any target.</text>
 			<tablerow>3</tablerow>
 		</card>
 		<card>
-			<name>CR15 Entrancing Ruby</name>
+			<name>Entrancing Ruby</name>
 			<text>This artifact enters tapped.
 When this artifact enters, you may discard a card. If you do, draw a card.
 {T}: Add {R}.</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/142_CR15 Entrancing Ruby.png" num="142">MST</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/135_Entrancing Ruby.png" num="135">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1591,10 +1591,10 @@ When this artifact enters, you may discard a card. If you do, draw a card.
 			<tablerow>1</tablerow>
 		</card>
 		<card>
-			<name>CR16 Storm&apos;s Strike</name>
+			<name>Storm&apos;s Strike</name>
 			<text>Wisdom 2 (As an additional cost to cast this, you may exile two cards from your graveyard. If you do, copy it, and you may choose new targets for the copy.)
 Target creature gets +2/+0 and gains first strike until end of turn.</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/143_CR16 Storm&apos;s Strike.png" num="143">MST</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/160_Storm&apos;s Strike.png" num="160">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1608,10 +1608,10 @@ Target creature gets +2/+0 and gains first strike until end of turn.</text>
 			<tablerow>3</tablerow>
 		</card>
 		<card>
-			<name>CR17 Fireside Tales</name>
+			<name>Fireside Tales</name>
 			<text>Wisdom 2 (As an additional cost to cast this, you may exile two cards from your graveyard. If you do, copy it, and you may choose new targets for the copy.)
 Discard a card, then draw two cards.</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/144_CR17 Fireside Tales.png" num="144">MST</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/136_Fireside Tales.png" num="136">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1625,11 +1625,11 @@ Discard a card, then draw two cards.</text>
 			<tablerow>3</tablerow>
 		</card>
 		<card>
-			<name>CR18 Flames of Passion</name>
+			<name>Flames of Passion</name>
 			<text>This spell costs {2} less to cast if you&apos;ve discarded one or more cards this turn.
 This spell deals 5 damage to target permanent.
 Draw a card.</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/145_CR18 Flames of Passion.png" num="145">MST</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/137_Flames of Passion.png" num="137">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1643,10 +1643,10 @@ Draw a card.</text>
 			<tablerow>3</tablerow>
 		</card>
 		<card>
-			<name>CR19 Driven to Destruction</name>
+			<name>Driven to Destruction</name>
 			<text>Kicker—sacrifice a land
 This spell deals 4 damage to any target if that target is a permanent or if this spell was kicked.</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/146_CR19 Driven to Destruction.png" num="146">MST</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/133_Driven to Destruction.png" num="133">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1660,10 +1660,10 @@ This spell deals 4 damage to any target if that target is a permanent or if this
 			<tablerow>3</tablerow>
 		</card>
 		<card>
-			<name>CG01 Flower Stalker</name>
+			<name>Flower Stalker</name>
 			<text>This creature has vigilance as long as you&apos;ve gotten a Moonstone counter or discarded a card this turn.
 {T}: Add one mana of any color.</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/168_CG01 Flower Stalker.png" num="168">MST</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/173_Flower Stalker.png" num="173">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1678,9 +1678,9 @@ This spell deals 4 damage to any target if that target is a permanent or if this
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>CG02 Sika Matriarch</name>
+			<name>Sika Matriarch</name>
 			<text>When this creature enters, you gain 4 life.</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/169_CG02 Sika Matriarch.png" num="169">MST</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/193_Sika Matriarch.png" num="193">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1695,9 +1695,9 @@ This spell deals 4 damage to any target if that target is a permanent or if this
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>CG03 Unphased Journeyers</name>
+			<name>Unphased Journeyers</name>
 			<text>Wisdom 4 (As an additional cost to cast this, you may exile four cards from your graveyard. If you do, copy it, and you may choose new targets for the copy.)</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/170_CG03 Unphased Journeyers.png" num="170">MST</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/202_Unphased Journeyers.png" num="202">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1712,9 +1712,9 @@ This spell deals 4 damage to any target if that target is a permanent or if this
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>CG04 Fangscale Geologist</name>
+			<name>Fangscale Geologist</name>
 			<text>When this creature enters, mill three cards, then return a land card from your graveyard to your hand.</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/171_CG04 Fangscale Geologist.png" num="171">MST</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/172_Fangscale Geologist.png" num="172">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1729,9 +1729,9 @@ This spell deals 4 damage to any target if that target is a permanent or if this
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>CG05 Night-Stroll Guardian</name>
+			<name>Night-Stroll Guardian</name>
 			<text>When this creature enters, reveal the top card of your library. If it&apos;s a Rat card, you may put it into your hand. Otherwise, put it back on top of your library or into your graveyard.</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/172_CG05 Night-Stroll Guardian.png" num="172">MST</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/186_Night-Stroll Guardian.png" num="186">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1746,12 +1746,12 @@ This spell deals 4 damage to any target if that target is a permanent or if this
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>CG06 Glacier Lookout</name>
+			<name>Glacier Lookout</name>
 			<text>Kicker {2} (You may pay an additional {2} as you cast this spell.)
 Reach
 When this creature enters, if it was kicked, create a creature token that&apos;s a copy of it.
 When this creature enters, you get a Moonstone counter.</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/173_CG06 Glacier Lookout.png" num="173">MST</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/174_Glacier Lookout.png" num="174">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1766,10 +1766,10 @@ When this creature enters, you get a Moonstone counter.</text>
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>CG07 Wildheart Guardian</name>
+			<name>Wildheart Guardian</name>
 			<text>Ward {1}
 This creature gets +2/+2 as long as there are two or more land cards in your graveyard.</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/174_CG07 Wildheart Guardian.png" num="174">MST</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/204_Wildheart Guardian.png" num="204">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1784,10 +1784,10 @@ This creature gets +2/+2 as long as there are two or more land cards in your gra
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>CG08 School of Seaquids</name>
+			<name>School of Seaquids</name>
 			<text>This creature enters with three +1/+1 counters on it.
 {1}{U}: For each kind of counter on target permanent or player, give that permanent or player another counter of that kind. Activate only once each turn, and only as a sorcery.</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/175_CG08 School of Seaquids.png" num="175">MST</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/190_School of Seaquids.png" num="190">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1802,11 +1802,11 @@ This creature gets +2/+2 as long as there are two or more land cards in your gra
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>CG09 Sociable Inn Owner</name>
+			<name>Sociable Inn Owner</name>
 			<text>Trample
 This creature enters with a +1/+1 counter on it if you&apos;ve gained life this turn.
 When this creature enters, you gain 2 life and scry 1.</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/176_CG09 Sociable Inn Owner.png" num="176">MST</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/194_Sociable Inn Owner.png" num="194">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1821,9 +1821,9 @@ When this creature enters, you gain 2 life and scry 1.</text>
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>CG10 Unconventional Summoner</name>
+			<name>Unconventional Summoner</name>
 			<text>When this enters, create a 1/1 white Dragon creature token with flying.</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/177_CG10 Unconventional Summoner.png" num="177">MST</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/200_Unconventional Summoner.png" num="200">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1838,9 +1838,9 @@ When this creature enters, you gain 2 life and scry 1.</text>
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>CG11 Scallywag Tracker</name>
+			<name>Scallywag Tracker</name>
 			<text>When this enters, if a land card entered or left your graveyard this turn, put a +1/+1 counter on target creature you control.</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/178_CG11 Scallywag Tracker.png" num="178">MST</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/189_Scallywag Tracker.png" num="189">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1855,10 +1855,10 @@ When this creature enters, you gain 2 life and scry 1.</text>
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>CG12 Thunder God&apos;s Boon</name>
+			<name>Thunder God&apos;s Boon</name>
 			<text>Until end of turn, target creature you control gets +3/+3 and gains reach.
 Scry 1.</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/179_CG12 Thunder God&apos;s Boon.png" num="179">MST</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/199_Thunder God&apos;s Boon.png" num="199">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1872,11 +1872,11 @@ Scry 1.</text>
 			<tablerow>3</tablerow>
 		</card>
 		<card>
-			<name>CG13 Haul In the Nets</name>
+			<name>Haul In the Nets</name>
 			<text>Choose one —
 • You get three Moonstone counters, then may put a land card from your hand onto the battlefield.
 • Target creature you control deals damage equal to its power to target creature or planeswalker you don&apos;t control.</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/180_CG13 Haul In the Nets.png" num="180">MST</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/178_Haul In the Nets.png" num="178">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1890,9 +1890,9 @@ Scry 1.</text>
 			<tablerow>3</tablerow>
 		</card>
 		<card>
-			<name>CG14 Grapple with the Past</name>
+			<name>Grapple with the Past</name>
 			<text>Mill three cards, then you may return a creature or land card from your graveyard to your hand.</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/181_CG14 Grapple with the Past.png" num="181">MST</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/176_Grapple with the Past.png" num="176">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1906,11 +1906,11 @@ Scry 1.</text>
 			<tablerow>3</tablerow>
 		</card>
 		<card>
-			<name>CG15 Moonguided Shot</name>
+			<name>Moonguided Shot</name>
 			<text>Choose one —
 • Destroy target creature with flying.
 • Untap target creature you control. Until end of turn, that creature gets +1/+2 and gains reach.</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/182_CG15 Moonguided Shot.png" num="182">MST</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/185_Moonguided Shot.png" num="185">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1924,9 +1924,9 @@ Scry 1.</text>
 			<tablerow>3</tablerow>
 		</card>
 		<card>
-			<name>CG16 Ruined Relics</name>
+			<name>Ruined Relics</name>
 			<text>Destroy target artifact or enchantment. If an artifact is destroyed this way, put a +1/+1 counter on a creature you control. Otherwise, you gain 2 life.</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/183_CG16 Ruined Relics.png" num="183">MST</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/187_Ruined Relics.png" num="187">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1940,11 +1940,11 @@ Scry 1.</text>
 			<tablerow>3</tablerow>
 		</card>
 		<card>
-			<name>CG17 Limb Enhancement</name>
+			<name>Limb Enhancement</name>
 			<text>Enchant creature
 When this Aura enters, you get a Moonstone counter.
 Enchanted creature gets +2/+3.</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/184_CG17 Limb Enhancement.png" num="184">MST</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/183_Limb Enhancement.png" num="183">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1958,10 +1958,10 @@ Enchanted creature gets +2/+3.</text>
 			<tablerow>1</tablerow>
 		</card>
 		<card>
-			<name>CG18 Tangled in Crops</name>
+			<name>Tangled in Crops</name>
 			<text>Search your library for a basic land card, put that card onto the battlefield tapped, then shuffle.
 Prevent all combat damage that would be dealt this turn.</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/185_CG18 Tangled in Crops.png" num="185">MST</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/198_Tangled in Crops.png" num="198">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1975,11 +1975,11 @@ Prevent all combat damage that would be dealt this turn.</text>
 			<tablerow>3</tablerow>
 		</card>
 		<card>
-			<name>CG19 Shard of Growth</name>
+			<name>Shard of Growth</name>
 			<text>This artifact enters tapped.
 When this artifact enters, put a +1/+1 counter on target creature you control.
 {T}: Add {G}.</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/186_CG19 Shard of Growth.png" num="186">MST</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/192_Shard of Growth.png" num="192">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -1993,11 +1993,11 @@ When this artifact enters, put a +1/+1 counter on target creature you control.
 			<tablerow>1</tablerow>
 		</card>
 		<card>
-			<name>UW01 Rooftop Pouncer</name>
+			<name>Rooftop Pouncer</name>
 			<text>This creature enters with a +1/+1 counter on it as long as you control another militant. (Armies, Heroes, Knights, Soldiers and Warriors are militants.)
 First strike
 {W}: Untap this creature. It gains reach until your next turn. Activate only once each turn and only as a sorcery.</text>
-			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/35_UW01 Rooftop Pouncer.png" num="35">MST</set>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/30_Rooftop Pouncer.png" num="30">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2012,10 +2012,10 @@ First strike
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>UW02 Hagzaga Squadron</name>
+			<name>Hagzaga Squadron</name>
 			<text>Flying, vigilance
 Whenever another creature with flying you control enters, put a +1/+1 counter on this creature. This triggers only once each turn.</text>
-			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/36_UW02 Hagzaga Squadron.png" num="36">MST</set>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/15_Hagzaga Squadron.png" num="15">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2030,9 +2030,9 @@ Whenever another creature with flying you control enters, put a +1/+1 counter on
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>UW03 Duchess of the Trials</name>
+			<name>Duchess of the Trials</name>
 			<text>When this creature enters, for each player, exile up to one target nonland permanent that player controls. Each of those cards&apos; owners may pay {1} as a sorcery to put them into their hand.</text>
-			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/37_UW03 Duchess of the Trials.png" num="37">MST</set>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/10_Duchess of the Trials.png" num="10">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2047,11 +2047,11 @@ Whenever another creature with flying you control enters, put a +1/+1 counter on
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>UW04 Stoic Medic</name>
+			<name>Stoic Medic</name>
 			<text>Flash
 Kicker {W}
 When this creature enters, another target creature you control gains indestructible until end of turn. Then if this spell was kicked, put a +1/+1 counter on target creature you control.</text>
-			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/38_UW04 Stoic Medic.png" num="38">MST</set>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/34_Stoic Medic.png" num="34">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2066,10 +2066,10 @@ When this creature enters, another target creature you control gains indestructi
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>UW05 Spire Guru</name>
+			<name>Spire Guru</name>
 			<text>Flying
 Pay 3 life: This creature gains first strike and indestructible until end of turn. Tap this creature. Activate only once each turn.</text>
-			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/39_UW05 Spire Guru.png" num="39">MST</set>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/33_Spire Guru.png" num="33">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2084,11 +2084,11 @@ Pay 3 life: This creature gains first strike and indestructible until end of tur
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>UW06 Contemplative Relaxation</name>
+			<name>Contemplative Relaxation</name>
 			<text>Gain 5 life.
 Create a 1/1 white Cat Peasant creature, then put a +1/+1 counter on each creature you control.
 Draw a card.</text>
-			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/40_UW06 Contemplative Relaxation.png" num="40">MST</set>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/8_Contemplative Relaxation.png" num="8">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2102,10 +2102,10 @@ Draw a card.</text>
 			<tablerow>3</tablerow>
 		</card>
 		<card>
-			<name>UW07 Sunblaze Aerie Delegate</name>
+			<name>Sunblaze Aerie Delegate</name>
 			<text>Flying, lifelink
 Whenever another creature dies for the first time each turn while this creature is tapped, untap this creature.</text>
-			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/41_UW07 Sunblaze Aerie Delegate.png" num="41">MST</set>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/37_Sunblaze Aerie Delegate.png" num="37">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2120,10 +2120,10 @@ Whenever another creature dies for the first time each turn while this creature 
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>UW08 Lafahd Royal Expedition</name>
+			<name>Lafahd Royal Expedition</name>
 			<text>Ward {2}
 Whenever this creature attacks, if defending player has seven or more cards in their graveyard, this creature gains double strike until end of turn.</text>
-			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/42_UW08 Lafahd Royal Expedition.png" num="42">MST</set>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/19_Lafahd Royal Expedition.png" num="19">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2138,10 +2138,10 @@ Whenever this creature attacks, if defending player has seven or more cards in t
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>UW09 Rewoven Fates</name>
+			<name>Rewoven Fates</name>
 			<text>As an additional cost to cast this spell, sacrifice a creature or a nontoken, noncreature permanent.
 Return target creature or planeswalker card from your graveyard to the battlefield.</text>
-			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/43_UW09 Rewoven Fates.png" num="43">MST</set>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/28_Rewoven Fates.png" num="28">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2155,11 +2155,11 @@ Return target creature or planeswalker card from your graveyard to the battlefie
 			<tablerow>3</tablerow>
 		</card>
 		<card>
-			<name>UW10 Bracer of Light</name>
+			<name>Bracer of Light</name>
 			<text>Enchant creature
 When this Aura enters, draw a card.
 Enchanted creature gets +2/+1 and has ward {2}. (Whenever this permanent becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2}.)</text>
-			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/44_UW10 Bracer of Light.png" num="44">MST</set>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/3_Bracer of Light.png" num="3">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2173,10 +2173,10 @@ Enchanted creature gets +2/+1 and has ward {2}. (Whenever this permanent becomes
 			<tablerow>1</tablerow>
 		</card>
 		<card>
-			<name>UW11 Storm of Defiance</name>
+			<name>Storm of Defiance</name>
 			<text>This spell costs {W} less to cast as long as you control 3 or more creatures or a nontoken militant creature. (Armies, Heroes, Knights, Soldiers and Warriors are militants.)
 Exile target attacking or blocking creature.</text>
-			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/45_UW11 Storm of Defiance.png" num="45">MST</set>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/35_Storm of Defiance.png" num="35">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2190,13 +2190,13 @@ Exile target attacking or blocking creature.</text>
 			<tablerow>3</tablerow>
 		</card>
 		<card>
-			<name>UU01 Ridgeline Monitor</name>
+			<name>Ridgeline Monitor</name>
 			<text>Flash
 Flying
 When this creature enters, choose one —
 • Scry 1, then draw a card.
 • Return target permanent you don&apos;t control to its owner&apos;s hand.</text>
-			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/76_UU01 Ridgeline Monitor.png" num="76">MST</set>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/65_Ridgeline Monitor.png" num="65">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2211,11 +2211,11 @@ When this creature enters, choose one —
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>UU02 Isthmus Guardian</name>
+			<name>Isthmus Guardian</name>
 			<text>This spell costs {1} less to cast for each Moonstone counter you have.
 Vigilance
 When this creature enters, draw two cards.</text>
-			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/77_UU02 Isthmus Guardian.png" num="77">MST</set>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/55_Isthmus Guardian.png" num="55">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2230,10 +2230,10 @@ When this creature enters, draw two cards.</text>
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>UU03 Veteran Burglar</name>
+			<name>Veteran Burglar</name>
 			<text>Ward {1}
 Whenever this creature deals combat damage to an opponent, you search that player&apos;s library for a nonland, noncreature card and exile it, then that player shuffles. As long as that card remains exiled, you may cast it, and spend mana as if it were any color to cast it.</text>
-			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/78_UU03 Veteran Burglar.png" num="78">MST</set>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/79_Veteran Burglar.png" num="79">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2248,11 +2248,11 @@ Whenever this creature deals combat damage to an opponent, you search that playe
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>UU04 Stormwind Master</name>
+			<name>Stormwind Master</name>
 			<text>Ward {1}
 Whenever you cast an instant or sorcery spell, or a spell with Wisdom, put a +1/+1 counter on this creature.
 {R}: This creature gains trample until end of turn. Activate only as a sorcery.</text>
-			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/79_UU04 Stormwind Master.png" num="79">MST</set>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/70_Stormwind Master.png" num="70">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2267,10 +2267,10 @@ Whenever you cast an instant or sorcery spell, or a spell with Wisdom, put a +1/
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>UU05 Slicefin Thief</name>
+			<name>Slicefin Thief</name>
 			<text>Whenever this creature attacks, until end of turn, if you would get one or more counters, you get that many plus one of each kind of those counters instead.
 {B}: This creature gains menace until end of turn. Activate only as a sorcery.</text>
-			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/80_UU05 Slicefin Thief.png" num="80">MST</set>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/69_Slicefin Thief.png" num="69">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2285,10 +2285,10 @@ Whenever you cast an instant or sorcery spell, or a spell with Wisdom, put a +1/
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>UU06 Thundersnap Toxibrach</name>
+			<name>Thundersnap Toxibrach</name>
 			<text>When this creature enters, tap target creature you don&apos;t control and put a stun counter on it.
 When this creature blocks, return all creatures it blocked to their owner&apos;s hand at end of combat.</text>
-			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/81_UU06 Thundersnap Toxibrach.png" num="81">MST</set>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/73_Thundersnap Toxibrach.png" num="73">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2303,11 +2303,11 @@ When this creature blocks, return all creatures it blocked to their owner&apos;s
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>UU07 Hydrokinetic Mastery</name>
+			<name>Hydrokinetic Mastery</name>
 			<text>Enchant creature
 When this Aura enters, draw a card.
 Enchanted creature gets +1/+1 and has flying, vigilance, and ward {2}.</text>
-			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/82_UU07 Hydrokinetic Mastery.png" num="82">MST</set>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/54_Hydrokinetic Mastery.png" num="54">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2321,9 +2321,9 @@ Enchanted creature gets +1/+1 and has flying, vigilance, and ward {2}.</text>
 			<tablerow>1</tablerow>
 		</card>
 		<card>
-			<name>UU08 Empowered Unraveling</name>
+			<name>Empowered Unraveling</name>
 			<text>Counter target spell unless its controller pays {1} for each Moonstone counter you have.</text>
-			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/83_UU08 Empowered Unraveling.png" num="83">MST</set>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/52_Empowered Unraveling.png" num="52">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2337,11 +2337,11 @@ Enchanted creature gets +1/+1 and has flying, vigilance, and ward {2}.</text>
 			<tablerow>3</tablerow>
 		</card>
 		<card>
-			<name>UU09 Runic Restraints</name>
+			<name>Runic Restraints</name>
 			<text>Wisdom 4 (As an additional cost to cast this, you may exile four cards from your graveyard. If you do, copy it, and you may choose new targets for the copy.)
 Tap target nonland permanent and put two stun counters on it.
 Draw a card.</text>
-			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/84_UU09 Runic Restraints.png" num="84">MST</set>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/66_Runic Restraints.png" num="66">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2355,10 +2355,10 @@ Draw a card.</text>
 			<tablerow>3</tablerow>
 		</card>
 		<card>
-			<name>UU10 Summon the Soulchasers</name>
+			<name>Summon the Soulchasers</name>
 			<text>Wisdom 2 (As an additional cost to cast this, you may exile two cards from your graveyard. If you do, copy it, and you may choose new targets for the copy.)
 Create two 1/1 blue Bird Spirit creature tokens with flying.</text>
-			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/85_UU10 Summon the Soulchasers.png" num="85">MST</set>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/71_Summon the Soulchasers.png" num="71">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2372,10 +2372,10 @@ Create two 1/1 blue Bird Spirit creature tokens with flying.</text>
 			<tablerow>3</tablerow>
 		</card>
 		<card>
-			<name>UU11 Relevant Texts</name>
+			<name>Relevant Texts</name>
 			<text>Draw two cards.
 You get a Moonstone counter.</text>
-			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/86_UU11 Relevant Texts.png" num="86">MST</set>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/64_Relevant Texts.png" num="64">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2389,10 +2389,10 @@ You get a Moonstone counter.</text>
 			<tablerow>3</tablerow>
 		</card>
 		<card>
-			<name>UB01 Darkside Wish-granter</name>
+			<name>Darkside Wish-granter</name>
 			<text>When this enters, you get a Moonstone counter, then draw a card.
 {1}{B}, {T}, Discard a card: Search target opponent&apos;s library for a card and reveal it. That player loses life equal to that card&apos;s mana value, puts it into their hand, then shuffles. Activate only as a sorcery.</text>
-			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/116_UB01 Darkside Wish-granter.png" num="116">MST</set>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/93_Darkside Wish-granter.png" num="93">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2407,10 +2407,10 @@ You get a Moonstone counter.</text>
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>UB02 Shadowspiller</name>
+			<name>Shadowspiller</name>
 			<text>Deathtouch
 When this creature deals combat damage to an opponent, you may pay {1}{B}. If you do, that opponent sacrifices a creature.</text>
-			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/117_UB02 Shadowspiller.png" num="117">MST</set>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/117_Shadowspiller.png" num="117">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2425,10 +2425,10 @@ When this creature deals combat damage to an opponent, you may pay {1}{B}. If yo
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>UB03 Piraji Ambusher</name>
+			<name>Piraji Ambusher</name>
 			<text>Whenever this creature attacks, each player loses 1 life.
 {U}: This creature can&apos;t be blocked until end of turn. This ability costs {X} more to activate, where X is this creature&apos;s power minus one. Activate only as a sorcery.</text>
-			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/118_UB03 Piraji Ambusher.png" num="118">MST</set>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/111_Piraji Ambusher.png" num="111">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2443,10 +2443,10 @@ When this creature deals combat damage to an opponent, you may pay {1}{B}. If yo
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>UB04 Evercursed</name>
+			<name>Evercursed</name>
 			<text>Deathtouch
 At the beginning of your end step, if this card is in your graveyard, you may pay {1}. If you do, return it to your hand.</text>
-			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/119_UB04 Evercursed.png" num="119">MST</set>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/98_Evercursed.png" num="98">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2461,11 +2461,11 @@ At the beginning of your end step, if this card is in your graveyard, you may pa
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>UB05 Hermit of Erud Swamp</name>
+			<name>Hermit of Erud Swamp</name>
 			<text>Your maximum hand size is six.
 At the beginning of your end step, draw a card.
 When this creature dies, if it didn&apos;t enter this turn, you lose 2 life.</text>
-			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/120_UB05 Hermit of Erud Swamp.png" num="120">MST</set>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/99_Hermit of Erud Swamp.png" num="99">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2480,10 +2480,10 @@ When this creature dies, if it didn&apos;t enter this turn, you lose 2 life.</te
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>UB06 Iron Empire Elite</name>
+			<name>Iron Empire Elite</name>
 			<text>This creature has haste and lifelink as long as you control another Rat.
 Remove two Moonstone counters from yourself: This creature gets +1/+1 until end of turn. Activate only as a sorcery.</text>
-			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/121_UB06 Iron Empire Elite.png" num="121">MST</set>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/103_Iron Empire Elite.png" num="103">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2498,11 +2498,11 @@ Remove two Moonstone counters from yourself: This creature gets +1/+1 until end 
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>UB07 Eater of the Forgotten</name>
+			<name>Eater of the Forgotten</name>
 			<text>Ward {2}
 Trample
 Whenever you discard one or more cards, put a +1/+1 counter on this creature.</text>
-			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/122_UB07 Eater of the Forgotten.png" num="122">MST</set>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/96_Eater of the Forgotten.png" num="96">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2517,9 +2517,9 @@ Whenever you discard one or more cards, put a +1/+1 counter on this creature.</t
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>UB08 Withering Grief</name>
+			<name>Withering Grief</name>
 			<text>All creatures get -2/-2 until end of turn. If you sacrificed a creature this turn, all creatures your opponents control get -2/-2 instead.</text>
-			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/123_UB08 Withering Grief.png" num="123">MST</set>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/123_Withering Grief.png" num="123">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2533,10 +2533,10 @@ Whenever you discard one or more cards, put a +1/+1 counter on this creature.</t
 			<tablerow>3</tablerow>
 		</card>
 		<card>
-			<name>UB09 Necromancer&apos;s Whim</name>
+			<name>Necromancer&apos;s Whim</name>
 			<text>Kicker {3}{B} (You may pay an additional {3}{B} as you cast this spell.)
 Return target creature card from your graveyard to your hand. If this spell was kicked, return that creature card to the battlefield tapped instead.</text>
-			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/124_UB09 Necromancer&apos;s Whim.png" num="124">MST</set>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/108_Necromancer&apos;s Whim.png" num="108">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2550,9 +2550,9 @@ Return target creature card from your graveyard to your hand. If this spell was 
 			<tablerow>3</tablerow>
 		</card>
 		<card>
-			<name>UB10 Alleyway Ambush</name>
+			<name>Alleyway Ambush</name>
 			<text>Exile target tapped creature. If you don&apos;t control a creature with equal or greater power than it, you lose 2 life.</text>
-			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/125_UB10 Alleyway Ambush.png" num="125">MST</set>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/84_Alleyway Ambush.png" num="84">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2566,10 +2566,10 @@ Return target creature card from your graveyard to your hand. If this spell was 
 			<tablerow>3</tablerow>
 		</card>
 		<card>
-			<name>UB11 Commune with Shadows</name>
+			<name>Commune with Shadows</name>
 			<text>As an additional cost to cast this spell, discard a card.
 Look at the top four cards of your library. Put two of them into your hand and the rest into your graveyard.</text>
-			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/126_UB11 Commune with Shadows.png" num="126">MST</set>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/90_Commune with Shadows.png" num="90">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2583,10 +2583,10 @@ Look at the top four cards of your library. Put two of them into your hand and t
 			<tablerow>3</tablerow>
 		</card>
 		<card>
-			<name>UR01 Priest of Primordial Fire</name>
+			<name>Priest of Primordial Fire</name>
 			<text>Whenever this creature becomes the target of a spell or ability, it deals 1 damage to that spell or ability&apos;s controller.
 {T}: Add {R}. This mana can only be spent to cast red spells or activate abilities of red permanents.</text>
-			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/156_UR01 Priest of Primordial Fire.png" num="156">MST</set>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/153_Priest of Primordial Fire.png" num="153">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2601,10 +2601,10 @@ Look at the top four cards of your library. Put two of them into your hand and t
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>UR02 Jack of All Spells</name>
+			<name>Jack of All Spells</name>
 			<text>Flying
 When this creature deals combat damage to an opponent, you may discard a card. When you do, exile the top two cards of that player&apos;s library. Until end of turn, you may play cards exiled this way.</text>
-			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/157_UR02 Jack of All Spells.png" num="157">MST</set>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/144_Jack of All Spells.png" num="144">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2619,10 +2619,10 @@ When this creature deals combat damage to an opponent, you may discard a card. W
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>UR03 Navu, Eager Pyromancer</name>
+			<name>Navu, Eager Pyromancer</name>
 			<text>Menace
 {R}, {T}, Exile two cards from your graveyard: This creature deals 2 damage to any target.</text>
-			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/158_UR03 Navu, Eager Pyromancer.png" num="158">MST</set>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/150_Navu, Eager Pyromancer.png" num="150">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2637,10 +2637,10 @@ When this creature deals combat damage to an opponent, you may discard a card. W
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>UR04 Dashing Vigilante</name>
+			<name>Dashing Vigilante</name>
 			<text>This creature has haste as long as you control another militant. (Armies, Heroes, Knights, Soldiers and Warriors are militants.)
 During your turn, this creature has first strike.</text>
-			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/159_UR04 Dashing Vigilante.png" num="159">MST</set>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/131_Dashing Vigilante.png" num="131">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2655,11 +2655,11 @@ During your turn, this creature has first strike.</text>
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>UR05 Flux Initiate</name>
+			<name>Flux Initiate</name>
 			<text>Haste
 When this creature enters, return target instant or sorcery card from your graveyard.
 Whenever this creature attacks, instant and/or sorcery spells you cast cost {1} less to cast until end of turn.</text>
-			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/160_UR05 Flux Initiate.png" num="160">MST</set>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/138_Flux Initiate.png" num="138">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2674,11 +2674,11 @@ Whenever this creature attacks, instant and/or sorcery spells you cast cost {1} 
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>UR06 Streetwise Adventurer</name>
+			<name>Streetwise Adventurer</name>
 			<text>Menace
 Whenever this creature attacks, you may sacrifice a land. If you do, this creature gets +2/+0 until end of turn.
 Whenever this creature attacks, you may pay {1}{G}. When you do, return target land card from your graveyard to the battlefield tapped.</text>
-			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/161_UR06 Streetwise Adventurer.png" num="161">MST</set>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/161_Streetwise Adventurer.png" num="161">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2693,9 +2693,9 @@ Whenever this creature attacks, you may pay {1}{G}. When you do, return target l
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>UR07 Dance of Fire</name>
+			<name>Dance of Fire</name>
 			<text>This spell deals 2 damage to each creature.</text>
-			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/162_UR07 Dance of Fire.png" num="162">MST</set>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/130_Dance of Fire.png" num="130">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2709,9 +2709,9 @@ Whenever this creature attacks, you may pay {1}{G}. When you do, return target l
 			<tablerow>3</tablerow>
 		</card>
 		<card>
-			<name>UR08 Storm the Palace</name>
+			<name>Storm the Palace</name>
 			<text>Creatures you control get +1/+0 and gain menace and trample until end of turn.</text>
-			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/163_UR08 Storm the Palace.png" num="163">MST</set>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/159_Storm the Palace.png" num="159">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2725,11 +2725,11 @@ Whenever this creature attacks, you may pay {1}{G}. When you do, return target l
 			<tablerow>3</tablerow>
 		</card>
 		<card>
-			<name>UR09 Shattershot</name>
+			<name>Shattershot</name>
 			<text>Choose one —
 • Exile target nonbasic land.
 • Exile target artifact.</text>
-			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/164_UR09 Shattershot.png" num="164">MST</set>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/155_Shattershot.png" num="155">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2743,9 +2743,9 @@ Whenever this creature attacks, you may pay {1}{G}. When you do, return target l
 			<tablerow>3</tablerow>
 		</card>
 		<card>
-			<name>UR10 Psychic Enslavement</name>
+			<name>Psychic Enslavement</name>
 			<text>Untap target creature and gain control of it until end of turn. Until end of turn, it gains haste and &quot;Whenever this creature deals combat damage to an opponent, you may pay {1} or discard a card. If you do, draw a card.&quot;</text>
-			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/165_UR10 Psychic Enslavement.png" num="165">MST</set>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/154_Psychic Enslavement.png" num="154">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2759,11 +2759,11 @@ Whenever this creature attacks, you may pay {1}{G}. When you do, return target l
 			<tablerow>3</tablerow>
 		</card>
 		<card>
-			<name>UR11 Phoenix Mantle</name>
+			<name>Phoenix Mantle</name>
 			<text>Enchant creature
 Enchanted creature has flying and &quot;{R}: This creature gets +1/+0 until end of turn.&quot;
 {3}{B}{R}: If this card is in your graveyard, return target creature card with mana value 3 or less from your graveyard to the battlefield, then return this Aura to the battlefield attached to that creature. Activate only as a sorcery.</text>
-			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/166_UR11 Phoenix Mantle.png" num="166">MST</set>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/151_Phoenix Mantle.png" num="151">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2777,9 +2777,9 @@ Enchanted creature has flying and &quot;{R}: This creature gets +1/+0 until end 
 			<tablerow>1</tablerow>
 		</card>
 		<card>
-			<name>UG01 Summer Coast Druid</name>
+			<name>Summer Coast Druid</name>
 			<text>When this creature enters, destroy up to one target artifact or enchantment.</text>
-			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/196_UG01 Summer Coast Druid.png" num="196">MST</set>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/196_Summer Coast Druid.png" num="196">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2794,10 +2794,10 @@ Enchanted creature has flying and &quot;{R}: This creature gets +1/+0 until end 
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>UG02 Bellowdepths Channeler</name>
+			<name>Bellowdepths Channeler</name>
 			<text>Remove a Moonstone counter from yourself or exile two cards from your graveyard: This creature gains hexproof until end of turn.
 Whenever one or more creatures you control deal combat damage to an opponent, put a +1/+1 counter on this creature.</text>
-			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/197_UG02 Bellowdepths Channeler.png" num="197">MST</set>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/165_Bellowdepths Channeler.png" num="165">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2812,10 +2812,10 @@ Whenever one or more creatures you control deal combat damage to an opponent, pu
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>UG03 Matriarch of Ancient Ways</name>
+			<name>Matriarch of Ancient Ways</name>
 			<text>The first time each turn an opponent casts a noncreature spell with a single target, you draw a card.
 {1}{G}, {T}: Proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)</text>
-			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/198_UG03 Matriarch of Ancient Ways.png" num="198">MST</set>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/184_Matriarch of Ancient Ways.png" num="184">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2830,13 +2830,13 @@ Whenever one or more creatures you control deal combat damage to an opponent, pu
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>UG04 Lafahd Sandsprinter</name>
+			<name>Lafahd Sandsprinter</name>
 			<text>This creature can&apos;t be blocked except by creatures with flying or reach.
 {4}{R}{G}: Choose one —
 • Put X +1/+1 counters on target creature.
 • This creature deals X damage to any target.
 X is the number of lands you control. Activate only if this creature dealt combat damage to an opponent this turn.</text>
-			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/199_UG04 Lafahd Sandsprinter.png" num="199">MST</set>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/181_Lafahd Sandsprinter.png" num="181">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2851,10 +2851,10 @@ X is the number of lands you control. Activate only if this creature dealt comba
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>UG05 Grand Council of the Iron Empire</name>
+			<name>Grand Council of the Iron Empire</name>
 			<text>This creature enters with X +1/+1 counters on it.
 When this creature dies, you may exile it. When you do, search your library for a black, green, white, Rat or Mouse card with mana value equal to this creature&apos;s power, reveal it and put it into your hand, then shuffle.</text>
-			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/200_UG05 Grand Council of the Iron Empire.png" num="200">MST</set>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/175_Grand Council of the Iron Empire.png" num="175">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2869,10 +2869,10 @@ When this creature dies, you may exile it. When you do, search your library for 
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>UG06 Escaped Anuroid</name>
+			<name>Escaped Anuroid</name>
 			<text>As an additional cost to cast this spell, remove a Moonstone counter from yourself or sacrifice a land.
 Reach, trample, vigilance, ward {1}</text>
-			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/201_UG06 Escaped Anuroid.png" num="201">MST</set>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/170_Escaped Anuroid.png" num="170">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2887,9 +2887,9 @@ Reach, trample, vigilance, ward {1}</text>
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>UG07 Solidarity</name>
+			<name>Solidarity</name>
 			<text>Whenever a creature you control enters, put a +1/+1 counter on each creature you control. This triggers only once each turn.</text>
-			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/202_UG07 Solidarity.png" num="202">MST</set>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/195_Solidarity.png" num="195">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2903,9 +2903,9 @@ Reach, trample, vigilance, ward {1}</text>
 			<tablerow>1</tablerow>
 		</card>
 		<card>
-			<name>UG08 Building the Frontier</name>
+			<name>Building the Frontier</name>
 			<text>Landfall — Whenever a land you control enters, you gain 1 life. If this is the first time this ability has resolved this turn, put a +1/+1 counter on target creature you control. If that creature is militant, put two +1/+1 counters on it instead. (Armies, Heroes, Knights, Soldiers and Warriors are militants.)</text>
-			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/203_UG08 Building the Frontier.png" num="203">MST</set>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/167_Building the Frontier.png" num="167">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2919,9 +2919,9 @@ Reach, trample, vigilance, ward {1}</text>
 			<tablerow>1</tablerow>
 		</card>
 		<card>
-			<name>UG09 Visions of Other Worlds</name>
+			<name>Visions of Other Worlds</name>
 			<text>Mill five cards, then you may return a card milled this way to your hand.</text>
-			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/204_UG09 Visions of Other Worlds.png" num="204">MST</set>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/203_Visions of Other Worlds.png" num="203">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2935,12 +2935,12 @@ Reach, trample, vigilance, ward {1}</text>
 			<tablerow>3</tablerow>
 		</card>
 		<card>
-			<name>UG10 Jade Ritual</name>
+			<name>Jade Ritual</name>
 			<text>Create a 2/2 green Rhino Druid creature token with vigilance.
 Choose one —
 • You get a Moonstone counter, then put a +1/+1 counter on a creature you control.
 • Add two mana of any one color.</text>
-			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/205_UG10 Jade Ritual.png" num="205">MST</set>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/179_Jade Ritual.png" num="179">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2954,10 +2954,10 @@ Choose one —
 			<tablerow>3</tablerow>
 		</card>
 		<card>
-			<name>UG11 Under the Iron Capitol</name>
+			<name>Under the Iron Capitol</name>
 			<text>Kicker—{B}
 Create a 1/1 black Rat Rogue creature token with menace and a 1/1 white Rat Citizen creature token. Then if this spell was kicked, you lose 2 life and put a +1/+1 counter on each Rat you control.</text>
-			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/206_UG11 Under the Iron Capitol.png" num="206">MST</set>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/201_Under the Iron Capitol.png" num="201">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2971,10 +2971,10 @@ Create a 1/1 black Rat Rogue creature token with menace and a 1/1 white Rat Citi
 			<tablerow>3</tablerow>
 		</card>
 		<card>
-			<name>RW01 Pauri Esken, Mounted Justice</name>
+			<name>Pauri Esken, Mounted Justice</name>
 			<text>Flash
 Lifelink</text>
-			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/28_RW01 Pauri Esken, Mounted Justice.png" num="28">MST</set>
+			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/24_Pauri Esken, Mounted Justice.png" num="24">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2989,11 +2989,11 @@ Lifelink</text>
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>RW02 Rouser Elder</name>
+			<name>Rouser Elder</name>
 			<text>Militant creatures you control get +1/+0. (Armies, Heroes, Knights, Soldiers and Warriors are militants.)
 Whenever this creature attacks, up to two target Rats become a Hero in addition to their other creature types. (This effect lasts indefinitely.)
 At the beginning of your end step, create a 1/1 white Rat Citizen creature token.</text>
-			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/29_RW02 Rouser Elder.png" num="29">MST</set>
+			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/31_Rouser Elder.png" num="31">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3008,10 +3008,10 @@ At the beginning of your end step, create a 1/1 white Rat Citizen creature token
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>RW03 Circumzenith Commander</name>
+			<name>Circumzenith Commander</name>
 			<text>Flying
 Whenever you gain life, put that many +1/+1 counters on each creature you control. This ability triggers only once each turn.</text>
-			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/30_RW03 Circumzenith Commander.png" num="30">MST</set>
+			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/5_Circumzenith Commander.png" num="5">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3026,11 +3026,11 @@ Whenever you gain life, put that many +1/+1 counters on each creature you contro
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>RW04 General of the Guards</name>
+			<name>General of the Guards</name>
 			<text>Protection from non-militant creatures (This creature can&apos;t be blocked, targeted, or dealt damage by creatures that aren&apos;t Armies, Heroes, Knights, Soldiers or Warriors.) 
 Double strike
 Opponents can&apos;t cast spells or activate abilities during your turn.</text>
-			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/31_RW04 General of the Guards.png" num="31">MST</set>
+			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/13_General of the Guards.png" num="13">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3045,11 +3045,11 @@ Opponents can&apos;t cast spells or activate abilities during your turn.</text>
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>RW05 Iron Empire Brigade</name>
+			<name>Iron Empire Brigade</name>
 			<text>Vigilance
 Whenever another nontoken Rat you control enters, put a +1/+1 counter on this creature.
 Whenever this creature attacks, create a 1/1 white, black, and green Rat Soldier creature token.</text>
-			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/32_RW05 Iron Empire Brigade.png" num="32">MST</set>
+			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/17_Iron Empire Brigade.png" num="17">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3064,10 +3064,10 @@ Whenever this creature attacks, create a 1/1 white, black, and green Rat Soldier
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>RW06 Vow of Justice</name>
+			<name>Vow of Justice</name>
 			<text>This spell can&apos;t be countered as long as you control two or more Birds.
 Creatures you control with flying get +1/+1 and gain first strike and lifelink until end of turn.</text>
-			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/33_RW06 Vow of Justice.png" num="33">MST</set>
+			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/40_Vow of Justice.png" num="40">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3081,10 +3081,10 @@ Creatures you control with flying get +1/+1 and gain first strike and lifelink u
 			<tablerow>3</tablerow>
 		</card>
 		<card>
-			<name>RW07 Rest in Peace</name>
+			<name>Rest in Peace</name>
 			<text>When this enchantment enters, exile all graveyards.
 If a card or token would be put into a graveyard from anywhere, exile it instead.</text>
-			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/34_RW07 Rest in Peace.png" num="34">MST</set>
+			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/27_Rest in Peace.png" num="27">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3098,10 +3098,10 @@ If a card or token would be put into a graveyard from anywhere, exile it instead
 			<tablerow>1</tablerow>
 		</card>
 		<card>
-			<name>RU01 Cunning Trader</name>
+			<name>Cunning Trader</name>
 			<text>{1}, {T}: Target opponent gains control of target permanent you control. You get Moonstone counters equal to that permanent&apos;s mana value.
 {U}{U}, {T}, Remove X Moonstone counters from yourself: Gain control of target nonland permanent with mana value X.</text>
-			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/68_RU01 Cunning Trader.png" num="68">MST</set>
+			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/48_Cunning Trader.png" num="48">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3116,12 +3116,12 @@ If a card or token would be put into a graveyard from anywhere, exile it instead
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>RU02 Supercell Channeler</name>
+			<name>Supercell Channeler</name>
 			<text>Flash, kicker {2}
 Flying
 When this creature enters the battlefield, if it was kicked, copy target instant, sorcery, or ability.
 Whenever you copy a spell for the first time each turn, draw a card.</text>
-			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/69_RU02 Supercell Channeler.png" num="69">MST</set>
+			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/72_Supercell Channeler.png" num="72">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3136,11 +3136,11 @@ Whenever you copy a spell for the first time each turn, draw a card.</text>
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>RU03 Mistress of Misplacement</name>
+			<name>Mistress of Misplacement</name>
 			<text>Hexproof
 This creature can&apos;t be blocked.
 If this creature would deal more than 1 damage to an opponent, you may have it instead deal 1 damage to that opponent and you draw a card.</text>
-			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/70_RU03 Mistress of Misplacement.png" num="70">MST</set>
+			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/58_Mistress of Misplacement.png" num="58">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3155,11 +3155,11 @@ If this creature would deal more than 1 damage to an opponent, you may have it i
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>RU04 Titanic Rudan</name>
+			<name>Titanic Rudan</name>
 			<text>This spell costs {1} less to cast for each Moonstone counter you have and each Bird you control.
 Flying, trample
 This creature gets +1/+0 for each militant creature your opponents control. (Armies, Heroes, Knights, Soldiers and Warriors are militants.)</text>
-			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/71_RU04 Titanic Rudan.png" num="71">MST</set>
+			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/74_Titanic Rudan.png" num="74">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3174,10 +3174,10 @@ This creature gets +1/+0 for each militant creature your opponents control. (Arm
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>RU05 Twilight Pickpocketing</name>
+			<name>Twilight Pickpocketing</name>
 			<text>This spell costs {2} less to cast if two or more unblocked creatures you controlled dealt combat damage to an opponent this turn.
 Search target opponent&apos;s library for a nonland card with mana value 7 or less and exile it. Until end of turn, you may cast that card from exile without paying its mana cost.</text>
-			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/72_RU05 Twilight Pickpocketing.png" num="72">MST</set>
+			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/75_Twilight Pickpocketing.png" num="75">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3191,12 +3191,12 @@ Search target opponent&apos;s library for a nonland card with mana value 7 or le
 			<tablerow>3</tablerow>
 		</card>
 		<card>
-			<name>RU06 Pass Down Secrets</name>
+			<name>Pass Down Secrets</name>
 			<text>Choose one —
 • Return up to three target instant, sorcery and/or artifact cards from your graveyard to your hand.
 • Return all cards with Wisdom from your graveyard to your hand.
 Exile this spell.</text>
-			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/73_RU06 Pass Down Secrets.png" num="73">MST</set>
+			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/61_Pass Down Secrets.png" num="61">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3210,10 +3210,10 @@ Exile this spell.</text>
 			<tablerow>3</tablerow>
 		</card>
 		<card>
-			<name>RU07 Dance of the New Cycle</name>
+			<name>Dance of the New Cycle</name>
 			<text>Wisdom 5 (As an additional cost to cast this, you may exile five cards from your graveyard. If you do, copy it, and you may choose new targets for the copy.)
 Create a token that&apos;s a copy of target creature you control. You may then tap that token. If you do, you mill cards equal to its power, then draw two cards.</text>
-			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/74_RU07 Dance of the New Cycle.png" num="74">MST</set>
+			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/49_Dance of the New Cycle.png" num="49">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3227,9 +3227,9 @@ Create a token that&apos;s a copy of target creature you control. You may then t
 			<tablerow>3</tablerow>
 		</card>
 		<card>
-			<name>RB01 Speaker of Ancient Gods</name>
+			<name>Speaker of Ancient Gods</name>
 			<text>At the beginning of your end step, draw a card, then if you don&apos;t control another Rat, you lose 2 life.</text>
-			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/109_RB01 Speaker of Ancient Gods.png" num="109">MST</set>
+			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/120_Speaker of Ancient Gods.png" num="120">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3244,10 +3244,10 @@ Create a token that&apos;s a copy of target creature you control. You may then t
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>RB02 Honortail Paragon</name>
+			<name>Honortail Paragon</name>
 			<text>Menace
 Whenever this creature attacks, Rats you control get +1/+0 until end of turn.</text>
-			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/110_RB02 Honortail Paragon.png" num="110">MST</set>
+			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/101_Honortail Paragon.png" num="101">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3262,12 +3262,12 @@ Whenever this creature attacks, Rats you control get +1/+0 until end of turn.</t
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>RB03 Neshezoi, Mad Harbinger</name>
+			<name>Neshezoi, Mad Harbinger</name>
 			<text>Ward—Pay 3 life
 Flying
 Whenever a player discards one or more cards, put a +1/+1 counter on this creature.
 Whenever Neshezoi attacks, if any player has no cards in hand, you may put target creature card from a graveyard onto the battlefield.</text>
-			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/111_RB03 Neshezoi, Mad Harbinger.png" num="111">MST</set>
+			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/109_Neshezoi, Mad Harbinger.png" num="109">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3282,10 +3282,10 @@ Whenever Neshezoi attacks, if any player has no cards in hand, you may put targe
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>RB04 Memorivore Witch</name>
+			<name>Memorivore Witch</name>
 			<text>Flying
 As long as a creature died this turn, black spells you cast have Wisdom X, where X is their mana value. (As an additional cost to cast a black spell, you may exile X cards from your graveyard. If you do, copy that spell, and you may choose new targets for the copy.)</text>
-			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/112_RB04 Memorivore Witch.png" num="112">MST</set>
+			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/105_Memorivore Witch.png" num="105">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3300,10 +3300,10 @@ As long as a creature died this turn, black spells you cast have Wisdom X, where
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>RB05 Brawl at the Docks</name>
+			<name>Brawl at the Docks</name>
 			<text>This spell can&apos;t be countered as long as you control two or more Rats.
-Create three 1/1 black Rat Rogue creature tokens, then target opponent loses X life, where X is the number of Rats you control.</text>
-			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/113_RB05 Brawl at the Docks.png" num="113">MST</set>
+Create three 1/1 black Rat Rogue creature tokens with Menace, then target opponent loses X life, where X is the number of Rats you control.</text>
+			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/88_Brawl at the Docks.png" num="88">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3317,9 +3317,9 @@ Create three 1/1 black Rat Rogue creature tokens, then target opponent loses X l
 			<tablerow>3</tablerow>
 		</card>
 		<card>
-			<name>RB06 Power from Pain</name>
+			<name>Power from Pain</name>
 			<text>Until end of turn, whenever a creature you control deals combat damage to a battle, opponent or planeswalker, you may lose 1 life and draw a card.</text>
-			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/114_RB06 Power from Pain.png" num="114">MST</set>
+			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/113_Power from Pain.png" num="113">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3333,9 +3333,9 @@ Create three 1/1 black Rat Rogue creature tokens, then target opponent loses X l
 			<tablerow>3</tablerow>
 		</card>
 		<card>
-			<name>RB07 Return to Instinct</name>
+			<name>Return to Instinct</name>
 			<text>If a player discarding a card causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time.</text>
-			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/115_RB07 Return to Instinct.png" num="115">MST</set>
+			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/116_Return to Instinct.png" num="116">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3349,11 +3349,11 @@ Create three 1/1 black Rat Rogue creature tokens, then target opponent loses X l
 			<tablerow>1</tablerow>
 		</card>
 		<card>
-			<name>RR01 Longsight Siege Brother</name>
+			<name>Longsight Siege Brother</name>
 			<text>Haste, trample
 When this creature enters, for each player, destroy target nonbasic land that player controls.
 Whenever you pay a Wisdom cost, you may exile this creature, then return it to the battlefield under its owner&apos;s control.</text>
-			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/149_RR01 Longsight Siege Brother.png" num="149">MST</set>
+			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/146_Longsight Siege Brother.png" num="146">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3368,10 +3368,10 @@ Whenever you pay a Wisdom cost, you may exile this creature, then return it to t
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>RR02 Icespine Range Magstier</name>
+			<name>Icespine Range Magstier</name>
 			<text>Haste
 Whenever this creature attacks, discard a card. If the discarded card is an instant or sorcery, draw a card. If it isn&apos;t, put a +1/+1 counter on this creature.</text>
-			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/150_RR02 Icespine Range Magstier.png" num="150">MST</set>
+			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/142_Icespine Range Magstier.png" num="142">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3386,10 +3386,10 @@ Whenever this creature attacks, discard a card. If the discarded card is an inst
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>RR03 Visionary Metalsmith</name>
+			<name>Visionary Metalsmith</name>
 			<text>Remove a Moonstone counter from yourself: Add two mana of any one color. Use this mana only to cast artifact spells or activate artifact abilities. Activate only once each turn.
 Artifact creatures and equipped creatures you control have haste.</text>
-			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/151_RR03 Visionary Metalsmith.png" num="151">MST</set>
+			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/163_Visionary Metalsmith.png" num="163">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3404,11 +3404,11 @@ Artifact creatures and equipped creatures you control have haste.</text>
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>RR04 Carnivorous Blossom</name>
+			<name>Carnivorous Blossom</name>
 			<text>This spell can&apos;t be countered as long as a land entered under your control this turn.
 Haste, reach, trample
 This creature&apos;s power and toughness are each equal to the number of lands you control.</text>
-			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/152_RR04 Carnivorous Blossom.png" num="152">MST</set>
+			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/129_Carnivorous Blossom.png" num="129">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3423,10 +3423,10 @@ This creature&apos;s power and toughness are each equal to the number of lands y
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>RR05 Boltwhirl</name>
+			<name>Boltwhirl</name>
 			<text>Choose target creature. Until end of turn, if that creature would be dealt excess damage by sources you control, that damage is dealt to each opponent instead.
 This spell deals 4 damage to each battle, creature and planeswalker.</text>
-			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/153_RR05 Boltwhirl.png" num="153">MST</set>
+			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/128_Boltwhirl.png" num="128">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3440,11 +3440,11 @@ This spell deals 4 damage to each battle, creature and planeswalker.</text>
 			<tablerow>3</tablerow>
 		</card>
 		<card>
-			<name>RR06 Blazing Technique</name>
+			<name>Blazing Technique</name>
 			<text>Wisdom 2 (As an additional cost to cast this, you may exile two cards from your graveyard. If you do, copy it, and you may choose new targets for the copy.)
 Enchant creature you control
 Enchanted creature gets +2/+1 and has haste, first strike, and menace.</text>
-			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/154_RR06 Blazing Technique.png" num="154">MST</set>
+			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/127_Blazing Technique.png" num="127">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3458,11 +3458,11 @@ Enchanted creature gets +2/+1 and has haste, first strike, and menace.</text>
 			<tablerow>1</tablerow>
 		</card>
 		<card>
-			<name>RR07 In the Presence of Greatness</name>
+			<name>In the Presence of Greatness</name>
 			<text>As long as you control a legendary creature or a creature with power 5 or greater, this enchantment has ward—pay 3 life.
 Attacking creatures you control get +1/+0 and have menace.
 Your opponents can&apos;t gain life.</text>
-			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/155_RR07 In the Presence of Greatness.png" num="155">MST</set>
+			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/143_In the Presence of Greatness.png" num="143">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3476,12 +3476,12 @@ Your opponents can&apos;t gain life.</text>
 			<tablerow>1</tablerow>
 		</card>
 		<card>
-			<name>RG01 Gruszalb, Chief Mountain</name>
+			<name>Gruszalb, Chief Mountain</name>
 			<text>This spell can&apos;t be countered as long as you&apos;ve attacked with two or more creatures this turn.
 Trample
 Whenever Gruszalb deals excess combat damage to an opponent, you gain that many Moonstone counters.
 Whenever you scry, each other creature you control gets +1/+1 until end of turn.</text>
-			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/189_RG01 Gruszalb, Chief Mountain.png" num="189">MST</set>
+			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/177_Gruszalb, Chief Mountain.png" num="177">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3496,10 +3496,10 @@ Whenever you scry, each other creature you control gets +1/+1 until end of turn.
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>RG02 Exiled Worldspeaker</name>
+			<name>Exiled Worldspeaker</name>
 			<text>At the beginning of your end step, mill two cards, then return a land card from your graveyard to the battlefield tapped.
 Landfall — Whenever a land you control enters, put a +1/+1 counter on target nonartifact permanent you control.</text>
-			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/190_RG02 Exiled Worldspeaker.png" num="190">MST</set>
+			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/171_Exiled Worldspeaker.png" num="171">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3514,10 +3514,10 @@ Landfall — Whenever a land you control enters, put a +1/+1 counter on target n
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>RG03 Yewdodelg, Ancient and Wise</name>
+			<name>Yewdodelg, Ancient and Wise</name>
 			<text>{3}, {T}, Sacrifice Yewdodelg: If you have more than double your starting life total, you win the game. Activate only as a sorcery.
 {3}, {T}: You gain 1 life for each creature you control</text>
-			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/191_RG03 Yewdodelg, Ancient and Wise.png" num="191">MST</set>
+			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/205_Yewdodelg, Ancient and Wise.png" num="205">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3532,10 +3532,10 @@ Landfall — Whenever a land you control enters, put a +1/+1 counter on target n
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>RG04 Seeker of Strength</name>
+			<name>Seeker of Strength</name>
 			<text>Trample
 Whenever you get one or more Moonstone counters, or remove one or more Moonstone counters from yourself, put a +1/+1 counter on target creature you control.</text>
-			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/192_RG04 Seeker of Strength.png" num="192">MST</set>
+			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/191_Seeker of Strength.png" num="191">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3550,13 +3550,13 @@ Whenever you get one or more Moonstone counters, or remove one or more Moonstone
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>RG05 Dedicated Mining Crew</name>
+			<name>Dedicated Mining Crew</name>
 			<text>Ward {1}
 Whenever this creature enters or attacks, choose one —
 • Create a tapped Treasure token.
 • You get a Moonstone counter.
 • Create a 1/1 white Rat Citizen creature token.</text>
-			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/193_RG05 Dedicated Mining Crew.png" num="193">MST</set>
+			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/169_Dedicated Mining Crew.png" num="169">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3571,9 +3571,9 @@ Whenever this creature enters or attacks, choose one —
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>RG06 Debate the Fauna</name>
+			<name>Debate the Fauna</name>
 			<text>Look at the top X cards of your library, where X is the number of creatures you control. Reveal two of those cards. An opponent chooses one of them. Put it into your hand. Then put any number of the other cards you looked at into your graveyard and the rest on the bottom of your library in a random order.</text>
-			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/194_RG06 Debate the Fauna.png" num="194">MST</set>
+			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/168_Debate the Fauna.png" num="168">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3587,10 +3587,10 @@ Whenever this creature enters or attacks, choose one —
 			<tablerow>3</tablerow>
 		</card>
 		<card>
-			<name>RG07 Summoning Ancestors</name>
+			<name>Summoning Ancestors</name>
 			<text>Whenever a land leaves your graveyard or is put into your graveyard from anywhere, put a charge counter on this enchantment.
-Sacrifice this enchantment: Create a 3/1 green Dog Beast Spirit creature token with vigilance for every charge counter on this enchantment.</text>
-			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/195_RG07 Summoning Ancestors.png" num="195">MST</set>
+Sacrifice this enchantment: Create a 3/1 green Dog Spirit creature token with vigilance for every charge counter on this enchantment.</text>
+			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/197_Summoning Ancestors.png" num="197">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3604,10 +3604,10 @@ Sacrifice this enchantment: Create a 3/1 green Dog Beast Spirit creature token w
 			<tablerow>1</tablerow>
 		</card>
 		<card>
-			<name>MW01 Mouratl, the Eternal</name>
+			<name>Mouratl, the Eternal</name>
 			<text>Flying, vigilance
 When Mouratl enters, if you have five or more Moonstone counters, double your life total. When you don&apos;t, you gain 4 life and get three Moonstone counters.</text>
-			<set rarity="mythic" picurl="https://Opacana.github.io/sets/MST-files/img/26_MW01 Mouratl, the Eternal.png" num="26">MST</set>
+			<set rarity="mythic" picurl="https://Opacana.github.io/sets/MST-files/img/22_Mouratl, the Eternal.png" num="22">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3622,10 +3622,10 @@ When Mouratl enters, if you have five or more Moonstone counters, double your li
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>MW02 Feast with the King</name>
+			<name>Feast with the King</name>
 			<text>Create a Food token.
 Until end of turn, whenever you gain life, creatures you control get +X/+X until end of turn, where X is the life gained this way.</text>
-			<set rarity="mythic" picurl="https://Opacana.github.io/sets/MST-files/img/27_MW02 Feast with the King.png" num="27">MST</set>
+			<set rarity="mythic" picurl="https://Opacana.github.io/sets/MST-files/img/11_Feast with the King.png" num="11">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3639,9 +3639,9 @@ Until end of turn, whenever you gain life, creatures you control get +X/+X until
 			<tablerow>3</tablerow>
 		</card>
 		<card>
-			<name>MU02 Cosmic Secrets</name>
+			<name>Cosmic Secrets</name>
 			<text>Draw two cards. If you have four or more Moonstone counters, instead scry 2, then draw 3 cards.</text>
-			<set rarity="mythic" picurl="https://Opacana.github.io/sets/MST-files/img/67_MU02 Cosmic Secrets.png" num="67">MST</set>
+			<set rarity="mythic" picurl="https://Opacana.github.io/sets/MST-files/img/47_Cosmic Secrets.png" num="47">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3655,11 +3655,11 @@ Until end of turn, whenever you gain life, creatures you control get +X/+X until
 			<tablerow>3</tablerow>
 		</card>
 		<card>
-			<name>MU01 Y&apos;ssna, Cephaloid Oracle</name>
+			<name>Y&apos;ssna, Cephaloid Oracle</name>
 			<text>Ward {3}
 When Y&apos;ssna enters, if you have fifteen or more counters, you win the game. When you don&apos;t, draw a card and double the number of each kind of counter you have.
 At the beginning of each combat, tap target creature you don&apos;t control.</text>
-			<set rarity="mythic" picurl="https://Opacana.github.io/sets/MST-files/img/66_MU01 Y&apos;ssna, Cephaloid Oracle.png" num="66">MST</set>
+			<set rarity="mythic" picurl="https://Opacana.github.io/sets/MST-files/img/82_Y&apos;ssna, Cephaloid Oracle.png" num="82">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3674,11 +3674,11 @@ At the beginning of each combat, tap target creature you don&apos;t control.</te
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>MB01 Raios, the Founder</name>
+			<name>Raios, the Founder</name>
 			<text>Lifelink, ward—Pay 3 life
 When Raios enters, you may pay X life. When you do, you get X Moonstone counters.
 Pay X life or remove X Moonstone counters from yourself: Return target Rat card with mana value X from your graveyard to the battlefield. Activate only once each turn, and only as a sorcery.</text>
-			<set rarity="mythic" picurl="https://Opacana.github.io/sets/MST-files/img/107_MB01 Raios, the Founder.png" num="107">MST</set>
+			<set rarity="mythic" picurl="https://Opacana.github.io/sets/MST-files/img/114_Raios, the Founder.png" num="114">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3693,11 +3693,11 @@ Pay X life or remove X Moonstone counters from yourself: Return target Rat card 
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>MB02 Honoring Their Sacrifice</name>
+			<name>Honoring Their Sacrifice</name>
 			<text>Whenever you sacrifice a creature, creatures you control get +1/+0 until end of turn.
 Sacrifice a creature: Gain 2 life, then scry 1. Activate only once each turn, and only as a sorcery.
 At the beginning of your end step, if no creatures died this turn, sacrifice this enchantment.</text>
-			<set rarity="mythic" picurl="https://Opacana.github.io/sets/MST-files/img/108_MB02 Honoring Their Sacrifice.png" num="108">MST</set>
+			<set rarity="mythic" picurl="https://Opacana.github.io/sets/MST-files/img/100_Honoring Their Sacrifice.png" num="100">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3711,10 +3711,10 @@ At the beginning of your end step, if no creatures died this turn, sacrifice thi
 			<tablerow>1</tablerow>
 		</card>
 		<card>
-			<name>MR01 Tawikyan, Avaricious Queen</name>
-			<text>When Tawikyan enters, if you have eight or more Moonstone counters, she deals ten damage to each opponent. Otherwise, she deals 3 damage to each opponent and you get two Moonstone counters.
-Flying, haste</text>
-			<set rarity="mythic" picurl="https://Opacana.github.io/sets/MST-files/img/147_MR01 Tawikyan, Avaricious Queen.png" num="147">MST</set>
+			<name>Tawikyan, Avaricious Queen</name>
+			<text>Flying, haste
+When Tawikyan enters, if you have eight or more Moonstone counters, she deals ten damage to each opponent. Otherwise, she deals 3 damage to each opponent and you get two Moonstone counters.</text>
+			<set rarity="mythic" picurl="https://Opacana.github.io/sets/MST-files/img/162_Tawikyan, Avaricious Queen.png" num="162">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3729,11 +3729,11 @@ Flying, haste</text>
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>MR02 M&apos;gruk, Interplanar Plunderer</name>
+			<name>M&apos;gruk, Interplanar Plunderer</name>
 			<text>Flying, haste
 Whenever M&apos;gruk deals combat damage to an opponent, create a Treasure token.
 Tap an untapped nonland artifact you control: M&apos;gruk gets +1/+0 until end of turn.</text>
-			<set rarity="mythic" picurl="https://Opacana.github.io/sets/MST-files/img/148_MR02 M&apos;gruk, Interplanar Plunderer.png" num="148">MST</set>
+			<set rarity="mythic" picurl="https://Opacana.github.io/sets/MST-files/img/147_M&apos;gruk, Interplanar Plunderer.png" num="147">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3748,10 +3748,10 @@ Tap an untapped nonland artifact you control: M&apos;gruk gets +1/+0 until end o
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>MG01 Boc, Emerald Hart</name>
+			<name>Boc, Emerald Hart</name>
 			<text>Reach, vigilance
 When Boc enters, if you have eight or more Moonstone counters, search your library for up to ten land cards and put them onto the battlefield, then shuffle. Otherwise, you get three Moonstone counters and put up to two land cards from your hand onto the battlefield tapped.</text>
-			<set rarity="mythic" picurl="https://Opacana.github.io/sets/MST-files/img/187_MG01 Boc, Emerald Hart.png" num="187">MST</set>
+			<set rarity="mythic" picurl="https://Opacana.github.io/sets/MST-files/img/166_Boc, Emerald Hart.png" num="166">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3766,10 +3766,10 @@ When Boc enters, if you have eight or more Moonstone counters, search your libra
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>MG02 Klawia&apos;s Ascent</name>
+			<name>Klawia&apos;s Ascent</name>
 			<text>Kicker {W} and/or {R}
 Search your library for a land card, reveal it and put it into your hand, then shuffle. If this spell was kicked with its {W} kicker, you gain 4 life. If this spell was kicked with its {R} kicker, it deals 3 damage to any target.</text>
-			<set rarity="mythic" picurl="https://Opacana.github.io/sets/MST-files/img/188_MG02 Klawia&apos;s Ascent.png" num="188">MST</set>
+			<set rarity="mythic" picurl="https://Opacana.github.io/sets/MST-files/img/180_Klawia&apos;s Ascent.png" num="180">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3783,10 +3783,10 @@ Search your library for a land card, reveal it and put it into your hand, then s
 			<tablerow>3</tablerow>
 		</card>
 		<card>
-			<name>RM01 Steadfast Retriever</name>
+			<name>Steadfast Retriever</name>
 			<text>Haste, reach, vigilance
 At the beginning of your end step, you may return a nonland creature you control to its owner&apos;s hand. If you do, put a +1/+1 counter on this creature.</text>
-			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/220_RM01 Steadfast Retriever.png" num="220">MST</set>
+			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/230_Steadfast Retriever.png" num="230">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3801,11 +3801,11 @@ At the beginning of your end step, you may return a nonland creature you control
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>RM01 Queen Scoraya of Hagzaga</name>
+			<name>Queen Scoraya of Hagzaga</name>
 			<text>Flying, hexproof
 Permanent spells you cast with flying cost {1} less to cast.
 At the beginning of your end step, scry 1.</text>
-			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/219_RM01 Queen Scoraya of Hagzaga.png" num="219">MST</set>
+			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/228_Queen Scoraya of Hagzaga.png" num="228">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3820,10 +3820,10 @@ At the beginning of your end step, scry 1.</text>
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>RM01 Urvinn, Count of Wastehold</name>
+			<name>Urvinn, Count of Wastehold</name>
 			<text>Flying, deathtouch, ward {1}
 Whenever Urvinn deals combat damage to an opponent or planeswalker, you draw a card and that player or that planeswalker&apos;s controller discards a card.</text>
-			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/222_RM01 Urvinn, Count of Wastehold.png" num="222">MST</set>
+			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/234_Urvinn, Count of Wastehold.png" num="234">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3838,11 +3838,11 @@ Whenever Urvinn deals combat damage to an opponent or planeswalker, you draw a c
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>RM01 Jetrax, Dark Archon</name>
+			<name>Jetrax, Dark Archon</name>
 			<text>Flying, haste
 Whenever Jetrax deals combat damage to an opponent, return all cards in your graveyard that you discarded this turn to your hand.
 {B}{R}, Discard a card: Jetrax deals 1 damage to any target. Activate only once each turn, and only as a sorcery.</text>
-			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/216_RM01 Jetrax, Dark Archon.png" num="216">MST</set>
+			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/219_Jetrax, Dark Archon.png" num="219">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3857,10 +3857,10 @@ Whenever Jetrax deals combat damage to an opponent, return all cards in your gra
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>RM01 Crystal Flameblossom</name>
+			<name>Crystal Flameblossom</name>
 			<text>If a land you control would enter tapped, you may have it deal 1 damage to you. When you do, it enters untapped instead.
 Creatures you control get +X/+0, where X is the number of lands that entered and/or left your graveyard this turn.</text>
-			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/214_RM01 Crystal Flameblossom.png" num="214">MST</set>
+			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/209_Crystal Flameblossom.png" num="209">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3874,10 +3874,10 @@ Creatures you control get +X/+0, where X is the number of lands that entered and
 			<tablerow>1</tablerow>
 		</card>
 		<card>
-			<name>RM01 The Flower Picker Inn</name>
+			<name>The Flower Picker Inn</name>
 			<text>When this enchantment enters, create a Food token.
 At the beginning of your end step, you may put a creature or planeswalker card with mana value X or less from your hand onto the battlefield, where X is the life you&apos;ve gained this turn.</text>
-			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/221_RM01 The Flower Picker Inn.png" num="221">MST</set>
+			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/212_The Flower Picker Inn.png" num="212">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3891,11 +3891,11 @@ At the beginning of your end step, you may put a creature or planeswalker card w
 			<tablerow>1</tablerow>
 		</card>
 		<card>
-			<name>RM01 Liau, Primordial Mother</name>
+			<name>Liau, Primordial Mother</name>
 			<text>Liau enters with four +1/+1 counters on her.
 At the beginning of your end step, create a token that&apos;s a copy of target creature token you control.
 If Liau would be dealt damage, instead prevent that damage, remove a counter from Liau, and create a 1/1 black and white Cat Elemental creature token.</text>
-			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/218_RM01 Liau, Primordial Mother.png" num="218">MST</set>
+			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/225_Liau, Primordial Mother.png" num="225">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3910,9 +3910,9 @@ If Liau would be dealt damage, instead prevent that damage, remove a counter fro
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>RM01 Klawia&apos;s Disguise</name>
+			<name>Klawia&apos;s Disguise</name>
 			<text>Until end of turn, target creature you control becomes a copy of another creature, gains haste, and can&apos;t be blocked by creatures with the same name.</text>
-			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/217_RM01 Klawia&apos;s Disguise.png" num="217">MST</set>
+			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/222_Klawia&apos;s Disguise.png" num="222">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3926,11 +3926,11 @@ If Liau would be dealt damage, instead prevent that damage, remove a counter fro
 			<tablerow>3</tablerow>
 		</card>
 		<card>
-			<name>RM01 Iron Empire Monolith</name>
+			<name>Iron Empire Monolith</name>
 			<text>Rats you control get +1/+1. 
 Mice you control get +1/+0.
 At the beginning of each end step, if a Rat you controlled died this turn, draw a card.</text>
-			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/215_RM01 Iron Empire Monolith.png" num="215">MST</set>
+			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/216_Iron Empire Monolith.png" num="216">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3944,10 +3944,10 @@ At the beginning of each end step, if a Rat you controlled died this turn, draw 
 			<tablerow>1</tablerow>
 		</card>
 		<card>
-			<name>CA01 Hired Carriage</name>
+			<name>Hired Carriage</name>
 			<text>When this artifact enters, search your library for a basic land card, reveal it and put it into your hand, then shuffle.
 Crew 2</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/238_CA01 Hired Carriage.png" num="238">MST</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/241_Hired Carriage.png" num="241">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3960,10 +3960,10 @@ Crew 2</text>
 			<tablerow>1</tablerow>
 		</card>
 		<card>
-			<name>CA02 Moonlaced Potion</name>
+			<name>Moonlaced Potion</name>
 			<text>When this artifact enters, you gain a Moonstone counter.
 {1}, {T}, Sacrifice this artifact: Draw a card, then add one mana of any color.</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/239_CA02 Moonlaced Potion.png" num="239">MST</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/244_Moonlaced Potion.png" num="244">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3975,10 +3975,10 @@ Crew 2</text>
 			<tablerow>1</tablerow>
 		</card>
 		<card>
-			<name>CA03 Masterpiece Shield</name>
+			<name>Masterpiece Shield</name>
 			<text>Equipped creature gets +0/+2 and has vigilance.
 Equip {3}</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/240_CA03 Masterpiece Shield.png" num="240">MST</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/243_Masterpiece Shield.png" num="243">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3990,10 +3990,10 @@ Equip {3}</text>
 			<tablerow>1</tablerow>
 		</card>
 		<card>
-			<name>CA04 Necklace of Fangs</name>
+			<name>Necklace of Fangs</name>
 			<text>Whenever you cast an instant or sorcery spell, equipped creature gets +1/+1 and gains first strike until end of turn. This triggers only once each turn.
 Equip {1}</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/241_CA04 Necklace of Fangs.png" num="241">MST</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/245_Necklace of Fangs.png" num="245">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4005,10 +4005,10 @@ Equip {1}</text>
 			<tablerow>1</tablerow>
 		</card>
 		<card>
-			<name>CA05 Honeywine Elixir</name>
+			<name>Honeywine Elixir</name>
 			<text>{T}: You gain 1 life.
 {2}, {T}, Sacrifice this artifact: Target creature gains lifelink until end of turn.</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/242_CA05 Honeywine Elixir.png" num="242">MST</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/242_Honeywine Elixir.png" num="242">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4020,11 +4020,11 @@ Equip {1}</text>
 			<tablerow>1</tablerow>
 		</card>
 		<card>
-			<name>UA01 Farsight Blade</name>
+			<name>Farsight Blade</name>
 			<text>Equipped creature has first strike.
 Whenever equipped creature attacks, scry 1.
 Equip {1}</text>
-			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/246_UA01 Farsight Blade.png" num="246">MST</set>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/240_Farsight Blade.png" num="240">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4036,11 +4036,11 @@ Equip {1}</text>
 			<tablerow>1</tablerow>
 		</card>
 		<card>
-			<name>UA02 Deciphered Relic</name>
+			<name>Deciphered Relic</name>
 			<text>Wisdom 4 (As an additional cost to cast this, you may exile four cards from your graveyard. If you do, copy it, and you may choose new targets for the copy.)
 This artifact enters tapped.
 {T}: Add two mana of any one color among cards put into your graveyard from anywhere this turn.</text>
-			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/247_UA02 Deciphered Relic.png" num="247">MST</set>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/238_Deciphered Relic.png" num="238">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4052,11 +4052,11 @@ This artifact enters tapped.
 			<tablerow>1</tablerow>
 		</card>
 		<card>
-			<name>UA03 Summer Throne</name>
+			<name>Summer Throne</name>
 			<text>When this artifact enters, create a 1/1 colorless Bird Noble creature token with flying.
 At the beginning of your upkeep, scry 2.
 Birds you control get +1/+1.</text>
-			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/248_UA03 Summer Throne.png" num="248">MST</set>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/248_Summer Throne.png" num="248">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4068,10 +4068,10 @@ Birds you control get +1/+1.</text>
 			<tablerow>1</tablerow>
 		</card>
 		<card>
-			<name>UA04 Tezakayt Fortress</name>
+			<name>Tezakayt Fortress</name>
 			<text>Whenever a creature you control enters or dies, each opponent loses 1 life and you gain 1 life.
 Attacking creatures you control get +1/+0.</text>
-			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/249_UA04 Tezakayt Fortress.png" num="249">MST</set>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/249_Tezakayt Fortress.png" num="249">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4083,11 +4083,11 @@ Attacking creatures you control get +1/+0.</text>
 			<tablerow>1</tablerow>
 		</card>
 		<card>
-			<name>UA05 Voidmind Axe</name>
+			<name>Voidmind Axe</name>
 			<text>Equipped creature gets +1/+1.
 Whenever equipped creature deals combat damage to an opponent, each player discards a card, then you draw a card and lose 1 life.
 Equip {2}</text>
-			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/250_UA05 Voidmind Axe.png" num="250">MST</set>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/250_Voidmind Axe.png" num="250">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4099,11 +4099,11 @@ Equip {2}</text>
 			<tablerow>1</tablerow>
 		</card>
 		<card>
-			<name>CL01 A Path Between</name>
+			<name>A Path Between</name>
 			<text>This land enters tapped.
 When this land enters, scry 1.
 When this land becomes untapped, sacrifice it, then search your library for a basic land card, put it onto the battlefield, then shuffle.</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/251_CL01 A Path Between.png" num="251">MST</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/254_A Path Between.png" num="254">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4115,10 +4115,10 @@ When this land becomes untapped, sacrifice it, then search your library for a ba
 			<tablerow>0</tablerow>
 		</card>
 		<card>
-			<name>UL01 Verdant Gorge Falls</name>
+			<name>Verdant Gorge Falls</name>
 			<text>As this enters, you may sacrifice a land or discard a land card from your hand. If you don&apos;t, this enters tapped.
 {T}: Add {U}, {R}, or {G}.</text>
-			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/252_UL01 Verdant Gorge Falls.png" num="252">MST</set>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/256_Verdant Gorge Falls.png" num="256">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4131,10 +4131,10 @@ When this land becomes untapped, sacrifice it, then search your library for a ba
 			<tablerow>0</tablerow>
 		</card>
 		<card>
-			<name>UL02 Abandoned Prison</name>
+			<name>Abandoned Prison</name>
 			<text>As this enters, you may sacrifice a land or discard a land card from your hand. If you don&apos;t, this enters tapped.
 {T}: Add {W}, {B}, or {R}.</text>
-			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/253_UL02 Abandoned Prison.png" num="253">MST</set>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/251_Abandoned Prison.png" num="251">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4147,10 +4147,10 @@ When this land becomes untapped, sacrifice it, then search your library for a ba
 			<tablerow>0</tablerow>
 		</card>
 		<card>
-			<name>UL03 Garrisoned Homeland</name>
+			<name>Garrisoned Homeland</name>
 			<text>As this enters, you may sacrifice a land or discard a land card from your hand. If you don&apos;t, this enters tapped.
 {T}: Add {W}, {B}, or {G}.</text>
-			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/254_UL03 Garrisoned Homeland.png" num="254">MST</set>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/253_Garrisoned Homeland.png" num="253">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4163,10 +4163,10 @@ When this land becomes untapped, sacrifice it, then search your library for a ba
 			<tablerow>0</tablerow>
 		</card>
 		<card>
-			<name>UL04 Seaweed Nations</name>
+			<name>Seaweed Nations</name>
 			<text>As this enters, you may sacrifice a land or discard a land card from your hand. If you don&apos;t, this enters tapped.
 {T}: Add {U}, {B}, or {G}.</text>
-			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/255_UL04 Seaweed Nations.png" num="255">MST</set>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/255_Seaweed Nations.png" num="255">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4179,10 +4179,10 @@ When this land becomes untapped, sacrifice it, then search your library for a ba
 			<tablerow>0</tablerow>
 		</card>
 		<card>
-			<name>UL05 Blue Sky Cities</name>
+			<name>Blue Sky Cities</name>
 			<text>As this enters, you may sacrifice a land or discard a land card from your hand. If you don&apos;t, this enters tapped.
 {T}: Add {W}, {U}, or {R}.</text>
-			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/256_UL05 Blue Sky Cities.png" num="256">MST</set>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/252_Blue Sky Cities.png" num="252">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4195,12 +4195,12 @@ When this land becomes untapped, sacrifice it, then search your library for a ba
 			<tablerow>0</tablerow>
 		</card>
 		<card>
-			<name>UG12 The Life of an Epicure</name>
+			<name>The Life of an Epicure</name>
 			<text>Enchant creature you control
 When this Aura enters, you gain 2 life.
 Enchanted creature gets +1/+1 and has trample.
 The first time you gain life each turn, enchanted creature gets +1/+1 until end of turn.</text>
-			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/207_UG12 The Life of an Epicure.png" num="207">MST</set>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/182_The Life of an Epicure.png" num="182">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4214,11 +4214,11 @@ The first time you gain life each turn, enchanted creature gets +1/+1 until end 
 			<tablerow>1</tablerow>
 		</card>
 		<card>
-			<name>UR12 Defend the Temple</name>
+			<name>Defend the Temple</name>
 			<text>This spell can&apos;t be countered.
 This spell deals 3 damage to any target.
 If you control a militant, exile the top card of your library. Until the end of your next turn, you may play that card. (Armies, Heroes, Knights, Soldiers and Warriors are militants.)</text>
-			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/167_UR12 Defend the Temple.png" num="167">MST</set>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/132_Defend the Temple.png" num="132">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4232,12 +4232,12 @@ If you control a militant, exile the top card of your library. Until the end of 
 			<tablerow>3</tablerow>
 		</card>
 		<card>
-			<name>UB12 Cultist of Dus Acasui</name>
+			<name>Cultist of Dus Acasui</name>
 			<text>Menace
 When this creature enters, choose one —
 • Target creature gets -4/-4 until end of turn.
 • Return target creature card with mana value 2 or less from your graveyard to the battlefield tapped.</text>
-			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/127_UB12 Cultist of Dus Acasui.png" num="127">MST</set>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/91_Cultist of Dus Acasui.png" num="91">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4252,11 +4252,11 @@ When this creature enters, choose one —
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>UW12 Oracle&apos;s Encouragement</name>
+			<name>Oracle&apos;s Encouragement</name>
 			<text>When this enchantment enters, create a 1/1 white Bird Citizen creature token with flying.
 Creature tokens you control have vigilance.
 Whenever you attack with four or more creatures, scry 2, then draw a card.</text>
-			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/46_UW12 Oracle&apos;s Encouragement.png" num="46">MST</set>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/23_Oracle&apos;s Encouragement.png" num="23">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4270,10 +4270,10 @@ Whenever you attack with four or more creatures, scry 2, then draw a card.</text
 			<tablerow>1</tablerow>
 		</card>
 		<card>
-			<name>UX05 Watchpost Village</name>
+			<name>Watchpost Village</name>
 			<text>{T}: Add {C}.
 {3}, {T}, Sacrifice this land: Prevent all damage that would be dealt to or dealt by target creature this turn.</text>
-			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/257_UX05 Watchpost Village.png" num="257">MST</set>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/257_Watchpost Village.png" num="257">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4285,11 +4285,11 @@ Whenever you attack with four or more creatures, scry 2, then draw a card.</text
 			<tablerow>0</tablerow>
 		</card>
 		<card>
-			<name>RX01 Wrathful Lerna</name>
+			<name>Wrathful Lerna</name>
 			<text>This creature enters with a +1/+1 counter on it for each mana spent to cast it.
 Trample
 Whenever this creature enters or attacks, you may remove a counter from yourself or a permanent you control. If you do, draw a card, gain 1 life, and each opponent loses 1 life.</text>
-			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/223_RX01 Wrathful Lerna.png" num="223">MST</set>
+			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/235_Wrathful Lerna.png" num="235">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4304,10 +4304,10 @@ Whenever this creature enters or attacks, you may remove a counter from yourself
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>RX02 Revered Moonstaff</name>
+			<name>Revered Moonstaff</name>
 			<text>Equipped creature gets +X/+X and has ward {X}, where X is the number of Moonstone counters you have.
 Equip {2} or remove a Moonstone counter from yourself</text>
-			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/244_RX02 Revered Moonstaff.png" num="244">MST</set>
+			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/247_Revered Moonstaff.png" num="247">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4319,11 +4319,11 @@ Equip {2} or remove a Moonstone counter from yourself</text>
 			<tablerow>1</tablerow>
 		</card>
 		<card>
-			<name>RX03 Repulsive Soulblade</name>
+			<name>Repulsive Soulblade</name>
 			<text>Equipped creature has menace and hexproof from white.
 Whenever a player discards one or more cards, equipped creature gets +1/+1 until end of turn. If one or more creature cards are discarded this way, put a +1/+1 counter on equipped creature instead.
 Equip {2}</text>
-			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/245_RX03 Repulsive Soulblade.png" num="245">MST</set>
+			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/246_Repulsive Soulblade.png" num="246">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4335,67 +4335,79 @@ Equip {2}</text>
 			<tablerow>1</tablerow>
 		</card>
 		<card>
-			<name>RX04 will be mono-green</name>
-			<text></text>
-			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/3_RX04 will be mono-green.png" num="3">MST</set>
+			<name>RX04 Starshine Charms</name>
+			<text>Choose one. If you&apos;ve gained life this turn, choose any number instead —
+• Exile target artifact or enchantment.
+• Draw a card, then you may put a land card from your hand onto the battlefield.
+• Put three +1/+1 counters on target creature you control.</text>
+			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/188_RX04 Starshine Charms.png" num="188">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type></type>
-				<maintype></maintype>
-				<manacost></manacost>
-				<cmc>0</cmc>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>Moonrise Bravado</name>
+			<text>Creatures you control have haste and attack each combat if able.</text>
+			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/148_Moonrise Bravado.png" num="148">MST</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
 			</prop>
 			<tablerow>1</tablerow>
 		</card>
 		<card>
-			<name>RX05 will be mono-red</name>
-			<text></text>
-			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/4_RX05 will be mono-red.png" num="4">MST</set>
+			<name>Nourishing Misery</name>
+			<text>At the beginning of your end step, each opponent sacrifices a creature of their choice, discards a card, mills two cards, and loses 2 life. Then if any opponent didn&apos;t sacrifice a creature or discard a card this way, you draw a card.</text>
+			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/110_Nourishing Misery.png" num="110">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type></type>
-				<maintype></maintype>
-				<manacost></manacost>
-				<cmc>0</cmc>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>4BB</manacost>
+				<cmc>6</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
 			</prop>
 			<tablerow>1</tablerow>
 		</card>
 		<card>
-			<name>RX06</name>
-			<text></text>
-			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/5_RX06.png" num="5">MST</set>
+			<name>Icespark</name>
+			<text>At the beginning of your upkeep, scry 2, then if you have more life than each opponent, draw a card.
+Sacrifice this enchantment: Tap target creature and put six stun counters on it.</text>
+			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/16_Icespark.png" num="16">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type></type>
-				<maintype></maintype>
-				<manacost></manacost>
-				<cmc>0</cmc>
+				<type>Enchantment</type>
+				<maintype>Enchantment</maintype>
+				<manacost>WW</manacost>
+				<cmc>2</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
 			</prop>
 			<tablerow>1</tablerow>
 		</card>
 		<card>
-			<name>RX07</name>
-			<text></text>
-			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/6_RX07.png" num="6">MST</set>
-			<prop>
-				<layout>normal</layout>
-				<side>front</side>
-				<type></type>
-				<maintype></maintype>
-				<manacost></manacost>
-				<cmc>0</cmc>
-			</prop>
-			<tablerow>1</tablerow>
-		</card>
-		<card>
-			<name>RX08 Eela, Tropical Windspeaker</name>
+			<name>Eela, Tropical Windspeaker</name>
 			<text>Flying
 Whenever Eela deals combat damage to an opponent, you may pay {X}{UR}. When you do, exile target instant or sorcery card from a graveyard.
 At the beginning of your upkeep, choose a card exiled with Eela. You may cast that card this turn without paying its mana cost.</text>
-			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/75_RX08 Eela, Tropical Windspeaker.png" num="75">MST</set>
+			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/50_Eela, Tropical Windspeaker.png" num="50">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4410,11 +4422,11 @@ At the beginning of your upkeep, choose a card exiled with Eela. You may cast th
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>MX01 Impatient Dragonling</name>
+			<name>Impatient Dragonling</name>
 			<text>Haste, ward—pay 2 life
 This creature gets +3/+3 and has flying as long as it&apos;s a token.
 Encore {3}{WB}{R} ({3}{WB}{R}, Exile this card from your graveyard: For each opponent, create a token copy that attacks that opponent this turn if able. They gain haste. Sacrifice them at the beginning of the next end step. Activate only as a sorcery.)</text>
-			<set rarity="mythic" picurl="https://Opacana.github.io/sets/MST-files/img/212_MX01 Impatient Dragonling.png" num="212">MST</set>
+			<set rarity="mythic" picurl="https://Opacana.github.io/sets/MST-files/img/215_Impatient Dragonling.png" num="215">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4429,11 +4441,11 @@ Encore {3}{WB}{R} ({3}{WB}{R}, Exile this card from your graveyard: For each opp
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>MX02 The Jamakhora</name>
+			<name>The Jamakhora</name>
 			<text>Haste, flying, deathtouch
-MX02 The Jamakhora has indestructible as long as a creature an opponent controlled died this turn.
-Whenever MX02 The Jamakhora attacks, you may have it fight target creature you don&apos;t control.</text>
-			<set rarity="mythic" picurl="https://Opacana.github.io/sets/MST-files/img/213_MX02 The Jamakhora.png" num="213">MST</set>
+The Jamakhora has indestructible as long as a creature an opponent controlled died this turn.
+Whenever The Jamakhora attacks, you may have it fight target creature you don&apos;t control.</text>
+			<set rarity="mythic" picurl="https://Opacana.github.io/sets/MST-files/img/217_The Jamakhora.png" num="217">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4448,11 +4460,11 @@ Whenever MX02 The Jamakhora attacks, you may have it fight target creature you d
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>MX03 Esurvite Holy Book</name>
+			<name>Esurvite Holy Book</name>
 			<text>When this artifact enters, draw a card.
 At the beginning of your upkeep, mill ten cards.
 At the beginning of your end step, if there are one or more cards in your graveyard, shuffle them into your library.</text>
-			<set rarity="mythic" picurl="https://Opacana.github.io/sets/MST-files/img/243_MX03 Esurvite Holy Book.png" num="243">MST</set>
+			<set rarity="mythic" picurl="https://Opacana.github.io/sets/MST-files/img/239_Esurvite Holy Book.png" num="239">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4464,32 +4476,41 @@ At the beginning of your end step, if there are one or more cards in your gravey
 			<tablerow>1</tablerow>
 		</card>
 		<card>
-			<name>MX04 will be multicolor</name>
-			<text></text>
-			<set rarity="mythic" picurl="https://Opacana.github.io/sets/MST-files/img/1_MX04 will be multicolor.png" num="1">MST</set>
+			<name>Jury of the Midnight Court</name>
+			<text>When this creature enters, choose one —
+• You get three Moonstone counters.
+• Return a card from your graveyard to your hand.
+{X}{B}{G}{U}, {T}: Return target permanent card with mana value X from your graveyard to the battlefield. This costs {1} less to activate for each Moonstone counter you have.</text>
+			<set rarity="mythic" picurl="https://Opacana.github.io/sets/MST-files/img/220_Jury of the Midnight Court.png" num="220">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type></type>
-				<maintype></maintype>
-				<manacost></manacost>
-				<cmc>0</cmc>
+				<type>Creature — Advisor Cleric Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>1BGU</manacost>
+				<cmc>4</cmc>
+				<colors>UBG</colors>
+				<coloridentity>UBG</coloridentity>
+				<pt>3/4</pt>
 			</prop>
-			<tablerow>1</tablerow>
+			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>MX05</name>
-			<text></text>
-			<set rarity="mythic" picurl="https://Opacana.github.io/sets/MST-files/img/2_MX05.png" num="2">MST</set>
+			<name>Stunning Theft</name>
+			<text>As an additional cost to cast this spell, discard up to two cards.
+Gain control of target spell with mana value less than or equal to the total mana value of the discarded cards. You may choose new targets for it. (If that spell becomes a permanent, it enters under your control.)</text>
+			<set rarity="mythic" picurl="https://Opacana.github.io/sets/MST-files/img/232_Stunning Theft.png" num="232">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type></type>
-				<maintype></maintype>
-				<manacost></manacost>
-				<cmc>0</cmc>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1UBR</manacost>
+				<cmc>4</cmc>
+				<colors>UBR</colors>
+				<coloridentity>UBR</coloridentity>
 			</prop>
-			<tablerow>1</tablerow>
+			<tablerow>3</tablerow>
 		</card>
 		<card>
 			<name>Plains</name>
@@ -4569,7 +4590,7 @@ At the beginning of your end step, if there are one or more cards in your gravey
 		<card>
 			<name>Rat Rogue MST</name>
 			<text>Menace</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/5t_Rat Rogue.png" num="5">MST</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/10t_Rat Rogue.png" num="10">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4583,11 +4604,16 @@ At the beginning of your end step, if there are one or more cards in your gravey
 			</prop>
 			<tablerow>2</tablerow>
 			<token>1</token>
+			<reverse_related count="3">Brawl at the Docks</reverse_related>
+			<reverse_related count="1">Mayarai, Bonesnouts Leader</reverse_related>
+			<reverse_related count="1">Reluctant Companions</reverse_related>
+			<reverse_related count="1">Taza, Exiled Princess</reverse_related>
+			<reverse_related count="1">Under the Iron Capitol</reverse_related>
 		</card>
 		<card>
 			<name>Klawia, the Journeyer</name>
 			<text></text>
-			<set rarity="mythic" picurl="https://Opacana.github.io/sets/MST-files/img/209_Klawia, the Journeyer.png" num="209">MST</set>
+			<set rarity="mythic" picurl="https://Opacana.github.io/sets/MST-files/img/221_Klawia, the Journeyer.png" num="221">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4605,7 +4631,7 @@ At the beginning of your end step, if there are one or more cards in your gravey
 			<name>Jeddina, Digital Huntress</name>
 			<text>Haste, reach, vigilance
 At the beginning of each combat, if an opponent controls a legendary creature, Jeddina gains deathtouch until end of turn.</text>
-			<set rarity="mythic" picurl="https://Opacana.github.io/sets/MST-files/img/208_Jeddina, Digital Huntress.png" num="208">MST</set>
+			<set rarity="mythic" picurl="https://Opacana.github.io/sets/MST-files/img/218_Jeddina, Digital Huntress.png" num="218">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4622,7 +4648,7 @@ At the beginning of each combat, if an opponent controls a legendary creature, J
 		<card>
 			<name>Cat Elemental MST</name>
 			<text></text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/6t_Cat Elemental.png" num="6">MST</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/13t_Cat Elemental.png" num="13">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4636,11 +4662,12 @@ At the beginning of each combat, if an opponent controls a legendary creature, J
 			</prop>
 			<tablerow>2</tablerow>
 			<token>1</token>
+			<reverse_related count="1">Liau, Primordial Mother</reverse_related>
 		</card>
 		<card>
 			<name>Rat Citizen MST</name>
 			<text></text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/4t_Rat Citizen.png" num="4">MST</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/7t_Rat Citizen.png" num="7">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4654,11 +4681,17 @@ At the beginning of each combat, if an opponent controls a legendary creature, J
 			</prop>
 			<tablerow>2</tablerow>
 			<token>1</token>
+			<reverse_related count="3">Mobilize the Village</reverse_related>
+			<reverse_related count="1">Rouser Elder</reverse_related>
+			<reverse_related count="1">Battle-weary Swordtail</reverse_related>
+			<reverse_related count="1">Reluctant Companions</reverse_related>
+			<reverse_related count="1">Dedicated Mining Crew</reverse_related>
+			<reverse_related count="1">Under the Iron Capitol</reverse_related>
 		</card>
 		<card>
 			<name>Goat Peasant MST</name>
 			<text></text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/3t_Goat Peasant.png" num="3">MST</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/6t_Goat Peasant.png" num="6">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4672,11 +4705,12 @@ At the beginning of each combat, if an opponent controls a legendary creature, J
 			</prop>
 			<tablerow>2</tablerow>
 			<token>1</token>
+			<reverse_related count="2">Stubborn Hornblower</reverse_related>
 		</card>
 		<card>
 			<name>Cat Peasant MST</name>
 			<text></text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/2t_Cat Peasant.png" num="2">MST</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/3t_Cat Peasant.png" num="3">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4690,11 +4724,12 @@ At the beginning of each combat, if an opponent controls a legendary creature, J
 			</prop>
 			<tablerow>2</tablerow>
 			<token>1</token>
+			<reverse_related count="1">Contemplative Relaxation</reverse_related>
 		</card>
 		<card>
 			<name>Drake Elemental MST</name>
 			<text>Flying</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/8t_Drake Elemental.png" num="8">MST</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/14t_Drake Elemental.png" num="14">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4704,15 +4739,16 @@ At the beginning of each combat, if an opponent controls a legendary creature, J
 				<cmc>0</cmc>
 				<colors>UR</colors>
 				<coloridentity>UR</coloridentity>
-				<pt>2/2</pt>
+				<pt>3/2</pt>
 			</prop>
 			<tablerow>2</tablerow>
 			<token>1</token>
+			<reverse_related count="1">Flux-Node Birthing</reverse_related>
 		</card>
 		<card>
 			<name>Dragon MST</name>
 			<text>Flying</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/7t_Dragon.png" num="7">MST</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/5t_Dragon.png" num="5">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4726,11 +4762,12 @@ At the beginning of each combat, if an opponent controls a legendary creature, J
 			</prop>
 			<tablerow>2</tablerow>
 			<token>1</token>
+			<reverse_related count="1">Unconventional Summoner</reverse_related>
 		</card>
 		<card>
 			<name>Rat Soldier MST</name>
 			<text></text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/9t_Rat Soldier.png" num="9">MST</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/15t_Rat Soldier.png" num="15">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4744,6 +4781,7 @@ At the beginning of each combat, if an opponent controls a legendary creature, J
 			</prop>
 			<tablerow>2</tablerow>
 			<token>1</token>
+			<reverse_related count="1">Iron Empire Brigade</reverse_related>
 		</card>
 		<card>
 			<name>Bird Noble MST</name>
@@ -4760,6 +4798,154 @@ At the beginning of each combat, if an opponent controls a legendary creature, J
 			</prop>
 			<tablerow>2</tablerow>
 			<token>1</token>
+			<reverse_related count="1">Summer Throne</reverse_related>
+		</card>
+		<card>
+			<name>Dog Soldier MST</name>
+			<text></text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/4t_Dog Soldier.png" num="4">MST</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Dog Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+			<reverse_related count="1">City Gate Patrol</reverse_related>
+		</card>
+		<card>
+			<name>Food MST</name>
+			<text>{2}, {T}, Sacrifice this artifact: Gain 3 life.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/16t_Food.png" num="16">MST</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Artifact — Food</type>
+				<maintype>Artifact</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
+			<reverse_related count="1">Feast with the King</reverse_related>
+			<reverse_related count="1">The Flower Picker Inn</reverse_related>
+		</card>
+		<card>
+			<name>Bird Citizen MST</name>
+			<text>Flying</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/2t_Bird Citizen.png" num="2">MST</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Bird Citizen</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>W</colors>
+				<coloridentity>W</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+			<reverse_related count="1">Oracle&apos;s Encouragement</reverse_related>
+		</card>
+		<card>
+			<name>Octopus Rogue MST</name>
+			<text></text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/9t_Octopus Rogue.png" num="9">MST</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Octopus Rogue</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+			<reverse_related count="1">Hullcutter Duo</reverse_related>
+		</card>
+		<card>
+			<name>Bird Spirit MST</name>
+			<text>Flying</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/8t_Bird Spirit.png" num="8">MST</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Bird Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>U</colors>
+				<coloridentity>U</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+			<reverse_related count="2">Summon the Soulchasers</reverse_related>
+		</card>
+		<card>
+			<name>Treasure MST</name>
+			<text>{T}, Sacrifice this artifact: Add one mana of any color.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/17t_Treasure.png" num="17">MST</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Artifact — Food</type>
+				<maintype>Artifact</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+			</prop>
+			<tablerow>1</tablerow>
+			<token>1</token>
+			<reverse_related count="1">M&apos;gruk, Interplanar Plunderer</reverse_related>
+			<reverse_related count="1">Dedicated Mining Crew</reverse_related>
+		</card>
+		<card>
+			<name>Dog Spirit MST</name>
+			<text>Vigilance</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/11t_Dog Spirit.png" num="11">MST</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Dog Spirit</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>3/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+			<reverse_related count="1">Summoning Ancestors</reverse_related>
+		</card>
+		<card>
+			<name>Rhino Druid MST</name>
+			<text>Vigilance</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/12t_Rhino Druid.png" num="12">MST</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Rhino Druid</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>G</colors>
+				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+			<reverse_related count="1">Jade Ritual</reverse_related>
 		</card>
 	</cards>
 </cockatrice_carddatabase>
