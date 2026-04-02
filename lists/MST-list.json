@@ -367,8 +367,8 @@
         "position": ""
     },
     {
-        "card_name": "RX04 Starshine Charms",
-        "number": 188,
+        "card_name": "Seeker of Strength",
+        "number": 190,
         "shape": "normal",
         "set": "MST",
         "rotated": false,
@@ -407,8 +407,8 @@
         "position": ""
     },
     {
-        "card_name": "Seeker of Strength",
-        "number": 191,
+        "card_name": "Starshine Charms",
+        "number": 195,
         "shape": "normal",
         "set": "MST",
         "rotated": false,
@@ -848,7 +848,7 @@
     },
     {
         "card_name": "Solidarity",
-        "number": 195,
+        "number": 194,
         "shape": "normal",
         "set": "MST",
         "rotated": false,
@@ -1368,7 +1368,7 @@
     },
     {
         "card_name": "Scallywag Tracker",
-        "number": 189,
+        "number": 188,
         "shape": "normal",
         "set": "MST",
         "rotated": false,
@@ -1408,7 +1408,7 @@
     },
     {
         "card_name": "School of Seaquids",
-        "number": 190,
+        "number": 189,
         "shape": "normal",
         "set": "MST",
         "rotated": false,
@@ -1448,7 +1448,7 @@
     },
     {
         "card_name": "Shard of Growth",
-        "number": 192,
+        "number": 191,
         "shape": "normal",
         "set": "MST",
         "rotated": false,
@@ -1488,7 +1488,7 @@
     },
     {
         "card_name": "Sika Matriarch",
-        "number": 193,
+        "number": 192,
         "shape": "normal",
         "set": "MST",
         "rotated": false,
@@ -1528,7 +1528,7 @@
     },
     {
         "card_name": "Sociable Inn Owner",
-        "number": 194,
+        "number": 193,
         "shape": "normal",
         "set": "MST",
         "rotated": false,

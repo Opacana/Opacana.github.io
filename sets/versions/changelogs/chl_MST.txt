@@ -1,4 +1,155 @@
-﻿VERSION 14 CHANGELOG
+﻿VERSION 15 CHANGELOG
+====================
+
+Starshine Charms added.
+
+RX04 Starshine Charms removed.
+
+Deathspark Speaker
+
+Laughing Path Master
+rules_text: Whenever another creature you control enters, you gain 1 life.
+At the beginning of your end step, if you've gained 3 or more life this turn, draw a card. => Whenever another creature enters, you gain 1 life.
+At the beginning of your end step, if you've gained 3 or more life this turn, draw a card.
+
+Serene Crystallization
+
+Ring of Assurance
+
+Keensight Sorcerer
+
+Selaki Stormrider
+pt: 3/1 => 2/1
+
+Armed Delegation
+rules_text: Flying
+Whenever this creature deals combat damage to an opponent, that opponent chooses one —
+• You draw a card.
+• They tap a creature they control. That creature doesn't untap during their next untap step. => Flying
+Whenever this creature deals combat damage to an opponent, that opponent chooses one —
+• You draw a card.
+• They tap a creature they control and put a stun counter on it.
+
+Banished Clairvoyant
+rules_text: Flying
+Whenever this creature attacks, you may discard a card. When you do, target creature you control gains menace until end of turn.
+At the beginning of your end step, if any player discarded two or more cards, you scry 2. => Flying
+Whenever this creature attacks, you may discard a card. When you do, target creature you control gains menace until end of turn.
+At the beginning of your end step, if any player discarded a card this turn, scry 2.
+
+Adventuring Mages of Squa
+rules_text: When this creature enters, if it's not a token, create a token that's a copy of it.
+Whenever this creature deals combat damage to a player or planeswalker, instant and/or sorcery spells you cast this turn cost {1} less to cast. => When this creature enters, if it's not a token, create a token that's a copy of it.
+Whenever this creature deals combat damage to a player or planeswalker, instant and sorcery spells you cast this turn cost {1} less to cast.
+
+Glacier Lookout
+rules_text: Kicker {2} [i](You may pay an additional {2} as you cast this spell.)[/i]
+Reach
+When this creature enters, if it was kicked, create a creature token that's a copy of it.
+When this creature enters, you get a Moonstone counter. => Kicker {2}
+Reach
+When this creature enters, if it was kicked, create a creature token that's a copy of it.
+When this creature enters, you get a Moonstone counter.
+
+Unconventional Summoner
+
+Duchess of the Trials
+
+Spire Guru
+rules_text: Flying
+Pay 3 life: This creature gains first strike and indestructible until end of turn. Tap this creature. Activate only once each turn. => Flying
+Pay 3 life: This creature gains indestructible until end of turn. Tap this creature. Activate only once each turn.
+
+Sunblaze Aerie Delegate
+
+Storm of Defiance
+rules_text: This spell costs {W} less to cast as long as you control 3 or more creatures or a nontoken militant creature. [i](Armies, Heroes, Knights, Soldiers and Warriors are militants.)[/i]
+Exile target attacking or blocking creature. => This spell costs {W} less to cast as long as you control three or more creatures or a militant creature. [i](Armies, Heroes, Knights, Soldiers and Warriors are militants.)[/i]
+Exile target attacking or blocking creature.
+
+Veteran Burglar
+rules_text: Ward {1}
+Whenever this creature deals combat damage to an opponent, you search that player's library for a nonland, noncreature card and exile it, then that player shuffles. As long as that card remains exiled, you may cast it, and spend mana as if it were any color to cast it. => Ward {1}
+Whenever this creature deals combat damage to an opponent, you search their library for a nonland, noncreature card and exile it, then that player shuffles. You may play the exiled card for as long as it remains exiled, and you may spend mana as though it were mana of any color to cast that spell.
+
+Evercursed
+
+Necromancer's Whim
+rules_text: Kicker {3}{B} [i](You may pay an additional {3}{B} as you cast this spell.)[/i]
+Return target creature card from your graveyard to your hand. If this spell was kicked, return that creature card to the battlefield tapped instead. => Kicker {3}{B}
+Return target creature card from your graveyard to your hand. If this spell was kicked, return that creature card to the battlefield tapped instead.
+
+Jack of All Spells
+
+Storm the Palace
+
+Lafahd Sandsprinter
+rules_text: This creature can't be blocked except by creatures with flying or reach.
+{4}{R}{G}: Choose one —
+• Put X +1/+1 counters on target creature.
+• This creature deals X damage to any target.
+X is the number of lands you control. Activate only if this creature dealt combat damage to an opponent this turn. => This creature enters with a scout counter on it. As long as it has a scout counter on it, it can't be blocked except by creatures with flying or reach.
+{3}{R}{G}, Remove a scout counter from this creature: Choose one. X is the number of lands you control. —
+• Put X +1/+1 counters on target creature.
+• This creature deals X damage to target permanent.
+
+Pass Down Secrets
+rules_text: Choose one —
+• Return up to three target instant, sorcery and/or artifact cards from your graveyard to your hand.
+• Return all cards with Wisdom from your graveyard to your hand.
+Exile this spell. => Choose one —
+• Return up to two target instant, sorcery or artifact cards from your graveyard to your hand.
+• Mill five cards, then return any number of cards with Wisdom from your graveyard to your hand.
+Exile Pass Down Secrets.
+
+Return to Instinct
+cost: {2}{B}{B} => {1}{B}{B}
+
+Debate the Fauna
+rules_text: Look at the top X cards of your library, where X is the number of creatures you control. Reveal two of those cards. An opponent chooses one of them. Put it into your hand. Then put any number of the other cards you looked at into your graveyard and the rest on the bottom of your library in a random order. => Look at the top X cards of your library, where X is twice the number of creatures you control. Reveal two of those cards. An opponent chooses one of them. Put it into your hand. Then put any number of the other cards you looked at into your graveyard and the rest on the bottom of your library in any order.
+
+Summoning Ancestors
+rules_text: Whenever a land leaves your graveyard or is put into your graveyard from anywhere, put a charge counter on this enchantment.
+Sacrifice this enchantment: Create a 3/1 green Dog Spirit creature token with vigilance for every charge counter on this enchantment. => Whenever one or more land cards leave your graveyard or are put into your graveyard from anywhere, put a charge counter on this enchantment.
+Sacrifice this enchantment: Create a 3/1 green Dog Spirit creature token with vigilance for every charge counter on this enchantment.
+
+M'gruk, Interplanar Plunderer
+rules_text: Flying, haste
+Whenever M'gruk deals combat damage to an opponent, create a Treasure token.
+Tap an untapped nonland artifact you control: M'gruk gets +1/+0 until end of turn. => Flying, haste
+Whenever M'gruk deals combat damage to an opponent, create a Treasure token.
+Tap an untapped artifact you control: M'gruk gets +1/+0 until end of turn.
+
+Steadfast Retriever
+rules_text: Haste, reach, vigilance
+At the beginning of your end step, you may return a nonland creature you control to its owner's hand. If you do, put a +1/+1 counter on this creature. => Haste, reach, vigilance
+At the beginning of your end step, you may return a creature you control to its owner's hand. If you do, put a +1/+1 counter on this creature.
+
+Crystal Flameblossom
+cost: {1}{R}{G} => {2}{R}{G}
+rules_text: If a land you control would enter tapped, you may have it deal 1 damage to you. When you do, it enters untapped instead.
+Creatures you control get +X/+0, where X is the number of lands that entered and/or left your graveyard this turn. => If a land you control would enter tapped, you may have it deal 1 damage to you. When you do, it enters untapped instead.
+At the beginning of your end step, if two or more land cards entered and/or left your graveyard this turn, this enchantment deals 2 damage to each opponent.
+
+Iron Empire Monolith
+
+Necklace of Fangs
+rules_text: Whenever you cast an instant or sorcery spell, equipped creature gets +1/+1 and gains first strike until end of turn. This triggers only once each turn.
+Equip {1} => Equipped creature gets +1/+1.
+Equipped creature has first strike as long as you've cast an instant or sorcery this turn.
+Equip {1}
+
+Garrisoned Homeland
+
+Klawia, the Journeyer
+special_text: [+1]: Gain 2 life, then return up to one land card from your graveyard to your hand.
+[-2 ]: Klawia deals 3 damage to any target.
+[-9]: You gain X life, get X Moonstone counters, and put X +1/+1 counters on each creature you control, where X is the number of lands you control. => [+1]: You gain 2 life, then return up to one land card from your graveyard to your hand.
+[-2 ]: Klawia deals 3 damage to any target.
+[-9]: You gain X life, get X Moonstone counters, and put X +1/+1 counters on each creature you control, where X is the number of lands you control.
+
+
+VERSION 14 CHANGELOG
 ====================
 
 Plumb the Depths added.

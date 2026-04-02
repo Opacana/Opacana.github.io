@@ -212,7 +212,7 @@
             "color_identity": "BR",
             "cost": "{B}{R}",
             "rules_text": "Ward\u2014Exile two cards from your graveyard\n{B}{R}, {T}, Discard a card: This creature deals 1 damage to any target and you gain 1 life.",
-            "flavor_text": "[i]\u201cPay me what I seek and I shall find you your precious Moonstones...\u201d[/i]",
+            "flavor_text": "[i]\u201cPay me what I seek and I shall find you your precious Moonstones . . .\u201d[/i]",
             "pt": "2/2",
             "special_text": "",
             "shape": "normal",
@@ -247,7 +247,7 @@
             "number": 223,
             "color_identity": "WG",
             "cost": "{G}{W}",
-            "rules_text": "Whenever another creature you control enters, you gain 1 life.\nAt the beginning of your end step, if you've gained 3 or more life this turn, draw a card.",
+            "rules_text": "Whenever another creature enters, you gain 1 life.\nAt the beginning of your end step, if you've gained 3 or more life this turn, draw a card.",
             "flavor_text": "[i]\u201cTo see the comedy in both the dark and the light, that is true wisdom.\u201d[/i]",
             "pt": "1/2",
             "special_text": "",
@@ -255,7 +255,7 @@
             "set": "MST",
             "loyalty": "",
             "artist": "Luis Salas Lastra",
-            "notes": "!group Arcun"
+            "notes": "!group Arcun\n\n\nMArch 27th, 2026: Now gains you 1 life on any creature entering, not just yours."
         },
         {
             "card_name": "Mayarai, Bonesnouts Leader",
@@ -680,14 +680,14 @@
             "color_identity": "W",
             "cost": "{2}{W}",
             "rules_text": "When this enchantment enters, exile target nonland permanent an opponent controls until this enchantment leaves the battlefield.",
-            "flavor_text": "[i]flavor text WIP[/i]",
+            "flavor_text": "[i]Some natural crystals were easily supercharged by the Moonstones, and grew shockingly fast.[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "MST",
             "loyalty": "",
             "artist": "Steph Johnstone",
-            "notes": "Feb. 27th, 2026: Changed this and Marks of Guilt; Marks is now the wisdom pacify, and this is now a Banishing Light."
+            "notes": "Feb. 27th, 2026: Changed this and Marks of Guilt; Marks is now the wisdom pacify, and this is now a Banishing Light.\n\nMarch 24th, 2026: Flavor text added."
         },
         {
             "card_name": "Ring of Assurance",
@@ -704,7 +704,7 @@
             "shape": "normal",
             "set": "MST",
             "loyalty": "",
-            "artist": "",
+            "artist": "Ben Thompson",
             "notes": ""
         },
         {
@@ -806,7 +806,7 @@
             "color_identity": "U",
             "cost": "{2}{U}",
             "rules_text": "When this creature enters, you get a Moonstone counter.\nSpells you cast cost {1} less to cast as long as you've gotten one or more Moonstone counters this turn.",
-            "flavor_text": "[i]\u201cWith this Moonstone, I'm beginning to see the world's true potential...\u201d[/i]",
+            "flavor_text": "[i]\u201cWith this Moonstone, I'm beginning to see the world's true potential . . .\u201d[/i]",
             "pt": "1/3",
             "special_text": "",
             "shape": "normal",
@@ -843,13 +843,13 @@
             "cost": "{1}{U}",
             "rules_text": "Whenever this creature attacks, red and/or blue noncreature spells you cast cost {1} less to cast until your next turn. This triggers only once each turn.",
             "flavor_text": "[i]The Selaki, traditional enemies of the Xolotl, preferred lives of adventure and exploration.[/i]",
-            "pt": "3/1",
+            "pt": "2/1",
             "special_text": "",
             "shape": "normal",
             "set": "MST",
             "loyalty": "",
             "artist": "Herckeim",
-            "notes": ""
+            "notes": "03/23/2026: Changed from 3/1 to 2/1."
         },
         {
             "card_name": "Siltshore Sentinel",
@@ -877,7 +877,7 @@
             "number": 44,
             "color_identity": "U",
             "cost": "{3}{U}{U}",
-            "rules_text": "Flying\nWhenever this creature deals combat damage to an opponent, that opponent chooses one \u2014\n\u2022 You draw a card.\n\u2022 They tap a creature they control. That creature doesn't untap during their next untap step.",
+            "rules_text": "Flying\nWhenever this creature deals combat damage to an opponent, that opponent chooses one \u2014\n\u2022 You draw a card.\n\u2022 They tap a creature they control and put a stun counter on it.",
             "flavor_text": "[i][/i]",
             "pt": "4/4",
             "special_text": "",
@@ -885,7 +885,7 @@
             "set": "MST",
             "loyalty": "",
             "artist": "Mike Shachook",
-            "notes": ""
+            "notes": "March 27th, 2026: Changed the not untapping text to simply put a stun counter on it."
         },
         {
             "card_name": "Elder Cirein",
@@ -1165,7 +1165,7 @@
             "number": 85,
             "color_identity": "B",
             "cost": "{1}{B}",
-            "rules_text": "Flying\nWhenever this creature attacks, you may discard a card. When you do, target creature you control gains menace until end of turn.\nAt the beginning of your end step, if any player discarded two or more cards, you scry 2.",
+            "rules_text": "Flying\nWhenever this creature attacks, you may discard a card. When you do, target creature you control gains menace until end of turn.\nAt the beginning of your end step, if any player discarded a card this turn, scry 2.",
             "flavor_text": "[i][/i]",
             "pt": "2/1",
             "special_text": "",
@@ -1453,7 +1453,7 @@
             "number": 125,
             "color_identity": "R",
             "cost": "{1}{R}{R}",
-            "rules_text": "When this creature enters, if it's not a token, create a token that's a copy of it.\nWhenever this creature deals combat damage to a player or planeswalker, instant and/or sorcery spells you cast this turn cost {1} less to cast.",
+            "rules_text": "When this creature enters, if it's not a token, create a token that's a copy of it.\nWhenever this creature deals combat damage to a player or planeswalker, instant and sorcery spells you cast this turn cost {1} less to cast.",
             "flavor_text": "[i][/i]",
             "pt": "1/1",
             "special_text": "",
@@ -1461,7 +1461,7 @@
             "set": "MST",
             "loyalty": "",
             "artist": "Will O'Brien",
-            "notes": ""
+            "notes": "March 27th, 2026: 'and/or' changed to simply 'and'."
         },
         {
             "card_name": "Aardite Brute",
@@ -1720,7 +1720,7 @@
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2014 Deer Cleric",
-            "number": 193,
+            "number": 192,
             "color_identity": "G",
             "cost": "{1}{G}",
             "rules_text": "When this creature enters, you gain 4 life.",
@@ -1795,7 +1795,7 @@
             "number": 174,
             "color_identity": "G",
             "cost": "{2}{G}{G}",
-            "rules_text": "Kicker {2} [i](You may pay an additional {2} as you cast this spell.)[/i]\nReach\nWhen this creature enters, if it was kicked, create a creature token that's a copy of it.\nWhen this creature enters, you get a Moonstone counter.",
+            "rules_text": "Kicker {2}\nReach\nWhen this creature enters, if it was kicked, create a creature token that's a copy of it.\nWhen this creature enters, you get a Moonstone counter.",
             "flavor_text": "[i][/i]",
             "pt": "3/3",
             "special_text": "",
@@ -1828,7 +1828,7 @@
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2014 Fish Horse",
-            "number": 190,
+            "number": 189,
             "color_identity": "UG",
             "cost": "{3}{G}{G}",
             "rules_text": "This creature enters with three +1/+1 counters on it.\n{1}{U}: For each kind of counter on target permanent or player, give that permanent or player another counter of that kind. Activate only once each turn, and only as a sorcery.",
@@ -1846,7 +1846,7 @@
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2014 Bear Noble Advisor",
-            "number": 194,
+            "number": 193,
             "color_identity": "G",
             "cost": "{4}{G}{G}",
             "rules_text": "Trample\nThis creature enters with a +1/+1 counter on it if you've gained life this turn.\nWhen this creature enters, you gain 2 life and scry 1.",
@@ -1868,7 +1868,7 @@
             "color_identity": "G",
             "cost": "{1}{G}{G}",
             "rules_text": "When this enters, create a 1/1 white Dragon creature token with flying.",
-            "flavor_text": "[i]\u201cOthers let these techniques just be fancy teleportation. Me, I like to get a little more creative...\u201d[/i]",
+            "flavor_text": "[i]\u201cOthers let these techniques just be fancy teleportation. Me, I like to get a little more creative . . .\u201d[/i]",
             "pt": "2/2",
             "special_text": "",
             "shape": "normal",
@@ -1882,7 +1882,7 @@
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2014 Dog Druid Rogue",
-            "number": 189,
+            "number": 188,
             "color_identity": "G",
             "cost": "{G}",
             "rules_text": "When this enters, if a land card entered or left your graveyard this turn, put a +1/+1 counter on target creature you control.",
@@ -2026,7 +2026,7 @@
             "color": "G",
             "rarity": "common",
             "type": "Artifact",
-            "number": 192,
+            "number": 191,
             "color_identity": "G",
             "cost": "{1}{G}",
             "rules_text": "This artifact enters tapped.\nWhen this artifact enters, put a +1/+1 counter on target creature you control.\n{T}: Add {G}.",
@@ -2090,7 +2090,7 @@
             "shape": "normal",
             "set": "MST",
             "loyalty": "",
-            "artist": "",
+            "artist": "Ardika Priyata",
             "notes": ""
         },
         {
@@ -2119,7 +2119,7 @@
             "number": 33,
             "color_identity": "W",
             "cost": "{1}{W}{W}",
-            "rules_text": "Flying\nPay 3 life: This creature gains first strike and indestructible until end of turn. Tap this creature. Activate only once each turn.",
+            "rules_text": "Flying\nPay 3 life: This creature gains indestructible until end of turn. Tap this creature. Activate only once each turn.",
             "flavor_text": "[i]\u201cFully embrace your own nature, work to overcome issues on your own, and you won't need a single Moonstone.\u201d[/i]",
             "pt": "3/1",
             "special_text": "",
@@ -2127,7 +2127,7 @@
             "set": "MST",
             "loyalty": "",
             "artist": "Goat-Kid",
-            "notes": ""
+            "notes": "3/23/2026: Life-payment ability no longer grants itself first strike."
         },
         {
             "card_name": "Contemplative Relaxation",
@@ -2162,7 +2162,7 @@
             "shape": "normal",
             "set": "MST",
             "loyalty": "",
-            "artist": "",
+            "artist": "AJ Ramos",
             "notes": ""
         },
         {
@@ -2227,7 +2227,7 @@
             "number": 35,
             "color_identity": "W",
             "cost": "{W}{W}",
-            "rules_text": "This spell costs {W} less to cast as long as you control 3 or more creatures or a nontoken militant creature. [i](Armies, Heroes, Knights, Soldiers and Warriors are militants.)[/i]\nExile target attacking or blocking creature.",
+            "rules_text": "This spell costs {W} less to cast as long as you control three or more creatures or a militant creature. [i](Armies, Heroes, Knights, Soldiers and Warriors are militants.)[/i]\nExile target attacking or blocking creature.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -2235,7 +2235,7 @@
             "set": "MST",
             "loyalty": "",
             "artist": "Alai Cinereo & Neolykos",
-            "notes": ""
+            "notes": "3/23/2026: Changed 3 to three, and removed nontoken restriction."
         },
         {
             "card_name": "Ridgeline Monitor",
@@ -2281,7 +2281,7 @@
             "number": 79,
             "color_identity": "U",
             "cost": "{1}{U}",
-            "rules_text": "Ward {1}\nWhenever this creature deals combat damage to an opponent, you search that player's library for a nonland, noncreature card and exile it, then that player shuffles. As long as that card remains exiled, you may cast it, and spend mana as if it were any color to cast it.",
+            "rules_text": "Ward {1}\nWhenever this creature deals combat damage to an opponent, you search their library for a nonland, noncreature card and exile it, then that player shuffles. You may play the exiled card for as long as it remains exiled, and you may spend mana as though it were mana of any color to cast that spell.",
             "flavor_text": "[i][/i]",
             "pt": "1/2",
             "special_text": "",
@@ -2289,7 +2289,7 @@
             "set": "MST",
             "loyalty": "",
             "artist": "David Koo",
-            "notes": ""
+            "notes": "March 25th, 2026: Reworded to fit proper formatting a bit better."
         },
         {
             "card_name": "Stormwind Master",
@@ -2498,14 +2498,14 @@
             "color_identity": "B",
             "cost": "{1}{B}",
             "rules_text": "Deathtouch\nAt the beginning of your end step, if this card is in your graveyard, you may pay {1}. If you do, return it to your hand.",
-            "flavor_text": "[i]brief flavor text[/i]",
+            "flavor_text": "[i]A nameless Aven who had crossed a sorceress centuries ago, now doomed to never die.[/i]",
             "pt": "2/1",
             "special_text": "",
             "shape": "normal",
             "set": "MST",
             "loyalty": "",
             "artist": "Egor Kapustin",
-            "notes": "eventually find better art of a zombie anthro animal (can change to a different species, as long as it's not a rat)"
+            "notes": "eventually find better art of a zombie anthro animal (can change to a different species, as long as it's not a rat)\n\n\nMarch 24th, 2026: Added flavor text."
         },
         {
             "card_name": "Hermit of Erud Swamp",
@@ -2587,8 +2587,8 @@
             "number": 108,
             "color_identity": "B",
             "cost": "{B}",
-            "rules_text": "Kicker {3}{B} [i](You may pay an additional {3}{B} as you cast this spell.)[/i]\nReturn target creature card from your graveyard to your hand. If this spell was kicked, return that creature card to the battlefield tapped instead.",
-            "flavor_text": "[i][/i]",
+            "rules_text": "Kicker {3}{B}\nReturn target creature card from your graveyard to your hand. If this spell was kicked, return that creature card to the battlefield tapped instead.",
+            "flavor_text": "[i]When a necromancer became frail, they depended even more on their undead servants.[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
@@ -2666,7 +2666,7 @@
             "shape": "normal",
             "set": "MST",
             "loyalty": "",
-            "artist": "",
+            "artist": "Alaina 'AMW' Watson",
             "notes": ""
         },
         {
@@ -2768,14 +2768,14 @@
             "color_identity": "R",
             "cost": "{1}{R}{R}",
             "rules_text": "Creatures you control get +1/+0 and gain menace and trample until end of turn.",
-            "flavor_text": "[i]flavor text wip[/i]",
+            "flavor_text": "[i]The Palace's desire for wealth and international grandeur clashed with the people's need for food and freedom.[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "MST",
             "loyalty": "",
             "artist": "Antonio de Luca",
-            "notes": ""
+            "notes": "March 26th, 2026: Flavor text added."
         },
         {
             "card_name": "Shattershot",
@@ -2893,7 +2893,7 @@
             "number": 181,
             "color_identity": "RG",
             "cost": "{1}{G}",
-            "rules_text": "This creature can't be blocked except by creatures with flying or reach.\n{4}{R}{G}: Choose one \u2014\n\u2022 Put X +1/+1 counters on target creature.\n\u2022 This creature deals X damage to any target.\nX is the number of lands you control. Activate only if this creature dealt combat damage to an opponent this turn.",
+            "rules_text": "This creature enters with a scout counter on it. As long as it has a scout counter on it, it can't be blocked except by creatures with flying or reach.\n{3}{R}{G}, Remove a scout counter from this creature: Choose one. X is the number of lands you control. \u2014\n\u2022 Put X +1/+1 counters on target creature.\n\u2022 This creature deals X damage to target permanent.",
             "flavor_text": "[i][/i]",
             "pt": "1/3",
             "special_text": "",
@@ -2901,7 +2901,7 @@
             "set": "MST",
             "loyalty": "",
             "artist": "Meagen Ruttan",
-            "notes": ""
+            "notes": "March 27th, 2026: Can no longer hit players with activated ability. Cost of that activated ability lowered from 4RG to 3RG.\n\nMarch 27th, 2026: Redesigned card so it's abilites are tied to a unique counter. The activated ability now requires removing that counter, so can effectively only be used once. This change added words, but will hopefully moderate its strength."
         },
         {
             "card_name": "Grand Council of the Iron Empire",
@@ -2944,7 +2944,7 @@
             "color": "G",
             "rarity": "uncommon",
             "type": "Enchantment",
-            "number": 195,
+            "number": 194,
             "color_identity": "G",
             "cost": "{4}{G}",
             "rules_text": "Whenever a creature you control enters, put a +1/+1 counter on each creature you control. This triggers only once each turn.",
@@ -3253,7 +3253,7 @@
             "number": 61,
             "color_identity": "U",
             "cost": "{2}{U}{U}",
-            "rules_text": "Choose one \u2014\n\u2022 Return up to three target instant, sorcery and/or artifact cards from your graveyard to your hand.\n\u2022 Return all cards with Wisdom from your graveyard to your hand.\nExile this spell.",
+            "rules_text": "Choose one \u2014\n\u2022 Return up to two target instant, sorcery or artifact cards from your graveyard to your hand.\n\u2022 Mill five cards, then return any number of cards with Wisdom from your graveyard to your hand.\nExile Pass Down Secrets.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -3396,7 +3396,7 @@
             "type": "Enchantment",
             "number": 116,
             "color_identity": "B",
-            "cost": "{2}{B}{B}",
+            "cost": "{1}{B}{B}",
             "rules_text": "If a player discarding a card causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time.",
             "flavor_text": "[i]Greed and cruelty rapidly invite chaos.[/i]",
             "pt": "",
@@ -3405,7 +3405,7 @@
             "set": "MST",
             "loyalty": "",
             "artist": "Judith Lam",
-            "notes": ""
+            "notes": "March 25th, 2026: Cost reduced from 2BB to 1BB."
         },
         {
             "card_name": "Longsight Siege Brother",
@@ -3592,7 +3592,7 @@
             "color": "G",
             "rarity": "rare",
             "type": "Creature \u2014 Cat Noble Warlock",
-            "number": 191,
+            "number": 190,
             "color_identity": "G",
             "cost": "{1}{G}{G}",
             "rules_text": "Trample\nWhenever you get one or more Moonstone counters, or remove one or more Moonstone counters from yourself, put a +1/+1 counter on target creature you control.",
@@ -3631,7 +3631,7 @@
             "number": 168,
             "color_identity": "G",
             "cost": "{1}{G}",
-            "rules_text": "Look at the top X cards of your library, where X is the number of creatures you control. Reveal two of those cards. An opponent chooses one of them. Put it into your hand. Then put any number of the other cards you looked at into your graveyard and the rest on the bottom of your library in a random order.",
+            "rules_text": "Look at the top X cards of your library, where X is twice the number of creatures you control. Reveal two of those cards. An opponent chooses one of them. Put it into your hand. Then put any number of the other cards you looked at into your graveyard and the rest on the bottom of your library in any order.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -3639,7 +3639,7 @@
             "set": "MST",
             "loyalty": "",
             "artist": "Aneta Kochova",
-            "notes": ""
+            "notes": "April 1st, 2026: To increase this card's power a bit, X changed from number of your creatures to TWICE the number of creatures you control."
         },
         {
             "card_name": "Summoning Ancestors",
@@ -3649,7 +3649,7 @@
             "number": 197,
             "color_identity": "G",
             "cost": "{1}{G}{G}",
-            "rules_text": "Whenever a land leaves your graveyard or is put into your graveyard from anywhere, put a charge counter on this enchantment.\nSacrifice this enchantment: Create a 3/1 green Dog Spirit creature token with vigilance for every charge counter on this enchantment.",
+            "rules_text": "Whenever one or more land cards leave your graveyard or are put into your graveyard from anywhere, put a charge counter on this enchantment.\nSacrifice this enchantment: Create a 3/1 green Dog Spirit creature token with vigilance for every charge counter on this enchantment.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -3657,7 +3657,7 @@
             "set": "MST",
             "loyalty": "",
             "artist": "Thanshuhai",
-            "notes": ""
+            "notes": "March 24th 2026: Changed first ability from 'whenever a' to 'whenever one or more'."
         },
         {
             "card_name": "Mouratl, the Eternal",
@@ -3793,7 +3793,7 @@
             "number": 147,
             "color_identity": "R",
             "cost": "{2}{R}{R}",
-            "rules_text": "Flying, haste\nWhenever M'gruk deals combat damage to an opponent, create a Treasure token.\nTap an untapped nonland artifact you control: M'gruk gets +1/+0 until end of turn.",
+            "rules_text": "Flying, haste\nWhenever M'gruk deals combat damage to an opponent, create a Treasure token.\nTap an untapped artifact you control: M'gruk gets +1/+0 until end of turn.",
             "flavor_text": "[i][/i]",
             "pt": "4/4",
             "special_text": "",
@@ -3801,7 +3801,7 @@
             "set": "MST",
             "loyalty": "",
             "artist": "Bulentayev & Bocharov for Mooncolony",
-            "notes": ""
+            "notes": "3/23/2026: Removed nonland restriction in self-pump ability."
         },
         {
             "card_name": "Boc, Emerald Hart",
@@ -3847,7 +3847,7 @@
             "number": 230,
             "color_identity": "WR",
             "cost": "{2}{R}{W}",
-            "rules_text": "Haste, reach, vigilance\nAt the beginning of your end step, you may return a nonland creature you control to its owner's hand. If you do, put a +1/+1 counter on this creature.",
+            "rules_text": "Haste, reach, vigilance\nAt the beginning of your end step, you may return a creature you control to its owner's hand. If you do, put a +1/+1 counter on this creature.",
             "flavor_text": "[i][/i]",
             "pt": "4/4",
             "special_text": "",
@@ -3855,7 +3855,7 @@
             "set": "MST",
             "loyalty": "",
             "artist": "Rudy Siswanto",
-            "notes": "Art used already (multiple times!) in MSEM, but not been used yet in Revolution/ Rev Eternal"
+            "notes": "Art used already (multiple times!) in MSEM, but not been used yet in Revolution/ Rev Eternal\n\n3/23/2026: Removed nonland restriction in bounce ability."
         },
         {
             "card_name": "Queen Scoraya of Hagzaga",
@@ -3918,8 +3918,8 @@
             "type": "Enchantment",
             "number": 209,
             "color_identity": "RG",
-            "cost": "{1}{R}{G}",
-            "rules_text": "If a land you control would enter tapped, you may have it deal 1 damage to you. When you do, it enters untapped instead.\nCreatures you control get +X/+0, where X is the number of lands that entered and/or left your graveyard this turn.",
+            "cost": "{2}{R}{G}",
+            "rules_text": "If a land you control would enter tapped, you may have it deal 1 damage to you. When you do, it enters untapped instead.\nAt the beginning of your end step, if two or more land cards entered and/or left your graveyard this turn, this enchantment deals 2 damage to each opponent.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -3927,7 +3927,7 @@
             "set": "MST",
             "loyalty": "",
             "artist": "Adrien Gonzalez",
-            "notes": ""
+            "notes": "March 24th, 2026: Upped cost from 1RG to 2RG. Changed second ability to burn each opponent if you moved lands around, rather than boost your creatures' power for each land moved."
         },
         {
             "card_name": "The Flower Picker Inn",
@@ -3998,7 +3998,7 @@
             "shape": "normal",
             "set": "MST",
             "loyalty": "",
-            "artist": "",
+            "artist": "Justin Gerard",
             "notes": ""
         },
         {
@@ -4063,7 +4063,7 @@
             "number": 245,
             "color_identity": "C",
             "cost": "{1}",
-            "rules_text": "Whenever you cast an instant or sorcery spell, equipped creature gets +1/+1 and gains first strike until end of turn. This triggers only once each turn.\nEquip {1}",
+            "rules_text": "Equipped creature gets +1/+1.\nEquipped creature has first strike as long as you've cast an instant or sorcery this turn.\nEquip {1}",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -4071,7 +4071,7 @@
             "set": "MST",
             "loyalty": "",
             "artist": "Herckeim",
-            "notes": ""
+            "notes": "April 1st, 2026: Changed to always give +1/+1, but first strike kept behind i/s cast restriction."
         },
         {
             "card_name": "Honeywine Elixir",
@@ -4244,7 +4244,7 @@
             "color_identity": "WBG",
             "cost": "",
             "rules_text": "As this enters, you may sacrifice a land or discard a land card from your hand. If you don't, this enters tapped.\n{T}: Add {W}, {B}, or {G}.",
-            "flavor_text": "[i]Contrary to external propaganda, peace and security were paramount to the Ratfolk...at least, within their own lands.[/i]",
+            "flavor_text": "[i]Contrary to external propaganda, peace and security were paramount to the Ratfolk . . . at least, within their own lands.[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
@@ -4434,14 +4434,14 @@
             "notes": ""
         },
         {
-            "card_name": "RX04 Starshine Charms",
+            "card_name": "Starshine Charms",
             "color": "G",
             "rarity": "rare",
             "type": "Sorcery",
-            "number": 188,
+            "number": 195,
             "color_identity": "G",
             "cost": "{2}{G}",
-            "rules_text": "Choose one. If you've gained life this turn, choose any number instead \u2014\n\u2022 Exile target artifact or enchantment.\n\u2022 Draw a card, then you may put a land card from your hand onto the battlefield.\n\u2022 Put three +1/+1 counters on target creature you control.",
+            "rules_text": "Choose one. If you've gained life this turn, choose any number instead \u2014\n\u2022 Exile target artifact or enchantment.\n\u2022 You may play an additional land this turn. Draw a card.\n\u2022 Put three +1/+1 counters on target creature you control.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -4449,7 +4449,7 @@
             "set": "MST",
             "loyalty": "",
             "artist": "Red-IzaK",
-            "notes": "Added wholesale, March 6th, 2026. Pushing lifegain a bit more, but still useable by any green deck."
+            "notes": "Added wholesale, March 6th, 2026. Pushing lifegain a bit more, but still useable by any green deck.\n\nMarch 27th, 2026: Second mode changed from putting land onto the field from hand, to instead letting you play an additional land this turn. Still draws a card. This change slightly reduced number of words on the card."
         },
         {
             "card_name": "Moonrise Bravado",
@@ -4732,7 +4732,7 @@
             "rules_text": "",
             "flavor_text": "[i][/i]",
             "pt": "",
-            "special_text": "[+1]: Gain 2 life, then return up to one land card from your graveyard to your hand.\n[-2 ]: Klawia deals 3 damage to any target.\n[-9]: You gain X life, get X Moonstone counters, and put X +1/+1 counters on each creature you control, where X is the number of lands you control.",
+            "special_text": "[+1]: You gain 2 life, then return up to one land card from your graveyard to your hand.\n[-2 ]: Klawia deals 3 damage to any target.\n[-9]: You gain X life, get X Moonstone counters, and put X +1/+1 counters on each creature you control, where X is the number of lands you control.",
             "shape": "planeswalker",
             "set": "MST",
             "loyalty": "5",
