@@ -212,7 +212,7 @@
 		},
 		{
 			"name": "Kitsan Knight-Errant",
-			"rarity": "common",
+			"rarity": "uncommon",
 			"mana_cost": "{W}",
 			"type": "Creature — Fox Rogue Hero",
 			"collector_number": "18",
@@ -303,7 +303,7 @@
 		{
 			"name": "Blue Sky Elite",
 			"rarity": "common",
-			"mana_cost": "{1}{W}{W}",
+			"mana_cost": "{3}{W}{W}",
 			"type": "Creature — Cat Knight",
 			"collector_number": "2",
 			"image_uris": {
@@ -433,7 +433,7 @@
 		{
 			"name": "Beachside Patrol",
 			"rarity": "common",
-			"mana_cost": "{3}{U}",
+			"mana_cost": "{2}{U}",
 			"type": "Creature — Salamander Soldier",
 			"collector_number": "45",
 			"image_uris": {
@@ -453,7 +453,7 @@
 		{
 			"name": "Hullcutter Duo",
 			"rarity": "common",
-			"mana_cost": "{2}{U}{U}",
+			"mana_cost": "{3}{U}",
 			"type": "Creature — Shark Pirate",
 			"collector_number": "53",
 			"image_uris": {
@@ -673,7 +673,7 @@
 		{
 			"name": "Dalus Desert Askor",
 			"rarity": "common",
-			"mana_cost": "{3}{B}{B}",
+			"mana_cost": "{4}{B}",
 			"type": "Creature — Scorpion",
 			"collector_number": "92",
 			"image_uris": {
@@ -793,7 +793,7 @@
 		{
 			"name": "Mountain Miner",
 			"rarity": "common",
-			"mana_cost": "{2}{R}{R}",
+			"mana_cost": "{3}{R}",
 			"type": "Creature — Minotaur Citizen",
 			"collector_number": "149",
 			"image_uris": {
@@ -923,7 +923,7 @@
 		{
 			"name": "Flames of Passion",
 			"rarity": "common",
-			"mana_cost": "{3}{R}{R}",
+			"mana_cost": "{4}{R}",
 			"type": "Instant",
 			"collector_number": "137",
 			"image_uris": {
@@ -963,7 +963,7 @@
 		{
 			"name": "Unphased Journeyers",
 			"rarity": "common",
-			"mana_cost": "{1}{G}",
+			"mana_cost": "{4}{G}",
 			"type": "Creature — Bear Citizen",
 			"collector_number": "202",
 			"image_uris": {
@@ -1163,7 +1163,7 @@
 		{
 			"name": "Stoic Medic",
 			"rarity": "uncommon",
-			"mana_cost": "{1}{W}",
+			"mana_cost": "{W}",
 			"type": "Creature — Dog Knight Doctor",
 			"collector_number": "34",
 			"image_uris": {
@@ -1173,7 +1173,7 @@
 		{
 			"name": "Spire Guru",
 			"rarity": "uncommon",
-			"mana_cost": "{1}{W}{W}",
+			"mana_cost": "{2}{W}",
 			"type": "Creature — Bird Warrior Monk",
 			"collector_number": "33",
 			"image_uris": {
@@ -2264,7 +2264,7 @@
 			"name": "Honeywine Elixir",
 			"rarity": "common",
 			"mana_cost": "{2}",
-			"type": "Artifact",
+			"type": "Artifact — Food",
 			"collector_number": "242",
 			"image_uris": {
 				"en": "https://Opacana.github.io/sets/MST-files/img/242_Honeywine Elixir.png"
@@ -2890,6 +2890,7 @@
 	4 Taza, Exiled Princess
 	4 Aerieguard Captain
 	4 Cenote King
+	4 Kitsan Knight-Errant
 	4 Rooftop Pouncer
 	4 Hagzaga Squadron
 	4 Duchess of the Trials
@@ -2964,7 +2965,6 @@
 	8 Plumb the Depths
 	8 Iceclaw Swordfrey
 	8 Follower of the Updraft Path
-	8 Kitsan Knight-Errant
 	8 Petalseeker Mistress
 	8 Truth Diviner
 	8 Confident Huntress
@@ -3066,7 +3066,6 @@
 	8 Plumb the Depths
 	8 Iceclaw Swordfrey
 	8 Follower of the Updraft Path
-	8 Kitsan Knight-Errant
 	8 Petalseeker Mistress
 	8 Truth Diviner
 	8 Confident Huntress
@@ -3185,7 +3184,7 @@
 	6 Cenote King
 	1 Migronn, Steadfast Thyl
 	12 Follower of the Updraft Path
-	12 Kitsan Knight-Errant
+	6 Kitsan Knight-Errant
 	12 Petalseeker Mistress
 	12 Truth Diviner
 	12 Confident Huntress
@@ -3443,7 +3442,7 @@
 	15 Cenote King
 	4 Migronn, Steadfast Thyl
 	6 Follower of the Updraft Path
-	6 Kitsan Knight-Errant
+	15 Kitsan Knight-Errant
 	6 Petalseeker Mistress
 	6 Truth Diviner
 	6 Confident Huntress

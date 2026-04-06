@@ -655,8 +655,8 @@
         "position": ""
     },
     {
-        "card_name": "Lafahd Royal Expedition",
-        "number": 19,
+        "card_name": "Kitsan Knight-Errant",
+        "number": 18,
         "shape": "normal",
         "set": "MST",
         "rotated": false,
@@ -695,8 +695,8 @@
         "position": ""
     },
     {
-        "card_name": "Oracle's Encouragement",
-        "number": 23,
+        "card_name": "Lafahd Royal Expedition",
+        "number": 19,
         "shape": "normal",
         "set": "MST",
         "rotated": false,
@@ -735,8 +735,8 @@
         "position": ""
     },
     {
-        "card_name": "Rewoven Fates",
-        "number": 28,
+        "card_name": "Oracle's Encouragement",
+        "number": 23,
         "shape": "normal",
         "set": "MST",
         "rotated": false,
@@ -775,8 +775,8 @@
         "position": ""
     },
     {
-        "card_name": "Rooftop Pouncer",
-        "number": 30,
+        "card_name": "Rewoven Fates",
+        "number": 28,
         "shape": "normal",
         "set": "MST",
         "rotated": false,
@@ -815,8 +815,8 @@
         "position": ""
     },
     {
-        "card_name": "Spire Guru",
-        "number": 33,
+        "card_name": "Rooftop Pouncer",
+        "number": 30,
         "shape": "normal",
         "set": "MST",
         "rotated": false,
@@ -855,8 +855,8 @@
         "position": ""
     },
     {
-        "card_name": "Stoic Medic",
-        "number": 34,
+        "card_name": "Spire Guru",
+        "number": 33,
         "shape": "normal",
         "set": "MST",
         "rotated": false,
@@ -895,8 +895,8 @@
         "position": ""
     },
     {
-        "card_name": "Storm of Defiance",
-        "number": 35,
+        "card_name": "Stoic Medic",
+        "number": 34,
         "shape": "normal",
         "set": "MST",
         "rotated": false,
@@ -935,8 +935,8 @@
         "position": ""
     },
     {
-        "card_name": "Sunblaze Aerie Delegate",
-        "number": 37,
+        "card_name": "Storm of Defiance",
+        "number": 35,
         "shape": "normal",
         "set": "MST",
         "rotated": false,
@@ -975,8 +975,8 @@
         "position": ""
     },
     {
-        "card_name": "Blessing of Kaniya",
-        "number": 1,
+        "card_name": "Sunblaze Aerie Delegate",
+        "number": 37,
         "shape": "normal",
         "set": "MST",
         "rotated": false,
@@ -1015,8 +1015,8 @@
         "position": ""
     },
     {
-        "card_name": "Blue Sky Elite",
-        "number": 2,
+        "card_name": "Blessing of Kaniya",
+        "number": 1,
         "shape": "normal",
         "set": "MST",
         "rotated": false,
@@ -1055,8 +1055,8 @@
         "position": ""
     },
     {
-        "card_name": "Cheerful Messenger",
-        "number": 4,
+        "card_name": "Blue Sky Elite",
+        "number": 2,
         "shape": "normal",
         "set": "MST",
         "rotated": false,
@@ -1095,8 +1095,8 @@
         "position": ""
     },
     {
-        "card_name": "City Gate Patrol",
-        "number": 6,
+        "card_name": "Cheerful Messenger",
+        "number": 4,
         "shape": "normal",
         "set": "MST",
         "rotated": false,
@@ -1135,8 +1135,8 @@
         "position": ""
     },
     {
-        "card_name": "Confident Huntress",
-        "number": 7,
+        "card_name": "City Gate Patrol",
+        "number": 6,
         "shape": "normal",
         "set": "MST",
         "rotated": false,
@@ -1175,8 +1175,8 @@
         "position": ""
     },
     {
-        "card_name": "Dub",
-        "number": 9,
+        "card_name": "Confident Huntress",
+        "number": 7,
         "shape": "normal",
         "set": "MST",
         "rotated": false,
@@ -1215,8 +1215,8 @@
         "position": ""
     },
     {
-        "card_name": "Follower of the Updraft Path",
-        "number": 12,
+        "card_name": "Dub",
+        "number": 9,
         "shape": "normal",
         "set": "MST",
         "rotated": false,
@@ -1255,8 +1255,8 @@
         "position": ""
     },
     {
-        "card_name": "Generous Vendor",
-        "number": 14,
+        "card_name": "Follower of the Updraft Path",
+        "number": 12,
         "shape": "normal",
         "set": "MST",
         "rotated": false,
@@ -1295,8 +1295,8 @@
         "position": ""
     },
     {
-        "card_name": "Kitsan Knight-Errant",
-        "number": 18,
+        "card_name": "Generous Vendor",
+        "number": 14,
         "shape": "normal",
         "set": "MST",
         "rotated": false,

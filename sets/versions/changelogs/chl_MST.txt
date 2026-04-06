@@ -1,4 +1,87 @@
-﻿VERSION 15 CHANGELOG
+﻿VERSION 16 CHANGELOG
+====================
+
+
+
+Kitsan Knight-Errant
+
+Blue Sky Elite
+cost: {1}{W}{W} => {3}{W}{W}
+rules_text: This creature has first strike as long as it's your turn. => First strike
+pt: 3/3 => 4/4
+
+Xolotl Raider
+rules_text: Whenever this creature deals combat damage to an opponent, you may pay {1}{B}. If you do, that player discards a card. => Ward {1}
+Whenever this creature deals combat damage to an opponent, you may pay {1}{B}. If you do, that player discards a card.
+
+Kodiloan Sentry
+rules_text: Ward {1}
+This creature gets +2/+0 as long as you have two or more Moonstone counters. => Flash
+This creature gets +2/+0 as long as you have two or more Moonstone counters.
+
+Beachside Patrol
+cost: {3}{U} => {2}{U}
+rules_text: Remove a Moonstone counter from yourself: Untap this creature. It gets -1/+2 until the beginning of your next turn. Activate only once each turn, and only as a sorcery. => The first time each turn an opponent casts a spell, this creature gets +1/+1 until end of turn.
+pt: 3/2 => 2/2
+
+Hullcutter Duo
+cost: {2}{U}{U} => {3}{U}
+
+Selaki Stormrider
+rules_text: Whenever this creature attacks, red and/or blue noncreature spells you cast cost {1} less to cast until your next turn. This triggers only once each turn. => Whenever this creature attacks, noncreature spells you cast cost {1} less to cast until your next turn.
+
+Siltshore Sentinel
+pt: 3/3 => 2/2
+
+Escaped Lab Rat
+rules_text: Trample
+When this creature enters, each player discards a card. => When this creature enters, each opponent discards a card, then you may discard a card.
+
+Dalus Desert Askor
+cost: {3}{B}{B} => {4}{B}
+
+Mountain Miner
+cost: {2}{R}{R} => {3}{R}
+rules_text: This creature has trample as long as there are two or more land cards in your graveyard.
+Whenever this creature attacks, you may discard a card. If you do, draw a card. => This creature has menace as long as there are two or more land cards in your graveyard.
+Whenever this creature attacks, you may discard a card. If you do, draw a card.
+
+Flames of Passion
+cost: {3}{R}{R} => {4}{R}
+
+Unphased Journeyers
+cost: {1}{G} => {4}{G}
+rules_text: Wisdom 4 [i](As an additional cost to cast this, you may exile four cards from your graveyard. If you do, copy it, and you may choose new targets for the copy.)[/i] => Wisdom 5 [i](As an additional cost to cast this, you may exile five cards from your graveyard. If you do, copy it, and you may choose new targets for the copy.)[/i]
+Trample
+pt: 2/2 => 4/4
+
+Scallywag Tracker
+rules_text: When this enters, if a land card entered or left your graveyard this turn, put a +1/+1 counter on target creature you control. => Deathtouch
+When this enters, if a land card entered or left your graveyard this turn, put a +1/+1 counter on target creature you control.
+
+Duchess of the Trials
+rules_text: When this creature enters, for each player, exile up to one target nonland permanent that player controls. Each of those cards' owners may pay {1} as a sorcery to put them into their hand. => When this creature enters, for each player, exile up to one other target nonland permanent that player controls. Each of those cards' owners may pay {1} as a sorcery to put them into their hand.
+
+Stoic Medic
+cost: {1}{W} => {W}
+pt: 1/2 => 1/1
+
+Spire Guru
+cost: {1}{W}{W} => {2}{W}
+
+Masterpiece Shield
+rules_text: Equipped creature gets +0/+2 and has vigilance.
+Equip {3} => Equipped creature gets +0/+3 and has vigilance.
+Equip {1}
+
+Honeywine Elixir
+type: Artifact => Artifact — Food
+rules_text: {T}: You gain 1 life.
+{2}, {T}, Sacrifice this artifact: Target creature gains lifelink until end of turn. => {T}: You gain 1 life.
+{2}, {T}, Sacrifice this artifact: You gain 3 life. Target creature gains lifelink until end of turn.
+
+
+VERSION 15 CHANGELOG
 ====================
 
 Starshine Charms added.
