@@ -803,7 +803,7 @@
 		{
 			"name": "Adventuring Mages of Squa",
 			"rarity": "common",
-			"mana_cost": "{1}{R}{R}",
+			"mana_cost": "{2}{R}",
 			"type": "Creature — Lizard Scout Wizard",
 			"collector_number": "125",
 			"image_uris": {
@@ -883,7 +883,7 @@
 		{
 			"name": "Smash Open",
 			"rarity": "common",
-			"mana_cost": "{1}{R}{R}",
+			"mana_cost": "{2}{R}",
 			"type": "Sorcery",
 			"collector_number": "156",
 			"image_uris": {
@@ -1404,7 +1404,7 @@
 			"name": "Iron Empire Elite",
 			"rarity": "uncommon",
 			"mana_cost": "{2}{B}{B}",
-			"type": "Creature — Rat Knight",
+			"type": "Legendary Creature — Rat Knight",
 			"collector_number": "103",
 			"image_uris": {
 				"en": "https://Opacana.github.io/sets/MST-files/img/103_Iron Empire Elite.png"
@@ -1633,7 +1633,7 @@
 		{
 			"name": "Solidarity",
 			"rarity": "uncommon",
-			"mana_cost": "{4}{G}",
+			"mana_cost": "{3}{G}",
 			"type": "Enchantment",
 			"collector_number": "194",
 			"image_uris": {
@@ -1643,7 +1643,7 @@
 		{
 			"name": "Building the Frontier",
 			"rarity": "uncommon",
-			"mana_cost": "{2}{G}",
+			"mana_cost": "{1}{G}",
 			"type": "Enchantment",
 			"collector_number": "167",
 			"image_uris": {

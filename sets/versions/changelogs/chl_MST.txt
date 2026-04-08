@@ -1,4 +1,192 @@
-﻿VERSION 16 CHANGELOG
+﻿VERSION 17 CHANGELOG
+====================
+
+
+
+Iceclaw Swordfrey
+
+Follower of the Updraft Path
+rules_text: Flying
+{W}: This creature gains lifelink until end of turn. Activate only once each turn. => Flying, lifelink
+
+City Gate Patrol
+pt: 2/1 => 2/2
+
+Generous Vendor
+pt: 2/3 => 3/3
+
+Armed Delegation
+rules_text: Flying
+Whenever this creature deals combat damage to an opponent, that opponent chooses one —
+• You draw a card.
+• They tap a creature they control and put a stun counter on it. => Flying
+When this creature enters, choose one —
+• You draw a card.
+• Tap target creature an opponent controls and put a stun counter on it.
+pt: 4/4 => 4/3
+
+Moonhalo Restraint
+rules_text: Enchant creature
+Enchanted creature can't attack or block.
+Remove three Moonstone counters from yourself: Return this Aura to your hand. Enchanted creature's owner shuffles it into their library. => Enchant creature
+Enchanted creature can't attack or block.
+Remove three Moonstone counters from yourself: Return enchanted creature and this Aura to their owners' hand.
+
+Battle-Weary Swordtail
+
+Adept of the Blood Codex
+rules_text: Ward—pay 2 life
+{2}, Sacrifice a creature: You draw a card, then each opponent loses 1 life and you gain 1 life. Activate only once each turn. => {2}, Sacrifice a creature: You draw a card, then each opponent loses 1 life and you gain 1 life. Activate only once each turn.
+
+Spiked Diggers
+
+Midnight Messenger
+pt: 2/1 => 2/2
+
+Banished Clairvoyant
+
+Infernal Resourcefulness
+
+Reluctant Companions
+
+Carnikinesis
+
+Prepared Fortress Guard
+pt: 2/2 => 2/1
+
+Mountain Miner
+
+Adventuring Mages of Squa
+cost: {1}{R}{R} => {2}{R}
+pt: 1/1 => 1/2
+
+Army of West Khyth
+pt: 3/3 => 3/2
+
+Sound the Dragonhorn
+
+Smash Open
+cost: {1}{R}{R} => {2}{R}
+
+Storm's Strike
+
+Fangscale Geologist
+pt: 2/2 => 3/2
+
+Night-Stroll Guardian
+
+Glacier Lookout
+rules_text: Kicker {2}
+Reach
+When this creature enters, if it was kicked, create a creature token that's a copy of it.
+When this creature enters, you get a Moonstone counter. => Kicker {3}
+Reach
+When this creature enters, if it was kicked, create a creature token that's a copy of it.
+When this creature enters, you get a Moonstone counter.
+
+Haul In the Nets
+
+Ruined Relics
+rules_text: Destroy target artifact or enchantment. If an artifact is destroyed this way, put a +1/+1 counter on a creature you control. Otherwise, you gain 2 life. => Destroy target artifact or enchantment. Then choose one —
+• Put a +1/+1 counter on a creature you control.
+• You gain 2 life.
+
+Tangled in Crops
+
+Sunblaze Aerie Delegate
+rules_text: Flying, lifelink
+Whenever another creature dies for the first time each turn while this creature is tapped, untap this creature. => Flying, lifelink
+
+Lafahd Royal Expedition
+rules_text: Ward {2}
+Whenever this creature attacks, if defending player has seven or more cards in their graveyard, this creature gains double strike until end of turn. => Ward {1}
+Whenever this creature attacks, if defending player has seven or more cards in their graveyard, this creature gains double strike until end of turn.
+pt: 4/5 => 4/4
+
+Ridgeline Monitor
+rules_text: Flash
+Flying
+When this creature enters, choose one —
+• Scry 1, then draw a card.
+• Return target permanent you don't control to its owner's hand. => Flash
+Flying
+When this creature enters, choose one —
+• Scry 1, then draw a card.
+• This creature gets +0/+2 until end of turn.
+
+Runic Restraints
+rules_text: Wisdom 4 [i](As an additional cost to cast this, you may exile four cards from your graveyard. If you do, copy it, and you may choose new targets for the copy.)[/i]
+Tap target nonland permanent and put two stun counters on it.
+Draw a card. => Wisdom 4 [i](As an additional cost to cast this, you may exile four cards from your graveyard. If you do, copy it, and you may choose new targets for the copy.)[/i]
+Tap target nonland permanent and put a stun counter on it.
+Draw a card.
+
+Summon the Soulchasers
+rules_text: Wisdom 2 [i](As an additional cost to cast this, you may exile two cards from your graveyard. If you do, copy it, and you may choose new targets for the copy.)[/i]
+Create two 1/1 blue Bird Spirit creature tokens with flying. => Wisdom 3 [i](As an additional cost to cast this, you may exile three cards from your graveyard. If you do, copy it, and you may choose new targets for the copy.)[/i]
+Create two 1/1 blue Bird Spirit creature tokens with flying.
+
+Hermit of Erud Swamp
+rules_text: Your maximum hand size is six.
+At the beginning of your end step, draw a card.
+When this creature dies, if it didn't enter this turn, you lose 2 life. => Your maximum hand size is six.
+At the beginning of your end step, draw a card.
+When this creature dies, if it didn't enter this turn, you lose 4 life.
+
+Iron Empire Elite
+type: Creature — Rat Knight => Legendary Creature — Rat Knight
+
+Eater of the Forgotten
+rules_text: Ward {2}
+Trample
+Whenever you discard one or more cards, put a +1/+1 counter on this creature. => Ward—pay 2 life
+Trample
+Whenever you discard one or more cards, put a +1/+1 counter on this creature.
+pt: 1/2 => 2/2
+
+Solidarity
+cost: {4}{G} => {3}{G}
+
+Building the Frontier
+cost: {2}{G} => {1}{G}
+
+Vow of Justice
+
+Necklace of Fangs
+rules_text: Equipped creature gets +1/+1.
+Equipped creature has first strike as long as you've cast an instant or sorcery this turn.
+Equip {1} => Equipped creature gets +1/+1.
+Equipped creature has menace as long as you've cast an instant or sorcery this turn.
+Equip {1}
+
+Farsight Blade
+
+Summer Throne
+rules_text: When this artifact enters, create a 1/1 colorless Bird Noble creature token with flying.
+At the beginning of your upkeep, scry 2.
+Birds you control get +1/+1. => When this artifact enters, create a tapped 1/1 colorless Bird Noble creature token with flying.
+At the beginning of your upkeep, scry 2.
+Birds you control get +1/+1.
+
+A Path Between
+rules_text: This land enters tapped.
+When this land enters, scry 1.
+When this land becomes untapped, sacrifice it, then search your library for a basic land card, put it onto the battlefield, then shuffle. => {T}: Add {C}.
+{2}, {T}, Sacrifice this land: Search your library for a basic land card, put it onto the battlefield, then shuffle.
+When this land is put into a graveyard from the battlefield, you may discard a card. When you do, draw a card.
+
+The Life of an Epicure
+
+Cultist of Dus Acasui
+rules_text: Menace
+When this creature enters, choose one —
+• Target creature gets -4/-4 until end of turn.
+• Return target creature card with mana value 2 or less from your graveyard to the battlefield tapped. => When this creature enters, choose one —
+• Target creature gets -4/-4 until end of turn.
+• Return target creature card with mana value 2 or less from your graveyard to the battlefield.
+
+
+VERSION 16 CHANGELOG
 ====================
 
 

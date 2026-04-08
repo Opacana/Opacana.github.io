@@ -5,7 +5,7 @@
 			<name>MST</name>
 			<longname>Morasca: Search for the Moonstones</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-04-06</releasedate>
+			<releasedate>2026-04-08</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -360,8 +360,7 @@ The first spell you cast each turn has Wisdom 4. (As an additional cost to cast 
 		</card>
 		<card>
 			<name>Follower of the Updraft Path</name>
-			<text>Flying
-{W}: This creature gains lifelink until end of turn. Activate only once each turn.</text>
+			<text>Flying, lifelink</text>
 			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/12_Follower of the Updraft Path.png" num="12">MST</set>
 			<prop>
 				<layout>normal</layout>
@@ -566,7 +565,7 @@ When this creature enters, create a 1/1 white Dog Soldier creature token.</text>
 				<cmc>3</cmc>
 				<colors>W</colors>
 				<coloridentity>W</coloridentity>
-				<pt>2/1</pt>
+				<pt>2/2</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
@@ -583,7 +582,7 @@ When this creature enters, create a 1/1 white Dog Soldier creature token.</text>
 				<cmc>4</cmc>
 				<colors>W</colors>
 				<coloridentity>W</coloridentity>
-				<pt>2/3</pt>
+				<pt>3/3</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
@@ -849,9 +848,9 @@ Whenever this creature attacks, target creature you control with lesser power ca
 		<card>
 			<name>Armed Delegation</name>
 			<text>Flying
-Whenever this creature deals combat damage to an opponent, that opponent chooses one —
+When this creature enters, choose one —
 • You draw a card.
-• They tap a creature they control and put a stun counter on it.</text>
+• Tap target creature an opponent controls and put a stun counter on it.</text>
 			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/44_Armed Delegation.png" num="44">MST</set>
 			<prop>
 				<layout>normal</layout>
@@ -862,7 +861,7 @@ Whenever this creature deals combat damage to an opponent, that opponent chooses
 				<cmc>5</cmc>
 				<colors>U</colors>
 				<coloridentity>U</coloridentity>
-				<pt>4/4</pt>
+				<pt>4/3</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
@@ -924,7 +923,7 @@ When this artifact enters, scry 3.
 			<name>Moonhalo Restraint</name>
 			<text>Enchant creature
 Enchanted creature can&apos;t attack or block.
-Remove three Moonstone counters from yourself: Return this Aura to your hand. Enchanted creature&apos;s owner shuffles it into their library.</text>
+Remove three Moonstone counters from yourself: Return enchanted creature and this Aura to their owners&apos; hand.</text>
 			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/59_Moonhalo Restraint.png" num="59">MST</set>
 			<prop>
 				<layout>normal</layout>
@@ -1045,8 +1044,7 @@ Target creature gains hexproof and gets +0/+2 until end of turn.</text>
 		</card>
 		<card>
 			<name>Adept of the Blood Codex</name>
-			<text>Ward—pay 2 life
-{2}, Sacrifice a creature: You draw a card, then each opponent loses 1 life and you gain 1 life. Activate only once each turn.</text>
+			<text>{2}, Sacrifice a creature: You draw a card, then each opponent loses 1 life and you gain 1 life. Activate only once each turn.</text>
 			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/83_Adept of the Blood Codex.png" num="83">MST</set>
 			<prop>
 				<layout>normal</layout>
@@ -1127,7 +1125,7 @@ Pay 1 life: This creature gains flying until end of turn. Activate only once eac
 				<cmc>3</cmc>
 				<colors>B</colors>
 				<coloridentity>B</coloridentity>
-				<pt>2/1</pt>
+				<pt>2/2</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
@@ -1371,7 +1369,7 @@ Whenever this creature attacks, you may pay {1}. If you do, it deals 1 damage to
 				<cmc>2</cmc>
 				<colors>R</colors>
 				<coloridentity>R</coloridentity>
-				<pt>2/2</pt>
+				<pt>2/1</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
@@ -1421,11 +1419,11 @@ Whenever this creature deals combat damage to a player or planeswalker, instant 
 				<side>front</side>
 				<type>Creature — Lizard Scout Wizard</type>
 				<maintype>Creature</maintype>
-				<manacost>1RR</manacost>
+				<manacost>2R</manacost>
 				<cmc>3</cmc>
 				<colors>R</colors>
 				<coloridentity>R</coloridentity>
-				<pt>1/1</pt>
+				<pt>1/2</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
@@ -1479,7 +1477,7 @@ This creature enters with two +1/+1 counters on it if it was kicked.</text>
 				<cmc>3</cmc>
 				<colors>R</colors>
 				<coloridentity>R</coloridentity>
-				<pt>3/3</pt>
+				<pt>3/2</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
@@ -1565,7 +1563,7 @@ This spell deals 2 damage to any target.</text>
 				<side>front</side>
 				<type>Sorcery</type>
 				<maintype>Sorcery</maintype>
-				<manacost>1RR</manacost>
+				<manacost>2R</manacost>
 				<cmc>3</cmc>
 				<colors>R</colors>
 				<coloridentity>R</coloridentity>
@@ -1725,7 +1723,7 @@ Trample</text>
 				<cmc>3</cmc>
 				<colors>G</colors>
 				<coloridentity>G</coloridentity>
-				<pt>2/2</pt>
+				<pt>3/2</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
@@ -1748,7 +1746,7 @@ Trample</text>
 		</card>
 		<card>
 			<name>Glacier Lookout</name>
-			<text>Kicker {2}
+			<text>Kicker {3}
 Reach
 When this creature enters, if it was kicked, create a creature token that&apos;s a copy of it.
 When this creature enters, you get a Moonstone counter.</text>
@@ -1927,7 +1925,9 @@ Scry 1.</text>
 		</card>
 		<card>
 			<name>Ruined Relics</name>
-			<text>Destroy target artifact or enchantment. If an artifact is destroyed this way, put a +1/+1 counter on a creature you control. Otherwise, you gain 2 life.</text>
+			<text>Destroy target artifact or enchantment. Then choose one —
+• Put a +1/+1 counter on a creature you control.
+• You gain 2 life.</text>
 			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/187_Ruined Relics.png" num="187">MST</set>
 			<prop>
 				<layout>normal</layout>
@@ -2105,8 +2105,7 @@ Draw a card.</text>
 		</card>
 		<card>
 			<name>Sunblaze Aerie Delegate</name>
-			<text>Flying, lifelink
-Whenever another creature dies for the first time each turn while this creature is tapped, untap this creature.</text>
+			<text>Flying, lifelink</text>
 			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/37_Sunblaze Aerie Delegate.png" num="37">MST</set>
 			<prop>
 				<layout>normal</layout>
@@ -2123,7 +2122,7 @@ Whenever another creature dies for the first time each turn while this creature 
 		</card>
 		<card>
 			<name>Lafahd Royal Expedition</name>
-			<text>Ward {2}
+			<text>Ward {1}
 Whenever this creature attacks, if defending player has seven or more cards in their graveyard, this creature gains double strike until end of turn.</text>
 			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/19_Lafahd Royal Expedition.png" num="19">MST</set>
 			<prop>
@@ -2135,7 +2134,7 @@ Whenever this creature attacks, if defending player has seven or more cards in t
 				<cmc>5</cmc>
 				<colors>W</colors>
 				<coloridentity>W</coloridentity>
-				<pt>4/5</pt>
+				<pt>4/4</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
@@ -2197,7 +2196,7 @@ Exile target attacking or blocking creature.</text>
 Flying
 When this creature enters, choose one —
 • Scry 1, then draw a card.
-• Return target permanent you don&apos;t control to its owner&apos;s hand.</text>
+• This creature gets +0/+2 until end of turn.</text>
 			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/65_Ridgeline Monitor.png" num="65">MST</set>
 			<prop>
 				<layout>normal</layout>
@@ -2341,7 +2340,7 @@ Enchanted creature gets +1/+1 and has flying, vigilance, and ward {2}.</text>
 		<card>
 			<name>Runic Restraints</name>
 			<text>Wisdom 4 (As an additional cost to cast this, you may exile four cards from your graveyard. If you do, copy it, and you may choose new targets for the copy.)
-Tap target nonland permanent and put two stun counters on it.
+Tap target nonland permanent and put a stun counter on it.
 Draw a card.</text>
 			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/66_Runic Restraints.png" num="66">MST</set>
 			<prop>
@@ -2358,7 +2357,7 @@ Draw a card.</text>
 		</card>
 		<card>
 			<name>Summon the Soulchasers</name>
-			<text>Wisdom 2 (As an additional cost to cast this, you may exile two cards from your graveyard. If you do, copy it, and you may choose new targets for the copy.)
+			<text>Wisdom 3 (As an additional cost to cast this, you may exile three cards from your graveyard. If you do, copy it, and you may choose new targets for the copy.)
 Create two 1/1 blue Bird Spirit creature tokens with flying.</text>
 			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/71_Summon the Soulchasers.png" num="71">MST</set>
 			<prop>
@@ -2466,7 +2465,7 @@ At the beginning of your end step, if this card is in your graveyard, you may pa
 			<name>Hermit of Erud Swamp</name>
 			<text>Your maximum hand size is six.
 At the beginning of your end step, draw a card.
-When this creature dies, if it didn&apos;t enter this turn, you lose 2 life.</text>
+When this creature dies, if it didn&apos;t enter this turn, you lose 4 life.</text>
 			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/99_Hermit of Erud Swamp.png" num="99">MST</set>
 			<prop>
 				<layout>normal</layout>
@@ -2489,7 +2488,7 @@ Remove two Moonstone counters from yourself: This creature gets +1/+1 until end 
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Creature — Rat Knight</type>
+				<type>Legendary Creature — Rat Knight</type>
 				<maintype>Creature</maintype>
 				<manacost>2BB</manacost>
 				<cmc>4</cmc>
@@ -2501,7 +2500,7 @@ Remove two Moonstone counters from yourself: This creature gets +1/+1 until end 
 		</card>
 		<card>
 			<name>Eater of the Forgotten</name>
-			<text>Ward {2}
+			<text>Ward—pay 2 life
 Trample
 Whenever you discard one or more cards, put a +1/+1 counter on this creature.</text>
 			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/96_Eater of the Forgotten.png" num="96">MST</set>
@@ -2514,7 +2513,7 @@ Whenever you discard one or more cards, put a +1/+1 counter on this creature.</t
 				<cmc>3</cmc>
 				<colors>B</colors>
 				<coloridentity>B</coloridentity>
-				<pt>1/2</pt>
+				<pt>2/2</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
@@ -2896,8 +2895,8 @@ Reach, trample, vigilance, ward {1}</text>
 				<side>front</side>
 				<type>Enchantment</type>
 				<maintype>Enchantment</maintype>
-				<manacost>4G</manacost>
-				<cmc>5</cmc>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
 				<colors>G</colors>
 				<coloridentity>G</coloridentity>
 			</prop>
@@ -2912,8 +2911,8 @@ Reach, trample, vigilance, ward {1}</text>
 				<side>front</side>
 				<type>Enchantment</type>
 				<maintype>Enchantment</maintype>
-				<manacost>2G</manacost>
-				<cmc>3</cmc>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
 				<colors>G</colors>
 				<coloridentity>G</coloridentity>
 			</prop>
@@ -3993,7 +3992,7 @@ Equip {1}</text>
 		<card>
 			<name>Necklace of Fangs</name>
 			<text>Equipped creature gets +1/+1.
-Equipped creature has first strike as long as you&apos;ve cast an instant or sorcery this turn.
+Equipped creature has menace as long as you&apos;ve cast an instant or sorcery this turn.
 Equip {1}</text>
 			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/245_Necklace of Fangs.png" num="245">MST</set>
 			<prop>
@@ -4055,7 +4054,7 @@ This artifact enters tapped.
 		</card>
 		<card>
 			<name>Summer Throne</name>
-			<text>When this artifact enters, create a 1/1 colorless Bird Noble creature token with flying.
+			<text>When this artifact enters, create a tapped 1/1 colorless Bird Noble creature token with flying.
 At the beginning of your upkeep, scry 2.
 Birds you control get +1/+1.</text>
 			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/248_Summer Throne.png" num="248">MST</set>
@@ -4102,9 +4101,9 @@ Equip {2}</text>
 		</card>
 		<card>
 			<name>A Path Between</name>
-			<text>This land enters tapped.
-When this land enters, scry 1.
-When this land becomes untapped, sacrifice it, then search your library for a basic land card, put it onto the battlefield, then shuffle.</text>
+			<text>{T}: Add {C}.
+{2}, {T}, Sacrifice this land: Search your library for a basic land card, put it onto the battlefield, then shuffle.
+When this land is put into a graveyard from the battlefield, you may discard a card. When you do, draw a card.</text>
 			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/254_A Path Between.png" num="254">MST</set>
 			<prop>
 				<layout>normal</layout>
@@ -4235,10 +4234,9 @@ If you control a militant, exile the top card of your library. Until the end of 
 		</card>
 		<card>
 			<name>Cultist of Dus Acasui</name>
-			<text>Menace
-When this creature enters, choose one —
+			<text>When this creature enters, choose one —
 • Target creature gets -4/-4 until end of turn.
-• Return target creature card with mana value 2 or less from your graveyard to the battlefield tapped.</text>
+• Return target creature card with mana value 2 or less from your graveyard to the battlefield.</text>
 			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/91_Cultist of Dus Acasui.png" num="91">MST</set>
 			<prop>
 				<layout>normal</layout>

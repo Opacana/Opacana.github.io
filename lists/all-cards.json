@@ -6055,7 +6055,7 @@
             "set": "MST",
             "loyalty": "",
             "artist": "Ella Vedelago",
-            "notes": "",
+            "notes": "Should be fine, compare to Redcap Heelslasher or Splatter Thug.",
             "image_type": "png"
         },
         {
@@ -6275,7 +6275,7 @@
             "number": 12,
             "color_identity": "W",
             "cost": "{2}{W}{W}",
-            "rules_text": "Flying\n{W}: This creature gains lifelink until end of turn. Activate only once each turn.",
+            "rules_text": "Flying, lifelink",
             "flavor_text": "[i]Once a longstanding pillar of the Circumzenith, now dedicated to a path of peace, using his formidable skills only in times of crisis.[/i]",
             "pt": "2/4",
             "special_text": "",
@@ -6283,7 +6283,7 @@
             "set": "MST",
             "loyalty": "",
             "artist": "Jessada Art",
-            "notes": "",
+            "notes": "April 6/7th, 2026: Converted activated ability to permanent lifelink, to better follow canon examples of potency.",
             "image_type": "png"
         },
         {
@@ -6486,13 +6486,13 @@
             "cost": "{2}{W}",
             "rules_text": "Vigilance\nWhen this creature enters, create a 1/1 white Dog Soldier creature token.",
             "flavor_text": "[i]A good number of citizens conducted business and leisure at night, so there were as many guards on patrol then as during the day.[/i]",
-            "pt": "2/1",
+            "pt": "2/2",
             "special_text": "",
             "shape": "normal",
             "set": "MST",
             "loyalty": "",
             "artist": "JS Almencion for Humble Squid Creatives",
-            "notes": "",
+            "notes": "April 6/7th, 2026: Now 2/2 from 2/1.",
             "image_type": "png"
         },
         {
@@ -6505,13 +6505,13 @@
             "cost": "{3}{W}",
             "rules_text": "When this creature enters, creatures you control get +1/+1 until end of turn.",
             "flavor_text": "[i]To many foodmongers, creating goodwill and trust was essential to, as they said, \u2018reducing supply costs'.[/i]",
-            "pt": "2/3",
+            "pt": "3/3",
             "special_text": "",
             "shape": "normal",
             "set": "MST",
             "loyalty": "",
             "artist": "Mariana Ennes",
-            "notes": "",
+            "notes": "April 6/7th: Changed from 2/3 to 3/3 to follow with more recent canon potency (vs older canon potency) in similar.",
             "image_type": "png"
         },
         {
@@ -6807,15 +6807,15 @@
             "number": 44,
             "color_identity": "U",
             "cost": "{3}{U}{U}",
-            "rules_text": "Flying\nWhenever this creature deals combat damage to an opponent, that opponent chooses one \u2013\n\u2022 You draw a card.\n\u2022 They tap a creature they control and put a stun counter on it.",
+            "rules_text": "Flying\nWhen this creature enters, choose one \u2013\n\u2022 You draw a card.\n\u2022 Tap target creature an opponent controls and put a stun counter on it.",
             "flavor_text": "[i][/i]",
-            "pt": "4/4",
+            "pt": "4/3",
             "special_text": "",
             "shape": "normal",
             "set": "MST",
             "loyalty": "",
             "artist": "Mike Shachook",
-            "notes": "March 27th, 2026: Changed the not untapping text to simply put a stun counter on it.",
+            "notes": "March 27th, 2026: Changed the not untapping text to simply put a stun counter on it.\n\nApril 6/7th: To better fit canon potency, lost 1 point of toughness, and changed choice ability to only on enter from whenever it hits an opponent.",
             "image_type": "png"
         },
         {
@@ -6883,7 +6883,7 @@
             "number": 59,
             "color_identity": "U",
             "cost": "{1}{U}",
-            "rules_text": "Enchant creature\nEnchanted creature can't attack or block.\nRemove three Moonstone counters from yourself: Return this Aura to your hand. Enchanted creature's owner shuffles it into their library.",
+            "rules_text": "Enchant creature\nEnchanted creature can't attack or block.\nRemove three Moonstone counters from yourself: Return enchanted creature and this Aura to their owners' hand.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -6891,7 +6891,7 @@
             "set": "MST",
             "loyalty": "",
             "artist": "Adrian Virlan",
-            "notes": "",
+            "notes": "April 6/7th: Changed it from shuffling the creature in to merely returning it to owner's hand.",
             "image_type": "png"
         },
         {
@@ -6986,7 +6986,7 @@
             "set": "MST",
             "loyalty": "",
             "artist": "Julio Kronemberger",
-            "notes": "",
+            "notes": "(given the token it makes is vanilla, I personally feel BWS here is fine compared to Nezumi Linkbreaker or Infestation Sage)",
             "image_type": "png"
         },
         {
@@ -7016,7 +7016,7 @@
             "number": 83,
             "color_identity": "B",
             "cost": "{2}{B}",
-            "rules_text": "Ward\u2013pay 2 life\n{2}, Sacrifice a creature: You draw a card, then each opponent loses 1 life and you gain 1 life. Activate only once each turn.",
+            "rules_text": "{2}, Sacrifice a creature: You draw a card, then each opponent loses 1 life and you gain 1 life. Activate only once each turn.",
             "flavor_text": "[i]\u201cI prepare this ink with full conviction. Reveal to me your sanguine secrets.\u201d[/i]",
             "pt": "2/2",
             "special_text": "",
@@ -7024,7 +7024,7 @@
             "set": "MST",
             "loyalty": "",
             "artist": "tidmatiger",
-            "notes": "",
+            "notes": "April 7th, 2026: Removed its ward ability to fit better with n&b keyword guides.",
             "image_type": "png"
         },
         {
@@ -7062,7 +7062,7 @@
             "set": "MST",
             "loyalty": "",
             "artist": "Tomas Ricci",
-            "notes": "",
+            "notes": "Fine (compare to Scarblade Scout).",
             "image_type": "png"
         },
         {
@@ -7094,13 +7094,13 @@
             "cost": "{2}{B}",
             "rules_text": "When this creature enters, each player discards a card.\nPay 1 life: This creature gains flying until end of turn. Activate only once each turn, and only as a sorcery.",
             "flavor_text": "[i]They delivered contracts of illicit dealings, letters of intimidation, and contraband substances.[/i]",
-            "pt": "2/1",
+            "pt": "2/2",
             "special_text": "",
             "shape": "normal",
             "set": "MST",
             "loyalty": "",
             "artist": "David Alcantara Rubio",
-            "notes": "",
+            "notes": "April 7th, 2026: Toughness increased to 2, based on examples like Miasmic Mummy.",
             "image_type": "png"
         },
         {
@@ -7119,7 +7119,7 @@
             "set": "MST",
             "loyalty": "",
             "artist": "Luis Bento",
-            "notes": "",
+            "notes": "(A little above curve, but not too outrageously FOR NOW)",
             "image_type": "png"
         },
         {
@@ -7214,7 +7214,7 @@
             "set": "MST",
             "loyalty": "",
             "artist": "Saltamor",
-            "notes": "",
+            "notes": "Rate seems fine compared to canon. Easy Prey with conditional Raise Dead instead of cycling.",
             "image_type": "png"
         },
         {
@@ -7271,7 +7271,7 @@
             "set": "MST",
             "loyalty": "",
             "artist": "Jerome Jacinto",
-            "notes": "",
+            "notes": "Should be fine, compared to Wriggling Grub.",
             "image_type": "png"
         },
         {
@@ -7290,7 +7290,7 @@
             "set": "MST",
             "loyalty": "",
             "artist": "Austen Mengler",
-            "notes": "",
+            "notes": "(Good, but I don't think too far out of line with canon power level \u2014 see Maximum Overdrive from Aetherdrift)",
             "image_type": "png"
         },
         {
@@ -7360,13 +7360,13 @@
             "cost": "{1}{R}",
             "rules_text": "Haste\nWhenever this creature attacks, you may pay {1}. If you do, it deals 1 damage to defending player.",
             "flavor_text": "[i]Most soldiers in the Blue Skies Cities were trained in both close and long-range weapons.[/i]",
-            "pt": "2/2",
+            "pt": "2/1",
             "special_text": "",
             "shape": "normal",
             "set": "MST",
             "loyalty": "",
             "artist": "Steven Shan",
-            "notes": "",
+            "notes": "April 8th, 2026: Toughness reduced to 1 (from 2) to better match canon paradigms for cheap hasty creatures (like Devoted Duelist).",
             "image_type": "png"
         },
         {
@@ -7404,7 +7404,7 @@
             "set": "MST",
             "loyalty": "",
             "artist": "Jerome JAcinto",
-            "notes": "April 5th, 2026: Cost changed from 2RR to 3R.\n\nApril 6th, 2026: Trample changed to menace in conditional ability.",
+            "notes": "April 5th, 2026: Cost changed from 2RR to 3R.\n\nApril 6th, 2026: Trample changed to menace in conditional ability.\n\n\nShould be fine, compare to Rescue Leopard.",
             "image_type": "png"
         },
         {
@@ -7414,16 +7414,16 @@
             "type": "Creature \u2013 Lizard Scout Wizard",
             "number": 125,
             "color_identity": "R",
-            "cost": "{1}{R}{R}",
+            "cost": "{2}{R}",
             "rules_text": "When this creature enters, if it's not a token, create a token that's a copy of it.\nWhenever this creature deals combat damage to a player or planeswalker, instant and sorcery spells you cast this turn cost {1} less to cast.",
             "flavor_text": "[i][/i]",
-            "pt": "1/1",
+            "pt": "1/2",
             "special_text": "",
             "shape": "normal",
             "set": "MST",
             "loyalty": "",
             "artist": "Will O'Brien",
-            "notes": "March 27th, 2026: 'and/or' changed to simply 'and'.",
+            "notes": "March 27th, 2026: 'and/or' changed to simply 'and'.\n\nApril 8th, 2026: Changed cost from 1RR to 2R, and upped toughness by 1, to provide better comparison to canon examples of Peerless Samurai and Hardened Berserker.",
             "image_type": "png"
         },
         {
@@ -7474,13 +7474,13 @@
             "cost": "{1}{R}{R}",
             "rules_text": "Kicker {2}\nTrample\nThis creature enters with two +1/+1 counters on it if it was kicked.",
             "flavor_text": "[i]West Khyth remained stubbornly independent while South and East had been absorbed into the Blue Sky Cities.[/i]",
-            "pt": "3/3",
+            "pt": "3/2",
             "special_text": "",
             "shape": "normal",
             "set": "MST",
             "loyalty": "",
             "artist": "Matt Cowdery",
-            "notes": "",
+            "notes": "April 8th, 2026: Toughness reduced by 1 to match canon paradigms.",
             "image_type": "png"
         },
         {
@@ -7556,7 +7556,7 @@
             "set": "MST",
             "loyalty": "",
             "artist": "Alexandr Leskinen",
-            "notes": "",
+            "notes": "\nTo be safe, kept as a sorcery in order to keep both the mass power boost AND the bonus effect.",
             "image_type": "png"
         },
         {
@@ -7566,7 +7566,7 @@
             "type": "Sorcery",
             "number": 156,
             "color_identity": "R",
-            "cost": "{1}{R}{R}",
+            "cost": "{2}{R}",
             "rules_text": "Choose one \u2013\n\u2022 Exile target artifact.\n\u2022 Target creature gets +3/+3 and gains trample until end of turn.",
             "flavor_text": "[i]Every gang needed a member who was strong of body, for times when picking a lock would take too long.[/i]",
             "pt": "",
@@ -7575,7 +7575,7 @@
             "set": "MST",
             "loyalty": "",
             "artist": "Ralph Horsely",
-            "notes": "",
+            "notes": "April 8th, 2026: Cost changed from 1RR to 2R.",
             "image_type": "png"
         },
         {
@@ -7613,7 +7613,7 @@
             "set": "MST",
             "loyalty": "",
             "artist": "Yasumora Tai",
-            "notes": "",
+            "notes": "SHOULD be okay, compare to Ancestor's Aid.",
             "image_type": "png"
         },
         {
@@ -7740,13 +7740,13 @@
             "cost": "{2}{G}",
             "rules_text": "When this creature enters, mill three cards, then return a land card from your graveyard to your hand.",
             "flavor_text": "[i]After the moonfall, everybody wanted to become a geologist or minerologist.[/i]",
-            "pt": "2/2",
+            "pt": "3/2",
             "special_text": "",
             "shape": "normal",
             "set": "MST",
             "loyalty": "",
             "artist": "Istrandar",
-            "notes": "",
+            "notes": "April 7th, 2026: Power increased by 1, to be as useful as current canon examples of similar cards (Pothole Mole and Eccentric Farmer are both 2/3s with optional land card return after milling 3)",
             "image_type": "png"
         },
         {
@@ -7765,7 +7765,7 @@
             "set": "MST",
             "loyalty": "",
             "artist": "Gompami",
-            "notes": "",
+            "notes": "Fine, when looking at canon's Ostrich-Horse or Spore Crawler.",
             "image_type": "png"
         },
         {
@@ -7776,7 +7776,7 @@
             "number": 174,
             "color_identity": "G",
             "cost": "{2}{G}{G}",
-            "rules_text": "Kicker {2}\nReach\nWhen this creature enters, if it was kicked, create a creature token that's a copy of it.\nWhen this creature enters, you get a Moonstone counter.",
+            "rules_text": "Kicker {3}\nReach\nWhen this creature enters, if it was kicked, create a creature token that's a copy of it.\nWhen this creature enters, you get a Moonstone counter.",
             "flavor_text": "[i][/i]",
             "pt": "3/3",
             "special_text": "",
@@ -7784,7 +7784,7 @@
             "set": "MST",
             "loyalty": "",
             "artist": "Christina Kraus",
-            "notes": "",
+            "notes": "April 7th, 2026: Increased Kicker clone cost to 3 from 2.",
             "image_type": "png"
         },
         {
@@ -7917,7 +7917,7 @@
             "set": "MST",
             "loyalty": "",
             "artist": "Mr. Cuddington",
-            "notes": "",
+            "notes": "This should be okay as it, based comparisons to Sage of Shaila's Claim and Highspire Infusion...",
             "image_type": "png"
         },
         {
@@ -7966,7 +7966,7 @@
             "number": 187,
             "color_identity": "G",
             "cost": "{2}{G}",
-            "rules_text": "Destroy target artifact or enchantment. If an artifact is destroyed this way, put a +1/+1 counter on a creature you control. Otherwise, you gain 2 life.",
+            "rules_text": "Destroy target artifact or enchantment. Then choose one \u2013\n\u2022 Put a +1/+1 counter on a creature you control.\n\u2022 You gain 2 life.",
             "flavor_text": "[i]A few had been put on display, but most Phyrexian remains and wreckage had been used as scrap metal or just left to the elements.[/i]",
             "pt": "",
             "special_text": "",
@@ -7974,7 +7974,7 @@
             "set": "MST",
             "loyalty": "",
             "artist": "Atlas Range / Anthony Z Studio",
-            "notes": "March 4th, 2026: In an effort to make the casting process simpler for this, the putting a counter aspect no longer targets.",
+            "notes": "March 4th, 2026: In an effort to make the casting process simpler for this, the putting a counter aspect no longer targets.\n\nApril 7th, 2026: After seeing it's a little weaker than canon equivalents (but not drastically so), the effect after the destruction was untied to what was destroyed, converted into a choice effect.",
             "image_type": "png"
         },
         {
@@ -8012,7 +8012,7 @@
             "set": "MST",
             "loyalty": "",
             "artist": "Brian Valeza",
-            "notes": "",
+            "notes": "SHOULD be okay, based on comparison to canon Prishe's Wanderings...",
             "image_type": "png"
         },
         {
@@ -8156,7 +8156,7 @@
             "number": 37,
             "color_identity": "W",
             "cost": "{2}{W}{W}",
-            "rules_text": "Flying, lifelink\nWhenever another creature dies for the first time each turn while this creature is tapped, untap this creature.",
+            "rules_text": "Flying, lifelink",
             "flavor_text": "[i]\u201cThe Moonstones bring great power, yes, but they also bring out the worst. We should destroy them all, for peace's sake.\u201d[/i]",
             "pt": "3/3",
             "special_text": "",
@@ -8164,7 +8164,7 @@
             "set": "MST",
             "loyalty": "",
             "artist": "AJ Ramos",
-            "notes": "",
+            "notes": "April 6/7th, 2026: Untap on death ability removed, to conform better to canon potency.",
             "image_type": "png"
         },
         {
@@ -8175,15 +8175,15 @@
             "number": 19,
             "color_identity": "W",
             "cost": "{3}{W}{W}",
-            "rules_text": "Ward {2}\nWhenever this creature attacks, if defending player has seven or more cards in their graveyard, this creature gains double strike until end of turn.",
+            "rules_text": "Ward {1}\nWhenever this creature attacks, if defending player has seven or more cards in their graveyard, this creature gains double strike until end of turn.",
             "flavor_text": "[i]Lafahdians viewed any rapid development as suspicious.[/i]",
-            "pt": "4/5",
+            "pt": "4/4",
             "special_text": "",
             "shape": "normal",
             "set": "MST",
             "loyalty": "",
             "artist": "Deiv Calviz (David Villegas)",
-            "notes": "",
+            "notes": "April 6/7th, 2026: Brought down to 4/4 from 4/5, and Ward lowered to 1 from 2. (To better bit canon examples).",
             "image_type": "png"
         },
         {
@@ -8251,7 +8251,7 @@
             "number": 65,
             "color_identity": "U",
             "cost": "{2}{U}{U}",
-            "rules_text": "Flash\nFlying\nWhen this creature enters, choose one \u2013\n\u2022 Scry 1, then draw a card.\n\u2022 Return target permanent you don't control to its owner's hand.",
+            "rules_text": "Flash\nFlying\nWhen this creature enters, choose one \u2013\n\u2022 Scry 1, then draw a card.\n\u2022 This creature gets +0/+2 until end of turn.",
             "flavor_text": "[i][/i]",
             "pt": "2/2",
             "special_text": "",
@@ -8259,7 +8259,7 @@
             "set": "MST",
             "loyalty": "",
             "artist": "Inubiko",
-            "notes": "",
+            "notes": "April 6/7th, 2026: To avoid too much overlap with Armed Delegation or Siltshore Sentinel, this card's bounce option replaced with self-toughness boost (for blocking option).",
             "image_type": "png"
         },
         {
@@ -8403,7 +8403,7 @@
             "number": 66,
             "color_identity": "U",
             "cost": "{1}{U}",
-            "rules_text": "Wisdom 4 [i](As an additional cost to cast this, you may exile four cards from your graveyard. If you do, copy it, and you may choose new targets for the copy.)[/i]\nTap target nonland permanent and put two stun counters on it.\nDraw a card.",
+            "rules_text": "Wisdom 4 [i](As an additional cost to cast this, you may exile four cards from your graveyard. If you do, copy it, and you may choose new targets for the copy.)[/i]\nTap target nonland permanent and put a stun counter on it.\nDraw a card.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -8411,7 +8411,7 @@
             "set": "MST",
             "loyalty": "",
             "artist": "Reuben Yeo",
-            "notes": "",
+            "notes": "April 6/7th, 2026: To better fit canon example, reduced from two stun counters to just one.",
             "image_type": "png"
         },
         {
@@ -8422,7 +8422,7 @@
             "number": 71,
             "color_identity": "U",
             "cost": "{2}{U}",
-            "rules_text": "Wisdom 2 [i](As an additional cost to cast this, you may exile two cards from your graveyard. If you do, copy it, and you may choose new targets for the copy.)[/i]\nCreate two 1/1 blue Bird Spirit creature tokens with flying.",
+            "rules_text": "Wisdom 3 [i](As an additional cost to cast this, you may exile three cards from your graveyard. If you do, copy it, and you may choose new targets for the copy.)[/i]\nCreate two 1/1 blue Bird Spirit creature tokens with flying.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -8430,7 +8430,7 @@
             "set": "MST",
             "loyalty": "",
             "artist": "Justin Sanders",
-            "notes": "",
+            "notes": "April 6/7th, 2026: Wisdom increased from 2 to 3. (to slightly delay how soon it could be copied, thus giving better comparison to Talrand's Invocation)",
             "image_type": "png"
         },
         {
@@ -8536,7 +8536,7 @@
             "number": 99,
             "color_identity": "B",
             "cost": "{1}{B}{B}",
-            "rules_text": "Your maximum hand size is six.\nAt the beginning of your end step, draw a card.\nWhen this creature dies, if it didn't enter this turn, you lose 2 life.",
+            "rules_text": "Your maximum hand size is six.\nAt the beginning of your end step, draw a card.\nWhen this creature dies, if it didn't enter this turn, you lose 4 life.",
             "flavor_text": "[i][/i]",
             "pt": "2/2",
             "special_text": "",
@@ -8544,14 +8544,14 @@
             "set": "MST",
             "loyalty": "",
             "artist": "Humble Squid Creatives",
-            "notes": "",
+            "notes": "April 7th, 2026: While good, I want to keep this as a draw engine for the rb discard archetype. So life loss if killed upped from 2 to 4 to increase risk, better balancing out the reward.",
             "image_type": "png"
         },
         {
             "card_name": "Iron Empire Elite",
             "color": "B",
             "rarity": "uncommon",
-            "type": "Creature \u2013 Rat Knight",
+            "type": "Legendary Creature \u2013 Rat Knight",
             "number": 103,
             "color_identity": "B",
             "cost": "{2}{B}{B}",
@@ -8563,7 +8563,7 @@
             "set": "MST",
             "loyalty": "",
             "artist": "Rafal Gorniak",
-            "notes": "",
+            "notes": "April 7th, 2026: Made legendary, to rein in power a tiny bit. After that, personally acceptably close to Lord Dregg or Foggy Swamp Hunters.",
             "image_type": "png"
         },
         {
@@ -8574,15 +8574,15 @@
             "number": 96,
             "color_identity": "B",
             "cost": "{1}{B}{B}",
-            "rules_text": "Ward {2}\nTrample\nWhenever you discard one or more cards, put a +1/+1 counter on this creature.",
+            "rules_text": "Ward\u2013pay 2 life\nTrample\nWhenever you discard one or more cards, put a +1/+1 counter on this creature.",
             "flavor_text": "[i]Even the cult of Das Acasui, whose members bathed in blood, was afraid of it.[/i]",
-            "pt": "1/2",
+            "pt": "2/2",
             "special_text": "",
             "shape": "normal",
             "set": "MST",
             "loyalty": "",
             "artist": "Humble Squid Creatives",
-            "notes": "",
+            "notes": "April 7th, 2026: Power moved up to 2 to better fit examples of black growing creatures. Ward 2 replaced with ward \u2014 pay 2 life, to fit better flavor and mechanically.",
             "image_type": "png"
         },
         {
@@ -8991,7 +8991,7 @@
             "type": "Enchantment",
             "number": 194,
             "color_identity": "G",
-            "cost": "{4}{G}",
+            "cost": "{3}{G}",
             "rules_text": "Whenever a creature you control enters, put a +1/+1 counter on each creature you control. This triggers only once each turn.",
             "flavor_text": "[i]While ministers and generals started the empire, only the common people made it last.[/i]",
             "pt": "",
@@ -9000,7 +9000,7 @@
             "set": "MST",
             "loyalty": "",
             "artist": "Julio Kronemberger",
-            "notes": "",
+            "notes": "April 7th, 2026: Reduced from costing 4G to 3G. After looking at canon Thunderwolf Cavalry and Cathar's Crusade, decided small cost reduction was best route.",
             "image_type": "png"
         },
         {
@@ -9010,7 +9010,7 @@
             "type": "Enchantment",
             "number": 167,
             "color_identity": "G",
-            "cost": "{2}{G}",
+            "cost": "{1}{G}",
             "rules_text": "[i]Landfall[/i] \u2013 Whenever a land you control enters, you gain 1 life. If this is the first time this ability has resolved this turn, put a +1/+1 counter on target creature you control. If that creature is militant, put two +1/+1 counters on it instead. [i](Armies, Heroes, Knights, Soldiers and Warriors are militants.)[/i]",
             "flavor_text": "[i][/i]",
             "pt": "",
@@ -9019,7 +9019,7 @@
             "set": "MST",
             "loyalty": "",
             "artist": "Jerome Jacinto",
-            "notes": "",
+            "notes": "April 7th, 2026: Casting cost reduced by 1 to be closer to canon examples (like Retreat to Kazandu).",
             "image_type": "png"
         },
         {
@@ -9183,14 +9183,14 @@
             "color_identity": "W",
             "cost": "{2}{W}",
             "rules_text": "This spell can't be countered as long as you control two or more Birds.\nCreatures you control with flying get +1/+1 and gain first strike and lifelink until end of turn.",
-            "flavor_text": "[i]flavor text[/i]",
+            "flavor_text": "[i]Circumzenith officers often wore magical tattoos declaring their loyalty to the organization.[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "MST",
             "loyalty": "",
             "artist": "bewmkin",
-            "notes": "March 1st, 2026: Changed to only be uncounterable if you have two or more Birds, and cost raised from 1W to 2W.",
+            "notes": "March 1st, 2026: Changed to only be uncounterable if you have two or more Birds, and cost raised from 1W to 2W.\n\nFlaxor text added April 6/7th, 2026.",
             "image_type": "png"
         },
         {
@@ -10170,7 +10170,7 @@
             "number": 245,
             "color_identity": "C",
             "cost": "{1}",
-            "rules_text": "Equipped creature gets +1/+1.\nEquipped creature has first strike as long as you've cast an instant or sorcery this turn.\nEquip {1}",
+            "rules_text": "Equipped creature gets +1/+1.\nEquipped creature has menace as long as you've cast an instant or sorcery this turn.\nEquip {1}",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -10178,7 +10178,7 @@
             "set": "MST",
             "loyalty": "",
             "artist": "Herckeim",
-            "notes": "April 1st, 2026: Changed to always give +1/+1, but first strike kept behind i/s cast restriction.",
+            "notes": "April 1st, 2026: Changed to always give +1/+1, but first strike kept behind i/s cast restriction.\n\nApril 8th: Changed first strike to menace.",
             "image_type": "png"
         },
         {
@@ -10216,7 +10216,7 @@
             "set": "MST",
             "loyalty": "",
             "artist": "Herckein",
-            "notes": "",
+            "notes": "Fine, compare to canon Sharpened Pitchfork.",
             "image_type": "png"
         },
         {
@@ -10246,7 +10246,7 @@
             "number": 248,
             "color_identity": "C",
             "cost": "{4}",
-            "rules_text": "When this artifact enters, create a 1/1 colorless Bird Noble creature token with flying.\nAt the beginning of your upkeep, scry 2.\nBirds you control get +1/+1.",
+            "rules_text": "When this artifact enters, create a tapped 1/1 colorless Bird Noble creature token with flying.\nAt the beginning of your upkeep, scry 2.\nBirds you control get +1/+1.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -10254,7 +10254,7 @@
             "set": "MST",
             "loyalty": "",
             "artist": "Hazem Ameen",
-            "notes": "",
+            "notes": "April 8th, 2026: The token now comes in tapped, to pull back on this card's potency a little.",
             "image_type": "png"
         },
         {
@@ -10303,7 +10303,7 @@
             "number": 254,
             "color_identity": "C",
             "cost": "",
-            "rules_text": "This land enters tapped.\nWhen this land enters, scry 1.\nWhen this land becomes untapped, sacrifice it, then search your library for a basic land card, put it onto the battlefield, then shuffle.",
+            "rules_text": "{T}: Add {C}.\n{2}, {T}, Sacrifice this land: Search your library for a basic land card, put it onto the battlefield, then shuffle.\nWhen this land is put into a graveyard from the battlefield, you may discard a card. When you do, draw a card.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -10311,7 +10311,7 @@
             "set": "MST",
             "loyalty": "",
             "artist": "Grafit studio",
-            "notes": "",
+            "notes": "April 8th, 2026: Heavily redesigned to be more elegant and interesting.",
             "image_type": "png"
         },
         {
@@ -10425,7 +10425,7 @@
             "set": "MST",
             "loyalty": "",
             "artist": "Marianna Ennes",
-            "notes": "Added MArch 4th, 2026: To fill in lower end of Green uncommon mana curve a bit more, to push GW lifegain archetype, and to include another Aura in the set.",
+            "notes": "Added MArch 4th, 2026: To fill in lower end of Green uncommon mana curve a bit more, to push GW lifegain archetype, and to include another Aura in the set.\n\nShould be fine, compared to canon examplea Audacity and Creeping Crystal Coating...",
             "image_type": "png"
         },
         {
@@ -10455,7 +10455,7 @@
             "number": 91,
             "color_identity": "B",
             "cost": "{3}{B}{B}",
-            "rules_text": "Menace\nWhen this creature enters, choose one \u2013\n\u2022 Target creature gets -4/-4 until end of turn.\n\u2022 Return target creature card with mana value 2 or less from your graveyard to the battlefield tapped.",
+            "rules_text": "When this creature enters, choose one \u2013\n\u2022 Target creature gets -4/-4 until end of turn.\n\u2022 Return target creature card with mana value 2 or less from your graveyard to the battlefield.",
             "flavor_text": "[i][/i]",
             "pt": "3/3",
             "special_text": "",
@@ -10463,7 +10463,7 @@
             "set": "MST",
             "loyalty": "",
             "artist": "Dylan Aldaine",
-            "notes": "",
+            "notes": "April 7th: Removed menace from this, to better conform to canon paradigms. As partial compensation, creature that's reanimated no longer enters tapped.",
             "image_type": "png"
         },
         {
