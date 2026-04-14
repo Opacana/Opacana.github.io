@@ -1,4 +1,57 @@
-﻿VERSION 17 CHANGELOG
+﻿VERSION 18 CHANGELOG
+====================
+
+Ruminations Over Rubble added.
+
+Rest in Peace removed.
+
+Voracious Elasmodracid
+rules_text: As long as defending player controls an island, this creature can't be blocked by fewer than three creatures.
+{U}, Discard this card: You get a Moonstone counter. => As long as defending player controls an island, this creature can't be blocked by fewer than three creatures.
+{U}, Discard this card from your hand: You get two Moonstone counters.
+
+Xolotl Raider
+rules_text: Ward {1}
+Whenever this creature deals combat damage to an opponent, you may pay {1}{B}. If you do, that player discards a card. => Ward {1}
+When this creature enters, each player gets a Moonstone counter.
+Whenever this creature deals combat damage to an opponent, you may pay {1}{B}. If you do, that player discards a card.
+
+Beachside Patrol
+rules_text: The first time each turn an opponent casts a spell, this creature gets +1/+1 until end of turn. => When this creature enters, you get a Moonstone counter.
+The first time each turn an opponent casts a spell, this creature gets +1/+1 until end of turn.
+
+School of Seaquids
+rules_text: This creature enters with three +1/+1 counters on it.
+{1}{U}: For each kind of counter on target permanent or player, give that permanent or player another counter of that kind. Activate only once each turn, and only as a sorcery. => This creature enters with three +1/+1 counters on it.
+{U}: For each kind of counter on target permanent or player, give that permanent or player another counter of that kind. Activate only once each turn, and only as a sorcery.
+
+Limb Enhancement
+rules_text: Enchant creature
+When this Aura enters, you get a Moonstone counter.
+Enchanted creature gets +2/+3. => Enchant creature
+When this Aura enters, you get two Moonstone counters.
+Enchanted creature gets +2/+2.
+
+Empowered Unraveling
+rules_text: Counter target spell unless its controller pays {1} for each Moonstone counter you have. => You get a Moonstone counter.
+Counter target spell unless its controller pays {1} for every Moonstone counter you have more than them.
+
+Moonlaced Potion
+rules_text: When this artifact enters, you gain a Moonstone counter.
+{1}, {T}, Sacrifice this artifact: Draw a card, then add one mana of any color. => When this artifact enters, you get two Moonstone counters.
+{1}, {T}, Sacrifice this artifact: Draw a card, then add one mana of any color.
+
+Revered Moonstaff
+
+Eela, Tropical Windspeaker
+rules_text: Flying
+Whenever Eela deals combat damage to an opponent, you may pay {X}{UR}. When you do, exile target instant or sorcery card from a graveyard.
+At the beginning of your upkeep, choose a card exiled with Eela. You may cast that card this turn without paying its mana cost. => Flying
+Whenever Eela deals combat damage to an opponent, you may pay {X}{UR}. When you do, exile target instant or sorcery card with mana value X from a graveyard.
+At the beginning of your upkeep, choose a card exiled with Eela. You may cast that card this turn without paying its mana cost.
+
+
+VERSION 17 CHANGELOG
 ====================
 
 

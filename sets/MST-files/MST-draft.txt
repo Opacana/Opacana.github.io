@@ -385,9 +385,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{W}",
 			"type": "Artifact",
-			"collector_number": "29",
+			"collector_number": "28",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/29_Ring of Assurance.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/28_Ring of Assurance.png"
 			}
 		},
 		{
@@ -1135,9 +1135,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{W}",
 			"type": "Creature — Cat Warrior Rogue",
-			"collector_number": "30",
+			"collector_number": "29",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/30_Rooftop Pouncer.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/29_Rooftop Pouncer.png"
 			}
 		},
 		{
@@ -1215,9 +1215,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{W}{W}",
 			"type": "Sorcery",
-			"collector_number": "28",
+			"collector_number": "27",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/28_Rewoven Fates.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/27_Rewoven Fates.png"
 			}
 		},
 		{
@@ -1695,9 +1695,9 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{W}",
 			"type": "Creature — Rat Noble",
-			"collector_number": "31",
+			"collector_number": "30",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/31_Rouser Elder.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/30_Rouser Elder.png"
 			}
 		},
 		{
@@ -1741,13 +1741,13 @@
 			}
 		},
 		{
-			"name": "Rest in Peace",
+			"name": "Ruminations Over Rubble",
 			"rarity": "rare",
 			"mana_cost": "{1}{W}",
 			"type": "Enchantment",
-			"collector_number": "27",
+			"collector_number": "31",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/27_Rest in Peace.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/31_Ruminations Over Rubble.png"
 			}
 		},
 		{
@@ -2815,7 +2815,7 @@
 	2 General of the Guards
 	2 Iron Empire Brigade
 	2 Vow of Justice
-	2 Rest in Peace
+	2 Ruminations Over Rubble
 	2 Cunning Trader
 	2 Supercell Channeler
 	2 Mistress of Misplacement
@@ -3337,7 +3337,7 @@
 	2 General of the Guards
 	2 Iron Empire Brigade
 	2 Vow of Justice
-	2 Rest in Peace
+	2 Ruminations Over Rubble
 	2 Cunning Trader
 	2 Supercell Channeler
 	2 Mistress of Misplacement
@@ -3595,7 +3595,7 @@
 	7 General of the Guards
 	7 Iron Empire Brigade
 	7 Vow of Justice
-	7 Rest in Peace
+	7 Ruminations Over Rubble
 	7 Cunning Trader
 	7 Supercell Channeler
 	7 Mistress of Misplacement

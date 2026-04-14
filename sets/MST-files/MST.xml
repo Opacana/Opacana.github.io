@@ -5,7 +5,7 @@
 			<name>MST</name>
 			<longname>Morasca: Search for the Moonstones</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-04-08</releasedate>
+			<releasedate>2026-04-13</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -63,7 +63,7 @@
 		<card>
 			<name>Voracious Elasmodracid</name>
 			<text>As long as defending player controls an island, this creature can&apos;t be blocked by fewer than three creatures.
-{U}, Discard this card: You get a Moonstone counter.</text>
+{U}, Discard this card from your hand: You get two Moonstone counters.</text>
 			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/80_Voracious Elasmodracid.png" num="80">MST</set>
 			<prop>
 				<layout>normal</layout>
@@ -672,7 +672,7 @@ Enchanted creature gets +2/+2, has first strike, and is a Knight in addition to 
 			<text>This artifact enters tapped.
 Whenever this artifact becomes tapped, you gain 1 life.
 {T}: Add {W}.</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/29_Ring of Assurance.png" num="29">MST</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/28_Ring of Assurance.png" num="28">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -688,6 +688,7 @@ Whenever this artifact becomes tapped, you gain 1 life.
 		<card>
 			<name>Xolotl Raider</name>
 			<text>Ward {1}
+When this creature enters, each player gets a Moonstone counter.
 Whenever this creature deals combat damage to an opponent, you may pay {1}{B}. If you do, that player discards a card.</text>
 			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/81_Xolotl Raider.png" num="81">MST</set>
 			<prop>
@@ -758,7 +759,8 @@ This creature gets +2/+0 as long as you have two or more Moonstone counters.</te
 		</card>
 		<card>
 			<name>Beachside Patrol</name>
-			<text>The first time each turn an opponent casts a spell, this creature gets +1/+1 until end of turn.</text>
+			<text>When this creature enters, you get a Moonstone counter.
+The first time each turn an opponent casts a spell, this creature gets +1/+1 until end of turn.</text>
 			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/45_Beachside Patrol.png" num="45">MST</set>
 			<prop>
 				<layout>normal</layout>
@@ -1785,7 +1787,7 @@ This creature gets +2/+2 as long as there are two or more land cards in your gra
 		<card>
 			<name>School of Seaquids</name>
 			<text>This creature enters with three +1/+1 counters on it.
-{1}{U}: For each kind of counter on target permanent or player, give that permanent or player another counter of that kind. Activate only once each turn, and only as a sorcery.</text>
+{U}: For each kind of counter on target permanent or player, give that permanent or player another counter of that kind. Activate only once each turn, and only as a sorcery.</text>
 			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/189_School of Seaquids.png" num="189">MST</set>
 			<prop>
 				<layout>normal</layout>
@@ -1944,8 +1946,8 @@ Scry 1.</text>
 		<card>
 			<name>Limb Enhancement</name>
 			<text>Enchant creature
-When this Aura enters, you get a Moonstone counter.
-Enchanted creature gets +2/+3.</text>
+When this Aura enters, you get two Moonstone counters.
+Enchanted creature gets +2/+2.</text>
 			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/183_Limb Enhancement.png" num="183">MST</set>
 			<prop>
 				<layout>normal</layout>
@@ -1999,7 +2001,7 @@ When this artifact enters, put a +1/+1 counter on target creature you control.
 			<text>This creature enters with a +1/+1 counter on it as long as you control another militant. (Armies, Heroes, Knights, Soldiers and Warriors are militants.)
 First strike
 {W}: Untap this creature. It gains reach until your next turn. Activate only once each turn and only as a sorcery.</text>
-			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/30_Rooftop Pouncer.png" num="30">MST</set>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/29_Rooftop Pouncer.png" num="29">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2142,7 +2144,7 @@ Whenever this creature attacks, if defending player has seven or more cards in t
 			<name>Rewoven Fates</name>
 			<text>As an additional cost to cast this spell, sacrifice a creature or a nontoken, noncreature permanent.
 Return target creature or planeswalker card from your graveyard to the battlefield.</text>
-			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/28_Rewoven Fates.png" num="28">MST</set>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/27_Rewoven Fates.png" num="27">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2323,7 +2325,8 @@ Enchanted creature gets +1/+1 and has flying, vigilance, and ward {2}.</text>
 		</card>
 		<card>
 			<name>Empowered Unraveling</name>
-			<text>Counter target spell unless its controller pays {1} for each Moonstone counter you have.</text>
+			<text>You get a Moonstone counter.
+Counter target spell unless its controller pays {1} for every Moonstone counter you have more than them.</text>
 			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/MST-files/img/52_Empowered Unraveling.png" num="52">MST</set>
 			<prop>
 				<layout>normal</layout>
@@ -2993,7 +2996,7 @@ Lifelink</text>
 			<text>Militant creatures you control get +1/+0. (Armies, Heroes, Knights, Soldiers and Warriors are militants.)
 Whenever this creature attacks, up to two target Rats become a Hero in addition to their other creature types. (This effect lasts indefinitely.)
 At the beginning of your end step, create a 1/1 white Rat Citizen creature token.</text>
-			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/31_Rouser Elder.png" num="31">MST</set>
+			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/30_Rouser Elder.png" num="30">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3081,10 +3084,11 @@ Creatures you control with flying get +1/+1 and gain first strike and lifelink u
 			<tablerow>3</tablerow>
 		</card>
 		<card>
-			<name>Rest in Peace</name>
-			<text>When this enchantment enters, exile all graveyards.
-If a card or token would be put into a graveyard from anywhere, exile it instead.</text>
-			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/27_Rest in Peace.png" num="27">MST</set>
+			<name>Ruminations Over Rubble</name>
+			<text>At the beginning of your end step, if you control a tapped creature, put a charge counter on this enchantment.
+{1}{W}, Sacrifice this enchantment: You draw X cards, where X is the number of charge counters on this enchantment.
+Sacrifice this enchantment: Exile all graveyards.</text>
+			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/31_Ruminations Over Rubble.png" num="31">MST</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3961,7 +3965,7 @@ Crew 2</text>
 		</card>
 		<card>
 			<name>Moonlaced Potion</name>
-			<text>When this artifact enters, you gain a Moonstone counter.
+			<text>When this artifact enters, you get two Moonstone counters.
 {1}, {T}, Sacrifice this artifact: Draw a card, then add one mana of any color.</text>
 			<set rarity="common" picurl="https://Opacana.github.io/sets/MST-files/img/244_Moonlaced Potion.png" num="244">MST</set>
 			<prop>
@@ -4405,7 +4409,7 @@ Sacrifice this enchantment: Tap target creature and put six stun counters on it.
 		<card>
 			<name>Eela, Tropical Windspeaker</name>
 			<text>Flying
-Whenever Eela deals combat damage to an opponent, you may pay {X}{UR}. When you do, exile target instant or sorcery card from a graveyard.
+Whenever Eela deals combat damage to an opponent, you may pay {X}{UR}. When you do, exile target instant or sorcery card with mana value X from a graveyard.
 At the beginning of your upkeep, choose a card exiled with Eela. You may cast that card this turn without paying its mana cost.</text>
 			<set rarity="rare" picurl="https://Opacana.github.io/sets/MST-files/img/50_Eela, Tropical Windspeaker.png" num="50">MST</set>
 			<prop>

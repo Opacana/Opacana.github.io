@@ -67,7 +67,7 @@
             "number": 80,
             "color_identity": "U",
             "cost": "{4}{U}{U}",
-            "rules_text": "As long as defending player controls an island, this creature can't be blocked by fewer than three creatures.\n{U}, Discard this card: You get a Moonstone counter.",
+            "rules_text": "As long as defending player controls an island, this creature can't be blocked by fewer than three creatures.\n{U}, Discard this card from your hand: You get two Moonstone counters.",
             "flavor_text": "[i]The wild, unascended animals saw the falling Moonstones as either new food or unimportant debris.[/i]",
             "pt": "5/4",
             "special_text": "",
@@ -75,7 +75,7 @@
             "set": "MST",
             "loyalty": "",
             "artist": "Gamepack Studio",
-            "notes": ""
+            "notes": "April 13th, 2026: You now receive 2 Moonstone counters for discarding it rather than just 1."
         },
         {
             "card_name": "Skallayt, Ambitious Warlord",
@@ -694,7 +694,7 @@
             "color": "W",
             "rarity": "common",
             "type": "Artifact",
-            "number": 29,
+            "number": 28,
             "color_identity": "W",
             "cost": "{1}{W}",
             "rules_text": "This artifact enters tapped.\nWhenever this artifact becomes tapped, you gain 1 life.\n{T}: Add {W}.",
@@ -715,15 +715,15 @@
             "number": 81,
             "color_identity": "UB",
             "cost": "{U}",
-            "rules_text": "Ward {1}\nWhenever this creature deals combat damage to an opponent, you may pay {1}{B}. If you do, that player discards a card.",
-            "flavor_text": "[i]Not all xolotls were kind and just. A few were only interested in finding gold and moonstones.[/i]",
+            "rules_text": "Ward {1}\nWhen this creature enters, each player gets a Moonstone counter.\nWhenever this creature deals combat damage to an opponent, you may pay {1}{B}. If you do, that player discards a card.",
+            "flavor_text": "[i][/i]",
             "pt": "1/1",
             "special_text": "",
             "shape": "normal",
             "set": "MST",
             "loyalty": "",
             "artist": "Piotr Timoszuk",
-            "notes": "April 6th, 2026: Given Ward 1 (taken ward from Kodiloan Sentry, who was given Flash)."
+            "notes": "April 6th, 2026: Given Ward 1 (taken ward from Kodiloan Sentry, who was given Flash).\n\nApril 13th, 2026: Now gives a Moonstone counter to each player on entry."
         },
         {
             "card_name": "Ortugan Elder",
@@ -787,7 +787,7 @@
             "number": 45,
             "color_identity": "U",
             "cost": "{2}{U}",
-            "rules_text": "The first time each turn an opponent casts a spell, this creature gets +1/+1 until end of turn.",
+            "rules_text": "When this creature enters, you get a Moonstone counter.\nThe first time each turn an opponent casts a spell, this creature gets +1/+1 until end of turn.",
             "flavor_text": "[i]Xolotl guards and soldiers were taught law and combat techniques in equal measure.[/i]",
             "pt": "2/2",
             "special_text": "",
@@ -795,7 +795,7 @@
             "set": "MST",
             "loyalty": "",
             "artist": "Nelson Zorzetto",
-            "notes": "April 5th, 2026: Cost reduced to 2U from 3U, and text completely changed to what it is now."
+            "notes": "April 5th, 2026: Cost reduced to 2U from 3U, and text completely changed to what it is now.\n\nApril 9th, 2026: Added an on enter trigger to give you a Moonstone."
         },
         {
             "card_name": "Keensight Sorcerer",
@@ -1831,7 +1831,7 @@
             "number": 189,
             "color_identity": "UG",
             "cost": "{3}{G}{G}",
-            "rules_text": "This creature enters with three +1/+1 counters on it.\n{1}{U}: For each kind of counter on target permanent or player, give that permanent or player another counter of that kind. Activate only once each turn, and only as a sorcery.",
+            "rules_text": "This creature enters with three +1/+1 counters on it.\n{U}: For each kind of counter on target permanent or player, give that permanent or player another counter of that kind. Activate only once each turn, and only as a sorcery.",
             "flavor_text": "[i][/i]",
             "pt": "0/0",
             "special_text": "",
@@ -1839,7 +1839,7 @@
             "set": "MST",
             "loyalty": "",
             "artist": "Herckeim",
-            "notes": ""
+            "notes": "April 13th, 2026: Activation cost lowered from 1U to just U."
         },
         {
             "card_name": "Sociable Inn Owner",
@@ -1993,7 +1993,7 @@
             "number": 183,
             "color_identity": "G",
             "cost": "{1}{G}",
-            "rules_text": "Enchant creature\nWhen this Aura enters, you get a Moonstone counter.\nEnchanted creature gets +2/+3.",
+            "rules_text": "Enchant creature\nWhen this Aura enters, you get two Moonstone counters.\nEnchanted creature gets +2/+2.",
             "flavor_text": "[i]Moonstone mutations weren't always an accident.[/i]",
             "pt": "",
             "special_text": "",
@@ -2001,7 +2001,7 @@
             "set": "MST",
             "loyalty": "",
             "artist": "Deddy Faizal",
-            "notes": ""
+            "notes": "April 9th, 2026: Changed to give you two Moonstone counters instead of just one, and now only gives enchanted creature +2/+2."
         },
         {
             "card_name": "Tangled in Crops",
@@ -2044,7 +2044,7 @@
             "color": "W",
             "rarity": "uncommon",
             "type": "Creature \u2014 Cat Warrior Rogue",
-            "number": 30,
+            "number": 29,
             "color_identity": "W",
             "cost": "{1}{W}",
             "rules_text": "This creature enters with a +1/+1 counter on it as long as you control another militant. [i](Armies, Heroes, Knights, Soldiers and Warriors are militants.)[/i]\nFirst strike\n{W}: Untap this creature. It gains reach until your next turn. Activate only once each turn and only as a sorcery.",
@@ -2188,7 +2188,7 @@
             "color": "W",
             "rarity": "uncommon",
             "type": "Sorcery",
-            "number": 28,
+            "number": 27,
             "color_identity": "W",
             "cost": "{1}{W}{W}",
             "rules_text": "As an additional cost to cast this spell, sacrifice a creature or a nontoken, noncreature permanent.\nReturn target creature or planeswalker card from your graveyard to the battlefield.",
@@ -2371,7 +2371,7 @@
             "number": 52,
             "color_identity": "U",
             "cost": "{U}",
-            "rules_text": "Counter target spell unless its controller pays {1} for each Moonstone counter you have.",
+            "rules_text": "You get a Moonstone counter.\nCounter target spell unless its controller pays {1} for every Moonstone counter you have more than them.",
             "flavor_text": "[i]It often took Moonstone-infused magics to stop Moonstone-infused magics.[/i]",
             "pt": "",
             "special_text": "",
@@ -2379,7 +2379,7 @@
             "set": "MST",
             "loyalty": "",
             "artist": "Kristina \"Lurelin\" Kolomiets",
-            "notes": ""
+            "notes": "April 13th, 2026: Reworked so that it gives you a Moonstone counter, and incentivizes you to get more (since, AT THIS POINT, players still get a Moonstone counter for dealing combat damage to an opponent with more)."
         },
         {
             "card_name": "Runic Restraints",
@@ -3052,7 +3052,7 @@
             "color": "W",
             "rarity": "rare",
             "type": "Creature \u2014 Rat Noble",
-            "number": 31,
+            "number": 30,
             "color_identity": "W",
             "cost": "{2}{W}",
             "rules_text": "Militant creatures you control get +1/+0. [i](Armies, Heroes, Knights, Soldiers and Warriors are militants.)[/i]\nWhenever this creature attacks, up to two target Rats become a Hero in addition to their other creature types. [i](This effect lasts indefinitely.)[/i]\nAt the beginning of your end step, create a 1/1 white Rat Citizen creature token.",
@@ -3138,22 +3138,22 @@
             "notes": "March 1st, 2026: Changed to only be uncounterable if you have two or more Birds, and cost raised from 1W to 2W.\n\nFlaxor text added April 6/7th, 2026."
         },
         {
-            "card_name": "Rest in Peace",
+            "card_name": "Ruminations Over Rubble",
             "color": "W",
             "rarity": "rare",
             "type": "Enchantment",
-            "number": 27,
+            "number": 31,
             "color_identity": "W",
             "cost": "{1}{W}",
-            "rules_text": "When this enchantment enters, exile all graveyards.\nIf a card or token would be put into a graveyard from anywhere, exile it instead.",
-            "flavor_text": "[i]To their surprise, all but a few books within the library's crumbling remains had been drained of text.[/i]",
+            "rules_text": "At the beginning of your end step, if you control a tapped creature, put a charge counter on this enchantment.\n{1}{W}, Sacrifice this enchantment: You draw X cards, where X is the number of charge counters on this enchantment.\nSacrifice this enchantment: Exile all graveyards.",
+            "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "MST",
             "loyalty": "",
             "artist": "BubbleWolf",
-            "notes": ""
+            "notes": "April 8th, 2026: Was formerly a reprint of canon's Rest In Peace.\n\n\nFormer Flavor Text: To their surprise, all but a few books within the library's crumbling remains had been drained of text."
         },
         {
             "card_name": "Cunning Trader",
@@ -4027,7 +4027,7 @@
             "number": 244,
             "color_identity": "C",
             "cost": "{1}",
-            "rules_text": "When this artifact enters, you gain a Moonstone counter.\n{1}, {T}, Sacrifice this artifact: Draw a card, then add one mana of any color.",
+            "rules_text": "When this artifact enters, you get two Moonstone counters.\n{1}, {T}, Sacrifice this artifact: Draw a card, then add one mana of any color.",
             "flavor_text": "[i]It was easier to draw power from a Moonstone when it was broken into pieces that could be worn or ingested, than it was when a full stone was merely held in a claw.[/i]",
             "pt": "",
             "special_text": "",
@@ -4035,7 +4035,7 @@
             "set": "MST",
             "loyalty": "",
             "artist": "Carina W. 'Windswirl'",
-            "notes": ""
+            "notes": "April 13th, 2026: Changed to give 2 Moonstone counters instead of just 1."
         },
         {
             "card_name": "Masterpiece Shield",
@@ -4412,8 +4412,8 @@
             "shape": "normal",
             "set": "MST",
             "loyalty": "",
-            "artist": "Alex Susani",
-            "notes": "Will need to find new art for this at some point, as this art is already used in Rev on 'Staff of Balance'."
+            "artist": "Mark Poole",
+            "notes": "Given new art on April 9th, 2026"
         },
         {
             "card_name": "Repulsive Soulblade",
@@ -4513,7 +4513,7 @@
             "number": 50,
             "color_identity": "UR",
             "cost": "{U}",
-            "rules_text": "Flying\nWhenever Eela deals combat damage to an opponent, you may pay {X}{UR}. When you do, exile target instant or sorcery card from a graveyard.\nAt the beginning of your upkeep, choose a card exiled with Eela. You may cast that card this turn without paying its mana cost.",
+            "rules_text": "Flying\nWhenever Eela deals combat damage to an opponent, you may pay {X}{UR}. When you do, exile target instant or sorcery card with mana value X from a graveyard.\nAt the beginning of your upkeep, choose a card exiled with Eela. You may cast that card this turn without paying its mana cost.",
             "flavor_text": "[i][/i]",
             "pt": "1/1",
             "special_text": "",

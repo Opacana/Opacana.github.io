@@ -375,8 +375,8 @@
         "position": ""
     },
     {
-        "card_name": "Rest in Peace",
-        "number": 27,
+        "card_name": "Rouser Elder",
+        "number": 30,
         "shape": "normal",
         "set": "MST",
         "rotated": false,
@@ -415,7 +415,7 @@
         "position": ""
     },
     {
-        "card_name": "Rouser Elder",
+        "card_name": "Ruminations Over Rubble",
         "number": 31,
         "shape": "normal",
         "set": "MST",
@@ -776,7 +776,7 @@
     },
     {
         "card_name": "Rewoven Fates",
-        "number": 28,
+        "number": 27,
         "shape": "normal",
         "set": "MST",
         "rotated": false,
@@ -816,7 +816,7 @@
     },
     {
         "card_name": "Rooftop Pouncer",
-        "number": 30,
+        "number": 29,
         "shape": "normal",
         "set": "MST",
         "rotated": false,
@@ -1496,7 +1496,7 @@
     },
     {
         "card_name": "Ring of Assurance",
-        "number": 29,
+        "number": 28,
         "shape": "normal",
         "set": "MST",
         "rotated": false,
