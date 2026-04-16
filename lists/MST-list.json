@@ -104,7 +104,7 @@
     },
     {
         "card_name": "Cosmic Secrets",
-        "number": 47,
+        "number": 48,
         "shape": "normal",
         "set": "MST",
         "rotated": false,
@@ -160,7 +160,7 @@
     },
     {
         "card_name": "Tawikyan, Avaricious Queen",
-        "number": 162,
+        "number": 163,
         "shape": "normal",
         "set": "MST",
         "rotated": false,
@@ -184,7 +184,7 @@
     },
     {
         "card_name": "Cunning Trader",
-        "number": 48,
+        "number": 49,
         "shape": "normal",
         "set": "MST",
         "rotated": false,
@@ -224,7 +224,7 @@
     },
     {
         "card_name": "Dance of the New Cycle",
-        "number": 49,
+        "number": 50,
         "shape": "normal",
         "set": "MST",
         "rotated": false,
@@ -264,7 +264,7 @@
     },
     {
         "card_name": "Eela, Tropical Windspeaker",
-        "number": 50,
+        "number": 52,
         "shape": "normal",
         "set": "MST",
         "rotated": false,
@@ -304,7 +304,7 @@
     },
     {
         "card_name": "Mistress of Misplacement",
-        "number": 58,
+        "number": 59,
         "shape": "normal",
         "set": "MST",
         "rotated": false,
@@ -480,7 +480,7 @@
     },
     {
         "card_name": "Visionary Metalsmith",
-        "number": 163,
+        "number": 164,
         "shape": "normal",
         "set": "MST",
         "rotated": false,
@@ -496,7 +496,7 @@
     },
     {
         "card_name": "Bracer of Light",
-        "number": 3,
+        "number": 4,
         "shape": "normal",
         "set": "MST",
         "rotated": false,
@@ -504,7 +504,7 @@
     },
     {
         "card_name": "Empowered Unraveling",
-        "number": 52,
+        "number": 54,
         "shape": "normal",
         "set": "MST",
         "rotated": false,
@@ -544,7 +544,7 @@
     },
     {
         "card_name": "Hydrokinetic Mastery",
-        "number": 54,
+        "number": 56,
         "shape": "normal",
         "set": "MST",
         "rotated": false,
@@ -584,7 +584,7 @@
     },
     {
         "card_name": "Isthmus Guardian",
-        "number": 55,
+        "number": 57,
         "shape": "normal",
         "set": "MST",
         "rotated": false,
@@ -880,7 +880,7 @@
     },
     {
         "card_name": "Shattershot",
-        "number": 155,
+        "number": 156,
         "shape": "normal",
         "set": "MST",
         "rotated": false,
@@ -920,7 +920,7 @@
     },
     {
         "card_name": "Storm the Palace",
-        "number": 159,
+        "number": 160,
         "shape": "normal",
         "set": "MST",
         "rotated": false,
@@ -960,7 +960,7 @@
     },
     {
         "card_name": "Streetwise Adventurer",
-        "number": 161,
+        "number": 162,
         "shape": "normal",
         "set": "MST",
         "rotated": false,
@@ -1015,7 +1015,7 @@
         "position": ""
     },
     {
-        "card_name": "Blessing of Kaniya",
+        "card_name": "Aerieguard Shock Sergeant",
         "number": 1,
         "shape": "normal",
         "set": "MST",
@@ -1055,7 +1055,7 @@
         "position": ""
     },
     {
-        "card_name": "Blue Sky Elite",
+        "card_name": "Blessing of Kaniya",
         "number": 2,
         "shape": "normal",
         "set": "MST",
@@ -1095,8 +1095,8 @@
         "position": ""
     },
     {
-        "card_name": "Cheerful Messenger",
-        "number": 4,
+        "card_name": "Blue Sky Elite",
+        "number": 3,
         "shape": "normal",
         "set": "MST",
         "rotated": false,
@@ -1183,8 +1183,8 @@
         "position": ""
     },
     {
-        "card_name": "Elder Cirein",
-        "number": 51,
+        "card_name": "Clear Skies, Clear Minds",
+        "number": 47,
         "shape": "normal",
         "set": "MST",
         "rotated": false,
@@ -1223,8 +1223,8 @@
         "position": ""
     },
     {
-        "card_name": "Hullcutter Duo",
-        "number": 53,
+        "card_name": "Distracting Lute",
+        "number": 51,
         "shape": "normal",
         "set": "MST",
         "rotated": false,
@@ -1263,8 +1263,8 @@
         "position": ""
     },
     {
-        "card_name": "Keensight Sorcerer",
-        "number": 56,
+        "card_name": "Elder Cirein",
+        "number": 53,
         "shape": "normal",
         "set": "MST",
         "rotated": false,
@@ -1303,8 +1303,8 @@
         "position": ""
     },
     {
-        "card_name": "Kodiloan Sentry",
-        "number": 57,
+        "card_name": "Hullcutter Duo",
+        "number": 55,
         "shape": "normal",
         "set": "MST",
         "rotated": false,
@@ -1343,8 +1343,8 @@
         "position": ""
     },
     {
-        "card_name": "Moonhalo Restraint",
-        "number": 59,
+        "card_name": "Keensight Sorcerer",
+        "number": 58,
         "shape": "normal",
         "set": "MST",
         "rotated": false,
@@ -1383,7 +1383,7 @@
         "position": ""
     },
     {
-        "card_name": "Ortugan Elder",
+        "card_name": "Moonhalo Restraint",
         "number": 60,
         "shape": "normal",
         "set": "MST",
@@ -1559,8 +1559,8 @@
         "position": ""
     },
     {
-        "card_name": "Smash Open",
-        "number": 156,
+        "card_name": "Sewn Hide Gear Pack",
+        "number": 155,
         "shape": "normal",
         "set": "MST",
         "rotated": false,
@@ -1599,7 +1599,7 @@
         "position": ""
     },
     {
-        "card_name": "Sound the Dragonhorn",
+        "card_name": "Smash Open",
         "number": 157,
         "shape": "normal",
         "set": "MST",
@@ -1639,7 +1639,7 @@
         "position": ""
     },
     {
-        "card_name": "Sprite Bolt",
+        "card_name": "Sound the Dragonhorn",
         "number": 158,
         "shape": "normal",
         "set": "MST",
@@ -1679,8 +1679,8 @@
         "position": ""
     },
     {
-        "card_name": "Storm's Strike",
-        "number": 160,
+        "card_name": "Sprite Bolt",
+        "number": 159,
         "shape": "normal",
         "set": "MST",
         "rotated": false,
@@ -1719,8 +1719,8 @@
         "position": ""
     },
     {
-        "card_name": "Worldly Sellsword",
-        "number": 164,
+        "card_name": "Storm's Strike",
+        "number": 161,
         "shape": "normal",
         "set": "MST",
         "rotated": false,

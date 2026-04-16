@@ -204,7 +204,7 @@
 			"name": "Follower of the Updraft Path",
 			"rarity": "common",
 			"mana_cost": "{2}{W}{W}",
-			"type": "Creature — Bird Monk",
+			"type": "Creature — Bird Warrior Monk",
 			"collector_number": "12",
 			"image_uris": {
 				"en": "https://Opacana.github.io/sets/MST-files/img/12_Follower of the Updraft Path.png"
@@ -271,13 +271,13 @@
 			}
 		},
 		{
-			"name": "Cheerful Messenger",
+			"name": "Aerieguard Shock Sergeant",
 			"rarity": "common",
-			"mana_cost": "{2}{W}",
-			"type": "Creature — Bird Advisor",
-			"collector_number": "4",
+			"mana_cost": "{4}{W}{W}",
+			"type": "Creature — Bird Soldier",
+			"collector_number": "1",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/4_Cheerful Messenger.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/1_Aerieguard Shock Sergeant.png"
 			}
 		},
 		{
@@ -305,9 +305,9 @@
 			"rarity": "common",
 			"mana_cost": "{3}{W}{W}",
 			"type": "Creature — Cat Knight",
-			"collector_number": "2",
+			"collector_number": "3",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/2_Blue Sky Elite.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/3_Blue Sky Elite.png"
 			}
 		},
 		{
@@ -335,9 +335,9 @@
 			"rarity": "common",
 			"mana_cost": "{W}",
 			"type": "Instant",
-			"collector_number": "1",
+			"collector_number": "2",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/1_Blessing of Kaniya.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/2_Blessing of Kaniya.png"
 			}
 		},
 		{
@@ -373,7 +373,7 @@
 		{
 			"name": "Serene Crystallization",
 			"rarity": "common",
-			"mana_cost": "{2}{W}",
+			"mana_cost": "{3}{W}",
 			"type": "Enchantment",
 			"collector_number": "32",
 			"image_uris": {
@@ -401,13 +401,13 @@
 			}
 		},
 		{
-			"name": "Ortugan Elder",
+			"name": "Distracting Lute",
 			"rarity": "common",
-			"mana_cost": "{1}{U}",
-			"type": "Creature — Turtle Elder Monk",
-			"collector_number": "60",
+			"mana_cost": "{2}{U}",
+			"type": "Artifact — Equipment",
+			"collector_number": "51",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/60_Ortugan Elder.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/51_Distracting Lute.png"
 			}
 		},
 		{
@@ -421,13 +421,13 @@
 			}
 		},
 		{
-			"name": "Kodiloan Sentry",
+			"name": "Clear Skies, Clear Minds",
 			"rarity": "common",
-			"mana_cost": "{2}{U}",
-			"type": "Creature — Crocodile Knight",
-			"collector_number": "57",
+			"mana_cost": "{3}{U}{U}",
+			"type": "Instant",
+			"collector_number": "47",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/57_Kodiloan Sentry.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/47_Clear Skies, Clear Minds.png"
 			}
 		},
 		{
@@ -445,9 +445,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{U}",
 			"type": "Creature — Dog Wizard",
-			"collector_number": "56",
+			"collector_number": "58",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/56_Keensight Sorcerer.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/58_Keensight Sorcerer.png"
 			}
 		},
 		{
@@ -455,9 +455,9 @@
 			"rarity": "common",
 			"mana_cost": "{3}{U}",
 			"type": "Creature — Shark Pirate",
-			"collector_number": "53",
+			"collector_number": "55",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/53_Hullcutter Duo.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/55_Hullcutter Duo.png"
 			}
 		},
 		{
@@ -495,9 +495,9 @@
 			"rarity": "common",
 			"mana_cost": "{4}{U}{U}",
 			"type": "Creature — Fish Beast",
-			"collector_number": "51",
+			"collector_number": "53",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/51_Elder Cirein.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/53_Elder Cirein.png"
 			}
 		},
 		{
@@ -525,9 +525,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{U}",
 			"type": "Enchantment — Aura",
-			"collector_number": "59",
+			"collector_number": "60",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/59_Moonhalo Restraint.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/60_Moonhalo Restraint.png"
 			}
 		},
 		{
@@ -663,7 +663,7 @@
 		{
 			"name": "Snatcher Drakeling",
 			"rarity": "common",
-			"mana_cost": "{2}{B}",
+			"mana_cost": "{3}{B}",
 			"type": "Creature — Drake",
 			"collector_number": "119",
 			"image_uris": {
@@ -761,13 +761,13 @@
 			}
 		},
 		{
-			"name": "Worldly Sellsword",
+			"name": "Sewn Hide Gear Pack",
 			"rarity": "common",
 			"mana_cost": "{R}",
-			"type": "Creature — Dog Mercenary",
-			"collector_number": "164",
+			"type": "Artifact — Equipment",
+			"collector_number": "155",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/164_Worldly Sellsword.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/155_Sewn Hide Gear Pack.png"
 			}
 		},
 		{
@@ -865,9 +865,9 @@
 			"rarity": "common",
 			"mana_cost": "{R}",
 			"type": "Instant",
-			"collector_number": "158",
+			"collector_number": "159",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/158_Sprite Bolt.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/159_Sprite Bolt.png"
 			}
 		},
 		{
@@ -875,9 +875,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{R}",
 			"type": "Sorcery",
-			"collector_number": "157",
+			"collector_number": "158",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/157_Sound the Dragonhorn.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/158_Sound the Dragonhorn.png"
 			}
 		},
 		{
@@ -885,9 +885,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{R}",
 			"type": "Sorcery",
-			"collector_number": "156",
+			"collector_number": "157",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/156_Smash Open.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/157_Smash Open.png"
 			}
 		},
 		{
@@ -905,9 +905,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{R}",
 			"type": "Instant",
-			"collector_number": "160",
+			"collector_number": "161",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/160_Storm's Strike.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/161_Storm's Strike.png"
 			}
 		},
 		{
@@ -1225,9 +1225,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{W}",
 			"type": "Enchantment — Aura",
-			"collector_number": "3",
+			"collector_number": "4",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/3_Bracer of Light.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/4_Bracer of Light.png"
 			}
 		},
 		{
@@ -1255,9 +1255,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{6}{U}{U}",
 			"type": "Creature — Salamander Giant",
-			"collector_number": "55",
+			"collector_number": "57",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/55_Isthmus Guardian.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/57_Isthmus Guardian.png"
 			}
 		},
 		{
@@ -1305,9 +1305,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{U}{U}",
 			"type": "Enchantment — Aura",
-			"collector_number": "54",
+			"collector_number": "56",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/54_Hydrokinetic Mastery.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/56_Hydrokinetic Mastery.png"
 			}
 		},
 		{
@@ -1315,9 +1315,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{U}",
 			"type": "Instant",
-			"collector_number": "52",
+			"collector_number": "54",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/52_Empowered Unraveling.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/54_Empowered Unraveling.png"
 			}
 		},
 		{
@@ -1515,9 +1515,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{R}",
 			"type": "Creature — Beast Mercenary",
-			"collector_number": "161",
+			"collector_number": "162",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/161_Streetwise Adventurer.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/162_Streetwise Adventurer.png"
 			}
 		},
 		{
@@ -1535,9 +1535,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{R}{R}",
 			"type": "Sorcery",
-			"collector_number": "159",
+			"collector_number": "160",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/159_Storm the Palace.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/160_Storm the Palace.png"
 			}
 		},
 		{
@@ -1545,9 +1545,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{R}{R}",
 			"type": "Sorcery",
-			"collector_number": "155",
+			"collector_number": "156",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/155_Shattershot.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/156_Shattershot.png"
 			}
 		},
 		{
@@ -1755,9 +1755,9 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{U}",
 			"type": "Creature — Lizard Artificer Advisor",
-			"collector_number": "48",
+			"collector_number": "49",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/48_Cunning Trader.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/49_Cunning Trader.png"
 			}
 		},
 		{
@@ -1775,9 +1775,9 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{U}",
 			"type": "Creature — Cat Rogue Assassin",
-			"collector_number": "58",
+			"collector_number": "59",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/58_Mistress of Misplacement.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/59_Mistress of Misplacement.png"
 			}
 		},
 		{
@@ -1815,9 +1815,9 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{U}{U}",
 			"type": "Sorcery",
-			"collector_number": "49",
+			"collector_number": "50",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/49_Dance of the New Cycle.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/50_Dance of the New Cycle.png"
 			}
 		},
 		{
@@ -1915,9 +1915,9 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{R}",
 			"type": "Legendary Creature — Raccoon Artificer",
-			"collector_number": "163",
+			"collector_number": "164",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/163_Visionary Metalsmith.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/164_Visionary Metalsmith.png"
 			}
 		},
 		{
@@ -2055,9 +2055,9 @@
 			"rarity": "mythic",
 			"mana_cost": "{2}{U}",
 			"type": "Sorcery",
-			"collector_number": "47",
+			"collector_number": "48",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/47_Cosmic Secrets.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/48_Cosmic Secrets.png"
 			}
 		},
 		{
@@ -2095,9 +2095,9 @@
 			"rarity": "mythic",
 			"mana_cost": "{4}{R}{R}",
 			"type": "Legendary Creature — Dragon Demigod",
-			"collector_number": "162",
+			"collector_number": "163",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/162_Tawikyan, Avaricious Queen.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/163_Tawikyan, Avaricious Queen.png"
 			}
 		},
 		{
@@ -2505,9 +2505,9 @@
 			"rarity": "rare",
 			"mana_cost": "{U}",
 			"type": "Legendary Creature — Bird",
-			"collector_number": "50",
+			"collector_number": "52",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/MST-files/img/50_Eela, Tropical Windspeaker.png"
+				"en": "https://Opacana.github.io/sets/MST-files/img/52_Eela, Tropical Windspeaker.png"
 			}
 		},
 		{
@@ -2970,7 +2970,7 @@
 	8 Confident Huntress
 	8 Youngling Protector
 	8 Stubborn Hornblower
-	8 Cheerful Messenger
+	8 Aerieguard Shock Sergeant
 	8 Thraupian Harrier
 	8 Marks of Guilt
 	8 Blue Sky Elite
@@ -2983,9 +2983,9 @@
 	8 Serene Crystallization
 	8 Ring of Assurance
 	8 Xolotl Raider
-	8 Ortugan Elder
+	8 Distracting Lute
 	8 Uncompromising Artist
-	8 Kodiloan Sentry
+	8 Clear Skies, Clear Minds
 	8 Beachside Patrol
 	8 Keensight Sorcerer
 	8 Hullcutter Duo
@@ -3019,7 +3019,7 @@
 	8 Carnikinesis
 	8 Unnerving Onyx
 	8 Play Dead
-	8 Worldly Sellsword
+	8 Sewn Hide Gear Pack
 	8 Prepared Fortress Guard
 	8 Lafahdian Minister of the Arcane
 	8 Mountain Miner
@@ -3071,7 +3071,7 @@
 	8 Confident Huntress
 	8 Youngling Protector
 	8 Stubborn Hornblower
-	8 Cheerful Messenger
+	8 Aerieguard Shock Sergeant
 	8 Thraupian Harrier
 	8 Marks of Guilt
 	8 Blue Sky Elite
@@ -3084,9 +3084,9 @@
 	8 Serene Crystallization
 	8 Ring of Assurance
 	8 Xolotl Raider
-	8 Ortugan Elder
+	8 Distracting Lute
 	8 Uncompromising Artist
-	8 Kodiloan Sentry
+	8 Clear Skies, Clear Minds
 	8 Beachside Patrol
 	8 Keensight Sorcerer
 	8 Hullcutter Duo
@@ -3120,7 +3120,7 @@
 	8 Carnikinesis
 	8 Unnerving Onyx
 	8 Play Dead
-	8 Worldly Sellsword
+	8 Sewn Hide Gear Pack
 	8 Prepared Fortress Guard
 	8 Lafahdian Minister of the Arcane
 	8 Mountain Miner
@@ -3190,7 +3190,7 @@
 	12 Confident Huntress
 	12 Youngling Protector
 	12 Stubborn Hornblower
-	12 Cheerful Messenger
+	12 Aerieguard Shock Sergeant
 	12 Thraupian Harrier
 	12 Marks of Guilt
 	12 Blue Sky Elite
@@ -3203,9 +3203,9 @@
 	12 Serene Crystallization
 	12 Ring of Assurance
 	12 Xolotl Raider
-	12 Ortugan Elder
+	12 Distracting Lute
 	12 Uncompromising Artist
-	12 Kodiloan Sentry
+	12 Clear Skies, Clear Minds
 	12 Beachside Patrol
 	12 Keensight Sorcerer
 	12 Hullcutter Duo
@@ -3239,7 +3239,7 @@
 	12 Carnikinesis
 	12 Unnerving Onyx
 	12 Play Dead
-	12 Worldly Sellsword
+	12 Sewn Hide Gear Pack
 	12 Prepared Fortress Guard
 	12 Lafahdian Minister of the Arcane
 	12 Mountain Miner
@@ -3448,7 +3448,7 @@
 	6 Confident Huntress
 	6 Youngling Protector
 	6 Stubborn Hornblower
-	6 Cheerful Messenger
+	6 Aerieguard Shock Sergeant
 	6 Thraupian Harrier
 	6 Marks of Guilt
 	6 Blue Sky Elite
@@ -3461,9 +3461,9 @@
 	6 Serene Crystallization
 	6 Ring of Assurance
 	6 Xolotl Raider
-	6 Ortugan Elder
+	6 Distracting Lute
 	6 Uncompromising Artist
-	6 Kodiloan Sentry
+	6 Clear Skies, Clear Minds
 	6 Beachside Patrol
 	6 Keensight Sorcerer
 	6 Hullcutter Duo
@@ -3497,7 +3497,7 @@
 	6 Carnikinesis
 	6 Unnerving Onyx
 	6 Play Dead
-	6 Worldly Sellsword
+	6 Sewn Hide Gear Pack
 	6 Prepared Fortress Guard
 	6 Lafahdian Minister of the Arcane
 	6 Mountain Miner

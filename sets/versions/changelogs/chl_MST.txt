@@ -1,4 +1,49 @@
-﻿VERSION 18 CHANGELOG
+﻿VERSION 19 CHANGELOG
+====================
+
+Aerieguard Shock Sergeant added.
+Distracting Lute added.
+Clear Skies, Clear Minds added.
+Sewn Hide Gear Pack added.
+
+Cheerful Messenger removed.
+Ortugan Elder removed.
+Kodiloan Sentry removed.
+Worldly Sellsword removed.
+
+Follower of the Updraft Path
+type: Creature — Bird Monk => Creature — Bird Warrior Monk
+
+Confident Huntress
+rules_text: When this creature dies, put a +1/+1 counter on target Cat you control. => When this creature dies, put a +1/+1 counter on target Cat or militant you control. [i](Armies, Heroes, Knights, Soldiers and Warriors are militants.)[/i]
+
+Stubborn Hornblower
+rules_text: When this creature dies, create two 1/1 white Goat Peasant creature tokens. => When this creature dies, create a 1/1 white Goat Peasant creature token. If this creature was tapped, create two such tokens instead.
+
+Thraupian Harrier
+rules_text: Flying
+{W}, {T}: Tap target creature. This ability costs {1} more to activate if it targets a militant. [i](Armies, Heroes, Knights, Soldiers and Warriors are militants.)[/i] => Flying
+{1}{W}, {T}: Tap target creature. This ability costs {1} less to activate as long as you control another militant. [i](Armies, Heroes, Knights, Soldiers and Warriors are militants.)[/i]
+
+Blessing of Kaniya
+rules_text: Target creature gets +2/+2 until end of turn. If it's blocking, it gets +3/+3 until end of turn instead. => Target creature gets +2/+2 until end of turn. If you control both a militant and a nonmilitant creature, it gets +3/+3 until end of turn instead. [i](Armies, Heroes, Knights, Soldiers and Warriors are militants.)[/i]
+
+Serene Crystallization
+cost: {2}{W} => {3}{W}
+rules_text: When this enchantment enters, exile target nonland permanent an opponent controls until this enchantment leaves the battlefield. => When this enchantment enters, exile target creature and target nonland, noncreature permanent controlled by opponents until this enchantment leaves the battlefield.
+
+Beachside Patrol
+rules_text: When this creature enters, you get a Moonstone counter.
+The first time each turn an opponent casts a spell, this creature gets +1/+1 until end of turn. => Flash
+When this creature enters, you get a Moonstone counter.
+The first time each turn an opponent casts a spell, this creature gets +1/+1 until end of turn.
+
+Snatcher Drakeling
+cost: {2}{B} => {3}{B}
+pt: 1/1 => 2/2
+
+
+VERSION 18 CHANGELOG
 ====================
 
 Ruminations Over Rubble added.
