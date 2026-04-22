@@ -1,6 +1,11 @@
 ﻿{
     "sets": [
         {
+            "set_code": "ASM",
+            "set_name": "Amonkhet: Schism",
+            "formats": "MSEM"
+        },
+        {
             "set_code": "AVA",
             "set_name": "Avallus: Rediscovery",
             "formats": "Revolution"

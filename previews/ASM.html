@@ -1,0 +1,885 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="icon" type="image/png" href="../sets/ASM-files/icon.png"/>
+	<link rel="stylesheet" href="../resources/header.css">
+	<title>ASM visual preview</title>
+	<script title="root">
+		const rootPath = "..";
+	</script>
+	<style>
+		@font-face {
+			font-family: Beleren;
+			src: url('../resources/beleren.ttf');
+		}
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			overscroll-behavior: none;
+			background-size: cover;
+			background-attachment: fixed;
+		}
+		.main-content {
+			position: relative;
+			width: 100%;
+			float: left;
+			z-index: 2;
+			justify-items: center;
+		}
+		.sidebar {
+			position: sticky;
+			top: 0;
+			display: none;
+			text-align: center;
+			padding-right: 3%;
+			z-index: 1;
+			justify-items: center;
+		}
+		.sidebar-container {
+			width: 80%;
+			max-width: 375px;
+			position: relative;
+		}
+		.sidebar-h-img {
+			opacity: 0;
+			transform: rotateY(0deg) rotate(90deg);
+			position: absolute;
+			left: 10%;
+			top: 10%;
+			width: 85%;
+			border-radius: 3.733% / 2.677%;
+		}
+		.sidebar-img {
+			vertical-align: middle;
+			width: 100%;
+			border-radius: 3.733% / 2.677%;
+		}
+		.close-btn {
+			background: url('../img/close.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 10%;
+			height: 10%;
+			border: none;
+			cursor: pointer;
+			position: absolute;
+			right: 4%;
+		}
+		.close-btn:hover {
+			background: url('../img/close-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.grid-container {
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+			gap: 2px;
+			padding-left: 5%;
+			padding-right: 5%;
+			padding-bottom: 1%;
+			justify-items: center;
+			max-width: 1200px;
+		}
+		.grid-container img {
+			width: 100%;
+			height: auto;
+			display: block;
+			visibility: hidden;
+			cursor: pointer;
+			border-radius: 3.733% / 2.677%;
+		}
+		.banner {
+			width: 100%;
+			height: auto;
+			padding-top: 80px;
+			padding-bottom: 50px;
+		}
+		.logo {
+			display: block;
+			margin: auto;
+			max-width: 30%;
+			max-height: 320px;
+		}
+		.container {
+			position: relative;
+			width: 100%;
+		}
+		.container img {
+			width: 100%;
+			height: auto;
+			border-radius: 3.733% / 2.677%;
+		}
+		.flip-btn {
+			background: url('../img/flip.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 15%;
+			height: 11%;
+			cursor: pointer;
+			border: none;
+			position: absolute;
+			left: 50%;
+			top: 48%;
+			transform: translate(-50%, -50%);
+			opacity: 0.5;
+		}
+		.flip-btn:hover {
+			background: url('../img/flip-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.dropdown {
+			background: rgba(23, 23, 23, 0.8);
+			border-radius: 8px;
+			position: absolute;
+			left: 5%;
+			width: fit-content;
+			max-width: 90%;
+			margin: 20px 0;
+			padding: 5px 0;
+			display: grid;
+			grid-template-columns: 1fr;
+			z-index: 3;
+		}
+		.dropdown .set-bar {
+			font-family: Beleren;
+			font-size: 20px;
+			text-decoration: none;
+			color: #e3e3e3;
+			display: flex;
+			gap: 10px;
+			align-items: center;
+			padding: 0 12px;
+			margin: 5px;
+		}
+		.dropdown .set-bar:hover {
+			background: rgba(163, 163, 163, 0.5);
+			color: #f3f3f3;
+		}
+		.dropdown .set-bar img {
+			width: 32px;
+		}
+		.dropdown .inactive {
+			height: 0px;
+			overflow: hidden;
+			margin: 0px 5px;
+		}
+		.preload-hidden {
+			display: none;
+		}
+		.addenda-container {
+			text-align: center;
+			width: fit-content;
+			max-width: 1200px;
+			padding: 0 5%;
+		}
+		/* This is here to enable the stickiness in a Float environment. I don't know why it works but it does */
+		.footer {
+			clear: both;
+		}
+	</style>
+</head>
+<body>
+	<img class="preload-hidden" src="../img/dot.png" />
+	<img class="preload-hidden" src="../sets/ASM-files/logo.png" />
+	<img class="preload-hidden" src="../sets/ASM-files/icon.png" />
+		<img class="preload-hidden" src="../sets/AVA-files/icon.png" />
+		<img class="preload-hidden" src="../sets/MST-files/icon.png" />
+		<img class="preload-hidden" src="../sets/WCD-files/icon.png" />
+		<div class="header">
+		<div class="search-grid">
+			<a onclick="window.location.href = rootPath + '/'"><img class="sg-logo" id="header-banner"></a>
+			<img class="sg-icon" id="header-search" onclick="goToSearch()">
+			<div style="position: relative; width: 100%;">
+				<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
+				<div id="tag-dropdown" style="display: none; position: absolute; top: 100%; left: 0; width: 100%; background: white; border: 1px solid #d5d9d9; z-index: 1000; max-height: 200px; overflow-y: auto; color: black; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"></div>
+			</div>
+			<a onclick="window.location.href = rootPath + '/all-sets'"><img id="header-sets" class="sg-icon">Sets</a>
+			<a onclick="window.location.href = rootPath + '/deckbuilder'"><img id="header-deck" class="sg-icon">Deckbuilder</a>
+			<a onclick="randomCard()"><img id="header-random" class="sg-icon">Random</a>
+		</div>
+	</div>
+	<script>
+		document.addEventListener("DOMContentLoaded", function () {
+			document.getElementById("header-banner").src = rootPath + "/img/banner.png";
+			document.getElementById("header-search").src = rootPath + "/img/search.png";
+			document.getElementById("header-sets").src = rootPath + "/img/sets.png";
+			document.getElementById("header-deck").src = rootPath + "/img/deck.png";
+			document.getElementById("header-random").src = rootPath + "/img/random.png";
+		});
+
+		function goToSearch() {
+			window.location.href = rootPath + "/search";
+		}
+	</script>
+
+	<div class="dropdown" id="dropdown" onmouseenter="rolldown()" onmouseleave="rollup()">
+	
+		<a class="set-bar" href="../previews/ASM"><img src="../sets/ASM-files/icon.png">Amonkhet: Schism</a>
+	
+		<a class="set-bar inactive" href="../previews/AVA"><img src="../sets/AVA-files/icon.png">Avallus: Rediscovery</a>
+	
+		<a class="set-bar inactive" href="../previews/MST"><img src="../sets/MST-files/icon.png">Morasca: Search for the Moonstones</a>
+	
+		<a class="set-bar inactive" href="../previews/WCD"><img src="../sets/WCD-files/icon.png">Wroszy’s Circus of Darkness</a>
+	
+		</div>
+		<div class="banner">
+		<img class="logo" src="../sets/ASM-files/logo.png">
+		</div>
+		<div class="main-content" id="main-content">
+			<div class="grid-container">
+					<div class="container"><img loading="lazy" alt="sets\ASM-files\img\225_UM01 BG-1 First Altar of Wasmawt.png" id="ASM_225_UM01 BG-1 First Altar of Wasmawt" data-flag="@X" onclick="openSidebar('ASM_225_UM01 BG-1 First Altar of Wasmawt',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\226_UM01 BG-2 Hofan Slithermaster.png" id="ASM_226_UM01 BG-2 Hofan Slithermaster" data-flag="@X" onclick="openSidebar('ASM_226_UM01 BG-2 Hofan Slithermaster',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\227_UM01 BR-1 Boiling Bloodlust.png" id="ASM_227_UM01 BR-1 Boiling Bloodlust" data-flag="@X" onclick="openSidebar('ASM_227_UM01 BR-1 Boiling Bloodlust',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\228_UM01 BR-2 Bloodblade Naga.png" id="ASM_228_UM01 BR-2 Bloodblade Naga" data-flag="@X" onclick="openSidebar('ASM_228_UM01 BR-2 Bloodblade Naga',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\229_UM01 GU-1 Scion of New Rivers.png" id="ASM_229_UM01 GU-1 Scion of New Rivers" data-flag="@X" onclick="openSidebar('ASM_229_UM01 GU-1 Scion of New Rivers',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\230_UM01 GU-2 Flow State.png" id="ASM_230_UM01 GU-2 Flow State" data-flag="@X" onclick="openSidebar('ASM_230_UM01 GU-2 Flow State',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\231_UM01 GW-1 Walking Oasis.png" id="ASM_231_UM01 GW-1 Walking Oasis" data-flag="@X" onclick="openSidebar('ASM_231_UM01 GW-1 Walking Oasis',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\232_UM01 GW-2 Voyage to New Homes.png" id="ASM_232_UM01 GW-2 Voyage to New Homes" data-flag="@X" onclick="openSidebar('ASM_232_UM01 GW-2 Voyage to New Homes',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\233_UM01 RG-1 Mistress of Leashes.png" id="ASM_233_UM01 RG-1 Mistress of Leashes" data-flag="@X" onclick="openSidebar('ASM_233_UM01 RG-1 Mistress of Leashes',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\234_UM01 RG-2 Priest of Gah-Api.png" id="ASM_234_UM01 RG-2 Priest of Gah-Api" data-flag="@X" onclick="openSidebar('ASM_234_UM01 RG-2 Priest of Gah-Api',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\235_UM01 RW-1 Training Regimen.png" id="ASM_235_UM01 RW-1 Training Regimen" data-flag="@X" onclick="openSidebar('ASM_235_UM01 RW-1 Training Regimen',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\236_UM01 RW-2 Chariot Commander.png" id="ASM_236_UM01 RW-2 Chariot Commander" data-flag="@X" onclick="openSidebar('ASM_236_UM01 RW-2 Chariot Commander',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\237_UM01 UB-1 Officiant of the Arisen.png" id="ASM_237_UM01 UB-1 Officiant of the Arisen" data-flag="@X" onclick="openSidebar('ASM_237_UM01 UB-1 Officiant of the Arisen',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\238_UM01 UB-2 Crucible of Eternity.png" id="ASM_238_UM01 UB-2 Crucible of Eternity" data-flag="@X" onclick="openSidebar('ASM_238_UM01 UB-2 Crucible of Eternity',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\239_UM01 UR-1 Divine Attunement.png" id="ASM_239_UM01 UR-1 Divine Attunement" data-flag="@X" onclick="openSidebar('ASM_239_UM01 UR-1 Divine Attunement',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\240_UM01 UR-2 Tjuf, Herald of Snehem.png" id="ASM_240_UM01 UR-2 Tjuf, Herald of Snehem" data-flag="@X" onclick="openSidebar('ASM_240_UM01 UR-2 Tjuf, Herald of Snehem',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\241_UM01 WB-1 Chamber of New Anointment.png" id="ASM_241_UM01 WB-1 Chamber of New Anointment" data-flag="@X" onclick="openSidebar('ASM_241_UM01 WB-1 Chamber of New Anointment',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\242_UM01 WB-2 High Priest of Ketramose.png" id="ASM_242_UM01 WB-2 High Priest of Ketramose" data-flag="@X" onclick="openSidebar('ASM_242_UM01 WB-2 High Priest of Ketramose',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\243_UM01 WU-1 Serra's Servant.png" id="ASM_243_UM01 WU-1 Serras Servant" data-flag="@X" onclick="openSidebar('ASM_243_UM01 WU-1 Serras Servant',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\244_UM01 WU-2 Bastion of Serra.png" id="ASM_244_UM01 WU-2 Bastion of Serra" data-flag="@X" onclick="openSidebar('ASM_244_UM01 WU-2 Bastion of Serra',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ASM_er" data-flag="@E" onclick="openSidebar('ASM_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ASM_er" data-flag="@E" onclick="openSidebar('ASM_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ASM_er" data-flag="@E" onclick="openSidebar('ASM_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ASM_er" data-flag="@E" onclick="openSidebar('ASM_er',false)"></div>
+				<div id="God" class="anchor"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\215_RM01 Darux, Miasma of Passion.png" id="ASM_215_RM01 Darux, Miasma of Passion" data-flag="@X" onclick="openSidebar('ASM_215_RM01 Darux, Miasma of Passion',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\216_RM01 Gah-Api, Life's Hope.png" id="ASM_216_RM01 Gah-Api, Lifes Hope" data-flag="@X" onclick="openSidebar('ASM_216_RM01 Gah-Api, Lifes Hope',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\217_RM01 Ghrin-Danu, Watchful Mother.png" id="ASM_217_RM01 Ghrin-Danu, Watchful Mother" data-flag="@X" onclick="openSidebar('ASM_217_RM01 Ghrin-Danu, Watchful Mother',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\218_RM01 Hazoret, Zealous Survivor.png" id="ASM_218_RM01 Hazoret, Zealous Survivor" data-flag="@X" onclick="openSidebar('ASM_218_RM01 Hazoret, Zealous Survivor',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\219_RM01 Ketramose, Virtuous Sacrifice.png" id="ASM_219_RM01 Ketramose, Virtuous Sacrifice" data-flag="@X" onclick="openSidebar('ASM_219_RM01 Ketramose, Virtuous Sacrifice',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\220_RM01 Sab-Sunen, Flow of Time.png" id="ASM_220_RM01 Sab-Sunen, Flow of Time" data-flag="@X" onclick="openSidebar('ASM_220_RM01 Sab-Sunen, Flow of Time',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\221_RM01 Scarab God, Wrath of Eons.png" id="ASM_221_RM01 Scarab God, Wrath of Eons" data-flag="@X" onclick="openSidebar('ASM_221_RM01 Scarab God, Wrath of Eons',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\222_RM01 Serra, the Returned.png" id="ASM_222_RM01 Serra, the Returned" data-flag="@X" onclick="openSidebar('ASM_222_RM01 Serra, the Returned',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\223_RM01 Snehem, God of Locusts.png" id="ASM_223_RM01 Snehem, God of Locusts" data-flag="@X" onclick="openSidebar('ASM_223_RM01 Snehem, God of Locusts',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\224_RM01 Wasmawt, Inevitable Death.png" id="ASM_224_RM01 Wasmawt, Inevitable Death" data-flag="@X" onclick="openSidebar('ASM_224_RM01 Wasmawt, Inevitable Death',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ASM_er" data-flag="@E" onclick="openSidebar('ASM_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ASM_er" data-flag="@E" onclick="openSidebar('ASM_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ASM_er" data-flag="@E" onclick="openSidebar('ASM_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ASM_er" data-flag="@E" onclick="openSidebar('ASM_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ASM_er" data-flag="@E" onclick="openSidebar('ASM_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\23_MW01 Tekhen, Ancient Spiresoul.png" id="ASM_23_MW01 Tekhen, Ancient Spiresoul" data-flag="@X" onclick="openSidebar('ASM_23_MW01 Tekhen, Ancient Spiresoul',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\62_MU01 noncreature.png" id="ASM_62_MU01 noncreature" data-flag="@X" onclick="openSidebar('ASM_62_MU01 noncreature',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\101_MB01 noncreature.png" id="ASM_101_MB01 noncreature" data-flag="@X" onclick="openSidebar('ASM_101_MB01 noncreature',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\141_MR01 noncreature.png" id="ASM_141_MR01 noncreature" data-flag="@X" onclick="openSidebar('ASM_141_MR01 noncreature',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\182_MG01 noncreature.png" id="ASM_182_MG01 noncreature" data-flag="@X" onclick="openSidebar('ASM_182_MG01 noncreature',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\24_MW02 noncreature.png" id="ASM_24_MW02 noncreature" data-flag="@X" onclick="openSidebar('ASM_24_MW02 noncreature',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\63_MU02 creature.png" id="ASM_63_MU02 creature" data-flag="@X" onclick="openSidebar('ASM_63_MU02 creature',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\102_MB02 creature.png" id="ASM_102_MB02 creature" data-flag="@X" onclick="openSidebar('ASM_102_MB02 creature',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\142_MR02 creature.png" id="ASM_142_MR02 creature" data-flag="@X" onclick="openSidebar('ASM_142_MR02 creature',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\183_MG02 creature.png" id="ASM_183_MG02 creature" data-flag="@X" onclick="openSidebar('ASM_183_MG02 creature',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\25_RW01 creature.png" id="ASM_25_RW01 creature" data-flag="@X" onclick="openSidebar('ASM_25_RW01 creature',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\64_RU01 creature.png" id="ASM_64_RU01 creature" data-flag="@X" onclick="openSidebar('ASM_64_RU01 creature',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\103_RB01 creature.png" id="ASM_103_RB01 creature" data-flag="@X" onclick="openSidebar('ASM_103_RB01 creature',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\143_RR01 creature.png" id="ASM_143_RR01 creature" data-flag="@X" onclick="openSidebar('ASM_143_RR01 creature',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\184_RG01 Hesep Tender.png" id="ASM_184_RG01 Hesep Tender" data-flag="@X" onclick="openSidebar('ASM_184_RG01 Hesep Tender',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\26_RW02 Converted Seraph.png" id="ASM_26_RW02 Converted Seraph" data-flag="@X" onclick="openSidebar('ASM_26_RW02 Converted Seraph',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\65_RU02 creature.png" id="ASM_65_RU02 creature" data-flag="@X" onclick="openSidebar('ASM_65_RU02 creature',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\104_RB02 creature.png" id="ASM_104_RB02 creature" data-flag="@X" onclick="openSidebar('ASM_104_RB02 creature',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\144_RR02 creature.png" id="ASM_144_RR02 creature" data-flag="@X" onclick="openSidebar('ASM_144_RR02 creature',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\185_RG02 creature.png" id="ASM_185_RG02 creature" data-flag="@X" onclick="openSidebar('ASM_185_RG02 creature',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\27_RW03 creature.png" id="ASM_27_RW03 creature" data-flag="@X" onclick="openSidebar('ASM_27_RW03 creature',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\66_RU03 creature.png" id="ASM_66_RU03 creature" data-flag="@X" onclick="openSidebar('ASM_66_RU03 creature',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\105_RB03 creature.png" id="ASM_105_RB03 creature" data-flag="@X" onclick="openSidebar('ASM_105_RB03 creature',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\145_RR03 Lazotep Dragon.png" id="ASM_145_RR03 Lazotep Dragon" data-flag="@X" onclick="openSidebar('ASM_145_RR03 Lazotep Dragon',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\186_RG03 creature.png" id="ASM_186_RG03 creature" data-flag="@X" onclick="openSidebar('ASM_186_RG03 creature',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\28_RW04 creature.png" id="ASM_28_RW04 creature" data-flag="@X" onclick="openSidebar('ASM_28_RW04 creature',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\67_RU04 noncreature.png" id="ASM_67_RU04 noncreature" data-flag="@X" onclick="openSidebar('ASM_67_RU04 noncreature',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\106_RB04 creature.png" id="ASM_106_RB04 creature" data-flag="@X" onclick="openSidebar('ASM_106_RB04 creature',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\146_RR04 noncreature.png" id="ASM_146_RR04 noncreature" data-flag="@X" onclick="openSidebar('ASM_146_RR04 noncreature',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\187_RG04 creature.png" id="ASM_187_RG04 creature" data-flag="@X" onclick="openSidebar('ASM_187_RG04 creature',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\29_RW05 noncreature.png" id="ASM_29_RW05 noncreature" data-flag="@X" onclick="openSidebar('ASM_29_RW05 noncreature',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\68_RU05 noncreature.png" id="ASM_68_RU05 noncreature" data-flag="@X" onclick="openSidebar('ASM_68_RU05 noncreature',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\107_RB05 Coming Forth by Night.png" id="ASM_107_RB05 Coming Forth by Night" data-flag="@X" onclick="openSidebar('ASM_107_RB05 Coming Forth by Night',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\147_RR05 noncreature.png" id="ASM_147_RR05 noncreature" data-flag="@X" onclick="openSidebar('ASM_147_RR05 noncreature',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\188_RG05 noncreature.png" id="ASM_188_RG05 noncreature" data-flag="@X" onclick="openSidebar('ASM_188_RG05 noncreature',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\30_RW06 noncreature.png" id="ASM_30_RW06 noncreature" data-flag="@X" onclick="openSidebar('ASM_30_RW06 noncreature',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\69_RU06 noncreature.png" id="ASM_69_RU06 noncreature" data-flag="@X" onclick="openSidebar('ASM_69_RU06 noncreature',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\108_RB06 noncreature.png" id="ASM_108_RB06 noncreature" data-flag="@X" onclick="openSidebar('ASM_108_RB06 noncreature',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\148_RR06 noncreature.png" id="ASM_148_RR06 noncreature" data-flag="@X" onclick="openSidebar('ASM_148_RR06 noncreature',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\189_RG06 noncreature.png" id="ASM_189_RG06 noncreature" data-flag="@X" onclick="openSidebar('ASM_189_RG06 noncreature',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\31_RW07 noncreature.png" id="ASM_31_RW07 noncreature" data-flag="@X" onclick="openSidebar('ASM_31_RW07 noncreature',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\70_RU07 noncreature.png" id="ASM_70_RU07 noncreature" data-flag="@X" onclick="openSidebar('ASM_70_RU07 noncreature',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\109_RB07 noncreature.png" id="ASM_109_RB07 noncreature" data-flag="@X" onclick="openSidebar('ASM_109_RB07 noncreature',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\149_RR07 noncreature.png" id="ASM_149_RR07 noncreature" data-flag="@X" onclick="openSidebar('ASM_149_RR07 noncreature',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\190_RG07 noncreature.png" id="ASM_190_RG07 noncreature" data-flag="@X" onclick="openSidebar('ASM_190_RG07 noncreature',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\32_UW01 1-cost creature (for W/R).png" id="ASM_32_UW01 1-cost creature (for W/R)" data-flag="@X" onclick="openSidebar('ASM_32_UW01 1-cost creature (for W/R)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\71_UU01 2-cost crea (for U/R).png" id="ASM_71_UU01 2-cost crea (for U/R)" data-flag="@X" onclick="openSidebar('ASM_71_UU01 2-cost crea (for U/R)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\110_UB01 1-cost Creature (for R/B).png" id="ASM_110_UB01 1-cost Creature (for R/B)" data-flag="@X" onclick="openSidebar('ASM_110_UB01 1-cost Creature (for R/B)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\150_UR01 Taw-honed Fighter (for R/W).png" id="ASM_150_UR01 Taw-honed Fighter (for R/W)" data-flag="@X" onclick="openSidebar('ASM_150_UR01 Taw-honed Fighter (for R/W)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\191_UG01 1-cost crea (for G/R).png" id="ASM_191_UG01 1-cost crea (for G/R)" data-flag="@X" onclick="openSidebar('ASM_191_UG01 1-cost crea (for G/R)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\33_UW02 2-cost Crea (for W/G).png" id="ASM_33_UW02 2-cost Crea (for W/G)" data-flag="@X" onclick="openSidebar('ASM_33_UW02 2-cost Crea (for W/G)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\72_UU02 2-cost crea (for U/G).png" id="ASM_72_UU02 2-cost crea (for U/G)" data-flag="@X" onclick="openSidebar('ASM_72_UU02 2-cost crea (for U/G)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\111_UB02 2-cost Creature (for B/G).png" id="ASM_111_UB02 2-cost Creature (for B/G)" data-flag="@X" onclick="openSidebar('ASM_111_UB02 2-cost Creature (for B/G)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\151_UR02 2-cost creature.png" id="ASM_151_UR02 2-cost creature" data-flag="@X" onclick="openSidebar('ASM_151_UR02 2-cost creature',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\192_UG02 2-cost Crea (for G/U).png" id="ASM_192_UG02 2-cost Crea (for G/U)" data-flag="@X" onclick="openSidebar('ASM_192_UG02 2-cost Crea (for G/U)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\34_UW03 2-cost crea (for W/U).png" id="ASM_34_UW03 2-cost crea (for W/U)" data-flag="@X" onclick="openSidebar('ASM_34_UW03 2-cost crea (for W/U)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\73_UU03 3-cost crea (for UB).png" id="ASM_73_UU03 3-cost crea (for UB)" data-flag="@X" onclick="openSidebar('ASM_73_UU03 3-cost crea (for UB)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\112_UB03 2or3-cost Crea (for B/W).png" id="ASM_112_UB03 2or3-cost Crea (for B/W)" data-flag="@X" onclick="openSidebar('ASM_112_UB03 2or3-cost Crea (for B/W)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\152_UR03 2-cost creature.png" id="ASM_152_UR03 2-cost creature" data-flag="@X" onclick="openSidebar('ASM_152_UR03 2-cost creature',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\193_UG03 2-cost Crea (for G/B).png" id="ASM_193_UG03 2-cost Crea (for G/B)" data-flag="@X" onclick="openSidebar('ASM_193_UG03 2-cost Crea (for G/B)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\35_UW04 3-cost crea (for WB.png" id="ASM_35_UW04 3-cost crea (for WB" data-flag="@X" onclick="openSidebar('ASM_35_UW04 3-cost crea (for WB',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\74_UU04 3-cost crea (for U/W).png" id="ASM_74_UU04 3-cost crea (for U/W)" data-flag="@X" onclick="openSidebar('ASM_74_UU04 3-cost crea (for U/W)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\113_UB04 Vessel of Darkness.png" id="ASM_113_UB04 Vessel of Darkness" data-flag="@X" onclick="openSidebar('ASM_113_UB04 Vessel of Darkness',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\153_UR04 Vessel of Wrath.png" id="ASM_153_UR04 Vessel of Wrath" data-flag="@X" onclick="openSidebar('ASM_153_UR04 Vessel of Wrath',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\194_UG04 3-cost Crea (for G/W).png" id="ASM_194_UG04 3-cost Crea (for G/W)" data-flag="@X" onclick="openSidebar('ASM_194_UG04 3-cost Crea (for G/W)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\36_UW05 Vessel of Purity.png" id="ASM_36_UW05 Vessel of Purity" data-flag="@X" onclick="openSidebar('ASM_36_UW05 Vessel of Purity',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\75_UU05 Vessel of Genius.png" id="ASM_75_UU05 Vessel of Genius" data-flag="@X" onclick="openSidebar('ASM_75_UU05 Vessel of Genius',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\114_UB05 Mindstab Ravager.png" id="ASM_114_UB05 Mindstab Ravager" data-flag="@X" onclick="openSidebar('ASM_114_UB05 Mindstab Ravager',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\154_UR05 4-cost creature.png" id="ASM_154_UR05 4-cost creature" data-flag="@X" onclick="openSidebar('ASM_154_UR05 4-cost creature',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\195_UG05 4-cost Crea (for G/U).png" id="ASM_195_UG05 4-cost Crea (for G/U)" data-flag="@X" onclick="openSidebar('ASM_195_UG05 4-cost Crea (for G/U)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\37_UW06 3-cost crea (for R/W).png" id="ASM_37_UW06 3-cost crea (for R/W)" data-flag="@X" onclick="openSidebar('ASM_37_UW06 3-cost crea (for R/W)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\76_UU06 Pillar-Leaper Sphinx.png" id="ASM_76_UU06 Pillar-Leaper Sphinx" data-flag="@X" onclick="openSidebar('ASM_76_UU06 Pillar-Leaper Sphinx',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\115_UB06 5-cost Creature (for ALL).png" id="ASM_115_UB06 5-cost Creature (for ALL)" data-flag="@X" onclick="openSidebar('ASM_115_UB06 5-cost Creature (for ALL)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\155_UR06 Daruxian Spinescourger (for RB).png" id="ASM_155_UR06 Daruxian Spinescourger (for RB)" data-flag="@X" onclick="openSidebar('ASM_155_UR06 Daruxian Spinescourger (for RB)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\196_UG06 Vessel of Nature.png" id="ASM_196_UG06 Vessel of Nature" data-flag="@X" onclick="openSidebar('ASM_196_UG06 Vessel of Nature',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\38_UW07 4-cost crea (for W/B).png" id="ASM_38_UW07 4-cost crea (for W/B)" data-flag="@X" onclick="openSidebar('ASM_38_UW07 4-cost crea (for W/B)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\77_UU07 5-cost crea (for U/G).png" id="ASM_77_UU07 5-cost crea (for U/G)" data-flag="@X" onclick="openSidebar('ASM_77_UU07 5-cost crea (for U/G)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\116_UB07 6-cost Crea (for B/G).png" id="ASM_116_UB07 6-cost Crea (for B/G)" data-flag="@X" onclick="openSidebar('ASM_116_UB07 6-cost Crea (for B/G)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\156_UR07 5-cost creature.png" id="ASM_156_UR07 5-cost creature" data-flag="@X" onclick="openSidebar('ASM_156_UR07 5-cost creature',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\197_UG07 5-cost Crea (for G/B).png" id="ASM_197_UG07 5-cost Crea (for G/B)" data-flag="@X" onclick="openSidebar('ASM_197_UG07 5-cost Crea (for G/B)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\39_UW08 5-cost crea (for W/U).png" id="ASM_39_UW08 5-cost crea (for W/U)" data-flag="@X" onclick="openSidebar('ASM_39_UW08 5-cost crea (for W/U)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\78_UU08 Noncrea (supp. R/U).png" id="ASM_78_UU08 Noncrea (supp. R/U)" data-flag="@X" onclick="openSidebar('ASM_78_UU08 Noncrea (supp. R/U)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\117_UB08 Vile Judge.png" id="ASM_117_UB08 Vile Judge" data-flag="@X" onclick="openSidebar('ASM_117_UB08 Vile Judge',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\157_UR08 6-cost creature.png" id="ASM_157_UR08 6-cost creature" data-flag="@X" onclick="openSidebar('ASM_157_UR08 6-cost creature',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\198_UG08 6-cost Crea (for G/W).png" id="ASM_198_UG08 6-cost Crea (for G/W)" data-flag="@X" onclick="openSidebar('ASM_198_UG08 6-cost Crea (for G/W)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\40_UW09 6-cost crea (for ALL).png" id="ASM_40_UW09 6-cost crea (for ALL)" data-flag="@X" onclick="openSidebar('ASM_40_UW09 6-cost crea (for ALL)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\79_UU09 Noncrea (supp. U/G).png" id="ASM_79_UU09 Noncrea (supp. U/G)" data-flag="@X" onclick="openSidebar('ASM_79_UU09 Noncrea (supp. U/G)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\118_UB09 noncre (supp. B/U).png" id="ASM_118_UB09 noncre (supp. B/U)" data-flag="@X" onclick="openSidebar('ASM_118_UB09 noncre (supp. B/U)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\158_UR09 Darkstorm Bolt (supp. R/U).png" id="ASM_158_UR09 Darkstorm Bolt (supp. R/U)" data-flag="@X" onclick="openSidebar('ASM_158_UR09 Darkstorm Bolt (supp. R/U)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\199_UG09 7-cost Crea (for G/R).png" id="ASM_199_UG09 7-cost Crea (for G/R)" data-flag="@X" onclick="openSidebar('ASM_199_UG09 7-cost Crea (for G/R)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\41_UW10 7-cost crea (for W/G).png" id="ASM_41_UW10 7-cost crea (for W/G)" data-flag="@X" onclick="openSidebar('ASM_41_UW10 7-cost crea (for W/G)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\80_UU10 Noncrea (supp. U/W).png" id="ASM_80_UU10 Noncrea (supp. U/W)" data-flag="@X" onclick="openSidebar('ASM_80_UU10 Noncrea (supp. U/W)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\119_UB10 noncre (supp. B/R).png" id="ASM_119_UB10 noncre (supp. B/R)" data-flag="@X" onclick="openSidebar('ASM_119_UB10 noncre (supp. B/R)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\159_UR10 3-cost noncr (supp R/W).png" id="ASM_159_UR10 3-cost noncr (supp R/W)" data-flag="@X" onclick="openSidebar('ASM_159_UR10 3-cost noncr (supp R/W)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\200_UG11 noncreature (supp. GU).png" id="ASM_200_UG11 noncreature (supp. GU)" data-flag="@X" onclick="openSidebar('ASM_200_UG11 noncreature (supp. GU)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\42_UW12 noncreature (supp. UW).png" id="ASM_42_UW12 noncreature (supp. UW)" data-flag="@X" onclick="openSidebar('ASM_42_UW12 noncreature (supp. UW)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\81_UU11 Noncreature (supp. U/B).png" id="ASM_81_UU11 Noncreature (supp. U/B)" data-flag="@X" onclick="openSidebar('ASM_81_UU11 Noncreature (supp. U/B)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\120_UB11 noncre (supp. B/G).png" id="ASM_120_UB11 noncre (supp. B/G)" data-flag="@X" onclick="openSidebar('ASM_120_UB11 noncre (supp. B/G)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\160_UR11 Shining Bright (supp. R/U).png" id="ASM_160_UR11 Shining Bright (supp. R/U)" data-flag="@X" onclick="openSidebar('ASM_160_UR11 Shining Bright (supp. R/U)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\201_UG12 noncreature (supp. GW).png" id="ASM_201_UG12 noncreature (supp. GW)" data-flag="@X" onclick="openSidebar('ASM_201_UG12 noncreature (supp. GW)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\43_UW13 noncreature (supp. WR).png" id="ASM_43_UW13 noncreature (supp. WR)" data-flag="@X" onclick="openSidebar('ASM_43_UW13 noncreature (supp. WR)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\82_UU12 Noncrea (supp. R/U).png" id="ASM_82_UU12 Noncrea (supp. R/U)" data-flag="@X" onclick="openSidebar('ASM_82_UU12 Noncrea (supp. R/U)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\121_UB12 noncre (supp. B/W).png" id="ASM_121_UB12 noncre (supp. B/W)" data-flag="@X" onclick="openSidebar('ASM_121_UB12 noncre (supp. B/W)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\161_UR12 3-cost noncre (supp. RB).png" id="ASM_161_UR12 3-cost noncre (supp. RB)" data-flag="@X" onclick="openSidebar('ASM_161_UR12 3-cost noncre (supp. RB)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\202_UG13 noncreature (supp. GR).png" id="ASM_202_UG13 noncreature (supp. GR)" data-flag="@X" onclick="openSidebar('ASM_202_UG13 noncreature (supp. GR)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\44_UW14 noncreature (supp. wB).png" id="ASM_44_UW14 noncreature (supp. wB)" data-flag="@X" onclick="openSidebar('ASM_44_UW14 noncreature (supp. wB)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\83_UU13 Noncreature (supp. All).png" id="ASM_83_UU13 Noncreature (supp. All)" data-flag="@X" onclick="openSidebar('ASM_83_UU13 Noncreature (supp. All)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\122_UB13 nonc (supp. B/U).png" id="ASM_122_UB13 nonc (supp. B/U)" data-flag="@X" onclick="openSidebar('ASM_122_UB13 nonc (supp. B/U)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\162_UR13 4-cost noncre (supp. RG).png" id="ASM_162_UR13 4-cost noncre (supp. RG)" data-flag="@X" onclick="openSidebar('ASM_162_UR13 4-cost noncre (supp. RG)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\203_UG14 noncreature (supp. GB).png" id="ASM_203_UG14 noncreature (supp. GB)" data-flag="@X" onclick="openSidebar('ASM_203_UG14 noncreature (supp. GB)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\45_UW15 noncreature (supp. WG).png" id="ASM_45_UW15 noncreature (supp. WG)" data-flag="@X" onclick="openSidebar('ASM_45_UW15 noncreature (supp. WG)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\84_UU14 Noncreature (supp. All).png" id="ASM_84_UU14 Noncreature (supp. All)" data-flag="@X" onclick="openSidebar('ASM_84_UU14 Noncreature (supp. All)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\123_UB14Noncreature (supp. ALL).png" id="ASM_123_UB14Noncreature (supp. ALL)" data-flag="@X" onclick="openSidebar('ASM_123_UB14Noncreature (supp. ALL)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\163_UR13 Wide Swing.png" id="ASM_163_UR13 Wide Swing" data-flag="@X" onclick="openSidebar('ASM_163_UR13 Wide Swing',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\204_UG15 noncreature (supp. ALL).png" id="ASM_204_UG15 noncreature (supp. ALL)" data-flag="@X" onclick="openSidebar('ASM_204_UG15 noncreature (supp. ALL)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\7_CW01 Votive Soul.png" id="ASM_7_CW01 Votive Soul" data-flag="@X" onclick="openSidebar('ASM_7_CW01 Votive Soul',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\46_CU01 2-cost crea (for U/B).png" id="ASM_46_CU01 2-cost crea (for U/B)" data-flag="@X" onclick="openSidebar('ASM_46_CU01 2-cost crea (for U/B)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\124_UB15Noncreature (supp. All).png" id="ASM_124_UB15Noncreature (supp. All)" data-flag="@X" onclick="openSidebar('ASM_124_UB15Noncreature (supp. All)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\164_UR14 5-cost noncre (supp RB).png" id="ASM_164_UR14 5-cost noncre (supp RB)" data-flag="@X" onclick="openSidebar('ASM_164_UR14 5-cost noncre (supp RB)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\166_CG01 1or2-cost wall-ish creature.png" id="ASM_166_CG01 1or2-cost wall-ish creature" data-flag="@X" onclick="openSidebar('ASM_166_CG01 1or2-cost wall-ish creature',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\8_CW02 Two Suns Fighter.png" id="ASM_8_CW02 Two Suns Fighter" data-flag="@X" onclick="openSidebar('ASM_8_CW02 Two Suns Fighter',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\47_CU02 2-cost crea (for U/R).png" id="ASM_47_CU02 2-cost crea (for U/R)" data-flag="@X" onclick="openSidebar('ASM_47_CU02 2-cost crea (for U/R)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\85_CB01 1or2-cost creature (for w/b).png" id="ASM_85_CB01 1or2-cost creature (for w/b)" data-flag="@X" onclick="openSidebar('ASM_85_CB01 1or2-cost creature (for w/b)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\165_UR15 4or5-cost noncr (supp. RG).png" id="ASM_165_UR15 4or5-cost noncr (supp. RG)" data-flag="@X" onclick="openSidebar('ASM_165_UR15 4or5-cost noncr (supp. RG)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\167_CG02 2-cost creature (for G/R).png" id="ASM_167_CG02 2-cost creature (for G/R)" data-flag="@X" onclick="openSidebar('ASM_167_CG02 2-cost creature (for G/R)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\9_CW03 Priest of the Angel's Path.png" id="ASM_9_CW03 Priest of the Angels Path" data-flag="@X" onclick="openSidebar('ASM_9_CW03 Priest of the Angels Path',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\48_CU03 3-cost crea (for U/W).png" id="ASM_48_CU03 3-cost crea (for U/W)" data-flag="@X" onclick="openSidebar('ASM_48_CU03 3-cost crea (for U/W)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\86_CB02 Fleshform Serket.png" id="ASM_86_CB02 Fleshform Serket" data-flag="@X" onclick="openSidebar('ASM_86_CB02 Fleshform Serket',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\125_CR01 1or2-cost crea (for R/B).png" id="ASM_125_CR01 1or2-cost crea (for R/B)" data-flag="@X" onclick="openSidebar('ASM_125_CR01 1or2-cost crea (for R/B)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\168_CG03 2-cost creat (for G/W).png" id="ASM_168_CG03 2-cost creat (for G/W)" data-flag="@X" onclick="openSidebar('ASM_168_CG03 2-cost creat (for G/W)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\10_CW04 Envoy of New Ways.png" id="ASM_10_CW04 Envoy of New Ways" data-flag="@X" onclick="openSidebar('ASM_10_CW04 Envoy of New Ways',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\49_CU04 3-cost crea (for U/G).png" id="ASM_49_CU04 3-cost crea (for U/G)" data-flag="@X" onclick="openSidebar('ASM_49_CU04 3-cost crea (for U/G)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\87_CB03 2-cost crea (for B/R).png" id="ASM_87_CB03 2-cost crea (for B/R)" data-flag="@X" onclick="openSidebar('ASM_87_CB03 2-cost crea (for B/R)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\126_CR02 2-cost crea (for R/U).png" id="ASM_126_CR02 2-cost crea (for R/U)" data-flag="@X" onclick="openSidebar('ASM_126_CR02 2-cost crea (for R/U)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\169_CG04 3-cost crea (for G/U).png" id="ASM_169_CG04 3-cost crea (for G/U)" data-flag="@X" onclick="openSidebar('ASM_169_CG04 3-cost crea (for G/U)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\11_CW05 Three-mana creature general.png" id="ASM_11_CW05 Three-mana creature general" data-flag="@X" onclick="openSidebar('ASM_11_CW05 Three-mana creature general',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\50_CU05 3-cost crea (for U/R).png" id="ASM_50_CU05 3-cost crea (for U/R)" data-flag="@X" onclick="openSidebar('ASM_50_CU05 3-cost crea (for U/R)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\88_CB04 3-mana creature (for w/b).png" id="ASM_88_CB04 3-mana creature (for w/b)" data-flag="@X" onclick="openSidebar('ASM_88_CB04 3-mana creature (for w/b)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\127_CR03 2-cost crea (for R/W).png" id="ASM_127_CR03 2-cost crea (for R/W)" data-flag="@X" onclick="openSidebar('ASM_127_CR03 2-cost crea (for R/W)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\170_CG05 3-cost crea (for g/r).png" id="ASM_170_CG05 3-cost crea (for g/r)" data-flag="@X" onclick="openSidebar('ASM_170_CG05 3-cost crea (for g/r)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\12_CW06 Three-mana creature r/w.png" id="ASM_12_CW06 Three-mana creature r/w" data-flag="@X" onclick="openSidebar('ASM_12_CW06 Three-mana creature r/w',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\51_CU06 4-cost crea (for U/B).png" id="ASM_51_CU06 4-cost crea (for U/B)" data-flag="@X" onclick="openSidebar('ASM_51_CU06 4-cost crea (for U/B)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\89_CB05 3-cost crea (for U/B).png" id="ASM_89_CB05 3-cost crea (for U/B)" data-flag="@X" onclick="openSidebar('ASM_89_CB05 3-cost crea (for U/B)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\128_CR04 3-cost crea (for R/G).png" id="ASM_128_CR04 3-cost crea (for R/G)" data-flag="@X" onclick="openSidebar('ASM_128_CR04 3-cost crea (for R/G)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\171_CG06 3or4-cost crea (for g/b).png" id="ASM_171_CG06 3or4-cost crea (for g/b)" data-flag="@X" onclick="openSidebar('ASM_171_CG06 3or4-cost crea (for g/b)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\13_CW07 Three-mana creature w/b.png" id="ASM_13_CW07 Three-mana creature w/b" data-flag="@X" onclick="openSidebar('ASM_13_CW07 Three-mana creature w/b',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\52_CU07 5or6-cost crea (for U/W).png" id="ASM_52_CU07 5or6-cost crea (for U/W)" data-flag="@X" onclick="openSidebar('ASM_52_CU07 5or6-cost crea (for U/W)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\90_CB06 4-cost crea (for B/R).png" id="ASM_90_CB06 4-cost crea (for B/R)" data-flag="@X" onclick="openSidebar('ASM_90_CB06 4-cost crea (for B/R)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\129_CR05 3-cost crea (for R/B).png" id="ASM_129_CR05 3-cost crea (for R/B)" data-flag="@X" onclick="openSidebar('ASM_129_CR05 3-cost crea (for R/B)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\172_CG07 4or5-cost crea (for g/w).png" id="ASM_172_CG07 4or5-cost crea (for g/w)" data-flag="@X" onclick="openSidebar('ASM_172_CG07 4or5-cost crea (for g/w)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\14_CW08 Phalanx Commander.png" id="ASM_14_CW08 Phalanx Commander" data-flag="@X" onclick="openSidebar('ASM_14_CW08 Phalanx Commander',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\53_CU08 6or7-cost crea (for U/G).png" id="ASM_53_CU08 6or7-cost crea (for U/G)" data-flag="@X" onclick="openSidebar('ASM_53_CU08 6or7-cost crea (for U/G)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\91_CB07 4or5-cost cre (for w/b).png" id="ASM_91_CB07 4or5-cost cre (for w/b)" data-flag="@X" onclick="openSidebar('ASM_91_CB07 4or5-cost cre (for w/b)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\130_CR06 3or4-cost crea (for R/W).png" id="ASM_130_CR06 3or4-cost crea (for R/W)" data-flag="@X" onclick="openSidebar('ASM_130_CR06 3or4-cost crea (for R/W)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\173_CG08 5-cost crea (for g/u).png" id="ASM_173_CG08 5-cost crea (for g/u)" data-flag="@X" onclick="openSidebar('ASM_173_CG08 5-cost crea (for g/u)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\15_CW09 Four-mana creature for W/U.png" id="ASM_15_CW09 Four-mana creature for W/U" data-flag="@X" onclick="openSidebar('ASM_15_CW09 Four-mana creature for W/U',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\54_CU09Protective instant.png" id="ASM_54_CU09Protective instant" data-flag="@X" onclick="openSidebar('ASM_54_CU09Protective instant',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\92_CB08 5or6-cost crea (for U/B).png" id="ASM_92_CB08 5or6-cost crea (for U/B)" data-flag="@X" onclick="openSidebar('ASM_92_CB08 5or6-cost crea (for U/B)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\131_CR07 4or5-cost crea (for R/G).png" id="ASM_131_CR07 4or5-cost crea (for R/G)" data-flag="@X" onclick="openSidebar('ASM_131_CR07 4or5-cost crea (for R/G)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\174_CG09 6-cost creature (for g/r).png" id="ASM_174_CG09 6-cost creature (for g/r)" data-flag="@X" onclick="openSidebar('ASM_174_CG09 6-cost creature (for g/r)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\16_CW10 Five- or six-mana creature for w/b.png" id="ASM_16_CW10 Five- or six-mana creature for w/b" data-flag="@X" onclick="openSidebar('ASM_16_CW10 Five- or six-mana creature for w/b',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\55_CU10 counterspell.png" id="ASM_55_CU10 counterspell" data-flag="@X" onclick="openSidebar('ASM_55_CU10 counterspell',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\93_CB09 6or7-cost crea (for B/G).png" id="ASM_93_CB09 6or7-cost crea (for B/G)" data-flag="@X" onclick="openSidebar('ASM_93_CB09 6or7-cost crea (for B/G)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\132_CR08 5-cost crea (for R/U).png" id="ASM_132_CR08 5-cost crea (for R/U)" data-flag="@X" onclick="openSidebar('ASM_132_CR08 5-cost crea (for R/U)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\175_CG10 6or7-cost creature (for ALL).png" id="ASM_175_CG10 6or7-cost creature (for ALL)" data-flag="@X" onclick="openSidebar('ASM_175_CG10 6or7-cost creature (for ALL)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\17_CW11 Six- or seven-mana creature for w/g.png" id="ASM_17_CW11 Six- or seven-mana creature for w/g" data-flag="@X" onclick="openSidebar('ASM_17_CW11 Six- or seven-mana creature for w/g',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\56_CU11 cantrip (1 card draw).png" id="ASM_56_CU11 cantrip (1 card draw)" data-flag="@X" onclick="openSidebar('ASM_56_CU11 cantrip (1 card draw)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\94_CB10 Eternal Moloch.png" id="ASM_94_CB10 Eternal Moloch" data-flag="@X" onclick="openSidebar('ASM_94_CB10 Eternal Moloch',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\133_CR09 6-cost creature (for ALL).png" id="ASM_133_CR09 6-cost creature (for ALL)" data-flag="@X" onclick="openSidebar('ASM_133_CR09 6-cost creature (for ALL)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\176_CG11Fight spell.png" id="ASM_176_CG11Fight spell" data-flag="@X" onclick="openSidebar('ASM_176_CG11Fight spell',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\18_CW12Combat-related removal.png" id="ASM_18_CW12Combat-related removal" data-flag="@X" onclick="openSidebar('ASM_18_CW12Combat-related removal',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\57_CU12 Draw spell (two to three cards).png" id="ASM_57_CU12 Draw spell (two to three cards)" data-flag="@X" onclick="openSidebar('ASM_57_CU12 Draw spell (two to three cards)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\95_CB11Combat trick.png" id="ASM_95_CB11Combat trick" data-flag="@X" onclick="openSidebar('ASM_95_CB11Combat trick',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\134_CR10Direct damage (deals 2).png" id="ASM_134_CR10Direct damage (deals 2)" data-flag="@X" onclick="openSidebar('ASM_134_CR10Direct damage (deals 2)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\177_CG12Bite spell.png" id="ASM_177_CG12Bite spell" data-flag="@X" onclick="openSidebar('ASM_177_CG12Bite spell',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\19_CW13 Banishing Light.png" id="ASM_19_CW13 Banishing Light" data-flag="@X" onclick="openSidebar('ASM_19_CW13 Banishing Light',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\58_CU13 Witness Protection Aura.png" id="ASM_58_CU13 Witness Protection Aura" data-flag="@X" onclick="openSidebar('ASM_58_CU13 Witness Protection Aura',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\96_CB12 Card draw (added cost).png" id="ASM_96_CB12 Card draw (added cost)" data-flag="@X" onclick="openSidebar('ASM_96_CB12 Card draw (added cost)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\135_CR11Combat trick.png" id="ASM_135_CR11Combat trick" data-flag="@X" onclick="openSidebar('ASM_135_CR11Combat trick',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\178_CG13 Adjust to Abundance.png" id="ASM_178_CG13 Adjust to Abundance" data-flag="@X" onclick="openSidebar('ASM_178_CG13 Adjust to Abundance',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\20_CW14 Combat trick.png" id="ASM_20_CW14 Combat trick" data-flag="@X" onclick="openSidebar('ASM_20_CW14 Combat trick',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\59_CU14 Top or bottom spell.png" id="ASM_59_CU14 Top or bottom spell" data-flag="@X" onclick="openSidebar('ASM_59_CU14 Top or bottom spell',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\97_CB13 Moment of Weakness.png" id="ASM_97_CB13 Moment of Weakness" data-flag="@X" onclick="openSidebar('ASM_97_CB13 Moment of Weakness',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\136_CR12Rummaging/impulsive draw.png" id="ASM_136_CR12Rummaging/impulsive draw" data-flag="@X" onclick="openSidebar('ASM_136_CR12Rummaging/impulsive draw',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\179_CG14 City's Founding.png" id="ASM_179_CG14 Citys Founding" data-flag="@X" onclick="openSidebar('ASM_179_CG14 Citys Founding',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\21_CW15 Disenchant/removal spell.png" id="ASM_21_CW15 Disenchant/removal spell" data-flag="@X" onclick="openSidebar('ASM_21_CW15 Disenchant/removal spell',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\60_CU15Modal spell.png" id="ASM_60_CU15Modal spell" data-flag="@X" onclick="openSidebar('ASM_60_CU15Modal spell',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\98_CB14 Feast on Flesh.png" id="ASM_98_CB14 Feast on Flesh" data-flag="@X" onclick="openSidebar('ASM_98_CB14 Feast on Flesh',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\137_CR13Modal Shatter.png" id="ASM_137_CR13Modal Shatter" data-flag="@X" onclick="openSidebar('ASM_137_CR13Modal Shatter',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\180_CG15Dig for lands and/or creatures.png" id="ASM_180_CG15Dig for lands and/or creatures" data-flag="@X" onclick="openSidebar('ASM_180_CG15Dig for lands and/or creatures',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\22_CW16 Feeding Time.png" id="ASM_22_CW16 Feeding Time" data-flag="@X" onclick="openSidebar('ASM_22_CW16 Feeding Time',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\61_CU16 noncreature.png" id="ASM_61_CU16 noncreature" data-flag="@X" onclick="openSidebar('ASM_61_CU16 noncreature',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\99_CB15 Slightly overcosted removal.png" id="ASM_99_CB15 Slightly overcosted removal" data-flag="@X" onclick="openSidebar('ASM_99_CB15 Slightly overcosted removal',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\138_CR14 effic direct dmg, prob 4.png" id="ASM_138_CR14 effic direct dmg, prob 4" data-flag="@X" onclick="openSidebar('ASM_138_CR14 effic direct dmg, prob 4',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\181_CG16 (free space).png" id="ASM_181_CG16 (free space)" data-flag="@X" onclick="openSidebar('ASM_181_CG16 (free space)',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ASM_e" data-flag="@E" onclick="openSidebar('ASM_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ASM_e" data-flag="@E" onclick="openSidebar('ASM_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\100_CB16 noncrea.png" id="ASM_100_CB16 noncrea" data-flag="@X" onclick="openSidebar('ASM_100_CB16 noncrea',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\139_CR15 BIG direct damage.png" id="ASM_139_CR15 BIG direct damage" data-flag="@X" onclick="openSidebar('ASM_139_CR15 BIG direct damage',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ASM_e" data-flag="@E" onclick="openSidebar('ASM_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ASM_e" data-flag="@E" onclick="openSidebar('ASM_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ASM_e" data-flag="@E" onclick="openSidebar('ASM_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ASM_e" data-flag="@E" onclick="openSidebar('ASM_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\140_CR16 (free space).png" id="ASM_140_CR16 (free space)" data-flag="@X" onclick="openSidebar('ASM_140_CR16 (free space)',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ASM_e" data-flag="@E" onclick="openSidebar('ASM_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ASM_er" data-flag="@E" onclick="openSidebar('ASM_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ASM_er" data-flag="@E" onclick="openSidebar('ASM_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ASM_er" data-flag="@E" onclick="openSidebar('ASM_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ASM_er" data-flag="@E" onclick="openSidebar('ASM_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ASM_er" data-flag="@E" onclick="openSidebar('ASM_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ASM_e" data-flag="@E" onclick="openSidebar('ASM_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ASM_e" data-flag="@E" onclick="openSidebar('ASM_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ASM_e" data-flag="@E" onclick="openSidebar('ASM_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ASM_e" data-flag="@E" onclick="openSidebar('ASM_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\213_RM01.png" id="ASM_213_RM01" data-flag="@X" onclick="openSidebar('ASM_213_RM01',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ASM_er" data-flag="@E" onclick="openSidebar('ASM_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ASM_er" data-flag="@E" onclick="openSidebar('ASM_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ASM_er" data-flag="@E" onclick="openSidebar('ASM_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ASM_er" data-flag="@E" onclick="openSidebar('ASM_er',false)"></div>
+				<div id="colorless" class="anchor"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\1_RX01.png" id="ASM_1_RX01" data-flag="@X" onclick="openSidebar('ASM_1_RX01',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\2_RX02.png" id="ASM_2_RX02" data-flag="@X" onclick="openSidebar('ASM_2_RX02',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\3_RX03.png" id="ASM_3_RX03" data-flag="@X" onclick="openSidebar('ASM_3_RX03',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\4_RX04.png" id="ASM_4_RX04" data-flag="@X" onclick="openSidebar('ASM_4_RX04',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\5_RX05.png" id="ASM_5_RX05" data-flag="@X" onclick="openSidebar('ASM_5_RX05',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\6_RX06.png" id="ASM_6_RX06" data-flag="@X" onclick="openSidebar('ASM_6_RX06',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\251_UA01 Lazotep Blade.png" id="ASM_251_UA01 Lazotep Blade" data-flag="@X" onclick="openSidebar('ASM_251_UA01 Lazotep Blade',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\252_UA02 Icon of Unity.png" id="ASM_252_UA02 Icon of Unity" data-flag="@X" onclick="openSidebar('ASM_252_UA02 Icon of Unity',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\253_UA03 Spellfire Khopesh.png" id="ASM_253_UA03 Spellfire Khopesh" data-flag="@X" onclick="openSidebar('ASM_253_UA03 Spellfire Khopesh',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\254_UA04nonc, connected to Betray.png" id="ASM_254_UA04nonc, connected to Betray" data-flag="@X" onclick="openSidebar('ASM_254_UA04nonc, connected to Betray',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\255_UA05 1 mana artifact creature.png" id="ASM_255_UA05 1 mana artifact creature" data-flag="@X" onclick="openSidebar('ASM_255_UA05 1 mana artifact creature',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\245_CA01 Two-mana creature (variance buster).png" id="ASM_245_CA01 Two-mana creature (variance buster)" data-flag="@X" onclick="openSidebar('ASM_245_CA01 Two-mana creature (variance buster)',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\246_CA02Three-mana creature.png" id="ASM_246_CA02Three-mana creature" data-flag="@X" onclick="openSidebar('ASM_246_CA02Three-mana creature',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\247_CA03 Grounds Guardian.png" id="ASM_247_CA03 Grounds Guardian" data-flag="@X" onclick="openSidebar('ASM_247_CA03 Grounds Guardian',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\248_CA04Removal.png" id="ASM_248_CA04Removal" data-flag="@X" onclick="openSidebar('ASM_248_CA04Removal',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\249_CA05Manalith+ ability.png" id="ASM_249_CA05Manalith+ ability" data-flag="@X" onclick="openSidebar('ASM_249_CA05Manalith+ ability',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\250_CA06 Land fixing.png" id="ASM_250_CA06 Land fixing" data-flag="@X" onclick="openSidebar('ASM_250_CA06 Land fixing',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ASM_e" data-flag="@E" onclick="openSidebar('ASM_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ASM_e" data-flag="@E" onclick="openSidebar('ASM_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ASM_e" data-flag="@E" onclick="openSidebar('ASM_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ASM_er" data-flag="@E" onclick="openSidebar('ASM_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ASM_er" data-flag="@E" onclick="openSidebar('ASM_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ASM_er" data-flag="@E" onclick="openSidebar('ASM_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ASM_er" data-flag="@E" onclick="openSidebar('ASM_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ASM_er" data-flag="@E" onclick="openSidebar('ASM_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\257_RX07 Mythic Oasis Land.png" id="ASM_257_RX07 Mythic Oasis Land" data-flag="@X" onclick="openSidebar('ASM_257_RX07 Mythic Oasis Land',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\258_RX08 Foreboding Gate.png" id="ASM_258_RX08 Foreboding Gate" data-flag="@X" onclick="openSidebar('ASM_258_RX08 Foreboding Gate',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\259_UL01 W-dominant Oasis.png" id="ASM_259_UL01 W-dominant Oasis" data-flag="@X" onclick="openSidebar('ASM_259_UL01 W-dominant Oasis',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\260_UL02 U-dominant Oasis.png" id="ASM_260_UL02 U-dominant Oasis" data-flag="@X" onclick="openSidebar('ASM_260_UL02 U-dominant Oasis',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\261_UL03 B-dominant Oasis.png" id="ASM_261_UL03 B-dominant Oasis" data-flag="@X" onclick="openSidebar('ASM_261_UL03 B-dominant Oasis',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\262_UL04 R-dominant Oasis.png" id="ASM_262_UL04 R-dominant Oasis" data-flag="@X" onclick="openSidebar('ASM_262_UL04 R-dominant Oasis',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\263_UL05 G-dominant Oasis.png" id="ASM_263_UL05 G-dominant Oasis" data-flag="@X" onclick="openSidebar('ASM_263_UL05 G-dominant Oasis',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\256_CL01 Winding River.png" id="ASM_256_CL01 Winding River" data-flag="@X" onclick="openSidebar('ASM_256_CL01 Winding River',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ASM_e" data-flag="@E" onclick="openSidebar('ASM_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ASM_e" data-flag="@E" onclick="openSidebar('ASM_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ASM_er" data-flag="@E" onclick="openSidebar('ASM_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ASM_er" data-flag="@E" onclick="openSidebar('ASM_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ASM_er" data-flag="@E" onclick="openSidebar('ASM_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ASM_er" data-flag="@E" onclick="openSidebar('ASM_er',false)"></div>
+				<div id="token" class="anchor"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\1t_Wish.png" id="ASM_1t_Wish" data-flag="@X" onclick="openSidebar('ASM_1t_Wish',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\2t_Zombie.png" id="ASM_2t_Zombie" data-flag="@X" onclick="openSidebar('ASM_2t_Zombie',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\3t_Cat.png" id="ASM_3t_Cat" data-flag="@X" onclick="openSidebar('ASM_3t_Cat',false)"></div>
+				<div class="container"><img loading="lazy" alt="sets\ASM-files\img\4t_Snake.png" id="ASM_4t_Snake" data-flag="@X" onclick="openSidebar('ASM_4t_Snake',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\e.png" id="ASM_e" data-flag="@E" onclick="openSidebar('ASM_e',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ASM_er" data-flag="@E" onclick="openSidebar('ASM_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ASM_er" data-flag="@E" onclick="openSidebar('ASM_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ASM_er" data-flag="@E" onclick="openSidebar('ASM_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ASM_er" data-flag="@E" onclick="openSidebar('ASM_er',false)"></div>
+				<div class="container"><img loading="lazy" alt="img\er.png" id="ASM_er" data-flag="@E" onclick="openSidebar('ASM_er',false)"></div>
+	</div>
+	</div>
+	<div class="sidebar" id="sidebar">
+		<div class="sidebar-container">
+			<img id="sidebar_img" class="sidebar-img">
+			<img id="sidebar_h_img" class="sidebar-h-img">
+			<button class="flip-btn" id="sidebar-flip-btn" onclick="imgFlip('sidebar_img')"></button>
+		</div>
+		<button class="close-btn" onclick="closeSidebar()"></button>
+	</div>
+	<div class="footer"></div>
+
+	<script>
+	const delay = ms => new Promise(res => setTimeout(res, ms));
+		let specialchars = "";
+
+	document.addEventListener('DOMContentLoaded', async function() {
+		await fetch(rootPath + '/lists/all-cards.json')
+					.then(response => response.json())
+					.then(json => {
+						card_list = json;
+				}).catch(error => console.error('Error:', error));
+
+				await fetch(rootPath + '/resources/replacechars.txt')
+					.then(response => response.text())
+					.then(text => {
+						specialchars = text; 
+				}).catch(error => console.error('Error:', error));
+
+				card_list_arrayified = card_list.cards;
+
+				let all_tags = new Set();
+				card_list_arrayified.forEach(card => {
+					if (card.notes) {
+						const tagMatches = card.notes.matchAll(/!tag(?:<\w+>)?\s+([^\s\n\b]+)/g);
+						for (const match of tagMatches) {
+							all_tags.add(match[1]);
+						}
+					}
+				});
+
+				const searchInput = document.getElementById("search");
+				const tagDropdown = document.getElementById("tag-dropdown");
+
+				// Create a mirror element for position calculation
+				const mirror = document.createElement("div");
+				Object.assign(mirror.style, {
+					position: "absolute",
+					visibility: "hidden",
+					whiteSpace: "pre",
+					font: getComputedStyle(searchInput).font,
+					padding: "0", // No padding for pure text measurement
+					border: "none",
+					boxSizing: "content-box"
+				});
+				document.body.appendChild(mirror);
+
+				if (searchInput && tagDropdown) {
+					tagDropdown.style.width = "auto";
+					tagDropdown.style.minWidth = "75px";
+					tagDropdown.style.maxWidth = "300px";
+					tagDropdown.style.maxHeight = "200px";
+					tagDropdown.style.overflowY = "auto";
+
+					const updateDropdown = function() {
+						const value = searchInput.value;
+						const cursorPosition = searchInput.selectionStart;
+						
+						// Find the tag: prefix immediately preceding the cursor
+						const lastTagIndex = value.substring(0, cursorPosition).lastIndexOf("tag:");
+						
+						if (lastTagIndex !== -1) {
+							const queryStart = lastTagIndex + 4;
+							const query = value.substring(queryStart, cursorPosition);
+							
+							if (!query.includes(" ")) {
+								const filteredTags = Array.from(all_tags).filter(tag => tag.toLowerCase().startsWith(query.toLowerCase())).sort();
+								if (filteredTags.length > 0) {
+									tagDropdown.innerHTML = "";
+									filteredTags.forEach(tag => {
+										const div = document.createElement("div");
+										div.innerText = tag;
+										div.style.padding = "5px 10px";
+										div.style.cursor = "pointer";
+										div.style.whiteSpace = "nowrap";
+										div.onmouseover = () => div.style.background = "#f0f0f0";
+										div.onmouseout = () => div.style.background = "white";
+										div.onclick = () => {
+											const newValue = value.substring(0, queryStart) + tag + " " + value.substring(cursorPosition);
+											searchInput.value = newValue;
+											tagDropdown.style.display = "none";
+											searchInput.focus();
+											const newCursorPos = queryStart + tag.length + 1;
+											searchInput.setSelectionRange(newCursorPos, newCursorPos);
+										};
+										tagDropdown.appendChild(div);
+									});
+
+									// Calculate position
+									mirror.textContent = value.substring(0, lastTagIndex + 4);
+									const textWidth = mirror.getBoundingClientRect().width;
+									const inputPaddingLeft = parseFloat(getComputedStyle(searchInput).paddingLeft) || 0;
+									
+									tagDropdown.style.left = Math.min(textWidth + inputPaddingLeft, searchInput.offsetWidth - tagDropdown.offsetWidth) + "px";
+									tagDropdown.style.display = "block";
+									return;
+								}
+							}
+						}
+						tagDropdown.style.display = "none";
+					};
+
+					searchInput.addEventListener("input", updateDropdown);
+					searchInput.addEventListener("click", updateDropdown);
+					searchInput.addEventListener("keyup", updateDropdown);
+
+					document.addEventListener("click", function(e) {
+						if (e.target !== searchInput && e.target !== tagDropdown) {
+							tagDropdown.style.display = "none";
+						}
+					});
+				}
+
+		preloadImgs = document.getElementsByClassName('preload-hidden');
+
+		let images_loaded = [];
+
+		do {
+			await delay(100);
+			images_loaded = []
+			for (const img of preloadImgs)
+			{
+				images_loaded.push(isImageOk(img));
+			}
+		}
+		while (images_loaded.includes(false));
+
+		
+		loadImages();
+	});
+
+	function isImageOk(img) {
+		if (!img.complete || img.naturalWidth == 0) {
+			return false;
+		}
+
+		return true;
+	}
+
+	function loadImages() {
+		const images = document.querySelectorAll('.grid-container img');
+
+		images.forEach(img => {
+			const flag = img.getAttribute('data-flag');
+
+			if (flag === '@N') {
+				img.src = rootPath + '/img/card_back.png';
+				img.removeAttribute("onclick");
+				img.style.cursor = 'default';
+			}
+			else
+			{
+				img.src = rootPath + '/' + img.alt;
+				if (img.dataset.alt_src) {
+					img.dataset.alt_src = rootPath + '/' + img.dataset.alt_src;
+				}
+
+				if (flag === '@E') {
+					img.removeAttribute("onclick");
+					img.style.cursor = 'default';
+				}
+			}
+
+			img.style.visibility = 'visible';
+		});
+	}
+
+	window.addEventListener('resize', function(event) {
+		setSidebarTop();
+	}, true);
+
+	function setSidebarTop() {
+		let vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
+		let sh = document.getElementById('sidebar').offsetHeight;
+		let height = 100 * ((vh - sh) / 2) / vh;
+		document.getElementById('sidebar').style.top = height + '%';
+	}
+
+	let horizontal = false;
+
+	function imgFlip(num) {
+		const img = document.getElementById(num);
+		const seconds = 0.2;
+		const rotated_img = document.getElementById('sidebar_h_img');
+
+        img.style.transition = seconds.toString() + "s";
+        img.style.transform = "rotateY(90deg)";
+
+        if (num == 'sidebar_img')
+		{
+			const sidebar_img = document.getElementById('sidebar_img');
+
+			if (horizontal)
+            {
+            	rotated_img.style.transition = seconds.toString() + "s";
+           		rotated_img.style.transform = "rotateY(90deg) rotate(90deg)";
+
+           		if (rotated_img.style.opacity != "0") {
+		            setTimeout(() => {
+		                rotated_img.style.opacity = "0";
+		                img.style.filter = "none";
+		            }, (seconds / 2) * 1000);
+		        }
+		        else {
+		        	setTimeout(() => {
+		                rotated_img.style.opacity = "1";
+		                img.style.filter = "blur(2px) brightness(0.7)";
+		            }, (seconds / 2) * 1000);
+		        }
+            }
+		}
+
+         setTimeout(function() {
+            tmp = document.getElementById(num).src;
+			document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
+			document.getElementById(num).dataset.alt_src = tmp;
+
+            img.style.transition = seconds.toString() + "s";
+            img.style.transform = "rotateY(0deg)";
+
+            if (horizontal)
+            {
+            	rotated_img.style.transition = seconds.toString() + "s";
+           		rotated_img.style.transform = "rotateY(0deg) rotate(90deg)";
+            }
+        }, seconds * 1000);
+	}
+
+	function openSidebar(id, h = false) {
+		horizontal = h;
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+
+		document.getElementById('sidebar').style.display = 'grid';
+
+		const rotated_img = document.getElementById('sidebar_h_img');
+		const sidebar_img = document.getElementById('sidebar_img');
+
+		sidebar_img.style.transition = "none";
+		rotated_img.style.transition = "none";
+		sidebar_img.src = document.getElementById(id).src;
+		rotated_img.src = document.getElementById(id).src.replace("_back", "_front");
+
+		if (horizontal && !sidebar_img.src.includes("_back"))
+		{
+			rotated_img.style.opacity = "1";
+			sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+		}
+		else
+		{
+			rotated_img.style.opacity = "0";
+			sidebar_img.style.filter = "";
+		}
+
+		if (document.getElementById(id).dataset.alt_src)
+		{
+			document.getElementById('sidebar_img').dataset.alt_src = document.getElementById(id).dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'block';
+		}
+		else
+		{
+			delete document.getElementById('sidebar_img').dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'none';
+		}
+		document.getElementById('main-content').style.width = '60%';
+
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+		setSidebarTop();
+	}
+
+	function closeSidebar() {
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+
+		document.getElementById('sidebar').style.display = 'none';
+		document.getElementById('main-content').style.width = '100%';
+
+
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+	}
+
+	function rolldown() {
+		dropdown.style.gridTemplateColumns = "repeat(3, 1fr)";
+		var sets = document.querySelectorAll('.inactive');
+		for(const set of sets)
+		{
+			set.style.height = "auto";
+			set.style.margin = "5px";
+		}
+	}
+
+	function rollup() {
+		dropdown.style.gridTemplateColumns = "1fr";
+		var sets = document.querySelectorAll('.inactive');
+		for(const set of sets)
+		{
+			set.style.height = "0px";
+			set.style.margin = "0px 5px";
+		}
+	}
+
+	document.getElementById("search").addEventListener("keypress", function(event) {
+		if (event.key === "Enter") {
+			event.preventDefault();
+			search();
+		}
+	});
+
+	function search() {
+		const url = new URL(rootPath + '/search', window.location.href.split('?')[0].split('/').slice(0, -1).join('/') + '/');
+		url.searchParams.append('search', document.getElementById("search").value);
+		window.location.href = url.pathname + url.search;
+	}
+
+		function randomCard() {
+				let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
+				let random_card = card_list_arrayified[i];
+
+				const url = new URL(rootPath + '/card', window.location.href.split('?')[0].split('/').slice(0, -1).join('/') + '/');
+				const params = {
+					set: random_card.set,
+					num: random_card.number,
+					name: random_card.card_name
+				}
+				for (const key in params) {
+					url.searchParams.append(key, params[key]);
+				}
+
+				window.location.href = url.pathname + url.search;
+			}
+	</script>
+</body>
+</html>
