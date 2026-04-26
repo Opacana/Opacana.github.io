@@ -436,7 +436,7 @@
         "position": ""
     },
     {
-        "card_name": "RU03 creature",
+        "card_name": "RU03 Interdiction Angel",
         "number": 66,
         "shape": "normal",
         "set": "ASM",
@@ -828,7 +828,7 @@
         "position": ""
     },
     {
-        "card_name": "UW06 3-cost crea (for R/W)",
+        "card_name": "UW06 Callous Charioteer",
         "number": 37,
         "shape": "normal",
         "set": "ASM",
@@ -844,7 +844,7 @@
         "position": ""
     },
     {
-        "card_name": "UB06 5-cost Creature (for ALL)",
+        "card_name": "UB06 Omnivorous Exhumer",
         "number": 115,
         "shape": "normal",
         "set": "ASM",
@@ -1196,7 +1196,7 @@
         "position": ""
     },
     {
-        "card_name": "CU01 2-cost crea (for U/B)",
+        "card_name": "CU01 Soul Administrator",
         "number": 46,
         "shape": "normal",
         "set": "ASM",
@@ -1236,7 +1236,7 @@
         "position": ""
     },
     {
-        "card_name": "CU02 2-cost crea (for U/R)",
+        "card_name": "CU02 Aven Theorist",
         "number": 47,
         "shape": "normal",
         "set": "ASM",
@@ -1244,7 +1244,7 @@
         "position": ""
     },
     {
-        "card_name": "CB01 1or2-cost creature (for w/b)",
+        "card_name": "CB01 Serrated Scorpion",
         "number": 85,
         "shape": "normal",
         "set": "ASM",
@@ -1276,7 +1276,7 @@
         "position": ""
     },
     {
-        "card_name": "CU03 3-cost crea (for U/W)",
+        "card_name": "CU03 Dedicated Scribe",
         "number": 48,
         "shape": "normal",
         "set": "ASM",
@@ -1316,7 +1316,7 @@
         "position": ""
     },
     {
-        "card_name": "CU04 3-cost crea (for U/G)",
+        "card_name": "CU04 Seshen Pollinators",
         "number": 49,
         "shape": "normal",
         "set": "ASM",
@@ -1324,7 +1324,7 @@
         "position": ""
     },
     {
-        "card_name": "CB03 2-cost crea (for B/R)",
+        "card_name": "CB03 Sentimental Thug",
         "number": 87,
         "shape": "normal",
         "set": "ASM",
@@ -1348,7 +1348,7 @@
         "position": ""
     },
     {
-        "card_name": "CW05 Three-mana creature general",
+        "card_name": "CW05 Conflicted Angel",
         "number": 11,
         "shape": "normal",
         "set": "ASM",
@@ -1356,7 +1356,7 @@
         "position": ""
     },
     {
-        "card_name": "CU05 3-cost crea (for U/R)",
+        "card_name": "CU05 Zenith Hunter",
         "number": 50,
         "shape": "normal",
         "set": "ASM",
@@ -1364,7 +1364,7 @@
         "position": ""
     },
     {
-        "card_name": "CB04 3-mana creature (for w/b)",
+        "card_name": "CB04 Canopic Harvester",
         "number": 88,
         "shape": "normal",
         "set": "ASM",
@@ -1388,7 +1388,7 @@
         "position": ""
     },
     {
-        "card_name": "CW06 Three-mana creature r/w",
+        "card_name": "CW06 Coordinated Infantry",
         "number": 12,
         "shape": "normal",
         "set": "ASM",
@@ -1396,7 +1396,7 @@
         "position": ""
     },
     {
-        "card_name": "CU06 4-cost crea (for U/B)",
+        "card_name": "CU06 Frozen Sands Cadre",
         "number": 51,
         "shape": "normal",
         "set": "ASM",
@@ -1404,7 +1404,7 @@
         "position": ""
     },
     {
-        "card_name": "CB05 3-cost crea (for U/B)",
+        "card_name": "CB05 Carcass Collector",
         "number": 89,
         "shape": "normal",
         "set": "ASM",
@@ -1428,7 +1428,7 @@
         "position": ""
     },
     {
-        "card_name": "CW07 Three-mana creature w/b",
+        "card_name": "CW07 Cruel Adjudicator",
         "number": 13,
         "shape": "normal",
         "set": "ASM",
@@ -1436,7 +1436,7 @@
         "position": ""
     },
     {
-        "card_name": "CU07 5or6-cost crea (for U/W)",
+        "card_name": "CU07 Vindictive Sphinx",
         "number": 52,
         "shape": "normal",
         "set": "ASM",
@@ -1444,7 +1444,7 @@
         "position": ""
     },
     {
-        "card_name": "CB06 4-cost crea (for B/R)",
+        "card_name": "CB06 Ferocious Cobra",
         "number": 90,
         "shape": "normal",
         "set": "ASM",
@@ -1476,7 +1476,7 @@
         "position": ""
     },
     {
-        "card_name": "CU08 6or7-cost crea (for U/G)",
+        "card_name": "CU08 Avatar of Sab-Sunen",
         "number": 53,
         "shape": "normal",
         "set": "ASM",
@@ -1484,7 +1484,7 @@
         "position": ""
     },
     {
-        "card_name": "CB07 4or5-cost cre (for w/b)",
+        "card_name": "CB07 Ifnir Farseer",
         "number": 91,
         "shape": "normal",
         "set": "ASM",
@@ -1508,7 +1508,7 @@
         "position": ""
     },
     {
-        "card_name": "CW09 Four-mana creature for W/U",
+        "card_name": "CW09 Broken Lands Monitor",
         "number": 15,
         "shape": "normal",
         "set": "ASM",
@@ -1524,7 +1524,7 @@
         "position": ""
     },
     {
-        "card_name": "CB08 5or6-cost crea (for U/B)",
+        "card_name": "CB08 Returned Master",
         "number": 92,
         "shape": "normal",
         "set": "ASM",
@@ -1540,7 +1540,7 @@
         "position": ""
     },
     {
-        "card_name": "CG09 6-cost creature (for g/r)",
+        "card_name": "CG09 Avenging Elephant",
         "number": 174,
         "shape": "normal",
         "set": "ASM",
@@ -1548,7 +1548,7 @@
         "position": ""
     },
     {
-        "card_name": "CW10 Five- or six-mana creature for w/b",
+        "card_name": "CW10 Blessed Revivalist",
         "number": 16,
         "shape": "normal",
         "set": "ASM",
@@ -1564,7 +1564,7 @@
         "position": ""
     },
     {
-        "card_name": "CB09 6or7-cost crea (for B/G)",
+        "card_name": "CB09 Burial Chamber Guardian",
         "number": 93,
         "shape": "normal",
         "set": "ASM",
@@ -1588,7 +1588,7 @@
         "position": ""
     },
     {
-        "card_name": "CW11 Six- or seven-mana creature for w/g",
+        "card_name": "CW11 Mindless Servant",
         "number": 17,
         "shape": "normal",
         "set": "ASM",
@@ -1596,9 +1596,9 @@
         "position": ""
     },
     {
-        "card_name": "CU11 cantrip (1 card draw)",
+        "card_name": "CU11 Ancient Prophecies",
         "number": 56,
-        "shape": "normal",
+        "shape": "aftermath",
         "set": "ASM",
         "rotated": false,
         "position": ""
@@ -1628,7 +1628,7 @@
         "position": ""
     },
     {
-        "card_name": "CW12Combat-related removal",
+        "card_name": "CW12 Swift Response",
         "number": 18,
         "shape": "normal",
         "set": "ASM",
@@ -1668,7 +1668,7 @@
         "position": ""
     },
     {
-        "card_name": "CW13 Banishing Light",
+        "card_name": "CW13 Deity's Presence",
         "number": 19,
         "shape": "normal",
         "set": "ASM",
@@ -1708,7 +1708,7 @@
         "position": ""
     },
     {
-        "card_name": "CW14 Combat trick",
+        "card_name": "CW14 Ready Bows",
         "number": 20,
         "shape": "normal",
         "set": "ASM",
@@ -1748,9 +1748,9 @@
         "position": ""
     },
     {
-        "card_name": "CW15 Disenchant/removal spell",
+        "card_name": "CW15 Review",
         "number": 21,
-        "shape": "normal",
+        "shape": "aftermath",
         "set": "ASM",
         "rotated": false,
         "position": ""
@@ -1796,7 +1796,7 @@
         "position": ""
     },
     {
-        "card_name": "CU16 noncreature",
+        "card_name": "CU16 colored artifact",
         "number": 61,
         "shape": "normal",
         "set": "ASM",

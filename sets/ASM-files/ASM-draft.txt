@@ -51,33 +51,33 @@
 			}
 		},
 		{
-			"name": "CW05 Three-mana creature general",
+			"name": "CW05 Conflicted Angel",
 			"rarity": "common",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Angel",
 			"collector_number": "11",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/11_CW05 Three-mana creature general.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/11_CW05 Conflicted Angel.png"
 			}
 		},
 		{
-			"name": "CW06 Three-mana creature r/w",
+			"name": "CW06 Coordinated Infantry",
 			"rarity": "common",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Human Warrior Soldier",
 			"collector_number": "12",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/12_CW06 Three-mana creature r/w.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/12_CW06 Coordinated Infantry.png"
 			}
 		},
 		{
-			"name": "CW07 Three-mana creature w/b",
+			"name": "CW07 Cruel Adjudicator",
 			"rarity": "common",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{1}{W}{W}",
+			"type": "Creature — Bird Advisor Soldier",
 			"collector_number": "13",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/13_CW07 Three-mana creature w/b.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/13_CW07 Cruel Adjudicator.png"
 			}
 		},
 		{
@@ -91,73 +91,73 @@
 			}
 		},
 		{
-			"name": "CW09 Four-mana creature for W/U",
+			"name": "CW09 Broken Lands Monitor",
 			"rarity": "common",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Angel",
 			"collector_number": "15",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/15_CW09 Four-mana creature for W/U.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/15_CW09 Broken Lands Monitor.png"
 			}
 		},
 		{
-			"name": "CW10 Five- or six-mana creature for w/b",
+			"name": "CW10 Blessed Revivalist",
 			"rarity": "common",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{3}{W}{W}",
+			"type": "Creature — Jackal Warlock",
 			"collector_number": "16",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/16_CW10 Five- or six-mana creature for w/b.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/16_CW10 Blessed Revivalist.png"
 			}
 		},
 		{
-			"name": "CW11 Six- or seven-mana creature for w/g",
+			"name": "CW11 Mindless Servant",
 			"rarity": "common",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{4}{W}{W}",
+			"type": "Creature — Golem",
 			"collector_number": "17",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/17_CW11 Six- or seven-mana creature for w/g.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/17_CW11 Mindless Servant.png"
 			}
 		},
 		{
-			"name": "CW12Combat-related removal",
+			"name": "CW12 Swift Response",
 			"rarity": "common",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{1}{W}",
+			"type": "Instant",
 			"collector_number": "18",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/18_CW12Combat-related removal.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/18_CW12 Swift Response.png"
 			}
 		},
 		{
-			"name": "CW13 Banishing Light",
+			"name": "CW13 Deity's Presence",
 			"rarity": "common",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{1}{W}",
+			"type": "Enchantment",
 			"collector_number": "19",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/19_CW13 Banishing Light.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/19_CW13 Deity's Presence.png"
 			}
 		},
 		{
-			"name": "CW14 Combat trick",
+			"name": "CW14 Ready Bows",
 			"rarity": "common",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{W}",
+			"type": "Instant",
 			"collector_number": "20",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/20_CW14 Combat trick.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/20_CW14 Ready Bows.png"
 			}
 		},
 		{
-			"name": "CW15 Disenchant/removal spell",
+			"name": "CW15 Review",
 			"rarity": "common",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{2}{W}",
+			"type": "Instant",
 			"collector_number": "21",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/21_CW15 Disenchant/removal spell.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/21_CW15 Review.png"
 			}
 		},
 		{
@@ -201,83 +201,83 @@
 			}
 		},
 		{
-			"name": "CU01 2-cost crea (for U/B)",
+			"name": "CU01 Soul Administrator",
 			"rarity": "common",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Zombie Jackal Advisor",
 			"collector_number": "46",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/46_CU01 2-cost crea (for U/B).png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/46_CU01 Soul Administrator.png"
 			}
 		},
 		{
-			"name": "CU02 2-cost crea (for U/R)",
+			"name": "CU02 Aven Theorist",
 			"rarity": "common",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Bird Wizard",
 			"collector_number": "47",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/47_CU02 2-cost crea (for U/R).png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/47_CU02 Aven Theorist.png"
 			}
 		},
 		{
-			"name": "CU03 3-cost crea (for U/W)",
+			"name": "CU03 Dedicated Scribe",
 			"rarity": "common",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{1}{U}{U}",
+			"type": "Creature — Human Advisor",
 			"collector_number": "48",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/48_CU03 3-cost crea (for U/W).png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/48_CU03 Dedicated Scribe.png"
 			}
 		},
 		{
-			"name": "CU04 3-cost crea (for U/G)",
+			"name": "CU04 Seshen Pollinators",
 			"rarity": "common",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Insect",
 			"collector_number": "49",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/49_CU04 3-cost crea (for U/G).png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/49_CU04 Seshen Pollinators.png"
 			}
 		},
 		{
-			"name": "CU05 3-cost crea (for U/R)",
+			"name": "CU05 Zenith Hunter",
 			"rarity": "common",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Jackal Wizard",
 			"collector_number": "50",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/50_CU05 3-cost crea (for U/R).png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/50_CU05 Zenith Hunter.png"
 			}
 		},
 		{
-			"name": "CU06 4-cost crea (for U/B)",
+			"name": "CU06 Frozen Sands Cadre",
 			"rarity": "common",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Zombie Soldier",
 			"collector_number": "51",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/51_CU06 4-cost crea (for U/B).png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/51_CU06 Frozen Sands Cadre.png"
 			}
 		},
 		{
-			"name": "CU07 5or6-cost crea (for U/W)",
+			"name": "CU07 Vindictive Sphinx",
 			"rarity": "common",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{3}{U}{U}",
+			"type": "Creature — Sphinx Warlock",
 			"collector_number": "52",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/52_CU07 5or6-cost crea (for U/W).png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/52_CU07 Vindictive Sphinx.png"
 			}
 		},
 		{
-			"name": "CU08 6or7-cost crea (for U/G)",
+			"name": "CU08 Avatar of Sab-Sunen",
 			"rarity": "common",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{4}{U}{U}",
+			"type": "Creature — Frog Avatar",
 			"collector_number": "53",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/53_CU08 6or7-cost crea (for U/G).png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/53_CU08 Avatar of Sab-Sunen.png"
 			}
 		},
 		{
@@ -301,13 +301,13 @@
 			}
 		},
 		{
-			"name": "CU11 cantrip (1 card draw)",
+			"name": "CU11 Ancient Prophecies",
 			"rarity": "common",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{1}{U}",
+			"type": "Sorcery",
 			"collector_number": "56",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/56_CU11 cantrip (1 card draw).png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/56_CU11 Ancient Prophecies.png"
 			}
 		},
 		{
@@ -323,8 +323,8 @@
 		{
 			"name": "CU13 Witness Protection Aura",
 			"rarity": "common",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{2}{U}",
+			"type": "Enchantment — Aura",
 			"collector_number": "58",
 			"image_uris": {
 				"en": "https://Opacana.github.io/sets/ASM-files/img/58_CU13 Witness Protection Aura.png"
@@ -351,13 +351,13 @@
 			}
 		},
 		{
-			"name": "CU16 noncreature",
+			"name": "CU16 colored artifact",
 			"rarity": "common",
 			"mana_cost": "",
-			"type": "",
+			"type": "Artifact",
 			"collector_number": "61",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/61_CU16 noncreature.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/61_CU16 colored artifact.png"
 			}
 		},
 		{
@@ -391,13 +391,13 @@
 			}
 		},
 		{
-			"name": "CB01 1or2-cost creature (for w/b)",
+			"name": "CB01 Serrated Scorpion",
 			"rarity": "common",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{B}",
+			"type": "Creature — Scorpion",
 			"collector_number": "85",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/85_CB01 1or2-cost creature (for w/b).png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/85_CB01 Serrated Scorpion.png"
 			}
 		},
 		{
@@ -411,73 +411,73 @@
 			}
 		},
 		{
-			"name": "CB03 2-cost crea (for B/R)",
+			"name": "CB03 Sentimental Thug",
 			"rarity": "common",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Jackal Warrior Rogue",
 			"collector_number": "87",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/87_CB03 2-cost crea (for B/R).png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/87_CB03 Sentimental Thug.png"
 			}
 		},
 		{
-			"name": "CB04 3-mana creature (for w/b)",
+			"name": "CB04 Canopic Harvester",
 			"rarity": "common",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Creature — Human Warlock",
 			"collector_number": "88",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/88_CB04 3-mana creature (for w/b).png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/88_CB04 Canopic Harvester.png"
 			}
 		},
 		{
-			"name": "CB05 3-cost crea (for U/B)",
+			"name": "CB05 Carcass Collector",
 			"rarity": "common",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Bird Demon Zombie",
 			"collector_number": "89",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/89_CB05 3-cost crea (for U/B).png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/89_CB05 Carcass Collector.png"
 			}
 		},
 		{
-			"name": "CB06 4-cost crea (for B/R)",
+			"name": "CB06 Ferocious Cobra",
 			"rarity": "common",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{3}{B}",
+			"type": "Creature — Snake Horror",
 			"collector_number": "90",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/90_CB06 4-cost crea (for B/R).png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/90_CB06 Ferocious Cobra.png"
 			}
 		},
 		{
-			"name": "CB07 4or5-cost cre (for w/b)",
+			"name": "CB07 Ifnir Farseer",
 			"rarity": "common",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Creature — Demon Wizard",
 			"collector_number": "91",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/91_CB07 4or5-cost cre (for w/b).png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/91_CB07 Ifnir Farseer.png"
 			}
 		},
 		{
-			"name": "CB08 5or6-cost crea (for U/B)",
+			"name": "CB08 Returned Master",
 			"rarity": "common",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{4}{B}{B}",
+			"type": "Creature — Zombie Giant",
 			"collector_number": "92",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/92_CB08 5or6-cost crea (for U/B).png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/92_CB08 Returned Master.png"
 			}
 		},
 		{
-			"name": "CB09 6or7-cost crea (for B/G)",
+			"name": "CB09 Burial Chamber Guardian",
 			"rarity": "common",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{5}{B}{B}",
+			"type": "Creature — Zombie Golem",
 			"collector_number": "93",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/93_CB09 6or7-cost crea (for B/G).png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/93_CB09 Burial Chamber Guardian.png"
 			}
 		},
 		{
@@ -583,8 +583,8 @@
 		{
 			"name": "CR02 2-cost crea (for R/U)",
 			"rarity": "common",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{1}{R}",
+			"type": "Creature",
 			"collector_number": "126",
 			"image_uris": {
 				"en": "https://Opacana.github.io/sets/ASM-files/img/126_CR02 2-cost crea (for R/U).png"
@@ -594,7 +594,7 @@
 			"name": "CR03 2-cost crea (for R/W)",
 			"rarity": "common",
 			"mana_cost": "",
-			"type": "",
+			"type": "Creature — ??? Warrior",
 			"collector_number": "127",
 			"image_uris": {
 				"en": "https://Opacana.github.io/sets/ASM-files/img/127_CR03 2-cost crea (for R/W).png"
@@ -604,7 +604,7 @@
 			"name": "CR04 3-cost crea (for R/G)",
 			"rarity": "common",
 			"mana_cost": "",
-			"type": "",
+			"type": "Creature",
 			"collector_number": "128",
 			"image_uris": {
 				"en": "https://Opacana.github.io/sets/ASM-files/img/128_CR04 3-cost crea (for R/G).png"
@@ -613,8 +613,8 @@
 		{
 			"name": "CR05 3-cost crea (for R/B)",
 			"rarity": "common",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{2}{R}",
+			"type": "Creature",
 			"collector_number": "129",
 			"image_uris": {
 				"en": "https://Opacana.github.io/sets/ASM-files/img/129_CR05 3-cost crea (for R/B).png"
@@ -624,7 +624,7 @@
 			"name": "CR06 3or4-cost crea (for R/W)",
 			"rarity": "common",
 			"mana_cost": "",
-			"type": "",
+			"type": "Creature — ??? Soldier Warrior",
 			"collector_number": "130",
 			"image_uris": {
 				"en": "https://Opacana.github.io/sets/ASM-files/img/130_CR06 3or4-cost crea (for R/W).png"
@@ -841,13 +841,13 @@
 			}
 		},
 		{
-			"name": "CG09 6-cost creature (for g/r)",
+			"name": "CG09 Avenging Elephant",
 			"rarity": "common",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{4}{G}{G}",
+			"type": "Creature — Elephant",
 			"collector_number": "174",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/174_CG09 6-cost creature (for g/r).png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/174_CG09 Avenging Elephant.png"
 			}
 		},
 		{
@@ -991,13 +991,13 @@
 			}
 		},
 		{
-			"name": "UW06 3-cost crea (for R/W)",
+			"name": "UW06 Callous Charioteer",
 			"rarity": "uncommon",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Human Warrior",
 			"collector_number": "37",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/37_UW06 3-cost crea (for R/W).png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/37_UW06 Callous Charioteer.png"
 			}
 		},
 		{
@@ -1181,13 +1181,13 @@
 			}
 		},
 		{
-			"name": "UB06 5-cost Creature (for ALL)",
+			"name": "UB06 Omnivorous Exhumer",
 			"rarity": "uncommon",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{4}{B}",
+			"type": "Creature — Manticore",
 			"collector_number": "115",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/115_UB06 5-cost Creature (for ALL).png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/115_UB06 Omnivorous Exhumer.png"
 			}
 		},
 		{
@@ -1521,13 +1521,13 @@
 			}
 		},
 		{
-			"name": "RU03 creature",
+			"name": "RU03 Interdiction Angel",
 			"rarity": "rare",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Angel Archon",
 			"collector_number": "66",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/66_RU03 creature.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/66_RU03 Interdiction Angel.png"
 			}
 		},
 		{
@@ -2682,7 +2682,7 @@
 	2 RW07 noncreature
 	2 RU01 creature
 	2 RU02 creature
-	2 RU03 creature
+	2 RU03 Interdiction Angel
 	2 RU04 noncreature
 	2 RU05 noncreature
 	2 RU06 noncreature
@@ -2767,7 +2767,7 @@
 	4 UW03 2-cost crea (for W/U)
 	4 UW04 3-cost crea (for WB
 	4 UW05 Vessel of Purity
-	4 UW06 3-cost crea (for R/W)
+	4 UW06 Callous Charioteer
 	4 UW07 4-cost crea (for W/B)
 	4 UW08 5-cost crea (for W/U)
 	4 UW09 6-cost crea (for ALL)
@@ -2786,7 +2786,7 @@
 	4 UB02 2-cost Creature (for B/G)
 	4 UB03 2or3-cost Crea (for B/W)
 	4 UB04 Vessel of Darkness
-	4 UB06 5-cost Creature (for ALL)
+	4 UB06 Omnivorous Exhumer
 	4 UB07 6-cost Crea (for B/G)
 	4 UB09 noncre (supp. B/U)
 	4 UB10 noncre (supp. B/R)
@@ -2856,43 +2856,43 @@
 	8 CW02 Two Suns Fighter
 	8 CW03 Priest of the Angel's Path
 	8 CW04 Envoy of New Ways
-	8 CW05 Three-mana creature general
-	8 CW06 Three-mana creature r/w
-	8 CW07 Three-mana creature w/b
+	8 CW05 Conflicted Angel
+	8 CW06 Coordinated Infantry
+	8 CW07 Cruel Adjudicator
 	8 CW08 Phalanx Commander
-	8 CW09 Four-mana creature for W/U
-	8 CW10 Five- or six-mana creature for w/b
-	8 CW11 Six- or seven-mana creature for w/g
-	8 CW12Combat-related removal
-	8 CW13 Banishing Light
-	8 CW14 Combat trick
-	8 CW15 Disenchant/removal spell
+	8 CW09 Broken Lands Monitor
+	8 CW10 Blessed Revivalist
+	8 CW11 Mindless Servant
+	8 CW12 Swift Response
+	8 CW13 Deity's Presence
+	8 CW14 Ready Bows
+	8 CW15 Review
 	8 CW16 Feeding Time
-	8 CU01 2-cost crea (for U/B)
-	8 CU02 2-cost crea (for U/R)
-	8 CU03 3-cost crea (for U/W)
-	8 CU04 3-cost crea (for U/G)
-	8 CU05 3-cost crea (for U/R)
-	8 CU06 4-cost crea (for U/B)
-	8 CU07 5or6-cost crea (for U/W)
-	8 CU08 6or7-cost crea (for U/G)
+	8 CU01 Soul Administrator
+	8 CU02 Aven Theorist
+	8 CU03 Dedicated Scribe
+	8 CU04 Seshen Pollinators
+	8 CU05 Zenith Hunter
+	8 CU06 Frozen Sands Cadre
+	8 CU07 Vindictive Sphinx
+	8 CU08 Avatar of Sab-Sunen
 	8 CU09Protective instant
 	8 CU10 counterspell
-	8 CU11 cantrip (1 card draw)
+	8 CU11 Ancient Prophecies
 	8 CU12 Draw spell (two to three cards)
 	8 CU13 Witness Protection Aura
 	8 CU14 Top or bottom spell
 	8 CU15Modal spell
-	8 CU16 noncreature
-	8 CB01 1or2-cost creature (for w/b)
+	8 CU16 colored artifact
+	8 CB01 Serrated Scorpion
 	8 CB02 Fleshform Serket
-	8 CB03 2-cost crea (for B/R)
-	8 CB04 3-mana creature (for w/b)
-	8 CB05 3-cost crea (for U/B)
-	8 CB06 4-cost crea (for B/R)
-	8 CB07 4or5-cost cre (for w/b)
-	8 CB08 5or6-cost crea (for U/B)
-	8 CB09 6or7-cost crea (for B/G)
+	8 CB03 Sentimental Thug
+	8 CB04 Canopic Harvester
+	8 CB05 Carcass Collector
+	8 CB06 Ferocious Cobra
+	8 CB07 Ifnir Farseer
+	8 CB08 Returned Master
+	8 CB09 Burial Chamber Guardian
 	8 CB10 Eternal Moloch
 	8 CB11Combat trick
 	8 CB12 Card draw (added cost)
@@ -2923,7 +2923,7 @@
 	8 CG06 3or4-cost crea (for g/b)
 	8 CG07 4or5-cost crea (for g/w)
 	8 CG08 5-cost crea (for g/u)
-	8 CG09 6-cost creature (for g/r)
+	8 CG09 Avenging Elephant
 	8 CG10 6or7-cost creature (for ALL)
 	8 CG11Fight spell
 	8 CG12Bite spell
@@ -2944,43 +2944,43 @@
 	8 CW02 Two Suns Fighter
 	8 CW03 Priest of the Angel's Path
 	8 CW04 Envoy of New Ways
-	8 CW05 Three-mana creature general
-	8 CW06 Three-mana creature r/w
-	8 CW07 Three-mana creature w/b
+	8 CW05 Conflicted Angel
+	8 CW06 Coordinated Infantry
+	8 CW07 Cruel Adjudicator
 	8 CW08 Phalanx Commander
-	8 CW09 Four-mana creature for W/U
-	8 CW10 Five- or six-mana creature for w/b
-	8 CW11 Six- or seven-mana creature for w/g
-	8 CW12Combat-related removal
-	8 CW13 Banishing Light
-	8 CW14 Combat trick
-	8 CW15 Disenchant/removal spell
+	8 CW09 Broken Lands Monitor
+	8 CW10 Blessed Revivalist
+	8 CW11 Mindless Servant
+	8 CW12 Swift Response
+	8 CW13 Deity's Presence
+	8 CW14 Ready Bows
+	8 CW15 Review
 	8 CW16 Feeding Time
-	8 CU01 2-cost crea (for U/B)
-	8 CU02 2-cost crea (for U/R)
-	8 CU03 3-cost crea (for U/W)
-	8 CU04 3-cost crea (for U/G)
-	8 CU05 3-cost crea (for U/R)
-	8 CU06 4-cost crea (for U/B)
-	8 CU07 5or6-cost crea (for U/W)
-	8 CU08 6or7-cost crea (for U/G)
+	8 CU01 Soul Administrator
+	8 CU02 Aven Theorist
+	8 CU03 Dedicated Scribe
+	8 CU04 Seshen Pollinators
+	8 CU05 Zenith Hunter
+	8 CU06 Frozen Sands Cadre
+	8 CU07 Vindictive Sphinx
+	8 CU08 Avatar of Sab-Sunen
 	8 CU09Protective instant
 	8 CU10 counterspell
-	8 CU11 cantrip (1 card draw)
+	8 CU11 Ancient Prophecies
 	8 CU12 Draw spell (two to three cards)
 	8 CU13 Witness Protection Aura
 	8 CU14 Top or bottom spell
 	8 CU15Modal spell
-	8 CU16 noncreature
-	8 CB01 1or2-cost creature (for w/b)
+	8 CU16 colored artifact
+	8 CB01 Serrated Scorpion
 	8 CB02 Fleshform Serket
-	8 CB03 2-cost crea (for B/R)
-	8 CB04 3-mana creature (for w/b)
-	8 CB05 3-cost crea (for U/B)
-	8 CB06 4-cost crea (for B/R)
-	8 CB07 4or5-cost cre (for w/b)
-	8 CB08 5or6-cost crea (for U/B)
-	8 CB09 6or7-cost crea (for B/G)
+	8 CB03 Sentimental Thug
+	8 CB04 Canopic Harvester
+	8 CB05 Carcass Collector
+	8 CB06 Ferocious Cobra
+	8 CB07 Ifnir Farseer
+	8 CB08 Returned Master
+	8 CB09 Burial Chamber Guardian
 	8 CB10 Eternal Moloch
 	8 CB11Combat trick
 	8 CB12 Card draw (added cost)
@@ -3011,7 +3011,7 @@
 	8 CG06 3or4-cost crea (for g/b)
 	8 CG07 4or5-cost crea (for g/w)
 	8 CG08 5-cost crea (for g/u)
-	8 CG09 6-cost creature (for g/r)
+	8 CG09 Avenging Elephant
 	8 CG10 6or7-cost creature (for ALL)
 	8 CG11Fight spell
 	8 CG12Bite spell
@@ -3032,49 +3032,49 @@
 	12 CW02 Two Suns Fighter
 	12 CW03 Priest of the Angel's Path
 	12 CW04 Envoy of New Ways
-	12 CW05 Three-mana creature general
-	12 CW06 Three-mana creature r/w
-	12 CW07 Three-mana creature w/b
+	12 CW05 Conflicted Angel
+	12 CW06 Coordinated Infantry
+	12 CW07 Cruel Adjudicator
 	12 CW08 Phalanx Commander
-	12 CW09 Four-mana creature for W/U
-	12 CW10 Five- or six-mana creature for w/b
-	12 CW11 Six- or seven-mana creature for w/g
-	12 CW12Combat-related removal
-	12 CW13 Banishing Light
-	12 CW14 Combat trick
-	12 CW15 Disenchant/removal spell
+	12 CW09 Broken Lands Monitor
+	12 CW10 Blessed Revivalist
+	12 CW11 Mindless Servant
+	12 CW12 Swift Response
+	12 CW13 Deity's Presence
+	12 CW14 Ready Bows
+	12 CW15 Review
 	12 CW16 Feeding Time
 	6 UW12 noncreature (supp. UW)
 	6 UW13 noncreature (supp. WR)
 	6 UW14 noncreature (supp. wB)
-	12 CU01 2-cost crea (for U/B)
-	12 CU02 2-cost crea (for U/R)
-	12 CU03 3-cost crea (for U/W)
-	12 CU04 3-cost crea (for U/G)
-	12 CU05 3-cost crea (for U/R)
-	12 CU06 4-cost crea (for U/B)
-	12 CU07 5or6-cost crea (for U/W)
-	12 CU08 6or7-cost crea (for U/G)
+	12 CU01 Soul Administrator
+	12 CU02 Aven Theorist
+	12 CU03 Dedicated Scribe
+	12 CU04 Seshen Pollinators
+	12 CU05 Zenith Hunter
+	12 CU06 Frozen Sands Cadre
+	12 CU07 Vindictive Sphinx
+	12 CU08 Avatar of Sab-Sunen
 	12 CU09Protective instant
 	12 CU10 counterspell
-	12 CU11 cantrip (1 card draw)
+	12 CU11 Ancient Prophecies
 	12 CU12 Draw spell (two to three cards)
 	12 CU13 Witness Protection Aura
 	12 CU14 Top or bottom spell
 	12 CU15Modal spell
-	12 CU16 noncreature
+	12 CU16 colored artifact
 	6 UU11 Noncreature (supp. U/B)
 	6 UU12 Noncrea (supp. R/U)
 	6 UU13 Noncreature (supp. All)
-	12 CB01 1or2-cost creature (for w/b)
+	12 CB01 Serrated Scorpion
 	12 CB02 Fleshform Serket
-	12 CB03 2-cost crea (for B/R)
-	12 CB04 3-mana creature (for w/b)
-	12 CB05 3-cost crea (for U/B)
-	12 CB06 4-cost crea (for B/R)
-	12 CB07 4or5-cost cre (for w/b)
-	12 CB08 5or6-cost crea (for U/B)
-	12 CB09 6or7-cost crea (for B/G)
+	12 CB03 Sentimental Thug
+	12 CB04 Canopic Harvester
+	12 CB05 Carcass Collector
+	12 CB06 Ferocious Cobra
+	12 CB07 Ifnir Farseer
+	12 CB08 Returned Master
+	12 CB09 Burial Chamber Guardian
 	12 CB10 Eternal Moloch
 	12 CB11Combat trick
 	12 CB12 Card draw (added cost)
@@ -3111,7 +3111,7 @@
 	12 CG06 3or4-cost crea (for g/b)
 	12 CG07 4or5-cost crea (for g/w)
 	12 CG08 5-cost crea (for g/u)
-	12 CG09 6-cost creature (for g/r)
+	12 CG09 Avenging Elephant
 	12 CG10 6or7-cost creature (for ALL)
 	12 CG11Fight spell
 	12 CG12Bite spell
@@ -3126,7 +3126,7 @@
 	6 UW03 2-cost crea (for W/U)
 	6 UW04 3-cost crea (for WB
 	6 UW05 Vessel of Purity
-	6 UW06 3-cost crea (for R/W)
+	6 UW06 Callous Charioteer
 	6 UW07 4-cost crea (for W/B)
 	6 UW08 5-cost crea (for W/U)
 	6 UW09 6-cost crea (for ALL)
@@ -3145,7 +3145,7 @@
 	6 UB02 2-cost Creature (for B/G)
 	6 UB03 2or3-cost Crea (for B/W)
 	6 UB04 Vessel of Darkness
-	6 UB06 5-cost Creature (for ALL)
+	6 UB06 Omnivorous Exhumer
 	6 UB07 6-cost Crea (for B/G)
 	6 UB09 noncre (supp. B/U)
 	6 UB10 noncre (supp. B/R)
@@ -3179,7 +3179,7 @@
 	2 RW07 noncreature
 	2 RU01 creature
 	2 RU02 creature
-	2 RU03 creature
+	2 RU03 Interdiction Angel
 	2 RU04 noncreature
 	2 RU05 noncreature
 	2 RU06 noncreature
@@ -3296,49 +3296,49 @@
 	6 CW02 Two Suns Fighter
 	6 CW03 Priest of the Angel's Path
 	6 CW04 Envoy of New Ways
-	6 CW05 Three-mana creature general
-	6 CW06 Three-mana creature r/w
-	6 CW07 Three-mana creature w/b
+	6 CW05 Conflicted Angel
+	6 CW06 Coordinated Infantry
+	6 CW07 Cruel Adjudicator
 	6 CW08 Phalanx Commander
-	6 CW09 Four-mana creature for W/U
-	6 CW10 Five- or six-mana creature for w/b
-	6 CW11 Six- or seven-mana creature for w/g
-	6 CW12Combat-related removal
-	6 CW13 Banishing Light
-	6 CW14 Combat trick
-	6 CW15 Disenchant/removal spell
+	6 CW09 Broken Lands Monitor
+	6 CW10 Blessed Revivalist
+	6 CW11 Mindless Servant
+	6 CW12 Swift Response
+	6 CW13 Deity's Presence
+	6 CW14 Ready Bows
+	6 CW15 Review
 	6 CW16 Feeding Time
 	15 UW12 noncreature (supp. UW)
 	15 UW13 noncreature (supp. WR)
 	15 UW14 noncreature (supp. wB)
-	6 CU01 2-cost crea (for U/B)
-	6 CU02 2-cost crea (for U/R)
-	6 CU03 3-cost crea (for U/W)
-	6 CU04 3-cost crea (for U/G)
-	6 CU05 3-cost crea (for U/R)
-	6 CU06 4-cost crea (for U/B)
-	6 CU07 5or6-cost crea (for U/W)
-	6 CU08 6or7-cost crea (for U/G)
+	6 CU01 Soul Administrator
+	6 CU02 Aven Theorist
+	6 CU03 Dedicated Scribe
+	6 CU04 Seshen Pollinators
+	6 CU05 Zenith Hunter
+	6 CU06 Frozen Sands Cadre
+	6 CU07 Vindictive Sphinx
+	6 CU08 Avatar of Sab-Sunen
 	6 CU09Protective instant
 	6 CU10 counterspell
-	6 CU11 cantrip (1 card draw)
+	6 CU11 Ancient Prophecies
 	6 CU12 Draw spell (two to three cards)
 	6 CU13 Witness Protection Aura
 	6 CU14 Top or bottom spell
 	6 CU15Modal spell
-	6 CU16 noncreature
+	6 CU16 colored artifact
 	15 UU11 Noncreature (supp. U/B)
 	15 UU12 Noncrea (supp. R/U)
 	15 UU13 Noncreature (supp. All)
-	6 CB01 1or2-cost creature (for w/b)
+	6 CB01 Serrated Scorpion
 	6 CB02 Fleshform Serket
-	6 CB03 2-cost crea (for B/R)
-	6 CB04 3-mana creature (for w/b)
-	6 CB05 3-cost crea (for U/B)
-	6 CB06 4-cost crea (for B/R)
-	6 CB07 4or5-cost cre (for w/b)
-	6 CB08 5or6-cost crea (for U/B)
-	6 CB09 6or7-cost crea (for B/G)
+	6 CB03 Sentimental Thug
+	6 CB04 Canopic Harvester
+	6 CB05 Carcass Collector
+	6 CB06 Ferocious Cobra
+	6 CB07 Ifnir Farseer
+	6 CB08 Returned Master
+	6 CB09 Burial Chamber Guardian
 	6 CB10 Eternal Moloch
 	6 CB11Combat trick
 	6 CB12 Card draw (added cost)
@@ -3375,7 +3375,7 @@
 	6 CG06 3or4-cost crea (for g/b)
 	6 CG07 4or5-cost crea (for g/w)
 	6 CG08 5-cost crea (for g/u)
-	6 CG09 6-cost creature (for g/r)
+	6 CG09 Avenging Elephant
 	6 CG10 6or7-cost creature (for ALL)
 	6 CG11Fight spell
 	6 CG12Bite spell
@@ -3390,7 +3390,7 @@
 	15 UW03 2-cost crea (for W/U)
 	15 UW04 3-cost crea (for WB
 	15 UW05 Vessel of Purity
-	15 UW06 3-cost crea (for R/W)
+	15 UW06 Callous Charioteer
 	15 UW07 4-cost crea (for W/B)
 	15 UW08 5-cost crea (for W/U)
 	15 UW09 6-cost crea (for ALL)
@@ -3409,7 +3409,7 @@
 	15 UB02 2-cost Creature (for B/G)
 	15 UB03 2or3-cost Crea (for B/W)
 	15 UB04 Vessel of Darkness
-	15 UB06 5-cost Creature (for ALL)
+	15 UB06 Omnivorous Exhumer
 	15 UB07 6-cost Crea (for B/G)
 	15 UB09 noncre (supp. B/U)
 	15 UB10 noncre (supp. B/R)
@@ -3443,7 +3443,7 @@
 	7 RW07 noncreature
 	7 RU01 creature
 	7 RU02 creature
-	7 RU03 creature
+	7 RU03 Interdiction Angel
 	7 RU04 noncreature
 	7 RU05 noncreature
 	7 RU06 noncreature

@@ -1,4 +1,200 @@
-﻿VERSION 1 CHANGELOG
+﻿VERSION 2 CHANGELOG
+====================
+
+CW05 Conflicted Angel added.
+CW06 Coordinated Infantry added.
+CW07 Cruel Adjudicator added.
+CW09 Broken Lands Monitor added.
+CW10 Blessed Revivalist added.
+CW11 Mindless Servant added.
+CW12 Swift Response added.
+CW13 Deity's Presence added.
+CW14 Ready Bows added.
+CW15 Review added.
+CU01 Soul Administrator added.
+CU02 Aven Theorist added.
+CU03 Dedicated Scribe added.
+CU04 Seshen Pollinators added.
+CU05 Zenith Hunter added.
+CU06 Frozen Sands Cadre added.
+CU07 Vindictive Sphinx added.
+CU08 Avatar of Sab-Sunen added.
+CU11 Ancient Prophecies added.
+CU16 colored artifact added.
+CB01 Serrated Scorpion added.
+CB03 Sentimental Thug added.
+CB04 Canopic Harvester added.
+CB05 Carcass Collector added.
+CB06 Ferocious Cobra added.
+CB07 Ifnir Farseer added.
+CB08 Returned Master added.
+CB09 Burial Chamber Guardian added.
+CG09 Avenging Elephant added.
+UW06 Callous Charioteer added.
+UB06 Omnivorous Exhumer added.
+RU03 Interdiction Angel added.
+
+CW05 Three-mana creature general removed.
+CW06 Three-mana creature r/w removed.
+CW07 Three-mana creature w/b removed.
+CW09 Four-mana creature for W/U removed.
+CW10 Five- or six-mana creature for w/b removed.
+CW11 Six- or seven-mana creature for w/g removed.
+CW12Combat-related removal removed.
+CW13 Banishing Light removed.
+CW14 Combat trick removed.
+CW15 Disenchant/removal spell removed.
+CU01 2-cost crea (for U/B) removed.
+CU02 2-cost crea (for U/R) removed.
+CU03 3-cost crea (for U/W) removed.
+CU04 3-cost crea (for U/G) removed.
+CU05 3-cost crea (for U/R) removed.
+CU06 4-cost crea (for U/B) removed.
+CU07 5or6-cost crea (for U/W) removed.
+CU08 6or7-cost crea (for U/G) removed.
+CU11 cantrip (1 card draw) removed.
+CU16 noncreature removed.
+CB01 1or2-cost creature (for w/b) removed.
+CB03 2-cost crea (for B/R) removed.
+CB04 3-mana creature (for w/b) removed.
+CB05 3-cost crea (for U/B) removed.
+CB06 4-cost crea (for B/R) removed.
+CB07 4or5-cost cre (for w/b) removed.
+CB08 5or6-cost crea (for U/B) removed.
+CB09 6or7-cost crea (for B/G) removed.
+CG09 6-cost creature (for g/r) removed.
+UW06 3-cost crea (for R/W) removed.
+UB06 5-cost Creature (for ALL) removed.
+RU03 creature removed.
+
+CU09Protective instant
+rules_text:  => has Aftermath [i](Cast this spell only from your graveyard. Then exile it.)[/i]
+
+CU10 counterspell
+rules_text:  => ties into UG and/or Oasis?
+
+CU13 Witness Protection Aura
+type:  => Enchantment — Aura
+cost:  => {2}{U}
+rules_text:  => Enchant creature
+When this Aura enters, tap enchanted creature.
+Tap enchanted creature at the beginning of its controller's upkeep step.
+Enchanted creature has no abilities while tapped.
+
+CU14 Top or bottom spell
+rules_text:  => has aftermath [i](Cast this spell only from your graveyard. Then exile it.)[/i]
+
+CU15Modal spell
+rules_text:  => has aftermath
+
+CR01 1or2-cost crea (for R/B)
+rules_text: Haste => Haste
+When this creature dies, it deals 1 damage to any noncreature target.
+pt:  => 1/1
+
+CR02 2-cost crea (for R/U)
+type:  => Creature
+cost:  => {1}{R}
+rules_text:  => Whenever this creature attacks, you may draw a card, then discard a card.
+pt:  => 2/2
+
+CR03 2-cost crea (for R/W)
+type:  => Creature — ??? Warrior
+pt:  => 3/1
+
+CR04 3-cost crea (for R/G)
+type:  => Creature
+rules_text: has Haste => has Haste
+interacts with pumping and/or activated ability, but doesn't have an AA itself
+
+CR05 3-cost crea (for R/B)
+type:  => Creature
+cost:  => {2}{R}
+rules_text:  => This creature enters with an additional +1/+1 counter on it as long as an opponent lost life this turn.
+pt:  => 3/2
+
+CR06 3or4-cost crea (for R/W)
+type:  => Creature — ??? Soldier Warrior
+rules_text:  => {1}{RW}: Target Warrior gains first strike until end of turn. Activate only as a sorcery.
+pt:  => 4/3
+
+CR07 4or5-cost crea (for R/G)
+rules_text: has Trample => has Trample
+has activated ability
+pt:  => 5/?
+
+CR08 5-cost crea (for R/U)
+rules_text: has Reach => has Reach
+has activated or triggered ability that costs at least r/u or {U}
+pt:  => 5/5
+
+CR09 6-cost creature (for ALL)
+pt:  => 6/5
+
+CG02 2-cost creature (for G/R)
+rules_text:  => has activated ability
+
+CG05 3-cost crea (for g/r)
+rules_text:  => has activated ability
+
+CG07 4or5-cost crea (for g/w)
+rules_text:  => Has activated or triggered ability that costs at least g/w or {W}
+
+UG14 noncreature (supp. GB)
+
+UW04 3-cost crea (for WB
+rules_text:  => Creates a Talisman
+
+UW07 4-cost crea (for W/B)
+rules_text:  => has Betray [i](When this permanent enters, you may sacrifice another permanent that shares a color with it.)[/i]
+
+UB02 2-cost Creature (for B/G)
+rules_text:  => has activated or triggered ability that costs at least bg hybrid or {G}
+
+UW15 noncreature (supp. WG)
+rules_text:  => Maybe should have Aftermath, though it wouldn't be integral to the card
+
+RM01 Darux, Miasma of Passion
+
+RM01 Ghrin-Danu, Watchful Mother
+
+UM01 BR-1 Boiling Bloodlust
+rules_text: At the beginning of your upkeep, choose one —
+• Whenever a creature enters under your control this turn, if an opponent lost life this turn, put a +1/+1 counter on it.
+• Noncreature, nonenchantment spells you cast cost {1} less to cast this turn as long as an opponent lost life this turn. => At the beginning of your upkeep, choose one —
+• Whenever a creature enters under your control this turn, if an opponent lost life this turn, put a +1/+1 counter on it.
+• Noncreature spells you cast cost {1} less to cast this turn as long as an opponent lost life this turn.
+
+UM01 WB-1 Chamber of New Anointment
+rules_text: Whenever you betray a permanent, you gain 2 life. Then if that permanent was a creature, put a charge counter on this artifact.
+{2}{W}{B}, {T}, Remove X charge counters from this artifact: Return target creature card with mana value less than or equal to X plus 2 from your graveyard to the battlefield. => Whenever you betray a permanent, you gain 2 life. Then if that permanent was a creature, put a charge counter on this artifact.
+{2}{W}{B}, {T}, Remove X charge counters from this artifact: Return target creature card with mana value less than or equal to X plus 2 from your graveyard to the battlefield. Activate only as a sorcery.
+
+UM01 RG-1 Mistress of Leashes
+rules_text: Haste
+The first time each turn you attack with one or more creatures, untap a land you control.
+{1}{R}{G}: Creatures you control get +1/+1 until end of turn. => Haste
+The first time each turn you attack, untap a land you control.
+{1}{R}{G}: Creatures you control get +1/+1 until end of turn.
+
+UM01 WU-2 Bastion of Serra
+rules_text: At the beginning of your upkeep, you may have target opponent create a 0/1 colorless Wish enchantment creature. When you don't, scry 2.
+{2}{WU}: Tap target creature you don't control. => At the beginning of your upkeep, you may have target opponent create a 0/1 colorless Wish enchantment creature with defender. When you don't, scry 2.
+{2}{WU}: Tap target creature you don't control.
+
+UM01 UB-2 Crucible of Eternity
+rules_text: At the beginning of your end step, if a creature was put into a graveyard from anywhere this turn, create a tapped 2/2 black Zombie creature token.
+{2}{U}, Sacrifice a permanent: Draw a card. Activate only once each turn, and only as a sorcery. => At the beginning of your end step, if a creature card was put into a graveyard from anywhere this turn, create a tapped 2/2 black Zombie creature token.
+{2}{U}, Sacrifice a permanent: Draw a card. Activate only once each turn, and only as a sorcery.
+
+UM01 BR-2 Bloodblade Naga
+pt: 3/2 => 3/3
+
+Wish
+rules_text:  => Defender [i](This creature can't attack.)[/i]
+
+
+VERSION 1 CHANGELOG
 ====================
 
 First version published.
