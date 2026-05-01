@@ -3,7 +3,7 @@
 		{
 			"name": "CA06 Land fixing",
 			"rarity": "common",
-			"mana_cost": "{3}",
+			"mana_cost": "{4}",
 			"type": "Artifact",
 			"collector_number": "250",
 			"image_uris": {
@@ -281,23 +281,23 @@
 			}
 		},
 		{
-			"name": "CU09Protective instant",
+			"name": "CU09 Protected",
 			"rarity": "common",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{U}",
+			"type": "Instant",
 			"collector_number": "54",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/54_CU09Protective instant.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/54_CU09 Protected.png"
 			}
 		},
 		{
-			"name": "CU10 counterspell",
+			"name": "CU10 Nullification Chant",
 			"rarity": "common",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{1}{U}{U}",
+			"type": "Instant",
 			"collector_number": "55",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/55_CU10 counterspell.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/55_CU10 Nullification Chant.png"
 			}
 		},
 		{
@@ -311,53 +311,53 @@
 			}
 		},
 		{
-			"name": "CU12 Draw spell (two to three cards)",
+			"name": "CU12 Meditative Wisdom",
 			"rarity": "common",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{3}{U}",
+			"type": "Sorcery",
 			"collector_number": "57",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/57_CU12 Draw spell (two to three cards).png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/57_CU12 Meditative Wisdom.png"
 			}
 		},
 		{
-			"name": "CU13 Witness Protection Aura",
+			"name": "CU13 Turned to Stone",
 			"rarity": "common",
 			"mana_cost": "{2}{U}",
 			"type": "Enchantment — Aura",
 			"collector_number": "58",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/58_CU13 Witness Protection Aura.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/58_CU13 Turned to Stone.png"
 			}
 		},
 		{
-			"name": "CU14 Top or bottom spell",
+			"name": "CU14 Deliver",
 			"rarity": "common",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{3}{U}",
+			"type": "Instant",
 			"collector_number": "59",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/59_CU14 Top or bottom spell.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/59_CU14 Deliver.png"
 			}
 		},
 		{
-			"name": "CU15Modal spell",
+			"name": "CU15 Ships Passing",
 			"rarity": "common",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{2}{U}",
+			"type": "Instant",
 			"collector_number": "60",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/60_CU15Modal spell.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/60_CU15 Ships Passing.png"
 			}
 		},
 		{
-			"name": "CU16 colored artifact",
+			"name": "CU16 Sailskiff",
 			"rarity": "common",
-			"mana_cost": "",
+			"mana_cost": "{1}{U}",
 			"type": "Artifact",
 			"collector_number": "61",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/61_CU16 colored artifact.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/61_CU16 Sailskiff.png"
 			}
 		},
 		{
@@ -491,29 +491,29 @@
 			}
 		},
 		{
-			"name": "CB11Combat trick",
+			"name": "CB11 Mantle of Shards",
 			"rarity": "common",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{1}{B}",
+			"type": "Instant",
 			"collector_number": "95",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/95_CB11Combat trick.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/95_CB11 Mantle of Shards.png"
 			}
 		},
 		{
-			"name": "CB12 Card draw (added cost)",
+			"name": "CB12 Selling Lives",
 			"rarity": "common",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{B}",
+			"type": "Instant",
 			"collector_number": "96",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/96_CB12 Card draw (added cost).png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/96_CB12 Selling Lives.png"
 			}
 		},
 		{
 			"name": "CB13 Moment of Weakness",
 			"rarity": "common",
-			"mana_cost": "{2}{B}",
+			"mana_cost": "{3}{B}",
 			"type": "Sorcery",
 			"collector_number": "97",
 			"image_uris": {
@@ -521,33 +521,33 @@
 			}
 		},
 		{
-			"name": "CB15 Slightly overcosted removal",
+			"name": "CB15 Disintegrating Wrappings",
 			"rarity": "common",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Sorcery",
 			"collector_number": "99",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/99_CB15 Slightly overcosted removal.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/99_CB15 Disintegrating Wrappings.png"
 			}
 		},
 		{
-			"name": "CB16 noncrea",
+			"name": "CB16 Spinal Diviner",
 			"rarity": "common",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{B}",
+			"type": "Artifact",
 			"collector_number": "100",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/100_CB16 noncrea.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/100_CB16 Spinal Diviner.png"
 			}
 		},
 		{
-			"name": "UB12 noncre (supp. B/W)",
+			"name": "UB12 Betrayal of Secrets",
 			"rarity": "uncommon",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{1}{B}",
+			"type": "Sorcery",
 			"collector_number": "121",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/121_UB12 noncre (supp. B/W).png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/121_UB12 Betrayal of Secrets.png"
 			}
 		},
 		{
@@ -571,163 +571,163 @@
 			}
 		},
 		{
-			"name": "CR01 1or2-cost crea (for R/B)",
+			"name": "CR01 Rage-cursed Returned",
 			"rarity": "common",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{R}",
+			"type": "Creature — Zombie Jackal Warrior",
 			"collector_number": "125",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/125_CR01 1or2-cost crea (for R/B).png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/125_CR01 Rage-cursed Returned.png"
 			}
 		},
 		{
-			"name": "CR02 2-cost crea (for R/U)",
+			"name": "CR02 Frontier Messenger",
 			"rarity": "common",
 			"mana_cost": "{1}{R}",
-			"type": "Creature",
+			"type": "Creature — Jackal Scout",
 			"collector_number": "126",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/126_CR02 2-cost crea (for R/U).png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/126_CR02 Frontier Messenger.png"
 			}
 		},
 		{
-			"name": "CR03 2-cost crea (for R/W)",
+			"name": "CR03 Maahestet Champion",
 			"rarity": "common",
-			"mana_cost": "",
-			"type": "Creature — ??? Warrior",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Cat Warrior",
 			"collector_number": "127",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/127_CR03 2-cost crea (for R/W).png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/127_CR03 Maahestet Champion.png"
 			}
 		},
 		{
-			"name": "CR04 3-cost crea (for R/G)",
-			"rarity": "common",
-			"mana_cost": "",
-			"type": "Creature",
-			"collector_number": "128",
-			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/128_CR04 3-cost crea (for R/G).png"
-			}
-		},
-		{
-			"name": "CR05 3-cost crea (for R/B)",
+			"name": "CR04 Shadowseller",
 			"rarity": "common",
 			"mana_cost": "{2}{R}",
-			"type": "Creature",
+			"type": "Creature — Human Demon",
+			"collector_number": "128",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/ASM-files/img/128_CR04 Shadowseller.png"
+			}
+		},
+		{
+			"name": "CR05 Bloodsand Lich",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Zombie Spirit Warlock",
 			"collector_number": "129",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/129_CR05 3-cost crea (for R/B).png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/129_CR05 Bloodsand Lich.png"
 			}
 		},
 		{
-			"name": "CR06 3or4-cost crea (for R/W)",
+			"name": "CR06 Role Model Sergeant",
 			"rarity": "common",
-			"mana_cost": "",
-			"type": "Creature — ??? Soldier Warrior",
+			"mana_cost": "{3}{R}",
+			"type": "Creature — Human Soldier Warrior",
 			"collector_number": "130",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/130_CR06 3or4-cost crea (for R/W).png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/130_CR06 Role Model Sergeant.png"
 			}
 		},
 		{
-			"name": "CR07 4or5-cost crea (for R/G)",
+			"name": "CR07 Ka-Blade Champion",
 			"rarity": "common",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{3}{R}{R}",
+			"type": "Creature — Minotaur Soldier",
 			"collector_number": "131",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/131_CR07 4or5-cost crea (for R/G).png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/131_CR07 Ka-Blade Champion.png"
 			}
 		},
 		{
-			"name": "CR08 5-cost crea (for R/U)",
+			"name": "CR08 Avenging Minotaur",
 			"rarity": "common",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{4}{R}",
+			"type": "Creature — Minotaur Barbarian",
 			"collector_number": "132",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/132_CR08 5-cost crea (for R/U).png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/132_CR08 Avenging Minotaur.png"
 			}
 		},
 		{
-			"name": "CR09 6-cost creature (for ALL)",
+			"name": "CR09 Starving Sandwurm",
 			"rarity": "common",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{4}{R}{R}",
+			"type": "Creature — Wurm",
 			"collector_number": "133",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/133_CR09 6-cost creature (for ALL).png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/133_CR09 Starving Sandwurm.png"
 			}
 		},
 		{
-			"name": "CR10Direct damage (deals 2)",
+			"name": "CR10 No Pain",
 			"rarity": "common",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{1}{R}",
+			"type": "Instant",
 			"collector_number": "134",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/134_CR10Direct damage (deals 2).png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/134_CR10 No Pain.png"
 			}
 		},
 		{
-			"name": "CR11Combat trick",
+			"name": "CR11 Swollen",
 			"rarity": "common",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{R}",
+			"type": "Instant",
 			"collector_number": "135",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/135_CR11Combat trick.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/135_CR11 Swollen.png"
 			}
 		},
 		{
-			"name": "CR12Rummaging/impulsive draw",
+			"name": "CR12 Stealing the Beacon",
 			"rarity": "common",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{2}{R}",
+			"type": "Sorcery",
 			"collector_number": "136",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/136_CR12Rummaging/impulsive draw.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/136_CR12 Stealing the Beacon.png"
 			}
 		},
 		{
-			"name": "CR13Modal Shatter",
+			"name": "CR13 Abrade",
 			"rarity": "common",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{1}{R}",
+			"type": "Instant",
 			"collector_number": "137",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/137_CR13Modal Shatter.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/137_CR13 Abrade.png"
 			}
 		},
 		{
-			"name": "CR14 effic direct dmg, prob 4",
+			"name": "CR14 Fire",
 			"rarity": "common",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{2}{R}",
+			"type": "Sorcery",
 			"collector_number": "138",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/138_CR14 effic direct dmg, prob 4.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/138_CR14 Fire.png"
 			}
 		},
 		{
-			"name": "CR15 BIG direct damage",
+			"name": "CR15 Holy Pyre",
 			"rarity": "common",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{3}{R}{R}",
+			"type": "Sorcery",
 			"collector_number": "139",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/139_CR15 BIG direct damage.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/139_CR15 Holy Pyre.png"
 			}
 		},
 		{
-			"name": "CR16 (free space)",
+			"name": "CR16 Helm of Hazoret",
 			"rarity": "common",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{R}",
+			"type": "Artifact",
 			"collector_number": "140",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/140_CR16 (free space).png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/140_CR16 Helm of Hazoret.png"
 			}
 		},
 		{
@@ -761,83 +761,83 @@
 			}
 		},
 		{
-			"name": "CG01 1or2-cost wall-ish creature",
+			"name": "CG01 Apepisw Gate",
 			"rarity": "common",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{G}",
+			"type": "Creature — Wall",
 			"collector_number": "166",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/166_CG01 1or2-cost wall-ish creature.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/166_CG01 Apepisw Gate.png"
 			}
 		},
 		{
-			"name": "CG02 2-cost creature (for G/R)",
+			"name": "CG02 Oashra Vitalist",
 			"rarity": "common",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Naga Druid",
 			"collector_number": "167",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/167_CG02 2-cost creature (for G/R).png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/167_CG02 Oashra Vitalist.png"
 			}
 		},
 		{
-			"name": "CG03 2-cost creat (for G/W)",
+			"name": "CG03 Exploring Couple",
 			"rarity": "common",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Human Citizen",
 			"collector_number": "168",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/168_CG03 2-cost creat (for G/W).png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/168_CG03 Exploring Couple.png"
 			}
 		},
 		{
-			"name": "CG04 3-cost crea (for G/U)",
+			"name": "CG04 Giant Ibis",
 			"rarity": "common",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Bird",
 			"collector_number": "169",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/169_CG04 3-cost crea (for G/U).png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/169_CG04 Giant Ibis.png"
 			}
 		},
 		{
-			"name": "CG05 3-cost crea (for g/r)",
+			"name": "CG05 Instructor Huntress",
 			"rarity": "common",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Human Warrior Ranger",
 			"collector_number": "170",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/170_CG05 3-cost crea (for g/r).png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/170_CG05 Instructor Huntress.png"
 			}
 		},
 		{
-			"name": "CG06 3or4-cost crea (for g/b)",
+			"name": "CG06 Boat-climber Cobra",
 			"rarity": "common",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{2}{G}{G}",
+			"type": "Creature — Snake",
 			"collector_number": "171",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/171_CG06 3or4-cost crea (for g/b).png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/171_CG06 Boat-climber Cobra.png"
 			}
 		},
 		{
-			"name": "CG07 4or5-cost crea (for g/w)",
+			"name": "CG07 Seeker of Lost Species",
 			"rarity": "common",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{3}{G}",
+			"type": "Creature — Human Druid Ranger",
 			"collector_number": "172",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/172_CG07 4or5-cost crea (for g/w).png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/172_CG07 Seeker of Lost Species.png"
 			}
 		},
 		{
-			"name": "CG08 5-cost crea (for g/u)",
+			"name": "CG08 Hippo Family",
 			"rarity": "common",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{4}{G}",
+			"type": "Creature — Hippo",
 			"collector_number": "173",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/173_CG08 5-cost crea (for g/u).png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/173_CG08 Hippo Family.png"
 			}
 		},
 		{
@@ -851,33 +851,33 @@
 			}
 		},
 		{
-			"name": "CG10 6or7-cost creature (for ALL)",
+			"name": "CG10 Oasis Sentinel",
 			"rarity": "common",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{5}{G}{G}",
+			"type": "Creature — Frog Avatar",
 			"collector_number": "175",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/175_CG10 6or7-cost creature (for ALL).png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/175_CG10 Oasis Sentinel.png"
 			}
 		},
 		{
-			"name": "CG11Fight spell",
+			"name": "CG11 Maul",
 			"rarity": "common",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{G}",
+			"type": "Sorcery",
 			"collector_number": "176",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/176_CG11Fight spell.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/176_CG11 Maul.png"
 			}
 		},
 		{
-			"name": "CG12Bite spell",
+			"name": "CG12 Hunting Party",
 			"rarity": "common",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{1}{G}",
+			"type": "Sorcery",
 			"collector_number": "177",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/177_CG12Bite spell.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/177_CG12 Hunting Party.png"
 			}
 		},
 		{
@@ -891,23 +891,23 @@
 			}
 		},
 		{
-			"name": "CG15Dig for lands and/or creatures",
+			"name": "CG15 Night Market",
 			"rarity": "common",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{2}{G}",
+			"type": "Sorcery",
 			"collector_number": "180",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/180_CG15Dig for lands and/or creatures.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/180_CG15 Night Market.png"
 			}
 		},
 		{
-			"name": "CG16 (free space)",
+			"name": "CG16 Ghrin-Danu's Servitors",
 			"rarity": "common",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{3}{G}",
+			"type": "Sorcery",
 			"collector_number": "181",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/181_CG16 (free space).png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/181_CG16 Ghrin-Danu's Servitors.png"
 			}
 		},
 		{
@@ -921,13 +921,13 @@
 			}
 		},
 		{
-			"name": "UG13 noncreature (supp. GR)",
+			"name": "UG13 Nerves",
 			"rarity": "uncommon",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{1}{G}",
+			"type": "Sorcery",
 			"collector_number": "202",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/202_UG13 noncreature (supp. GR).png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/202_UG13 Nerves.png"
 			}
 		},
 		{
@@ -1231,33 +1231,33 @@
 			}
 		},
 		{
-			"name": "UR01 Taw-honed Fighter (for R/W)",
+			"name": "UR01 Taw-honed Fighter",
 			"rarity": "uncommon",
 			"mana_cost": "{R}",
 			"type": "Creature — Human Warrior",
 			"collector_number": "150",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/150_UR01 Taw-honed Fighter (for R/W).png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/150_UR01 Taw-honed Fighter.png"
 			}
 		},
 		{
-			"name": "UR02 2-cost creature",
+			"name": "UR02 2-cost creature (for R/B)",
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "",
 			"collector_number": "151",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/151_UR02 2-cost creature.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/151_UR02 2-cost creature (for R/B).png"
 			}
 		},
 		{
-			"name": "UR03 2-cost creature",
+			"name": "UR03 2-cost creature (for R/G)",
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "",
 			"collector_number": "152",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/152_UR03 2-cost creature.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/152_UR03 2-cost creature (for R/G).png"
 			}
 		},
 		{
@@ -1271,43 +1271,43 @@
 			}
 		},
 		{
-			"name": "UR05 4-cost creature",
+			"name": "UR05 4-cost creature (for R/U)",
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "",
 			"collector_number": "154",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/154_UR05 4-cost creature.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/154_UR05 4-cost creature (for R/U).png"
 			}
 		},
 		{
-			"name": "UR07 5-cost creature",
+			"name": "UR07 5-cost creature (for R/W)",
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "",
 			"collector_number": "156",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/156_UR07 5-cost creature.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/156_UR07 5-cost creature (for R/W).png"
 			}
 		},
 		{
-			"name": "UR08 6-cost creature",
+			"name": "UR08 6-cost creature (for all)",
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "",
 			"collector_number": "157",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/157_UR08 6-cost creature.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/157_UR08 6-cost creature (for all).png"
 			}
 		},
 		{
-			"name": "UR09 Darkstorm Bolt (supp. R/U)",
+			"name": "UR09 Darkstorm Bolt",
 			"rarity": "uncommon",
 			"mana_cost": "{1}{R}",
 			"type": "Instant",
 			"collector_number": "158",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/158_UR09 Darkstorm Bolt (supp. R/U).png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/158_UR09 Darkstorm Bolt.png"
 			}
 		},
 		{
@@ -1321,13 +1321,13 @@
 			}
 		},
 		{
-			"name": "UR11 Shining Bright (supp. R/U)",
+			"name": "UR11 Shining Bright",
 			"rarity": "uncommon",
 			"mana_cost": "{1}{R}",
 			"type": "Sorcery",
 			"collector_number": "160",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/160_UR11 Shining Bright (supp. R/U).png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/160_UR11 Shining Bright.png"
 			}
 		},
 		{
@@ -1501,13 +1501,13 @@
 			}
 		},
 		{
-			"name": "RU01 creature",
+			"name": "RU01 graveyard spell copier",
 			"rarity": "rare",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — ??? Wizard",
 			"collector_number": "64",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/64_RU01 creature.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/64_RU01 graveyard spell copier.png"
 			}
 		},
 		{
@@ -1681,13 +1681,13 @@
 			}
 		},
 		{
-			"name": "RR06 noncreature",
+			"name": "RR06 Another One",
 			"rarity": "rare",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{2}{R}",
+			"type": "Sorcery",
 			"collector_number": "148",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/148_RR06 noncreature.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/148_RR06 Another One.png"
 			}
 		},
 		{
@@ -1971,20 +1971,20 @@
 			}
 		},
 		{
-			"name": "CA01 Two-mana creature (variance buster)",
+			"name": "CA01 2-cost Smoother",
 			"rarity": "common",
-			"mana_cost": "",
-			"type": "Artifact",
+			"mana_cost": "{2}",
+			"type": "Artifact Creature — ???",
 			"collector_number": "245",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/245_CA01 Two-mana creature (variance buster).png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/245_CA01 2-cost Smoother.png"
 			}
 		},
 		{
 			"name": "CA02Three-mana creature",
 			"rarity": "common",
-			"mana_cost": "",
-			"type": "Artifact",
+			"mana_cost": "{3}",
+			"type": "Artifact Creature",
 			"collector_number": "246",
 			"image_uris": {
 				"en": "https://Opacana.github.io/sets/ASM-files/img/246_CA02Three-mana creature.png"
@@ -2001,33 +2001,33 @@
 			}
 		},
 		{
-			"name": "CA04Removal",
+			"name": "CA04 Private Feast",
 			"rarity": "common",
-			"mana_cost": "",
+			"mana_cost": "{1}",
 			"type": "Artifact",
 			"collector_number": "248",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/248_CA04Removal.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/248_CA04 Private Feast.png"
 			}
 		},
 		{
-			"name": "CA05Manalith+ ability",
+			"name": "CA05 Gleaming Capstone",
 			"rarity": "common",
-			"mana_cost": "",
+			"mana_cost": "{3}",
 			"type": "Artifact",
 			"collector_number": "249",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/249_CA05Manalith+ ability.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/249_CA05 Gleaming Capstone.png"
 			}
 		},
 		{
-			"name": "UA04nonc, connected to Betray",
+			"name": "UA04 Blood of the Pious",
 			"rarity": "uncommon",
-			"mana_cost": "",
+			"mana_cost": "{3}",
 			"type": "Artifact",
 			"collector_number": "254",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/254_UA04nonc, connected to Betray.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/254_UA04 Blood of the Pious.png"
 			}
 		},
 		{
@@ -2061,13 +2061,13 @@
 			}
 		},
 		{
-			"name": "UL02 U-dominant Oasis",
+			"name": "UL02 Port Kharteru",
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Land — Oasis",
 			"collector_number": "260",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/260_UL02 U-dominant Oasis.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/260_UL02 Port Kharteru.png"
 			}
 		},
 		{
@@ -2081,23 +2081,23 @@
 			}
 		},
 		{
-			"name": "UL04 R-dominant Oasis",
+			"name": "UL04 Sulfurous Baths",
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Land — Oasis",
 			"collector_number": "262",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/262_UL04 R-dominant Oasis.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/262_UL04 Sulfurous Baths.png"
 			}
 		},
 		{
-			"name": "UL05 G-dominant Oasis",
+			"name": "UL05 Shefet Shrublands",
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Land — Oasis",
 			"collector_number": "263",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/263_UL05 G-dominant Oasis.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/263_UL05 Shefet Shrublands.png"
 			}
 		},
 		{
@@ -2401,13 +2401,13 @@
 			}
 		},
 		{
-			"name": "UR06 Daruxian Spinescourger (for RB)",
+			"name": "UR06 Daruxian Spinescourger",
 			"rarity": "uncommon",
 			"mana_cost": "{3}{R}{R}",
 			"type": "Creature — Dragon",
 			"collector_number": "155",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/155_UR06 Daruxian Spinescourger (for RB).png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/155_UR06 Daruxian Spinescourger.png"
 			}
 		},
 		{
@@ -2535,9 +2535,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Creature — Cat",
-			"collector_number": "3",
+			"collector_number": "4",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/3t_Cat.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/4t_Cat.png"
 			}
 		},
 		{
@@ -2645,9 +2645,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Creature — Snake",
-			"collector_number": "4",
+			"collector_number": "6",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/4t_Snake.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/6t_Snake.png"
 			}
 		},
 		{
@@ -2669,6 +2669,26 @@
 			"image_uris": {
 				"en": "https://Opacana.github.io/sets/ASM-files/img/1t_Wish.png"
 			}
+		},
+		{
+			"name": "Elemental Cat",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Elemental Cat",
+			"collector_number": "3",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/ASM-files/img/3t_Elemental Cat.png"
+			}
+		},
+		{
+			"name": "Elemental",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Elemental",
+			"collector_number": "5",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/ASM-files/img/5t_Elemental.png"
+			}
 		}
 	]
 
@@ -2680,7 +2700,7 @@
 	2 RW05 noncreature
 	2 RW06 noncreature
 	2 RW07 noncreature
-	2 RU01 creature
+	2 RU01 graveyard spell copier
 	2 RU02 creature
 	2 RU03 Interdiction Angel
 	2 RU04 noncreature
@@ -2698,7 +2718,7 @@
 	2 RR03 Lazotep Dragon
 	2 RR04 noncreature
 	2 RR05 noncreature
-	2 RR06 noncreature
+	2 RR06 Another One
 	2 RR07 noncreature
 	2 RG01 Hesep Tender
 	2 RG02 creature
@@ -2753,14 +2773,14 @@
 	4 UU11 Noncreature (supp. U/B)
 	4 UU12 Noncrea (supp. R/U)
 	4 UU13 Noncreature (supp. All)
-	4 UB12 noncre (supp. B/W)
+	4 UB12 Betrayal of Secrets
 	4 UB13 nonc (supp. B/U)
 	4 UB14Noncreature (supp. ALL)
 	4 UR12 3-cost noncre (supp. RB)
 	4 UR14 5-cost noncre (supp RB)
 	4 UR13 4-cost noncre (supp. RG)
 	4 UG14 noncreature (supp. GB)
-	4 UG13 noncreature (supp. GR)
+	4 UG13 Nerves
 	4 UG12 noncreature (supp. GW)
 	4 UW01 1-cost creature (for W/R)
 	4 UW02 2-cost Crea (for W/G)
@@ -2791,16 +2811,16 @@
 	4 UB09 noncre (supp. B/U)
 	4 UB10 noncre (supp. B/R)
 	4 UB11 noncre (supp. B/G)
-	4 UR01 Taw-honed Fighter (for R/W)
-	4 UR02 2-cost creature
-	4 UR03 2-cost creature
+	4 UR01 Taw-honed Fighter
+	4 UR02 2-cost creature (for R/B)
+	4 UR03 2-cost creature (for R/G)
 	4 UR04 Vessel of Wrath
-	4 UR05 4-cost creature
-	4 UR07 5-cost creature
-	4 UR08 6-cost creature
-	4 UR09 Darkstorm Bolt (supp. R/U)
+	4 UR05 4-cost creature (for R/U)
+	4 UR07 5-cost creature (for R/W)
+	4 UR08 6-cost creature (for all)
+	4 UR09 Darkstorm Bolt
 	4 UR10 3-cost noncr (supp R/W)
-	4 UR11 Shining Bright (supp. R/U)
+	4 UR11 Shining Bright
 	4 UG01 1-cost crea (for G/R)
 	4 UG02 2-cost Crea (for G/U)
 	4 UG03 2-cost Crea (for G/B)
@@ -2811,13 +2831,13 @@
 	4 UG08 6-cost Crea (for G/W)
 	4 UG09 7-cost Crea (for G/R)
 	4 UG11 noncreature (supp. GU)
-	4 UA04nonc, connected to Betray
+	4 UA04 Blood of the Pious
 	4 UA05 1 mana artifact creature
 	4 UL01 W-dominant Oasis
-	4 UL02 U-dominant Oasis
+	4 UL02 Port Kharteru
 	4 UL03 B-dominant Oasis
-	4 UL04 R-dominant Oasis
-	4 UL05 G-dominant Oasis
+	4 UL04 Sulfurous Baths
+	4 UL05 Shefet Shrublands
 	4 UU14 Noncreature (supp. All)
 	4 UB15Noncreature (supp. All)
 	4 UR15 4or5-cost noncr (supp. RG)
@@ -2827,7 +2847,7 @@
 	4 UA01 Lazotep Blade
 	4 UA02 Icon of Unity
 	4 UA03 Spellfire Khopesh
-	4 UR06 Daruxian Spinescourger (for RB)
+	4 UR06 Daruxian Spinescourger
 	4 UB05 Mindstab Ravager
 	4 UB08 Vile Judge
 	4 UM01 BR-1 Boiling Bloodlust
@@ -2876,14 +2896,14 @@
 	8 CU06 Frozen Sands Cadre
 	8 CU07 Vindictive Sphinx
 	8 CU08 Avatar of Sab-Sunen
-	8 CU09Protective instant
-	8 CU10 counterspell
+	8 CU09 Protected
+	8 CU10 Nullification Chant
 	8 CU11 Ancient Prophecies
-	8 CU12 Draw spell (two to three cards)
-	8 CU13 Witness Protection Aura
-	8 CU14 Top or bottom spell
-	8 CU15Modal spell
-	8 CU16 colored artifact
+	8 CU12 Meditative Wisdom
+	8 CU13 Turned to Stone
+	8 CU14 Deliver
+	8 CU15 Ships Passing
+	8 CU16 Sailskiff
 	8 CB01 Serrated Scorpion
 	8 CB02 Fleshform Serket
 	8 CB03 Sentimental Thug
@@ -2894,47 +2914,47 @@
 	8 CB08 Returned Master
 	8 CB09 Burial Chamber Guardian
 	8 CB10 Eternal Moloch
-	8 CB11Combat trick
-	8 CB12 Card draw (added cost)
+	8 CB11 Mantle of Shards
+	8 CB12 Selling Lives
 	8 CB13 Moment of Weakness
-	8 CB15 Slightly overcosted removal
-	8 CB16 noncrea
-	8 CR01 1or2-cost crea (for R/B)
-	8 CR02 2-cost crea (for R/U)
-	8 CR03 2-cost crea (for R/W)
-	8 CR04 3-cost crea (for R/G)
-	8 CR05 3-cost crea (for R/B)
-	8 CR06 3or4-cost crea (for R/W)
-	8 CR07 4or5-cost crea (for R/G)
-	8 CR08 5-cost crea (for R/U)
-	8 CR09 6-cost creature (for ALL)
-	8 CR10Direct damage (deals 2)
-	8 CR11Combat trick
-	8 CR12Rummaging/impulsive draw
-	8 CR13Modal Shatter
-	8 CR14 effic direct dmg, prob 4
-	8 CR15 BIG direct damage
-	8 CR16 (free space)
-	8 CG01 1or2-cost wall-ish creature
-	8 CG02 2-cost creature (for G/R)
-	8 CG03 2-cost creat (for G/W)
-	8 CG04 3-cost crea (for G/U)
-	8 CG05 3-cost crea (for g/r)
-	8 CG06 3or4-cost crea (for g/b)
-	8 CG07 4or5-cost crea (for g/w)
-	8 CG08 5-cost crea (for g/u)
+	8 CB15 Disintegrating Wrappings
+	8 CB16 Spinal Diviner
+	8 CR01 Rage-cursed Returned
+	8 CR02 Frontier Messenger
+	8 CR03 Maahestet Champion
+	8 CR04 Shadowseller
+	8 CR05 Bloodsand Lich
+	8 CR06 Role Model Sergeant
+	8 CR07 Ka-Blade Champion
+	8 CR08 Avenging Minotaur
+	8 CR09 Starving Sandwurm
+	8 CR10 No Pain
+	8 CR11 Swollen
+	8 CR12 Stealing the Beacon
+	8 CR13 Abrade
+	8 CR14 Fire
+	8 CR15 Holy Pyre
+	8 CR16 Helm of Hazoret
+	8 CG01 Apepisw Gate
+	8 CG02 Oashra Vitalist
+	8 CG03 Exploring Couple
+	8 CG04 Giant Ibis
+	8 CG05 Instructor Huntress
+	8 CG06 Boat-climber Cobra
+	8 CG07 Seeker of Lost Species
+	8 CG08 Hippo Family
 	8 CG09 Avenging Elephant
-	8 CG10 6or7-cost creature (for ALL)
-	8 CG11Fight spell
-	8 CG12Bite spell
+	8 CG10 Oasis Sentinel
+	8 CG11 Maul
+	8 CG12 Hunting Party
 	8 CG14 City's Founding
-	8 CG15Dig for lands and/or creatures
-	8 CG16 (free space)
-	8 CA01 Two-mana creature (variance buster)
+	8 CG15 Night Market
+	8 CG16 Ghrin-Danu's Servitors
+	8 CA01 2-cost Smoother
 	8 CA02Three-mana creature
 	8 CA03 Grounds Guardian
-	8 CA04Removal
-	8 CA05Manalith+ ability
+	8 CA04 Private Feast
+	8 CA05 Gleaming Capstone
 	8 CL01 Winding River
 	8 CB14 Feast on Flesh
 	8 CG13 Adjust to Abundance
@@ -2964,14 +2984,14 @@
 	8 CU06 Frozen Sands Cadre
 	8 CU07 Vindictive Sphinx
 	8 CU08 Avatar of Sab-Sunen
-	8 CU09Protective instant
-	8 CU10 counterspell
+	8 CU09 Protected
+	8 CU10 Nullification Chant
 	8 CU11 Ancient Prophecies
-	8 CU12 Draw spell (two to three cards)
-	8 CU13 Witness Protection Aura
-	8 CU14 Top or bottom spell
-	8 CU15Modal spell
-	8 CU16 colored artifact
+	8 CU12 Meditative Wisdom
+	8 CU13 Turned to Stone
+	8 CU14 Deliver
+	8 CU15 Ships Passing
+	8 CU16 Sailskiff
 	8 CB01 Serrated Scorpion
 	8 CB02 Fleshform Serket
 	8 CB03 Sentimental Thug
@@ -2982,47 +3002,47 @@
 	8 CB08 Returned Master
 	8 CB09 Burial Chamber Guardian
 	8 CB10 Eternal Moloch
-	8 CB11Combat trick
-	8 CB12 Card draw (added cost)
+	8 CB11 Mantle of Shards
+	8 CB12 Selling Lives
 	8 CB13 Moment of Weakness
-	8 CB15 Slightly overcosted removal
-	8 CB16 noncrea
-	8 CR01 1or2-cost crea (for R/B)
-	8 CR02 2-cost crea (for R/U)
-	8 CR03 2-cost crea (for R/W)
-	8 CR04 3-cost crea (for R/G)
-	8 CR05 3-cost crea (for R/B)
-	8 CR06 3or4-cost crea (for R/W)
-	8 CR07 4or5-cost crea (for R/G)
-	8 CR08 5-cost crea (for R/U)
-	8 CR09 6-cost creature (for ALL)
-	8 CR10Direct damage (deals 2)
-	8 CR11Combat trick
-	8 CR12Rummaging/impulsive draw
-	8 CR13Modal Shatter
-	8 CR14 effic direct dmg, prob 4
-	8 CR15 BIG direct damage
-	8 CR16 (free space)
-	8 CG01 1or2-cost wall-ish creature
-	8 CG02 2-cost creature (for G/R)
-	8 CG03 2-cost creat (for G/W)
-	8 CG04 3-cost crea (for G/U)
-	8 CG05 3-cost crea (for g/r)
-	8 CG06 3or4-cost crea (for g/b)
-	8 CG07 4or5-cost crea (for g/w)
-	8 CG08 5-cost crea (for g/u)
+	8 CB15 Disintegrating Wrappings
+	8 CB16 Spinal Diviner
+	8 CR01 Rage-cursed Returned
+	8 CR02 Frontier Messenger
+	8 CR03 Maahestet Champion
+	8 CR04 Shadowseller
+	8 CR05 Bloodsand Lich
+	8 CR06 Role Model Sergeant
+	8 CR07 Ka-Blade Champion
+	8 CR08 Avenging Minotaur
+	8 CR09 Starving Sandwurm
+	8 CR10 No Pain
+	8 CR11 Swollen
+	8 CR12 Stealing the Beacon
+	8 CR13 Abrade
+	8 CR14 Fire
+	8 CR15 Holy Pyre
+	8 CR16 Helm of Hazoret
+	8 CG01 Apepisw Gate
+	8 CG02 Oashra Vitalist
+	8 CG03 Exploring Couple
+	8 CG04 Giant Ibis
+	8 CG05 Instructor Huntress
+	8 CG06 Boat-climber Cobra
+	8 CG07 Seeker of Lost Species
+	8 CG08 Hippo Family
 	8 CG09 Avenging Elephant
-	8 CG10 6or7-cost creature (for ALL)
-	8 CG11Fight spell
-	8 CG12Bite spell
+	8 CG10 Oasis Sentinel
+	8 CG11 Maul
+	8 CG12 Hunting Party
 	8 CG14 City's Founding
-	8 CG15Dig for lands and/or creatures
-	8 CG16 (free space)
-	8 CA01 Two-mana creature (variance buster)
+	8 CG15 Night Market
+	8 CG16 Ghrin-Danu's Servitors
+	8 CA01 2-cost Smoother
 	8 CA02Three-mana creature
 	8 CA03 Grounds Guardian
-	8 CA04Removal
-	8 CA05Manalith+ ability
+	8 CA04 Private Feast
+	8 CA05 Gleaming Capstone
 	8 CL01 Winding River
 	8 CB14 Feast on Flesh
 	8 CG13 Adjust to Abundance
@@ -3055,14 +3075,14 @@
 	12 CU06 Frozen Sands Cadre
 	12 CU07 Vindictive Sphinx
 	12 CU08 Avatar of Sab-Sunen
-	12 CU09Protective instant
-	12 CU10 counterspell
+	12 CU09 Protected
+	12 CU10 Nullification Chant
 	12 CU11 Ancient Prophecies
-	12 CU12 Draw spell (two to three cards)
-	12 CU13 Witness Protection Aura
-	12 CU14 Top or bottom spell
-	12 CU15Modal spell
-	12 CU16 colored artifact
+	12 CU12 Meditative Wisdom
+	12 CU13 Turned to Stone
+	12 CU14 Deliver
+	12 CU15 Ships Passing
+	12 CU16 Sailskiff
 	6 UU11 Noncreature (supp. U/B)
 	6 UU12 Noncrea (supp. R/U)
 	6 UU13 Noncreature (supp. All)
@@ -3076,50 +3096,50 @@
 	12 CB08 Returned Master
 	12 CB09 Burial Chamber Guardian
 	12 CB10 Eternal Moloch
-	12 CB11Combat trick
-	12 CB12 Card draw (added cost)
+	12 CB11 Mantle of Shards
+	12 CB12 Selling Lives
 	12 CB13 Moment of Weakness
-	12 CB15 Slightly overcosted removal
-	12 CB16 noncrea
-	6 UB12 noncre (supp. B/W)
+	12 CB15 Disintegrating Wrappings
+	12 CB16 Spinal Diviner
+	6 UB12 Betrayal of Secrets
 	6 UB13 nonc (supp. B/U)
 	6 UB14Noncreature (supp. ALL)
-	12 CR01 1or2-cost crea (for R/B)
-	12 CR02 2-cost crea (for R/U)
-	12 CR03 2-cost crea (for R/W)
-	12 CR04 3-cost crea (for R/G)
-	12 CR05 3-cost crea (for R/B)
-	12 CR06 3or4-cost crea (for R/W)
-	12 CR07 4or5-cost crea (for R/G)
-	12 CR08 5-cost crea (for R/U)
-	12 CR09 6-cost creature (for ALL)
-	12 CR10Direct damage (deals 2)
-	12 CR11Combat trick
-	12 CR12Rummaging/impulsive draw
-	12 CR13Modal Shatter
-	12 CR14 effic direct dmg, prob 4
-	12 CR15 BIG direct damage
-	12 CR16 (free space)
+	12 CR01 Rage-cursed Returned
+	12 CR02 Frontier Messenger
+	12 CR03 Maahestet Champion
+	12 CR04 Shadowseller
+	12 CR05 Bloodsand Lich
+	12 CR06 Role Model Sergeant
+	12 CR07 Ka-Blade Champion
+	12 CR08 Avenging Minotaur
+	12 CR09 Starving Sandwurm
+	12 CR10 No Pain
+	12 CR11 Swollen
+	12 CR12 Stealing the Beacon
+	12 CR13 Abrade
+	12 CR14 Fire
+	12 CR15 Holy Pyre
+	12 CR16 Helm of Hazoret
 	6 UR12 3-cost noncre (supp. RB)
 	6 UR14 5-cost noncre (supp RB)
 	6 UR13 4-cost noncre (supp. RG)
-	12 CG01 1or2-cost wall-ish creature
-	12 CG02 2-cost creature (for G/R)
-	12 CG03 2-cost creat (for G/W)
-	12 CG04 3-cost crea (for G/U)
-	12 CG05 3-cost crea (for g/r)
-	12 CG06 3or4-cost crea (for g/b)
-	12 CG07 4or5-cost crea (for g/w)
-	12 CG08 5-cost crea (for g/u)
+	12 CG01 Apepisw Gate
+	12 CG02 Oashra Vitalist
+	12 CG03 Exploring Couple
+	12 CG04 Giant Ibis
+	12 CG05 Instructor Huntress
+	12 CG06 Boat-climber Cobra
+	12 CG07 Seeker of Lost Species
+	12 CG08 Hippo Family
 	12 CG09 Avenging Elephant
-	12 CG10 6or7-cost creature (for ALL)
-	12 CG11Fight spell
-	12 CG12Bite spell
+	12 CG10 Oasis Sentinel
+	12 CG11 Maul
+	12 CG12 Hunting Party
 	12 CG14 City's Founding
-	12 CG15Dig for lands and/or creatures
-	12 CG16 (free space)
+	12 CG15 Night Market
+	12 CG16 Ghrin-Danu's Servitors
 	6 UG14 noncreature (supp. GB)
-	6 UG13 noncreature (supp. GR)
+	6 UG13 Nerves
 	6 UG12 noncreature (supp. GW)
 	6 UW01 1-cost creature (for W/R)
 	6 UW02 2-cost Crea (for W/G)
@@ -3150,16 +3170,16 @@
 	6 UB09 noncre (supp. B/U)
 	6 UB10 noncre (supp. B/R)
 	6 UB11 noncre (supp. B/G)
-	6 UR01 Taw-honed Fighter (for R/W)
-	6 UR02 2-cost creature
-	6 UR03 2-cost creature
+	6 UR01 Taw-honed Fighter
+	6 UR02 2-cost creature (for R/B)
+	6 UR03 2-cost creature (for R/G)
 	6 UR04 Vessel of Wrath
-	6 UR05 4-cost creature
-	6 UR07 5-cost creature
-	6 UR08 6-cost creature
-	6 UR09 Darkstorm Bolt (supp. R/U)
+	6 UR05 4-cost creature (for R/U)
+	6 UR07 5-cost creature (for R/W)
+	6 UR08 6-cost creature (for all)
+	6 UR09 Darkstorm Bolt
 	6 UR10 3-cost noncr (supp R/W)
-	6 UR11 Shining Bright (supp. R/U)
+	6 UR11 Shining Bright
 	6 UG01 1-cost crea (for G/R)
 	6 UG02 2-cost Crea (for G/U)
 	6 UG03 2-cost Crea (for G/B)
@@ -3177,7 +3197,7 @@
 	2 RW05 noncreature
 	2 RW06 noncreature
 	2 RW07 noncreature
-	2 RU01 creature
+	2 RU01 graveyard spell copier
 	2 RU02 creature
 	2 RU03 Interdiction Angel
 	2 RU04 noncreature
@@ -3195,7 +3215,7 @@
 	2 RR03 Lazotep Dragon
 	2 RR04 noncreature
 	2 RR05 noncreature
-	2 RR06 noncreature
+	2 RR06 Another One
 	2 RR07 noncreature
 	2 RG01 Hesep Tender
 	2 RG02 creature
@@ -3224,19 +3244,19 @@
 	2 RM01
 	2 RM01
 	2 RM01
-	12 CA01 Two-mana creature (variance buster)
+	12 CA01 2-cost Smoother
 	12 CA02Three-mana creature
 	12 CA03 Grounds Guardian
-	12 CA04Removal
-	12 CA05Manalith+ ability
-	6 UA04nonc, connected to Betray
+	12 CA04 Private Feast
+	12 CA05 Gleaming Capstone
+	6 UA04 Blood of the Pious
 	6 UA05 1 mana artifact creature
 	12 CL01 Winding River
 	6 UL01 W-dominant Oasis
-	6 UL02 U-dominant Oasis
+	6 UL02 Port Kharteru
 	6 UL03 B-dominant Oasis
-	6 UL04 R-dominant Oasis
-	6 UL05 G-dominant Oasis
+	6 UL04 Sulfurous Baths
+	6 UL05 Shefet Shrublands
 	6 UU14 Noncreature (supp. All)
 	6 UB15Noncreature (supp. All)
 	6 UR15 4or5-cost noncr (supp. RG)
@@ -3267,7 +3287,7 @@
 	6 UA01 Lazotep Blade
 	6 UA02 Icon of Unity
 	6 UA03 Spellfire Khopesh
-	6 UR06 Daruxian Spinescourger (for RB)
+	6 UR06 Daruxian Spinescourger
 	6 UB05 Mindstab Ravager
 	6 UB08 Vile Judge
 	6 UM01 BR-1 Boiling Bloodlust
@@ -3319,14 +3339,14 @@
 	6 CU06 Frozen Sands Cadre
 	6 CU07 Vindictive Sphinx
 	6 CU08 Avatar of Sab-Sunen
-	6 CU09Protective instant
-	6 CU10 counterspell
+	6 CU09 Protected
+	6 CU10 Nullification Chant
 	6 CU11 Ancient Prophecies
-	6 CU12 Draw spell (two to three cards)
-	6 CU13 Witness Protection Aura
-	6 CU14 Top or bottom spell
-	6 CU15Modal spell
-	6 CU16 colored artifact
+	6 CU12 Meditative Wisdom
+	6 CU13 Turned to Stone
+	6 CU14 Deliver
+	6 CU15 Ships Passing
+	6 CU16 Sailskiff
 	15 UU11 Noncreature (supp. U/B)
 	15 UU12 Noncrea (supp. R/U)
 	15 UU13 Noncreature (supp. All)
@@ -3340,50 +3360,50 @@
 	6 CB08 Returned Master
 	6 CB09 Burial Chamber Guardian
 	6 CB10 Eternal Moloch
-	6 CB11Combat trick
-	6 CB12 Card draw (added cost)
+	6 CB11 Mantle of Shards
+	6 CB12 Selling Lives
 	6 CB13 Moment of Weakness
-	6 CB15 Slightly overcosted removal
-	6 CB16 noncrea
-	15 UB12 noncre (supp. B/W)
+	6 CB15 Disintegrating Wrappings
+	6 CB16 Spinal Diviner
+	15 UB12 Betrayal of Secrets
 	15 UB13 nonc (supp. B/U)
 	15 UB14Noncreature (supp. ALL)
-	6 CR01 1or2-cost crea (for R/B)
-	6 CR02 2-cost crea (for R/U)
-	6 CR03 2-cost crea (for R/W)
-	6 CR04 3-cost crea (for R/G)
-	6 CR05 3-cost crea (for R/B)
-	6 CR06 3or4-cost crea (for R/W)
-	6 CR07 4or5-cost crea (for R/G)
-	6 CR08 5-cost crea (for R/U)
-	6 CR09 6-cost creature (for ALL)
-	6 CR10Direct damage (deals 2)
-	6 CR11Combat trick
-	6 CR12Rummaging/impulsive draw
-	6 CR13Modal Shatter
-	6 CR14 effic direct dmg, prob 4
-	6 CR15 BIG direct damage
-	6 CR16 (free space)
+	6 CR01 Rage-cursed Returned
+	6 CR02 Frontier Messenger
+	6 CR03 Maahestet Champion
+	6 CR04 Shadowseller
+	6 CR05 Bloodsand Lich
+	6 CR06 Role Model Sergeant
+	6 CR07 Ka-Blade Champion
+	6 CR08 Avenging Minotaur
+	6 CR09 Starving Sandwurm
+	6 CR10 No Pain
+	6 CR11 Swollen
+	6 CR12 Stealing the Beacon
+	6 CR13 Abrade
+	6 CR14 Fire
+	6 CR15 Holy Pyre
+	6 CR16 Helm of Hazoret
 	15 UR12 3-cost noncre (supp. RB)
 	15 UR14 5-cost noncre (supp RB)
 	15 UR13 4-cost noncre (supp. RG)
-	6 CG01 1or2-cost wall-ish creature
-	6 CG02 2-cost creature (for G/R)
-	6 CG03 2-cost creat (for G/W)
-	6 CG04 3-cost crea (for G/U)
-	6 CG05 3-cost crea (for g/r)
-	6 CG06 3or4-cost crea (for g/b)
-	6 CG07 4or5-cost crea (for g/w)
-	6 CG08 5-cost crea (for g/u)
+	6 CG01 Apepisw Gate
+	6 CG02 Oashra Vitalist
+	6 CG03 Exploring Couple
+	6 CG04 Giant Ibis
+	6 CG05 Instructor Huntress
+	6 CG06 Boat-climber Cobra
+	6 CG07 Seeker of Lost Species
+	6 CG08 Hippo Family
 	6 CG09 Avenging Elephant
-	6 CG10 6or7-cost creature (for ALL)
-	6 CG11Fight spell
-	6 CG12Bite spell
+	6 CG10 Oasis Sentinel
+	6 CG11 Maul
+	6 CG12 Hunting Party
 	6 CG14 City's Founding
-	6 CG15Dig for lands and/or creatures
-	6 CG16 (free space)
+	6 CG15 Night Market
+	6 CG16 Ghrin-Danu's Servitors
 	15 UG14 noncreature (supp. GB)
-	15 UG13 noncreature (supp. GR)
+	15 UG13 Nerves
 	15 UG12 noncreature (supp. GW)
 	15 UW01 1-cost creature (for W/R)
 	15 UW02 2-cost Crea (for W/G)
@@ -3414,16 +3434,16 @@
 	15 UB09 noncre (supp. B/U)
 	15 UB10 noncre (supp. B/R)
 	15 UB11 noncre (supp. B/G)
-	15 UR01 Taw-honed Fighter (for R/W)
-	15 UR02 2-cost creature
-	15 UR03 2-cost creature
+	15 UR01 Taw-honed Fighter
+	15 UR02 2-cost creature (for R/B)
+	15 UR03 2-cost creature (for R/G)
 	15 UR04 Vessel of Wrath
-	15 UR05 4-cost creature
-	15 UR07 5-cost creature
-	15 UR08 6-cost creature
-	15 UR09 Darkstorm Bolt (supp. R/U)
+	15 UR05 4-cost creature (for R/U)
+	15 UR07 5-cost creature (for R/W)
+	15 UR08 6-cost creature (for all)
+	15 UR09 Darkstorm Bolt
 	15 UR10 3-cost noncr (supp R/W)
-	15 UR11 Shining Bright (supp. R/U)
+	15 UR11 Shining Bright
 	15 UG01 1-cost crea (for G/R)
 	15 UG02 2-cost Crea (for G/U)
 	15 UG03 2-cost Crea (for G/B)
@@ -3441,7 +3461,7 @@
 	7 RW05 noncreature
 	7 RW06 noncreature
 	7 RW07 noncreature
-	7 RU01 creature
+	7 RU01 graveyard spell copier
 	7 RU02 creature
 	7 RU03 Interdiction Angel
 	7 RU04 noncreature
@@ -3459,7 +3479,7 @@
 	7 RR03 Lazotep Dragon
 	7 RR04 noncreature
 	7 RR05 noncreature
-	7 RR06 noncreature
+	7 RR06 Another One
 	7 RR07 noncreature
 	7 RG01 Hesep Tender
 	7 RG02 creature
@@ -3488,19 +3508,19 @@
 	7 RM01
 	7 RM01
 	7 RM01
-	6 CA01 Two-mana creature (variance buster)
+	6 CA01 2-cost Smoother
 	6 CA02Three-mana creature
 	6 CA03 Grounds Guardian
-	6 CA04Removal
-	6 CA05Manalith+ ability
-	15 UA04nonc, connected to Betray
+	6 CA04 Private Feast
+	6 CA05 Gleaming Capstone
+	15 UA04 Blood of the Pious
 	15 UA05 1 mana artifact creature
 	6 CL01 Winding River
 	15 UL01 W-dominant Oasis
-	15 UL02 U-dominant Oasis
+	15 UL02 Port Kharteru
 	15 UL03 B-dominant Oasis
-	15 UL04 R-dominant Oasis
-	15 UL05 G-dominant Oasis
+	15 UL04 Sulfurous Baths
+	15 UL05 Shefet Shrublands
 	15 UU14 Noncreature (supp. All)
 	15 UB15Noncreature (supp. All)
 	15 UR15 4or5-cost noncr (supp. RG)
@@ -3531,7 +3551,7 @@
 	15 UA01 Lazotep Blade
 	15 UA02 Icon of Unity
 	15 UA03 Spellfire Khopesh
-	15 UR06 Daruxian Spinescourger (for RB)
+	15 UR06 Daruxian Spinescourger
 	15 UB05 Mindstab Ravager
 	15 UB08 Vile Judge
 	15 UM01 BR-1 Boiling Bloodlust

@@ -5,22 +5,22 @@
 			<name>ASM</name>
 			<longname>Amonkhet: Schism</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-04-26</releasedate>
+			<releasedate>2026-04-30</releasedate>
 		</set>
 	</sets>
 	<cards>
 		<card>
 			<name>CA06 Land fixing</name>
 			<text>When this artifact enters, you may search your library for a basic land or Oasis card, reveal it and put it into your hand, then shuffle.
-{T}: Add {C}.</text>
+{T}: Add {C}, then scry 2.</text>
 			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/250_CA06 Land fixing.png" num="250">ASM</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
 				<type>Artifact</type>
 				<maintype>Artifact</maintype>
-				<manacost>3</manacost>
-				<cmc>3</cmc>
+				<manacost>4</manacost>
+				<cmc>4</cmc>
 			</prop>
 			<tablerow>1</tablerow>
 		</card>
@@ -499,36 +499,42 @@ Remove a counter from this creature: Choose one. Activate only once each turn. �
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>CU09Protective instant</name>
-			<text>has Aftermath (Cast this spell only from your graveyard. Then exile it.)</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/54_CU09Protective instant.png" num="54">ASM</set>
+			<name>CU09 Protected // From Reality</name>
+			<text>Target creature you control gains hexproof until end of turn.
+
+---
+
+Aftermath (Cast this spell only from your graveyard. Then exile it.)
+Any number of target players each mill 3 cards.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/54_CU09 Protected.png" num="54">ASM</set>
 			<prop>
-				<layout>normal</layout>
+				<layout>aftermath</layout>
 				<side>front</side>
-				<type></type>
-				<maintype></maintype>
-				<manacost></manacost>
-				<cmc>0</cmc>
+				<type>Instant // Sorcery</type>
+				<maintype>Instant</maintype>
+				<manacost>U // U</manacost>
+				<cmc>2</cmc>
 				<colors>U</colors>
 				<coloridentity>U</coloridentity>
 			</prop>
-			<tablerow>1</tablerow>
+			<tablerow>3</tablerow>
 		</card>
 		<card>
-			<name>CU10 counterspell</name>
-			<text>ties into UG and/or Oasis?</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/55_CU10 counterspell.png" num="55">ASM</set>
+			<name>CU10 Nullification Chant</name>
+			<text>This spell costs {1} less to cast as long as a counter was put on or removed from a permanent you control this turn.
+Counter target spell.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/55_CU10 Nullification Chant.png" num="55">ASM</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type></type>
-				<maintype></maintype>
-				<manacost></manacost>
-				<cmc>0</cmc>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1UU</manacost>
+				<cmc>3</cmc>
 				<colors>U</colors>
 				<coloridentity>U</coloridentity>
 			</prop>
-			<tablerow>1</tablerow>
+			<tablerow>3</tablerow>
 		</card>
 		<card>
 			<name>CU11 Ancient Prophecies // Predicting Ruin</name>
@@ -553,28 +559,28 @@ Scry 2.</text>
 			<tablerow>3</tablerow>
 		</card>
 		<card>
-			<name>CU12 Draw spell (two to three cards)</name>
-			<text></text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/57_CU12 Draw spell (two to three cards).png" num="57">ASM</set>
+			<name>CU12 Meditative Wisdom</name>
+			<text>Draw three cards, then discard a card.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/57_CU12 Meditative Wisdom.png" num="57">ASM</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type></type>
-				<maintype></maintype>
-				<manacost></manacost>
-				<cmc>0</cmc>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3U</manacost>
+				<cmc>4</cmc>
 				<colors>U</colors>
 				<coloridentity>U</coloridentity>
 			</prop>
-			<tablerow>1</tablerow>
+			<tablerow>3</tablerow>
 		</card>
 		<card>
-			<name>CU13 Witness Protection Aura</name>
+			<name>CU13 Turned to Stone</name>
 			<text>Enchant creature
 When this Aura enters, tap enchanted creature.
 Tap enchanted creature at the beginning of its controller&apos;s upkeep step.
 Enchanted creature has no abilities while tapped.</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/58_CU13 Witness Protection Aura.png" num="58">ASM</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/58_CU13 Turned to Stone.png" num="58">ASM</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -588,48 +594,60 @@ Enchanted creature has no abilities while tapped.</text>
 			<tablerow>1</tablerow>
 		</card>
 		<card>
-			<name>CU14 Top or bottom spell</name>
-			<text>has aftermath (Cast this spell only from your graveyard. Then exile it.)</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/59_CU14 Top or bottom spell.png" num="59">ASM</set>
+			<name>CU14 Deliver // An Ultimatum</name>
+			<text>Target creature&apos;s controller puts it on their choice of the top or bottom of its owner&apos;s library.
+
+---
+
+Aftermath
+Target creature&apos;s controller puts it on their choice of the top or bottom of its owner&apos;s library.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/59_CU14 Deliver.png" num="59">ASM</set>
 			<prop>
-				<layout>normal</layout>
+				<layout>aftermath</layout>
 				<side>front</side>
-				<type></type>
-				<maintype></maintype>
-				<manacost></manacost>
-				<cmc>0</cmc>
+				<type>Instant // Sorcery</type>
+				<maintype>Instant</maintype>
+				<manacost>3U // 4U</manacost>
+				<cmc>9</cmc>
 				<colors>U</colors>
 				<coloridentity>U</coloridentity>
 			</prop>
-			<tablerow>1</tablerow>
+			<tablerow>3</tablerow>
 		</card>
 		<card>
-			<name>CU15Modal spell</name>
-			<text>has aftermath</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/60_CU15Modal spell.png" num="60">ASM</set>
+			<name>CU15 Ships Passing // In the Night</name>
+			<text>Choose one —
+• Return target nonland permanent to its owner&apos;s hand.
+• Return target creature to its owner&apos;s hand. Draw a card.
+
+---
+
+Aftermath
+Target creature can&apos;t be blocked until end of turn.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/60_CU15 Ships Passing.png" num="60">ASM</set>
 			<prop>
-				<layout>normal</layout>
+				<layout>aftermath</layout>
 				<side>front</side>
-				<type></type>
-				<maintype></maintype>
-				<manacost></manacost>
-				<cmc>0</cmc>
+				<type>Instant // Sorcery</type>
+				<maintype>Instant</maintype>
+				<manacost>2U // 1U</manacost>
+				<cmc>5</cmc>
 				<colors>U</colors>
 				<coloridentity>U</coloridentity>
 			</prop>
-			<tablerow>1</tablerow>
+			<tablerow>3</tablerow>
 		</card>
 		<card>
-			<name>CU16 colored artifact</name>
-			<text>does something on entering and leaving [ so as to tie into betray a bit]</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/61_CU16 colored artifact.png" num="61">ASM</set>
+			<name>CU16 Sailskiff</name>
+			<text>When this artifact enters or leaves the battlefield, scry 2, then target creature you control gains flying until end of turn.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/61_CU16 Sailskiff.png" num="61">ASM</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
 				<type>Artifact</type>
 				<maintype>Artifact</maintype>
-				<manacost></manacost>
-				<cmc>0</cmc>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
 				<colors>U</colors>
 				<coloridentity>U</coloridentity>
 			</prop>
@@ -865,48 +883,66 @@ Destroy target creature or planeswalker with mana value 2 or less.</text>
 			<tablerow>3</tablerow>
 		</card>
 		<card>
-			<name>CB11Combat trick</name>
-			<text></text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/95_CB11Combat trick.png" num="95">ASM</set>
+			<name>CB11 Mantle of Shards</name>
+			<text>Target creature you control gains deathtouch and indestructible until end of turn.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/95_CB11 Mantle of Shards.png" num="95">ASM</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type></type>
-				<maintype></maintype>
-				<manacost></manacost>
-				<cmc>0</cmc>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
 				<colors>B</colors>
 				<coloridentity>B</coloridentity>
 			</prop>
-			<tablerow>1</tablerow>
+			<tablerow>3</tablerow>
 		</card>
 		<card>
-			<name>CB12 Card draw (added cost)</name>
-			<text></text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/96_CB12 Card draw (added cost).png" num="96">ASM</set>
+			<name>CB12 Selling Lives</name>
+			<text>As an additional cost to cast this spell, sacrifice a creature.
+Draw two cards.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/96_CB12 Selling Lives.png" num="96">ASM</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type></type>
-				<maintype></maintype>
-				<manacost></manacost>
-				<cmc>0</cmc>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
 				<colors>B</colors>
 				<coloridentity>B</coloridentity>
 			</prop>
-			<tablerow>1</tablerow>
+			<tablerow>3</tablerow>
 		</card>
 		<card>
 			<name>CB13 Moment of Weakness</name>
 			<text>This spell costs {2} less to cast if an opponent lost life this turn.
-Target opponent reveals their hand. You choose a nonland card from it. That player discards that card.</text>
+Target opponent discards two cards.</text>
 			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/97_CB13 Moment of Weakness.png" num="97">ASM</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
 				<type>Sorcery</type>
 				<maintype>Sorcery</maintype>
-				<manacost>2B</manacost>
+				<manacost>3B</manacost>
+				<cmc>4</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+			</prop>
+			<tablerow>3</tablerow>
+		</card>
+		<card>
+			<name>CB15 Disintegrating Wrappings</name>
+			<text>You may cast this spell as though it had flash if you pay {1} more to cast it.
+Exile target creature.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/99_CB15 Disintegrating Wrappings.png" num="99">ASM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1BB</manacost>
 				<cmc>3</cmc>
 				<colors>B</colors>
 				<coloridentity>B</coloridentity>
@@ -914,52 +950,39 @@ Target opponent reveals their hand. You choose a nonland card from it. That play
 			<tablerow>3</tablerow>
 		</card>
 		<card>
-			<name>CB15 Slightly overcosted removal</name>
-			<text></text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/99_CB15 Slightly overcosted removal.png" num="99">ASM</set>
+			<name>CB16 Spinal Diviner</name>
+			<text>When this artifact enters or leaves the battlefield, choose one —
+• Target opponent loses 1 life and you gain 1 life.
+• You draw a card and lose 2 life.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/100_CB16 Spinal Diviner.png" num="100">ASM</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type></type>
-				<maintype></maintype>
-				<manacost></manacost>
-				<cmc>0</cmc>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>B</manacost>
+				<cmc>1</cmc>
 				<colors>B</colors>
 				<coloridentity>B</coloridentity>
 			</prop>
 			<tablerow>1</tablerow>
 		</card>
 		<card>
-			<name>CB16 noncrea</name>
-			<text></text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/100_CB16 noncrea.png" num="100">ASM</set>
+			<name>UB12 Betrayal of Secrets</name>
+			<text>Target opponent reveals their hand. You choose a nonland card from it. That player discards that card.
+If you sacrificed a nonland permanent this turn, you gain 2 life.</text>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/ASM-files/img/121_UB12 Betrayal of Secrets.png" num="121">ASM</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type></type>
-				<maintype></maintype>
-				<manacost></manacost>
-				<cmc>0</cmc>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
 				<colors>B</colors>
 				<coloridentity>B</coloridentity>
 			</prop>
-			<tablerow>1</tablerow>
-		</card>
-		<card>
-			<name>UB12 noncre (supp. B/W)</name>
-			<text></text>
-			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/ASM-files/img/121_UB12 noncre (supp. B/W).png" num="121">ASM</set>
-			<prop>
-				<layout>normal</layout>
-				<side>front</side>
-				<type></type>
-				<maintype></maintype>
-				<manacost></manacost>
-				<cmc>0</cmc>
-				<colors>B</colors>
-				<coloridentity>B</coloridentity>
-			</prop>
-			<tablerow>1</tablerow>
+			<tablerow>3</tablerow>
 		</card>
 		<card>
 			<name>UB13 nonc (supp. B/U)</name>
@@ -994,31 +1017,31 @@ Target opponent reveals their hand. You choose a nonland card from it. That play
 			<tablerow>1</tablerow>
 		</card>
 		<card>
-			<name>CR01 1or2-cost crea (for R/B)</name>
+			<name>CR01 Rage-cursed Returned</name>
 			<text>Haste
 When this creature dies, it deals 1 damage to any noncreature target.</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/125_CR01 1or2-cost crea (for R/B).png" num="125">ASM</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/125_CR01 Rage-cursed Returned.png" num="125">ASM</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type></type>
-				<maintype></maintype>
-				<manacost></manacost>
-				<cmc>0</cmc>
+				<type>Creature — Zombie Jackal Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
 				<colors>R</colors>
 				<coloridentity>R</coloridentity>
 				<pt>1/1</pt>
 			</prop>
-			<tablerow>1</tablerow>
+			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>CR02 2-cost crea (for R/U)</name>
+			<name>CR02 Frontier Messenger</name>
 			<text>Whenever this creature attacks, you may draw a card, then discard a card.</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/126_CR02 2-cost crea (for R/U).png" num="126">ASM</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/126_CR02 Frontier Messenger.png" num="126">ASM</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Creature</type>
+				<type>Creature — Jackal Scout</type>
 				<maintype>Creature</maintype>
 				<manacost>1R</manacost>
 				<cmc>2</cmc>
@@ -1029,16 +1052,16 @@ When this creature dies, it deals 1 damage to any noncreature target.</text>
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>CR03 2-cost crea (for R/W)</name>
-			<text></text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/127_CR03 2-cost crea (for R/W).png" num="127">ASM</set>
+			<name>CR03 Maahestet Champion</name>
+			<text>When this creature attacks, if two or more other creatures that share a creature type with it also attack, it gains trample until end of turn.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/127_CR03 Maahestet Champion.png" num="127">ASM</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Creature — ??? Warrior</type>
+				<type>Creature — Cat Warrior</type>
 				<maintype>Creature</maintype>
-				<manacost></manacost>
-				<cmc>0</cmc>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
 				<colors>R</colors>
 				<coloridentity>R</coloridentity>
 				<pt>3/1</pt>
@@ -1046,30 +1069,31 @@ When this creature dies, it deals 1 damage to any noncreature target.</text>
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>CR04 3-cost crea (for R/G)</name>
-			<text>has Haste
-interacts with pumping and/or activated ability, but doesn&apos;t have an AA itself</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/128_CR04 3-cost crea (for R/G).png" num="128">ASM</set>
+			<name>CR04 Shadowseller</name>
+			<text>Haste
+Pay 2 life: Copy target activated ability of a source you control. Activate only once each turn, and only during your turn.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/128_CR04 Shadowseller.png" num="128">ASM</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Creature</type>
+				<type>Creature — Human Demon</type>
 				<maintype>Creature</maintype>
-				<manacost></manacost>
-				<cmc>0</cmc>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
 				<colors>R</colors>
 				<coloridentity>R</coloridentity>
+				<pt>2/2</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>CR05 3-cost crea (for R/B)</name>
+			<name>CR05 Bloodsand Lich</name>
 			<text>This creature enters with an additional +1/+1 counter on it as long as an opponent lost life this turn.</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/129_CR05 3-cost crea (for R/B).png" num="129">ASM</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/129_CR05 Bloodsand Lich.png" num="129">ASM</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Creature</type>
+				<type>Creature — Zombie Spirit Warlock</type>
 				<maintype>Creature</maintype>
 				<manacost>2R</manacost>
 				<cmc>3</cmc>
@@ -1080,16 +1104,16 @@ interacts with pumping and/or activated ability, but doesn&apos;t have an AA its
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>CR06 3or4-cost crea (for R/W)</name>
+			<name>CR06 Role Model Sergeant</name>
 			<text>{1}{RW}: Target Warrior gains first strike until end of turn. Activate only as a sorcery.</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/130_CR06 3or4-cost crea (for R/W).png" num="130">ASM</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/130_CR06 Role Model Sergeant.png" num="130">ASM</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Creature — ??? Soldier Warrior</type>
+				<type>Creature — Human Soldier Warrior</type>
 				<maintype>Creature</maintype>
-				<manacost></manacost>
-				<cmc>0</cmc>
+				<manacost>3R</manacost>
+				<cmc>4</cmc>
 				<colors>R</colors>
 				<coloridentity>WR</coloridentity>
 				<pt>4/3</pt>
@@ -1097,165 +1121,185 @@ interacts with pumping and/or activated ability, but doesn&apos;t have an AA its
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>CR07 4or5-cost crea (for R/G)</name>
-			<text>has Trample
-has activated ability</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/131_CR07 4or5-cost crea (for R/G).png" num="131">ASM</set>
+			<name>CR07 Ka-Blade Champion</name>
+			<text>Trample
+{1}{R}: Choose one. Activate only once each turn, and only if this creature attacked this turn. —
+• Put a +1/+1 counter on target creature you control.
+• Attach target Equipment to target permanent its owner controls that it could equip.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/131_CR07 Ka-Blade Champion.png" num="131">ASM</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type></type>
-				<maintype></maintype>
-				<manacost></manacost>
-				<cmc>0</cmc>
+				<type>Creature — Minotaur Soldier</type>
+				<maintype>Creature</maintype>
+				<manacost>3RR</manacost>
+				<cmc>5</cmc>
 				<colors>R</colors>
 				<coloridentity>R</coloridentity>
-				<pt>5/?</pt>
+				<pt>5/5</pt>
 			</prop>
-			<tablerow>1</tablerow>
+			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>CR08 5-cost crea (for R/U)</name>
-			<text>has Reach
-has activated or triggered ability that costs at least r/u or {U}</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/132_CR08 5-cost crea (for R/U).png" num="132">ASM</set>
+			<name>CR08 Avenging Minotaur</name>
+			<text>Reach
+When this creature enters, you may pay {U}. When you do, return target instant and/or sorcery from your graveyard to your hand.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/132_CR08 Avenging Minotaur.png" num="132">ASM</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type></type>
-				<maintype></maintype>
-				<manacost></manacost>
-				<cmc>0</cmc>
+				<type>Creature — Minotaur Barbarian</type>
+				<maintype>Creature</maintype>
+				<manacost>4R</manacost>
+				<cmc>5</cmc>
 				<colors>R</colors>
 				<coloridentity>UR</coloridentity>
 				<pt>5/5</pt>
 			</prop>
-			<tablerow>1</tablerow>
+			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>CR09 6-cost creature (for ALL)</name>
-			<text>has Trample</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/133_CR09 6-cost creature (for ALL).png" num="133">ASM</set>
+			<name>CR09 Starving Sandwurm</name>
+			<text>Trample</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/133_CR09 Starving Sandwurm.png" num="133">ASM</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type></type>
-				<maintype></maintype>
-				<manacost></manacost>
-				<cmc>0</cmc>
+				<type>Creature — Wurm</type>
+				<maintype>Creature</maintype>
+				<manacost>4RR</manacost>
+				<cmc>6</cmc>
 				<colors>R</colors>
 				<coloridentity>R</coloridentity>
 				<pt>6/5</pt>
 			</prop>
-			<tablerow>1</tablerow>
+			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>CR10Direct damage (deals 2)</name>
-			<text></text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/134_CR10Direct damage (deals 2).png" num="134">ASM</set>
+			<name>CR10 No Pain // No Gain</name>
+			<text>This spell deals 2 damage to any target.
+
+---
+
+Aftermath (Cast this spell only from your graveyard. Then exile it.)
+Discard a card, then draw two cards.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/134_CR10 No Pain.png" num="134">ASM</set>
 			<prop>
-				<layout>normal</layout>
+				<layout>aftermath</layout>
 				<side>front</side>
-				<type></type>
-				<maintype></maintype>
-				<manacost></manacost>
-				<cmc>0</cmc>
+				<type>Instant // Sorcery</type>
+				<maintype>Instant</maintype>
+				<manacost>1R // 1R</manacost>
+				<cmc>4</cmc>
 				<colors>R</colors>
 				<coloridentity>R</coloridentity>
 			</prop>
-			<tablerow>1</tablerow>
+			<tablerow>3</tablerow>
 		</card>
 		<card>
-			<name>CR11Combat trick</name>
-			<text></text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/135_CR11Combat trick.png" num="135">ASM</set>
+			<name>CR11 Swollen // Ego</name>
+			<text>Target creature gets +1/+0 and gains first strike until end of turn.
+
+---
+
+Aftermath
+Target creature you control fights target creature you don&apos;t control.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/135_CR11 Swollen.png" num="135">ASM</set>
 			<prop>
-				<layout>normal</layout>
+				<layout>aftermath</layout>
 				<side>front</side>
-				<type></type>
-				<maintype></maintype>
-				<manacost></manacost>
-				<cmc>0</cmc>
+				<type>Instant // Sorcery</type>
+				<maintype>Instant</maintype>
+				<manacost>R // 1R</manacost>
+				<cmc>3</cmc>
 				<colors>R</colors>
 				<coloridentity>R</coloridentity>
 			</prop>
-			<tablerow>1</tablerow>
+			<tablerow>3</tablerow>
 		</card>
 		<card>
-			<name>CR12Rummaging/impulsive draw</name>
-			<text></text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/136_CR12Rummaging/impulsive draw.png" num="136">ASM</set>
+			<name>CR12 Stealing the Beacon</name>
+			<text>This spell costs {1} less to cast as long as you&apos;ve activated an ability of a nonland card this turn.
+Exile the top two cards of your library. Until the end of your next turn, you may play those cards.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/136_CR12 Stealing the Beacon.png" num="136">ASM</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type></type>
-				<maintype></maintype>
-				<manacost></manacost>
-				<cmc>0</cmc>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2R</manacost>
+				<cmc>3</cmc>
 				<colors>R</colors>
 				<coloridentity>R</coloridentity>
 			</prop>
-			<tablerow>1</tablerow>
+			<tablerow>3</tablerow>
 		</card>
 		<card>
-			<name>CR13Modal Shatter</name>
-			<text></text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/137_CR13Modal Shatter.png" num="137">ASM</set>
+			<name>CR13 Abrade</name>
+			<text>Choose one —
+• Abrade deals 3 damage to target creature.
+• Destroy target artifact.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/137_CR13 Abrade.png" num="137">ASM</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type></type>
-				<maintype></maintype>
-				<manacost></manacost>
-				<cmc>0</cmc>
+				<type>Instant</type>
+				<maintype>Instant</maintype>
+				<manacost>1R</manacost>
+				<cmc>2</cmc>
 				<colors>R</colors>
 				<coloridentity>R</coloridentity>
 			</prop>
-			<tablerow>1</tablerow>
+			<tablerow>3</tablerow>
 		</card>
 		<card>
-			<name>CR14 effic direct dmg, prob 4</name>
-			<text></text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/138_CR14 effic direct dmg, prob 4.png" num="138">ASM</set>
+			<name>CR14 Fire // Power</name>
+			<text>This spell deals 4 damage to target permanent.
+
+---
+
+Aftermath (Cast this spell only from your graveyard. Then exile it.)
+Create a 3/3 red Elemental Cat creature with haste.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/138_CR14 Fire.png" num="138">ASM</set>
 			<prop>
-				<layout>normal</layout>
+				<layout>aftermath</layout>
 				<side>front</side>
-				<type></type>
-				<maintype></maintype>
-				<manacost></manacost>
-				<cmc>0</cmc>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2R // 2RR</manacost>
+				<cmc>7</cmc>
 				<colors>R</colors>
 				<coloridentity>R</coloridentity>
 			</prop>
-			<tablerow>1</tablerow>
+			<tablerow>3</tablerow>
 		</card>
 		<card>
-			<name>CR15 BIG direct damage</name>
-			<text></text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/139_CR15 BIG direct damage.png" num="139">ASM</set>
+			<name>CR15 Holy Pyre</name>
+			<text>This spell deals 5 damage to any target. Then if there are two or more colors among Warriors you control, you gain 3 life.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/139_CR15 Holy Pyre.png" num="139">ASM</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type></type>
-				<maintype></maintype>
-				<manacost></manacost>
-				<cmc>0</cmc>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3RR</manacost>
+				<cmc>5</cmc>
 				<colors>R</colors>
 				<coloridentity>R</coloridentity>
 			</prop>
-			<tablerow>1</tablerow>
+			<tablerow>3</tablerow>
 		</card>
 		<card>
-			<name>CR16 (free space)</name>
-			<text></text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/140_CR16 (free space).png" num="140">ASM</set>
+			<name>CR16 Helm of Hazoret</name>
+			<text>When this artifact enters or leaves the battlefield, it deals 1 damage to each player, then you surveil 1.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/140_CR16 Helm of Hazoret.png" num="140">ASM</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type></type>
-				<maintype></maintype>
-				<manacost></manacost>
-				<cmc>0</cmc>
+				<type>Artifact</type>
+				<maintype>Artifact</maintype>
+				<manacost>R</manacost>
+				<cmc>1</cmc>
 				<colors>R</colors>
 				<coloridentity>R</coloridentity>
 			</prop>
@@ -1310,132 +1354,147 @@ has activated or triggered ability that costs at least r/u or {U}</text>
 			<tablerow>1</tablerow>
 		</card>
 		<card>
-			<name>CG01 1or2-cost wall-ish creature</name>
-			<text>specifically with Defender</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/166_CG01 1or2-cost wall-ish creature.png" num="166">ASM</set>
+			<name>CG01 Apepisw Gate</name>
+			<text>Defender
+Whenever a player sacrifices a creature or planeswalker, this creature gets +1/+1 until end of turn. This triggers only once each turn.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/166_CG01 Apepisw Gate.png" num="166">ASM</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type></type>
-				<maintype></maintype>
-				<manacost></manacost>
-				<cmc>0</cmc>
+				<type>Creature — Wall</type>
+				<maintype>Creature</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
 				<colors>G</colors>
 				<coloridentity>G</coloridentity>
+				<pt>0/2</pt>
 			</prop>
-			<tablerow>1</tablerow>
+			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>CG02 2-cost creature (for G/R)</name>
-			<text>has activated ability</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/167_CG02 2-cost creature (for G/R).png" num="167">ASM</set>
+			<name>CG02 Oashra Vitalist</name>
+			<text>{1}, {T}: Add two mana in any combination of colors.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/167_CG02 Oashra Vitalist.png" num="167">ASM</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type></type>
-				<maintype></maintype>
-				<manacost></manacost>
-				<cmc>0</cmc>
+				<type>Creature — Naga Druid</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
 				<colors>G</colors>
 				<coloridentity>G</coloridentity>
+				<pt>2/1</pt>
 			</prop>
-			<tablerow>1</tablerow>
+			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>CG03 2-cost creat (for G/W)</name>
-			<text>Vigilance</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/168_CG03 2-cost creat (for G/W).png" num="168">ASM</set>
+			<name>CG03 Exploring Couple</name>
+			<text>Vigilance
+When this creature dies, you may search your library for a basic land card, reveal it and put it into your hand, then shuffle.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/168_CG03 Exploring Couple.png" num="168">ASM</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type></type>
-				<maintype></maintype>
-				<manacost></manacost>
-				<cmc>0</cmc>
+				<type>Creature — Human Citizen</type>
+				<maintype>Creature</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
 				<colors>G</colors>
 				<coloridentity>G</coloridentity>
+				<pt>1/1</pt>
 			</prop>
-			<tablerow>1</tablerow>
+			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>CG04 3-cost crea (for G/U)</name>
-			<text>has Reach</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/169_CG04 3-cost crea (for G/U).png" num="169">ASM</set>
+			<name>CG04 Giant Ibis</name>
+			<text>This creature enters with a +1/+1 counter and a Reach counter on it.
+At the beginning of your upkeep, you may move a +1/+1 counter from this creature onto another target creature you control.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/169_CG04 Giant Ibis.png" num="169">ASM</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type></type>
-				<maintype></maintype>
-				<manacost></manacost>
-				<cmc>0</cmc>
+				<type>Creature — Bird</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
 				<colors>G</colors>
 				<coloridentity>G</coloridentity>
+				<pt>2/2</pt>
 			</prop>
-			<tablerow>1</tablerow>
+			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>CG05 3-cost crea (for g/r)</name>
-			<text>has activated ability</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/170_CG05 3-cost crea (for g/r).png" num="170">ASM</set>
+			<name>CG05 Instructor Huntress</name>
+			<text>{2}{RG}: Target creature you control gets +2/+0 until end of turn. Activate only as a sorcery.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/170_CG05 Instructor Huntress.png" num="170">ASM</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type></type>
-				<maintype></maintype>
-				<manacost></manacost>
-				<cmc>0</cmc>
+				<type>Creature — Human Warrior Ranger</type>
+				<maintype>Creature</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
+				<colors>G</colors>
+				<coloridentity>RG</coloridentity>
+				<pt>4/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+		</card>
+		<card>
+			<name>CG06 Boat-climber Cobra</name>
+			<text>Deathtouch
+This creature assigns combat damage to planeswalkers and players equal to its toughness rather than its power.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/171_CG06 Boat-climber Cobra.png" num="171">ASM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Creature — Snake</type>
+				<maintype>Creature</maintype>
+				<manacost>2GG</manacost>
+				<cmc>4</cmc>
 				<colors>G</colors>
 				<coloridentity>G</coloridentity>
+				<pt>2/4</pt>
 			</prop>
-			<tablerow>1</tablerow>
+			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>CG06 3or4-cost crea (for g/b)</name>
-			<text>has Deathtouch</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/171_CG06 3or4-cost crea (for g/b).png" num="171">ASM</set>
+			<name>CG07 Seeker of Lost Species</name>
+			<text>{T}: Add one mana of any color.
+{G}{W}, {T}: Return target land card from your graveyard to the battlefield.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/172_CG07 Seeker of Lost Species.png" num="172">ASM</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type></type>
-				<maintype></maintype>
-				<manacost></manacost>
-				<cmc>0</cmc>
-				<colors>G</colors>
-				<coloridentity>G</coloridentity>
-			</prop>
-			<tablerow>1</tablerow>
-		</card>
-		<card>
-			<name>CG07 4or5-cost crea (for g/w)</name>
-			<text>Has activated or triggered ability that costs at least g/w or {W}</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/172_CG07 4or5-cost crea (for g/w).png" num="172">ASM</set>
-			<prop>
-				<layout>normal</layout>
-				<side>front</side>
-				<type></type>
-				<maintype></maintype>
-				<manacost></manacost>
-				<cmc>0</cmc>
+				<type>Creature — Human Druid Ranger</type>
+				<maintype>Creature</maintype>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
 				<colors>G</colors>
 				<coloridentity>WG</coloridentity>
+				<pt>2/3</pt>
 			</prop>
-			<tablerow>1</tablerow>
+			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>CG08 5-cost crea (for g/u)</name>
-			<text></text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/173_CG08 5-cost crea (for g/u).png" num="173">ASM</set>
+			<name>CG08 Hippo Family</name>
+			<text>When this creature enters, if one or more counters were removed or put on a creature you control this turn, choose one —
+• Exile any number of cards from target player&apos;s graveyard.
+• Gain 3 life and scry 1.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/173_CG08 Hippo Family.png" num="173">ASM</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type></type>
-				<maintype></maintype>
-				<manacost></manacost>
-				<cmc>0</cmc>
+				<type>Creature — Hippo</type>
+				<maintype>Creature</maintype>
+				<manacost>4G</manacost>
+				<cmc>5</cmc>
 				<colors>G</colors>
 				<coloridentity>G</coloridentity>
+				<pt>5/5</pt>
 			</prop>
-			<tablerow>1</tablerow>
+			<tablerow>2</tablerow>
 		</card>
 		<card>
 			<name>CG09 Avenging Elephant</name>
@@ -1456,52 +1515,55 @@ has activated or triggered ability that costs at least r/u or {U}</text>
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>CG10 6or7-cost creature (for ALL)</name>
-			<text></text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/175_CG10 6or7-cost creature (for ALL).png" num="175">ASM</set>
+			<name>CG10 Oasis Sentinel</name>
+			<text>This creature gets +X/+X and can&apos;t be blocked by creatures with power equal to or less than {X}, where X is the number of Oasis lands you control.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/175_CG10 Oasis Sentinel.png" num="175">ASM</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type></type>
-				<maintype></maintype>
-				<manacost></manacost>
-				<cmc>0</cmc>
+				<type>Creature — Frog Avatar</type>
+				<maintype>Creature</maintype>
+				<manacost>5GG</manacost>
+				<cmc>7</cmc>
 				<colors>G</colors>
 				<coloridentity>G</coloridentity>
+				<pt>6/6</pt>
 			</prop>
-			<tablerow>1</tablerow>
+			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>CG11Fight spell</name>
-			<text></text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/176_CG11Fight spell.png" num="176">ASM</set>
+			<name>CG11 Maul</name>
+			<text>Target creature you control gets +1/+0 until end of turn. It fights up to one target creature you don&apos;t control.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/176_CG11 Maul.png" num="176">ASM</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type></type>
-				<maintype></maintype>
-				<manacost></manacost>
-				<cmc>0</cmc>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>G</manacost>
+				<cmc>1</cmc>
 				<colors>G</colors>
 				<coloridentity>G</coloridentity>
 			</prop>
-			<tablerow>1</tablerow>
+			<tablerow>3</tablerow>
 		</card>
 		<card>
-			<name>CG12Bite spell</name>
-			<text></text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/177_CG12Bite spell.png" num="177">ASM</set>
+			<name>CG12 Hunting Party</name>
+			<text>Choose one —
+• Destroy target artifact or enchantment with mana value less than the greatest power among creatures you control.
+• Target creature you control deals damage equal to its power to target creature an opponent controls.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/177_CG12 Hunting Party.png" num="177">ASM</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type></type>
-				<maintype></maintype>
-				<manacost></manacost>
-				<cmc>0</cmc>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
 				<colors>G</colors>
 				<coloridentity>G</coloridentity>
 			</prop>
-			<tablerow>1</tablerow>
+			<tablerow>3</tablerow>
 		</card>
 		<card>
 			<name>CG14 City&apos;s Founding</name>
@@ -1520,36 +1582,36 @@ has activated or triggered ability that costs at least r/u or {U}</text>
 			<tablerow>3</tablerow>
 		</card>
 		<card>
-			<name>CG15Dig for lands and/or creatures</name>
-			<text></text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/180_CG15Dig for lands and/or creatures.png" num="180">ASM</set>
+			<name>CG15 Night Market</name>
+			<text>Look at the top X cards of your library, where X is the greatest toughness among creatures you control. You may reveal any number of creature and/or land cards from among them and put the revealed cards into your hand. Put the rest on the bottom of your library in any order.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/180_CG15 Night Market.png" num="180">ASM</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type></type>
-				<maintype></maintype>
-				<manacost></manacost>
-				<cmc>0</cmc>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2G</manacost>
+				<cmc>3</cmc>
 				<colors>G</colors>
 				<coloridentity>G</coloridentity>
 			</prop>
-			<tablerow>1</tablerow>
+			<tablerow>3</tablerow>
 		</card>
 		<card>
-			<name>CG16 (free space)</name>
-			<text></text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/181_CG16 (free space).png" num="181">ASM</set>
+			<name>CG16 Ghrin-Danu&apos;s Servitors</name>
+			<text>Create three 1/1 Elemental creature tokens that are all colors.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/181_CG16 Ghrin-Danu&apos;s Servitors.png" num="181">ASM</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type></type>
-				<maintype></maintype>
-				<manacost></manacost>
-				<cmc>0</cmc>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3G</manacost>
+				<cmc>4</cmc>
 				<colors>G</colors>
 				<coloridentity>G</coloridentity>
 			</prop>
-			<tablerow>1</tablerow>
+			<tablerow>3</tablerow>
 		</card>
 		<card>
 			<name>UG14 noncreature (supp. GB)</name>
@@ -1568,20 +1630,25 @@ has activated or triggered ability that costs at least r/u or {U}</text>
 			<tablerow>1</tablerow>
 		</card>
 		<card>
-			<name>UG13 noncreature (supp. GR)</name>
-			<text></text>
-			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/ASM-files/img/202_UG13 noncreature (supp. GR).png" num="202">ASM</set>
+			<name>UG13 Nerves // Of Steel</name>
+			<text>Target creature gets +2/+2 and gains haste and trample until end of turn.
+
+---
+
+Aftermath
+Target permanent you control gains indestructible until end of turn.</text>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/ASM-files/img/202_UG13 Nerves.png" num="202">ASM</set>
 			<prop>
-				<layout>normal</layout>
+				<layout>aftermath</layout>
 				<side>front</side>
-				<type></type>
-				<maintype></maintype>
-				<manacost></manacost>
-				<cmc>0</cmc>
+				<type>Sorcery // Instant</type>
+				<maintype>Sorcery</maintype>
+				<manacost>1G // G</manacost>
+				<cmc>3</cmc>
 				<colors>G</colors>
 				<coloridentity>G</coloridentity>
 			</prop>
-			<tablerow>1</tablerow>
+			<tablerow>3</tablerow>
 		</card>
 		<card>
 			<name>UG12 noncreature (supp. GW)</name>
@@ -2081,10 +2148,10 @@ Whenever another creature dies, this creature gets +1/+1 until end of turn.</tex
 			<tablerow>1</tablerow>
 		</card>
 		<card>
-			<name>UR01 Taw-honed Fighter (for R/W)</name>
+			<name>UR01 Taw-honed Fighter</name>
 			<text>This creature enters with an additional +1/+1 counter on it as long as you&apos;ve attacked this turn.
 When this creature enters, scry 1.</text>
-			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/ASM-files/img/150_UR01 Taw-honed Fighter (for R/W).png" num="150">ASM</set>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/ASM-files/img/150_UR01 Taw-honed Fighter.png" num="150">ASM</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2099,9 +2166,9 @@ When this creature enters, scry 1.</text>
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>UR02 2-cost creature</name>
+			<name>UR02 2-cost creature (for R/B)</name>
 			<text></text>
-			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/ASM-files/img/151_UR02 2-cost creature.png" num="151">ASM</set>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/ASM-files/img/151_UR02 2-cost creature (for R/B).png" num="151">ASM</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2115,9 +2182,9 @@ When this creature enters, scry 1.</text>
 			<tablerow>1</tablerow>
 		</card>
 		<card>
-			<name>UR03 2-cost creature</name>
+			<name>UR03 2-cost creature (for R/G)</name>
 			<text></text>
-			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/ASM-files/img/152_UR03 2-cost creature.png" num="152">ASM</set>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/ASM-files/img/152_UR03 2-cost creature (for R/G).png" num="152">ASM</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2149,9 +2216,9 @@ Schism — {T}, Tap two or more other creatures you control, sacrifice this crea
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>UR05 4-cost creature</name>
+			<name>UR05 4-cost creature (for R/U)</name>
 			<text></text>
-			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/ASM-files/img/154_UR05 4-cost creature.png" num="154">ASM</set>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/ASM-files/img/154_UR05 4-cost creature (for R/U).png" num="154">ASM</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2165,9 +2232,9 @@ Schism — {T}, Tap two or more other creatures you control, sacrifice this crea
 			<tablerow>1</tablerow>
 		</card>
 		<card>
-			<name>UR07 5-cost creature</name>
+			<name>UR07 5-cost creature (for R/W)</name>
 			<text></text>
-			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/ASM-files/img/156_UR07 5-cost creature.png" num="156">ASM</set>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/ASM-files/img/156_UR07 5-cost creature (for R/W).png" num="156">ASM</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2181,9 +2248,9 @@ Schism — {T}, Tap two or more other creatures you control, sacrifice this crea
 			<tablerow>1</tablerow>
 		</card>
 		<card>
-			<name>UR08 6-cost creature</name>
+			<name>UR08 6-cost creature (for all)</name>
 			<text></text>
-			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/ASM-files/img/157_UR08 6-cost creature.png" num="157">ASM</set>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/ASM-files/img/157_UR08 6-cost creature (for all).png" num="157">ASM</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2197,10 +2264,10 @@ Schism — {T}, Tap two or more other creatures you control, sacrifice this crea
 			<tablerow>1</tablerow>
 		</card>
 		<card>
-			<name>UR09 Darkstorm Bolt (supp. R/U)</name>
+			<name>UR09 Darkstorm Bolt</name>
 			<text>This spell costs {1} less to cast as long as any player cast a spell from a graveyard this turn.
 This spell deals 3 damage to any target.</text>
-			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/ASM-files/img/158_UR09 Darkstorm Bolt (supp. R/U).png" num="158">ASM</set>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/ASM-files/img/158_UR09 Darkstorm Bolt.png" num="158">ASM</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -2230,8 +2297,8 @@ This spell deals 3 damage to any target.</text>
 			<tablerow>1</tablerow>
 		</card>
 		<card>
-			<name>UR11 Shining Bright (supp. R/U) // Into the Night</name>
-			<text>Target creature gets +1/+0 and gains first strike until end of turn.
+			<name>UR11 Shining Bright // Into the Night</name>
+			<text>Target creature gets +2/+2 and gains haste until end of turn.
 
 ---
 
@@ -2239,7 +2306,7 @@ Aftermath
 Damage can&apos;t be prevented this turn.
 Players can&apos;t gain life this turn.
 If a creature would die this turn, exile it instead.</text>
-			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/ASM-files/img/160_UR11 Shining Bright (supp. R/U).png" num="160">ASM</set>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/ASM-files/img/160_UR11 Shining Bright.png" num="160">ASM</set>
 			<prop>
 				<layout>aftermath</layout>
 				<side>front</side>
@@ -2434,7 +2501,7 @@ Schism — {T}, Tap two or more other creatures you control, sacrifice this crea
 			<name>RW02 Converted Seraph</name>
 			<text>Flying, vigilance
 Betray (When this permanent enters, you may sacrifice another permanent that shares a color with it.)
-When this creature betrays, destroy target tapped creature. If it betrays an Angel or a legendary creature, you may instead destroy all tapped creatures.</text>
+When this creature betrays a permanent, destroy target tapped creature. If it betrays an Angel or a legendary creature, you may instead destroy all tapped creatures.</text>
 			<set rarity="rare" picurl="https://Opacana.github.io/sets/ASM-files/img/26_RW02 Converted Seraph.png" num="26">ASM</set>
 			<prop>
 				<layout>normal</layout>
@@ -2530,20 +2597,22 @@ When this creature betrays, destroy target tapped creature. If it betrays an Ang
 			<tablerow>1</tablerow>
 		</card>
 		<card>
-			<name>RU01 creature</name>
-			<text></text>
-			<set rarity="rare" picurl="https://Opacana.github.io/sets/ASM-files/img/64_RU01 creature.png" num="64">ASM</set>
+			<name>RU01 graveyard spell copier</name>
+			<text>Ward {1}
+{2}{UR}, {T}: Copy target noncreature spell that was cast from a graveyard. You may choose new targets for the copy. This ability costs {1} less to activate if that spell had Aftermath.</text>
+			<set rarity="rare" picurl="https://Opacana.github.io/sets/ASM-files/img/64_RU01 graveyard spell copier.png" num="64">ASM</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type></type>
-				<maintype></maintype>
-				<manacost></manacost>
-				<cmc>0</cmc>
+				<type>Creature — ??? Wizard</type>
+				<maintype>Creature</maintype>
+				<manacost>1U</manacost>
+				<cmc>2</cmc>
 				<colors>U</colors>
-				<coloridentity>U</coloridentity>
+				<coloridentity>UR</coloridentity>
+				<pt>1/2</pt>
 			</prop>
-			<tablerow>1</tablerow>
+			<tablerow>2</tablerow>
 		</card>
 		<card>
 			<name>RU02 creature</name>
@@ -2825,20 +2894,25 @@ When this creature betrays another permanent, it deals 2 damage to any nonplayer
 			<tablerow>1</tablerow>
 		</card>
 		<card>
-			<name>RR06 noncreature</name>
-			<text></text>
-			<set rarity="rare" picurl="https://Opacana.github.io/sets/ASM-files/img/148_RR06 noncreature.png" num="148">ASM</set>
+			<name>RR06 Another One // Bites the Dust</name>
+			<text>Create a token that&apos;s a copy of target creature you control, except it has haste and &quot;At the beginning of the end step, sacrifice this token.&quot;
+
+---
+
+Aftermath
+This spell deals 3 damage to target creature.</text>
+			<set rarity="rare" picurl="https://Opacana.github.io/sets/ASM-files/img/148_RR06 Another One.png" num="148">ASM</set>
 			<prop>
-				<layout>normal</layout>
+				<layout>aftermath</layout>
 				<side>front</side>
-				<type></type>
-				<maintype></maintype>
-				<manacost></manacost>
-				<cmc>0</cmc>
+				<type>Sorcery // Instant</type>
+				<maintype>Sorcery</maintype>
+				<manacost>2R // 1R</manacost>
+				<cmc>5</cmc>
 				<colors>R</colors>
 				<coloridentity>R</coloridentity>
 			</prop>
-			<tablerow>1</tablerow>
+			<tablerow>3</tablerow>
 		</card>
 		<card>
 			<name>RR07 noncreature</name>
@@ -3293,32 +3367,35 @@ Whenever a Treasure enters under your control, if you don&apos;t control a Treas
 			<tablerow>1</tablerow>
 		</card>
 		<card>
-			<name>CA01 Two-mana creature (variance buster)</name>
-			<text></text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/245_CA01 Two-mana creature (variance buster).png" num="245">ASM</set>
+			<name>CA01 2-cost Smoother</name>
+			<text>When this creature enters, surveil 2.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/245_CA01 2-cost Smoother.png" num="245">ASM</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Artifact</type>
-				<maintype>Artifact</maintype>
-				<manacost></manacost>
-				<cmc>0</cmc>
+				<type>Artifact Creature — ???</type>
+				<maintype>Creature</maintype>
+				<manacost>2</manacost>
+				<cmc>2</cmc>
+				<pt>1/1</pt>
 			</prop>
-			<tablerow>1</tablerow>
+			<tablerow>2</tablerow>
 		</card>
 		<card>
 			<name>CA02Three-mana creature</name>
-			<text></text>
+			<text>{1}: This creature becomes the color of your choice in addition to its other colors until end of turn.
+When this creature enters or dies, exile target player&apos;s graveyard.</text>
 			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/246_CA02Three-mana creature.png" num="246">ASM</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Artifact</type>
-				<maintype>Artifact</maintype>
-				<manacost></manacost>
-				<cmc>0</cmc>
+				<type>Artifact Creature</type>
+				<maintype>Creature</maintype>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
+				<pt>2/2</pt>
 			</prop>
-			<tablerow>1</tablerow>
+			<tablerow>2</tablerow>
 		</card>
 		<card>
 			<name>CA03 Grounds Guardian</name>
@@ -3336,44 +3413,46 @@ Whenever a Treasure enters under your control, if you don&apos;t control a Treas
 			<tablerow>2</tablerow>
 		</card>
 		<card>
-			<name>CA04Removal</name>
-			<text></text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/248_CA04Removal.png" num="248">ASM</set>
+			<name>CA04 Private Feast</name>
+			<text>When this artifact enters, put a +1/+1 counter on up to one creature you control.
+{5}, {T}, Sacrifice this artifact: Exile target creature.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/248_CA04 Private Feast.png" num="248">ASM</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
 				<type>Artifact</type>
 				<maintype>Artifact</maintype>
-				<manacost></manacost>
-				<cmc>0</cmc>
+				<manacost>1</manacost>
+				<cmc>1</cmc>
 			</prop>
 			<tablerow>1</tablerow>
 		</card>
 		<card>
-			<name>CA05Manalith+ ability</name>
-			<text></text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/249_CA05Manalith+ ability.png" num="249">ASM</set>
+			<name>CA05 Gleaming Capstone</name>
+			<text>{T}: Add one mana of any color.
+{1}: This permanent becomes a land and loses any other card type. (This effect lasts indefinitely.)</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/249_CA05 Gleaming Capstone.png" num="249">ASM</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
 				<type>Artifact</type>
 				<maintype>Artifact</maintype>
-				<manacost></manacost>
-				<cmc>0</cmc>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
 			</prop>
 			<tablerow>1</tablerow>
 		</card>
 		<card>
-			<name>UA04nonc, connected to Betray</name>
-			<text></text>
-			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/ASM-files/img/254_UA04nonc, connected to Betray.png" num="254">ASM</set>
+			<name>UA04 Blood of the Pious</name>
+			<text>The first time each turn you sacrifice a creature, create a Treasure token.</text>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/ASM-files/img/254_UA04 Blood of the Pious.png" num="254">ASM</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
 				<type>Artifact</type>
 				<maintype>Artifact</maintype>
-				<manacost></manacost>
-				<cmc>0</cmc>
+				<manacost>3</manacost>
+				<cmc>3</cmc>
 			</prop>
 			<tablerow>1</tablerow>
 		</card>
@@ -3425,12 +3504,12 @@ When this land enters, you gain 1 life and scry 1.
 			<tablerow>0</tablerow>
 		</card>
 		<card>
-			<name>UL02 U-dominant Oasis</name>
+			<name>UL02 Port Kharteru</name>
 			<text>This land enters tapped unless you control another Oasis. 
 When this land enters, scry 2.
 {T}: Add {U}.
 {1}, {T}: Add {W} or {G}.</text>
-			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/ASM-files/img/260_UL02 U-dominant Oasis.png" num="260">ASM</set>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/ASM-files/img/260_UL02 Port Kharteru.png" num="260">ASM</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3461,12 +3540,12 @@ When this land enters, target opponent loses 1 life and you gain 1 life.
 			<tablerow>0</tablerow>
 		</card>
 		<card>
-			<name>UL04 R-dominant Oasis</name>
+			<name>UL04 Sulfurous Baths</name>
 			<text>This land enters tapped unless you control another Oasis. 
 When this land enters, surveil 1.
 {T}: Add {R}.
 {1}, {T}: Add {U} or {B}.</text>
-			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/ASM-files/img/262_UL04 R-dominant Oasis.png" num="262">ASM</set>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/ASM-files/img/262_UL04 Sulfurous Baths.png" num="262">ASM</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3479,12 +3558,12 @@ When this land enters, surveil 1.
 			<tablerow>0</tablerow>
 		</card>
 		<card>
-			<name>UL05 G-dominant Oasis</name>
+			<name>UL05 Shefet Shrublands</name>
 			<text>This land enters tapped unless you control another Oasis. 
 When this land enters, you gain 2 life.
 {T}: Add {G}.
 {1}, {T}: Add {W} or {R}.</text>
-			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/ASM-files/img/263_UL05 G-dominant Oasis.png" num="263">ASM</set>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/ASM-files/img/263_UL05 Shefet Shrublands.png" num="263">ASM</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -3998,9 +4077,9 @@ Equip {2}</text>
 			<tablerow>1</tablerow>
 		</card>
 		<card>
-			<name>UR06 Daruxian Spinescourger (for RB)</name>
+			<name>UR06 Daruxian Spinescourger</name>
 			<text>Flying, haste, first strike</text>
-			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/ASM-files/img/155_UR06 Daruxian Spinescourger (for RB).png" num="155">ASM</set>
+			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/ASM-files/img/155_UR06 Daruxian Spinescourger.png" num="155">ASM</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4230,7 +4309,7 @@ Whenever a land enters under your control, if you don&apos;t control another lan
 		<card>
 			<name>Cat ASM</name>
 			<text></text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/3t_Cat.png" num="3">ASM</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/4t_Cat.png" num="4">ASM</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4425,7 +4504,7 @@ Whenever you attack, if another Warrior is attacking, you may scry 1.</text>
 		<card>
 			<name>Snake ASM</name>
 			<text></text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/4t_Snake.png" num="4">ASM</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/6t_Snake.png" num="6">ASM</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4470,6 +4549,42 @@ Whenever you attack, if another Warrior is attacking, you may scry 1.</text>
 				<manacost></manacost>
 				<cmc>0</cmc>
 				<pt>0/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Elemental Cat ASM</name>
+			<text>Haste</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/3t_Elemental Cat.png" num="3">ASM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Elemental Cat</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Elemental ASM</name>
+			<text></text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/5t_Elemental.png" num="5">ASM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Elemental</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>WUBRG</colors>
+				<coloridentity>WUBRG</coloridentity>
+				<pt>1/1</pt>
 			</prop>
 			<tablerow>2</tablerow>
 			<token>1</token>

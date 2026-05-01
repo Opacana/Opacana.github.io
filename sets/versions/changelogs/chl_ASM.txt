@@ -1,4 +1,168 @@
-﻿VERSION 2 CHANGELOG
+﻿VERSION 3 CHANGELOG
+====================
+
+CU09 Protected added.
+CU10 Nullification Chant added.
+CU12 Meditative Wisdom added.
+CU13 Turned to Stone added.
+CU14 Deliver added.
+CU15 Ships Passing added.
+CU16 Sailskiff added.
+CB11 Mantle of Shards added.
+CB12 Selling Lives added.
+CB15 Disintegrating Wrappings added.
+CB16 Spinal Diviner added.
+UB12 Betrayal of Secrets added.
+CR01 Rage-cursed Returned added.
+CR02 Frontier Messenger added.
+CR03 Maahestet Champion added.
+CR04 Shadowseller added.
+CR05 Bloodsand Lich added.
+CR06 Role Model Sergeant added.
+CR07 Ka-Blade Champion added.
+CR08 Avenging Minotaur added.
+CR09 Starving Sandwurm added.
+CR10 No Pain added.
+CR11 Swollen added.
+CR12 Stealing the Beacon added.
+CR13 Abrade added.
+CR14 Fire added.
+CR15 Holy Pyre added.
+CR16 Helm of Hazoret added.
+CG01 Apepisw Gate added.
+CG02 Oashra Vitalist added.
+CG03 Exploring Couple added.
+CG04 Giant Ibis added.
+CG05 Instructor Huntress added.
+CG06 Boat-climber Cobra added.
+CG07 Seeker of Lost Species added.
+CG08 Hippo Family added.
+CG10 Oasis Sentinel added.
+CG11 Maul added.
+CG12 Hunting Party added.
+CG15 Night Market added.
+CG16 Ghrin-Danu's Servitors added.
+UG13 Nerves added.
+UR01 Taw-honed Fighter added.
+UR02 2-cost creature (for R/B) added.
+UR03 2-cost creature (for R/G) added.
+UR05 4-cost creature (for R/U) added.
+UR07 5-cost creature (for R/W) added.
+UR08 6-cost creature (for all) added.
+UR09 Darkstorm Bolt added.
+UR11 Shining Bright added.
+RU01 graveyard spell copier added.
+RR06 Another One added.
+CA01 2-cost Smoother added.
+CA04 Private Feast added.
+CA05 Gleaming Capstone added.
+UA04 Blood of the Pious added.
+UL02 Port Kharteru added.
+UL04 Sulfurous Baths added.
+UL05 Shefet Shrublands added.
+UR06 Daruxian Spinescourger added.
+Elemental Cat added.
+Elemental added.
+
+CU09Protective instant removed.
+CU10 counterspell removed.
+CU12 Draw spell (two to three cards) removed.
+CU13 Witness Protection Aura removed.
+CU14 Top or bottom spell removed.
+CU15Modal spell removed.
+CU16 colored artifact removed.
+CB11Combat trick removed.
+CB12 Card draw (added cost) removed.
+CB15 Slightly overcosted removal removed.
+CB16 noncrea removed.
+UB12 noncre (supp. B/W) removed.
+CR01 1or2-cost crea (for R/B) removed.
+CR02 2-cost crea (for R/U) removed.
+CR03 2-cost crea (for R/W) removed.
+CR04 3-cost crea (for R/G) removed.
+CR05 3-cost crea (for R/B) removed.
+CR06 3or4-cost crea (for R/W) removed.
+CR07 4or5-cost crea (for R/G) removed.
+CR08 5-cost crea (for R/U) removed.
+CR09 6-cost creature (for ALL) removed.
+CR10Direct damage (deals 2) removed.
+CR11Combat trick removed.
+CR12Rummaging/impulsive draw removed.
+CR13Modal Shatter removed.
+CR14 effic direct dmg, prob 4 removed.
+CR15 BIG direct damage removed.
+CR16 (free space) removed.
+CG01 1or2-cost wall-ish creature removed.
+CG02 2-cost creature (for G/R) removed.
+CG03 2-cost creat (for G/W) removed.
+CG04 3-cost crea (for G/U) removed.
+CG05 3-cost crea (for g/r) removed.
+CG06 3or4-cost crea (for g/b) removed.
+CG07 4or5-cost crea (for g/w) removed.
+CG08 5-cost crea (for g/u) removed.
+CG10 6or7-cost creature (for ALL) removed.
+CG11Fight spell removed.
+CG12Bite spell removed.
+CG15Dig for lands and/or creatures removed.
+CG16 (free space) removed.
+UG13 noncreature (supp. GR) removed.
+UR01 Taw-honed Fighter (for R/W) removed.
+UR02 2-cost creature removed.
+UR03 2-cost creature removed.
+UR05 4-cost creature removed.
+UR07 5-cost creature removed.
+UR08 6-cost creature removed.
+UR09 Darkstorm Bolt (supp. R/U) removed.
+UR11 Shining Bright (supp. R/U) removed.
+RU01 creature removed.
+RR06 noncreature removed.
+CA01 Two-mana creature (variance buster) removed.
+CA04Removal removed.
+CA05Manalith+ ability removed.
+UA04nonc, connected to Betray removed.
+UL02 U-dominant Oasis removed.
+UL04 R-dominant Oasis removed.
+UL05 G-dominant Oasis removed.
+UR06 Daruxian Spinescourger (for RB) removed.
+
+CA06 Land fixing
+cost: {3} => {4}
+rules_text: When this artifact enters, you may search your library for a basic land or Oasis card, reveal it and put it into your hand, then shuffle.
+{T}: Add {C}. => When this artifact enters, you may search your library for a basic land or Oasis card, reveal it and put it into your hand, then shuffle.
+{T}: Add {C}, then scry 2.
+
+CW11 Mindless Servant
+
+CW12 Swift Response
+
+CB09 Burial Chamber Guardian
+
+CB13 Moment of Weakness
+cost: {2}{B} => {3}{B}
+rules_text: This spell costs {2} less to cast if an opponent lost life this turn.
+Target opponent reveals their hand. You choose a nonland card from it. That player discards that card. => This spell costs {2} less to cast if an opponent lost life this turn.
+Target opponent discards two cards.
+
+UB14Noncreature (supp. ALL)
+
+RW02 Converted Seraph
+rules_text: Flying, vigilance
+Betray [i](When this permanent enters, you may sacrifice another permanent that shares a color with it.)[/i]
+When this creature betrays, destroy target tapped creature. If it betrays an Angel or a legendary creature, you may instead destroy all tapped creatures. => Flying, vigilance
+Betray [i](When this permanent enters, you may sacrifice another permanent that shares a color with it.)[/i]
+When this creature betrays a permanent, destroy target tapped creature. If it betrays an Angel or a legendary creature, you may instead destroy all tapped creatures.
+
+CA02Three-mana creature
+type: Artifact => Artifact Creature
+cost:  => {3}
+rules_text:  => {1}: This creature becomes the color of your choice in addition to its other colors until end of turn.
+When this creature enters or dies, exile target player's graveyard.
+pt:  => 2/2
+
+UB15Noncreature (supp. All)
+
+
+VERSION 2 CHANGELOG
 ====================
 
 CW05 Conflicted Angel added.
