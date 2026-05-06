@@ -1,4 +1,272 @@
-﻿VERSION 3 CHANGELOG
+﻿VERSION 4 CHANGELOG
+====================
+
+CA06 Farsight Gem added.
+CW05 Envoy of New Ways added.
+CW04 Conflicted Angel added.
+CW15 Controlled added.
+UW12 Maathep's Interdiction added.
+UW13 noncreature supp WR added.
+UW14 noncreature supp. wB added.
+UU11 Red-Eye added.
+UU12 Noncrea supp. R/U added.
+UU13 The Wisdom of Unity added.
+UB13 Scarab Armor added.
+UB14 Curiosity Killed added.
+UR12 3-cost noncre supp. RB added.
+UR14 5-cost noncre supp RB added.
+UR13 4-cost noncre supp. RG added.
+UG14 noncreature supp. GB added.
+UG12 noncreature supp. GW added.
+UW01 Scion of Hazoret added.
+UW02 Herald of the Lost added.
+UW03 Arena Champion added.
+UW04 Priestess of Sanctity added.
+UW07 4-cost crea for W/B added.
+UW08 Angel of Obeisance added.
+UW09 Makheru, Voice of Truth added.
+UW10 7-cost crea for W/G added.
+UU01 Drakerider Spellweaver added.
+UU02 2-cost crea for U/G added.
+UU03 3-cost crea for UB added.
+UU04 3-cost crea fo U/W added.
+UU07 5-cost crea for U/G added.
+UU08 The Art added.
+UU09 Noncrea supp. U/G added.
+UU10 Noncrea supp. U/W added.
+UB01 Eternal Fighters added.
+UB02 2-cost Creature for B/G added.
+UB03 2-cost Crea for B/W added.
+UB07 6-cost Crea for B/G added.
+UB09 Rise of the Doomed added.
+UB10 Localized Disaster added.
+UB11 noncre supp. B/G added.
+UR02 2-cost creature for R/B added.
+UR03 2-cost creature for R/G added.
+UR05 4-cost creature for R/U added.
+UR07 5-cost crea for R/W added.
+UR08 6-cost creature for all added.
+UR10 something abt Reinforcements added.
+UG01 1-cost crea for G/R added.
+UG02 2-cost Crea for G/U added.
+UG03 -Carrion Beetle- added.
+UG04 3-cost Crea for G/W added.
+UG05 4-cost Hydra for G/U added.
+UG07 5-cost Crea for G/B added.
+UG08 6-cost Crea for G/W added.
+UG09 7-cost Crea for G/R added.
+UG11 noncreature supp. GU added.
+RU06 Djamankh's Hydromancy added.
+RB01 2cost creature added.
+RB02 3-cost creature added.
+RB03 4-cost creature added.
+RB04 Isift, Vizier of Ifnir added.
+RB06 2-cost noncreature added.
+RB07 3-cost noncreature added.
+RG06 crea pull for gw added.
+RG07 Godsize added.
+MB01 noncreature cost under 4 added.
+MB02 Archangel of Ketramose added.
+CA02 Tomb Builder added.
+UU14 Advance added.
+UB15Noncreature supp. All added.
+UR15 4or5-cost noncr supp. RG added.
+UW15 Nature added.
+UG15 noncreature supp. ALL added.
+RM01 Maathep, Lawgiver added.
+UM01 WU-1 Maathep's Servant added.
+UM01 WU-2 Bastion of Maathep added.
+Human Warrior added.
+Angel added.
+Warrior added.
+Talisman added.
+
+CA06 Land fixing removed.
+CW04 Envoy of New Ways removed.
+CW05 Conflicted Angel removed.
+CW15 Review removed.
+UW12 noncreature (supp. UW) removed.
+UW13 noncreature (supp. WR) removed.
+UW14 noncreature (supp. wB) removed.
+UU11 Noncreature (supp. U/B) removed.
+UU12 Noncrea (supp. R/U) removed.
+UU13 Noncreature (supp. All) removed.
+UB13 nonc (supp. B/U) removed.
+UB14Noncreature (supp. ALL) removed.
+UR12 3-cost noncre (supp. RB) removed.
+UR14 5-cost noncre (supp RB) removed.
+UR13 4-cost noncre (supp. RG) removed.
+UG14 noncreature (supp. GB) removed.
+UG12 noncreature (supp. GW) removed.
+UW01 1-cost creature (for W/R) removed.
+UW02 2-cost Crea (for W/G) removed.
+UW03 2-cost crea (for W/U) removed.
+UW04 3-cost crea (for WB removed.
+UW07 4-cost crea (for W/B) removed.
+UW08 5-cost crea (for W/U) removed.
+UW09 6-cost crea (for ALL) removed.
+UW10 7-cost crea (for W/G) removed.
+UU01 2-cost crea (for U/R) removed.
+UU02 2-cost crea (for U/G) removed.
+UU03 3-cost crea (for UB) removed.
+UU04 3-cost crea (for U/W) removed.
+UU07 5-cost crea (for U/G) removed.
+UU08 Noncrea (supp. R/U) removed.
+UU09 Noncrea (supp. U/G) removed.
+UU10 Noncrea (supp. U/W) removed.
+UB01 1-cost Creature (for R/B) removed.
+UB02 2-cost Creature (for B/G) removed.
+UB03 2or3-cost Crea (for B/W) removed.
+UB07 6-cost Crea (for B/G) removed.
+UB09 noncre (supp. B/U) removed.
+UB10 noncre (supp. B/R) removed.
+UB11 noncre (supp. B/G) removed.
+UR02 2-cost creature (for R/B) removed.
+UR03 2-cost creature (for R/G) removed.
+UR05 4-cost creature (for R/U) removed.
+UR07 5-cost creature (for R/W) removed.
+UR08 6-cost creature (for all) removed.
+UR10 3-cost noncr (supp R/W) removed.
+UG01 1-cost crea (for G/R) removed.
+UG02 2-cost Crea (for G/U) removed.
+UG03 2-cost Crea (for G/B) removed.
+UG04 3-cost Crea (for G/W) removed.
+UG05 4-cost Crea (for G/U) removed.
+UG07 5-cost Crea (for G/B) removed.
+UG08 6-cost Crea (for G/W) removed.
+UG09 7-cost Crea (for G/R) removed.
+UG11 noncreature (supp. GU) removed.
+RU06 noncreature removed.
+RB01 creature removed.
+RB02 creature removed.
+RB03 creature removed.
+RB04 creature removed.
+RB06 noncreature removed.
+RB07 noncreature removed.
+RG06 noncreature removed.
+RG07 noncreature removed.
+MB01 noncreature removed.
+MB02 creature removed.
+CA02Three-mana creature removed.
+UU14 Noncreature (supp. All) removed.
+UB15Noncreature (supp. All) removed.
+UR15 4or5-cost noncr (supp. RG) removed.
+UW15 noncreature (supp. WG) removed.
+UG15 noncreature (supp. ALL) removed.
+RM01 Serra, the Returned removed.
+UM01 WU-1 Serra's Servant removed.
+UM01 WU-2 Bastion of Serra removed.
+
+CW02 Two Suns Fighter
+type: Creature — HumanWarrior => Creature — Human Warrior
+rules_text: During your turn, this creature has first strike.
+When this creature dies, if it attacked or blocked this turn, you gain 2 life. => During your turn, this creature has first strike.
+When this creature dies, you gain 2 life.
+
+CW03 Priest of the Angel's Path
+rules_text: {1}{WU}, {T}: Tap target creature. => {1}{W}, {T}: Tap target creature.
+
+CW06 Coordinated Infantry
+rules_text: Vigilance
+Whenever this creature attacks with two or more other Warriors, it gets +1/+0 until end of turn. => Vigilance
+Whenever this creature attacks with one or more other Warriors, it gets +1/+0 until end of turn.
+pt: 2/3 => 3/3
+
+CW07 Cruel Adjudicator
+cost: {1}{W}{W} => {2}{W}
+
+CW08 Phalanx Commander
+type: Creature — Human Warrior Soldier => Creature — Human Warrior
+
+CW09 Broken Lands Monitor
+rules_text: Flying
+The first time each turn one or more creatures an opponent controls becomes tapped, this creature gets +1/+1 until end of turn. => Flying
+Whenever one or more creatures an opponent controls becomes tapped, this creature gets +1/+1 until end of turn. This ability triggers only once each turn.
+
+CW10 Blessed Revivalist
+rules_text: Betray [i](When this permanent enters, you may sacrifice another permanent that shares a color with it.)[/i]
+When this creature enters, return up to one artifact, creature or enchantment with mana value 2 or less from your graveyard to the battlefield tapped. Then if this creature betrayed a permanent, untap the permanent returned this way. => Betray [i](When this permanent enters, you may sacrifice another permanent that shares a color with it.)[/i]
+When this creature betrays a permanent, return up to one artifact, creature or enchantment with mana value 3 or less from your graveyard to the battlefield tapped.
+pt: 4/3 => 3/4
+
+CW11 Mindless Servant
+
+CW12 Swift Response
+
+CW13 Deity's Presence
+cost: {1}{W} => {2}{W}
+rules_text: When this enchantment enters, exile target nonland permanent with mana value 3 or less an opponent controls until this enchantment leaves the battlefield. => When this enchantment enters, exile target nonland permanent an opponent controls until this enchantment leaves the battlefield.
+
+CW14 Ready Bows
+
+CU02 Aven Theorist
+
+CU03 Dedicated Scribe
+
+CU07 Vindictive Sphinx
+rules_text: Flying
+When this creature enters, you may pay {U}. When you do, return target tapped creature you don't control to its owner's hand. => Flying
+When this creature enters, you may pay {1}. When you do, return target tapped creature you don't control to its owner's hand.
+
+CU15 Ships Passing
+rules_text: Choose one —
+• Return target nonland permanent to its owner's hand.
+• Return target creature to its owner's hand. Draw a card. => Return target nonland permanent to its owner's hand. If it was a creature, draw a card.
+
+CR03 Maahestet Champion
+rules_text: When this creature attacks, if two or more other creatures that share a creature type with it also attack, it gains trample until end of turn. => When this creature attacks, if it shares a creature type with another attacking creature, it gains trample until end of turn.
+
+CR07 Ka-Blade Champion
+type: Creature — Minotaur Soldier => Creature — Minotaur Warrior
+rules_text: Trample
+{1}{R}: Choose one. Activate only once each turn, and only if this creature attacked this turn. —
+• Put a +1/+1 counter on target creature you control.
+• Attach target Equipment to target permanent its owner controls that it could equip. => Trample
+{1}{R}: Put a +1/+1 counter on target creature you control. Activate only once each turn, and only if this creature attacked this turn
+
+CG05 Instructor Huntress
+
+UG13 Nerves
+
+UB06 Omnivorous Exhumer
+
+RU03 Interdiction Angel
+type: Creature — Angel Archon => Creature — Angel
+rules_text: Flash
+This spell can't be countered.
+Flying
+When this creature enters, tap up to one other target creature. => Flash
+This spell can't be countered.
+Flying
+When this creature enters, tap up to one target creature.
+
+RR06 Another One
+
+CA04 Private Feast
+
+CA05 Gleaming Capstone
+
+UA04 Blood of the Pious
+
+RX08 Foreboding Gate
+rules_text: {T}: Add {C}.
+{T}, Pay 1 life: Add one mana of any color. Activate only if you control 3 or more Oasis permanents.
+{6}, {T}: Search your library for a card, put that card into your hand, then shuffle. Activate only if you control 6 or more Oasis permanents. => {T}: Add {C}.
+{T}, Pay 1 life: Add one mana of any color. Activate only if you control another Oasis.
+{6}, {T}: Search your library for a card, put that card into your hand, then shuffle. Activate only if you control 4 or more Oasis permanents.
+
+UR13 Wide Swing
+type: Sorcery => Instant
+
+UM01 UB-2 Crucible of Eternity
+rules_text: At the beginning of your end step, if a creature card was put into a graveyard from anywhere this turn, create a tapped 2/2 black Zombie creature token.
+{2}{U}, Sacrifice a permanent: Draw a card. Activate only once each turn, and only as a sorcery. => At the beginning of your end step, if a creature card was put into a graveyard from anywhere this turn, create a 1/1 black Zombie creature token.
+{2}{U}, Sacrifice a permanent: Draw a card. Activate only once each turn, and only as a sorcery.
+
+Elemental
+
+
+VERSION 3 CHANGELOG
 ====================
 
 CU09 Protected added.
