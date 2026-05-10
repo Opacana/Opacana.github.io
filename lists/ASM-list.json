@@ -508,7 +508,7 @@
         "position": ""
     },
     {
-        "card_name": "RW05 noncreature",
+        "card_name": "RW05 Diplomatic Conclave",
         "number": 29,
         "shape": "normal",
         "set": "ASM",
@@ -548,7 +548,7 @@
         "position": ""
     },
     {
-        "card_name": "RW06 noncreature",
+        "card_name": "RW06 dmg-based tutor",
         "number": 30,
         "shape": "normal",
         "set": "ASM",
@@ -588,7 +588,7 @@
         "position": ""
     },
     {
-        "card_name": "RW07 noncreature",
+        "card_name": "RW07",
         "number": 31,
         "shape": "normal",
         "set": "ASM",
@@ -1919,6 +1919,41 @@
     {
         "card_name": "er"
     },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "UA05 'Betrayal Grazer'",
+        "number": 255,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
+    {
+        "card_name": "er"
+    },
     "a->colorless",
     {
         "card_name": "RX01",
@@ -2001,15 +2036,7 @@
         "position": ""
     },
     {
-        "card_name": "UA05 1 mana artifact creature",
-        "number": 255,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "CA01 2-cost Smoother",
+        "card_name": "CA01 Lazoskin Tracker",
         "number": 245,
         "shape": "normal",
         "set": "ASM",
@@ -2055,6 +2082,9 @@
         "set": "ASM",
         "rotated": false,
         "position": ""
+    },
+    {
+        "card_name": "e"
     },
     {
         "card_name": "e"

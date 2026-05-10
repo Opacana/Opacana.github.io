@@ -1,4 +1,41 @@
-﻿VERSION 5 CHANGELOG
+﻿VERSION 6 CHANGELOG
+====================
+
+RW05 Diplomatic Conclave added.
+RW06 dmg-based tutor added.
+RW07 added.
+CA01 Lazoskin Tracker added.
+UA05 'Betrayal Grazer' added.
+
+RW05 noncreature removed.
+RW06 noncreature removed.
+RW07 noncreature removed.
+CA01 2-cost Smoother removed.
+UA05 1 mana artifact creature removed.
+
+CR02 Frontier Messenger
+rules_text: Whenever this creature attacks, you may draw a card, then discard a card. => Whenever this creature attacks, you may discard a card. If you do, draw a card.
+
+UG13 Nerves
+cost: {1}{G} => {G}
+rules_text: Target creature gets +2/+2 and gains haste and trample until end of turn. => Target creature gets +2/+2 and gains trample until end of turn.
+
+UU09 Lofty Response
+
+UG02 2-cost Crea for GU
+
+UG11 noncreature supp. GU
+cost: {G} => {1}{G}
+rules_text: Creatures you control with counters on them gain hexproof until end of turn. => Put a +1/+1 counter on target permanent you control.
+Permanents you control with counters on them gain hexproof until end of turn.
+
+UA03 Spellfire Khopesh
+rules_text: Equipped creature has first strike and prowess. [i](Whenever you cast a noncreature spell, that creature gets +1/+1 until end of turn.)[/i]
+Equip {2} => Equipped creature has first strike and prowess.
+Equip {2}
+
+
+VERSION 5 CHANGELOG
 ====================
 
 UW13 Hazoret's Blessing added.

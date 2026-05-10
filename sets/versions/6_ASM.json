@@ -1137,7 +1137,7 @@
             "number": 126,
             "color_identity": "R",
             "cost": "{1}{R}",
-            "rules_text": "Whenever this creature attacks, you may draw a card, then discard a card.",
+            "rules_text": "Whenever this creature attacks, you may discard a card. If you do, draw a card.",
             "flavor_text": "[i]With so many new villages and towns sprouting up, communication between them was vital \u2014 and lucrative.[/i]",
             "pt": "2/2",
             "special_text": "",
@@ -1145,7 +1145,7 @@
             "set": "ASM",
             "loyalty": "",
             "artist": "Logan West",
-            "notes": ""
+            "notes": "Changed order of draw and discard, May 9th, 2026."
         },
         {
             "card_name": "CR03 Maahestet Champion",
@@ -1798,8 +1798,8 @@
             "type": "Sorcery",
             "number": 202,
             "color_identity": "G",
-            "cost": "{1}{G}",
-            "rules_text": "Target creature gets +2/+2 and gains haste and trample until end of turn.",
+            "cost": "{G}",
+            "rules_text": "Target creature gets +2/+2 and gains trample until end of turn.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -1817,7 +1817,7 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "",
-            "notes": "Of Steel effect changed to grant indestructible to your permanents until end of turn (still at Sorcery speed) after feedback received on Discord. May 8th, 2026."
+            "notes": "Of Steel effect changed to grant indestructible to your permanents until end of turn (still at Sorcery speed) after feedback received on Discord. May 8th, 2026.\n\nMay 9th. 2026: In order to smooth curve of mono-G noncreatures out again after UG11 upped to mana value2, UG13 Nerves half reduced to cost G, and no longer gives haste."
         },
         {
             "card_name": "UG12 noncreature supp. GW",
@@ -2186,7 +2186,7 @@
             "shape": "normal",
             "set": "ASM",
             "loyalty": "",
-            "artist": "",
+            "artist": "Robson Michel",
             "notes": ""
         },
         {
@@ -2593,7 +2593,7 @@
             "set": "ASM",
             "loyalty": "",
             "artist": "",
-            "notes": ""
+            "notes": "Keep an eye on this one as it goes through playtesting."
         },
         {
             "card_name": "UG03 Giant Carrion Beetle",
@@ -2728,8 +2728,8 @@
             "type": "Instant",
             "number": 200,
             "color_identity": "G",
-            "cost": "{G}",
-            "rules_text": "Creatures you control with counters on them gain hexproof until end of turn.",
+            "cost": "{1}{G}",
+            "rules_text": "Put a +1/+1 counter on target permanent you control.\nPermanents you control with counters on them gain hexproof until end of turn.",
             "flavor_text": "[i]longer flavor text wip[/i]",
             "pt": "",
             "special_text": "",
@@ -2737,7 +2737,7 @@
             "set": "ASM",
             "loyalty": "",
             "artist": "",
-            "notes": ""
+            "notes": "May 9th, 2026: raised cost by 1, now also puts a +1/+1 counter on something and gives all permanents of yours with counters on them hexproof, not just creatures."
         },
         {
             "card_name": "RW01 creature for rw",
@@ -2812,14 +2812,14 @@
             "notes": ""
         },
         {
-            "card_name": "RW05 noncreature",
+            "card_name": "RW05 Diplomatic Conclave",
             "color": "W",
             "rarity": "rare",
-            "type": "",
+            "type": "Enchantment",
             "number": 29,
             "color_identity": "W",
-            "cost": "",
-            "rules_text": "",
+            "cost": "{2}{W}",
+            "rules_text": "At the beginning of each opponent's upkeep, they may tap an untapped creature they control. If they don't, you draw a card.\nSacrifice this enchantment: Exile target tapped and attacking creature.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -2830,14 +2830,14 @@
             "notes": ""
         },
         {
-            "card_name": "RW06 noncreature",
+            "card_name": "RW06 dmg-based tutor",
             "color": "W",
             "rarity": "rare",
-            "type": "",
+            "type": "Sorcery",
             "number": 30,
             "color_identity": "W",
-            "cost": "",
-            "rules_text": "",
+            "cost": "{1}{W}",
+            "rules_text": "Search your command zone, graveyard and/or library for a permanent card with mana value X, where X is the total combat damage dealt to target opponent this turn, reveal it and put it into your hand. Shuffle your library if you searched it this way.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -2848,14 +2848,14 @@
             "notes": ""
         },
         {
-            "card_name": "RW07 noncreature",
+            "card_name": "RW07",
             "color": "W",
             "rarity": "rare",
-            "type": "",
+            "type": "Enchantment",
             "number": 31,
             "color_identity": "W",
-            "cost": "",
-            "rules_text": "",
+            "cost": "{3}{W}{W}",
+            "rules_text": ".",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -3722,21 +3722,21 @@
             "notes": ""
         },
         {
-            "card_name": "CA01 2-cost Smoother",
+            "card_name": "CA01 Lazoskin Tracker",
             "color": "",
             "rarity": "common",
-            "type": "Artifact Creature \u2014 ???",
+            "type": "Artifact Creature \u2014 Construct Dog",
             "number": 245,
             "color_identity": "C",
             "cost": "{2}",
             "rules_text": "When this creature enters, surveil 2.",
-            "flavor_text": "[i]long flavor text wip[/i]",
-            "pt": "1/1",
+            "flavor_text": "[i]They were becoming an increasingly common sight on the estates the wealthy and powerful, for they could find almost anything and ran only on magical energy.[/i]",
+            "pt": "2/1",
             "special_text": "",
             "shape": "normal",
             "set": "ASM",
             "loyalty": "",
-            "artist": "",
+            "artist": "Beatrice Pelagatti",
             "notes": ""
         },
         {
@@ -3830,16 +3830,16 @@
             "notes": ""
         },
         {
-            "card_name": "UA05 1 mana artifact creature",
-            "color": "",
+            "card_name": "UA05 'Betrayal Grazer'",
+            "color": "WUBRG",
             "rarity": "uncommon",
-            "type": "Artifact",
+            "type": "Artifact Creature \u2014 Wall",
             "number": 255,
-            "color_identity": "C",
-            "cost": "",
-            "rules_text": "",
+            "color_identity": "WUBRG",
+            "cost": "{1}",
+            "rules_text": "[i](This creature is all colors.)[/i]\nDefender, reach\nBetray [i](When this permanent enters, you may sacrifice another permanent that shares a color with it.)[/i]\nWhen this creature betrays another permanent, you may put a land card from your hand onto the battlefield tapped.",
             "flavor_text": "[i][/i]",
-            "pt": "",
+            "pt": "0/3",
             "special_text": "",
             "shape": "normal",
             "set": "ASM",
@@ -4505,7 +4505,7 @@
             "number": 253,
             "color_identity": "C",
             "cost": "{3}",
-            "rules_text": "Equipped creature has first strike and prowess. [i](Whenever you cast a noncreature spell, that creature gets +1/+1 until end of turn.)[/i]\nEquip {2}",
+            "rules_text": "Equipped creature has first strike and prowess.\nEquip {2}",
             "flavor_text": "[i]In the hands of a vizier or master druid, it was so much more than a sharp blade.[/i]",
             "pt": "",
             "special_text": "",
