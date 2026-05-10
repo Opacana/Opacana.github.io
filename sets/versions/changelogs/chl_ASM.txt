@@ -1,4 +1,155 @@
-﻿VERSION 4 CHANGELOG
+﻿VERSION 5 CHANGELOG
+====================
+
+UW13 Hazoret's Blessing added.
+UW14 Last Dignity added.
+UU12 Unsorted Scrolls added.
+UR12 Read the Forbidden Scrolls added.
+UR14 Tax added.
+UR13 Barrel added.
+UW07 Razemaster added.
+UW10 Megalithic Guardian added.
+UU02 Keeper of Blessed Waters added.
+UU03 Afu, Chosen of the Scarab added.
+UU04 Vigilant Obstructionist added.
+UU07 Track Guardian added.
+UU09 Lofty Response added.
+UU10 Mastery of Tumbling Sands added.
+UB02 Scion of Emptiness added.
+UB03 Obssessed Falconer added.
+UB07 Merciless Brawler added.
+UB11 Hyena Pack Attack added.
+UR02 Skeshed, Dancing Storm added.
+UR03 2-cost creature for RG added.
+UR07 5-cost crea for RW added.
+UG01 1-cost crea for GR added.
+UG02 2-cost Crea for GU added.
+UG03 Giant Carrion Beetle added.
+UG04 3-cost Crea for GW added.
+UG05 Delta Monitor added.
+UG07 5-cost Crea for GB added.
+UG08 6-cost Crea for GW added.
+UG09 7-cost Crea for GR added.
+RW01 creature for rw added.
+RW03 creature for bw added.
+RW04 creature for gw added.
+RU01 Snehemite Novitiate added.
+RB03 Soulmaster Seter added.
+UL01 Lake Sebay added.
+UL03 Hidden Necropolis Entrance added.
+UB15 Wasmawt's Presence added.
+Bird added.
+
+UW13 noncreature supp WR removed.
+UW14 noncreature supp. wB removed.
+UU12 Noncrea supp. R/U removed.
+UR12 3-cost noncre supp. RB removed.
+UR14 5-cost noncre supp RB removed.
+UR13 4-cost noncre supp. RG removed.
+UW07 4-cost crea for W/B removed.
+UW10 7-cost crea for W/G removed.
+UU02 2-cost crea for U/G removed.
+UU03 3-cost crea for UB removed.
+UU04 3-cost crea fo U/W removed.
+UU07 5-cost crea for U/G removed.
+UU09 Noncrea supp. U/G removed.
+UU10 Noncrea supp. U/W removed.
+UB02 2-cost Creature for B/G removed.
+UB03 2-cost Crea for B/W removed.
+UB07 6-cost Crea for B/G removed.
+UB11 noncre supp. B/G removed.
+UR02 2-cost creature for R/B removed.
+UR03 2-cost creature for R/G removed.
+UR07 5-cost crea for R/W removed.
+UG01 1-cost crea for G/R removed.
+UG02 2-cost Crea for G/U removed.
+UG03 -Carrion Beetle- removed.
+UG04 3-cost Crea for G/W removed.
+UG05 4-cost Hydra for G/U removed.
+UG07 5-cost Crea for G/B removed.
+UG08 6-cost Crea for G/W removed.
+UG09 7-cost Crea for G/R removed.
+RW01 creature removed.
+RW03 creature removed.
+RW04 creature removed.
+RU01 graveyard spell copier removed.
+RB03 4-cost creature removed.
+UL01 W-dominant Oasis removed.
+UL03 B-dominant Oasis removed.
+UB15Noncreature supp. All removed.
+
+UU13 The Wisdom of Unity
+rules_text: Whenever you cast a spell, scry 1. If that spell is multicolored, you may draw a card instead. This triggers only once each turn. => Whenever you cast a spell, scry 1. Once per turn, if that spell is multicolored, you may draw a card instead.
+
+CR07 Ka-Blade Champion
+rules_text: Trample
+{1}{R}: Put a +1/+1 counter on target creature you control. Activate only once each turn, and only if this creature attacked this turn => Trample
+{1}{R}: Put a +1/+1 counter on target creature you control. Activate only once each turn as a sorcery, and only if this creature attacked this turn
+
+CR08 Avenging Minotaur
+
+UG13 Nerves
+
+UW09 Makheru, Voice of Truth
+rules_text: Flash
+Flying
+When Makheru enters, put a +1/+1 counter on each other creature you control, then if it was cast, permanents you control gain indestructible until end of turn. => Flash
+Flying
+When Makheru enters, put a +1/+1 counter on each other creature you control, then if he was cast, permanents you control gain indestructible until end of turn.
+
+UU01 Drakerider Spellweaver
+type: Creature — Drake Human Wizard => Creature — Human Wizard
+
+RU06 Djamankh's Hydromancy
+
+MB02 Archangel of Ketramose
+rules_text: Flying, Ward—pay 2 life
+Whenever another creature dies, choose one —
+• Exile that creature.
+• Return that creature to the battlefield under your control with a finality counter on it. You lose 3 life. => Flying
+Ward—Pay 2 life.
+Whenever another creature dies, you may choose one —
+• Exile that card.
+• Return that creature to the battlefield under your control with a finality counter on it. You lose 3 life.
+
+UL02 Port Kharteru
+rules_text: This land enters tapped unless you control another Oasis. 
+When this land enters, scry 2.
+{T}: Add {U}.
+{1}, {T}: Add {W} or {G}. => When this land enters, scry 2.
+{T}: Add {U}.
+{1}, {T}: Add {W} or {G}.
+
+UL04 Sulfurous Baths
+rules_text: This land enters tapped unless you control another Oasis. 
+When this land enters, surveil 1.
+{T}: Add {R}.
+{1}, {T}: Add {U} or {B}. => When this land enters, surveil 1.
+{T}: Add {R}.
+{1}, {T}: Add {U} or {B}.
+
+UL05 Shefet Shrublands
+rules_text: This land enters tapped unless you control another Oasis. 
+When this land enters, you gain 2 life.
+{T}: Add {G}.
+{1}, {T}: Add {W} or {R}. => When this land enters, you gain 2 life.
+{T}: Add {G}.
+{1}, {T}: Add {W} or {R}.
+
+UU14 Advance
+rules_text: Shuffle the card from your hand into your library, then draw that many cards plus one. => Shuffle the cards from your hand into your library, then draw that many cards plus one.
+
+UW15 Nature
+
+Human Warrior
+
+Angel
+
+Talisman
+pt: 1/1 => 
+
+
+VERSION 4 CHANGELOG
 ====================
 
 CA06 Farsight Gem added.

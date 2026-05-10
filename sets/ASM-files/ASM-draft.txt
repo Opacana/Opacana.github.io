@@ -181,23 +181,23 @@
 			}
 		},
 		{
-			"name": "UW13 noncreature supp WR",
+			"name": "UW13 Hazoret's Blessing",
 			"rarity": "uncommon",
 			"mana_cost": "{1}{W}",
 			"type": "Enchantment — Aura",
 			"collector_number": "43",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/43_UW13 noncreature supp WR.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/43_UW13 Hazoret's Blessing.png"
 			}
 		},
 		{
-			"name": "UW14 noncreature supp. wB",
+			"name": "UW14 Last Dignity",
 			"rarity": "uncommon",
 			"mana_cost": "{2}{W}",
 			"type": "Sorcery",
 			"collector_number": "44",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/44_UW14 noncreature supp. wB.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/44_UW14 Last Dignity.png"
 			}
 		},
 		{
@@ -371,13 +371,13 @@
 			}
 		},
 		{
-			"name": "UU12 Noncrea supp. R/U",
+			"name": "UU12 Unsorted Scrolls",
 			"rarity": "uncommon",
 			"mana_cost": "{U}",
 			"type": "Artifact",
 			"collector_number": "82",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/82_UU12 Noncrea supp. R/U.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/82_UU12 Unsorted Scrolls.png"
 			}
 		},
 		{
@@ -731,33 +731,33 @@
 			}
 		},
 		{
-			"name": "UR12 3-cost noncre supp. RB",
+			"name": "UR12 Read the Forbidden Scrolls",
 			"rarity": "uncommon",
 			"mana_cost": "{2}{R}",
 			"type": "Sorcery",
 			"collector_number": "161",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/161_UR12 3-cost noncre supp. RB.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/161_UR12 Read the Forbidden Scrolls.png"
 			}
 		},
 		{
-			"name": "UR14 5-cost noncre supp RB",
-			"rarity": "uncommon",
-			"mana_cost": "{3}{R}{R}",
-			"type": "Sorcery",
-			"collector_number": "164",
-			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/164_UR14 5-cost noncre supp RB.png"
-			}
-		},
-		{
-			"name": "UR13 4-cost noncre supp. RG",
+			"name": "UR14 Tax",
 			"rarity": "uncommon",
 			"mana_cost": "{3}{R}",
 			"type": "Sorcery",
+			"collector_number": "164",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/ASM-files/img/164_UR14 Tax.png"
+			}
+		},
+		{
+			"name": "UR13 Barrel",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Sorcery",
 			"collector_number": "162",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/162_UR13 4-cost noncre supp. RG.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/162_UR13 Barrel.png"
 			}
 		},
 		{
@@ -1001,13 +1001,13 @@
 			}
 		},
 		{
-			"name": "UW07 4-cost crea for W/B",
+			"name": "UW07 Razemaster",
 			"rarity": "uncommon",
 			"mana_cost": "{3}{W}",
 			"type": "Creature — Jackal Warlock",
 			"collector_number": "38",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/38_UW07 4-cost crea for W/B.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/38_UW07 Razemaster.png"
 			}
 		},
 		{
@@ -1031,53 +1031,53 @@
 			}
 		},
 		{
-			"name": "UW10 7-cost crea for W/G",
+			"name": "UW10 Megalithic Guardian",
 			"rarity": "uncommon",
 			"mana_cost": "{5}{W}{W}",
-			"type": "Creature",
+			"type": "Creature — Elemental Sphinx",
 			"collector_number": "41",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/41_UW10 7-cost crea for W/G.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/41_UW10 Megalithic Guardian.png"
 			}
 		},
 		{
 			"name": "UU01 Drakerider Spellweaver",
 			"rarity": "uncommon",
 			"mana_cost": "{1}{U}",
-			"type": "Creature — Drake Human Wizard",
+			"type": "Creature — Human Wizard",
 			"collector_number": "71",
 			"image_uris": {
 				"en": "https://Opacana.github.io/sets/ASM-files/img/71_UU01 Drakerider Spellweaver.png"
 			}
 		},
 		{
-			"name": "UU02 2-cost crea for U/G",
+			"name": "UU02 Keeper of Blessed Waters",
 			"rarity": "uncommon",
 			"mana_cost": "{1}{U}",
-			"type": "Creature",
+			"type": "Creature — Human Cleric",
 			"collector_number": "72",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/72_UU02 2-cost crea for U/G.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/72_UU02 Keeper of Blessed Waters.png"
 			}
 		},
 		{
-			"name": "UU03 3-cost crea for UB",
+			"name": "UU03 Afu, Chosen of the Scarab",
 			"rarity": "uncommon",
 			"mana_cost": "{2}{U}",
-			"type": "Creature — Zombie ??? ???",
+			"type": "Legendary Creature — Zombie Jackal Cleric",
 			"collector_number": "73",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/73_UU03 3-cost crea for UB.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/73_UU03 Afu, Chosen of the Scarab.png"
 			}
 		},
 		{
-			"name": "UU04 3-cost crea fo U/W",
+			"name": "UU04 Vigilant Obstructionist",
 			"rarity": "uncommon",
 			"mana_cost": "{2}{U}",
-			"type": "Creature — ??? ???",
+			"type": "Creature — Human Wizard",
 			"collector_number": "74",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/74_UU04 3-cost crea fo U/W.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/74_UU04 Vigilant Obstructionist.png"
 			}
 		},
 		{
@@ -1101,13 +1101,13 @@
 			}
 		},
 		{
-			"name": "UU07 5-cost crea for U/G",
+			"name": "UU07 Track Guardian",
 			"rarity": "uncommon",
 			"mana_cost": "{3}{U}{U}",
-			"type": "Creature — ??? ???",
+			"type": "Creature — Snake Warlock Archer",
 			"collector_number": "77",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/77_UU07 5-cost crea for U/G.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/77_UU07 Track Guardian.png"
 			}
 		},
 		{
@@ -1121,23 +1121,23 @@
 			}
 		},
 		{
-			"name": "UU09 Noncrea supp. U/G",
+			"name": "UU09 Lofty Response",
 			"rarity": "uncommon",
 			"mana_cost": "{2}{U}",
 			"type": "Instant",
 			"collector_number": "79",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/79_UU09 Noncrea supp. U/G.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/79_UU09 Lofty Response.png"
 			}
 		},
 		{
-			"name": "UU10 Noncrea supp. U/W",
+			"name": "UU10 Mastery of Tumbling Sands",
 			"rarity": "uncommon",
 			"mana_cost": "{2}{U}",
 			"type": "Enchantment",
 			"collector_number": "80",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/80_UU10 Noncrea supp. U/W.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/80_UU10 Mastery of Tumbling Sands.png"
 			}
 		},
 		{
@@ -1151,23 +1151,23 @@
 			}
 		},
 		{
-			"name": "UB02 2-cost Creature for B/G",
+			"name": "UB02 Scion of Emptiness",
 			"rarity": "uncommon",
 			"mana_cost": "{1}{B}",
-			"type": "Creature",
+			"type": "Creature — Snake Mutant Warlock",
 			"collector_number": "111",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/111_UB02 2-cost Creature for B/G.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/111_UB02 Scion of Emptiness.png"
 			}
 		},
 		{
-			"name": "UB03 2-cost Crea for B/W",
+			"name": "UB03 Obssessed Falconer",
 			"rarity": "uncommon",
 			"mana_cost": "{1}{B}",
-			"type": "Creature — ???",
+			"type": "Creature — Human Noble",
 			"collector_number": "112",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/112_UB03 2-cost Crea for B/W.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/112_UB03 Obssessed Falconer.png"
 			}
 		},
 		{
@@ -1191,13 +1191,13 @@
 			}
 		},
 		{
-			"name": "UB07 6-cost Crea for B/G",
+			"name": "UB07 Merciless Brawler",
 			"rarity": "uncommon",
 			"mana_cost": "{4}{B}{B}",
-			"type": "Creature — ????",
+			"type": "Creature — Minotaur Warrior",
 			"collector_number": "116",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/116_UB07 6-cost Crea for B/G.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/116_UB07 Merciless Brawler.png"
 			}
 		},
 		{
@@ -1221,13 +1221,13 @@
 			}
 		},
 		{
-			"name": "UB11 noncre supp. B/G",
+			"name": "UB11 Hyena Pack Attack",
 			"rarity": "uncommon",
 			"mana_cost": "{B}",
 			"type": "Instant",
 			"collector_number": "120",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/120_UB11 noncre supp. B/G.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/120_UB11 Hyena Pack Attack.png"
 			}
 		},
 		{
@@ -1241,23 +1241,23 @@
 			}
 		},
 		{
-			"name": "UR02 2-cost creature for R/B",
+			"name": "UR02 Skeshed, Dancing Storm",
 			"rarity": "uncommon",
 			"mana_cost": "{1}{R}",
-			"type": "Creature — ???",
+			"type": "Legendary Creature — Human Rogue Warrior",
 			"collector_number": "151",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/151_UR02 2-cost creature for R/B.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/151_UR02 Skeshed, Dancing Storm.png"
 			}
 		},
 		{
-			"name": "UR03 2-cost creature for R/G",
+			"name": "UR03 2-cost creature for RG",
 			"rarity": "uncommon",
 			"mana_cost": "{1}{R}",
 			"type": "Creature — ??? Warrior",
 			"collector_number": "152",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/152_UR03 2-cost creature for R/G.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/152_UR03 2-cost creature for RG.png"
 			}
 		},
 		{
@@ -1281,13 +1281,13 @@
 			}
 		},
 		{
-			"name": "UR07 5-cost crea for R/W",
+			"name": "UR07 5-cost crea for RW",
 			"rarity": "uncommon",
 			"mana_cost": "{3}{R}{R}",
 			"type": "Creature — Human ???",
 			"collector_number": "156",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/156_UR07 5-cost crea for R/W.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/156_UR07 5-cost crea for RW.png"
 			}
 		},
 		{
@@ -1331,53 +1331,53 @@
 			}
 		},
 		{
-			"name": "UG01 1-cost crea for G/R",
+			"name": "UG01 1-cost crea for GR",
 			"rarity": "uncommon",
 			"mana_cost": "{G}",
 			"type": "Creature — ??? Druid",
 			"collector_number": "191",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/191_UG01 1-cost crea for G/R.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/191_UG01 1-cost crea for GR.png"
 			}
 		},
 		{
-			"name": "UG02 2-cost Crea for G/U",
+			"name": "UG02 2-cost Crea for GU",
 			"rarity": "uncommon",
 			"mana_cost": "{1}{G}",
 			"type": "Creature",
 			"collector_number": "192",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/192_UG02 2-cost Crea for G/U.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/192_UG02 2-cost Crea for GU.png"
 			}
 		},
 		{
-			"name": "UG03 -Carrion Beetle-",
+			"name": "UG03 Giant Carrion Beetle",
 			"rarity": "uncommon",
 			"mana_cost": "{1}{G}",
 			"type": "Creature — Insect",
 			"collector_number": "193",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/193_UG03 -Carrion Beetle-.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/193_UG03 Giant Carrion Beetle.png"
 			}
 		},
 		{
-			"name": "UG04 3-cost Crea for G/W",
+			"name": "UG04 3-cost Crea for GW",
 			"rarity": "uncommon",
 			"mana_cost": "{2}{G}",
 			"type": "Creature — ??? ???",
 			"collector_number": "194",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/194_UG04 3-cost Crea for G/W.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/194_UG04 3-cost Crea for GW.png"
 			}
 		},
 		{
-			"name": "UG05 4-cost Hydra for G/U",
+			"name": "UG05 Delta Monitor",
 			"rarity": "uncommon",
 			"mana_cost": "{2}{G}{G}",
 			"type": "Creature — Hydra",
 			"collector_number": "195",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/195_UG05 4-cost Hydra for G/U.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/195_UG05 Delta Monitor.png"
 			}
 		},
 		{
@@ -1391,33 +1391,33 @@
 			}
 		},
 		{
-			"name": "UG07 5-cost Crea for G/B",
+			"name": "UG07 5-cost Crea for GB",
 			"rarity": "uncommon",
 			"mana_cost": "{3}{G}{G}",
 			"type": "Creature",
 			"collector_number": "197",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/197_UG07 5-cost Crea for G/B.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/197_UG07 5-cost Crea for GB.png"
 			}
 		},
 		{
-			"name": "UG08 6-cost Crea for G/W",
+			"name": "UG08 6-cost Crea for GW",
 			"rarity": "uncommon",
 			"mana_cost": "{4}{G}{G}",
 			"type": "Creature — ???",
 			"collector_number": "198",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/198_UG08 6-cost Crea for G/W.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/198_UG08 6-cost Crea for GW.png"
 			}
 		},
 		{
-			"name": "UG09 7-cost Crea for G/R",
+			"name": "UG09 7-cost Crea for GR",
 			"rarity": "uncommon",
 			"mana_cost": "{4}{G}{G}{G}",
 			"type": "Creature",
 			"collector_number": "199",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/199_UG09 7-cost Crea for G/R.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/199_UG09 7-cost Crea for GR.png"
 			}
 		},
 		{
@@ -1431,13 +1431,13 @@
 			}
 		},
 		{
-			"name": "RW01 creature",
+			"name": "RW01 creature for rw",
 			"rarity": "rare",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{1}{W}",
+			"type": "Legendary Creature — ??? Warrior",
 			"collector_number": "25",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/25_RW01 creature.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/25_RW01 creature for rw.png"
 			}
 		},
 		{
@@ -1451,23 +1451,23 @@
 			}
 		},
 		{
-			"name": "RW03 creature",
+			"name": "RW03 creature for bw",
 			"rarity": "rare",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{1}{W}{W}",
+			"type": "Creature",
 			"collector_number": "27",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/27_RW03 creature.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/27_RW03 creature for bw.png"
 			}
 		},
 		{
-			"name": "RW04 creature",
+			"name": "RW04 creature for gw",
 			"rarity": "rare",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{3}{W}{W}",
+			"type": "Creature",
 			"collector_number": "28",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/28_RW04 creature.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/28_RW04 creature for gw.png"
 			}
 		},
 		{
@@ -1501,13 +1501,13 @@
 			}
 		},
 		{
-			"name": "RU01 graveyard spell copier",
+			"name": "RU01 Snehemite Novitiate",
 			"rarity": "rare",
 			"mana_cost": "{1}{U}",
-			"type": "Creature — ??? Wizard",
+			"type": "Creature — Human Wizard",
 			"collector_number": "64",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/64_RU01 graveyard spell copier.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/64_RU01 Snehemite Novitiate.png"
 			}
 		},
 		{
@@ -1591,13 +1591,13 @@
 			}
 		},
 		{
-			"name": "RB03 4-cost creature",
+			"name": "RB03 Soulmaster Seter",
 			"rarity": "rare",
-			"mana_cost": "",
-			"type": "",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Legendary Creature — Jackal Warlock Noble",
 			"collector_number": "105",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/105_RB03 4-cost creature.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/105_RB03 Soulmaster Seter.png"
 			}
 		},
 		{
@@ -2051,13 +2051,13 @@
 			}
 		},
 		{
-			"name": "UL01 W-dominant Oasis",
+			"name": "UL01 Lake Sebay",
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Land — Oasis",
 			"collector_number": "259",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/259_UL01 W-dominant Oasis.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/259_UL01 Lake Sebay.png"
 			}
 		},
 		{
@@ -2071,13 +2071,13 @@
 			}
 		},
 		{
-			"name": "UL03 B-dominant Oasis",
+			"name": "UL03 Hidden Necropolis Entrance",
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Land — Oasis",
 			"collector_number": "261",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/261_UL03 B-dominant Oasis.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/261_UL03 Hidden Necropolis Entrance.png"
 			}
 		},
 		{
@@ -2111,13 +2111,13 @@
 			}
 		},
 		{
-			"name": "UB15Noncreature supp. All",
+			"name": "UB15 Wasmawt's Presence",
 			"rarity": "uncommon",
 			"mana_cost": "{3}{B}{B}",
 			"type": "Enchantment",
 			"collector_number": "124",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/124_UB15Noncreature supp. All.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/124_UB15 Wasmawt's Presence.png"
 			}
 		},
 		{
@@ -2535,9 +2535,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Creature — Cat",
-			"collector_number": "7",
+			"collector_number": "8",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/7t_Cat.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/8t_Cat.png"
 			}
 		},
 		{
@@ -2645,9 +2645,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Creature — Snake",
-			"collector_number": "9",
+			"collector_number": "10",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/9t_Snake.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/10t_Snake.png"
 			}
 		},
 		{
@@ -2655,9 +2655,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Creature — Zombie",
-			"collector_number": "3",
+			"collector_number": "4",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/3t_Zombie.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/4t_Zombie.png"
 			}
 		},
 		{
@@ -2675,9 +2675,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Creature — Human Warrior",
-			"collector_number": "5",
+			"collector_number": "6",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/5t_Human Warrior.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/6t_Human Warrior.png"
 			}
 		},
 		{
@@ -2685,9 +2685,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Creature — Elemental",
-			"collector_number": "8",
+			"collector_number": "9",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/8t_Elemental.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/9t_Elemental.png"
 			}
 		},
 		{
@@ -2705,9 +2705,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Creature — Elemental Cat",
-			"collector_number": "4",
+			"collector_number": "5",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/4t_Elemental Cat.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/5t_Elemental Cat.png"
 			}
 		},
 		{
@@ -2715,9 +2715,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Creature — Warrior",
-			"collector_number": "6",
+			"collector_number": "7",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/6t_Warrior.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/7t_Warrior.png"
 			}
 		},
 		{
@@ -2725,22 +2725,32 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Artifact — Elemental",
-			"collector_number": "10",
+			"collector_number": "11",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/10t_Talisman.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/11t_Talisman.png"
+			}
+		},
+		{
+			"name": "Bird",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Bird",
+			"collector_number": "3",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/ASM-files/img/3t_Bird.png"
 			}
 		}
 	]
 
 [rare(1)]
-	2 RW01 creature
+	2 RW01 creature for rw
 	2 RW02 Converted Seraph
-	2 RW03 creature
-	2 RW04 creature
+	2 RW03 creature for bw
+	2 RW04 creature for gw
 	2 RW05 noncreature
 	2 RW06 noncreature
 	2 RW07 noncreature
-	2 RU01 graveyard spell copier
+	2 RU01 Snehemite Novitiate
 	2 RU02 creature
 	2 RU03 Interdiction Angel
 	2 RU04 noncreature
@@ -2749,7 +2759,7 @@
 	2 RU07 noncreature
 	2 RB01 2cost creature
 	2 RB02 3-cost creature
-	2 RB03 4-cost creature
+	2 RB03 Soulmaster Seter
 	2 RB04 Isift, Vizier of Ifnir
 	2 RB06 2-cost noncreature
 	2 RB07 3-cost noncreature
@@ -2808,17 +2818,17 @@
 	2 RB05 Coming Forth by Night
 [uncommon(3)]
 	4 UW12 Maathep's Interdiction
-	4 UW13 noncreature supp WR
-	4 UW14 noncreature supp. wB
+	4 UW13 Hazoret's Blessing
+	4 UW14 Last Dignity
 	4 UU11 Red-Eye
-	4 UU12 Noncrea supp. R/U
+	4 UU12 Unsorted Scrolls
 	4 UU13 The Wisdom of Unity
 	4 UB12 Betrayal of Secrets
 	4 UB13 Scarab Armor
 	4 UB14 Curiosity Killed
-	4 UR12 3-cost noncre supp. RB
-	4 UR14 5-cost noncre supp RB
-	4 UR13 4-cost noncre supp. RG
+	4 UR12 Read the Forbidden Scrolls
+	4 UR14 Tax
+	4 UR13 Barrel
 	4 UG14 noncreature supp. GB
 	4 UG13 Nerves
 	4 UG12 noncreature supp. GW
@@ -2828,58 +2838,58 @@
 	4 UW04 Priestess of Sanctity
 	4 UW05 Vessel of Purity
 	4 UW06 Callous Charioteer
-	4 UW07 4-cost crea for W/B
+	4 UW07 Razemaster
 	4 UW08 Angel of Obeisance
 	4 UW09 Makheru, Voice of Truth
-	4 UW10 7-cost crea for W/G
+	4 UW10 Megalithic Guardian
 	4 UU01 Drakerider Spellweaver
-	4 UU02 2-cost crea for U/G
-	4 UU03 3-cost crea for UB
-	4 UU04 3-cost crea fo U/W
+	4 UU02 Keeper of Blessed Waters
+	4 UU03 Afu, Chosen of the Scarab
+	4 UU04 Vigilant Obstructionist
 	4 UU05 Vessel of Genius
 	4 UU06 Pillar-Leaper Sphinx
-	4 UU07 5-cost crea for U/G
+	4 UU07 Track Guardian
 	4 UU08 The Art
-	4 UU09 Noncrea supp. U/G
-	4 UU10 Noncrea supp. U/W
+	4 UU09 Lofty Response
+	4 UU10 Mastery of Tumbling Sands
 	4 UB01 Eternal Fighters
-	4 UB02 2-cost Creature for B/G
-	4 UB03 2-cost Crea for B/W
+	4 UB02 Scion of Emptiness
+	4 UB03 Obssessed Falconer
 	4 UB04 Vessel of Darkness
 	4 UB06 Omnivorous Exhumer
-	4 UB07 6-cost Crea for B/G
+	4 UB07 Merciless Brawler
 	4 UB09 Rise of the Doomed
 	4 UB10 Localized Disaster
-	4 UB11 noncre supp. B/G
+	4 UB11 Hyena Pack Attack
 	4 UR01 Taw-honed Fighter
-	4 UR02 2-cost creature for R/B
-	4 UR03 2-cost creature for R/G
+	4 UR02 Skeshed, Dancing Storm
+	4 UR03 2-cost creature for RG
 	4 UR04 Vessel of Wrath
 	4 UR05 4-cost creature for R/U
-	4 UR07 5-cost crea for R/W
+	4 UR07 5-cost crea for RW
 	4 UR08 6-cost creature for all
 	4 UR09 Darkstorm Bolt
 	4 UR10 something abt Reinforcements
 	4 UR11 Shining Bright
-	4 UG01 1-cost crea for G/R
-	4 UG02 2-cost Crea for G/U
-	4 UG03 -Carrion Beetle-
-	4 UG04 3-cost Crea for G/W
-	4 UG05 4-cost Hydra for G/U
+	4 UG01 1-cost crea for GR
+	4 UG02 2-cost Crea for GU
+	4 UG03 Giant Carrion Beetle
+	4 UG04 3-cost Crea for GW
+	4 UG05 Delta Monitor
 	4 UG06 Vessel of Nature
-	4 UG07 5-cost Crea for G/B
-	4 UG08 6-cost Crea for G/W
-	4 UG09 7-cost Crea for G/R
+	4 UG07 5-cost Crea for GB
+	4 UG08 6-cost Crea for GW
+	4 UG09 7-cost Crea for GR
 	4 UG11 noncreature supp. GU
 	4 UA04 Blood of the Pious
 	4 UA05 1 mana artifact creature
-	4 UL01 W-dominant Oasis
+	4 UL01 Lake Sebay
 	4 UL02 Port Kharteru
-	4 UL03 B-dominant Oasis
+	4 UL03 Hidden Necropolis Entrance
 	4 UL04 Sulfurous Baths
 	4 UL05 Shefet Shrublands
 	4 UU14 Advance
-	4 UB15Noncreature supp. All
+	4 UB15 Wasmawt's Presence
 	4 UR15 4or5-cost noncr supp. RG
 	4 UW15 Nature
 	4 UG15 noncreature supp. ALL
@@ -3105,8 +3115,8 @@
 	12 CW15 Controlled
 	12 CW16 Feeding Time
 	6 UW12 Maathep's Interdiction
-	6 UW13 noncreature supp WR
-	6 UW14 noncreature supp. wB
+	6 UW13 Hazoret's Blessing
+	6 UW14 Last Dignity
 	12 CU01 Soul Administrator
 	12 CU02 Aven Theorist
 	12 CU03 Dedicated Scribe
@@ -3124,7 +3134,7 @@
 	12 CU15 Ships Passing
 	12 CU16 Sailskiff
 	6 UU11 Red-Eye
-	6 UU12 Noncrea supp. R/U
+	6 UU12 Unsorted Scrolls
 	6 UU13 The Wisdom of Unity
 	12 CB01 Serrated Scorpion
 	12 CB02 Fleshform Serket
@@ -3160,9 +3170,9 @@
 	12 CR14 Fire
 	12 CR15 Holy Pyre
 	12 CR16 Helm of Hazoret
-	6 UR12 3-cost noncre supp. RB
-	6 UR14 5-cost noncre supp RB
-	6 UR13 4-cost noncre supp. RG
+	6 UR12 Read the Forbidden Scrolls
+	6 UR14 Tax
+	6 UR13 Barrel
 	12 CG01 Apepisw Gate
 	12 CG02 Oashra Vitalist
 	12 CG03 Exploring Couple
@@ -3187,57 +3197,57 @@
 	6 UW04 Priestess of Sanctity
 	6 UW05 Vessel of Purity
 	6 UW06 Callous Charioteer
-	6 UW07 4-cost crea for W/B
+	6 UW07 Razemaster
 	6 UW08 Angel of Obeisance
 	6 UW09 Makheru, Voice of Truth
-	6 UW10 7-cost crea for W/G
+	6 UW10 Megalithic Guardian
 	6 UU01 Drakerider Spellweaver
-	6 UU02 2-cost crea for U/G
-	6 UU03 3-cost crea for UB
-	6 UU04 3-cost crea fo U/W
+	6 UU02 Keeper of Blessed Waters
+	6 UU03 Afu, Chosen of the Scarab
+	6 UU04 Vigilant Obstructionist
 	6 UU05 Vessel of Genius
 	6 UU06 Pillar-Leaper Sphinx
-	6 UU07 5-cost crea for U/G
+	6 UU07 Track Guardian
 	6 UU08 The Art
-	6 UU09 Noncrea supp. U/G
-	6 UU10 Noncrea supp. U/W
+	6 UU09 Lofty Response
+	6 UU10 Mastery of Tumbling Sands
 	6 UB01 Eternal Fighters
-	6 UB02 2-cost Creature for B/G
-	6 UB03 2-cost Crea for B/W
+	6 UB02 Scion of Emptiness
+	6 UB03 Obssessed Falconer
 	6 UB04 Vessel of Darkness
 	6 UB06 Omnivorous Exhumer
-	6 UB07 6-cost Crea for B/G
+	6 UB07 Merciless Brawler
 	6 UB09 Rise of the Doomed
 	6 UB10 Localized Disaster
-	6 UB11 noncre supp. B/G
+	6 UB11 Hyena Pack Attack
 	6 UR01 Taw-honed Fighter
-	6 UR02 2-cost creature for R/B
-	6 UR03 2-cost creature for R/G
+	6 UR02 Skeshed, Dancing Storm
+	6 UR03 2-cost creature for RG
 	6 UR04 Vessel of Wrath
 	6 UR05 4-cost creature for R/U
-	6 UR07 5-cost crea for R/W
+	6 UR07 5-cost crea for RW
 	6 UR08 6-cost creature for all
 	6 UR09 Darkstorm Bolt
 	6 UR10 something abt Reinforcements
 	6 UR11 Shining Bright
-	6 UG01 1-cost crea for G/R
-	6 UG02 2-cost Crea for G/U
-	6 UG03 -Carrion Beetle-
-	6 UG04 3-cost Crea for G/W
-	6 UG05 4-cost Hydra for G/U
+	6 UG01 1-cost crea for GR
+	6 UG02 2-cost Crea for GU
+	6 UG03 Giant Carrion Beetle
+	6 UG04 3-cost Crea for GW
+	6 UG05 Delta Monitor
 	6 UG06 Vessel of Nature
-	6 UG07 5-cost Crea for G/B
-	6 UG08 6-cost Crea for G/W
-	6 UG09 7-cost Crea for G/R
+	6 UG07 5-cost Crea for GB
+	6 UG08 6-cost Crea for GW
+	6 UG09 7-cost Crea for GR
 	6 UG11 noncreature supp. GU
-	2 RW01 creature
+	2 RW01 creature for rw
 	2 RW02 Converted Seraph
-	2 RW03 creature
-	2 RW04 creature
+	2 RW03 creature for bw
+	2 RW04 creature for gw
 	2 RW05 noncreature
 	2 RW06 noncreature
 	2 RW07 noncreature
-	2 RU01 graveyard spell copier
+	2 RU01 Snehemite Novitiate
 	2 RU02 creature
 	2 RU03 Interdiction Angel
 	2 RU04 noncreature
@@ -3246,7 +3256,7 @@
 	2 RU07 noncreature
 	2 RB01 2cost creature
 	2 RB02 3-cost creature
-	2 RB03 4-cost creature
+	2 RB03 Soulmaster Seter
 	2 RB04 Isift, Vizier of Ifnir
 	2 RB06 2-cost noncreature
 	2 RB07 3-cost noncreature
@@ -3292,13 +3302,13 @@
 	6 UA04 Blood of the Pious
 	6 UA05 1 mana artifact creature
 	12 CL01 Winding River
-	6 UL01 W-dominant Oasis
+	6 UL01 Lake Sebay
 	6 UL02 Port Kharteru
-	6 UL03 B-dominant Oasis
+	6 UL03 Hidden Necropolis Entrance
 	6 UL04 Sulfurous Baths
 	6 UL05 Shefet Shrublands
 	6 UU14 Advance
-	6 UB15Noncreature supp. All
+	6 UB15 Wasmawt's Presence
 	6 UR15 4or5-cost noncr supp. RG
 	6 UW15 Nature
 	6 UG15 noncreature supp. ALL
@@ -3369,8 +3379,8 @@
 	6 CW15 Controlled
 	6 CW16 Feeding Time
 	15 UW12 Maathep's Interdiction
-	15 UW13 noncreature supp WR
-	15 UW14 noncreature supp. wB
+	15 UW13 Hazoret's Blessing
+	15 UW14 Last Dignity
 	6 CU01 Soul Administrator
 	6 CU02 Aven Theorist
 	6 CU03 Dedicated Scribe
@@ -3388,7 +3398,7 @@
 	6 CU15 Ships Passing
 	6 CU16 Sailskiff
 	15 UU11 Red-Eye
-	15 UU12 Noncrea supp. R/U
+	15 UU12 Unsorted Scrolls
 	15 UU13 The Wisdom of Unity
 	6 CB01 Serrated Scorpion
 	6 CB02 Fleshform Serket
@@ -3424,9 +3434,9 @@
 	6 CR14 Fire
 	6 CR15 Holy Pyre
 	6 CR16 Helm of Hazoret
-	15 UR12 3-cost noncre supp. RB
-	15 UR14 5-cost noncre supp RB
-	15 UR13 4-cost noncre supp. RG
+	15 UR12 Read the Forbidden Scrolls
+	15 UR14 Tax
+	15 UR13 Barrel
 	6 CG01 Apepisw Gate
 	6 CG02 Oashra Vitalist
 	6 CG03 Exploring Couple
@@ -3451,57 +3461,57 @@
 	15 UW04 Priestess of Sanctity
 	15 UW05 Vessel of Purity
 	15 UW06 Callous Charioteer
-	15 UW07 4-cost crea for W/B
+	15 UW07 Razemaster
 	15 UW08 Angel of Obeisance
 	15 UW09 Makheru, Voice of Truth
-	15 UW10 7-cost crea for W/G
+	15 UW10 Megalithic Guardian
 	15 UU01 Drakerider Spellweaver
-	15 UU02 2-cost crea for U/G
-	15 UU03 3-cost crea for UB
-	15 UU04 3-cost crea fo U/W
+	15 UU02 Keeper of Blessed Waters
+	15 UU03 Afu, Chosen of the Scarab
+	15 UU04 Vigilant Obstructionist
 	15 UU05 Vessel of Genius
 	15 UU06 Pillar-Leaper Sphinx
-	15 UU07 5-cost crea for U/G
+	15 UU07 Track Guardian
 	15 UU08 The Art
-	15 UU09 Noncrea supp. U/G
-	15 UU10 Noncrea supp. U/W
+	15 UU09 Lofty Response
+	15 UU10 Mastery of Tumbling Sands
 	15 UB01 Eternal Fighters
-	15 UB02 2-cost Creature for B/G
-	15 UB03 2-cost Crea for B/W
+	15 UB02 Scion of Emptiness
+	15 UB03 Obssessed Falconer
 	15 UB04 Vessel of Darkness
 	15 UB06 Omnivorous Exhumer
-	15 UB07 6-cost Crea for B/G
+	15 UB07 Merciless Brawler
 	15 UB09 Rise of the Doomed
 	15 UB10 Localized Disaster
-	15 UB11 noncre supp. B/G
+	15 UB11 Hyena Pack Attack
 	15 UR01 Taw-honed Fighter
-	15 UR02 2-cost creature for R/B
-	15 UR03 2-cost creature for R/G
+	15 UR02 Skeshed, Dancing Storm
+	15 UR03 2-cost creature for RG
 	15 UR04 Vessel of Wrath
 	15 UR05 4-cost creature for R/U
-	15 UR07 5-cost crea for R/W
+	15 UR07 5-cost crea for RW
 	15 UR08 6-cost creature for all
 	15 UR09 Darkstorm Bolt
 	15 UR10 something abt Reinforcements
 	15 UR11 Shining Bright
-	15 UG01 1-cost crea for G/R
-	15 UG02 2-cost Crea for G/U
-	15 UG03 -Carrion Beetle-
-	15 UG04 3-cost Crea for G/W
-	15 UG05 4-cost Hydra for G/U
+	15 UG01 1-cost crea for GR
+	15 UG02 2-cost Crea for GU
+	15 UG03 Giant Carrion Beetle
+	15 UG04 3-cost Crea for GW
+	15 UG05 Delta Monitor
 	15 UG06 Vessel of Nature
-	15 UG07 5-cost Crea for G/B
-	15 UG08 6-cost Crea for G/W
-	15 UG09 7-cost Crea for G/R
+	15 UG07 5-cost Crea for GB
+	15 UG08 6-cost Crea for GW
+	15 UG09 7-cost Crea for GR
 	15 UG11 noncreature supp. GU
-	7 RW01 creature
+	7 RW01 creature for rw
 	7 RW02 Converted Seraph
-	7 RW03 creature
-	7 RW04 creature
+	7 RW03 creature for bw
+	7 RW04 creature for gw
 	7 RW05 noncreature
 	7 RW06 noncreature
 	7 RW07 noncreature
-	7 RU01 graveyard spell copier
+	7 RU01 Snehemite Novitiate
 	7 RU02 creature
 	7 RU03 Interdiction Angel
 	7 RU04 noncreature
@@ -3510,7 +3520,7 @@
 	7 RU07 noncreature
 	7 RB01 2cost creature
 	7 RB02 3-cost creature
-	7 RB03 4-cost creature
+	7 RB03 Soulmaster Seter
 	7 RB04 Isift, Vizier of Ifnir
 	7 RB06 2-cost noncreature
 	7 RB07 3-cost noncreature
@@ -3556,13 +3566,13 @@
 	15 UA04 Blood of the Pious
 	15 UA05 1 mana artifact creature
 	6 CL01 Winding River
-	15 UL01 W-dominant Oasis
+	15 UL01 Lake Sebay
 	15 UL02 Port Kharteru
-	15 UL03 B-dominant Oasis
+	15 UL03 Hidden Necropolis Entrance
 	15 UL04 Sulfurous Baths
 	15 UL05 Shefet Shrublands
 	15 UU14 Advance
-	15 UB15Noncreature supp. All
+	15 UB15 Wasmawt's Presence
 	15 UR15 4or5-cost noncr supp. RG
 	15 UW15 Nature
 	15 UG15 noncreature supp. ALL

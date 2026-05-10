@@ -348,7 +348,7 @@
         "position": ""
     },
     {
-        "card_name": "RW01 creature",
+        "card_name": "RW01 creature for rw",
         "number": 25,
         "shape": "normal",
         "set": "ASM",
@@ -356,7 +356,7 @@
         "position": ""
     },
     {
-        "card_name": "RU01 graveyard spell copier",
+        "card_name": "RU01 Snehemite Novitiate",
         "number": 64,
         "shape": "normal",
         "set": "ASM",
@@ -428,7 +428,7 @@
         "position": ""
     },
     {
-        "card_name": "RW03 creature",
+        "card_name": "RW03 creature for bw",
         "number": 27,
         "shape": "normal",
         "set": "ASM",
@@ -444,7 +444,7 @@
         "position": ""
     },
     {
-        "card_name": "RB03 4-cost creature",
+        "card_name": "RB03 Soulmaster Seter",
         "number": 105,
         "shape": "normal",
         "set": "ASM",
@@ -468,7 +468,7 @@
         "position": ""
     },
     {
-        "card_name": "RW04 creature",
+        "card_name": "RW04 creature for gw",
         "number": 28,
         "shape": "normal",
         "set": "ASM",
@@ -660,7 +660,7 @@
         "position": ""
     },
     {
-        "card_name": "UG01 1-cost crea for G/R",
+        "card_name": "UG01 1-cost crea for GR",
         "number": 191,
         "shape": "normal",
         "set": "ASM",
@@ -676,7 +676,7 @@
         "position": ""
     },
     {
-        "card_name": "UU02 2-cost crea for U/G",
+        "card_name": "UU02 Keeper of Blessed Waters",
         "number": 72,
         "shape": "normal",
         "set": "ASM",
@@ -684,7 +684,7 @@
         "position": ""
     },
     {
-        "card_name": "UB02 2-cost Creature for B/G",
+        "card_name": "UB02 Scion of Emptiness",
         "number": 111,
         "shape": "normal",
         "set": "ASM",
@@ -692,7 +692,7 @@
         "position": ""
     },
     {
-        "card_name": "UR02 2-cost creature for R/B",
+        "card_name": "UR02 Skeshed, Dancing Storm",
         "number": 151,
         "shape": "normal",
         "set": "ASM",
@@ -700,7 +700,7 @@
         "position": ""
     },
     {
-        "card_name": "UG02 2-cost Crea for G/U",
+        "card_name": "UG02 2-cost Crea for GU",
         "number": 192,
         "shape": "normal",
         "set": "ASM",
@@ -716,7 +716,7 @@
         "position": ""
     },
     {
-        "card_name": "UU03 3-cost crea for UB",
+        "card_name": "UU03 Afu, Chosen of the Scarab",
         "number": 73,
         "shape": "normal",
         "set": "ASM",
@@ -724,7 +724,7 @@
         "position": ""
     },
     {
-        "card_name": "UB03 2-cost Crea for B/W",
+        "card_name": "UB03 Obssessed Falconer",
         "number": 112,
         "shape": "normal",
         "set": "ASM",
@@ -732,7 +732,7 @@
         "position": ""
     },
     {
-        "card_name": "UR03 2-cost creature for R/G",
+        "card_name": "UR03 2-cost creature for RG",
         "number": 152,
         "shape": "normal",
         "set": "ASM",
@@ -740,7 +740,7 @@
         "position": ""
     },
     {
-        "card_name": "UG03 -Carrion Beetle-",
+        "card_name": "UG03 Giant Carrion Beetle",
         "number": 193,
         "shape": "normal",
         "set": "ASM",
@@ -756,7 +756,7 @@
         "position": ""
     },
     {
-        "card_name": "UU04 3-cost crea fo U/W",
+        "card_name": "UU04 Vigilant Obstructionist",
         "number": 74,
         "shape": "normal",
         "set": "ASM",
@@ -780,7 +780,7 @@
         "position": ""
     },
     {
-        "card_name": "UG04 3-cost Crea for G/W",
+        "card_name": "UG04 3-cost Crea for GW",
         "number": 194,
         "shape": "normal",
         "set": "ASM",
@@ -820,7 +820,7 @@
         "position": ""
     },
     {
-        "card_name": "UG05 4-cost Hydra for G/U",
+        "card_name": "UG05 Delta Monitor",
         "number": 195,
         "shape": "normal",
         "set": "ASM",
@@ -868,7 +868,7 @@
         "position": ""
     },
     {
-        "card_name": "UW07 4-cost crea for W/B",
+        "card_name": "UW07 Razemaster",
         "number": 38,
         "shape": "normal",
         "set": "ASM",
@@ -876,7 +876,7 @@
         "position": ""
     },
     {
-        "card_name": "UU07 5-cost crea for U/G",
+        "card_name": "UU07 Track Guardian",
         "number": 77,
         "shape": "normal",
         "set": "ASM",
@@ -884,7 +884,7 @@
         "position": ""
     },
     {
-        "card_name": "UB07 6-cost Crea for B/G",
+        "card_name": "UB07 Merciless Brawler",
         "number": 116,
         "shape": "normal",
         "set": "ASM",
@@ -892,7 +892,7 @@
         "position": ""
     },
     {
-        "card_name": "UR07 5-cost crea for R/W",
+        "card_name": "UR07 5-cost crea for RW",
         "number": 156,
         "shape": "normal",
         "set": "ASM",
@@ -900,7 +900,7 @@
         "position": ""
     },
     {
-        "card_name": "UG07 5-cost Crea for G/B",
+        "card_name": "UG07 5-cost Crea for GB",
         "number": 197,
         "shape": "normal",
         "set": "ASM",
@@ -940,7 +940,7 @@
         "position": ""
     },
     {
-        "card_name": "UG08 6-cost Crea for G/W",
+        "card_name": "UG08 6-cost Crea for GW",
         "number": 198,
         "shape": "normal",
         "set": "ASM",
@@ -956,7 +956,7 @@
         "position": ""
     },
     {
-        "card_name": "UU09 Noncrea supp. U/G",
+        "card_name": "UU09 Lofty Response",
         "number": 79,
         "shape": "normal",
         "set": "ASM",
@@ -980,7 +980,7 @@
         "position": ""
     },
     {
-        "card_name": "UG09 7-cost Crea for G/R",
+        "card_name": "UG09 7-cost Crea for GR",
         "number": 199,
         "shape": "normal",
         "set": "ASM",
@@ -988,7 +988,7 @@
         "position": ""
     },
     {
-        "card_name": "UW10 7-cost crea for W/G",
+        "card_name": "UW10 Megalithic Guardian",
         "number": 41,
         "shape": "normal",
         "set": "ASM",
@@ -996,7 +996,7 @@
         "position": ""
     },
     {
-        "card_name": "UU10 Noncrea supp. U/W",
+        "card_name": "UU10 Mastery of Tumbling Sands",
         "number": 80,
         "shape": "normal",
         "set": "ASM",
@@ -1044,7 +1044,7 @@
         "position": ""
     },
     {
-        "card_name": "UB11 noncre supp. B/G",
+        "card_name": "UB11 Hyena Pack Attack",
         "number": 120,
         "shape": "normal",
         "set": "ASM",
@@ -1068,7 +1068,7 @@
         "position": ""
     },
     {
-        "card_name": "UW13 noncreature supp WR",
+        "card_name": "UW13 Hazoret's Blessing",
         "number": 43,
         "shape": "normal",
         "set": "ASM",
@@ -1076,7 +1076,7 @@
         "position": ""
     },
     {
-        "card_name": "UU12 Noncrea supp. R/U",
+        "card_name": "UU12 Unsorted Scrolls",
         "number": 82,
         "shape": "normal",
         "set": "ASM",
@@ -1092,7 +1092,7 @@
         "position": ""
     },
     {
-        "card_name": "UR12 3-cost noncre supp. RB",
+        "card_name": "UR12 Read the Forbidden Scrolls",
         "number": 161,
         "shape": "normal",
         "set": "ASM",
@@ -1108,7 +1108,7 @@
         "position": ""
     },
     {
-        "card_name": "UW14 noncreature supp. wB",
+        "card_name": "UW14 Last Dignity",
         "number": 44,
         "shape": "normal",
         "set": "ASM",
@@ -1132,7 +1132,7 @@
         "position": ""
     },
     {
-        "card_name": "UR13 4-cost noncre supp. RG",
+        "card_name": "UR13 Barrel",
         "number": 162,
         "shape": "aftermath",
         "set": "ASM",
@@ -1204,7 +1204,7 @@
         "position": ""
     },
     {
-        "card_name": "UB15Noncreature supp. All",
+        "card_name": "UB15 Wasmawt's Presence",
         "number": 124,
         "shape": "normal",
         "set": "ASM",
@@ -1212,7 +1212,7 @@
         "position": ""
     },
     {
-        "card_name": "UR14 5-cost noncre supp RB",
+        "card_name": "UR14 Tax",
         "number": 164,
         "shape": "aftermath",
         "set": "ASM",
@@ -2097,7 +2097,7 @@
         "position": ""
     },
     {
-        "card_name": "UL01 W-dominant Oasis",
+        "card_name": "UL01 Lake Sebay",
         "number": 259,
         "shape": "normal",
         "set": "ASM",
@@ -2113,7 +2113,7 @@
         "position": ""
     },
     {
-        "card_name": "UL03 B-dominant Oasis",
+        "card_name": "UL03 Hidden Necropolis Entrance",
         "number": 261,
         "shape": "normal",
         "set": "ASM",
@@ -2180,7 +2180,7 @@
         "position": ""
     },
     {
-        "card_name": "Zombie",
+        "card_name": "Bird",
         "number": 3,
         "shape": "token",
         "set": "ASM",
@@ -2188,7 +2188,7 @@
         "position": ""
     },
     {
-        "card_name": "Elemental Cat",
+        "card_name": "Zombie",
         "number": 4,
         "shape": "token",
         "set": "ASM",
@@ -2196,7 +2196,7 @@
         "position": ""
     },
     {
-        "card_name": "Human Warrior",
+        "card_name": "Elemental Cat",
         "number": 5,
         "shape": "token",
         "set": "ASM",
@@ -2204,7 +2204,7 @@
         "position": ""
     },
     {
-        "card_name": "Warrior",
+        "card_name": "Human Warrior",
         "number": 6,
         "shape": "token",
         "set": "ASM",
@@ -2212,7 +2212,7 @@
         "position": ""
     },
     {
-        "card_name": "Cat",
+        "card_name": "Warrior",
         "number": 7,
         "shape": "token",
         "set": "ASM",
@@ -2220,15 +2220,7 @@
         "position": ""
     },
     {
-        "card_name": "Snake",
-        "number": 9,
-        "shape": "token",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "Elemental",
+        "card_name": "Cat",
         "number": 8,
         "shape": "token",
         "set": "ASM",
@@ -2236,12 +2228,40 @@
         "position": ""
     },
     {
-        "card_name": "Talisman",
+        "card_name": "Snake",
         "number": 10,
         "shape": "token",
         "set": "ASM",
         "rotated": false,
         "position": ""
+    },
+    {
+        "card_name": "Elemental",
+        "number": 9,
+        "shape": "token",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Talisman",
+        "number": 11,
+        "shape": "token",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
     },
     {
         "card_name": "er"
