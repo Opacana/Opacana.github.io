@@ -1,4 +1,148 @@
-﻿VERSION 6 CHANGELOG
+﻿VERSION 7 CHANGELOG
+====================
+
+UG14 noncreature supp GB added.
+UG12 noncreature supp GW added.
+UR03 Hermit Champion added.
+UR05 Scorchtrack Mehu added.
+UR07 Wine Priestess added.
+UR08 Corrupted Emberhorn added.
+UR10 Codename Reinforcements added.
+UG09 Gargantuan Abytira added.
+UG11 Supervisor's Intervention added.
+RW03 legend creature for bw added.
+RW04 Basri Ket, Conflicted added.
+RU04 noncreature I or S added.
+RU05 noncreature ench added.
+RB01 2cost crea towards RB added.
+RB02 3-cost reanim creature added.
+RB06 Isift's Judgment added.
+RB07 2-cost noncreature perm added.
+RR01 Kharteran Pike-Mistress added.
+RR02 crea w hybrid rg cost aa added.
+RG02 creature towards rg added.
+RG03 betray crea for BG added.
+RG04 creature w counters added.
+RG05 noncreature aftermath added.
+RG06 Domesticate added.
+MW02 noncreature ench w betray added.
+MU01 noncreature aftermath added.
+MU02 creature w betray added.
+MG01 noncreature ench added.
+MG02 creature for all added.
+RM01 Samut, Expedition Leader added.
+RM01 Zahur, Maahestet Leader added.
+RM01 Djeru, General added.
+RM01 Dejukhab Bull added.
+UA05 'Memorial Wall' added.
+UR15 Churning of Lava added.
+UG15 noncreature supp ALL added.
+RX07 Naktamun Market Streets added.
+Food added.
+Treasure added.
+
+UG14 noncreature supp. GB removed.
+UG12 noncreature supp. GW removed.
+UR03 2-cost creature for RG removed.
+UR05 4-cost creature for R/U removed.
+UR07 5-cost crea for RW removed.
+UR08 6-cost creature for all removed.
+UR10 something abt Reinforcements removed.
+UG09 7-cost Crea for GR removed.
+UG11 noncreature supp. GU removed.
+RW03 creature for bw removed.
+RW04 creature for gw removed.
+RU04 noncreature removed.
+RU05 noncreature removed.
+RB01 2cost creature removed.
+RB02 3-cost creature removed.
+RB06 2-cost noncreature removed.
+RB07 3-cost noncreature removed.
+RR01 creature removed.
+RR02 creature removed.
+RG02 creature removed.
+RG03 creature removed.
+RG04 creature removed.
+RG05 noncreature removed.
+RG06 crea pull for gw removed.
+MW02 noncreature removed.
+MU01 noncreature removed.
+MU02 creature removed.
+MG01 noncreature removed.
+MG02 creature removed.
+RM01 removed.
+RM01 removed.
+RM01 removed.
+RM01 removed.
+UA05 'Betrayal Grazer' removed.
+UR15 4or5-cost noncr supp. RG removed.
+UG15 noncreature supp. ALL removed.
+RX07 Mythic Oasis Land removed.
+
+CW15 Controlled
+
+UB14 Curiosity Killed
+
+UB09 Rise of the Doomed
+rules_text: Zombies you control have menace.
+{2}{B}, Exile a nonland card from your graveyard: Create a 1/1 black Zombie creature token. Activate only once each turn. => Zombies you control have menace.
+{2}{B}, Exile a nonland card from your graveyard: Create a 1/1 black Zombie creature token. Activate only once each turn, and only as a sorcery.
+
+UR02 Skeshed, Dancing Storm
+rules_text: Haste
+Instant, sorcery, artifact and creature spells you cast can't be countered as long as an opponent lost life this turn. => Haste
+Ward—pay 2 life.
+Spells you cast can't be countered as long as an opponent lost life this turn.
+pt: 2/1 => 2/2
+
+UG02 2-cost Crea for GU
+rules_text: When this creature enters, put a +1/+1 counter on it and another target creature you control.
+Whenever one or more creatures with counters on them attack, you may untap up to that many lands you control. => When this creature enters, put a +1/+1 counter on it and another target creature you control.
+Whenever you attack with one or more creatures with counters on them, you may untap up to that many lands you control.
+
+RB03 Soulmaster Seter
+rules_text: Whenever a player sacrifices another permanent, you lose 1 life and put a +1/+1 counter on [i](...)[/i]. Then if that permanent was a nontoken creature, you draw a card.
+{1}{B}, Sacrifice a nontoken permanent: [i](...)[/i] gains menace and lifelink until end of turn. => Whenever a player sacrifices another permanent, you lose 1 life and put a +1/+1 counter on Seter. Then if that permanent was a nontoken creature, you draw a card.
+{1}{B}, Sacrifice a nontoken permanent: Seter gains menace and lifelink until end of turn.
+
+MB01 noncreature cost under 4
+rules_text:  => has Aftermath? [i](Cast this spell only from your graveyard. Then exile it.)[/i]
+
+MR01 noncreature
+rules_text:  => has aftermath [i](Cast this spell only from your graveyard. Then exile it.)[/i]
+
+MR02 creature
+rules_text:  => has betray [i](When this permanent enters, you may sacrifice another permanent that shares a color with it.)[/i]
+
+RM01
+cost: {R}{G} => {G}{W}
+
+RM01
+cost: {G}{W} => {U}{R}
+
+RM01
+cost: {W}{B} => {B}{G}
+
+CA05 Gleaming Capstone
+type: Artifact => Artifact — Oasis
+
+UB15 Wasmawt's Presence
+
+RM01 Wasmawt, Inevitable Death
+rules_text: Indestructible, deathtouch
+Wasmawt can't attack or block unless you control a creature with defender.
+Whenever a creature dies, untap and put a +1/+1 counter on each creature you control. This triggers only once each turn. => Indestructible, deathtouch
+Wasmawt can't attack or block unless you control another creature with toughness greater than its power.
+Whenever a creature dies, untap and put a +1/+1 counter on each creature you control. This triggers only once each turn.
+
+UM01 GW-2 Voyage to New Homes
+rules_text: You may play an additional land on each of your turns as long as it doesn't share a name with a land you control. => You may play an additional land on each of your turns as long as it doesn't share a name with a land you control. When you do, you gain 1 life.
+
+Talisman
+type: Token Artifact — Elemental => Token Artifact
+
+
+VERSION 6 CHANGELOG
 ====================
 
 RW05 Diplomatic Conclave added.
