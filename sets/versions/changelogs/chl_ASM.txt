@@ -1,4 +1,199 @@
-﻿VERSION 7 CHANGELOG
+﻿VERSION 8 CHANGELOG
+====================
+
+CA06 Pendant of Bright Futures added.
+UR10 Infectious Bravado added.
+UG01 Eneri, Cunning Treasurer added.
+UG04 Paladin of Ghrin-Danu added.
+RW01 Sek'new, Lifeblood Brawler added.
+RW03 Returned Vizier added.
+RW06 Extracted Confession added.
+RW07 Carven Legacy added.
+RU02 Ramunap Revenant added.
+RU04 Mystic Manipulation added.
+RU05 Shifting Constellations added.
+RU07 Profit added.
+RB01 Bx'sur, Chosen of Darux added.
+RB02 Eternal Embalmer added.
+RB07 Wasmawt's Blessing added.
+RR02 rg aa token maker added.
+RR04 'the end' added.
+RR05 'bold' added.
+RR07 'bracers' added.
+RG02 NAME, Gah-Api's Emissary added.
+RG03 Lifeblood Siphoner added.
+RG04 Hyena Matriarch added.
+MW02 Two Suns' Radiance added.
+MU01 Spy added.
+MU02 Neputarkh, the Heretic added.
+MB01 Skeletons added.
+MR01 Fortune Favors added.
+MR02 Kav'set the Ruthless added.
+MG01 Assembling the Menagerie added.
+MG02 Pandevotional Summoner added.
+RM01 Council's Decree added.
+RM01 Swarm added.
+RM01 Embalmed Dragon added.
+RM01 Land Tokenator added.
+RM01 The Wind Beneath added.
+RM01 Great Serpent's Arrival added.
+RM01 Djeru, Lord General added.
+UA05 Memorial Obelisk added.
+Insect added.
+Plant Wall added.
+
+CA06 Farsight Gem removed.
+UR10 Codename Reinforcements removed.
+UG01 1-cost crea for GR removed.
+UG04 3-cost Crea for GW removed.
+RW01 creature for rw removed.
+RW03 legend creature for bw removed.
+RW06 dmg-based tutor removed.
+RW07 removed.
+RU02 creature removed.
+RU04 noncreature I or S removed.
+RU05 noncreature ench removed.
+RU07 noncreature removed.
+RB01 2cost crea towards RB removed.
+RB02 3-cost reanim creature removed.
+RB07 2-cost noncreature perm removed.
+RR02 crea w hybrid rg cost aa removed.
+RR04 noncreature removed.
+RR05 noncreature removed.
+RR07 noncreature removed.
+RG02 creature towards rg removed.
+RG03 betray crea for BG removed.
+RG04 creature w counters removed.
+MW02 noncreature ench w betray removed.
+MU01 noncreature aftermath removed.
+MU02 creature w betray removed.
+MB01 noncreature cost under 4 removed.
+MR01 noncreature removed.
+MR02 creature removed.
+MG01 noncreature ench removed.
+MG02 creature for all removed.
+RM01 removed.
+RM01 removed.
+RM01 removed.
+RM01 removed.
+RM01 removed.
+RM01 removed.
+RM01 Djeru, General removed.
+UA05 'Memorial Wall' removed.
+
+UU12 Unsorted Scrolls
+
+UR14 Tax
+rules_text: This spell deals damage to target opponent equal to the number of cards in their hand. If that player has four or fewer cards in hand, this spell can't be countered. => This spell deals damage to target opponent equal to the number of cards in their hand.
+
+UG13 Nerves
+
+UU07 Track Guardian
+rules_text: This creature enters with two +1/+1 counters on it.
+{1}{GU}: Target creature you control must be blocked this turn if able. Activate only as a sorcery. => Reach
+This creature enters with two +1/+1 counters on it.
+{1}{GU}: Target creature you control must be blocked this turn if able. Activate only as a sorcery.
+
+UR05 Scorchtrack Mehu
+
+UG07 5-cost Crea for GB
+rules_text: At the beginning of combat on your turn, you may have target creature you control gain deathtouch until end of turn.
+Whenever a creature you control with toughness greater than its power deals combat damage to an opponent or planeswalker, you draw a card. => At the beginning of combat on your turn, target creature you control gains deathtouch until end of turn.
+Whenever a creature you control with toughness greater than its power deals combat damage to an opponent or planeswalker, you draw a card.
+
+RW04 Basri Ket, Conflicted
+
+RW05 Diplomatic Conclave
+rules_text: At the beginning of each opponent's upkeep, they may tap an untapped creature they control. If they don't, you draw a card.
+Sacrifice this enchantment: Exile target tapped and attacking creature. => At the beginning of each opponent's upkeep, they may tap an untapped creature they control. If they don't, you draw a card.
+Sacrifice this enchantment: Exile target tapped or attacking creature.
+
+RB03 Soulmaster Seter
+rules_text: Whenever a player sacrifices another permanent, you lose 1 life and put a +1/+1 counter on Seter. Then if that permanent was a nontoken creature, you draw a card.
+{1}{B}, Sacrifice a nontoken permanent: Seter gains menace and lifelink until end of turn. => Whenever a player sacrifices a permanent, you lose 1 life and put a +1/+1 counter on Seter. Then if that permanent was a nontoken creature, you draw a card.
+{2}{B}, Sacrifice another permanent: Seter gains menace and lifelink until end of turn. Activate only as a sorcery.
+
+RB06 Isift's Judgment
+
+RR01 Kharteran Pike-Mistress
+rules_text: Haste
+At the beginning of combat on your turn, this creature gains your choice of first strike, menace or trample.
+Whenever this creature deals combat damage to an opponent, you may pay {RW}. When you do, put a counter of a keyword ability this creature has on another target creature you control. => Haste
+At the beginning of combat on your turn, this creature gains your choice of first strike, menace or trample until end of turn. Whenever this creature deals combat damage to an opponent this turn, you may pay {RW}. If you do, put a counter of that kind on another creature you control.
+
+RG05 noncreature aftermath
+type:  => Sorcery
+cost:  => {1}{G}
+rules_text:  => Create a 0/4 green Plant Wall creature with defender and “{T}: Add one mana of any color.”
+
+RM01 Zahur, Maahestet Leader
+type: Legendary Creature — Cat Warrior Noble => Legendary Creature — Zombie Cat Noble
+rules_text: Once each turn, whenever a nontoken creature you control dies, you may return a creature card with lesser mana value from your graveyard to the battlefield tapped. Then if the creature returned this way is a Cat, untap it. => Whenever a nontoken creature you control dies, you may return a creature card with lesser mana value from your graveyard to the battlefield tapped. Then if the returned creature is a Cat, untap it. This ability triggers only once each turn.
+
+RM01 Dejukhab Bull
+rules_text: Flying
+{G}: Put a +1/+1 counter on Dejukhab Bull. Target opponent untaps a land they control.
+{W}: Return Dejukhab Bull to its owner's hand. Target opponent scries 2. => Flying
+{G}: Put a +1/+1 counter on this creature. Target opponent creates a tapped Treasure token.
+{W}: Return this creature to its owner's hand. Target opponent scries 2.
+
+CA03 Grounds Guardian
+rules_text: When this creature attacks, if you've cast an artifact spell or two or more non-creature spells this turn, it gains first strike until end of turn. => Whenever you cast a noncreature spell, untap this creature. This triggers only once each turn.
+
+UL01 Lake Sebay
+rules_text: When this land enters, you gain 1 life and scry 1.
+{T}: Add {W}.
+{1}, {T}: Add {U} or {B}. => This land enters tapped unless you control another Oasis.
+When this land enters, scry 1.
+{T}: Add {W}.
+{1}, {T}: Add {U} or {B}.
+
+UL02 Port Kharteru
+rules_text: When this land enters, scry 2.
+{T}: Add {U}.
+{1}, {T}: Add {W} or {G}. => This land enters tapped unless you control another Oasis.
+When this land enters, scry 1.
+{T}: Add {U}.
+{1}, {T}: Add {W} or {G}.
+
+UL03 Hidden Necropolis Entrance
+rules_text: When this land enters, target opponent loses 1 life and you gain 1 life.
+{T}: Add {B}.
+{1}, {T}: Add {R} or {G}. => This land enters tapped unless you control another Oasis.
+When this land enters, scry 1.
+{T}: Add {B}.
+{1}, {T}: Add {R} or {G}.
+
+UL04 Sulfurous Baths
+rules_text: When this land enters, surveil 1.
+{T}: Add {R}.
+{1}, {T}: Add {U} or {B}. => This land enters tapped unless you control another Oasis.
+When this land enters, scry 1.
+{T}: Add {R}.
+{1}, {T}: Add {U} or {B}.
+
+UL05 Shefet Shrublands
+rules_text: When this land enters, you gain 2 life.
+{T}: Add {G}.
+{1}, {T}: Add {W} or {R}. => This land enters tapped unless you control another Oasis.
+When this land enters, scry 1.
+{T}: Add {G}.
+{1}, {T}: Add {W} or {R}.
+
+UG15 noncreature supp ALL
+rules_text: Enchant land
+Enchanted land is a 0/1 Elemental creature that's all colors, and has Indestructible and “{T}: Add two mana of any one color.” It's still a land. => Enchant land
+Enchanted land is a 0/1 Elemental creature that's all colors, and has indestructible, defender, and “{T}: Add two mana of any one color.” It's still a land.
+
+UM01 WU-2 Bastion of Maathep
+rules_text: At the beginning of your upkeep, you may have target opponent create a 0/1 colorless Wish enchantment creature with defender. When you don't, scry 2.
+{2}{WU}: Tap target creature you don't control. => Whenever you tap an untapped creature you don't control, you may put a +1/+1 counter on target creature you control.
+{2}{WU}: Tap target nonland permanent you don't control.
+
+Warrior
+
+
+VERSION 7 CHANGELOG
 ====================
 
 UG14 noncreature supp GB added.

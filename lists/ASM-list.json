@@ -174,7 +174,7 @@
     "a->God",
     {
         "card_name": "RM01 Darux, Miasma of Passion",
-        "number": 211,
+        "number": 206,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -182,7 +182,7 @@
     },
     {
         "card_name": "RM01 Gah-Api, Life's Hope",
-        "number": 214,
+        "number": 210,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -190,7 +190,7 @@
     },
     {
         "card_name": "RM01 Ghrin-Danu, Watchful Mother",
-        "number": 215,
+        "number": 211,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -198,7 +198,7 @@
     },
     {
         "card_name": "RM01 Hazoret, Zealous Survivor",
-        "number": 216,
+        "number": 213,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -206,7 +206,7 @@
     },
     {
         "card_name": "RM01 Ketramose, Virtuous Sacrifice",
-        "number": 217,
+        "number": 214,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -214,7 +214,7 @@
     },
     {
         "card_name": "RM01 Maathep, Lawgiver",
-        "number": 218,
+        "number": 216,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -222,7 +222,7 @@
     },
     {
         "card_name": "RM01 Sab-Sunen, Flow of Time",
-        "number": 219,
+        "number": 217,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -230,7 +230,7 @@
     },
     {
         "card_name": "RM01 Scarab God, Wrath of Eons",
-        "number": 221,
+        "number": 219,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -238,7 +238,7 @@
     },
     {
         "card_name": "RM01 Snehem, God of Locusts",
-        "number": 222,
+        "number": 220,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -276,31 +276,31 @@
         "position": ""
     },
     {
-        "card_name": "MU01 noncreature aftermath",
+        "card_name": "MU01 Spy",
         "number": 62,
-        "shape": "normal",
+        "shape": "aftermath",
         "set": "ASM",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "MB01 noncreature cost under 4",
+        "card_name": "MB01 Skeletons",
         "number": 101,
-        "shape": "normal",
+        "shape": "aftermath",
         "set": "ASM",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "MR01 noncreature",
+        "card_name": "MR01 Fortune Favors",
         "number": 141,
-        "shape": "normal",
+        "shape": "aftermath",
         "set": "ASM",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "MG01 noncreature ench",
+        "card_name": "MG01 Assembling the Menagerie",
         "number": 182,
         "shape": "normal",
         "set": "ASM",
@@ -308,7 +308,7 @@
         "position": ""
     },
     {
-        "card_name": "MW02 noncreature ench w betray",
+        "card_name": "MW02 Two Suns' Radiance",
         "number": 24,
         "shape": "normal",
         "set": "ASM",
@@ -316,7 +316,7 @@
         "position": ""
     },
     {
-        "card_name": "MU02 creature w betray",
+        "card_name": "MU02 Neputarkh, the Heretic",
         "number": 63,
         "shape": "normal",
         "set": "ASM",
@@ -332,7 +332,7 @@
         "position": ""
     },
     {
-        "card_name": "MR02 creature",
+        "card_name": "MR02 Kav'set the Ruthless",
         "number": 142,
         "shape": "normal",
         "set": "ASM",
@@ -340,7 +340,7 @@
         "position": ""
     },
     {
-        "card_name": "MG02 creature for all",
+        "card_name": "MG02 Pandevotional Summoner",
         "number": 183,
         "shape": "normal",
         "set": "ASM",
@@ -348,7 +348,7 @@
         "position": ""
     },
     {
-        "card_name": "RW01 creature for rw",
+        "card_name": "RW01 Sek'new, Lifeblood Brawler",
         "number": 25,
         "shape": "normal",
         "set": "ASM",
@@ -364,7 +364,7 @@
         "position": ""
     },
     {
-        "card_name": "RB01 2cost crea towards RB",
+        "card_name": "RB01 Bx'sur, Chosen of Darux",
         "number": 103,
         "shape": "normal",
         "set": "ASM",
@@ -396,7 +396,7 @@
         "position": ""
     },
     {
-        "card_name": "RU02 creature",
+        "card_name": "RU02 Ramunap Revenant",
         "number": 65,
         "shape": "normal",
         "set": "ASM",
@@ -404,7 +404,7 @@
         "position": ""
     },
     {
-        "card_name": "RB02 3-cost reanim creature",
+        "card_name": "RB02 Eternal Embalmer",
         "number": 104,
         "shape": "normal",
         "set": "ASM",
@@ -412,7 +412,7 @@
         "position": ""
     },
     {
-        "card_name": "RR02 crea w hybrid rg cost aa",
+        "card_name": "RR02 rg aa token maker",
         "number": 144,
         "shape": "normal",
         "set": "ASM",
@@ -420,7 +420,7 @@
         "position": ""
     },
     {
-        "card_name": "RG02 creature towards rg",
+        "card_name": "RG02 NAME, Gah-Api's Emissary",
         "number": 185,
         "shape": "normal",
         "set": "ASM",
@@ -428,7 +428,7 @@
         "position": ""
     },
     {
-        "card_name": "RW03 legend creature for bw",
+        "card_name": "RW03 Returned Vizier",
         "number": 27,
         "shape": "normal",
         "set": "ASM",
@@ -460,7 +460,7 @@
         "position": ""
     },
     {
-        "card_name": "RG03 betray crea for BG",
+        "card_name": "RG03 Lifeblood Siphoner",
         "number": 186,
         "shape": "normal",
         "set": "ASM",
@@ -476,7 +476,7 @@
         "position": ""
     },
     {
-        "card_name": "RU04 noncreature I or S",
+        "card_name": "RU04 Mystic Manipulation",
         "number": 67,
         "shape": "normal",
         "set": "ASM",
@@ -492,7 +492,7 @@
         "position": ""
     },
     {
-        "card_name": "RR04 noncreature",
+        "card_name": "RR04 'the end'",
         "number": 146,
         "shape": "normal",
         "set": "ASM",
@@ -500,7 +500,7 @@
         "position": ""
     },
     {
-        "card_name": "RG04 creature w counters",
+        "card_name": "RG04 Hyena Matriarch",
         "number": 187,
         "shape": "normal",
         "set": "ASM",
@@ -516,7 +516,7 @@
         "position": ""
     },
     {
-        "card_name": "RU05 noncreature ench",
+        "card_name": "RU05 Shifting Constellations",
         "number": 68,
         "shape": "normal",
         "set": "ASM",
@@ -532,7 +532,7 @@
         "position": ""
     },
     {
-        "card_name": "RR05 noncreature",
+        "card_name": "RR05 'bold'",
         "number": 147,
         "shape": "normal",
         "set": "ASM",
@@ -542,13 +542,13 @@
     {
         "card_name": "RG05 noncreature aftermath",
         "number": 188,
-        "shape": "normal",
+        "shape": "aftermath",
         "set": "ASM",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "RW06 dmg-based tutor",
+        "card_name": "RW06 Extracted Confession",
         "number": 30,
         "shape": "normal",
         "set": "ASM",
@@ -588,7 +588,7 @@
         "position": ""
     },
     {
-        "card_name": "RW07",
+        "card_name": "RW07 Carven Legacy",
         "number": 31,
         "shape": "normal",
         "set": "ASM",
@@ -596,15 +596,15 @@
         "position": ""
     },
     {
-        "card_name": "RU07 noncreature",
+        "card_name": "RU07 Profit",
         "number": 70,
-        "shape": "normal",
+        "shape": "aftermath",
         "set": "ASM",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "RB07 2-cost noncreature perm",
+        "card_name": "RB07 Wasmawt's Blessing",
         "number": 109,
         "shape": "normal",
         "set": "ASM",
@@ -612,7 +612,7 @@
         "position": ""
     },
     {
-        "card_name": "RR07 noncreature",
+        "card_name": "RR07 'bracers'",
         "number": 149,
         "shape": "normal",
         "set": "ASM",
@@ -660,7 +660,7 @@
         "position": ""
     },
     {
-        "card_name": "UG01 1-cost crea for GR",
+        "card_name": "UG01 Eneri, Cunning Treasurer",
         "number": 191,
         "shape": "normal",
         "set": "ASM",
@@ -780,7 +780,7 @@
         "position": ""
     },
     {
-        "card_name": "UG04 3-cost Crea for GW",
+        "card_name": "UG04 Paladin of Ghrin-Danu",
         "number": 194,
         "shape": "normal",
         "set": "ASM",
@@ -1012,7 +1012,7 @@
         "position": ""
     },
     {
-        "card_name": "UR10 Codename Reinforcements",
+        "card_name": "UR10 Infectious Bravado",
         "number": 159,
         "shape": "normal",
         "set": "ASM",
@@ -1886,24 +1886,44 @@
     },
     "a->gold",
     {
-        "card_name": "e"
-    },
-    {
-        "card_name": "e"
-    },
-    {
-        "card_name": "e"
-    },
-    {
-        "card_name": "RM01 Samut, Expedition Leader",
-        "number": 220,
+        "card_name": "RM01 Council's Decree",
+        "number": 205,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "e"
+        "card_name": "RM01 Swarm",
+        "number": 221,
+        "shape": "aftermath",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "RM01 Embalmed Dragon",
+        "number": 209,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "RM01 Samut, Expedition Leader",
+        "number": 218,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "RM01 Land Tokenator",
+        "number": 215,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "er"
@@ -1929,19 +1949,24 @@
         "position": ""
     },
     {
-        "card_name": "e"
+        "card_name": "RM01 The Wind Beneath",
+        "number": 222,
+        "shape": "aftermath",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
     },
     {
-        "card_name": "RM01",
-        "number": 205,
+        "card_name": "RM01 Great Serpent's Arrival",
+        "number": 212,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "RM01 Djeru, General",
-        "number": 213,
+        "card_name": "RM01 Djeru, Lord General",
+        "number": 208,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -1949,7 +1974,7 @@
     },
     {
         "card_name": "RM01 Dejukhab Bull",
-        "number": 212,
+        "number": 207,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -2049,7 +2074,7 @@
         "position": ""
     },
     {
-        "card_name": "UA05 'Memorial Wall'",
+        "card_name": "UA05 Memorial Obelisk",
         "number": 255,
         "shape": "normal",
         "set": "ASM",
@@ -2097,7 +2122,7 @@
         "position": ""
     },
     {
-        "card_name": "CA06 Farsight Gem",
+        "card_name": "CA06 Pendant of Bright Futures",
         "number": 250,
         "shape": "normal",
         "set": "ASM",
@@ -2276,7 +2301,7 @@
     },
     {
         "card_name": "Food",
-        "number": 12,
+        "number": 14,
         "shape": "token",
         "set": "ASM",
         "rotated": false,
@@ -2284,7 +2309,7 @@
     },
     {
         "card_name": "Treasure",
-        "number": 13,
+        "number": 15,
         "shape": "token",
         "set": "ASM",
         "rotated": false,
@@ -2339,7 +2364,7 @@
         "position": ""
     },
     {
-        "card_name": "Cat",
+        "card_name": "Plant Wall",
         "number": 8,
         "shape": "token",
         "set": "ASM",
@@ -2347,15 +2372,7 @@
         "position": ""
     },
     {
-        "card_name": "Snake",
-        "number": 10,
-        "shape": "token",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "Elemental",
+        "card_name": "Cat",
         "number": 9,
         "shape": "token",
         "set": "ASM",
@@ -2363,7 +2380,7 @@
         "position": ""
     },
     {
-        "card_name": "Talisman",
+        "card_name": "Insect",
         "number": 11,
         "shape": "token",
         "set": "ASM",
@@ -2371,10 +2388,28 @@
         "position": ""
     },
     {
-        "card_name": "e"
+        "card_name": "Snake",
+        "number": 12,
+        "shape": "token",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
     },
     {
-        "card_name": "e"
+        "card_name": "Elemental",
+        "number": 10,
+        "shape": "token",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Talisman",
+        "number": 13,
+        "shape": "token",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "er"
