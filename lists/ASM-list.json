@@ -1,7 +1,7 @@
 ﻿[
     {
         "card_name": "UM01 BG-1 First Altar of Wasmawt",
-        "number": 225,
+        "number": 218,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -9,7 +9,7 @@
     },
     {
         "card_name": "UM01 BG-2 Hofan Slithermaster",
-        "number": 226,
+        "number": 219,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -17,7 +17,7 @@
     },
     {
         "card_name": "UM01 BR-1 Boiling Bloodlust",
-        "number": 227,
+        "number": 220,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -25,7 +25,7 @@
     },
     {
         "card_name": "UM01 BR-2 Bloodblade Naga",
-        "number": 228,
+        "number": 221,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -33,7 +33,7 @@
     },
     {
         "card_name": "UM01 GU-1 Scion of New Rivers",
-        "number": 229,
+        "number": 222,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -41,7 +41,7 @@
     },
     {
         "card_name": "UM01 GU-2 Flow State",
-        "number": 230,
+        "number": 223,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -49,7 +49,7 @@
     },
     {
         "card_name": "UM01 GW-1 Walking Oasis",
-        "number": 231,
+        "number": 224,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -57,7 +57,7 @@
     },
     {
         "card_name": "UM01 GW-2 Voyage to New Homes",
-        "number": 232,
+        "number": 225,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -65,7 +65,7 @@
     },
     {
         "card_name": "UM01 RG-1 Mistress of Leashes",
-        "number": 233,
+        "number": 226,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -73,7 +73,7 @@
     },
     {
         "card_name": "UM01 RG-2 Priest of Gah-Api",
-        "number": 234,
+        "number": 227,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -81,7 +81,7 @@
     },
     {
         "card_name": "UM01 RW-1 Training Regimen",
-        "number": 235,
+        "number": 228,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -89,7 +89,7 @@
     },
     {
         "card_name": "UM01 RW-2 Chariot Commander",
-        "number": 236,
+        "number": 229,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -97,7 +97,7 @@
     },
     {
         "card_name": "UM01 UB-1 Officiant of the Arisen",
-        "number": 237,
+        "number": 230,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -105,7 +105,7 @@
     },
     {
         "card_name": "UM01 UB-2 Crucible of Eternity",
-        "number": 238,
+        "number": 231,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -113,7 +113,7 @@
     },
     {
         "card_name": "UM01 UR-1 Divine Attunement",
-        "number": 239,
+        "number": 232,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -121,7 +121,7 @@
     },
     {
         "card_name": "UM01 UR-2 Tjuf, Herald of Snehem",
-        "number": 240,
+        "number": 233,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -129,7 +129,7 @@
     },
     {
         "card_name": "UM01 WB-1 Chamber of New Anointment",
-        "number": 241,
+        "number": 234,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -137,7 +137,7 @@
     },
     {
         "card_name": "UM01 WB-2 High Priest of Ketramose",
-        "number": 242,
+        "number": 235,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -145,7 +145,7 @@
     },
     {
         "card_name": "UM01 WU-1 Maathep's Servant",
-        "number": 243,
+        "number": 236,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -153,7 +153,7 @@
     },
     {
         "card_name": "UM01 WU-2 Bastion of Maathep",
-        "number": 244,
+        "number": 237,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -174,7 +174,7 @@
     "a->God",
     {
         "card_name": "RM01 Darux, Miasma of Passion",
-        "number": 206,
+        "number": 199,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -182,7 +182,7 @@
     },
     {
         "card_name": "RM01 Gah-Api, Life's Hope",
-        "number": 210,
+        "number": 204,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -190,7 +190,7 @@
     },
     {
         "card_name": "RM01 Ghrin-Danu, Watchful Mother",
-        "number": 211,
+        "number": 205,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -198,7 +198,7 @@
     },
     {
         "card_name": "RM01 Hazoret, Zealous Survivor",
-        "number": 213,
+        "number": 207,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -206,7 +206,7 @@
     },
     {
         "card_name": "RM01 Ketramose, Virtuous Sacrifice",
-        "number": 214,
+        "number": 208,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -214,7 +214,7 @@
     },
     {
         "card_name": "RM01 Maathep, Lawgiver",
-        "number": 216,
+        "number": 210,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -222,7 +222,7 @@
     },
     {
         "card_name": "RM01 Sab-Sunen, Flow of Time",
-        "number": 217,
+        "number": 211,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -230,7 +230,7 @@
     },
     {
         "card_name": "RM01 Scarab God, Wrath of Eons",
-        "number": 219,
+        "number": 213,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -238,7 +238,7 @@
     },
     {
         "card_name": "RM01 Snehem, God of Locusts",
-        "number": 220,
+        "number": 215,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -246,7 +246,7 @@
     },
     {
         "card_name": "RM01 Wasmawt, Inevitable Death",
-        "number": 223,
+        "number": 216,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -269,1326 +269,6 @@
     },
     {
         "card_name": "MW01 Tekhen, Ancient Spiresoul",
-        "number": 23,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "MU01 Spy",
-        "number": 62,
-        "shape": "aftermath",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "MB01 Skeletons",
-        "number": 101,
-        "shape": "aftermath",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "MR01 Fortune Favors",
-        "number": 141,
-        "shape": "aftermath",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "MG01 Assembling the Menagerie",
-        "number": 182,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "MW02 Two Suns' Radiance",
-        "number": 24,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "MU02 Neputarkh, the Heretic",
-        "number": 63,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "MB02 Archangel of Ketramose",
-        "number": 102,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "MR02 Kav'set the Ruthless",
-        "number": 142,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "MG02 Pandevotional Summoner",
-        "number": 183,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "RW01 Sek'new, Lifeblood Brawler",
-        "number": 25,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "RU01 Snehemite Novitiate",
-        "number": 64,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "RB01 Bx'sur, Chosen of Darux",
-        "number": 103,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "RR01 Kharteran Pike-Mistress",
-        "number": 143,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "RG01 Hesep Tender",
-        "number": 184,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "RW02 Converted Seraph",
-        "number": 26,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "RU02 Ramunap Revenant",
-        "number": 65,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "RB02 Eternal Embalmer",
-        "number": 104,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "RR02 rg aa token maker",
-        "number": 144,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "RG02 NAME, Gah-Api's Emissary",
-        "number": 185,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "RW03 Returned Vizier",
-        "number": 27,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "RU03 Interdiction Angel",
-        "number": 66,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "RB03 Soulmaster Seter",
-        "number": 105,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "RR03 Lazotep Dragon",
-        "number": 145,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "RG03 Lifeblood Siphoner",
-        "number": 186,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "RW04 Basri Ket, Conflicted",
-        "number": 28,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "RU04 Mystic Manipulation",
-        "number": 67,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "RB04 Isift, Vizier of Ifnir",
-        "number": 106,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "RR04 'the end'",
-        "number": 146,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "RG04 Hyena Matriarch",
-        "number": 187,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "RW05 Diplomatic Conclave",
-        "number": 29,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "RU05 Shifting Constellations",
-        "number": 68,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "RB05 Coming Forth by Night",
-        "number": 107,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "RR05 'bold'",
-        "number": 147,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "RG05 noncreature aftermath",
-        "number": 188,
-        "shape": "aftermath",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "RW06 Extracted Confession",
-        "number": 30,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "RU06 Djamankh's Hydromancy",
-        "number": 69,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "RB06 Isift's Judgment",
-        "number": 108,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "RR06 Another One",
-        "number": 148,
-        "shape": "aftermath",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "RG06 Domesticate",
-        "number": 189,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "RW07 Carven Legacy",
-        "number": 31,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "RU07 Profit",
-        "number": 70,
-        "shape": "aftermath",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "RB07 Wasmawt's Blessing",
-        "number": 109,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "RR07 'bracers'",
-        "number": 149,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "RG07 Godsize",
-        "number": 190,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "UW01 Scion of Hazoret",
-        "number": 32,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "UU01 Drakerider Spellweaver",
-        "number": 71,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "UB01 Eternal Fighters",
-        "number": 110,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "UR01 Taw-honed Fighter",
-        "number": 150,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "UG01 Eneri, Cunning Treasurer",
-        "number": 191,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "UW02 Herald of the Lost",
-        "number": 33,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "UU02 Keeper of Blessed Waters",
-        "number": 72,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "UB02 Scion of Emptiness",
-        "number": 111,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "UR02 Skeshed, Dancing Storm",
-        "number": 151,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "UG02 2-cost Crea for GU",
-        "number": 192,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "UW03 Arena Champion",
-        "number": 34,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "UU03 Afu, Chosen of the Scarab",
-        "number": 73,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "UB03 Obssessed Falconer",
-        "number": 112,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "UR03 Hermit Champion",
-        "number": 152,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "UG03 Giant Carrion Beetle",
-        "number": 193,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "UW04 Priestess of Sanctity",
-        "number": 35,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "UU04 Vigilant Obstructionist",
-        "number": 74,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "UB04 Vessel of Darkness",
-        "number": 113,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "UR04 Vessel of Wrath",
-        "number": 153,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "UG04 Paladin of Ghrin-Danu",
-        "number": 194,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "UW05 Vessel of Purity",
-        "number": 36,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "UU05 Vessel of Genius",
-        "number": 75,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "UB05 Mindstab Ravager",
-        "number": 114,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "UR05 Scorchtrack Mehu",
-        "number": 154,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "UG05 Delta Monitor",
-        "number": 195,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "UW06 Callous Charioteer",
-        "number": 37,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "UU06 Pillar-Leaper Sphinx",
-        "number": 76,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "UB06 Omnivorous Exhumer",
-        "number": 115,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "UR06 Daruxian Spinescourger",
-        "number": 155,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "UG06 Vessel of Nature",
-        "number": 196,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "UW07 Razemaster",
-        "number": 38,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "UU07 Track Guardian",
-        "number": 77,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "UB07 Merciless Brawler",
-        "number": 116,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "UR07 Wine Priestess",
-        "number": 156,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "UG07 5-cost Crea for GB",
-        "number": 197,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "UW08 Angel of Obeisance",
-        "number": 39,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "UU08 The Art",
-        "number": 78,
-        "shape": "aftermath",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "UB08 Vile Judge",
-        "number": 117,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "UR08 Corrupted Emberhorn",
-        "number": 157,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "UG08 6-cost Crea for GW",
-        "number": 198,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "UW09 Makheru, Voice of Truth",
-        "number": 40,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "UU09 Lofty Response",
-        "number": 79,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "UB09 Rise of the Doomed",
-        "number": 118,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "UR09 Darkstorm Bolt",
-        "number": 158,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "UG09 Gargantuan Abytira",
-        "number": 199,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "UW10 Megalithic Guardian",
-        "number": 41,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "UU10 Mastery of Tumbling Sands",
-        "number": 80,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "UB10 Localized Disaster",
-        "number": 119,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "UR10 Infectious Bravado",
-        "number": 159,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "UG11 Supervisor's Intervention",
-        "number": 200,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "UW12 Maathep's Interdiction",
-        "number": 42,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "UU11 Red-Eye",
-        "number": 81,
-        "shape": "aftermath",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "UB11 Hyena Pack Attack",
-        "number": 120,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "UR11 Shining Bright",
-        "number": 160,
-        "shape": "aftermath",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "UG12 noncreature supp GW",
-        "number": 201,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "UW13 Hazoret's Blessing",
-        "number": 43,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "UU12 Unsorted Scrolls",
-        "number": 82,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "UB12 Betrayal of Secrets",
-        "number": 121,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "UR12 Read the Forbidden Scrolls",
-        "number": 161,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "UG13 Nerves",
-        "number": 202,
-        "shape": "aftermath",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "UW14 Last Dignity",
-        "number": 44,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "UU13 The Wisdom of Unity",
-        "number": 83,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "UB13 Scarab Armor",
-        "number": 122,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "UR13 Barrel",
-        "number": 162,
-        "shape": "aftermath",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "UG14 noncreature supp GB",
-        "number": 203,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "UW15 Nature",
-        "number": 45,
-        "shape": "aftermath",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "UU14 Advance",
-        "number": 84,
-        "shape": "aftermath",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "UB14 Curiosity Killed",
-        "number": 123,
-        "shape": "aftermath",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "UR13 Wide Swing",
-        "number": 163,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "UG15 noncreature supp ALL",
-        "number": 204,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "CW01 Votive Soul",
-        "number": 7,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "CU01 Soul Administrator",
-        "number": 46,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "UB15 Wasmawt's Presence",
-        "number": 124,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "UR14 Tax",
-        "number": 164,
-        "shape": "aftermath",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "CG01 Apepisw Gate",
-        "number": 166,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "CW02 Two Suns Fighter",
-        "number": 8,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "CU02 Aven Theorist",
-        "number": 47,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "CB01 Serrated Scorpion",
-        "number": 85,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "UR15 Churning of Lava",
-        "number": 165,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "CG02 Oashra Vitalist",
-        "number": 167,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "CW03 Priest of the Angel's Path",
-        "number": 9,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "CU03 Dedicated Scribe",
-        "number": 48,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "CB02 Fleshform Serket",
-        "number": 86,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "CR01 Rage-cursed Returned",
-        "number": 125,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "CG03 Exploring Couple",
-        "number": 168,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "CW04 Conflicted Angel",
-        "number": 10,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "CU04 Seshen Pollinators",
-        "number": 49,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "CB03 Sentimental Thug",
-        "number": 87,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "CR02 Frontier Messenger",
-        "number": 126,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "CG04 Giant Ibis",
-        "number": 169,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "CW05 Envoy of New Ways",
-        "number": 11,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "CU05 Zenith Hunter",
-        "number": 50,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "CB04 Canopic Harvester",
-        "number": 88,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "CR03 Maahestet Champion",
-        "number": 127,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "CG05 Instructor Huntress",
-        "number": 170,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "CW06 Coordinated Infantry",
-        "number": 12,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "CU06 Frozen Sands Cadre",
-        "number": 51,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "CB05 Carcass Collector",
-        "number": 89,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "CR04 Shadowseller",
-        "number": 128,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "CG06 Boat-climber Cobra",
-        "number": 171,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "CW07 Cruel Adjudicator",
-        "number": 13,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "CU07 Vindictive Sphinx",
-        "number": 52,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "CB06 Ferocious Cobra",
-        "number": 90,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "CR05 Bloodsand Lich",
-        "number": 129,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "CG07 Seeker of Lost Species",
-        "number": 172,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "CW08 Phalanx Commander",
-        "number": 14,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "CU08 Avatar of Sab-Sunen",
-        "number": 53,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "CB07 Ifnir Farseer",
-        "number": 91,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "CR06 Role Model Sergeant",
-        "number": 130,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "CG08 Hippo Family",
-        "number": 173,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "CW09 Broken Lands Monitor",
-        "number": 15,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "CU09 Protected",
-        "number": 54,
-        "shape": "aftermath",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "CB08 Returned Master",
-        "number": 92,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "CR07 Ka-Blade Champion",
-        "number": 131,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "CG09 Avenging Elephant",
-        "number": 174,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "CW10 Blessed Revivalist",
-        "number": 16,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "CU10 Nullification Chant",
-        "number": 55,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "CB09 Burial Chamber Guardian",
-        "number": 93,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "CR08 Avenging Minotaur",
-        "number": 132,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "CG10 Oasis Sentinel",
-        "number": 175,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "CW11 Mindless Servant",
         "number": 17,
         "shape": "normal",
         "set": "ASM",
@@ -1596,7 +276,7 @@
         "position": ""
     },
     {
-        "card_name": "CU11 Ancient Prophecies",
+        "card_name": "MU01 Eager",
         "number": 56,
         "shape": "aftermath",
         "set": "ASM",
@@ -1604,95 +284,15 @@
         "position": ""
     },
     {
-        "card_name": "CB10 Eternal Moloch",
-        "number": 94,
-        "shape": "aftermath",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "CR09 Starving Sandwurm",
-        "number": 133,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "CG11 Maul",
-        "number": 176,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "CW12 Swift Response",
-        "number": 18,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "CU12 Meditative Wisdom",
-        "number": 57,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "CB11 Mantle of Shards",
+        "card_name": "MB01 Method",
         "number": 95,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "CR10 No Pain",
-        "number": 134,
         "shape": "aftermath",
         "set": "ASM",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "CG12 Hunting Party",
-        "number": 177,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "CW13 Deity's Presence",
-        "number": 19,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "CU13 Turned to Stone",
-        "number": 58,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "CB12 Selling Lives",
-        "number": 96,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "CR11 Swollen",
+        "card_name": "MR01 Itching",
         "number": 135,
         "shape": "aftermath",
         "set": "ASM",
@@ -1700,39 +300,39 @@
         "position": ""
     },
     {
-        "card_name": "CG13 Adjust to Abundance",
-        "number": 178,
+        "card_name": "MG01 Assembling the Menagerie",
+        "number": 175,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "CW14 Ready Bows",
-        "number": 20,
+        "card_name": "MW02 Two Suns' Radiance",
+        "number": 18,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "CU14 Deliver",
-        "number": 59,
-        "shape": "aftermath",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "CB13 Moment of Weakness",
-        "number": 97,
+        "card_name": "MU02 Neputarkh, the Heretic",
+        "number": 57,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "CR12 Stealing the Beacon",
+        "card_name": "MB02 Archangel of Ketramose",
+        "number": 96,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "MR02 Kav'set the Ruthless",
         "number": 136,
         "shape": "normal",
         "set": "ASM",
@@ -1740,39 +340,39 @@
         "position": ""
     },
     {
-        "card_name": "CG14 City's Founding",
-        "number": 179,
+        "card_name": "MG02 Pandevotional Summoner",
+        "number": 176,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "CW15 Controlled",
-        "number": 21,
-        "shape": "aftermath",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "CU15 Ships Passing",
-        "number": 60,
-        "shape": "aftermath",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "CB14 Feast on Flesh",
-        "number": 98,
+        "card_name": "RW01 Sek'new, Lifeblood Brawler",
+        "number": 19,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "CR13 Abrade",
+        "card_name": "RU01 Snehemite Novitiate",
+        "number": 58,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "RB01 Bx'sur, Chosen of Darux",
+        "number": 97,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "RR01 Kharteran Pike-Mistress",
         "number": 137,
         "shape": "normal",
         "set": "ASM",
@@ -1780,31 +380,71 @@
         "position": ""
     },
     {
-        "card_name": "CG15 Night Market",
-        "number": 180,
+        "card_name": "RG01 Hesep Tender",
+        "number": 177,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "CW16 Feeding Time",
-        "number": 22,
+        "card_name": "RW02 Converted Seraph",
+        "number": 20,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "CU16 Sailskiff",
-        "number": 61,
+        "card_name": "RU02 Ramunap Revenant",
+        "number": 59,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "CB15 Disintegrating Wrappings",
+        "card_name": "RB02 Eternal Embalmer",
+        "number": 98,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "RR02 rg aa token maker",
+        "number": 138,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "RG02 Tankht, Gah-Api's Emissary",
+        "number": 178,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "RW03 Returned Vizier",
+        "number": 21,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "RU03 Interdiction Angel",
+        "number": 60,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "RB03 Soulmaster Seter",
         "number": 99,
         "shape": "normal",
         "set": "ASM",
@@ -1812,16 +452,1376 @@
         "position": ""
     },
     {
-        "card_name": "CR14 Fire",
-        "number": 138,
+        "card_name": "RR03 Lazotep Dragon",
+        "number": 139,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "RG03 Lifeblood Siphoner",
+        "number": 179,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "RW04 Basri Ket, Conflicted",
+        "number": 22,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "RU04 Mystic Manipulation",
+        "number": 61,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "RB04 Isift, Vizier of Ifnir",
+        "number": 100,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "RR04 'the end'",
+        "number": 140,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "RG04 Hyena Matriarch",
+        "number": 180,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "RW05 Diplomatic Conclave",
+        "number": 23,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "RU05 Shifting Constellations",
+        "number": 62,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "RB05 Coming Forth by Night",
+        "number": 101,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "RR05 'bold'",
+        "number": 141,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "RG05 Home",
+        "number": 181,
         "shape": "aftermath",
         "set": "ASM",
         "rotated": false,
         "position": ""
     },
     {
+        "card_name": "RW06 Extracted Confession",
+        "number": 24,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "RU06 Djamankh's Hydromancy",
+        "number": 63,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "RB06 Isift's Judgment",
+        "number": 102,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "RR06 Agree",
+        "number": 142,
+        "shape": "aftermath",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "RG06 Domesticate",
+        "number": 182,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "RW07 Carven Legacy",
+        "number": 25,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "RU07 Made",
+        "number": 64,
+        "shape": "aftermath",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "RB07 Wasmawt's Blessing",
+        "number": 103,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "RR07 'bracers'",
+        "number": 143,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "RG07 Godsize",
+        "number": 183,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "UW01 Scion of Hazoret",
+        "number": 26,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "UU01 Drakerider Spellweaver",
+        "number": 65,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "UB01 Eternal Fighters",
+        "number": 104,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "UR01 Taw-honed Fighter",
+        "number": 144,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "UG01 Eneri, Cunning Treasurer",
+        "number": 184,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "UW02 Herald of the Lost",
+        "number": 27,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "UU02 Keeper of Blessed Waters",
+        "number": 66,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "UB02 Scion of Emptiness",
+        "number": 105,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "UR02 Skeshed, Dancing Storm",
+        "number": 145,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "UG02 Luxa Shoremage",
+        "number": 185,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "UW03 Arena Champion",
+        "number": 28,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "UU03 Afu, Chosen of the Scarab",
+        "number": 67,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "UB03 Obssessed Falconer",
+        "number": 106,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "UR03 Hermit Champion",
+        "number": 146,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "UG03 Giant Carrion Beetle",
+        "number": 186,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "UW04 Priestess of Sanctity",
+        "number": 29,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "UU04 Vigilant Obstructionist",
+        "number": 68,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "UB04 Vessel of Darkness",
+        "number": 107,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "UR04 Vessel of Wrath",
+        "number": 147,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "UG04 Paladin of Ghrin-Danu",
+        "number": 187,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "UW05 Vessel of Purity",
+        "number": 30,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "UU05 Vessel of Genius",
+        "number": 69,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "UB05 Mindstab Ravager",
+        "number": 108,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "UR05 Scorchtrack Mehu",
+        "number": 148,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "UG05 Delta Monitor",
+        "number": 188,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "UW06 Callous Charioteer",
+        "number": 31,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "UU06 Pillar-Leaper Sphinx",
+        "number": 70,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "UB06 Omnivorous Exhumer",
+        "number": 109,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "UR06 Daruxian Spinescourger",
+        "number": 149,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "UG06 Vessel of Nature",
+        "number": 189,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "UW07 Razemaster",
+        "number": 32,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "UU07 Track Guardian",
+        "number": 71,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "UB07 Merciless Brawler",
+        "number": 110,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "UR07 Wine Priestess",
+        "number": 150,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "UG07 Naga Secretstealer",
+        "number": 190,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "UW08 Angel of Obeisance",
+        "number": 33,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "UU08 Yours",
+        "number": 72,
+        "shape": "aftermath",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "UB08 Vile Judge",
+        "number": 111,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "UR08 Corrupted Emberhorn",
+        "number": 151,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "UG08 Danurian Woodcaller",
+        "number": 191,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "UW09 Makheru, Voice of Truth",
+        "number": 34,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "UU09 Lofty Response",
+        "number": 73,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "UB09 Rise of the Doomed",
+        "number": 112,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "UR09 Darkstorm Bolt",
+        "number": 152,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "UG09 Gargantuan Abytira",
+        "number": 192,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "UW10 Megalithic Guardian",
+        "number": 35,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "UU10 Mastery of Tumbling Sands",
+        "number": 74,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "UB10 Localized Disaster",
+        "number": 113,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "UR10 Infectious Bravado",
+        "number": 153,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "UG10 Supervisor's Intervention",
+        "number": 193,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "UW11 Maathep's Interdiction",
+        "number": 36,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "UU11 Note",
+        "number": 75,
+        "shape": "aftermath",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "UB11 Hyena Pack Attack",
+        "number": 114,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "UR11 Ready",
+        "number": 154,
+        "shape": "aftermath",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "UG11 Stumble Upon Sanctuary",
+        "number": 194,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "UW12 Hazoret's Blessing",
+        "number": 37,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "UU12 Unsorted Scrolls",
+        "number": 76,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "UB12 Betrayal of Secrets",
+        "number": 115,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "UR12 Read the Forbidden Scrolls",
+        "number": 155,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "UG12 Close",
+        "number": 195,
+        "shape": "aftermath",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "UW13 Last Dignity",
+        "number": 38,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "UU13 The Wisdom of Unity",
+        "number": 77,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "UB13 Scarab Armor",
+        "number": 116,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "UR13 Bite",
+        "number": 156,
+        "shape": "aftermath",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "UG13 Cover-Up",
+        "number": 196,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "UW14 Going",
+        "number": 39,
+        "shape": "aftermath",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "UU14 Happy",
+        "number": 78,
+        "shape": "aftermath",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "UB14 Wasmawt's Presence",
+        "number": 117,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "UR14 Time",
+        "number": 157,
+        "shape": "aftermath",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "UG14 Vital Takeover",
+        "number": 197,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "CW01 Votive Soul",
+        "number": 1,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "CU01 Soul Administrator",
+        "number": 40,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "UB15 Word",
+        "number": 118,
+        "shape": "aftermath",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "UR15 Churning of Lava",
+        "number": 158,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "CG01 Apepisw Gate",
+        "number": 159,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "CW02 Two Suns Fighter",
+        "number": 2,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "CU02 Aven Theorist",
+        "number": 41,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "CB01 Serrated Scorpion",
+        "number": 79,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "CR01 Rage-cursed Returned",
+        "number": 119,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "CG02 Oashra Vitalist",
+        "number": 160,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "CW03 Priest of the Angel's Path",
+        "number": 3,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "CU03 Dedicated Scribe",
+        "number": 42,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "CB02 Fleshform Serket",
+        "number": 80,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "CR02 Frontier Messenger",
+        "number": 120,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "CG03 Exploring Couple",
+        "number": 161,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "CW04 Conflicted Angel",
+        "number": 4,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "CU04 Seshen Pollinators",
+        "number": 43,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "CB03 Sentimental Thug",
+        "number": 81,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "CR03 Maahestet Champion",
+        "number": 121,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "CG04 Giant Ibis",
+        "number": 162,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "CW05 Envoy of New Ways",
+        "number": 5,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "CU05 Zenith Hunter",
+        "number": 44,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "CB04 Canopic Harvester",
+        "number": 82,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "CR04 Shadowseller",
+        "number": 122,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "CG05 Instructor Huntress",
+        "number": 163,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "CW06 Coordinated Infantry",
+        "number": 6,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "CU06 Frozen Sands Cadre",
+        "number": 45,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "CB05 Carcass Collector",
+        "number": 83,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "CR05 Bloodsand Lich",
+        "number": 123,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "CG06 Boat-climber Cobra",
+        "number": 164,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "CW07 Cruel Adjudicator",
+        "number": 7,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "CU07 Vindictive Sphinx",
+        "number": 46,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "CB06 Ferocious Cobra",
+        "number": 84,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "CR06 Role Model Sergeant",
+        "number": 124,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "CG07 Seeker of Lost Species",
+        "number": 165,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "CW08 Phalanx Commander",
+        "number": 8,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "CU08 Avatar of Sab-Sunen",
+        "number": 47,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "CB07 Ifnir Farseer",
+        "number": 85,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "CR07 Ka-Blade Champion",
+        "number": 125,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "CG08 Hippo Family",
+        "number": 166,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "CW09 Broken Lands Monitor",
+        "number": 9,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "CU09 Nose",
+        "number": 48,
+        "shape": "aftermath",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "CB08 Returned Master",
+        "number": 86,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "CR08 Avenging Minotaur",
+        "number": 126,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "CG09 Avenging Elephant",
+        "number": 167,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "CW10 Blessed Revivalist",
+        "number": 10,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "CU10 Nullification Chant",
+        "number": 49,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "CB09 Burial Chamber Guardian",
+        "number": 87,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "CR09 Starving Sandwurm",
+        "number": 127,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "CG10 Oasis Sentinel",
+        "number": 168,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "CW11 Mindless Servant",
+        "number": 11,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "CU11 Listen",
+        "number": 50,
+        "shape": "aftermath",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "CB10 Remains",
+        "number": 88,
+        "shape": "aftermath",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "CR10 Pay",
+        "number": 128,
+        "shape": "aftermath",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "CG11 Maul",
+        "number": 169,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "CW12 Swift Response",
+        "number": 12,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "CU12 Meditative Wisdom",
+        "number": 51,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "CB11 Mantle of Shards",
+        "number": 89,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "CR11 Stirred",
+        "number": 129,
+        "shape": "aftermath",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "CG12 Hunting Party",
+        "number": 170,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "CW13 Deity's Presence",
+        "number": 13,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "CU13 Turned to Stone",
+        "number": 52,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "CB12 Selling Lives",
+        "number": 90,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "CR12 Stealing the Beacon",
+        "number": 130,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "CG13 Adjust to Abundance",
+        "number": 171,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "CW14 Ready Bows",
+        "number": 14,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "CU14 Second",
+        "number": 53,
+        "shape": "aftermath",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "CB13 Moment of Weakness",
+        "number": 91,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "CR13 Abrade",
+        "number": 131,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "CG14 City's Founding",
+        "number": 172,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "CW15 Room",
+        "number": 15,
+        "shape": "aftermath",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "CU15 Tough",
+        "number": 54,
+        "shape": "aftermath",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "CB14 Feast on Flesh",
+        "number": 92,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "CR14 Hot",
+        "number": 132,
+        "shape": "aftermath",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "CG15 Night Market",
+        "number": 173,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "CW16 Feeding Time",
+        "number": 16,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "CU16 Sailskiff",
+        "number": 55,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "CB15 Disintegrating Wrappings",
+        "number": 93,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "CR15 Holy Pyre",
+        "number": 133,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
         "card_name": "CG16 Ghrin-Danu's Servitors",
-        "number": 181,
+        "number": 174,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -1835,35 +1835,15 @@
     },
     {
         "card_name": "CB16 Spinal Diviner",
-        "number": 100,
+        "number": 94,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
         "position": ""
-    },
-    {
-        "card_name": "CR15 Holy Pyre",
-        "number": 139,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "e"
-    },
-    {
-        "card_name": "e"
-    },
-    {
-        "card_name": "e"
-    },
-    {
-        "card_name": "e"
     },
     {
         "card_name": "CR16 Helm of Hazoret",
-        "number": 140,
+        "number": 134,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -1887,15 +1867,15 @@
     "a->gold",
     {
         "card_name": "RM01 Council's Decree",
-        "number": 205,
+        "number": 198,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "RM01 Swarm",
-        "number": 221,
+        "card_name": "RM01 Done",
+        "number": 202,
         "shape": "aftermath",
         "set": "ASM",
         "rotated": false,
@@ -1903,7 +1883,7 @@
     },
     {
         "card_name": "RM01 Embalmed Dragon",
-        "number": 209,
+        "number": 203,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -1911,7 +1891,7 @@
     },
     {
         "card_name": "RM01 Samut, Expedition Leader",
-        "number": 218,
+        "number": 212,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -1919,7 +1899,7 @@
     },
     {
         "card_name": "RM01 Land Tokenator",
-        "number": 215,
+        "number": 209,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -1942,15 +1922,15 @@
     },
     {
         "card_name": "RM01 Zahur, Maahestet Leader",
-        "number": 224,
+        "number": 217,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "RM01 The Wind Beneath",
-        "number": 222,
+        "card_name": "RM01 Scattered",
+        "number": 214,
         "shape": "aftermath",
         "set": "ASM",
         "rotated": false,
@@ -1958,7 +1938,7 @@
     },
     {
         "card_name": "RM01 Great Serpent's Arrival",
-        "number": 212,
+        "number": 206,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -1966,7 +1946,7 @@
     },
     {
         "card_name": "RM01 Djeru, Lord General",
-        "number": 208,
+        "number": 201,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -1974,7 +1954,7 @@
     },
     {
         "card_name": "RM01 Dejukhab Bull",
-        "number": 207,
+        "number": 200,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -1994,56 +1974,8 @@
     },
     "a->colorless",
     {
-        "card_name": "RX01",
-        "number": 1,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "RX02",
-        "number": 2,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "RX03",
-        "number": 3,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "RX04",
-        "number": 4,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "RX05",
-        "number": 5,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "RX06",
-        "number": 6,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
         "card_name": "UA01 Lazotep Blade",
-        "number": 251,
+        "number": 244,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -2051,38 +1983,6 @@
     },
     {
         "card_name": "UA02 Icon of Unity",
-        "number": 252,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "UA03 Spellfire Khopesh",
-        "number": 253,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "UA04 Blood of the Pious",
-        "number": 254,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "UA05 Memorial Obelisk",
-        "number": 255,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "CA01 Lazoskin Tracker",
         "number": 245,
         "shape": "normal",
         "set": "ASM",
@@ -2090,7 +1990,7 @@
         "position": ""
     },
     {
-        "card_name": "CA02 Tomb Builder",
+        "card_name": "UA03 Spellfire Khopesh",
         "number": 246,
         "shape": "normal",
         "set": "ASM",
@@ -2098,7 +1998,7 @@
         "position": ""
     },
     {
-        "card_name": "CA03 Grounds Guardian",
+        "card_name": "UA04 Blood of the Pious",
         "number": 247,
         "shape": "normal",
         "set": "ASM",
@@ -2106,7 +2006,7 @@
         "position": ""
     },
     {
-        "card_name": "CA04 Private Feast",
+        "card_name": "UA05 Memorial Obelisk",
         "number": 248,
         "shape": "normal",
         "set": "ASM",
@@ -2114,8 +2014,40 @@
         "position": ""
     },
     {
+        "card_name": "CA01 Lazoskin Tracker",
+        "number": 238,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "CA02 Tomb Builder",
+        "number": 239,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "CA03 Grounds Guardian",
+        "number": 240,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "CA04 Private Feast",
+        "number": 241,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
         "card_name": "CA05 Gleaming Capstone",
-        "number": 249,
+        "number": 242,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -2123,11 +2055,14 @@
     },
     {
         "card_name": "CA06 Pendant of Bright Futures",
-        "number": 250,
+        "number": 243,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
         "position": ""
+    },
+    {
+        "card_name": "e"
     },
     {
         "card_name": "e"
@@ -2155,7 +2090,7 @@
     },
     {
         "card_name": "RX07 Naktamun Market Streets",
-        "number": 257,
+        "number": 251,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -2163,7 +2098,7 @@
     },
     {
         "card_name": "RX08 Foreboding Gate",
-        "number": 258,
+        "number": 252,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -2171,7 +2106,7 @@
     },
     {
         "card_name": "UL01 Lake Sebay",
-        "number": 259,
+        "number": 253,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -2179,7 +2114,7 @@
     },
     {
         "card_name": "UL02 Port Kharteru",
-        "number": 260,
+        "number": 254,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -2187,7 +2122,7 @@
     },
     {
         "card_name": "UL03 Hidden Necropolis Entrance",
-        "number": 261,
+        "number": 255,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -2195,22 +2130,6 @@
     },
     {
         "card_name": "UL04 Sulfurous Baths",
-        "number": 262,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "UL05 Shefet Shrublands",
-        "number": 263,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "CL01 Winding River",
         "number": 256,
         "shape": "normal",
         "set": "ASM",
@@ -2218,7 +2137,28 @@
         "position": ""
     },
     {
-        "card_name": "e"
+        "card_name": "UL05 Shefet Shrublands",
+        "number": 257,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "CL01 Winding River",
+        "number": 249,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "CL02 Mirage Pool",
+        "number": 250,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
     },
     {
         "card_name": "e"
@@ -2240,7 +2180,7 @@
     },
     {
         "card_name": "Plains",
-        "number": 264,
+        "number": 258,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -2248,7 +2188,7 @@
     },
     {
         "card_name": "Island",
-        "number": 265,
+        "number": 259,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -2256,7 +2196,7 @@
     },
     {
         "card_name": "Swamp",
-        "number": 266,
+        "number": 260,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -2264,7 +2204,7 @@
     },
     {
         "card_name": "Mountain",
-        "number": 267,
+        "number": 261,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -2272,7 +2212,7 @@
     },
     {
         "card_name": "Forest",
-        "number": 268,
+        "number": 262,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,

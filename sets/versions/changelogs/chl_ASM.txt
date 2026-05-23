@@ -1,4 +1,155 @@
-﻿VERSION 8 CHANGELOG
+﻿VERSION 9 CHANGELOG
+====================
+
+CW15 Room added.
+UW11 Maathep's Interdiction added.
+UW12 Hazoret's Blessing added.
+UW13 Last Dignity added.
+CU09 Nose added.
+CU11 Listen added.
+CU14 Second added.
+CU15 Tough added.
+UU11 Note added.
+CB10 Remains added.
+UB15 Word added.
+CR10 Pay added.
+CR11 Stirred added.
+CR14 Hot added.
+UR14 Time added.
+UR13 Bite added.
+UG13 Cover-Up added.
+UG12 Close added.
+UG11 Stumble Upon Sanctuary added.
+UU08 Yours added.
+UR11 Ready added.
+UG02 Luxa Shoremage added.
+UG07 Naga Secretstealer added.
+UG08 Danurian Woodcaller added.
+UG10 Supervisor's Intervention added.
+RU07 Made added.
+RR06 Agree added.
+RG02 Tankht, Gah-Api's Emissary added.
+RG05 Home added.
+MU01 Eager added.
+MB01 Method added.
+MR01 Itching added.
+RM01 Done added.
+RM01 Scattered added.
+UU14 Happy added.
+UB14 Wasmawt's Presence added.
+UW14 Going added.
+UG14 Vital Takeover added.
+CL02 Mirage Pool added.
+
+CW15 Controlled removed.
+UW12 Maathep's Interdiction removed.
+UW13 Hazoret's Blessing removed.
+UW14 Last Dignity removed.
+CU09 Protected removed.
+CU11 Ancient Prophecies removed.
+CU14 Deliver removed.
+CU15 Ships Passing removed.
+UU11 Red-Eye removed.
+CB10 Eternal Moloch removed.
+UB14 Curiosity Killed removed.
+CR10 No Pain removed.
+CR11 Swollen removed.
+CR14 Fire removed.
+UR14 Tax removed.
+UR13 Barrel removed.
+UG14 noncreature supp GB removed.
+UG13 Nerves removed.
+UG12 noncreature supp GW removed.
+UU08 The Art removed.
+UR11 Shining Bright removed.
+UG02 2-cost Crea for GU removed.
+UG07 5-cost Crea for GB removed.
+UG08 6-cost Crea for GW removed.
+UG11 Supervisor's Intervention removed.
+RU07 Profit removed.
+RR06 Another One removed.
+RG02 NAME, Gah-Api's Emissary removed.
+RG05 noncreature aftermath removed.
+MU01 Spy removed.
+MB01 Skeletons removed.
+MR01 Fortune Favors removed.
+RM01 Swarm removed.
+RM01 The Wind Beneath removed.
+UU14 Advance removed.
+UB15 Wasmawt's Presence removed.
+UW15 Nature removed.
+UG15 noncreature supp ALL removed.
+RX01 removed.
+RX02 removed.
+RX03 removed.
+RX04 removed.
+RX05 removed.
+RX06 removed.
+UR13 Wide Swing removed.
+
+CU12 Meditative Wisdom
+
+UW05 Vessel of Purity
+rules_text: Vigilance
+[i]Schism[/i] — {T}, Tap two or more other creatures you control, sacrifice this creature: Search your library for a God card, reveal it and put it into your hand, then shuffle. If five or more other creatures were tapped this way, you may put that God onto the battlefield instead. => Vigilance
+[i]Schism[/i] — {T}, Tap one or more other creatures you control, sacrifice this creature: Search your library for a God card, reveal it and put it into your hand, then shuffle. If three or more other creatures were tapped this way, you may put that God onto the battlefield instead.
+
+UU05 Vessel of Genius
+rules_text: Flying, ward {1}
+[i]Schism[/i] — {T}, Tap two or more other creatures you control, sacrifice this creature: Search your library for a God card, reveal it and put it into your hand, then shuffle. If five or more other creatures were tapped this way, you may put that God onto the battlefield instead. => Flying, ward {1}
+[i]Schism[/i] — {T}, Tap one or more other creatures you control, sacrifice this creature: Search your library for a God card, reveal it and put it into your hand, then shuffle. If three or more other creatures were tapped this way, you may put that God onto the battlefield instead.
+
+UB04 Vessel of Darkness
+rules_text: Menace
+[i]Schism[/i] — {T}, Tap two or more other creatures you control, sacrifice this creature: Search your library for a God card, reveal it and put it into your hand, then shuffle. If five or more other creatures were tapped this way, you may put that God onto the battlefield instead. => Menace
+[i]Schism[/i] — {T}, Tap one or more other creatures you control, sacrifice this creature: Search your library for a God card, reveal it and put it into your hand, then shuffle. If three or more other creatures were tapped this way, you may put that God onto the battlefield instead.
+
+UR02 Skeshed, Dancing Storm
+rules_text: Haste
+Ward—pay 2 life.
+Spells you cast can't be countered as long as an opponent lost life this turn. => Haste
+Ward—Pay 2 life.
+Spells you cast can't be countered as long as an opponent lost life this turn.
+
+UR04 Vessel of Wrath
+rules_text: Haste
+[i]Schism[/i] — {T}, Tap two or more other creatures you control, sacrifice this creature: Search your library for a God card, reveal it and put it into your hand, then shuffle. If five or more other creatures were tapped this way, you may put that God onto the battlefield instead. => Haste
+[i]Schism[/i] — {T}, Tap one or more other creatures you control, sacrifice this creature: Search your library for a God card, reveal it and put it into your hand, then shuffle. If three or more other creatures were tapped this way, you may put that God onto the battlefield instead.
+
+UG06 Vessel of Nature
+rules_text: At the beginning of your first main phase, add {G}.
+[i]Schism[/i] — {T}, Tap two or more other creatures you control, sacrifice this creature: Search your library for a God card, reveal it and put it into your hand, then shuffle. If five or more other creatures were tapped this way, you may put that God onto the battlefield instead. => At the beginning of your first main phase, add {G}.
+[i]Schism[/i] — {T}, Tap one or more other creatures you control, sacrifice this creature: Search your library for a God card, reveal it and put it into your hand, then shuffle. If three or more other creatures were tapped this way, you may put that God onto the battlefield instead.
+
+RW03 Returned Vizier
+rules_text: Flash
+First strike
+Betray
+When this creature betrays a permanent, you gain life equal to that permanent's mana value. => Flash
+First strike
+Betray [i](When this permanent enters, you may sacrifice another permanent that shares a color with it.)[/i]
+When this creature betrays a permanent, you gain life equal to that permanent's mana value.
+
+RB01 Bx'sur, Chosen of Darux
+rules_text: Menace
+When Name enters, you may pay {B}. If you do, each player loses 1 life and Name gains haste until end of turn.
+{BR}: Name gets +1/+1 until end of turn. Activate only if an opponent lost life this turn. => Menace
+When Bx'sur enters, you may pay {B}. If you do, each player loses 1 life and she gains haste until end of turn.
+{BR}: Bx'sur gets +1/+1 until end of turn. Activate only if an opponent lost life this turn.
+
+MG01 Assembling the Menagerie
+rules_text: When this enters, and at the beginning of your upkeep, put a corral counter on this enchantment.
+Once each turn, you may pay 0 rather than pay the mana cost for a creature spell you cast with mana value X or less, where X is the number of corral counters on this enchantment. => When this enters, and at the beginning of your upkeep, put a corral counter on this enchantment.
+Once each turn, you may pay {0} rather than pay the mana cost for a creature spell you cast with mana value X or less, where X is the number of corral counters on this enchantment.
+
+RM01 Samut, Expedition Leader
+
+UR15 Churning of Lava
+
+Plant Wall
+
+
+VERSION 8 CHANGELOG
 ====================
 
 CA06 Pendant of Bright Futures added.
