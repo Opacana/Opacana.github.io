@@ -1,2463 +1,2463 @@
 ﻿[CustomCards]
 	[
 		{
-			"name": "CA06 Pendant of Bright Futures",
+			"name": "Pendant of Bright Futures",
 			"rarity": "common",
 			"mana_cost": "{4}",
 			"type": "Artifact",
-			"collector_number": "243",
+			"collector_number": "245",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/243_CA06 Pendant of Bright Futures.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/245_Pendant of Bright Futures.png"
 			}
 		},
 		{
-			"name": "CW01 Votive Soul",
+			"name": "Votive Soul",
 			"rarity": "common",
 			"mana_cost": "{W}",
 			"type": "Creature — Human Peasant",
-			"collector_number": "1",
+			"collector_number": "39",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/1_CW01 Votive Soul.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/39_Votive Soul.png"
 			}
 		},
 		{
-			"name": "CW02 Two Suns Fighter",
+			"name": "Two Suns Fighter",
 			"rarity": "common",
 			"mana_cost": "{1}{W}",
 			"type": "Creature — Human Warrior",
-			"collector_number": "2",
+			"collector_number": "36",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/2_CW02 Two Suns Fighter.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/36_Two Suns Fighter.png"
 			}
 		},
 		{
-			"name": "CW03 Priest of the Angel's Path",
+			"name": "Priest of the Angel's Path",
 			"rarity": "common",
 			"mana_cost": "{1}{W}",
 			"type": "Creature — Jackal Wizard Cleric",
-			"collector_number": "3",
+			"collector_number": "26",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/3_CW03 Priest of the Angel's Path.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/26_Priest of the Angel's Path.png"
 			}
 		},
 		{
-			"name": "CW05 Envoy of New Ways",
+			"name": "Envoy of New Ways",
 			"rarity": "common",
 			"mana_cost": "{2}{W}",
 			"type": "Creature — Human Druid",
-			"collector_number": "5",
+			"collector_number": "14",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/5_CW05 Envoy of New Ways.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/14_Envoy of New Ways.png"
 			}
 		},
 		{
-			"name": "CW04 Conflicted Angel",
+			"name": "Conflicted Angel",
 			"rarity": "common",
 			"mana_cost": "{1}{W}",
 			"type": "Creature — Angel Warrior",
-			"collector_number": "4",
+			"collector_number": "8",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/4_CW04 Conflicted Angel.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/8_Conflicted Angel.png"
 			}
 		},
 		{
-			"name": "CW06 Coordinated Infantry",
+			"name": "Coordinated Infantry",
 			"rarity": "common",
 			"mana_cost": "{2}{W}",
 			"type": "Creature — Human Warrior Soldier",
-			"collector_number": "6",
+			"collector_number": "10",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/6_CW06 Coordinated Infantry.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/10_Coordinated Infantry.png"
 			}
 		},
 		{
-			"name": "CW07 Cruel Adjudicator",
+			"name": "Cruel Adjudicator",
 			"rarity": "common",
 			"mana_cost": "{2}{W}",
 			"type": "Creature — Bird Advisor Soldier",
-			"collector_number": "7",
+			"collector_number": "11",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/7_CW07 Cruel Adjudicator.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/11_Cruel Adjudicator.png"
 			}
 		},
 		{
-			"name": "CW08 Phalanx Commander",
+			"name": "Phalanx Commander",
 			"rarity": "common",
 			"mana_cost": "{2}{W}{W}",
 			"type": "Creature — Human Warrior",
-			"collector_number": "8",
+			"collector_number": "25",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/8_CW08 Phalanx Commander.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/25_Phalanx Commander.png"
 			}
 		},
 		{
-			"name": "CW09 Broken Lands Monitor",
+			"name": "Broken Lands Monitor",
 			"rarity": "common",
 			"mana_cost": "{3}{W}",
 			"type": "Creature — Angel",
-			"collector_number": "9",
+			"collector_number": "5",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/9_CW09 Broken Lands Monitor.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/5_Broken Lands Monitor.png"
 			}
 		},
 		{
-			"name": "CW10 Blessed Revivalist",
+			"name": "Blessed Revivalist",
 			"rarity": "common",
 			"mana_cost": "{3}{W}{W}",
 			"type": "Creature — Jackal Warlock",
-			"collector_number": "10",
+			"collector_number": "4",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/10_CW10 Blessed Revivalist.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/4_Blessed Revivalist.png"
 			}
 		},
 		{
-			"name": "CW11 Mindless Servant",
+			"name": "Mindless Servant",
 			"rarity": "common",
 			"mana_cost": "{4}{W}{W}",
 			"type": "Creature — Golem",
-			"collector_number": "11",
+			"collector_number": "24",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/11_CW11 Mindless Servant.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/24_Mindless Servant.png"
 			}
 		},
 		{
-			"name": "CW12 Swift Response",
+			"name": "Swift Response",
 			"rarity": "common",
 			"mana_cost": "{1}{W}",
 			"type": "Instant",
-			"collector_number": "12",
+			"collector_number": "34",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/12_CW12 Swift Response.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/34_Swift Response.png"
 			}
 		},
 		{
-			"name": "CW13 Deity's Presence",
+			"name": "Deity's Presence",
 			"rarity": "common",
 			"mana_cost": "{2}{W}",
 			"type": "Enchantment",
-			"collector_number": "13",
+			"collector_number": "12",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/13_CW13 Deity's Presence.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/12_Deity's Presence.png"
 			}
 		},
 		{
-			"name": "CW14 Ready Bows",
+			"name": "Ready Bows",
 			"rarity": "common",
 			"mana_cost": "{W}",
 			"type": "Instant",
-			"collector_number": "14",
+			"collector_number": "29",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/14_CW14 Ready Bows.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/29_Ready Bows.png"
 			}
 		},
 		{
-			"name": "CW15 Room",
+			"name": "Room",
 			"rarity": "common",
 			"mana_cost": "{1}{W}",
 			"type": "Instant",
-			"collector_number": "15",
+			"collector_number": "31",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/15_CW15 Room.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/31_Room.png"
 			}
 		},
 		{
-			"name": "CW16 Feeding Time",
+			"name": "Feeding Time",
 			"rarity": "common",
 			"mana_cost": "{3}{W}",
 			"type": "Sorcery",
 			"collector_number": "16",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/16_CW16 Feeding Time.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/16_Feeding Time.png"
 			}
 		},
 		{
-			"name": "UW11 Maathep's Interdiction",
+			"name": "Maathep's Interdiction",
 			"rarity": "uncommon",
 			"mana_cost": "{W}",
 			"type": "Instant",
-			"collector_number": "36",
+			"collector_number": "21",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/36_UW11 Maathep's Interdiction.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/21_Maathep's Interdiction.png"
 			}
 		},
 		{
-			"name": "UW12 Hazoret's Blessing",
+			"name": "Hazoret's Blessing",
 			"rarity": "uncommon",
 			"mana_cost": "{1}{W}",
 			"type": "Enchantment — Aura",
-			"collector_number": "37",
+			"collector_number": "18",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/37_UW12 Hazoret's Blessing.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/18_Hazoret's Blessing.png"
 			}
 		},
 		{
-			"name": "UW13 Last Dignity",
+			"name": "Last Dignity",
 			"rarity": "uncommon",
 			"mana_cost": "{2}{W}",
-			"type": "Sorcery",
-			"collector_number": "38",
+			"type": "Instant",
+			"collector_number": "20",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/38_UW13 Last Dignity.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/20_Last Dignity.png"
 			}
 		},
 		{
-			"name": "CU01 Soul Administrator",
+			"name": "Soul Administrator",
 			"rarity": "common",
 			"mana_cost": "{1}{U}",
 			"type": "Creature — Zombie Jackal Advisor",
-			"collector_number": "40",
+			"collector_number": "68",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/40_CU01 Soul Administrator.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/68_Soul Administrator.png"
 			}
 		},
 		{
-			"name": "CU02 Aven Theorist",
+			"name": "Aven Theorist",
 			"rarity": "common",
 			"mana_cost": "{1}{U}",
 			"type": "Creature — Bird Wizard",
-			"collector_number": "41",
+			"collector_number": "42",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/41_CU02 Aven Theorist.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/42_Aven Theorist.png"
 			}
 		},
 		{
-			"name": "CU03 Dedicated Scribe",
+			"name": "Dedicated Scribe",
 			"rarity": "common",
 			"mana_cost": "{1}{U}{U}",
 			"type": "Creature — Human Advisor",
-			"collector_number": "42",
+			"collector_number": "43",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/42_CU03 Dedicated Scribe.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/43_Dedicated Scribe.png"
 			}
 		},
 		{
-			"name": "CU04 Seshen Pollinators",
+			"name": "Seshen Pollinators",
 			"rarity": "common",
 			"mana_cost": "{2}{U}",
 			"type": "Creature — Insect",
-			"collector_number": "43",
+			"collector_number": "65",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/43_CU04 Seshen Pollinators.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/65_Seshen Pollinators.png"
 			}
 		},
 		{
-			"name": "CU05 Zenith Hunter",
+			"name": "Zenith Hunter",
 			"rarity": "common",
 			"mana_cost": "{2}{U}",
 			"type": "Creature — Jackal Wizard",
-			"collector_number": "44",
+			"collector_number": "78",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/44_CU05 Zenith Hunter.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/78_Zenith Hunter.png"
 			}
 		},
 		{
-			"name": "CU06 Frozen Sands Cadre",
+			"name": "Frozen Sands Cadre",
 			"rarity": "common",
 			"mana_cost": "{3}{U}",
 			"type": "Creature — Zombie Soldier",
-			"collector_number": "45",
+			"collector_number": "47",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/45_CU06 Frozen Sands Cadre.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/47_Frozen Sands Cadre.png"
 			}
 		},
 		{
-			"name": "CU07 Vindictive Sphinx",
+			"name": "Vindictive Sphinx",
 			"rarity": "common",
 			"mana_cost": "{3}{U}{U}",
 			"type": "Creature — Sphinx Warlock",
-			"collector_number": "46",
+			"collector_number": "75",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/46_CU07 Vindictive Sphinx.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/75_Vindictive Sphinx.png"
 			}
 		},
 		{
-			"name": "CU08 Avatar of Sab-Sunen",
+			"name": "Avatar of Sab-Sunen",
 			"rarity": "common",
 			"mana_cost": "{4}{U}{U}",
 			"type": "Creature — Frog Avatar",
-			"collector_number": "47",
+			"collector_number": "41",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/47_CU08 Avatar of Sab-Sunen.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/41_Avatar of Sab-Sunen.png"
 			}
 		},
 		{
-			"name": "CU09 Nose",
+			"name": "Nose",
 			"rarity": "common",
 			"mana_cost": "{U}",
 			"type": "Instant",
-			"collector_number": "48",
+			"collector_number": "58",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/48_CU09 Nose.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/58_Nose.png"
 			}
 		},
 		{
-			"name": "CU10 Nullification Chant",
+			"name": "Nullification Chant",
 			"rarity": "common",
 			"mana_cost": "{1}{U}{U}",
 			"type": "Instant",
-			"collector_number": "49",
+			"collector_number": "60",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/49_CU10 Nullification Chant.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/60_Nullification Chant.png"
 			}
 		},
 		{
-			"name": "CU11 Listen",
+			"name": "Listen",
 			"rarity": "common",
 			"mana_cost": "{1}{U}",
-			"type": "Sorcery",
-			"collector_number": "50",
-			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/50_CU11 Listen.png"
-			}
-		},
-		{
-			"name": "CU12 Meditative Wisdom",
-			"rarity": "common",
-			"mana_cost": "{3}{U}",
 			"type": "Sorcery",
 			"collector_number": "51",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/51_CU12 Meditative Wisdom.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/51_Listen.png"
 			}
 		},
 		{
-			"name": "CU13 Turned to Stone",
+			"name": "Meditative Wisdom",
+			"rarity": "common",
+			"mana_cost": "{3}{U}",
+			"type": "Sorcery",
+			"collector_number": "55",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/ASM-files/img/55_Meditative Wisdom.png"
+			}
+		},
+		{
+			"name": "Turned to Stone",
 			"rarity": "common",
 			"mana_cost": "{2}{U}",
 			"type": "Enchantment — Aura",
-			"collector_number": "52",
+			"collector_number": "71",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/52_CU13 Turned to Stone.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/71_Turned to Stone.png"
 			}
 		},
 		{
-			"name": "CU14 Second",
+			"name": "Second",
 			"rarity": "common",
 			"mana_cost": "{3}{U}",
 			"type": "Instant",
-			"collector_number": "53",
+			"collector_number": "64",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/53_CU14 Second.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/64_Second.png"
 			}
 		},
 		{
-			"name": "CU15 Tough",
+			"name": "Tough",
 			"rarity": "common",
 			"mana_cost": "{2}{U}",
 			"type": "Instant",
-			"collector_number": "54",
+			"collector_number": "69",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/54_CU15 Tough.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/69_Tough.png"
 			}
 		},
 		{
-			"name": "CU16 Sailskiff",
+			"name": "Sailskiff",
 			"rarity": "common",
 			"mana_cost": "{1}{U}",
 			"type": "Artifact",
-			"collector_number": "55",
+			"collector_number": "63",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/55_CU16 Sailskiff.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/63_Sailskiff.png"
 			}
 		},
 		{
-			"name": "UU11 Note",
+			"name": "Note",
 			"rarity": "uncommon",
 			"mana_cost": "{1}{U}",
 			"type": "Instant",
-			"collector_number": "75",
+			"collector_number": "59",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/75_UU11 Note.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/59_Note.png"
 			}
 		},
 		{
-			"name": "UU12 Unsorted Scrolls",
+			"name": "Unsorted Scrolls",
 			"rarity": "uncommon",
 			"mana_cost": "{U}",
 			"type": "Artifact",
-			"collector_number": "76",
+			"collector_number": "72",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/76_UU12 Unsorted Scrolls.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/72_Unsorted Scrolls.png"
 			}
 		},
 		{
-			"name": "UU13 The Wisdom of Unity",
+			"name": "The Wisdom of Unity",
 			"rarity": "uncommon",
 			"mana_cost": "{2}{U}",
 			"type": "Enchantment",
-			"collector_number": "77",
+			"collector_number": "76",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/77_UU13 The Wisdom of Unity.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/76_The Wisdom of Unity.png"
 			}
 		},
 		{
-			"name": "CB01 Serrated Scorpion",
+			"name": "Serrated Scorpion",
 			"rarity": "common",
 			"mana_cost": "{B}",
 			"type": "Creature — Scorpion",
-			"collector_number": "79",
+			"collector_number": "111",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/79_CB01 Serrated Scorpion.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/111_Serrated Scorpion.png"
 			}
 		},
 		{
-			"name": "CB02 Fleshform Serket",
+			"name": "Fleshform Serket",
 			"rarity": "common",
 			"mana_cost": "{1}{B}",
 			"type": "Creature — Zombie Horror Insect",
-			"collector_number": "80",
+			"collector_number": "91",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/80_CB02 Fleshform Serket.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/91_Fleshform Serket.png"
 			}
 		},
 		{
-			"name": "CB03 Sentimental Thug",
+			"name": "Sentimental Thug",
 			"rarity": "common",
 			"mana_cost": "{1}{B}",
 			"type": "Creature — Jackal Warrior Rogue",
-			"collector_number": "81",
+			"collector_number": "110",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/81_CB03 Sentimental Thug.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/110_Sentimental Thug.png"
 			}
 		},
 		{
-			"name": "CB04 Canopic Harvester",
+			"name": "Canopic Harvester",
 			"rarity": "common",
 			"mana_cost": "{1}{B}{B}",
 			"type": "Creature — Human Warlock",
-			"collector_number": "82",
+			"collector_number": "83",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/82_CB04 Canopic Harvester.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/83_Canopic Harvester.png"
 			}
 		},
 		{
-			"name": "CB05 Carcass Collector",
+			"name": "Carcass Collector",
 			"rarity": "common",
 			"mana_cost": "{2}{B}",
 			"type": "Creature — Bird Demon Zombie",
-			"collector_number": "83",
+			"collector_number": "84",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/83_CB05 Carcass Collector.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/84_Carcass Collector.png"
 			}
 		},
 		{
-			"name": "CB06 Ferocious Cobra",
+			"name": "Ferocious Cobra",
 			"rarity": "common",
 			"mana_cost": "{3}{B}",
 			"type": "Creature — Snake Horror",
-			"collector_number": "84",
+			"collector_number": "90",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/84_CB06 Ferocious Cobra.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/90_Ferocious Cobra.png"
 			}
 		},
 		{
-			"name": "CB07 Ifnir Farseer",
+			"name": "Ifnir Farseer",
 			"rarity": "common",
 			"mana_cost": "{3}{B}{B}",
 			"type": "Creature — Demon Wizard",
-			"collector_number": "85",
+			"collector_number": "93",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/85_CB07 Ifnir Farseer.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/93_Ifnir Farseer.png"
 			}
 		},
 		{
-			"name": "CB08 Returned Master",
+			"name": "Returned Master",
 			"rarity": "common",
 			"mana_cost": "{4}{B}{B}",
 			"type": "Creature — Zombie Giant",
-			"collector_number": "86",
+			"collector_number": "105",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/86_CB08 Returned Master.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/105_Returned Master.png"
 			}
 		},
 		{
-			"name": "CB09 Burial Chamber Guardian",
+			"name": "Burial Chamber Guardian",
 			"rarity": "common",
 			"mana_cost": "{5}{B}{B}",
 			"type": "Creature — Zombie Golem",
-			"collector_number": "87",
+			"collector_number": "81",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/87_CB09 Burial Chamber Guardian.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/81_Burial Chamber Guardian.png"
 			}
 		},
 		{
-			"name": "CB10 Remains",
+			"name": "Remains",
 			"rarity": "common",
 			"mana_cost": "{3}{B}",
 			"type": "Sorcery",
-			"collector_number": "88",
+			"collector_number": "104",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/88_CB10 Remains.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/104_Remains.png"
 			}
 		},
 		{
-			"name": "CB11 Mantle of Shards",
+			"name": "Mantle of Shards",
 			"rarity": "common",
 			"mana_cost": "{1}{B}",
 			"type": "Instant",
-			"collector_number": "89",
+			"collector_number": "97",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/89_CB11 Mantle of Shards.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/97_Mantle of Shards.png"
 			}
 		},
 		{
-			"name": "CB12 Selling Lives",
+			"name": "Selling Lives",
 			"rarity": "common",
 			"mana_cost": "{B}",
 			"type": "Instant",
-			"collector_number": "90",
+			"collector_number": "109",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/90_CB12 Selling Lives.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/109_Selling Lives.png"
 			}
 		},
 		{
-			"name": "CB13 Moment of Weakness",
+			"name": "Moment of Weakness",
 			"rarity": "common",
 			"mana_cost": "{3}{B}",
 			"type": "Sorcery",
-			"collector_number": "91",
+			"collector_number": "101",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/91_CB13 Moment of Weakness.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/101_Moment of Weakness.png"
 			}
 		},
 		{
-			"name": "CB15 Disintegrating Wrappings",
+			"name": "Disintegrating Wrappings",
 			"rarity": "common",
 			"mana_cost": "{1}{B}{B}",
 			"type": "Sorcery",
-			"collector_number": "93",
+			"collector_number": "86",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/93_CB15 Disintegrating Wrappings.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/86_Disintegrating Wrappings.png"
 			}
 		},
 		{
-			"name": "CB16 Spinal Diviner",
+			"name": "Spinal Diviner",
 			"rarity": "common",
 			"mana_cost": "{B}",
 			"type": "Artifact",
-			"collector_number": "94",
+			"collector_number": "113",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/94_CB16 Spinal Diviner.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/113_Spinal Diviner.png"
 			}
 		},
 		{
-			"name": "UB12 Betrayal of Secrets",
+			"name": "Betrayal of Secrets",
 			"rarity": "uncommon",
 			"mana_cost": "{1}{B}",
 			"type": "Sorcery",
-			"collector_number": "115",
+			"collector_number": "80",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/115_UB12 Betrayal of Secrets.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/80_Betrayal of Secrets.png"
 			}
 		},
 		{
-			"name": "UB13 Scarab Armor",
+			"name": "Scarab Armor",
 			"rarity": "uncommon",
 			"mana_cost": "{2}{B}",
 			"type": "Artifact — Equipment",
-			"collector_number": "116",
+			"collector_number": "107",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/116_UB13 Scarab Armor.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/107_Scarab Armor.png"
 			}
 		},
 		{
-			"name": "UB15 Word",
+			"name": "Word",
 			"rarity": "uncommon",
 			"mana_cost": "{1}{B}",
 			"type": "Sorcery",
 			"collector_number": "118",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/118_UB15 Word.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/118_Word.png"
 			}
 		},
 		{
-			"name": "CR01 Rage-cursed Returned",
+			"name": "Rage-cursed Returned",
 			"rarity": "common",
 			"mana_cost": "{R}",
 			"type": "Creature — Zombie Jackal Warrior",
-			"collector_number": "119",
+			"collector_number": "144",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/119_CR01 Rage-cursed Returned.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/144_Rage-cursed Returned.png"
 			}
 		},
 		{
-			"name": "CR02 Frontier Messenger",
+			"name": "Frontier Messenger",
 			"rarity": "common",
 			"mana_cost": "{1}{R}",
 			"type": "Creature — Jackal Scout",
-			"collector_number": "120",
+			"collector_number": "130",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/120_CR02 Frontier Messenger.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/130_Frontier Messenger.png"
 			}
 		},
 		{
-			"name": "CR03 Maahestet Champion",
+			"name": "Maahestet Champion",
 			"rarity": "common",
 			"mana_cost": "{1}{R}",
 			"type": "Creature — Cat Warrior",
-			"collector_number": "121",
+			"collector_number": "142",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/121_CR03 Maahestet Champion.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/142_Maahestet Champion.png"
 			}
 		},
 		{
-			"name": "CR04 Shadowseller",
+			"name": "Shadowseller",
 			"rarity": "common",
 			"mana_cost": "{2}{R}",
 			"type": "Creature — Human Demon",
-			"collector_number": "122",
+			"collector_number": "150",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/122_CR04 Shadowseller.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/150_Shadowseller.png"
 			}
 		},
 		{
-			"name": "CR05 Bloodsand Lich",
+			"name": "Bloodsand Lich",
 			"rarity": "common",
 			"mana_cost": "{2}{R}",
 			"type": "Creature — Zombie Spirit Warlock",
-			"collector_number": "123",
+			"collector_number": "124",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/123_CR05 Bloodsand Lich.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/124_Bloodsand Lich.png"
 			}
 		},
 		{
-			"name": "CR06 Role Model Sergeant",
+			"name": "Role Model Sergeant",
 			"rarity": "common",
 			"mana_cost": "{3}{R}",
 			"type": "Creature — Human Soldier Warrior",
-			"collector_number": "124",
+			"collector_number": "148",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/124_CR06 Role Model Sergeant.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/148_Role Model Sergeant.png"
 			}
 		},
 		{
-			"name": "CR07 Ka-Blade Champion",
+			"name": "Ka-Blade Champion",
 			"rarity": "common",
 			"mana_cost": "{3}{R}{R}",
 			"type": "Creature — Minotaur Warrior",
-			"collector_number": "125",
+			"collector_number": "137",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/125_CR07 Ka-Blade Champion.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/137_Ka-Blade Champion.png"
 			}
 		},
 		{
-			"name": "CR08 Avenging Minotaur",
+			"name": "Avenging Minotaur",
 			"rarity": "common",
 			"mana_cost": "{4}{R}",
 			"type": "Creature — Minotaur Barbarian",
-			"collector_number": "126",
+			"collector_number": "122",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/126_CR08 Avenging Minotaur.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/122_Avenging Minotaur.png"
 			}
 		},
 		{
-			"name": "CR09 Starving Sandwurm",
+			"name": "Starving Sandwurm",
 			"rarity": "common",
 			"mana_cost": "{4}{R}{R}",
 			"type": "Creature — Wurm",
-			"collector_number": "127",
+			"collector_number": "152",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/127_CR09 Starving Sandwurm.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/152_Starving Sandwurm.png"
 			}
 		},
 		{
-			"name": "CR10 Pay",
+			"name": "Pay",
 			"rarity": "common",
 			"mana_cost": "{1}{R}",
 			"type": "Instant",
-			"collector_number": "128",
+			"collector_number": "143",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/128_CR10 Pay.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/143_Pay.png"
 			}
 		},
 		{
-			"name": "CR11 Stirred",
+			"name": "Stirred",
 			"rarity": "common",
 			"mana_cost": "{R}",
 			"type": "Instant",
-			"collector_number": "129",
+			"collector_number": "154",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/129_CR11 Stirred.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/154_Stirred.png"
 			}
 		},
 		{
-			"name": "CR12 Stealing the Beacon",
+			"name": "Stealing the Beacon",
 			"rarity": "common",
 			"mana_cost": "{2}{R}",
 			"type": "Sorcery",
-			"collector_number": "130",
+			"collector_number": "153",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/130_CR12 Stealing the Beacon.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/153_Stealing the Beacon.png"
 			}
 		},
 		{
-			"name": "CR13 Abrade",
+			"name": "Abrade",
 			"rarity": "common",
 			"mana_cost": "{1}{R}",
 			"type": "Instant",
-			"collector_number": "131",
+			"collector_number": "119",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/131_CR13 Abrade.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/119_Abrade.png"
 			}
 		},
 		{
-			"name": "CR14 Hot",
+			"name": "Hot",
 			"rarity": "common",
 			"mana_cost": "{2}{R}",
 			"type": "Sorcery",
-			"collector_number": "132",
+			"collector_number": "134",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/132_CR14 Hot.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/134_Hot.png"
 			}
 		},
 		{
-			"name": "CR15 Holy Pyre",
+			"name": "Holy Pyre",
 			"rarity": "common",
 			"mana_cost": "{3}{R}{R}",
 			"type": "Sorcery",
 			"collector_number": "133",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/133_CR15 Holy Pyre.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/133_Holy Pyre.png"
 			}
 		},
 		{
-			"name": "CR16 Helm of Hazoret",
+			"name": "Helm of Hazoret",
 			"rarity": "common",
 			"mana_cost": "{R}",
 			"type": "Artifact",
-			"collector_number": "134",
+			"collector_number": "131",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/134_CR16 Helm of Hazoret.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/131_Helm of Hazoret.png"
 			}
 		},
 		{
-			"name": "UR12 Read the Forbidden Scrolls",
+			"name": "Read the Forbidden Scrolls",
 			"rarity": "uncommon",
 			"mana_cost": "{2}{R}",
 			"type": "Sorcery",
-			"collector_number": "155",
+			"collector_number": "145",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/155_UR12 Read the Forbidden Scrolls.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/145_Read the Forbidden Scrolls.png"
 			}
 		},
 		{
-			"name": "UR14 Time",
+			"name": "Time",
 			"rarity": "uncommon",
 			"mana_cost": "{3}{R}",
-			"type": "Sorcery",
-			"collector_number": "157",
-			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/157_UR14 Time.png"
-			}
-		},
-		{
-			"name": "UR13 Bite",
-			"rarity": "uncommon",
-			"mana_cost": "{2}{R}",
 			"type": "Sorcery",
 			"collector_number": "156",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/156_UR13 Bite.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/156_Time.png"
 			}
 		},
 		{
-			"name": "CG01 Apepisw Gate",
+			"name": "Bite",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Sorcery",
+			"collector_number": "123",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/ASM-files/img/123_Bite.png"
+			}
+		},
+		{
+			"name": "Apepisw Gate",
 			"rarity": "common",
 			"mana_cost": "{G}",
 			"type": "Creature — Wall",
-			"collector_number": "159",
+			"collector_number": "160",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/159_CG01 Apepisw Gate.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/160_Apepisw Gate.png"
 			}
 		},
 		{
-			"name": "CG02 Oashra Vitalist",
+			"name": "Oashra Vitalist",
 			"rarity": "common",
 			"mana_cost": "{1}{G}",
 			"type": "Creature — Naga Druid",
-			"collector_number": "160",
+			"collector_number": "188",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/160_CG02 Oashra Vitalist.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/188_Oashra Vitalist.png"
 			}
 		},
 		{
-			"name": "CG03 Exploring Couple",
+			"name": "Exploring Couple",
 			"rarity": "common",
 			"mana_cost": "{1}{G}",
 			"type": "Creature — Human Citizen",
-			"collector_number": "161",
+			"collector_number": "171",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/161_CG03 Exploring Couple.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/171_Exploring Couple.png"
 			}
 		},
 		{
-			"name": "CG04 Giant Ibis",
+			"name": "Giant Ibis",
 			"rarity": "common",
 			"mana_cost": "{2}{G}",
 			"type": "Creature — Bird",
-			"collector_number": "162",
+			"collector_number": "175",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/162_CG04 Giant Ibis.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/175_Giant Ibis.png"
 			}
 		},
 		{
-			"name": "CG05 Instructor Huntress",
+			"name": "Instructor Huntress",
 			"rarity": "common",
 			"mana_cost": "{2}{G}",
 			"type": "Creature — Human Warrior Ranger",
-			"collector_number": "163",
+			"collector_number": "182",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/163_CG05 Instructor Huntress.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/182_Instructor Huntress.png"
 			}
 		},
 		{
-			"name": "CG06 Boat-climber Cobra",
+			"name": "Boat-climber Cobra",
 			"rarity": "common",
 			"mana_cost": "{2}{G}{G}",
 			"type": "Creature — Snake",
-			"collector_number": "164",
+			"collector_number": "163",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/164_CG06 Boat-climber Cobra.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/163_Boat-climber Cobra.png"
 			}
 		},
 		{
-			"name": "CG07 Seeker of Lost Species",
+			"name": "Seeker of Lost Species",
 			"rarity": "common",
 			"mana_cost": "{3}{G}",
 			"type": "Creature — Human Druid Ranger",
-			"collector_number": "165",
+			"collector_number": "192",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/165_CG07 Seeker of Lost Species.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/192_Seeker of Lost Species.png"
 			}
 		},
 		{
-			"name": "CG08 Hippo Family",
+			"name": "Hippo Family",
 			"rarity": "common",
 			"mana_cost": "{4}{G}",
 			"type": "Creature — Hippo",
-			"collector_number": "166",
+			"collector_number": "178",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/166_CG08 Hippo Family.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/178_Hippo Family.png"
 			}
 		},
 		{
-			"name": "CG09 Avenging Elephant",
+			"name": "Avenging Elephant",
 			"rarity": "common",
 			"mana_cost": "{4}{G}{G}",
 			"type": "Creature — Elephant",
-			"collector_number": "167",
+			"collector_number": "162",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/167_CG09 Avenging Elephant.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/162_Avenging Elephant.png"
 			}
 		},
 		{
-			"name": "CG10 Oasis Sentinel",
+			"name": "Oasis Sentinel",
 			"rarity": "common",
 			"mana_cost": "{5}{G}{G}",
 			"type": "Creature — Frog Avatar",
-			"collector_number": "168",
+			"collector_number": "189",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/168_CG10 Oasis Sentinel.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/189_Oasis Sentinel.png"
 			}
 		},
 		{
-			"name": "CG11 Maul",
+			"name": "Maul",
 			"rarity": "common",
 			"mana_cost": "{G}",
 			"type": "Sorcery",
-			"collector_number": "169",
+			"collector_number": "185",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/169_CG11 Maul.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/185_Maul.png"
 			}
 		},
 		{
-			"name": "CG12 Hunting Party",
+			"name": "Hunting Party",
 			"rarity": "common",
 			"mana_cost": "{1}{G}",
 			"type": "Sorcery",
-			"collector_number": "170",
+			"collector_number": "180",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/170_CG12 Hunting Party.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/180_Hunting Party.png"
 			}
 		},
 		{
-			"name": "CG14 City's Founding",
+			"name": "City's Founding",
 			"rarity": "common",
 			"mana_cost": "{2}{G}",
 			"type": "Sorcery",
-			"collector_number": "172",
+			"collector_number": "164",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/172_CG14 City's Founding.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/164_City's Founding.png"
 			}
 		},
 		{
-			"name": "CG15 Night Market",
+			"name": "Night Market",
 			"rarity": "common",
 			"mana_cost": "{2}{G}",
 			"type": "Sorcery",
-			"collector_number": "173",
+			"collector_number": "187",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/173_CG15 Night Market.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/187_Night Market.png"
 			}
 		},
 		{
-			"name": "CG16 Ghrin-Danu's Servitors",
+			"name": "Ghrin-Danu's Servitors",
 			"rarity": "common",
 			"mana_cost": "{3}{G}",
 			"type": "Sorcery",
-			"collector_number": "174",
+			"collector_number": "173",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/174_CG16 Ghrin-Danu's Servitors.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/173_Ghrin-Danu's Servitors.png"
 			}
 		},
 		{
-			"name": "UG13 Cover-Up",
+			"name": "Cover-Up",
 			"rarity": "uncommon",
 			"mana_cost": "{2}{G}",
 			"type": "Instant",
-			"collector_number": "196",
+			"collector_number": "166",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/196_UG13 Cover-Up.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/166_Cover-Up.png"
 			}
 		},
 		{
-			"name": "UG12 Close",
+			"name": "Close",
 			"rarity": "uncommon",
 			"mana_cost": "{G}",
 			"type": "Sorcery",
-			"collector_number": "195",
+			"collector_number": "165",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/195_UG12 Close.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/165_Close.png"
 			}
 		},
 		{
-			"name": "UG11 Stumble Upon Sanctuary",
+			"name": "Stumble Upon Sanctuary",
 			"rarity": "uncommon",
 			"mana_cost": "{2}{G}{G}",
 			"type": "Sorcery",
-			"collector_number": "194",
+			"collector_number": "193",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/194_UG11 Stumble Upon Sanctuary.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/193_Stumble Upon Sanctuary.png"
 			}
 		},
 		{
-			"name": "UW01 Scion of Hazoret",
+			"name": "Scion of Hazoret",
 			"rarity": "uncommon",
 			"mana_cost": "{W}",
 			"type": "Creature — Human Cleric Warrior",
-			"collector_number": "26",
+			"collector_number": "32",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/26_UW01 Scion of Hazoret.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/32_Scion of Hazoret.png"
 			}
 		},
 		{
-			"name": "UW02 Herald of the Lost",
+			"name": "Herald of the Lost",
 			"rarity": "uncommon",
 			"mana_cost": "{1}{W}",
 			"type": "Creature — Jackal Warrior Scout",
-			"collector_number": "27",
+			"collector_number": "19",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/27_UW02 Herald of the Lost.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/19_Herald of the Lost.png"
 			}
 		},
 		{
-			"name": "UW03 Arena Champion",
+			"name": "Arena Champion",
 			"rarity": "uncommon",
 			"mana_cost": "{1}{W}",
 			"type": "Creature — Bird Warrior",
-			"collector_number": "28",
+			"collector_number": "2",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/28_UW03 Arena Champion.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/2_Arena Champion.png"
 			}
 		},
 		{
-			"name": "UW04 Priestess of Sanctity",
+			"name": "Priestess of Sanctity",
 			"rarity": "uncommon",
 			"mana_cost": "{2}{W}",
 			"type": "Creature — Human Cleric",
-			"collector_number": "29",
+			"collector_number": "27",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/29_UW04 Priestess of Sanctity.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/27_Priestess of Sanctity.png"
 			}
 		},
 		{
-			"name": "UW05 Vessel of Purity",
+			"name": "Vessel of Purity",
 			"rarity": "uncommon",
 			"mana_cost": "{1}{W}{W}",
 			"type": "Creature — Human Cleric",
-			"collector_number": "30",
+			"collector_number": "38",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/30_UW05 Vessel of Purity.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/38_Vessel of Purity.png"
 			}
 		},
 		{
-			"name": "UW06 Callous Charioteer",
+			"name": "Callous Charioteer",
 			"rarity": "uncommon",
 			"mana_cost": "{2}{W}",
 			"type": "Creature — Human Warrior",
-			"collector_number": "31",
+			"collector_number": "6",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/31_UW06 Callous Charioteer.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/6_Callous Charioteer.png"
 			}
 		},
 		{
-			"name": "UW07 Razemaster",
+			"name": "Razemaster",
 			"rarity": "uncommon",
 			"mana_cost": "{3}{W}",
 			"type": "Creature — Jackal Warlock",
-			"collector_number": "32",
+			"collector_number": "28",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/32_UW07 Razemaster.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/28_Razemaster.png"
 			}
 		},
 		{
-			"name": "UW08 Angel of Obeisance",
+			"name": "Angel of Obeisance",
 			"rarity": "uncommon",
 			"mana_cost": "{3}{W}{W}",
 			"type": "Creature — Angel",
-			"collector_number": "33",
+			"collector_number": "1",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/33_UW08 Angel of Obeisance.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/1_Angel of Obeisance.png"
 			}
 		},
 		{
-			"name": "UW09 Makheru, Voice of Truth",
+			"name": "Makheru, Voice of Truth",
 			"rarity": "uncommon",
 			"mana_cost": "{4}{W}{W}",
 			"type": "Legendary Creature — Angel",
-			"collector_number": "34",
+			"collector_number": "22",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/34_UW09 Makheru, Voice of Truth.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/22_Makheru, Voice of Truth.png"
 			}
 		},
 		{
-			"name": "UW10 Megalithic Guardian",
+			"name": "Megalithic Guardian",
 			"rarity": "uncommon",
 			"mana_cost": "{5}{W}{W}",
 			"type": "Creature — Elemental Sphinx",
-			"collector_number": "35",
+			"collector_number": "23",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/35_UW10 Megalithic Guardian.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/23_Megalithic Guardian.png"
 			}
 		},
 		{
-			"name": "UU01 Drakerider Spellweaver",
+			"name": "Drakerider Spellweaver",
 			"rarity": "uncommon",
 			"mana_cost": "{1}{U}",
 			"type": "Creature — Human Wizard",
-			"collector_number": "65",
+			"collector_number": "45",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/65_UU01 Drakerider Spellweaver.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/45_Drakerider Spellweaver.png"
 			}
 		},
 		{
-			"name": "UU02 Keeper of Blessed Waters",
+			"name": "Keeper of Blessed Waters",
 			"rarity": "uncommon",
 			"mana_cost": "{1}{U}",
 			"type": "Creature — Human Cleric",
-			"collector_number": "66",
+			"collector_number": "50",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/66_UU02 Keeper of Blessed Waters.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/50_Keeper of Blessed Waters.png"
 			}
 		},
 		{
-			"name": "UU03 Afu, Chosen of the Scarab",
+			"name": "Afu, Chosen of the Scarab",
 			"rarity": "uncommon",
 			"mana_cost": "{2}{U}",
 			"type": "Legendary Creature — Zombie Jackal Cleric",
-			"collector_number": "67",
+			"collector_number": "40",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/67_UU03 Afu, Chosen of the Scarab.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/40_Afu, Chosen of the Scarab.png"
 			}
 		},
 		{
-			"name": "UU04 Vigilant Obstructionist",
+			"name": "Vigilant Obstructionist",
 			"rarity": "uncommon",
 			"mana_cost": "{2}{U}",
 			"type": "Creature — Human Wizard",
-			"collector_number": "68",
+			"collector_number": "74",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/68_UU04 Vigilant Obstructionist.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/74_Vigilant Obstructionist.png"
 			}
 		},
 		{
-			"name": "UU05 Vessel of Genius",
+			"name": "Vessel of Genius",
 			"rarity": "uncommon",
 			"mana_cost": "{2}{U}{U}",
 			"type": "Creature — Human Wizard Cleric",
-			"collector_number": "69",
+			"collector_number": "73",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/69_UU05 Vessel of Genius.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/73_Vessel of Genius.png"
 			}
 		},
 		{
-			"name": "UU06 Pillar-Leaper Sphinx",
+			"name": "Pillar-Leaper Sphinx",
 			"rarity": "uncommon",
 			"mana_cost": "{2}{U}{U}",
 			"type": "Creature — Sphinx",
-			"collector_number": "70",
+			"collector_number": "61",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/70_UU06 Pillar-Leaper Sphinx.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/61_Pillar-Leaper Sphinx.png"
 			}
 		},
 		{
-			"name": "UU07 Track Guardian",
+			"name": "Track Guardian",
 			"rarity": "uncommon",
 			"mana_cost": "{3}{U}{U}",
 			"type": "Creature — Snake Warlock Archer",
-			"collector_number": "71",
+			"collector_number": "70",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/71_UU07 Track Guardian.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/70_Track Guardian.png"
 			}
 		},
 		{
-			"name": "UU08 Yours",
+			"name": "Yours",
 			"rarity": "uncommon",
 			"mana_cost": "{1}{U}",
 			"type": "Instant",
-			"collector_number": "72",
+			"collector_number": "77",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/72_UU08 Yours.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/77_Yours.png"
 			}
 		},
 		{
-			"name": "UU09 Lofty Response",
+			"name": "Lofty Response",
 			"rarity": "uncommon",
 			"mana_cost": "{2}{U}",
 			"type": "Instant",
-			"collector_number": "73",
+			"collector_number": "52",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/73_UU09 Lofty Response.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/52_Lofty Response.png"
 			}
 		},
 		{
-			"name": "UU10 Mastery of Tumbling Sands",
+			"name": "Mastery of Tumbling Sands",
 			"rarity": "uncommon",
 			"mana_cost": "{2}{U}",
 			"type": "Enchantment",
-			"collector_number": "74",
+			"collector_number": "54",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/74_UU10 Mastery of Tumbling Sands.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/54_Mastery of Tumbling Sands.png"
 			}
 		},
 		{
-			"name": "UB01 Eternal Fighters",
+			"name": "Eternal Fighters",
 			"rarity": "uncommon",
 			"mana_cost": "{B}",
 			"type": "Creature — Zombie Warrior",
-			"collector_number": "104",
+			"collector_number": "88",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/104_UB01 Eternal Fighters.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/88_Eternal Fighters.png"
 			}
 		},
 		{
-			"name": "UB02 Scion of Emptiness",
+			"name": "Scion of Emptiness",
 			"rarity": "uncommon",
 			"mana_cost": "{1}{B}",
 			"type": "Creature — Snake Mutant Warlock",
-			"collector_number": "105",
+			"collector_number": "108",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/105_UB02 Scion of Emptiness.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/108_Scion of Emptiness.png"
 			}
 		},
 		{
-			"name": "UB03 Obssessed Falconer",
+			"name": "Obssessed Falconer",
 			"rarity": "uncommon",
 			"mana_cost": "{1}{B}",
 			"type": "Creature — Human Noble",
-			"collector_number": "106",
+			"collector_number": "102",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/106_UB03 Obssessed Falconer.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/102_Obssessed Falconer.png"
 			}
 		},
 		{
-			"name": "UB04 Vessel of Darkness",
+			"name": "Vessel of Darkness",
 			"rarity": "uncommon",
 			"mana_cost": "{1}{B}{B}",
 			"type": "Creature — Human Cleric",
-			"collector_number": "107",
+			"collector_number": "114",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/107_UB04 Vessel of Darkness.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/114_Vessel of Darkness.png"
 			}
 		},
 		{
-			"name": "UB06 Omnivorous Exhumer",
+			"name": "Omnivorous Exhumer",
 			"rarity": "uncommon",
 			"mana_cost": "{4}{B}",
 			"type": "Creature — Manticore",
-			"collector_number": "109",
+			"collector_number": "103",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/109_UB06 Omnivorous Exhumer.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/103_Omnivorous Exhumer.png"
 			}
 		},
 		{
-			"name": "UB07 Merciless Brawler",
+			"name": "Merciless Brawler",
 			"rarity": "uncommon",
 			"mana_cost": "{4}{B}{B}",
 			"type": "Creature — Minotaur Warrior",
-			"collector_number": "110",
+			"collector_number": "98",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/110_UB07 Merciless Brawler.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/98_Merciless Brawler.png"
 			}
 		},
 		{
-			"name": "UB09 Rise of the Doomed",
+			"name": "Rise of the Doomed",
 			"rarity": "uncommon",
 			"mana_cost": "{B}",
 			"type": "Enchantment",
-			"collector_number": "112",
+			"collector_number": "106",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/112_UB09 Rise of the Doomed.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/106_Rise of the Doomed.png"
 			}
 		},
 		{
-			"name": "UB10 Localized Disaster",
+			"name": "Localized Disaster",
 			"rarity": "uncommon",
 			"mana_cost": "{1}{B}",
 			"type": "Sorcery",
-			"collector_number": "113",
+			"collector_number": "96",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/113_UB10 Localized Disaster.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/96_Localized Disaster.png"
 			}
 		},
 		{
-			"name": "UB11 Hyena Pack Attack",
+			"name": "Hyena Pack Attack",
 			"rarity": "uncommon",
 			"mana_cost": "{B}",
 			"type": "Instant",
-			"collector_number": "114",
+			"collector_number": "92",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/114_UB11 Hyena Pack Attack.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/92_Hyena Pack Attack.png"
 			}
 		},
 		{
-			"name": "UR01 Taw-honed Fighter",
+			"name": "Taw-honed Fighter",
 			"rarity": "uncommon",
 			"mana_cost": "{R}",
 			"type": "Creature — Human Warrior",
-			"collector_number": "144",
+			"collector_number": "155",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/144_UR01 Taw-honed Fighter.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/155_Taw-honed Fighter.png"
 			}
 		},
 		{
-			"name": "UR02 Skeshed, Dancing Storm",
+			"name": "Skeshed, Dancing Storm",
 			"rarity": "uncommon",
 			"mana_cost": "{1}{R}",
 			"type": "Legendary Creature — Human Rogue Warrior",
-			"collector_number": "145",
+			"collector_number": "151",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/145_UR02 Skeshed, Dancing Storm.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/151_Skeshed, Dancing Storm.png"
 			}
 		},
 		{
-			"name": "UR03 Hermit Champion",
+			"name": "Hermit Champion",
 			"rarity": "uncommon",
 			"mana_cost": "{1}{R}",
 			"type": "Creature — Jackal Warrior",
-			"collector_number": "146",
+			"collector_number": "132",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/146_UR03 Hermit Champion.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/132_Hermit Champion.png"
 			}
 		},
 		{
-			"name": "UR04 Vessel of Wrath",
+			"name": "Vessel of Wrath",
 			"rarity": "uncommon",
 			"mana_cost": "{1}{R}{R}",
 			"type": "Creature — Jackal Cleric",
-			"collector_number": "147",
+			"collector_number": "157",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/147_UR04 Vessel of Wrath.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/157_Vessel of Wrath.png"
 			}
 		},
 		{
-			"name": "UR05 Scorchtrack Mehu",
+			"name": "Scorchtrack Mehu",
 			"rarity": "uncommon",
 			"mana_cost": "{2}{R}{R}",
 			"type": "Creature — Elemental Cat",
-			"collector_number": "148",
+			"collector_number": "149",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/148_UR05 Scorchtrack Mehu.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/149_Scorchtrack Mehu.png"
 			}
 		},
 		{
-			"name": "UR07 Wine Priestess",
+			"name": "Wine Priestess",
 			"rarity": "uncommon",
 			"mana_cost": "{3}{R}{R}",
 			"type": "Creature — Human Bard Cleric",
-			"collector_number": "150",
+			"collector_number": "158",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/150_UR07 Wine Priestess.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/158_Wine Priestess.png"
 			}
 		},
 		{
-			"name": "UR08 Corrupted Emberhorn",
+			"name": "Corrupted Emberhorn",
 			"rarity": "uncommon",
 			"mana_cost": "{4}{R}{R}",
 			"type": "Creature — Demon Minotaur",
-			"collector_number": "151",
+			"collector_number": "126",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/151_UR08 Corrupted Emberhorn.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/126_Corrupted Emberhorn.png"
 			}
 		},
 		{
-			"name": "UR09 Darkstorm Bolt",
+			"name": "Darkstorm Bolt",
 			"rarity": "uncommon",
 			"mana_cost": "{1}{R}",
 			"type": "Instant",
-			"collector_number": "152",
+			"collector_number": "127",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/152_UR09 Darkstorm Bolt.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/127_Darkstorm Bolt.png"
 			}
 		},
 		{
-			"name": "UR10 Infectious Bravado",
+			"name": "Infectious Bravado",
 			"rarity": "uncommon",
 			"mana_cost": "{2}{R}",
 			"type": "Enchantment — Aura",
-			"collector_number": "153",
+			"collector_number": "135",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/153_UR10 Infectious Bravado.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/135_Infectious Bravado.png"
 			}
 		},
 		{
-			"name": "UR11 Ready",
+			"name": "Ready",
 			"rarity": "uncommon",
 			"mana_cost": "{1}{R}",
 			"type": "Sorcery",
-			"collector_number": "154",
+			"collector_number": "146",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/154_UR11 Ready.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/146_Ready.png"
 			}
 		},
 		{
-			"name": "UG01 Eneri, Cunning Treasurer",
+			"name": "Eneri, Cunning Treasurer",
 			"rarity": "uncommon",
 			"mana_cost": "{G}",
 			"type": "Legendary Creature — Human Druid Rogue",
-			"collector_number": "184",
+			"collector_number": "170",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/184_UG01 Eneri, Cunning Treasurer.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/170_Eneri, Cunning Treasurer.png"
 			}
 		},
 		{
-			"name": "UG02 Luxa Shoremage",
+			"name": "Luxa Shoremage",
 			"rarity": "uncommon",
 			"mana_cost": "{1}{G}",
 			"type": "Creature — Human Wizard",
-			"collector_number": "185",
+			"collector_number": "184",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/185_UG02 Luxa Shoremage.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/184_Luxa Shoremage.png"
 			}
 		},
 		{
-			"name": "UG03 Giant Carrion Beetle",
+			"name": "Giant Carrion Beetle",
 			"rarity": "uncommon",
 			"mana_cost": "{1}{G}",
 			"type": "Creature — Insect",
-			"collector_number": "186",
+			"collector_number": "174",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/186_UG03 Giant Carrion Beetle.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/174_Giant Carrion Beetle.png"
 			}
 		},
 		{
-			"name": "UG04 Paladin of Ghrin-Danu",
+			"name": "Paladin of Ghrin-Danu",
 			"rarity": "uncommon",
 			"mana_cost": "{2}{G}",
 			"type": "Creature — Human Cleric Knight",
-			"collector_number": "187",
+			"collector_number": "190",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/187_UG04 Paladin of Ghrin-Danu.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/190_Paladin of Ghrin-Danu.png"
 			}
 		},
 		{
-			"name": "UG05 Delta Monitor",
+			"name": "Delta Monitor",
 			"rarity": "uncommon",
 			"mana_cost": "{2}{G}{G}",
 			"type": "Creature — Hydra",
-			"collector_number": "188",
+			"collector_number": "168",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/188_UG05 Delta Monitor.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/168_Delta Monitor.png"
 			}
 		},
 		{
-			"name": "UG06 Vessel of Nature",
+			"name": "Vessel of Nature",
 			"rarity": "uncommon",
 			"mana_cost": "{2}{G}{G}",
 			"type": "Creature — Human Cleric",
-			"collector_number": "189",
+			"collector_number": "196",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/189_UG06 Vessel of Nature.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/196_Vessel of Nature.png"
 			}
 		},
 		{
-			"name": "UG07 Naga Secretstealer",
+			"name": "Naga Secretstealer",
 			"rarity": "uncommon",
 			"mana_cost": "{3}{G}{G}",
 			"type": "Creature — Snake Warlock",
-			"collector_number": "190",
+			"collector_number": "186",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/190_UG07 Naga Secretstealer.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/186_Naga Secretstealer.png"
 			}
 		},
 		{
-			"name": "UG08 Danurian Woodcaller",
+			"name": "Danurian Woodcaller",
 			"rarity": "uncommon",
 			"mana_cost": "{4}{G}{G}",
 			"type": "Creature — Elemental Lizard Beast",
-			"collector_number": "191",
+			"collector_number": "167",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/191_UG08 Danurian Woodcaller.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/167_Danurian Woodcaller.png"
 			}
 		},
 		{
-			"name": "UG09 Gargantuan Abytira",
+			"name": "Gargantuan Abytira",
 			"rarity": "uncommon",
 			"mana_cost": "{4}{G}{G}{G}",
 			"type": "Creature — Insect Mutant",
-			"collector_number": "192",
+			"collector_number": "172",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/192_UG09 Gargantuan Abytira.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/172_Gargantuan Abytira.png"
 			}
 		},
 		{
-			"name": "UG10 Supervisor's Intervention",
+			"name": "Supervisor's Intervention",
 			"rarity": "uncommon",
 			"mana_cost": "{1}{G}",
 			"type": "Instant",
-			"collector_number": "193",
+			"collector_number": "194",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/193_UG10 Supervisor's Intervention.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/194_Supervisor's Intervention.png"
 			}
 		},
 		{
-			"name": "RW01 Sek'new, Lifeblood Brawler",
+			"name": "Sek'new, Lifeblood Brawler",
 			"rarity": "rare",
 			"mana_cost": "{1}{W}",
 			"type": "Legendary Creature — Human Warrior",
-			"collector_number": "19",
+			"collector_number": "33",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/19_RW01 Sek'new, Lifeblood Brawler.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/33_Sek'new, Lifeblood Brawler.png"
 			}
 		},
 		{
-			"name": "RW02 Converted Seraph",
+			"name": "Converted Seraph",
 			"rarity": "rare",
 			"mana_cost": "{2}{W}{W}",
 			"type": "Creature — Angel",
-			"collector_number": "20",
+			"collector_number": "9",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/20_RW02 Converted Seraph.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/9_Converted Seraph.png"
 			}
 		},
 		{
-			"name": "RW03 Returned Vizier",
+			"name": "Returned Vizier",
 			"rarity": "rare",
 			"mana_cost": "{1}{W}{W}",
 			"type": "Creature — Zombie Warlock",
-			"collector_number": "21",
+			"collector_number": "30",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/21_RW03 Returned Vizier.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/30_Returned Vizier.png"
 			}
 		},
 		{
-			"name": "RW04 Basri Ket, Conflicted",
+			"name": "Basri Ket, Conflicted",
 			"rarity": "rare",
 			"mana_cost": "{3}{W}{W}",
 			"type": "Legendary Creature — Human Wizard Warrior",
-			"collector_number": "22",
+			"collector_number": "3",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/22_RW04 Basri Ket, Conflicted.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/3_Basri Ket, Conflicted.png"
 			}
 		},
 		{
-			"name": "RW05 Diplomatic Conclave",
+			"name": "Diplomatic Conclave",
 			"rarity": "rare",
 			"mana_cost": "{2}{W}",
 			"type": "Enchantment",
-			"collector_number": "23",
+			"collector_number": "13",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/23_RW05 Diplomatic Conclave.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/13_Diplomatic Conclave.png"
 			}
 		},
 		{
-			"name": "RW06 Extracted Confession",
+			"name": "Extracted Confession",
 			"rarity": "rare",
 			"mana_cost": "{1}{W}",
 			"type": "Sorcery",
-			"collector_number": "24",
+			"collector_number": "15",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/24_RW06 Extracted Confession.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/15_Extracted Confession.png"
 			}
 		},
 		{
-			"name": "RW07 Carven Legacy",
+			"name": "Carven Legacy",
 			"rarity": "rare",
 			"mana_cost": "{3}{W}",
 			"type": "Enchantment",
-			"collector_number": "25",
+			"collector_number": "7",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/25_RW07 Carven Legacy.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/7_Carven Legacy.png"
 			}
 		},
 		{
-			"name": "RU01 Snehemite Novitiate",
+			"name": "Snehemite Novitiate",
 			"rarity": "rare",
 			"mana_cost": "{1}{U}",
 			"type": "Creature — Human Wizard",
-			"collector_number": "58",
+			"collector_number": "67",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/58_RU01 Snehemite Novitiate.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/67_Snehemite Novitiate.png"
 			}
 		},
 		{
-			"name": "RU02 Ramunap Revenant",
+			"name": "Ramunap Revenant",
 			"rarity": "rare",
 			"mana_cost": "{1}{U}{U}",
 			"type": "Creature — Zombie",
-			"collector_number": "59",
+			"collector_number": "62",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/59_RU02 Ramunap Revenant.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/62_Ramunap Revenant.png"
 			}
 		},
 		{
-			"name": "RU03 Interdiction Angel",
+			"name": "Interdiction Angel",
 			"rarity": "rare",
 			"mana_cost": "{3}{U}",
 			"type": "Creature — Angel",
-			"collector_number": "60",
+			"collector_number": "49",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/60_RU03 Interdiction Angel.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/49_Interdiction Angel.png"
 			}
 		},
 		{
-			"name": "RU04 Mystic Manipulation",
+			"name": "Mystic Manipulation",
 			"rarity": "rare",
 			"mana_cost": "{X}{U}",
 			"type": "Instant",
-			"collector_number": "61",
+			"collector_number": "56",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/61_RU04 Mystic Manipulation.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/56_Mystic Manipulation.png"
 			}
 		},
 		{
-			"name": "RU05 Shifting Constellations",
+			"name": "Shifting Constellations",
 			"rarity": "rare",
 			"mana_cost": "{3}{U}{U}",
 			"type": "Enchantment",
-			"collector_number": "62",
+			"collector_number": "66",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/62_RU05 Shifting Constellations.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/66_Shifting Constellations.png"
 			}
 		},
 		{
-			"name": "RU06 Djamankh's Hydromancy",
+			"name": "Djamankh's Hydromancy",
 			"rarity": "rare",
 			"mana_cost": "{X}{U}{U}",
 			"type": "Sorcery",
-			"collector_number": "63",
+			"collector_number": "44",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/63_RU06 Djamankh's Hydromancy.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/44_Djamankh's Hydromancy.png"
 			}
 		},
 		{
-			"name": "RU07 Made",
+			"name": "Made",
 			"rarity": "rare",
 			"mana_cost": "{3}{U}",
 			"type": "Instant",
-			"collector_number": "64",
+			"collector_number": "53",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/64_RU07 Made.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/53_Made.png"
 			}
 		},
 		{
-			"name": "RB01 Bx'sur, Chosen of Darux",
+			"name": "Bx'sur, Chosen of Darux",
 			"rarity": "rare",
 			"mana_cost": "{1}{B}",
 			"type": "Legendary Creature — Jackal Warrior",
-			"collector_number": "97",
+			"collector_number": "82",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/97_RB01 Bx'sur, Chosen of Darux.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/82_Bx'sur, Chosen of Darux.png"
 			}
 		},
 		{
-			"name": "RB02 Eternal Embalmer",
+			"name": "Eternal Embalmer",
 			"rarity": "rare",
 			"mana_cost": "{2}{B}",
 			"type": "Creature — Zombie Warlock",
-			"collector_number": "98",
+			"collector_number": "87",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/98_RB02 Eternal Embalmer.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/87_Eternal Embalmer.png"
 			}
 		},
 		{
-			"name": "RB03 Soulmaster Seter",
+			"name": "Soulmaster Seter",
 			"rarity": "rare",
 			"mana_cost": "{2}{B}{B}",
 			"type": "Legendary Creature — Jackal Warlock Noble",
-			"collector_number": "99",
+			"collector_number": "112",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/99_RB03 Soulmaster Seter.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/112_Soulmaster Seter.png"
 			}
 		},
 		{
-			"name": "RB04 Isift, Vizier of Ifnir",
+			"name": "Isift, Vizier of Ifnir",
 			"rarity": "rare",
 			"mana_cost": "{4}{B}{B}",
 			"type": "Legendary Creature — Demon Noble",
-			"collector_number": "100",
+			"collector_number": "94",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/100_RB04 Isift, Vizier of Ifnir.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/94_Isift, Vizier of Ifnir.png"
 			}
 		},
 		{
-			"name": "RB06 Isift's Judgment",
+			"name": "Isift's Judgment",
 			"rarity": "rare",
 			"mana_cost": "{2}{B}",
 			"type": "Sorcery",
-			"collector_number": "102",
+			"collector_number": "95",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/102_RB06 Isift's Judgment.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/95_Isift's Judgment.png"
 			}
 		},
 		{
-			"name": "RB07 Wasmawt's Blessing",
+			"name": "Wasmawt's Blessing",
 			"rarity": "rare",
 			"mana_cost": "{1}{B}",
 			"type": "Enchantment — Aura",
-			"collector_number": "103",
+			"collector_number": "116",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/103_RB07 Wasmawt's Blessing.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/116_Wasmawt's Blessing.png"
 			}
 		},
 		{
-			"name": "RR01 Kharteran Pike-Mistress",
+			"name": "Kharteran Pike-Mistress",
 			"rarity": "rare",
 			"mana_cost": "{1}{R}{R}",
 			"type": "Creature — Jackal Warrior Mercenary",
-			"collector_number": "137",
+			"collector_number": "140",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/137_RR01 Kharteran Pike-Mistress.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/140_Kharteran Pike-Mistress.png"
 			}
 		},
 		{
-			"name": "RR02 rg aa token maker",
+			"name": "Ewrkhy, Defender of Nature",
 			"rarity": "rare",
 			"mana_cost": "{3}{R}",
-			"type": "Creature",
-			"collector_number": "138",
+			"type": "Legendary Creature — Jackal Warrior",
+			"collector_number": "129",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/138_RR02 rg aa token maker.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/129_Ewrkhy, Defender of Nature.png"
 			}
 		},
 		{
-			"name": "RR03 Lazotep Dragon",
+			"name": "Lazotep Dragon",
 			"rarity": "rare",
 			"mana_cost": "{3}{R}{R}",
 			"type": "Creature — Zombie Dragon",
-			"collector_number": "139",
+			"collector_number": "141",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/139_RR03 Lazotep Dragon.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/141_Lazotep Dragon.png"
 			}
 		},
 		{
-			"name": "RR04 'the end'",
+			"name": "Allure of the Victorious",
 			"rarity": "rare",
 			"mana_cost": "{5}{R}",
 			"type": "Sorcery",
-			"collector_number": "140",
+			"collector_number": "121",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/140_RR04 'the end'.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/121_Allure of the Victorious.png"
 			}
 		},
 		{
-			"name": "RR05 'bold'",
+			"name": "Righteous Passion",
 			"rarity": "rare",
-			"mana_cost": "{3}{R}",
+			"mana_cost": "{2}{R}",
 			"type": "Enchantment",
-			"collector_number": "141",
+			"collector_number": "147",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/141_RR05 'bold'.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/147_Righteous Passion.png"
 			}
 		},
 		{
-			"name": "RR06 Agree",
+			"name": "Agree",
 			"rarity": "rare",
 			"mana_cost": "{2}{R}",
 			"type": "Sorcery",
-			"collector_number": "142",
+			"collector_number": "120",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/142_RR06 Agree.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/120_Agree.png"
 			}
 		},
 		{
-			"name": "RR07 'bracers'",
+			"name": "Ka-channel Wrapping",
 			"rarity": "rare",
 			"mana_cost": "{1}{R}",
 			"type": "Artifact — Equipment",
-			"collector_number": "143",
+			"collector_number": "138",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/143_RR07 'bracers'.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/138_Ka-channel Wrapping.png"
 			}
 		},
 		{
-			"name": "RG01 Hesep Tender",
+			"name": "Hesep Tender",
 			"rarity": "rare",
 			"mana_cost": "{1}{G}",
 			"type": "Creature — Human Druid",
 			"collector_number": "177",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/177_RG01 Hesep Tender.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/177_Hesep Tender.png"
 			}
 		},
 		{
-			"name": "RG02 Tankht, Gah-Api's Emissary",
+			"name": "Tankht, Gah-Api's Emissary",
 			"rarity": "rare",
 			"mana_cost": "{5}{G}{G}",
 			"type": "Legendary Creature — Minotaur Avatar",
-			"collector_number": "178",
+			"collector_number": "195",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/178_RG02 Tankht, Gah-Api's Emissary.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/195_Tankht, Gah-Api's Emissary.png"
 			}
 		},
 		{
-			"name": "RG03 Lifeblood Siphoner",
+			"name": "Lifeblood Siphoner",
 			"rarity": "rare",
 			"mana_cost": "{2}{G}",
 			"type": "Creature — Human Druid Assassin",
-			"collector_number": "179",
+			"collector_number": "183",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/179_RG03 Lifeblood Siphoner.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/183_Lifeblood Siphoner.png"
 			}
 		},
 		{
-			"name": "RG04 Hyena Matriarch",
+			"name": "Hyena Matriarch",
 			"rarity": "rare",
 			"mana_cost": "{3}{G}{G}",
 			"type": "Creature — Hyena",
-			"collector_number": "180",
+			"collector_number": "181",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/180_RG04 Hyena Matriarch.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/181_Hyena Matriarch.png"
 			}
 		},
 		{
-			"name": "RG05 Home",
+			"name": "Home",
 			"rarity": "rare",
 			"mana_cost": "{1}{G}",
 			"type": "Sorcery",
-			"collector_number": "181",
+			"collector_number": "179",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/181_RG05 Home.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/179_Home.png"
 			}
 		},
 		{
-			"name": "RG06 Domesticate",
+			"name": "Domesticate",
 			"rarity": "rare",
 			"mana_cost": "{2}{G}{G}",
 			"type": "Sorcery",
-			"collector_number": "182",
+			"collector_number": "169",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/182_RG06 Domesticate.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/169_Domesticate.png"
 			}
 		},
 		{
-			"name": "RG07 Godsize",
+			"name": "Godsize",
 			"rarity": "rare",
 			"mana_cost": "{3}{G}{G}",
 			"type": "Sorcery",
-			"collector_number": "183",
+			"collector_number": "176",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/183_RG07 Godsize.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/176_Godsize.png"
 			}
 		},
 		{
-			"name": "MW01 Tekhen, Ancient Spiresoul",
+			"name": "Tekhen, Ancient Spiresoul",
 			"rarity": "mythic",
 			"mana_cost": "{4}{W}{W}",
 			"type": "Legendary Creature — Spirit",
-			"collector_number": "17",
+			"collector_number": "35",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/17_MW01 Tekhen, Ancient Spiresoul.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/35_Tekhen, Ancient Spiresoul.png"
 			}
 		},
 		{
-			"name": "MW02 Two Suns' Radiance",
+			"name": "Two Suns' Radiance",
 			"rarity": "mythic",
 			"mana_cost": "{1}{W}",
 			"type": "Enchantment",
-			"collector_number": "18",
+			"collector_number": "37",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/18_MW02 Two Suns' Radiance.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/37_Two Suns' Radiance.png"
 			}
 		},
 		{
-			"name": "MU01 Eager",
+			"name": "Eager",
 			"rarity": "mythic",
 			"mana_cost": "{2}{U}",
 			"type": "Sorcery",
-			"collector_number": "56",
+			"collector_number": "46",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/56_MU01 Eager.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/46_Eager.png"
 			}
 		},
 		{
-			"name": "MU02 Neputarkh, the Heretic",
+			"name": "Neputarkh, the Heretic",
 			"rarity": "mythic",
 			"mana_cost": "{3}{U}",
 			"type": "Legendary Creature — Jackal Warlock",
 			"collector_number": "57",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/57_MU02 Neputarkh, the Heretic.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/57_Neputarkh, the Heretic.png"
 			}
 		},
 		{
-			"name": "MB01 Method",
+			"name": "Method",
 			"rarity": "mythic",
 			"mana_cost": "{2}{B}",
 			"type": "Instant",
-			"collector_number": "95",
+			"collector_number": "99",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/95_MB01 Method.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/99_Method.png"
 			}
 		},
 		{
-			"name": "MB02 Archangel of Ketramose",
+			"name": "Archangel of Ketramose",
 			"rarity": "mythic",
 			"mana_cost": "{2}{B}{B}",
 			"type": "Creature — Zombie Angel",
-			"collector_number": "96",
+			"collector_number": "79",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/96_MB02 Archangel of Ketramose.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/79_Archangel of Ketramose.png"
 			}
 		},
 		{
-			"name": "MR01 Itching",
+			"name": "Itching",
 			"rarity": "mythic",
 			"mana_cost": "{3}{R}{R}",
 			"type": "Sorcery",
-			"collector_number": "135",
+			"collector_number": "136",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/135_MR01 Itching.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/136_Itching.png"
 			}
 		},
 		{
-			"name": "MR02 Kav'set the Ruthless",
+			"name": "Kav'set the Ruthless",
 			"rarity": "mythic",
 			"mana_cost": "{2}{R}{R}",
 			"type": "Legendary Creature — Jackal Rogue Barbarian",
-			"collector_number": "136",
+			"collector_number": "139",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/136_MR02 Kav'set the Ruthless.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/139_Kav'set the Ruthless.png"
 			}
 		},
 		{
-			"name": "MG01 Assembling the Menagerie",
+			"name": "Assembling the Menagerie",
 			"rarity": "mythic",
 			"mana_cost": "{1}{G}{G}",
 			"type": "Enchantment",
-			"collector_number": "175",
+			"collector_number": "161",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/175_MG01 Assembling the Menagerie.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/161_Assembling the Menagerie.png"
 			}
 		},
 		{
-			"name": "MG02 Pandevotional Summoner",
+			"name": "Pandevotional Summoner",
 			"rarity": "mythic",
 			"mana_cost": "{1}{G}",
 			"type": "Creature — Human Druid Monk",
-			"collector_number": "176",
+			"collector_number": "191",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/176_MG02 Pandevotional Summoner.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/191_Pandevotional Summoner.png"
 			}
 		},
 		{
-			"name": "RM01 Council's Decree",
+			"name": "Council's Decree",
 			"rarity": "rare",
 			"mana_cost": "{1}{W}{U}",
 			"type": "Instant",
-			"collector_number": "198",
+			"collector_number": "203",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/198_RM01 Council's Decree.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/203_Council's Decree.png"
 			}
 		},
 		{
-			"name": "RM01 Done",
+			"name": "Done",
 			"rarity": "rare",
 			"mana_cost": "{2}{U}{B}",
 			"type": "Instant",
-			"collector_number": "202",
+			"collector_number": "209",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/202_RM01 Done.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/209_Done.png"
 			}
 		},
 		{
-			"name": "RM01 Embalmed Dragon",
+			"name": "Embalmed Dragon",
 			"rarity": "rare",
 			"mana_cost": "{2}{B}{R}",
 			"type": "Creature — Zombie Dragon",
-			"collector_number": "203",
+			"collector_number": "210",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/203_RM01 Embalmed Dragon.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/210_Embalmed Dragon.png"
 			}
 		},
 		{
-			"name": "RM01 Samut, Expedition Leader",
+			"name": "Samut, Expedition Leader",
 			"rarity": "rare",
 			"mana_cost": "{2}{R}{G}",
 			"type": "Legendary Creature — Human Warrior",
-			"collector_number": "212",
+			"collector_number": "227",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/212_RM01 Samut, Expedition Leader.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/227_Samut, Expedition Leader.png"
 			}
 		},
 		{
-			"name": "RM01 Land Tokenator",
+			"name": "Katilda's Crucible",
 			"rarity": "rare",
 			"mana_cost": "{3}{G}{W}",
 			"type": "Artifact",
-			"collector_number": "209",
+			"collector_number": "219",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/209_RM01 Land Tokenator.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/219_Katilda's Crucible.png"
 			}
 		},
 		{
-			"name": "RM01 Zahur, Maahestet Leader",
+			"name": "Zahur, Maahestet Leader",
 			"rarity": "rare",
 			"mana_cost": "{1}{W}{B}",
 			"type": "Legendary Creature — Zombie Cat Noble",
-			"collector_number": "217",
+			"collector_number": "237",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/217_RM01 Zahur, Maahestet Leader.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/237_Zahur, Maahestet Leader.png"
 			}
 		},
 		{
-			"name": "RM01 Scattered",
+			"name": "Scattered",
 			"rarity": "rare",
 			"mana_cost": "{U}{U}{R}",
 			"type": "Instant",
-			"collector_number": "214",
+			"collector_number": "229",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/214_RM01 Scattered.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/229_Scattered.png"
 			}
 		},
 		{
-			"name": "RM01 Great Serpent's Arrival",
+			"name": "Great Serpent's Arrival",
 			"rarity": "rare",
 			"mana_cost": "{2}{B}{G}",
 			"type": "Legendary Enchantment",
-			"collector_number": "206",
+			"collector_number": "215",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/206_RM01 Great Serpent's Arrival.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/215_Great Serpent's Arrival.png"
 			}
 		},
 		{
-			"name": "RM01 Djeru, Lord General",
+			"name": "Djeru, Lord General",
 			"rarity": "rare",
 			"mana_cost": "{R}{W}",
 			"type": "Legendary Creature — Human Warrior Soldier",
-			"collector_number": "201",
+			"collector_number": "208",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/201_RM01 Djeru, Lord General.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/208_Djeru, Lord General.png"
 			}
 		},
 		{
-			"name": "RM01 Dejukhab Bull",
+			"name": "Dejukhab Bull",
 			"rarity": "rare",
 			"mana_cost": "{G}{U}",
 			"type": "Legendary Creature — Phelddagrif",
-			"collector_number": "200",
+			"collector_number": "206",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/200_RM01 Dejukhab Bull.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/206_Dejukhab Bull.png"
 			}
 		},
 		{
-			"name": "CA01 Lazoskin Tracker",
+			"name": "Lazoskin Tracker",
 			"rarity": "common",
 			"mana_cost": "{2}",
 			"type": "Artifact Creature — Construct Dog",
-			"collector_number": "238",
+			"collector_number": "242",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/238_CA01 Lazoskin Tracker.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/242_Lazoskin Tracker.png"
 			}
 		},
 		{
-			"name": "CA02 Tomb Builder",
+			"name": "Tomb Builder",
 			"rarity": "common",
 			"mana_cost": "{3}",
 			"type": "Artifact Creature — Golem Construct",
-			"collector_number": "239",
+			"collector_number": "248",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/239_CA02 Tomb Builder.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/248_Tomb Builder.png"
 			}
 		},
 		{
-			"name": "CA03 Grounds Guardian",
+			"name": "Grounds Guardian",
 			"rarity": "common",
 			"mana_cost": "{4}",
 			"type": "Artifact Creature — Construct",
 			"collector_number": "240",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/240_CA03 Grounds Guardian.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/240_Grounds Guardian.png"
 			}
 		},
 		{
-			"name": "CA04 Private Feast",
+			"name": "Private Feast",
 			"rarity": "common",
 			"mana_cost": "{1}",
 			"type": "Artifact",
-			"collector_number": "241",
+			"collector_number": "246",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/241_CA04 Private Feast.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/246_Private Feast.png"
 			}
 		},
 		{
-			"name": "CA05 Gleaming Capstone",
+			"name": "Gleaming Capstone",
 			"rarity": "common",
 			"mana_cost": "{3}",
 			"type": "Artifact — Oasis",
-			"collector_number": "242",
+			"collector_number": "239",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/242_CA05 Gleaming Capstone.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/239_Gleaming Capstone.png"
 			}
 		},
 		{
-			"name": "UA04 Blood of the Pious",
+			"name": "Blood of the Pious",
 			"rarity": "uncommon",
 			"mana_cost": "{3}",
 			"type": "Artifact",
-			"collector_number": "247",
+			"collector_number": "238",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/247_UA04 Blood of the Pious.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/238_Blood of the Pious.png"
 			}
 		},
 		{
-			"name": "UA05 Memorial Obelisk",
+			"name": "Memorial Obelisk",
 			"rarity": "uncommon",
 			"mana_cost": "{1}",
 			"type": "Artifact Creature — Wall",
-			"collector_number": "248",
+			"collector_number": "244",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/248_UA05 Memorial Obelisk.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/244_Memorial Obelisk.png"
 			}
 		},
 		{
-			"name": "CL01 Winding River",
+			"name": "Winding River",
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Land — Oasis",
-			"collector_number": "249",
+			"collector_number": "257",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/249_CL01 Winding River.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/257_Winding River.png"
 			}
 		},
 		{
-			"name": "UL01 Lake Sebay",
+			"name": "Lake Sebay",
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Land — Oasis",
-			"collector_number": "253",
+			"collector_number": "251",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/253_UL01 Lake Sebay.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/251_Lake Sebay.png"
 			}
 		},
 		{
-			"name": "UL02 Port Kharteru",
+			"name": "Port Kharteru",
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Land — Oasis",
 			"collector_number": "254",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/254_UL02 Port Kharteru.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/254_Port Kharteru.png"
 			}
 		},
 		{
-			"name": "UL03 Hidden Necropolis Entrance",
+			"name": "Hidden Necropolis Entrance",
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Land — Oasis",
-			"collector_number": "255",
+			"collector_number": "250",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/255_UL03 Hidden Necropolis Entrance.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/250_Hidden Necropolis Entrance.png"
 			}
 		},
 		{
-			"name": "UL04 Sulfurous Baths",
+			"name": "Sulfurous Baths",
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Land — Oasis",
 			"collector_number": "256",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/256_UL04 Sulfurous Baths.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/256_Sulfurous Baths.png"
 			}
 		},
 		{
-			"name": "UL05 Shefet Shrublands",
+			"name": "Shefet Shrublands",
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Land — Oasis",
-			"collector_number": "257",
+			"collector_number": "255",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/257_UL05 Shefet Shrublands.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/255_Shefet Shrublands.png"
 			}
 		},
 		{
-			"name": "UU14 Happy",
+			"name": "Happy",
 			"rarity": "uncommon",
-			"mana_cost": "{2}{U}{U}",
+			"mana_cost": "{1}{U}{U}",
 			"type": "Sorcery",
-			"collector_number": "78",
+			"collector_number": "48",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/78_UU14 Happy.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/48_Happy.png"
 			}
 		},
 		{
-			"name": "UB14 Wasmawt's Presence",
+			"name": "Wasmawt's Presence",
 			"rarity": "uncommon",
 			"mana_cost": "{3}{B}{B}",
 			"type": "Enchantment",
 			"collector_number": "117",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/117_UB14 Wasmawt's Presence.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/117_Wasmawt's Presence.png"
 			}
 		},
 		{
-			"name": "UR15 Churning of Lava",
+			"name": "Churning of Lava",
 			"rarity": "uncommon",
 			"mana_cost": "{2}{R}{R}",
 			"type": "Enchantment",
-			"collector_number": "158",
+			"collector_number": "125",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/158_UR15 Churning of Lava.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/125_Churning of Lava.png"
 			}
 		},
 		{
-			"name": "UW14 Going",
+			"name": "Going",
 			"rarity": "uncommon",
 			"mana_cost": "{2}{W}{W}",
 			"type": "Sorcery",
-			"collector_number": "39",
+			"collector_number": "17",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/39_UW14 Going.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/17_Going.png"
 			}
 		},
 		{
-			"name": "UG14 Vital Takeover",
+			"name": "Vital Takeover",
 			"rarity": "uncommon",
 			"mana_cost": "{1}{G}",
 			"type": "Enchantment — Aura",
 			"collector_number": "197",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/197_UG14 Vital Takeover.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/197_Vital Takeover.png"
 			}
 		},
 		{
-			"name": "RX07 Naktamun Market Streets",
+			"name": "Naktamun Market Streets",
 			"rarity": "mythic",
 			"mana_cost": "",
 			"type": "Legendary Land — Oasis",
-			"collector_number": "251",
+			"collector_number": "253",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/251_RX07 Naktamun Market Streets.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/253_Naktamun Market Streets.png"
 			}
 		},
 		{
-			"name": "RX08 Foreboding Gate",
+			"name": "Foreboding Gate",
 			"rarity": "rare",
 			"mana_cost": "",
 			"type": "Land — Oasis",
-			"collector_number": "252",
+			"collector_number": "249",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/252_RX08 Foreboding Gate.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/249_Foreboding Gate.png"
 			}
 		},
 		{
-			"name": "RM01 Darux, Miasma of Passion",
+			"name": "Darux, Miasma of Passion",
 			"rarity": "mythic",
 			"mana_cost": "{1}{B}{R}",
 			"type": "Legendary Creature — Dragon God",
-			"collector_number": "199",
+			"collector_number": "205",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/199_RM01 Darux, Miasma of Passion.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/205_Darux, Miasma of Passion.png"
 			}
 		},
 		{
-			"name": "RM01 Gah-Api, Life's Hope",
+			"name": "Gah-Api, Life's Hope",
 			"rarity": "mythic",
 			"mana_cost": "{6}{R}{G}",
 			"type": "Legendary Creature — Bull God",
-			"collector_number": "204",
+			"collector_number": "213",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/204_RM01 Gah-Api, Life's Hope.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/213_Gah-Api, Life's Hope.png"
 			}
 		},
 		{
-			"name": "RM01 Ghrin-Danu, Watchful Mother",
+			"name": "Ghrin-Danu, Watchful Mother",
 			"rarity": "mythic",
 			"mana_cost": "{1}{G}{W}",
 			"type": "Legendary Creature — Dryad God",
-			"collector_number": "205",
+			"collector_number": "214",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/205_RM01 Ghrin-Danu, Watchful Mother.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/214_Ghrin-Danu, Watchful Mother.png"
 			}
 		},
 		{
-			"name": "RM01 Hazoret, Zealous Survivor",
+			"name": "Hazoret, Zealous Survivor",
 			"rarity": "mythic",
 			"mana_cost": "{3}{R}{W}",
 			"type": "Legendary Creature — Jackal God",
-			"collector_number": "207",
+			"collector_number": "216",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/207_RM01 Hazoret, Zealous Survivor.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/216_Hazoret, Zealous Survivor.png"
 			}
 		},
 		{
-			"name": "RM01 Ketramose, Virtuous Sacrifice",
+			"name": "Ketramose, Virtuous Sacrifice",
 			"rarity": "mythic",
 			"mana_cost": "{2}{W}{B}",
 			"type": "Legendary Creature — Cat God",
-			"collector_number": "208",
+			"collector_number": "220",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/208_RM01 Ketramose, Virtuous Sacrifice.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/220_Ketramose, Virtuous Sacrifice.png"
 			}
 		},
 		{
-			"name": "RM01 Sab-Sunen, Flow of Time",
+			"name": "Sab-Sunen, Flow of Time",
 			"rarity": "mythic",
 			"mana_cost": "{4}{G}{U}",
 			"type": "Legendary Creature — Frog God",
-			"collector_number": "211",
+			"collector_number": "226",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/211_RM01 Sab-Sunen, Flow of Time.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/226_Sab-Sunen, Flow of Time.png"
 			}
 		},
 		{
-			"name": "RM01 Scarab God, Wrath of Eons",
+			"name": "Scarab God, Wrath of Eons",
 			"rarity": "mythic",
 			"mana_cost": "{5}{U}{B}",
 			"type": "Legendary Creature — Insect God",
-			"collector_number": "213",
+			"collector_number": "228",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/213_RM01 Scarab God, Wrath of Eons.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/228_Scarab God, Wrath of Eons.png"
 			}
 		},
 		{
-			"name": "RM01 Maathep, Lawgiver",
+			"name": "Maathep, Lawgiver",
 			"rarity": "mythic",
 			"mana_cost": "{3}{W}{U}",
 			"type": "Legendary Creature — Angel God",
-			"collector_number": "210",
+			"collector_number": "221",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/210_RM01 Maathep, Lawgiver.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/221_Maathep, Lawgiver.png"
 			}
 		},
 		{
-			"name": "RM01 Snehem, God of Locusts",
+			"name": "Snehem, God of Locusts",
 			"rarity": "mythic",
 			"mana_cost": "{2}{U}{R}",
 			"type": "Legendary Creature — Insect God",
-			"collector_number": "215",
+			"collector_number": "231",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/215_RM01 Snehem, God of Locusts.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/231_Snehem, God of Locusts.png"
 			}
 		},
 		{
-			"name": "RM01 Wasmawt, Inevitable Death",
+			"name": "Wasmawt, Inevitable Death",
 			"rarity": "mythic",
 			"mana_cost": "{B}{G}",
 			"type": "Legendary Creature — Snake God",
-			"collector_number": "216",
+			"collector_number": "236",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/216_RM01 Wasmawt, Inevitable Death.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/236_Wasmawt, Inevitable Death.png"
 			}
 		},
 		{
-			"name": "CB14 Feast on Flesh",
+			"name": "Feast on Flesh",
 			"rarity": "common",
 			"mana_cost": "{1}{B}",
 			"type": "Sorcery",
-			"collector_number": "92",
+			"collector_number": "89",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/92_CB14 Feast on Flesh.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/89_Feast on Flesh.png"
 			}
 		},
 		{
-			"name": "RB05 Coming Forth by Night",
+			"name": "Coming Forth by Night",
 			"rarity": "rare",
 			"mana_cost": "{3}{B}{B}",
 			"type": "Sorcery",
-			"collector_number": "101",
+			"collector_number": "85",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/101_RB05 Coming Forth by Night.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/85_Coming Forth by Night.png"
 			}
 		},
 		{
-			"name": "CG13 Adjust to Abundance",
+			"name": "Adjust to Abundance",
 			"rarity": "common",
 			"mana_cost": "{G}",
 			"type": "Instant",
-			"collector_number": "171",
+			"collector_number": "159",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/171_CG13 Adjust to Abundance.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/159_Adjust to Abundance.png"
 			}
 		},
 		{
-			"name": "UA01 Lazotep Blade",
+			"name": "Lazotep Blade",
 			"rarity": "uncommon",
 			"mana_cost": "{2}",
 			"type": "Artifact",
-			"collector_number": "244",
+			"collector_number": "243",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/244_UA01 Lazotep Blade.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/243_Lazotep Blade.png"
 			}
 		},
 		{
-			"name": "UA02 Icon of Unity",
+			"name": "Icon of Unity",
 			"rarity": "uncommon",
 			"mana_cost": "{4}",
 			"type": "Artifact",
-			"collector_number": "245",
+			"collector_number": "241",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/245_UA02 Icon of Unity.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/241_Icon of Unity.png"
 			}
 		},
 		{
-			"name": "UA03 Spellfire Khopesh",
+			"name": "Spellfire Khopesh",
 			"rarity": "uncommon",
 			"mana_cost": "{3}",
 			"type": "Artifact",
-			"collector_number": "246",
+			"collector_number": "247",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/246_UA03 Spellfire Khopesh.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/247_Spellfire Khopesh.png"
 			}
 		},
 		{
-			"name": "UR06 Daruxian Spinescourger",
+			"name": "Daruxian Spinescourger",
 			"rarity": "uncommon",
 			"mana_cost": "{3}{R}{R}",
 			"type": "Creature — Dragon",
-			"collector_number": "149",
+			"collector_number": "128",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/149_UR06 Daruxian Spinescourger.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/128_Daruxian Spinescourger.png"
 			}
 		},
 		{
-			"name": "UB05 Mindstab Ravager",
+			"name": "Mindstab Ravager",
 			"rarity": "uncommon",
 			"mana_cost": "{2}{B}{B}",
 			"type": "Creature — Jackal Zombie",
-			"collector_number": "108",
+			"collector_number": "100",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/108_UB05 Mindstab Ravager.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/100_Mindstab Ravager.png"
 			}
 		},
 		{
-			"name": "UB08 Vile Judge",
+			"name": "Vile Judge",
 			"rarity": "uncommon",
 			"mana_cost": "{5}{B}{B}",
 			"type": "Creature — Jackal Warlock",
-			"collector_number": "111",
+			"collector_number": "115",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/111_UB08 Vile Judge.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/115_Vile Judge.png"
 			}
 		},
 		{
-			"name": "UM01 BR-1 Boiling Bloodlust",
+			"name": "Boiling Bloodlust",
 			"rarity": "uncommon",
 			"mana_cost": "{B}{R}",
 			"type": "Enchantment",
-			"collector_number": "220",
+			"collector_number": "200",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/220_UM01 BR-1 Boiling Bloodlust.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/200_Boiling Bloodlust.png"
 			}
 		},
 		{
-			"name": "UM01 WB-1 Chamber of New Anointment",
+			"name": "Chamber of New Anointment",
 			"rarity": "uncommon",
 			"mana_cost": "{3}{W}{B}",
 			"type": "Artifact",
-			"collector_number": "234",
+			"collector_number": "201",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/234_UM01 WB-1 Chamber of New Anointment.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/201_Chamber of New Anointment.png"
 			}
 		},
 		{
-			"name": "UM01 UR-1 Divine Attunement",
+			"name": "Divine Attunement",
 			"rarity": "uncommon",
 			"mana_cost": "{U}{R}",
 			"type": "Enchantment",
-			"collector_number": "232",
+			"collector_number": "207",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/232_UM01 UR-1 Divine Attunement.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/207_Divine Attunement.png"
 			}
 		},
 		{
-			"name": "UM01 BG-1 First Altar of Wasmawt",
+			"name": "First Altar of Wasmawt",
 			"rarity": "uncommon",
 			"mana_cost": "{1}{B}{G}",
 			"type": "Artifact",
-			"collector_number": "218",
+			"collector_number": "211",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/218_UM01 BG-1 First Altar of Wasmawt.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/211_First Altar of Wasmawt.png"
 			}
 		},
 		{
-			"name": "UM01 RG-1 Mistress of Leashes",
+			"name": "Mistress of Leashes",
 			"rarity": "uncommon",
 			"mana_cost": "{1}{R}{G}",
 			"type": "Creature — Human Druid Rogue",
-			"collector_number": "226",
+			"collector_number": "223",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/226_UM01 RG-1 Mistress of Leashes.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/223_Mistress of Leashes.png"
 			}
 		},
 		{
-			"name": "UM01 UB-1 Officiant of the Arisen",
+			"name": "Officiant of the Arisen",
 			"rarity": "uncommon",
 			"mana_cost": "{1}{U}{B}",
 			"type": "Creature — Human Cleric Warlock",
-			"collector_number": "230",
+			"collector_number": "224",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/230_UM01 UB-1 Officiant of the Arisen.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/224_Officiant of the Arisen.png"
 			}
 		},
 		{
-			"name": "UM01 GU-1 Scion of New Rivers",
+			"name": "Scion of New Rivers",
 			"rarity": "uncommon",
 			"mana_cost": "{1}{G}{U}",
 			"type": "Creature — Human Cleric Druid",
-			"collector_number": "222",
+			"collector_number": "230",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/222_UM01 GU-1 Scion of New Rivers.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/230_Scion of New Rivers.png"
 			}
 		},
 		{
-			"name": "UM01 WU-1 Maathep's Servant",
+			"name": "Maathep's Servant",
 			"rarity": "uncommon",
 			"mana_cost": "{2}{W}{U}",
 			"type": "Creature — Human Cleric Wizard",
-			"collector_number": "236",
+			"collector_number": "222",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/236_UM01 WU-1 Maathep's Servant.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/222_Maathep's Servant.png"
 			}
 		},
 		{
-			"name": "UM01 RW-1 Training Regimen",
+			"name": "Training Regimen",
 			"rarity": "uncommon",
 			"mana_cost": "{R}{W}",
 			"type": "Enchantment",
-			"collector_number": "228",
+			"collector_number": "233",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/228_UM01 RW-1 Training Regimen.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/233_Training Regimen.png"
 			}
 		},
 		{
-			"name": "UM01 GW-1 Walking Oasis",
+			"name": "Walking Oasis",
 			"rarity": "uncommon",
 			"mana_cost": "{1}{G}{W}",
 			"type": "Creature — Elemental Golem",
-			"collector_number": "224",
+			"collector_number": "235",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/224_UM01 GW-1 Walking Oasis.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/235_Walking Oasis.png"
 			}
 		},
 		{
@@ -2471,103 +2471,103 @@
 			}
 		},
 		{
-			"name": "UM01 WU-2 Bastion of Maathep",
+			"name": "Bastion of Maathep",
 			"rarity": "uncommon",
 			"mana_cost": "{W}{U}",
 			"type": "Artifact",
-			"collector_number": "237",
+			"collector_number": "198",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/237_UM01 WU-2 Bastion of Maathep.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/198_Bastion of Maathep.png"
 			}
 		},
 		{
-			"name": "UM01 UB-2 Crucible of Eternity",
+			"name": "Crucible of Eternity",
 			"rarity": "uncommon",
 			"mana_cost": "{U}{B}",
 			"type": "Artifact",
-			"collector_number": "231",
+			"collector_number": "204",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/231_UM01 UB-2 Crucible of Eternity.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/204_Crucible of Eternity.png"
 			}
 		},
 		{
-			"name": "UM01 BR-2 Bloodblade Naga",
+			"name": "Bloodblade Naga",
 			"rarity": "uncommon",
 			"mana_cost": "{1}{B}{R}",
 			"type": "Creature — Snake Warlock Warrior",
-			"collector_number": "221",
+			"collector_number": "199",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/221_UM01 BR-2 Bloodblade Naga.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/199_Bloodblade Naga.png"
 			}
 		},
 		{
-			"name": "UM01 RG-2 Priest of Gah-Api",
+			"name": "Priest of Gah-Api",
 			"rarity": "uncommon",
 			"mana_cost": "{2}{R}{G}",
 			"type": "Creature — Minotaur Cleric",
-			"collector_number": "227",
+			"collector_number": "225",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/227_UM01 RG-2 Priest of Gah-Api.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/225_Priest of Gah-Api.png"
 			}
 		},
 		{
-			"name": "UM01 GW-2 Voyage to New Homes",
+			"name": "Voyage to New Homes",
 			"rarity": "uncommon",
 			"mana_cost": "{G}{W}",
 			"type": "Enchantment",
-			"collector_number": "225",
+			"collector_number": "234",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/225_UM01 GW-2 Voyage to New Homes.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/234_Voyage to New Homes.png"
 			}
 		},
 		{
-			"name": "UM01 WB-2 High Priest of Ketramose",
+			"name": "High Priest of Ketramose",
 			"rarity": "uncommon",
 			"mana_cost": "{1}{W}{B}",
 			"type": "Creature — Human Cleric Warlock",
-			"collector_number": "235",
+			"collector_number": "217",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/235_UM01 WB-2 High Priest of Ketramose.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/217_High Priest of Ketramose.png"
 			}
 		},
 		{
-			"name": "UM01 UR-2 Tjuf, Herald of Snehem",
+			"name": "Tjuf, Herald of Snehem",
 			"rarity": "uncommon",
 			"mana_cost": "{U}{R}",
 			"type": "Legendary Creature — Human Insect Mutant",
-			"collector_number": "233",
+			"collector_number": "232",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/233_UM01 UR-2 Tjuf, Herald of Snehem.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/232_Tjuf, Herald of Snehem.png"
 			}
 		},
 		{
-			"name": "UM01 BG-2 Hofan Slithermaster",
+			"name": "Hofan Slithermaster",
 			"rarity": "uncommon",
 			"mana_cost": "{2}{B}{G}",
 			"type": "Creature — Snake Druid",
-			"collector_number": "219",
+			"collector_number": "218",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/219_UM01 BG-2 Hofan Slithermaster.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/218_Hofan Slithermaster.png"
 			}
 		},
 		{
-			"name": "UM01 RW-2 Chariot Commander",
+			"name": "Chariot Commander",
 			"rarity": "uncommon",
 			"mana_cost": "{1}{R}{W}",
 			"type": "Creature — Human Bird Warrior Soldier",
-			"collector_number": "229",
+			"collector_number": "202",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/229_UM01 RW-2 Chariot Commander.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/202_Chariot Commander.png"
 			}
 		},
 		{
-			"name": "UM01 GU-2 Flow State",
+			"name": "Flow State",
 			"rarity": "uncommon",
 			"mana_cost": "{G}{U}",
 			"type": "Enchantment",
-			"collector_number": "223",
+			"collector_number": "212",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/223_UM01 GU-2 Flow State.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/212_Flow State.png"
 			}
 		},
 		{
@@ -2761,879 +2761,879 @@
 			}
 		},
 		{
-			"name": "CL02 Mirage Pool",
+			"name": "Mirage Pool",
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Land — Oasis",
-			"collector_number": "250",
+			"collector_number": "252",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/250_CL02 Mirage Pool.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/252_Mirage Pool.png"
 			}
 		}
 	]
 
 [rare(1)]
-	2 RW01 Sek'new, Lifeblood Brawler
-	2 RW02 Converted Seraph
-	2 RW03 Returned Vizier
-	2 RW04 Basri Ket, Conflicted
-	2 RW05 Diplomatic Conclave
-	2 RW06 Extracted Confession
-	2 RW07 Carven Legacy
-	2 RU01 Snehemite Novitiate
-	2 RU02 Ramunap Revenant
-	2 RU03 Interdiction Angel
-	2 RU04 Mystic Manipulation
-	2 RU05 Shifting Constellations
-	2 RU06 Djamankh's Hydromancy
-	2 RU07 Made
-	2 RB01 Bx'sur, Chosen of Darux
-	2 RB02 Eternal Embalmer
-	2 RB03 Soulmaster Seter
-	2 RB04 Isift, Vizier of Ifnir
-	2 RB06 Isift's Judgment
-	2 RB07 Wasmawt's Blessing
-	2 RR01 Kharteran Pike-Mistress
-	2 RR02 rg aa token maker
-	2 RR03 Lazotep Dragon
-	2 RR04 'the end'
-	2 RR05 'bold'
-	2 RR06 Agree
-	2 RR07 'bracers'
-	2 RG01 Hesep Tender
-	2 RG02 Tankht, Gah-Api's Emissary
-	2 RG03 Lifeblood Siphoner
-	2 RG04 Hyena Matriarch
-	2 RG05 Home
-	2 RG06 Domesticate
-	2 RG07 Godsize
-	1 MW01 Tekhen, Ancient Spiresoul
-	1 MW02 Two Suns' Radiance
-	1 MU01 Eager
-	1 MU02 Neputarkh, the Heretic
-	1 MB01 Method
-	1 MB02 Archangel of Ketramose
-	1 MR01 Itching
-	1 MR02 Kav'set the Ruthless
-	1 MG01 Assembling the Menagerie
-	1 MG02 Pandevotional Summoner
-	2 RM01 Council's Decree
-	2 RM01 Done
-	2 RM01 Embalmed Dragon
-	2 RM01 Samut, Expedition Leader
-	2 RM01 Land Tokenator
-	2 RM01 Zahur, Maahestet Leader
-	2 RM01 Scattered
-	2 RM01 Great Serpent's Arrival
-	2 RM01 Djeru, Lord General
-	2 RM01 Dejukhab Bull
-	1 RX07 Naktamun Market Streets
-	2 RX08 Foreboding Gate
-	1 RM01 Darux, Miasma of Passion
-	1 RM01 Gah-Api, Life's Hope
-	1 RM01 Ghrin-Danu, Watchful Mother
-	1 RM01 Hazoret, Zealous Survivor
-	1 RM01 Ketramose, Virtuous Sacrifice
-	1 RM01 Sab-Sunen, Flow of Time
-	1 RM01 Scarab God, Wrath of Eons
-	1 RM01 Maathep, Lawgiver
-	1 RM01 Snehem, God of Locusts
-	1 RM01 Wasmawt, Inevitable Death
-	2 RB05 Coming Forth by Night
+	2 Sek'new, Lifeblood Brawler
+	2 Converted Seraph
+	2 Returned Vizier
+	2 Basri Ket, Conflicted
+	2 Diplomatic Conclave
+	2 Extracted Confession
+	2 Carven Legacy
+	2 Snehemite Novitiate
+	2 Ramunap Revenant
+	2 Interdiction Angel
+	2 Mystic Manipulation
+	2 Shifting Constellations
+	2 Djamankh's Hydromancy
+	2 Made
+	2 Bx'sur, Chosen of Darux
+	2 Eternal Embalmer
+	2 Soulmaster Seter
+	2 Isift, Vizier of Ifnir
+	2 Isift's Judgment
+	2 Wasmawt's Blessing
+	2 Kharteran Pike-Mistress
+	2 Ewrkhy, Defender of Nature
+	2 Lazotep Dragon
+	2 Allure of the Victorious
+	2 Righteous Passion
+	2 Agree
+	2 Ka-channel Wrapping
+	2 Hesep Tender
+	2 Tankht, Gah-Api's Emissary
+	2 Lifeblood Siphoner
+	2 Hyena Matriarch
+	2 Home
+	2 Domesticate
+	2 Godsize
+	1 Tekhen, Ancient Spiresoul
+	1 Two Suns' Radiance
+	1 Eager
+	1 Neputarkh, the Heretic
+	1 Method
+	1 Archangel of Ketramose
+	1 Itching
+	1 Kav'set the Ruthless
+	1 Assembling the Menagerie
+	1 Pandevotional Summoner
+	2 Council's Decree
+	2 Done
+	2 Embalmed Dragon
+	2 Samut, Expedition Leader
+	2 Katilda's Crucible
+	2 Zahur, Maahestet Leader
+	2 Scattered
+	2 Great Serpent's Arrival
+	2 Djeru, Lord General
+	2 Dejukhab Bull
+	1 Naktamun Market Streets
+	2 Foreboding Gate
+	1 Darux, Miasma of Passion
+	1 Gah-Api, Life's Hope
+	1 Ghrin-Danu, Watchful Mother
+	1 Hazoret, Zealous Survivor
+	1 Ketramose, Virtuous Sacrifice
+	1 Sab-Sunen, Flow of Time
+	1 Scarab God, Wrath of Eons
+	1 Maathep, Lawgiver
+	1 Snehem, God of Locusts
+	1 Wasmawt, Inevitable Death
+	2 Coming Forth by Night
 [uncommon(3)]
-	4 UW11 Maathep's Interdiction
-	4 UW12 Hazoret's Blessing
-	4 UW13 Last Dignity
-	4 UU11 Note
-	4 UU12 Unsorted Scrolls
-	4 UU13 The Wisdom of Unity
-	4 UB12 Betrayal of Secrets
-	4 UB13 Scarab Armor
-	4 UB15 Word
-	4 UR12 Read the Forbidden Scrolls
-	4 UR14 Time
-	4 UR13 Bite
-	4 UG13 Cover-Up
-	4 UG12 Close
-	4 UG11 Stumble Upon Sanctuary
-	4 UW01 Scion of Hazoret
-	4 UW02 Herald of the Lost
-	4 UW03 Arena Champion
-	4 UW04 Priestess of Sanctity
-	4 UW05 Vessel of Purity
-	4 UW06 Callous Charioteer
-	4 UW07 Razemaster
-	4 UW08 Angel of Obeisance
-	4 UW09 Makheru, Voice of Truth
-	4 UW10 Megalithic Guardian
-	4 UU01 Drakerider Spellweaver
-	4 UU02 Keeper of Blessed Waters
-	4 UU03 Afu, Chosen of the Scarab
-	4 UU04 Vigilant Obstructionist
-	4 UU05 Vessel of Genius
-	4 UU06 Pillar-Leaper Sphinx
-	4 UU07 Track Guardian
-	4 UU08 Yours
-	4 UU09 Lofty Response
-	4 UU10 Mastery of Tumbling Sands
-	4 UB01 Eternal Fighters
-	4 UB02 Scion of Emptiness
-	4 UB03 Obssessed Falconer
-	4 UB04 Vessel of Darkness
-	4 UB06 Omnivorous Exhumer
-	4 UB07 Merciless Brawler
-	4 UB09 Rise of the Doomed
-	4 UB10 Localized Disaster
-	4 UB11 Hyena Pack Attack
-	4 UR01 Taw-honed Fighter
-	4 UR02 Skeshed, Dancing Storm
-	4 UR03 Hermit Champion
-	4 UR04 Vessel of Wrath
-	4 UR05 Scorchtrack Mehu
-	4 UR07 Wine Priestess
-	4 UR08 Corrupted Emberhorn
-	4 UR09 Darkstorm Bolt
-	4 UR10 Infectious Bravado
-	4 UR11 Ready
-	4 UG01 Eneri, Cunning Treasurer
-	4 UG02 Luxa Shoremage
-	4 UG03 Giant Carrion Beetle
-	4 UG04 Paladin of Ghrin-Danu
-	4 UG05 Delta Monitor
-	4 UG06 Vessel of Nature
-	4 UG07 Naga Secretstealer
-	4 UG08 Danurian Woodcaller
-	4 UG09 Gargantuan Abytira
-	4 UG10 Supervisor's Intervention
-	4 UA04 Blood of the Pious
-	4 UA05 Memorial Obelisk
-	4 UL01 Lake Sebay
-	4 UL02 Port Kharteru
-	4 UL03 Hidden Necropolis Entrance
-	4 UL04 Sulfurous Baths
-	4 UL05 Shefet Shrublands
-	4 UU14 Happy
-	4 UB14 Wasmawt's Presence
-	4 UR15 Churning of Lava
-	4 UW14 Going
-	4 UG14 Vital Takeover
-	4 UA01 Lazotep Blade
-	4 UA02 Icon of Unity
-	4 UA03 Spellfire Khopesh
-	4 UR06 Daruxian Spinescourger
-	4 UB05 Mindstab Ravager
-	4 UB08 Vile Judge
-	4 UM01 BR-1 Boiling Bloodlust
-	4 UM01 WB-1 Chamber of New Anointment
-	4 UM01 UR-1 Divine Attunement
-	4 UM01 BG-1 First Altar of Wasmawt
-	4 UM01 RG-1 Mistress of Leashes
-	4 UM01 UB-1 Officiant of the Arisen
-	4 UM01 GU-1 Scion of New Rivers
-	4 UM01 WU-1 Maathep's Servant
-	4 UM01 RW-1 Training Regimen
-	4 UM01 GW-1 Walking Oasis
-	4 UM01 WU-2 Bastion of Maathep
-	4 UM01 UB-2 Crucible of Eternity
-	4 UM01 BR-2 Bloodblade Naga
-	4 UM01 RG-2 Priest of Gah-Api
-	4 UM01 GW-2 Voyage to New Homes
-	4 UM01 WB-2 High Priest of Ketramose
-	4 UM01 UR-2 Tjuf, Herald of Snehem
-	4 UM01 BG-2 Hofan Slithermaster
-	4 UM01 RW-2 Chariot Commander
-	4 UM01 GU-2 Flow State
+	4 Maathep's Interdiction
+	4 Hazoret's Blessing
+	4 Last Dignity
+	4 Note
+	4 Unsorted Scrolls
+	4 The Wisdom of Unity
+	4 Betrayal of Secrets
+	4 Scarab Armor
+	4 Word
+	4 Read the Forbidden Scrolls
+	4 Time
+	4 Bite
+	4 Cover-Up
+	4 Close
+	4 Stumble Upon Sanctuary
+	4 Scion of Hazoret
+	4 Herald of the Lost
+	4 Arena Champion
+	4 Priestess of Sanctity
+	4 Vessel of Purity
+	4 Callous Charioteer
+	4 Razemaster
+	4 Angel of Obeisance
+	4 Makheru, Voice of Truth
+	4 Megalithic Guardian
+	4 Drakerider Spellweaver
+	4 Keeper of Blessed Waters
+	4 Afu, Chosen of the Scarab
+	4 Vigilant Obstructionist
+	4 Vessel of Genius
+	4 Pillar-Leaper Sphinx
+	4 Track Guardian
+	4 Yours
+	4 Lofty Response
+	4 Mastery of Tumbling Sands
+	4 Eternal Fighters
+	4 Scion of Emptiness
+	4 Obssessed Falconer
+	4 Vessel of Darkness
+	4 Omnivorous Exhumer
+	4 Merciless Brawler
+	4 Rise of the Doomed
+	4 Localized Disaster
+	4 Hyena Pack Attack
+	4 Taw-honed Fighter
+	4 Skeshed, Dancing Storm
+	4 Hermit Champion
+	4 Vessel of Wrath
+	4 Scorchtrack Mehu
+	4 Wine Priestess
+	4 Corrupted Emberhorn
+	4 Darkstorm Bolt
+	4 Infectious Bravado
+	4 Ready
+	4 Eneri, Cunning Treasurer
+	4 Luxa Shoremage
+	4 Giant Carrion Beetle
+	4 Paladin of Ghrin-Danu
+	4 Delta Monitor
+	4 Vessel of Nature
+	4 Naga Secretstealer
+	4 Danurian Woodcaller
+	4 Gargantuan Abytira
+	4 Supervisor's Intervention
+	4 Blood of the Pious
+	4 Memorial Obelisk
+	4 Lake Sebay
+	4 Port Kharteru
+	4 Hidden Necropolis Entrance
+	4 Sulfurous Baths
+	4 Shefet Shrublands
+	4 Happy
+	4 Wasmawt's Presence
+	4 Churning of Lava
+	4 Going
+	4 Vital Takeover
+	4 Lazotep Blade
+	4 Icon of Unity
+	4 Spellfire Khopesh
+	4 Daruxian Spinescourger
+	4 Mindstab Ravager
+	4 Vile Judge
+	4 Boiling Bloodlust
+	4 Chamber of New Anointment
+	4 Divine Attunement
+	4 First Altar of Wasmawt
+	4 Mistress of Leashes
+	4 Officiant of the Arisen
+	4 Scion of New Rivers
+	4 Maathep's Servant
+	4 Training Regimen
+	4 Walking Oasis
+	4 Bastion of Maathep
+	4 Crucible of Eternity
+	4 Bloodblade Naga
+	4 Priest of Gah-Api
+	4 Voyage to New Homes
+	4 High Priest of Ketramose
+	4 Tjuf, Herald of Snehem
+	4 Hofan Slithermaster
+	4 Chariot Commander
+	4 Flow State
 [common(6)]
-	8 CA06 Pendant of Bright Futures
-	8 CW01 Votive Soul
-	8 CW02 Two Suns Fighter
-	8 CW03 Priest of the Angel's Path
-	8 CW05 Envoy of New Ways
-	8 CW04 Conflicted Angel
-	8 CW06 Coordinated Infantry
-	8 CW07 Cruel Adjudicator
-	8 CW08 Phalanx Commander
-	8 CW09 Broken Lands Monitor
-	8 CW10 Blessed Revivalist
-	8 CW11 Mindless Servant
-	8 CW12 Swift Response
-	8 CW13 Deity's Presence
-	8 CW14 Ready Bows
-	8 CW15 Room
-	8 CW16 Feeding Time
-	8 CU01 Soul Administrator
-	8 CU02 Aven Theorist
-	8 CU03 Dedicated Scribe
-	8 CU04 Seshen Pollinators
-	8 CU05 Zenith Hunter
-	8 CU06 Frozen Sands Cadre
-	8 CU07 Vindictive Sphinx
-	8 CU08 Avatar of Sab-Sunen
-	8 CU09 Nose
-	8 CU10 Nullification Chant
-	8 CU11 Listen
-	8 CU12 Meditative Wisdom
-	8 CU13 Turned to Stone
-	8 CU14 Second
-	8 CU15 Tough
-	8 CU16 Sailskiff
-	8 CB01 Serrated Scorpion
-	8 CB02 Fleshform Serket
-	8 CB03 Sentimental Thug
-	8 CB04 Canopic Harvester
-	8 CB05 Carcass Collector
-	8 CB06 Ferocious Cobra
-	8 CB07 Ifnir Farseer
-	8 CB08 Returned Master
-	8 CB09 Burial Chamber Guardian
-	8 CB10 Remains
-	8 CB11 Mantle of Shards
-	8 CB12 Selling Lives
-	8 CB13 Moment of Weakness
-	8 CB15 Disintegrating Wrappings
-	8 CB16 Spinal Diviner
-	8 CR01 Rage-cursed Returned
-	8 CR02 Frontier Messenger
-	8 CR03 Maahestet Champion
-	8 CR04 Shadowseller
-	8 CR05 Bloodsand Lich
-	8 CR06 Role Model Sergeant
-	8 CR07 Ka-Blade Champion
-	8 CR08 Avenging Minotaur
-	8 CR09 Starving Sandwurm
-	8 CR10 Pay
-	8 CR11 Stirred
-	8 CR12 Stealing the Beacon
-	8 CR13 Abrade
-	8 CR14 Hot
-	8 CR15 Holy Pyre
-	8 CR16 Helm of Hazoret
-	8 CG01 Apepisw Gate
-	8 CG02 Oashra Vitalist
-	8 CG03 Exploring Couple
-	8 CG04 Giant Ibis
-	8 CG05 Instructor Huntress
-	8 CG06 Boat-climber Cobra
-	8 CG07 Seeker of Lost Species
-	8 CG08 Hippo Family
-	8 CG09 Avenging Elephant
-	8 CG10 Oasis Sentinel
-	8 CG11 Maul
-	8 CG12 Hunting Party
-	8 CG14 City's Founding
-	8 CG15 Night Market
-	8 CG16 Ghrin-Danu's Servitors
-	8 CA01 Lazoskin Tracker
-	8 CA02 Tomb Builder
-	8 CA03 Grounds Guardian
-	8 CA04 Private Feast
-	8 CA05 Gleaming Capstone
-	8 CL01 Winding River
-	8 CB14 Feast on Flesh
-	8 CG13 Adjust to Abundance
-	8 CL02 Mirage Pool
+	8 Pendant of Bright Futures
+	8 Votive Soul
+	8 Two Suns Fighter
+	8 Priest of the Angel's Path
+	8 Envoy of New Ways
+	8 Conflicted Angel
+	8 Coordinated Infantry
+	8 Cruel Adjudicator
+	8 Phalanx Commander
+	8 Broken Lands Monitor
+	8 Blessed Revivalist
+	8 Mindless Servant
+	8 Swift Response
+	8 Deity's Presence
+	8 Ready Bows
+	8 Room
+	8 Feeding Time
+	8 Soul Administrator
+	8 Aven Theorist
+	8 Dedicated Scribe
+	8 Seshen Pollinators
+	8 Zenith Hunter
+	8 Frozen Sands Cadre
+	8 Vindictive Sphinx
+	8 Avatar of Sab-Sunen
+	8 Nose
+	8 Nullification Chant
+	8 Listen
+	8 Meditative Wisdom
+	8 Turned to Stone
+	8 Second
+	8 Tough
+	8 Sailskiff
+	8 Serrated Scorpion
+	8 Fleshform Serket
+	8 Sentimental Thug
+	8 Canopic Harvester
+	8 Carcass Collector
+	8 Ferocious Cobra
+	8 Ifnir Farseer
+	8 Returned Master
+	8 Burial Chamber Guardian
+	8 Remains
+	8 Mantle of Shards
+	8 Selling Lives
+	8 Moment of Weakness
+	8 Disintegrating Wrappings
+	8 Spinal Diviner
+	8 Rage-cursed Returned
+	8 Frontier Messenger
+	8 Maahestet Champion
+	8 Shadowseller
+	8 Bloodsand Lich
+	8 Role Model Sergeant
+	8 Ka-Blade Champion
+	8 Avenging Minotaur
+	8 Starving Sandwurm
+	8 Pay
+	8 Stirred
+	8 Stealing the Beacon
+	8 Abrade
+	8 Hot
+	8 Holy Pyre
+	8 Helm of Hazoret
+	8 Apepisw Gate
+	8 Oashra Vitalist
+	8 Exploring Couple
+	8 Giant Ibis
+	8 Instructor Huntress
+	8 Boat-climber Cobra
+	8 Seeker of Lost Species
+	8 Hippo Family
+	8 Avenging Elephant
+	8 Oasis Sentinel
+	8 Maul
+	8 Hunting Party
+	8 City's Founding
+	8 Night Market
+	8 Ghrin-Danu's Servitors
+	8 Lazoskin Tracker
+	8 Tomb Builder
+	8 Grounds Guardian
+	8 Private Feast
+	8 Gleaming Capstone
+	8 Winding River
+	8 Feast on Flesh
+	8 Adjust to Abundance
+	8 Mirage Pool
 [common | masterpiece(1)]
-	8 CA06 Pendant of Bright Futures
-	8 CW01 Votive Soul
-	8 CW02 Two Suns Fighter
-	8 CW03 Priest of the Angel's Path
-	8 CW05 Envoy of New Ways
-	8 CW04 Conflicted Angel
-	8 CW06 Coordinated Infantry
-	8 CW07 Cruel Adjudicator
-	8 CW08 Phalanx Commander
-	8 CW09 Broken Lands Monitor
-	8 CW10 Blessed Revivalist
-	8 CW11 Mindless Servant
-	8 CW12 Swift Response
-	8 CW13 Deity's Presence
-	8 CW14 Ready Bows
-	8 CW15 Room
-	8 CW16 Feeding Time
-	8 CU01 Soul Administrator
-	8 CU02 Aven Theorist
-	8 CU03 Dedicated Scribe
-	8 CU04 Seshen Pollinators
-	8 CU05 Zenith Hunter
-	8 CU06 Frozen Sands Cadre
-	8 CU07 Vindictive Sphinx
-	8 CU08 Avatar of Sab-Sunen
-	8 CU09 Nose
-	8 CU10 Nullification Chant
-	8 CU11 Listen
-	8 CU12 Meditative Wisdom
-	8 CU13 Turned to Stone
-	8 CU14 Second
-	8 CU15 Tough
-	8 CU16 Sailskiff
-	8 CB01 Serrated Scorpion
-	8 CB02 Fleshform Serket
-	8 CB03 Sentimental Thug
-	8 CB04 Canopic Harvester
-	8 CB05 Carcass Collector
-	8 CB06 Ferocious Cobra
-	8 CB07 Ifnir Farseer
-	8 CB08 Returned Master
-	8 CB09 Burial Chamber Guardian
-	8 CB10 Remains
-	8 CB11 Mantle of Shards
-	8 CB12 Selling Lives
-	8 CB13 Moment of Weakness
-	8 CB15 Disintegrating Wrappings
-	8 CB16 Spinal Diviner
-	8 CR01 Rage-cursed Returned
-	8 CR02 Frontier Messenger
-	8 CR03 Maahestet Champion
-	8 CR04 Shadowseller
-	8 CR05 Bloodsand Lich
-	8 CR06 Role Model Sergeant
-	8 CR07 Ka-Blade Champion
-	8 CR08 Avenging Minotaur
-	8 CR09 Starving Sandwurm
-	8 CR10 Pay
-	8 CR11 Stirred
-	8 CR12 Stealing the Beacon
-	8 CR13 Abrade
-	8 CR14 Hot
-	8 CR15 Holy Pyre
-	8 CR16 Helm of Hazoret
-	8 CG01 Apepisw Gate
-	8 CG02 Oashra Vitalist
-	8 CG03 Exploring Couple
-	8 CG04 Giant Ibis
-	8 CG05 Instructor Huntress
-	8 CG06 Boat-climber Cobra
-	8 CG07 Seeker of Lost Species
-	8 CG08 Hippo Family
-	8 CG09 Avenging Elephant
-	8 CG10 Oasis Sentinel
-	8 CG11 Maul
-	8 CG12 Hunting Party
-	8 CG14 City's Founding
-	8 CG15 Night Market
-	8 CG16 Ghrin-Danu's Servitors
-	8 CA01 Lazoskin Tracker
-	8 CA02 Tomb Builder
-	8 CA03 Grounds Guardian
-	8 CA04 Private Feast
-	8 CA05 Gleaming Capstone
-	8 CL01 Winding River
-	8 CB14 Feast on Flesh
-	8 CG13 Adjust to Abundance
-	8 CL02 Mirage Pool
+	8 Pendant of Bright Futures
+	8 Votive Soul
+	8 Two Suns Fighter
+	8 Priest of the Angel's Path
+	8 Envoy of New Ways
+	8 Conflicted Angel
+	8 Coordinated Infantry
+	8 Cruel Adjudicator
+	8 Phalanx Commander
+	8 Broken Lands Monitor
+	8 Blessed Revivalist
+	8 Mindless Servant
+	8 Swift Response
+	8 Deity's Presence
+	8 Ready Bows
+	8 Room
+	8 Feeding Time
+	8 Soul Administrator
+	8 Aven Theorist
+	8 Dedicated Scribe
+	8 Seshen Pollinators
+	8 Zenith Hunter
+	8 Frozen Sands Cadre
+	8 Vindictive Sphinx
+	8 Avatar of Sab-Sunen
+	8 Nose
+	8 Nullification Chant
+	8 Listen
+	8 Meditative Wisdom
+	8 Turned to Stone
+	8 Second
+	8 Tough
+	8 Sailskiff
+	8 Serrated Scorpion
+	8 Fleshform Serket
+	8 Sentimental Thug
+	8 Canopic Harvester
+	8 Carcass Collector
+	8 Ferocious Cobra
+	8 Ifnir Farseer
+	8 Returned Master
+	8 Burial Chamber Guardian
+	8 Remains
+	8 Mantle of Shards
+	8 Selling Lives
+	8 Moment of Weakness
+	8 Disintegrating Wrappings
+	8 Spinal Diviner
+	8 Rage-cursed Returned
+	8 Frontier Messenger
+	8 Maahestet Champion
+	8 Shadowseller
+	8 Bloodsand Lich
+	8 Role Model Sergeant
+	8 Ka-Blade Champion
+	8 Avenging Minotaur
+	8 Starving Sandwurm
+	8 Pay
+	8 Stirred
+	8 Stealing the Beacon
+	8 Abrade
+	8 Hot
+	8 Holy Pyre
+	8 Helm of Hazoret
+	8 Apepisw Gate
+	8 Oashra Vitalist
+	8 Exploring Couple
+	8 Giant Ibis
+	8 Instructor Huntress
+	8 Boat-climber Cobra
+	8 Seeker of Lost Species
+	8 Hippo Family
+	8 Avenging Elephant
+	8 Oasis Sentinel
+	8 Maul
+	8 Hunting Party
+	8 City's Founding
+	8 Night Market
+	8 Ghrin-Danu's Servitors
+	8 Lazoskin Tracker
+	8 Tomb Builder
+	8 Grounds Guardian
+	8 Private Feast
+	8 Gleaming Capstone
+	8 Winding River
+	8 Feast on Flesh
+	8 Adjust to Abundance
+	8 Mirage Pool
 [foil(1)]
-	12 CA06 Pendant of Bright Futures
-	12 CW01 Votive Soul
-	12 CW02 Two Suns Fighter
-	12 CW03 Priest of the Angel's Path
-	12 CW05 Envoy of New Ways
-	12 CW04 Conflicted Angel
-	12 CW06 Coordinated Infantry
-	12 CW07 Cruel Adjudicator
-	12 CW08 Phalanx Commander
-	12 CW09 Broken Lands Monitor
-	12 CW10 Blessed Revivalist
-	12 CW11 Mindless Servant
-	12 CW12 Swift Response
-	12 CW13 Deity's Presence
-	12 CW14 Ready Bows
-	12 CW15 Room
-	12 CW16 Feeding Time
-	6 UW11 Maathep's Interdiction
-	6 UW12 Hazoret's Blessing
-	6 UW13 Last Dignity
-	12 CU01 Soul Administrator
-	12 CU02 Aven Theorist
-	12 CU03 Dedicated Scribe
-	12 CU04 Seshen Pollinators
-	12 CU05 Zenith Hunter
-	12 CU06 Frozen Sands Cadre
-	12 CU07 Vindictive Sphinx
-	12 CU08 Avatar of Sab-Sunen
-	12 CU09 Nose
-	12 CU10 Nullification Chant
-	12 CU11 Listen
-	12 CU12 Meditative Wisdom
-	12 CU13 Turned to Stone
-	12 CU14 Second
-	12 CU15 Tough
-	12 CU16 Sailskiff
-	6 UU11 Note
-	6 UU12 Unsorted Scrolls
-	6 UU13 The Wisdom of Unity
-	12 CB01 Serrated Scorpion
-	12 CB02 Fleshform Serket
-	12 CB03 Sentimental Thug
-	12 CB04 Canopic Harvester
-	12 CB05 Carcass Collector
-	12 CB06 Ferocious Cobra
-	12 CB07 Ifnir Farseer
-	12 CB08 Returned Master
-	12 CB09 Burial Chamber Guardian
-	12 CB10 Remains
-	12 CB11 Mantle of Shards
-	12 CB12 Selling Lives
-	12 CB13 Moment of Weakness
-	12 CB15 Disintegrating Wrappings
-	12 CB16 Spinal Diviner
-	6 UB12 Betrayal of Secrets
-	6 UB13 Scarab Armor
-	6 UB15 Word
-	12 CR01 Rage-cursed Returned
-	12 CR02 Frontier Messenger
-	12 CR03 Maahestet Champion
-	12 CR04 Shadowseller
-	12 CR05 Bloodsand Lich
-	12 CR06 Role Model Sergeant
-	12 CR07 Ka-Blade Champion
-	12 CR08 Avenging Minotaur
-	12 CR09 Starving Sandwurm
-	12 CR10 Pay
-	12 CR11 Stirred
-	12 CR12 Stealing the Beacon
-	12 CR13 Abrade
-	12 CR14 Hot
-	12 CR15 Holy Pyre
-	12 CR16 Helm of Hazoret
-	6 UR12 Read the Forbidden Scrolls
-	6 UR14 Time
-	6 UR13 Bite
-	12 CG01 Apepisw Gate
-	12 CG02 Oashra Vitalist
-	12 CG03 Exploring Couple
-	12 CG04 Giant Ibis
-	12 CG05 Instructor Huntress
-	12 CG06 Boat-climber Cobra
-	12 CG07 Seeker of Lost Species
-	12 CG08 Hippo Family
-	12 CG09 Avenging Elephant
-	12 CG10 Oasis Sentinel
-	12 CG11 Maul
-	12 CG12 Hunting Party
-	12 CG14 City's Founding
-	12 CG15 Night Market
-	12 CG16 Ghrin-Danu's Servitors
-	6 UG13 Cover-Up
-	6 UG12 Close
-	6 UG11 Stumble Upon Sanctuary
-	6 UW01 Scion of Hazoret
-	6 UW02 Herald of the Lost
-	6 UW03 Arena Champion
-	6 UW04 Priestess of Sanctity
-	6 UW05 Vessel of Purity
-	6 UW06 Callous Charioteer
-	6 UW07 Razemaster
-	6 UW08 Angel of Obeisance
-	6 UW09 Makheru, Voice of Truth
-	6 UW10 Megalithic Guardian
-	6 UU01 Drakerider Spellweaver
-	6 UU02 Keeper of Blessed Waters
-	6 UU03 Afu, Chosen of the Scarab
-	6 UU04 Vigilant Obstructionist
-	6 UU05 Vessel of Genius
-	6 UU06 Pillar-Leaper Sphinx
-	6 UU07 Track Guardian
-	6 UU08 Yours
-	6 UU09 Lofty Response
-	6 UU10 Mastery of Tumbling Sands
-	6 UB01 Eternal Fighters
-	6 UB02 Scion of Emptiness
-	6 UB03 Obssessed Falconer
-	6 UB04 Vessel of Darkness
-	6 UB06 Omnivorous Exhumer
-	6 UB07 Merciless Brawler
-	6 UB09 Rise of the Doomed
-	6 UB10 Localized Disaster
-	6 UB11 Hyena Pack Attack
-	6 UR01 Taw-honed Fighter
-	6 UR02 Skeshed, Dancing Storm
-	6 UR03 Hermit Champion
-	6 UR04 Vessel of Wrath
-	6 UR05 Scorchtrack Mehu
-	6 UR07 Wine Priestess
-	6 UR08 Corrupted Emberhorn
-	6 UR09 Darkstorm Bolt
-	6 UR10 Infectious Bravado
-	6 UR11 Ready
-	6 UG01 Eneri, Cunning Treasurer
-	6 UG02 Luxa Shoremage
-	6 UG03 Giant Carrion Beetle
-	6 UG04 Paladin of Ghrin-Danu
-	6 UG05 Delta Monitor
-	6 UG06 Vessel of Nature
-	6 UG07 Naga Secretstealer
-	6 UG08 Danurian Woodcaller
-	6 UG09 Gargantuan Abytira
-	6 UG10 Supervisor's Intervention
-	2 RW01 Sek'new, Lifeblood Brawler
-	2 RW02 Converted Seraph
-	2 RW03 Returned Vizier
-	2 RW04 Basri Ket, Conflicted
-	2 RW05 Diplomatic Conclave
-	2 RW06 Extracted Confession
-	2 RW07 Carven Legacy
-	2 RU01 Snehemite Novitiate
-	2 RU02 Ramunap Revenant
-	2 RU03 Interdiction Angel
-	2 RU04 Mystic Manipulation
-	2 RU05 Shifting Constellations
-	2 RU06 Djamankh's Hydromancy
-	2 RU07 Made
-	2 RB01 Bx'sur, Chosen of Darux
-	2 RB02 Eternal Embalmer
-	2 RB03 Soulmaster Seter
-	2 RB04 Isift, Vizier of Ifnir
-	2 RB06 Isift's Judgment
-	2 RB07 Wasmawt's Blessing
-	2 RR01 Kharteran Pike-Mistress
-	2 RR02 rg aa token maker
-	2 RR03 Lazotep Dragon
-	2 RR04 'the end'
-	2 RR05 'bold'
-	2 RR06 Agree
-	2 RR07 'bracers'
-	2 RG01 Hesep Tender
-	2 RG02 Tankht, Gah-Api's Emissary
-	2 RG03 Lifeblood Siphoner
-	2 RG04 Hyena Matriarch
-	2 RG05 Home
-	2 RG06 Domesticate
-	2 RG07 Godsize
-	1 MW01 Tekhen, Ancient Spiresoul
-	1 MW02 Two Suns' Radiance
-	1 MU01 Eager
-	1 MU02 Neputarkh, the Heretic
-	1 MB01 Method
-	1 MB02 Archangel of Ketramose
-	1 MR01 Itching
-	1 MR02 Kav'set the Ruthless
-	1 MG01 Assembling the Menagerie
-	1 MG02 Pandevotional Summoner
-	2 RM01 Council's Decree
-	2 RM01 Done
-	2 RM01 Embalmed Dragon
-	2 RM01 Samut, Expedition Leader
-	2 RM01 Land Tokenator
-	2 RM01 Zahur, Maahestet Leader
-	2 RM01 Scattered
-	2 RM01 Great Serpent's Arrival
-	2 RM01 Djeru, Lord General
-	2 RM01 Dejukhab Bull
-	12 CA01 Lazoskin Tracker
-	12 CA02 Tomb Builder
-	12 CA03 Grounds Guardian
-	12 CA04 Private Feast
-	12 CA05 Gleaming Capstone
-	6 UA04 Blood of the Pious
-	6 UA05 Memorial Obelisk
-	12 CL01 Winding River
-	6 UL01 Lake Sebay
-	6 UL02 Port Kharteru
-	6 UL03 Hidden Necropolis Entrance
-	6 UL04 Sulfurous Baths
-	6 UL05 Shefet Shrublands
-	6 UU14 Happy
-	6 UB14 Wasmawt's Presence
-	6 UR15 Churning of Lava
-	6 UW14 Going
-	6 UG14 Vital Takeover
-	1 RX07 Naktamun Market Streets
-	2 RX08 Foreboding Gate
-	1 RM01 Darux, Miasma of Passion
-	1 RM01 Gah-Api, Life's Hope
-	1 RM01 Ghrin-Danu, Watchful Mother
-	1 RM01 Hazoret, Zealous Survivor
-	1 RM01 Ketramose, Virtuous Sacrifice
-	1 RM01 Sab-Sunen, Flow of Time
-	1 RM01 Scarab God, Wrath of Eons
-	1 RM01 Maathep, Lawgiver
-	1 RM01 Snehem, God of Locusts
-	1 RM01 Wasmawt, Inevitable Death
-	12 CB14 Feast on Flesh
-	2 RB05 Coming Forth by Night
-	12 CG13 Adjust to Abundance
-	6 UA01 Lazotep Blade
-	6 UA02 Icon of Unity
-	6 UA03 Spellfire Khopesh
-	6 UR06 Daruxian Spinescourger
-	6 UB05 Mindstab Ravager
-	6 UB08 Vile Judge
-	6 UM01 BR-1 Boiling Bloodlust
-	6 UM01 WB-1 Chamber of New Anointment
-	6 UM01 UR-1 Divine Attunement
-	6 UM01 BG-1 First Altar of Wasmawt
-	6 UM01 RG-1 Mistress of Leashes
-	6 UM01 UB-1 Officiant of the Arisen
-	6 UM01 GU-1 Scion of New Rivers
-	6 UM01 WU-1 Maathep's Servant
-	6 UM01 RW-1 Training Regimen
-	6 UM01 GW-1 Walking Oasis
-	6 UM01 WU-2 Bastion of Maathep
-	6 UM01 UB-2 Crucible of Eternity
-	6 UM01 BR-2 Bloodblade Naga
-	6 UM01 RG-2 Priest of Gah-Api
-	6 UM01 GW-2 Voyage to New Homes
-	6 UM01 WB-2 High Priest of Ketramose
-	6 UM01 UR-2 Tjuf, Herald of Snehem
-	6 UM01 BG-2 Hofan Slithermaster
-	6 UM01 RW-2 Chariot Commander
-	6 UM01 GU-2 Flow State
-	12 CL02 Mirage Pool
+	12 Pendant of Bright Futures
+	12 Votive Soul
+	12 Two Suns Fighter
+	12 Priest of the Angel's Path
+	12 Envoy of New Ways
+	12 Conflicted Angel
+	12 Coordinated Infantry
+	12 Cruel Adjudicator
+	12 Phalanx Commander
+	12 Broken Lands Monitor
+	12 Blessed Revivalist
+	12 Mindless Servant
+	12 Swift Response
+	12 Deity's Presence
+	12 Ready Bows
+	12 Room
+	12 Feeding Time
+	6 Maathep's Interdiction
+	6 Hazoret's Blessing
+	6 Last Dignity
+	12 Soul Administrator
+	12 Aven Theorist
+	12 Dedicated Scribe
+	12 Seshen Pollinators
+	12 Zenith Hunter
+	12 Frozen Sands Cadre
+	12 Vindictive Sphinx
+	12 Avatar of Sab-Sunen
+	12 Nose
+	12 Nullification Chant
+	12 Listen
+	12 Meditative Wisdom
+	12 Turned to Stone
+	12 Second
+	12 Tough
+	12 Sailskiff
+	6 Note
+	6 Unsorted Scrolls
+	6 The Wisdom of Unity
+	12 Serrated Scorpion
+	12 Fleshform Serket
+	12 Sentimental Thug
+	12 Canopic Harvester
+	12 Carcass Collector
+	12 Ferocious Cobra
+	12 Ifnir Farseer
+	12 Returned Master
+	12 Burial Chamber Guardian
+	12 Remains
+	12 Mantle of Shards
+	12 Selling Lives
+	12 Moment of Weakness
+	12 Disintegrating Wrappings
+	12 Spinal Diviner
+	6 Betrayal of Secrets
+	6 Scarab Armor
+	6 Word
+	12 Rage-cursed Returned
+	12 Frontier Messenger
+	12 Maahestet Champion
+	12 Shadowseller
+	12 Bloodsand Lich
+	12 Role Model Sergeant
+	12 Ka-Blade Champion
+	12 Avenging Minotaur
+	12 Starving Sandwurm
+	12 Pay
+	12 Stirred
+	12 Stealing the Beacon
+	12 Abrade
+	12 Hot
+	12 Holy Pyre
+	12 Helm of Hazoret
+	6 Read the Forbidden Scrolls
+	6 Time
+	6 Bite
+	12 Apepisw Gate
+	12 Oashra Vitalist
+	12 Exploring Couple
+	12 Giant Ibis
+	12 Instructor Huntress
+	12 Boat-climber Cobra
+	12 Seeker of Lost Species
+	12 Hippo Family
+	12 Avenging Elephant
+	12 Oasis Sentinel
+	12 Maul
+	12 Hunting Party
+	12 City's Founding
+	12 Night Market
+	12 Ghrin-Danu's Servitors
+	6 Cover-Up
+	6 Close
+	6 Stumble Upon Sanctuary
+	6 Scion of Hazoret
+	6 Herald of the Lost
+	6 Arena Champion
+	6 Priestess of Sanctity
+	6 Vessel of Purity
+	6 Callous Charioteer
+	6 Razemaster
+	6 Angel of Obeisance
+	6 Makheru, Voice of Truth
+	6 Megalithic Guardian
+	6 Drakerider Spellweaver
+	6 Keeper of Blessed Waters
+	6 Afu, Chosen of the Scarab
+	6 Vigilant Obstructionist
+	6 Vessel of Genius
+	6 Pillar-Leaper Sphinx
+	6 Track Guardian
+	6 Yours
+	6 Lofty Response
+	6 Mastery of Tumbling Sands
+	6 Eternal Fighters
+	6 Scion of Emptiness
+	6 Obssessed Falconer
+	6 Vessel of Darkness
+	6 Omnivorous Exhumer
+	6 Merciless Brawler
+	6 Rise of the Doomed
+	6 Localized Disaster
+	6 Hyena Pack Attack
+	6 Taw-honed Fighter
+	6 Skeshed, Dancing Storm
+	6 Hermit Champion
+	6 Vessel of Wrath
+	6 Scorchtrack Mehu
+	6 Wine Priestess
+	6 Corrupted Emberhorn
+	6 Darkstorm Bolt
+	6 Infectious Bravado
+	6 Ready
+	6 Eneri, Cunning Treasurer
+	6 Luxa Shoremage
+	6 Giant Carrion Beetle
+	6 Paladin of Ghrin-Danu
+	6 Delta Monitor
+	6 Vessel of Nature
+	6 Naga Secretstealer
+	6 Danurian Woodcaller
+	6 Gargantuan Abytira
+	6 Supervisor's Intervention
+	2 Sek'new, Lifeblood Brawler
+	2 Converted Seraph
+	2 Returned Vizier
+	2 Basri Ket, Conflicted
+	2 Diplomatic Conclave
+	2 Extracted Confession
+	2 Carven Legacy
+	2 Snehemite Novitiate
+	2 Ramunap Revenant
+	2 Interdiction Angel
+	2 Mystic Manipulation
+	2 Shifting Constellations
+	2 Djamankh's Hydromancy
+	2 Made
+	2 Bx'sur, Chosen of Darux
+	2 Eternal Embalmer
+	2 Soulmaster Seter
+	2 Isift, Vizier of Ifnir
+	2 Isift's Judgment
+	2 Wasmawt's Blessing
+	2 Kharteran Pike-Mistress
+	2 Ewrkhy, Defender of Nature
+	2 Lazotep Dragon
+	2 Allure of the Victorious
+	2 Righteous Passion
+	2 Agree
+	2 Ka-channel Wrapping
+	2 Hesep Tender
+	2 Tankht, Gah-Api's Emissary
+	2 Lifeblood Siphoner
+	2 Hyena Matriarch
+	2 Home
+	2 Domesticate
+	2 Godsize
+	1 Tekhen, Ancient Spiresoul
+	1 Two Suns' Radiance
+	1 Eager
+	1 Neputarkh, the Heretic
+	1 Method
+	1 Archangel of Ketramose
+	1 Itching
+	1 Kav'set the Ruthless
+	1 Assembling the Menagerie
+	1 Pandevotional Summoner
+	2 Council's Decree
+	2 Done
+	2 Embalmed Dragon
+	2 Samut, Expedition Leader
+	2 Katilda's Crucible
+	2 Zahur, Maahestet Leader
+	2 Scattered
+	2 Great Serpent's Arrival
+	2 Djeru, Lord General
+	2 Dejukhab Bull
+	12 Lazoskin Tracker
+	12 Tomb Builder
+	12 Grounds Guardian
+	12 Private Feast
+	12 Gleaming Capstone
+	6 Blood of the Pious
+	6 Memorial Obelisk
+	12 Winding River
+	6 Lake Sebay
+	6 Port Kharteru
+	6 Hidden Necropolis Entrance
+	6 Sulfurous Baths
+	6 Shefet Shrublands
+	6 Happy
+	6 Wasmawt's Presence
+	6 Churning of Lava
+	6 Going
+	6 Vital Takeover
+	1 Naktamun Market Streets
+	2 Foreboding Gate
+	1 Darux, Miasma of Passion
+	1 Gah-Api, Life's Hope
+	1 Ghrin-Danu, Watchful Mother
+	1 Hazoret, Zealous Survivor
+	1 Ketramose, Virtuous Sacrifice
+	1 Sab-Sunen, Flow of Time
+	1 Scarab God, Wrath of Eons
+	1 Maathep, Lawgiver
+	1 Snehem, God of Locusts
+	1 Wasmawt, Inevitable Death
+	12 Feast on Flesh
+	2 Coming Forth by Night
+	12 Adjust to Abundance
+	6 Lazotep Blade
+	6 Icon of Unity
+	6 Spellfire Khopesh
+	6 Daruxian Spinescourger
+	6 Mindstab Ravager
+	6 Vile Judge
+	6 Boiling Bloodlust
+	6 Chamber of New Anointment
+	6 Divine Attunement
+	6 First Altar of Wasmawt
+	6 Mistress of Leashes
+	6 Officiant of the Arisen
+	6 Scion of New Rivers
+	6 Maathep's Servant
+	6 Training Regimen
+	6 Walking Oasis
+	6 Bastion of Maathep
+	6 Crucible of Eternity
+	6 Bloodblade Naga
+	6 Priest of Gah-Api
+	6 Voyage to New Homes
+	6 High Priest of Ketramose
+	6 Tjuf, Herald of Snehem
+	6 Hofan Slithermaster
+	6 Chariot Commander
+	6 Flow State
+	12 Mirage Pool
 [wildcard(1)]
-	6 CA06 Pendant of Bright Futures
-	6 CW01 Votive Soul
-	6 CW02 Two Suns Fighter
-	6 CW03 Priest of the Angel's Path
-	6 CW05 Envoy of New Ways
-	6 CW04 Conflicted Angel
-	6 CW06 Coordinated Infantry
-	6 CW07 Cruel Adjudicator
-	6 CW08 Phalanx Commander
-	6 CW09 Broken Lands Monitor
-	6 CW10 Blessed Revivalist
-	6 CW11 Mindless Servant
-	6 CW12 Swift Response
-	6 CW13 Deity's Presence
-	6 CW14 Ready Bows
-	6 CW15 Room
-	6 CW16 Feeding Time
-	15 UW11 Maathep's Interdiction
-	15 UW12 Hazoret's Blessing
-	15 UW13 Last Dignity
-	6 CU01 Soul Administrator
-	6 CU02 Aven Theorist
-	6 CU03 Dedicated Scribe
-	6 CU04 Seshen Pollinators
-	6 CU05 Zenith Hunter
-	6 CU06 Frozen Sands Cadre
-	6 CU07 Vindictive Sphinx
-	6 CU08 Avatar of Sab-Sunen
-	6 CU09 Nose
-	6 CU10 Nullification Chant
-	6 CU11 Listen
-	6 CU12 Meditative Wisdom
-	6 CU13 Turned to Stone
-	6 CU14 Second
-	6 CU15 Tough
-	6 CU16 Sailskiff
-	15 UU11 Note
-	15 UU12 Unsorted Scrolls
-	15 UU13 The Wisdom of Unity
-	6 CB01 Serrated Scorpion
-	6 CB02 Fleshform Serket
-	6 CB03 Sentimental Thug
-	6 CB04 Canopic Harvester
-	6 CB05 Carcass Collector
-	6 CB06 Ferocious Cobra
-	6 CB07 Ifnir Farseer
-	6 CB08 Returned Master
-	6 CB09 Burial Chamber Guardian
-	6 CB10 Remains
-	6 CB11 Mantle of Shards
-	6 CB12 Selling Lives
-	6 CB13 Moment of Weakness
-	6 CB15 Disintegrating Wrappings
-	6 CB16 Spinal Diviner
-	15 UB12 Betrayal of Secrets
-	15 UB13 Scarab Armor
-	15 UB15 Word
-	6 CR01 Rage-cursed Returned
-	6 CR02 Frontier Messenger
-	6 CR03 Maahestet Champion
-	6 CR04 Shadowseller
-	6 CR05 Bloodsand Lich
-	6 CR06 Role Model Sergeant
-	6 CR07 Ka-Blade Champion
-	6 CR08 Avenging Minotaur
-	6 CR09 Starving Sandwurm
-	6 CR10 Pay
-	6 CR11 Stirred
-	6 CR12 Stealing the Beacon
-	6 CR13 Abrade
-	6 CR14 Hot
-	6 CR15 Holy Pyre
-	6 CR16 Helm of Hazoret
-	15 UR12 Read the Forbidden Scrolls
-	15 UR14 Time
-	15 UR13 Bite
-	6 CG01 Apepisw Gate
-	6 CG02 Oashra Vitalist
-	6 CG03 Exploring Couple
-	6 CG04 Giant Ibis
-	6 CG05 Instructor Huntress
-	6 CG06 Boat-climber Cobra
-	6 CG07 Seeker of Lost Species
-	6 CG08 Hippo Family
-	6 CG09 Avenging Elephant
-	6 CG10 Oasis Sentinel
-	6 CG11 Maul
-	6 CG12 Hunting Party
-	6 CG14 City's Founding
-	6 CG15 Night Market
-	6 CG16 Ghrin-Danu's Servitors
-	15 UG13 Cover-Up
-	15 UG12 Close
-	15 UG11 Stumble Upon Sanctuary
-	15 UW01 Scion of Hazoret
-	15 UW02 Herald of the Lost
-	15 UW03 Arena Champion
-	15 UW04 Priestess of Sanctity
-	15 UW05 Vessel of Purity
-	15 UW06 Callous Charioteer
-	15 UW07 Razemaster
-	15 UW08 Angel of Obeisance
-	15 UW09 Makheru, Voice of Truth
-	15 UW10 Megalithic Guardian
-	15 UU01 Drakerider Spellweaver
-	15 UU02 Keeper of Blessed Waters
-	15 UU03 Afu, Chosen of the Scarab
-	15 UU04 Vigilant Obstructionist
-	15 UU05 Vessel of Genius
-	15 UU06 Pillar-Leaper Sphinx
-	15 UU07 Track Guardian
-	15 UU08 Yours
-	15 UU09 Lofty Response
-	15 UU10 Mastery of Tumbling Sands
-	15 UB01 Eternal Fighters
-	15 UB02 Scion of Emptiness
-	15 UB03 Obssessed Falconer
-	15 UB04 Vessel of Darkness
-	15 UB06 Omnivorous Exhumer
-	15 UB07 Merciless Brawler
-	15 UB09 Rise of the Doomed
-	15 UB10 Localized Disaster
-	15 UB11 Hyena Pack Attack
-	15 UR01 Taw-honed Fighter
-	15 UR02 Skeshed, Dancing Storm
-	15 UR03 Hermit Champion
-	15 UR04 Vessel of Wrath
-	15 UR05 Scorchtrack Mehu
-	15 UR07 Wine Priestess
-	15 UR08 Corrupted Emberhorn
-	15 UR09 Darkstorm Bolt
-	15 UR10 Infectious Bravado
-	15 UR11 Ready
-	15 UG01 Eneri, Cunning Treasurer
-	15 UG02 Luxa Shoremage
-	15 UG03 Giant Carrion Beetle
-	15 UG04 Paladin of Ghrin-Danu
-	15 UG05 Delta Monitor
-	15 UG06 Vessel of Nature
-	15 UG07 Naga Secretstealer
-	15 UG08 Danurian Woodcaller
-	15 UG09 Gargantuan Abytira
-	15 UG10 Supervisor's Intervention
-	7 RW01 Sek'new, Lifeblood Brawler
-	7 RW02 Converted Seraph
-	7 RW03 Returned Vizier
-	7 RW04 Basri Ket, Conflicted
-	7 RW05 Diplomatic Conclave
-	7 RW06 Extracted Confession
-	7 RW07 Carven Legacy
-	7 RU01 Snehemite Novitiate
-	7 RU02 Ramunap Revenant
-	7 RU03 Interdiction Angel
-	7 RU04 Mystic Manipulation
-	7 RU05 Shifting Constellations
-	7 RU06 Djamankh's Hydromancy
-	7 RU07 Made
-	7 RB01 Bx'sur, Chosen of Darux
-	7 RB02 Eternal Embalmer
-	7 RB03 Soulmaster Seter
-	7 RB04 Isift, Vizier of Ifnir
-	7 RB06 Isift's Judgment
-	7 RB07 Wasmawt's Blessing
-	7 RR01 Kharteran Pike-Mistress
-	7 RR02 rg aa token maker
-	7 RR03 Lazotep Dragon
-	7 RR04 'the end'
-	7 RR05 'bold'
-	7 RR06 Agree
-	7 RR07 'bracers'
-	7 RG01 Hesep Tender
-	7 RG02 Tankht, Gah-Api's Emissary
-	7 RG03 Lifeblood Siphoner
-	7 RG04 Hyena Matriarch
-	7 RG05 Home
-	7 RG06 Domesticate
-	7 RG07 Godsize
-	4 MW01 Tekhen, Ancient Spiresoul
-	4 MW02 Two Suns' Radiance
-	4 MU01 Eager
-	4 MU02 Neputarkh, the Heretic
-	4 MB01 Method
-	4 MB02 Archangel of Ketramose
-	4 MR01 Itching
-	4 MR02 Kav'set the Ruthless
-	4 MG01 Assembling the Menagerie
-	4 MG02 Pandevotional Summoner
-	7 RM01 Council's Decree
-	7 RM01 Done
-	7 RM01 Embalmed Dragon
-	7 RM01 Samut, Expedition Leader
-	7 RM01 Land Tokenator
-	7 RM01 Zahur, Maahestet Leader
-	7 RM01 Scattered
-	7 RM01 Great Serpent's Arrival
-	7 RM01 Djeru, Lord General
-	7 RM01 Dejukhab Bull
-	6 CA01 Lazoskin Tracker
-	6 CA02 Tomb Builder
-	6 CA03 Grounds Guardian
-	6 CA04 Private Feast
-	6 CA05 Gleaming Capstone
-	15 UA04 Blood of the Pious
-	15 UA05 Memorial Obelisk
-	6 CL01 Winding River
-	15 UL01 Lake Sebay
-	15 UL02 Port Kharteru
-	15 UL03 Hidden Necropolis Entrance
-	15 UL04 Sulfurous Baths
-	15 UL05 Shefet Shrublands
-	15 UU14 Happy
-	15 UB14 Wasmawt's Presence
-	15 UR15 Churning of Lava
-	15 UW14 Going
-	15 UG14 Vital Takeover
-	4 RX07 Naktamun Market Streets
-	7 RX08 Foreboding Gate
-	4 RM01 Darux, Miasma of Passion
-	4 RM01 Gah-Api, Life's Hope
-	4 RM01 Ghrin-Danu, Watchful Mother
-	4 RM01 Hazoret, Zealous Survivor
-	4 RM01 Ketramose, Virtuous Sacrifice
-	4 RM01 Sab-Sunen, Flow of Time
-	4 RM01 Scarab God, Wrath of Eons
-	4 RM01 Maathep, Lawgiver
-	4 RM01 Snehem, God of Locusts
-	4 RM01 Wasmawt, Inevitable Death
-	6 CB14 Feast on Flesh
-	7 RB05 Coming Forth by Night
-	6 CG13 Adjust to Abundance
-	15 UA01 Lazotep Blade
-	15 UA02 Icon of Unity
-	15 UA03 Spellfire Khopesh
-	15 UR06 Daruxian Spinescourger
-	15 UB05 Mindstab Ravager
-	15 UB08 Vile Judge
-	15 UM01 BR-1 Boiling Bloodlust
-	15 UM01 WB-1 Chamber of New Anointment
-	15 UM01 UR-1 Divine Attunement
-	15 UM01 BG-1 First Altar of Wasmawt
-	15 UM01 RG-1 Mistress of Leashes
-	15 UM01 UB-1 Officiant of the Arisen
-	15 UM01 GU-1 Scion of New Rivers
-	15 UM01 WU-1 Maathep's Servant
-	15 UM01 RW-1 Training Regimen
-	15 UM01 GW-1 Walking Oasis
-	15 UM01 WU-2 Bastion of Maathep
-	15 UM01 UB-2 Crucible of Eternity
-	15 UM01 BR-2 Bloodblade Naga
-	15 UM01 RG-2 Priest of Gah-Api
-	15 UM01 GW-2 Voyage to New Homes
-	15 UM01 WB-2 High Priest of Ketramose
-	15 UM01 UR-2 Tjuf, Herald of Snehem
-	15 UM01 BG-2 Hofan Slithermaster
-	15 UM01 RW-2 Chariot Commander
-	15 UM01 GU-2 Flow State
-	6 CL02 Mirage Pool
+	6 Pendant of Bright Futures
+	6 Votive Soul
+	6 Two Suns Fighter
+	6 Priest of the Angel's Path
+	6 Envoy of New Ways
+	6 Conflicted Angel
+	6 Coordinated Infantry
+	6 Cruel Adjudicator
+	6 Phalanx Commander
+	6 Broken Lands Monitor
+	6 Blessed Revivalist
+	6 Mindless Servant
+	6 Swift Response
+	6 Deity's Presence
+	6 Ready Bows
+	6 Room
+	6 Feeding Time
+	15 Maathep's Interdiction
+	15 Hazoret's Blessing
+	15 Last Dignity
+	6 Soul Administrator
+	6 Aven Theorist
+	6 Dedicated Scribe
+	6 Seshen Pollinators
+	6 Zenith Hunter
+	6 Frozen Sands Cadre
+	6 Vindictive Sphinx
+	6 Avatar of Sab-Sunen
+	6 Nose
+	6 Nullification Chant
+	6 Listen
+	6 Meditative Wisdom
+	6 Turned to Stone
+	6 Second
+	6 Tough
+	6 Sailskiff
+	15 Note
+	15 Unsorted Scrolls
+	15 The Wisdom of Unity
+	6 Serrated Scorpion
+	6 Fleshform Serket
+	6 Sentimental Thug
+	6 Canopic Harvester
+	6 Carcass Collector
+	6 Ferocious Cobra
+	6 Ifnir Farseer
+	6 Returned Master
+	6 Burial Chamber Guardian
+	6 Remains
+	6 Mantle of Shards
+	6 Selling Lives
+	6 Moment of Weakness
+	6 Disintegrating Wrappings
+	6 Spinal Diviner
+	15 Betrayal of Secrets
+	15 Scarab Armor
+	15 Word
+	6 Rage-cursed Returned
+	6 Frontier Messenger
+	6 Maahestet Champion
+	6 Shadowseller
+	6 Bloodsand Lich
+	6 Role Model Sergeant
+	6 Ka-Blade Champion
+	6 Avenging Minotaur
+	6 Starving Sandwurm
+	6 Pay
+	6 Stirred
+	6 Stealing the Beacon
+	6 Abrade
+	6 Hot
+	6 Holy Pyre
+	6 Helm of Hazoret
+	15 Read the Forbidden Scrolls
+	15 Time
+	15 Bite
+	6 Apepisw Gate
+	6 Oashra Vitalist
+	6 Exploring Couple
+	6 Giant Ibis
+	6 Instructor Huntress
+	6 Boat-climber Cobra
+	6 Seeker of Lost Species
+	6 Hippo Family
+	6 Avenging Elephant
+	6 Oasis Sentinel
+	6 Maul
+	6 Hunting Party
+	6 City's Founding
+	6 Night Market
+	6 Ghrin-Danu's Servitors
+	15 Cover-Up
+	15 Close
+	15 Stumble Upon Sanctuary
+	15 Scion of Hazoret
+	15 Herald of the Lost
+	15 Arena Champion
+	15 Priestess of Sanctity
+	15 Vessel of Purity
+	15 Callous Charioteer
+	15 Razemaster
+	15 Angel of Obeisance
+	15 Makheru, Voice of Truth
+	15 Megalithic Guardian
+	15 Drakerider Spellweaver
+	15 Keeper of Blessed Waters
+	15 Afu, Chosen of the Scarab
+	15 Vigilant Obstructionist
+	15 Vessel of Genius
+	15 Pillar-Leaper Sphinx
+	15 Track Guardian
+	15 Yours
+	15 Lofty Response
+	15 Mastery of Tumbling Sands
+	15 Eternal Fighters
+	15 Scion of Emptiness
+	15 Obssessed Falconer
+	15 Vessel of Darkness
+	15 Omnivorous Exhumer
+	15 Merciless Brawler
+	15 Rise of the Doomed
+	15 Localized Disaster
+	15 Hyena Pack Attack
+	15 Taw-honed Fighter
+	15 Skeshed, Dancing Storm
+	15 Hermit Champion
+	15 Vessel of Wrath
+	15 Scorchtrack Mehu
+	15 Wine Priestess
+	15 Corrupted Emberhorn
+	15 Darkstorm Bolt
+	15 Infectious Bravado
+	15 Ready
+	15 Eneri, Cunning Treasurer
+	15 Luxa Shoremage
+	15 Giant Carrion Beetle
+	15 Paladin of Ghrin-Danu
+	15 Delta Monitor
+	15 Vessel of Nature
+	15 Naga Secretstealer
+	15 Danurian Woodcaller
+	15 Gargantuan Abytira
+	15 Supervisor's Intervention
+	7 Sek'new, Lifeblood Brawler
+	7 Converted Seraph
+	7 Returned Vizier
+	7 Basri Ket, Conflicted
+	7 Diplomatic Conclave
+	7 Extracted Confession
+	7 Carven Legacy
+	7 Snehemite Novitiate
+	7 Ramunap Revenant
+	7 Interdiction Angel
+	7 Mystic Manipulation
+	7 Shifting Constellations
+	7 Djamankh's Hydromancy
+	7 Made
+	7 Bx'sur, Chosen of Darux
+	7 Eternal Embalmer
+	7 Soulmaster Seter
+	7 Isift, Vizier of Ifnir
+	7 Isift's Judgment
+	7 Wasmawt's Blessing
+	7 Kharteran Pike-Mistress
+	7 Ewrkhy, Defender of Nature
+	7 Lazotep Dragon
+	7 Allure of the Victorious
+	7 Righteous Passion
+	7 Agree
+	7 Ka-channel Wrapping
+	7 Hesep Tender
+	7 Tankht, Gah-Api's Emissary
+	7 Lifeblood Siphoner
+	7 Hyena Matriarch
+	7 Home
+	7 Domesticate
+	7 Godsize
+	4 Tekhen, Ancient Spiresoul
+	4 Two Suns' Radiance
+	4 Eager
+	4 Neputarkh, the Heretic
+	4 Method
+	4 Archangel of Ketramose
+	4 Itching
+	4 Kav'set the Ruthless
+	4 Assembling the Menagerie
+	4 Pandevotional Summoner
+	7 Council's Decree
+	7 Done
+	7 Embalmed Dragon
+	7 Samut, Expedition Leader
+	7 Katilda's Crucible
+	7 Zahur, Maahestet Leader
+	7 Scattered
+	7 Great Serpent's Arrival
+	7 Djeru, Lord General
+	7 Dejukhab Bull
+	6 Lazoskin Tracker
+	6 Tomb Builder
+	6 Grounds Guardian
+	6 Private Feast
+	6 Gleaming Capstone
+	15 Blood of the Pious
+	15 Memorial Obelisk
+	6 Winding River
+	15 Lake Sebay
+	15 Port Kharteru
+	15 Hidden Necropolis Entrance
+	15 Sulfurous Baths
+	15 Shefet Shrublands
+	15 Happy
+	15 Wasmawt's Presence
+	15 Churning of Lava
+	15 Going
+	15 Vital Takeover
+	4 Naktamun Market Streets
+	7 Foreboding Gate
+	4 Darux, Miasma of Passion
+	4 Gah-Api, Life's Hope
+	4 Ghrin-Danu, Watchful Mother
+	4 Hazoret, Zealous Survivor
+	4 Ketramose, Virtuous Sacrifice
+	4 Sab-Sunen, Flow of Time
+	4 Scarab God, Wrath of Eons
+	4 Maathep, Lawgiver
+	4 Snehem, God of Locusts
+	4 Wasmawt, Inevitable Death
+	6 Feast on Flesh
+	7 Coming Forth by Night
+	6 Adjust to Abundance
+	15 Lazotep Blade
+	15 Icon of Unity
+	15 Spellfire Khopesh
+	15 Daruxian Spinescourger
+	15 Mindstab Ravager
+	15 Vile Judge
+	15 Boiling Bloodlust
+	15 Chamber of New Anointment
+	15 Divine Attunement
+	15 First Altar of Wasmawt
+	15 Mistress of Leashes
+	15 Officiant of the Arisen
+	15 Scion of New Rivers
+	15 Maathep's Servant
+	15 Training Regimen
+	15 Walking Oasis
+	15 Bastion of Maathep
+	15 Crucible of Eternity
+	15 Bloodblade Naga
+	15 Priest of Gah-Api
+	15 Voyage to New Homes
+	15 High Priest of Ketramose
+	15 Tjuf, Herald of Snehem
+	15 Hofan Slithermaster
+	15 Chariot Commander
+	15 Flow State
+	6 Mirage Pool

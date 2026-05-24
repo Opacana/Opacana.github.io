@@ -1,4 +1,528 @@
-﻿VERSION 9 CHANGELOG
+﻿VERSION 10 CHANGELOG
+====================
+
+Pendant of Bright Futures added.
+Votive Soul added.
+Two Suns Fighter added.
+Priest of the Angel's Path added.
+Envoy of New Ways added.
+Conflicted Angel added.
+Coordinated Infantry added.
+Cruel Adjudicator added.
+Phalanx Commander added.
+Broken Lands Monitor added.
+Blessed Revivalist added.
+Mindless Servant added.
+Swift Response added.
+Deity's Presence added.
+Ready Bows added.
+Room added.
+Feeding Time added.
+Maathep's Interdiction added.
+Hazoret's Blessing added.
+Last Dignity added.
+Soul Administrator added.
+Aven Theorist added.
+Dedicated Scribe added.
+Seshen Pollinators added.
+Zenith Hunter added.
+Frozen Sands Cadre added.
+Vindictive Sphinx added.
+Avatar of Sab-Sunen added.
+Nose added.
+Nullification Chant added.
+Listen added.
+Meditative Wisdom added.
+Turned to Stone added.
+Second added.
+Tough added.
+Sailskiff added.
+Note added.
+Unsorted Scrolls added.
+The Wisdom of Unity added.
+Serrated Scorpion added.
+Fleshform Serket added.
+Sentimental Thug added.
+Canopic Harvester added.
+Carcass Collector added.
+Ferocious Cobra added.
+Ifnir Farseer added.
+Returned Master added.
+Burial Chamber Guardian added.
+Remains added.
+Mantle of Shards added.
+Selling Lives added.
+Moment of Weakness added.
+Disintegrating Wrappings added.
+Spinal Diviner added.
+Betrayal of Secrets added.
+Scarab Armor added.
+Word added.
+Rage-cursed Returned added.
+Frontier Messenger added.
+Maahestet Champion added.
+Shadowseller added.
+Bloodsand Lich added.
+Role Model Sergeant added.
+Ka-Blade Champion added.
+Avenging Minotaur added.
+Starving Sandwurm added.
+Pay added.
+Stirred added.
+Stealing the Beacon added.
+Abrade added.
+Hot added.
+Holy Pyre added.
+Helm of Hazoret added.
+Read the Forbidden Scrolls added.
+Time added.
+Bite added.
+Apepisw Gate added.
+Oashra Vitalist added.
+Exploring Couple added.
+Giant Ibis added.
+Instructor Huntress added.
+Boat-climber Cobra added.
+Seeker of Lost Species added.
+Hippo Family added.
+Avenging Elephant added.
+Oasis Sentinel added.
+Maul added.
+Hunting Party added.
+City's Founding added.
+Night Market added.
+Ghrin-Danu's Servitors added.
+Cover-Up added.
+Close added.
+Stumble Upon Sanctuary added.
+Scion of Hazoret added.
+Herald of the Lost added.
+Arena Champion added.
+Priestess of Sanctity added.
+Vessel of Purity added.
+Callous Charioteer added.
+Razemaster added.
+Angel of Obeisance added.
+Makheru, Voice of Truth added.
+Megalithic Guardian added.
+Drakerider Spellweaver added.
+Keeper of Blessed Waters added.
+Afu, Chosen of the Scarab added.
+Vigilant Obstructionist added.
+Vessel of Genius added.
+Pillar-Leaper Sphinx added.
+Track Guardian added.
+Yours added.
+Lofty Response added.
+Mastery of Tumbling Sands added.
+Eternal Fighters added.
+Scion of Emptiness added.
+Obssessed Falconer added.
+Vessel of Darkness added.
+Omnivorous Exhumer added.
+Merciless Brawler added.
+Rise of the Doomed added.
+Localized Disaster added.
+Hyena Pack Attack added.
+Taw-honed Fighter added.
+Skeshed, Dancing Storm added.
+Hermit Champion added.
+Vessel of Wrath added.
+Scorchtrack Mehu added.
+Wine Priestess added.
+Corrupted Emberhorn added.
+Darkstorm Bolt added.
+Infectious Bravado added.
+Ready added.
+Eneri, Cunning Treasurer added.
+Luxa Shoremage added.
+Giant Carrion Beetle added.
+Paladin of Ghrin-Danu added.
+Delta Monitor added.
+Vessel of Nature added.
+Naga Secretstealer added.
+Danurian Woodcaller added.
+Gargantuan Abytira added.
+Supervisor's Intervention added.
+Sek'new, Lifeblood Brawler added.
+Converted Seraph added.
+Returned Vizier added.
+Basri Ket, Conflicted added.
+Diplomatic Conclave added.
+Extracted Confession added.
+Carven Legacy added.
+Snehemite Novitiate added.
+Ramunap Revenant added.
+Interdiction Angel added.
+Mystic Manipulation added.
+Shifting Constellations added.
+Djamankh's Hydromancy added.
+Made added.
+Bx'sur, Chosen of Darux added.
+Eternal Embalmer added.
+Soulmaster Seter added.
+Isift, Vizier of Ifnir added.
+Isift's Judgment added.
+Wasmawt's Blessing added.
+Kharteran Pike-Mistress added.
+Ewrkhy, Defender of Nature added.
+Lazotep Dragon added.
+Allure of the Victorious added.
+Righteous Passion added.
+Agree added.
+Ka-channel Wrapping added.
+Hesep Tender added.
+Tankht, Gah-Api's Emissary added.
+Lifeblood Siphoner added.
+Hyena Matriarch added.
+Home added.
+Domesticate added.
+Godsize added.
+Tekhen, Ancient Spiresoul added.
+Two Suns' Radiance added.
+Eager added.
+Neputarkh, the Heretic added.
+Method added.
+Archangel of Ketramose added.
+Itching added.
+Kav'set the Ruthless added.
+Assembling the Menagerie added.
+Pandevotional Summoner added.
+Council's Decree added.
+Done added.
+Embalmed Dragon added.
+Samut, Expedition Leader added.
+Katilda's Crucible added.
+Zahur, Maahestet Leader added.
+Scattered added.
+Great Serpent's Arrival added.
+Djeru, Lord General added.
+Dejukhab Bull added.
+Lazoskin Tracker added.
+Tomb Builder added.
+Grounds Guardian added.
+Private Feast added.
+Gleaming Capstone added.
+Blood of the Pious added.
+Memorial Obelisk added.
+Winding River added.
+Lake Sebay added.
+Port Kharteru added.
+Hidden Necropolis Entrance added.
+Sulfurous Baths added.
+Shefet Shrublands added.
+Happy added.
+Wasmawt's Presence added.
+Churning of Lava added.
+Going added.
+Vital Takeover added.
+Naktamun Market Streets added.
+Foreboding Gate added.
+Darux, Miasma of Passion added.
+Gah-Api, Life's Hope added.
+Ghrin-Danu, Watchful Mother added.
+Hazoret, Zealous Survivor added.
+Ketramose, Virtuous Sacrifice added.
+Sab-Sunen, Flow of Time added.
+Scarab God, Wrath of Eons added.
+Maathep, Lawgiver added.
+Snehem, God of Locusts added.
+Wasmawt, Inevitable Death added.
+Feast on Flesh added.
+Coming Forth by Night added.
+Adjust to Abundance added.
+Lazotep Blade added.
+Icon of Unity added.
+Spellfire Khopesh added.
+Daruxian Spinescourger added.
+Mindstab Ravager added.
+Vile Judge added.
+Boiling Bloodlust added.
+Chamber of New Anointment added.
+Divine Attunement added.
+First Altar of Wasmawt added.
+Mistress of Leashes added.
+Officiant of the Arisen added.
+Scion of New Rivers added.
+Maathep's Servant added.
+Training Regimen added.
+Walking Oasis added.
+Bastion of Maathep added.
+Crucible of Eternity added.
+Bloodblade Naga added.
+Priest of Gah-Api added.
+Voyage to New Homes added.
+High Priest of Ketramose added.
+Tjuf, Herald of Snehem added.
+Hofan Slithermaster added.
+Chariot Commander added.
+Flow State added.
+Mirage Pool added.
+
+CA06 Pendant of Bright Futures removed.
+CW01 Votive Soul removed.
+CW02 Two Suns Fighter removed.
+CW03 Priest of the Angel's Path removed.
+CW05 Envoy of New Ways removed.
+CW04 Conflicted Angel removed.
+CW06 Coordinated Infantry removed.
+CW07 Cruel Adjudicator removed.
+CW08 Phalanx Commander removed.
+CW09 Broken Lands Monitor removed.
+CW10 Blessed Revivalist removed.
+CW11 Mindless Servant removed.
+CW12 Swift Response removed.
+CW13 Deity's Presence removed.
+CW14 Ready Bows removed.
+CW15 Room removed.
+CW16 Feeding Time removed.
+UW11 Maathep's Interdiction removed.
+UW12 Hazoret's Blessing removed.
+UW13 Last Dignity removed.
+CU01 Soul Administrator removed.
+CU02 Aven Theorist removed.
+CU03 Dedicated Scribe removed.
+CU04 Seshen Pollinators removed.
+CU05 Zenith Hunter removed.
+CU06 Frozen Sands Cadre removed.
+CU07 Vindictive Sphinx removed.
+CU08 Avatar of Sab-Sunen removed.
+CU09 Nose removed.
+CU10 Nullification Chant removed.
+CU11 Listen removed.
+CU12 Meditative Wisdom removed.
+CU13 Turned to Stone removed.
+CU14 Second removed.
+CU15 Tough removed.
+CU16 Sailskiff removed.
+UU11 Note removed.
+UU12 Unsorted Scrolls removed.
+UU13 The Wisdom of Unity removed.
+CB01 Serrated Scorpion removed.
+CB02 Fleshform Serket removed.
+CB03 Sentimental Thug removed.
+CB04 Canopic Harvester removed.
+CB05 Carcass Collector removed.
+CB06 Ferocious Cobra removed.
+CB07 Ifnir Farseer removed.
+CB08 Returned Master removed.
+CB09 Burial Chamber Guardian removed.
+CB10 Remains removed.
+CB11 Mantle of Shards removed.
+CB12 Selling Lives removed.
+CB13 Moment of Weakness removed.
+CB15 Disintegrating Wrappings removed.
+CB16 Spinal Diviner removed.
+UB12 Betrayal of Secrets removed.
+UB13 Scarab Armor removed.
+UB15 Word removed.
+CR01 Rage-cursed Returned removed.
+CR02 Frontier Messenger removed.
+CR03 Maahestet Champion removed.
+CR04 Shadowseller removed.
+CR05 Bloodsand Lich removed.
+CR06 Role Model Sergeant removed.
+CR07 Ka-Blade Champion removed.
+CR08 Avenging Minotaur removed.
+CR09 Starving Sandwurm removed.
+CR10 Pay removed.
+CR11 Stirred removed.
+CR12 Stealing the Beacon removed.
+CR13 Abrade removed.
+CR14 Hot removed.
+CR15 Holy Pyre removed.
+CR16 Helm of Hazoret removed.
+UR12 Read the Forbidden Scrolls removed.
+UR14 Time removed.
+UR13 Bite removed.
+CG01 Apepisw Gate removed.
+CG02 Oashra Vitalist removed.
+CG03 Exploring Couple removed.
+CG04 Giant Ibis removed.
+CG05 Instructor Huntress removed.
+CG06 Boat-climber Cobra removed.
+CG07 Seeker of Lost Species removed.
+CG08 Hippo Family removed.
+CG09 Avenging Elephant removed.
+CG10 Oasis Sentinel removed.
+CG11 Maul removed.
+CG12 Hunting Party removed.
+CG14 City's Founding removed.
+CG15 Night Market removed.
+CG16 Ghrin-Danu's Servitors removed.
+UG13 Cover-Up removed.
+UG12 Close removed.
+UG11 Stumble Upon Sanctuary removed.
+UW01 Scion of Hazoret removed.
+UW02 Herald of the Lost removed.
+UW03 Arena Champion removed.
+UW04 Priestess of Sanctity removed.
+UW05 Vessel of Purity removed.
+UW06 Callous Charioteer removed.
+UW07 Razemaster removed.
+UW08 Angel of Obeisance removed.
+UW09 Makheru, Voice of Truth removed.
+UW10 Megalithic Guardian removed.
+UU01 Drakerider Spellweaver removed.
+UU02 Keeper of Blessed Waters removed.
+UU03 Afu, Chosen of the Scarab removed.
+UU04 Vigilant Obstructionist removed.
+UU05 Vessel of Genius removed.
+UU06 Pillar-Leaper Sphinx removed.
+UU07 Track Guardian removed.
+UU08 Yours removed.
+UU09 Lofty Response removed.
+UU10 Mastery of Tumbling Sands removed.
+UB01 Eternal Fighters removed.
+UB02 Scion of Emptiness removed.
+UB03 Obssessed Falconer removed.
+UB04 Vessel of Darkness removed.
+UB06 Omnivorous Exhumer removed.
+UB07 Merciless Brawler removed.
+UB09 Rise of the Doomed removed.
+UB10 Localized Disaster removed.
+UB11 Hyena Pack Attack removed.
+UR01 Taw-honed Fighter removed.
+UR02 Skeshed, Dancing Storm removed.
+UR03 Hermit Champion removed.
+UR04 Vessel of Wrath removed.
+UR05 Scorchtrack Mehu removed.
+UR07 Wine Priestess removed.
+UR08 Corrupted Emberhorn removed.
+UR09 Darkstorm Bolt removed.
+UR10 Infectious Bravado removed.
+UR11 Ready removed.
+UG01 Eneri, Cunning Treasurer removed.
+UG02 Luxa Shoremage removed.
+UG03 Giant Carrion Beetle removed.
+UG04 Paladin of Ghrin-Danu removed.
+UG05 Delta Monitor removed.
+UG06 Vessel of Nature removed.
+UG07 Naga Secretstealer removed.
+UG08 Danurian Woodcaller removed.
+UG09 Gargantuan Abytira removed.
+UG10 Supervisor's Intervention removed.
+RW01 Sek'new, Lifeblood Brawler removed.
+RW02 Converted Seraph removed.
+RW03 Returned Vizier removed.
+RW04 Basri Ket, Conflicted removed.
+RW05 Diplomatic Conclave removed.
+RW06 Extracted Confession removed.
+RW07 Carven Legacy removed.
+RU01 Snehemite Novitiate removed.
+RU02 Ramunap Revenant removed.
+RU03 Interdiction Angel removed.
+RU04 Mystic Manipulation removed.
+RU05 Shifting Constellations removed.
+RU06 Djamankh's Hydromancy removed.
+RU07 Made removed.
+RB01 Bx'sur, Chosen of Darux removed.
+RB02 Eternal Embalmer removed.
+RB03 Soulmaster Seter removed.
+RB04 Isift, Vizier of Ifnir removed.
+RB06 Isift's Judgment removed.
+RB07 Wasmawt's Blessing removed.
+RR01 Kharteran Pike-Mistress removed.
+RR02 rg aa token maker removed.
+RR03 Lazotep Dragon removed.
+RR04 'the end' removed.
+RR05 'bold' removed.
+RR06 Agree removed.
+RR07 'bracers' removed.
+RG01 Hesep Tender removed.
+RG02 Tankht, Gah-Api's Emissary removed.
+RG03 Lifeblood Siphoner removed.
+RG04 Hyena Matriarch removed.
+RG05 Home removed.
+RG06 Domesticate removed.
+RG07 Godsize removed.
+MW01 Tekhen, Ancient Spiresoul removed.
+MW02 Two Suns' Radiance removed.
+MU01 Eager removed.
+MU02 Neputarkh, the Heretic removed.
+MB01 Method removed.
+MB02 Archangel of Ketramose removed.
+MR01 Itching removed.
+MR02 Kav'set the Ruthless removed.
+MG01 Assembling the Menagerie removed.
+MG02 Pandevotional Summoner removed.
+RM01 Council's Decree removed.
+RM01 Done removed.
+RM01 Embalmed Dragon removed.
+RM01 Samut, Expedition Leader removed.
+RM01 Land Tokenator removed.
+RM01 Zahur, Maahestet Leader removed.
+RM01 Scattered removed.
+RM01 Great Serpent's Arrival removed.
+RM01 Djeru, Lord General removed.
+RM01 Dejukhab Bull removed.
+CA01 Lazoskin Tracker removed.
+CA02 Tomb Builder removed.
+CA03 Grounds Guardian removed.
+CA04 Private Feast removed.
+CA05 Gleaming Capstone removed.
+UA04 Blood of the Pious removed.
+UA05 Memorial Obelisk removed.
+CL01 Winding River removed.
+UL01 Lake Sebay removed.
+UL02 Port Kharteru removed.
+UL03 Hidden Necropolis Entrance removed.
+UL04 Sulfurous Baths removed.
+UL05 Shefet Shrublands removed.
+UU14 Happy removed.
+UB14 Wasmawt's Presence removed.
+UR15 Churning of Lava removed.
+UW14 Going removed.
+UG14 Vital Takeover removed.
+RX07 Naktamun Market Streets removed.
+RX08 Foreboding Gate removed.
+RM01 Darux, Miasma of Passion removed.
+RM01 Gah-Api, Life's Hope removed.
+RM01 Ghrin-Danu, Watchful Mother removed.
+RM01 Hazoret, Zealous Survivor removed.
+RM01 Ketramose, Virtuous Sacrifice removed.
+RM01 Sab-Sunen, Flow of Time removed.
+RM01 Scarab God, Wrath of Eons removed.
+RM01 Maathep, Lawgiver removed.
+RM01 Snehem, God of Locusts removed.
+RM01 Wasmawt, Inevitable Death removed.
+CB14 Feast on Flesh removed.
+RB05 Coming Forth by Night removed.
+CG13 Adjust to Abundance removed.
+UA01 Lazotep Blade removed.
+UA02 Icon of Unity removed.
+UA03 Spellfire Khopesh removed.
+UR06 Daruxian Spinescourger removed.
+UB05 Mindstab Ravager removed.
+UB08 Vile Judge removed.
+UM01 BR-1 Boiling Bloodlust removed.
+UM01 WB-1 Chamber of New Anointment removed.
+UM01 UR-1 Divine Attunement removed.
+UM01 BG-1 First Altar of Wasmawt removed.
+UM01 RG-1 Mistress of Leashes removed.
+UM01 UB-1 Officiant of the Arisen removed.
+UM01 GU-1 Scion of New Rivers removed.
+UM01 WU-1 Maathep's Servant removed.
+UM01 RW-1 Training Regimen removed.
+UM01 GW-1 Walking Oasis removed.
+UM01 WU-2 Bastion of Maathep removed.
+UM01 UB-2 Crucible of Eternity removed.
+UM01 BR-2 Bloodblade Naga removed.
+UM01 RG-2 Priest of Gah-Api removed.
+UM01 GW-2 Voyage to New Homes removed.
+UM01 WB-2 High Priest of Ketramose removed.
+UM01 UR-2 Tjuf, Herald of Snehem removed.
+UM01 BG-2 Hofan Slithermaster removed.
+UM01 RW-2 Chariot Commander removed.
+UM01 GU-2 Flow State removed.
+CL02 Mirage Pool removed.
+
+Food
+
+Treasure
+
+
+VERSION 9 CHANGELOG
 ====================
 
 CW15 Room added.

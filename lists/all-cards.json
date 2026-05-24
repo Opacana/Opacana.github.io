@@ -1,11 +1,11 @@
 ﻿{
     "cards": [
         {
-            "card_name": "CA06 Pendant of Bright Futures",
+            "card_name": "Pendant of Bright Futures",
             "color": "",
             "rarity": "common",
             "type": "Artifact",
-            "number": 243,
+            "number": 245,
             "color_identity": "C",
             "cost": "{4}",
             "rules_text": "When this artifact enters, you may search your library for a basic land or Oasis card, reveal it and put it into your hand, then shuffle.\n{T}: Add {C}. You gain 1 life.",
@@ -20,11 +20,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "CW01 Votive Soul",
+            "card_name": "Votive Soul",
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2013 Human Peasant",
-            "number": 1,
+            "number": 39,
             "color_identity": "W",
             "cost": "{W}",
             "rules_text": "When this creature dies, create a 1/1 white Bird creature token with flying.",
@@ -39,11 +39,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "CW02 Two Suns Fighter",
+            "card_name": "Two Suns Fighter",
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2013 Human Warrior",
-            "number": 2,
+            "number": 36,
             "color_identity": "W",
             "cost": "{1}{W}",
             "rules_text": "During your turn, this creature has first strike.\nWhen this creature dies, you gain 2 life.",
@@ -58,11 +58,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "CW03 Priest of the Angel's Path",
+            "card_name": "Priest of the Angel's Path",
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2013 Jackal Wizard Cleric",
-            "number": 3,
+            "number": 26,
             "color_identity": "W",
             "cost": "{1}{W}",
             "rules_text": "{1}{W}, {T}: Tap target creature.",
@@ -77,11 +77,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "CW05 Envoy of New Ways",
+            "card_name": "Envoy of New Ways",
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2013 Human Druid",
-            "number": 5,
+            "number": 14,
             "color_identity": "W",
             "cost": "{2}{W}",
             "rules_text": "Lifelink\nWhenever you play a land, if that land has a different name than each other land you control, target creature you control gets +1/+1 until end of turn.",
@@ -96,15 +96,15 @@
             "image_type": "png"
         },
         {
-            "card_name": "CW04 Conflicted Angel",
+            "card_name": "Conflicted Angel",
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2013 Angel Warrior",
-            "number": 4,
+            "number": 8,
             "color_identity": "W",
             "cost": "{1}{W}",
             "rules_text": "Flying\nWhen this creature enters, tap target creature an opponent controls.",
-            "flavor_text": "[i]Deities new and old, as well as their many followers, competed to swell their ranks and wealth, especially among the more powerful beings of Amonkhet.[/i]",
+            "flavor_text": "[i]Deities new and old, as well as their many followers, competed to swell their rank and wealth, especially among the more powerful beings of Amonkhet.[/i]",
             "pt": "1/3",
             "special_text": "",
             "shape": "normal",
@@ -115,11 +115,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "CW06 Coordinated Infantry",
+            "card_name": "Coordinated Infantry",
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2013 Human Warrior Soldier",
-            "number": 6,
+            "number": 10,
             "color_identity": "W",
             "cost": "{2}{W}",
             "rules_text": "Vigilance\nWhenever this creature attacks with one or more other Warriors, it gets +1/+0 until end of turn.",
@@ -134,11 +134,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "CW07 Cruel Adjudicator",
+            "card_name": "Cruel Adjudicator",
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2013 Bird Advisor Soldier",
-            "number": 7,
+            "number": 11,
             "color_identity": "W",
             "cost": "{2}{W}",
             "rules_text": "Betray [i](When this permanent enters, you may sacrifice another permanent that shares a color with it.)[/i]\nFlying\nWhen this creature betrays another permanent, put a +1/+1 counter on up to one target artifact or creature. Then if the betrayed permanent was a creature, you draw a card.",
@@ -153,11 +153,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "CW08 Phalanx Commander",
+            "card_name": "Phalanx Commander",
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2013 Human Warrior",
-            "number": 8,
+            "number": 25,
             "color_identity": "W",
             "cost": "{2}{W}{W}",
             "rules_text": "When this creature enters, creatures you control get +1/+1 until end of turn.",
@@ -172,11 +172,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "CW09 Broken Lands Monitor",
+            "card_name": "Broken Lands Monitor",
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2013 Angel",
-            "number": 9,
+            "number": 5,
             "color_identity": "W",
             "cost": "{3}{W}",
             "rules_text": "Flying\nWhenever one or more creatures an opponent controls becomes tapped, this creature gets +1/+1 until end of turn. This ability triggers only once each turn.",
@@ -191,11 +191,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "CW10 Blessed Revivalist",
+            "card_name": "Blessed Revivalist",
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2013 Jackal Warlock",
-            "number": 10,
+            "number": 4,
             "color_identity": "W",
             "cost": "{3}{W}{W}",
             "rules_text": "Betray [i](When this permanent enters, you may sacrifice another permanent that shares a color with it.)[/i]\nWhen this creature betrays a permanent, return up to one artifact, creature or enchantment with mana value 3 or less from your graveyard to the battlefield tapped.",
@@ -210,11 +210,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "CW11 Mindless Servant",
+            "card_name": "Mindless Servant",
             "color": "W",
             "rarity": "common",
             "type": "Creature \u2013 Golem",
-            "number": 11,
+            "number": 24,
             "color_identity": "W",
             "cost": "{4}{W}{W}",
             "rules_text": "Vigilance\nWhen this creature enters, tap it unless there are four or more different names among lands you control.",
@@ -229,11 +229,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "CW12 Swift Response",
+            "card_name": "Swift Response",
             "color": "W",
             "rarity": "common",
             "type": "Instant",
-            "number": 12,
+            "number": 34,
             "color_identity": "W",
             "cost": "{1}{W}",
             "rules_text": "Destroy target tapped creature.",
@@ -248,11 +248,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "CW13 Deity's Presence",
+            "card_name": "Deity's Presence",
             "color": "W",
             "rarity": "common",
             "type": "Enchantment",
-            "number": 13,
+            "number": 12,
             "color_identity": "W",
             "cost": "{2}{W}",
             "rules_text": "When this enchantment enters, exile target nonland permanent an opponent controls until this enchantment leaves the battlefield.",
@@ -267,11 +267,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "CW14 Ready Bows",
+            "card_name": "Ready Bows",
             "color": "W",
             "rarity": "common",
             "type": "Instant",
-            "number": 14,
+            "number": 29,
             "color_identity": "W",
             "cost": "{W}",
             "rules_text": "Target creature gets +2/+2 and gains reach until end of turn. Untap it.",
@@ -286,11 +286,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "CW15 Room",
+            "card_name": "Room",
             "color": "W",
             "rarity": "common",
             "type": "Instant",
-            "number": 15,
+            "number": 31,
             "color_identity": "W",
             "cost": "{1}{W}",
             "rules_text": "Target permanent gains indestructible until end of turn",
@@ -315,7 +315,7 @@
             "image_type": "png"
         },
         {
-            "card_name": "CW16 Feeding Time",
+            "card_name": "Feeding Time",
             "color": "W",
             "rarity": "common",
             "type": "Sorcery",
@@ -334,11 +334,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "UW11 Maathep's Interdiction",
+            "card_name": "Maathep's Interdiction",
             "color": "W",
             "rarity": "uncommon",
             "type": "Instant",
-            "number": 36,
+            "number": 21,
             "color_identity": "W",
             "cost": "{W}",
             "rules_text": "Exile target tapped nonland permanent. Its controller creates a tapped Treasure token.",
@@ -353,11 +353,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "UW12 Hazoret's Blessing",
+            "card_name": "Hazoret's Blessing",
             "color": "W",
             "rarity": "uncommon",
             "type": "Enchantment \u2013 Aura",
-            "number": 37,
+            "number": 18,
             "color_identity": "WR",
             "cost": "{1}{W}",
             "rules_text": "Enchant creature\nEnchanted creature gets +1/+1 and has lifelink.\n{1}{R}: Enchanted creature gains first strike until end of turn.\nWhen this Aura is put into a graveyard from the battlefield, scry 2.",
@@ -372,11 +372,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "UW13 Last Dignity",
+            "card_name": "Last Dignity",
             "color": "W",
             "rarity": "uncommon",
-            "type": "Sorcery",
-            "number": 38,
+            "type": "Instant",
+            "number": 20,
             "color_identity": "W",
             "cost": "{2}{W}",
             "rules_text": "As an additional cost to cast this spell, sacrifice a nonland permanent.\nCreate a 4/4 white Angel creature token with flying.",
@@ -391,11 +391,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "CU01 Soul Administrator",
+            "card_name": "Soul Administrator",
             "color": "U",
             "rarity": "common",
             "type": "Creature \u2013 Zombie Jackal Advisor",
-            "number": 40,
+            "number": 68,
             "color_identity": "U",
             "cost": "{1}{U}",
             "rules_text": "When this creature enters or dies, you may draw a card, then discard a card.",
@@ -410,11 +410,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "CU02 Aven Theorist",
+            "card_name": "Aven Theorist",
             "color": "U",
             "rarity": "common",
             "type": "Creature \u2013 Bird Wizard",
-            "number": 41,
+            "number": 42,
             "color_identity": "U",
             "cost": "{1}{U}",
             "rules_text": "Flying\nWhenever this creature deals combat damage to an opponent, the next instant or sorcery spell you cast this turn costs {2} less to cast.",
@@ -429,11 +429,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "CU03 Dedicated Scribe",
+            "card_name": "Dedicated Scribe",
             "color": "U",
             "rarity": "common",
             "type": "Creature \u2013 Human Advisor",
-            "number": 42,
+            "number": 43,
             "color_identity": "U",
             "cost": "{1}{U}{U}",
             "rules_text": "Vigilance\nWhenever this creature deals combat damage to a planeswalker or player, you draw a card.",
@@ -448,11 +448,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "CU04 Seshen Pollinators",
+            "card_name": "Seshen Pollinators",
             "color": "U",
             "rarity": "common",
             "type": "Creature \u2013 Insect",
-            "number": 43,
+            "number": 65,
             "color_identity": "U",
             "cost": "{2}{U}",
             "rules_text": "Flying\n{1}{U}: Move a counter from target permanent to another target permanent. Activate only once each turn, and only as a sorcery.",
@@ -467,11 +467,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "CU05 Zenith Hunter",
+            "card_name": "Zenith Hunter",
             "color": "U",
             "rarity": "common",
             "type": "Creature \u2013 Jackal Wizard",
-            "number": 44,
+            "number": 78,
             "color_identity": "U",
             "cost": "{2}{U}",
             "rules_text": "Whenever you cast an instant or sorcery spell, target creature you control gets +1/+1 and gains flying until end of turn. This ability triggers no more than twice each turn.",
@@ -486,11 +486,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "CU06 Frozen Sands Cadre",
+            "card_name": "Frozen Sands Cadre",
             "color": "U",
             "rarity": "common",
             "type": "Creature \u2013 Zombie Soldier",
-            "number": 45,
+            "number": 47,
             "color_identity": "U",
             "cost": "{3}{U}",
             "rules_text": "Ward {1}\nWhenever a Zombie you control deals combat damage to a planeswalker or player, you may scry 1.",
@@ -505,11 +505,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "CU07 Vindictive Sphinx",
+            "card_name": "Vindictive Sphinx",
             "color": "U",
             "rarity": "common",
             "type": "Creature \u2013 Sphinx Warlock",
-            "number": 46,
+            "number": 75,
             "color_identity": "U",
             "cost": "{3}{U}{U}",
             "rules_text": "Flying\nWhen this creature enters, you may pay {1}. When you do, return target tapped creature you don't control to its owner's hand.",
@@ -524,11 +524,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "CU08 Avatar of Sab-Sunen",
+            "card_name": "Avatar of Sab-Sunen",
             "color": "U",
             "rarity": "common",
             "type": "Creature \u2013 Frog Avatar",
-            "number": 47,
+            "number": 41,
             "color_identity": "U",
             "cost": "{4}{U}{U}",
             "rules_text": "This creature enters with two +1/+1 counters on it.\nRemove a counter from this creature: Choose one. Activate only once each turn. \u2013\n\u2022 Target creature gains flying until end of turn.\n\u2022 Untap target creature.",
@@ -543,11 +543,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "CU09 Nose",
+            "card_name": "Nose",
             "color": "U",
             "rarity": "common",
             "type": "Instant",
-            "number": 48,
+            "number": 58,
             "color_identity": "U",
             "cost": "{U}",
             "rules_text": "Target creature you control gains hexproof until end of turn.",
@@ -572,11 +572,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "CU10 Nullification Chant",
+            "card_name": "Nullification Chant",
             "color": "U",
             "rarity": "common",
             "type": "Instant",
-            "number": 49,
+            "number": 60,
             "color_identity": "U",
             "cost": "{1}{U}{U}",
             "rules_text": "This spell costs {1} less to cast as long as a counter was put on or removed from a permanent you control this turn.\nCounter target spell.",
@@ -591,11 +591,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "CU11 Listen",
+            "card_name": "Listen",
             "color": "U",
             "rarity": "common",
             "type": "Sorcery",
-            "number": 50,
+            "number": 51,
             "color_identity": "U",
             "cost": "{1}{U}",
             "rules_text": "Draw two cards, then discard a card.",
@@ -620,11 +620,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "CU12 Meditative Wisdom",
+            "card_name": "Meditative Wisdom",
             "color": "U",
             "rarity": "common",
             "type": "Sorcery",
-            "number": 51,
+            "number": 55,
             "color_identity": "U",
             "cost": "{3}{U}",
             "rules_text": "Draw three cards, then discard a card.",
@@ -639,11 +639,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "CU13 Turned to Stone",
+            "card_name": "Turned to Stone",
             "color": "U",
             "rarity": "common",
             "type": "Enchantment \u2013 Aura",
-            "number": 52,
+            "number": 71,
             "color_identity": "U",
             "cost": "{2}{U}",
             "rules_text": "Enchant creature\nWhen this Aura enters, tap enchanted creature.\nTap enchanted creature at the beginning of its controller's upkeep step.\nEnchanted creature has no abilities while tapped.",
@@ -658,11 +658,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "CU14 Second",
+            "card_name": "Second",
             "color": "U",
             "rarity": "common",
             "type": "Instant",
-            "number": 53,
+            "number": 64,
             "color_identity": "U",
             "cost": "{3}{U}",
             "rules_text": "Target creature's controller puts it on their choice of the top or bottom of its owner's library.",
@@ -687,11 +687,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "CU15 Tough",
+            "card_name": "Tough",
             "color": "U",
             "rarity": "common",
             "type": "Instant",
-            "number": 54,
+            "number": 69,
             "color_identity": "U",
             "cost": "{2}{U}",
             "rules_text": "Return target nonland permanent to its owner's hand. If it was a creature, draw a card.",
@@ -706,7 +706,7 @@
             "color2": "U",
             "type2": "Sorcery",
             "cost2": "{1}{U}",
-            "rules_text2": "Aftermath\nTarget creature can't be blocked until end of turn.",
+            "rules_text2": "Aftermath [i](Cast this spell only from your graveyard. Then exile it.)[/i]\nTarget creature can't be blocked until end of turn.",
             "flavor_text2": "[i][/i]",
             "pt2": "",
             "special_text2": "",
@@ -716,11 +716,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "CU16 Sailskiff",
+            "card_name": "Sailskiff",
             "color": "U",
             "rarity": "common",
             "type": "Artifact",
-            "number": 55,
+            "number": 63,
             "color_identity": "U",
             "cost": "{1}{U}",
             "rules_text": "When this artifact enters or leaves the battlefield, scry 2, then target creature you control gains flying until end of turn.",
@@ -735,11 +735,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "UU11 Note",
+            "card_name": "Note",
             "color": "U",
             "rarity": "uncommon",
             "type": "Instant",
-            "number": 75,
+            "number": 59,
             "color_identity": "U",
             "cost": "{1}{U}",
             "rules_text": "Target creature you control gets +X/+X until end of turn, where X is the number of cards you've drawn this turn.",
@@ -764,11 +764,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "UU12 Unsorted Scrolls",
+            "card_name": "Unsorted Scrolls",
             "color": "U",
             "rarity": "uncommon",
             "type": "Artifact",
-            "number": 76,
+            "number": 72,
             "color_identity": "U",
             "cost": "{U}",
             "rules_text": "Sacrifice this artifact: Surveil 2.\nWhen this artifact leaves the battlefield, you may pay {1}{U}. When you do, return target instant or sorcery from your graveyard to your hand.",
@@ -783,15 +783,15 @@
             "image_type": "png"
         },
         {
-            "card_name": "UU13 The Wisdom of Unity",
+            "card_name": "The Wisdom of Unity",
             "color": "U",
             "rarity": "uncommon",
             "type": "Enchantment",
-            "number": 77,
+            "number": 76,
             "color_identity": "U",
             "cost": "{2}{U}",
             "rules_text": "Whenever you cast a spell, scry 1. Once per turn, if that spell is multicolored, you may draw a card instead.",
-            "flavor_text": "[i]medium length flavor text WIP[/i]",
+            "flavor_text": "[i]Hazoret's giant visage full upon Basri, though it showed no malice. \u201cThe only thing that can outlast chaos is hope. And it is in crises that hope shines brightest.\u201d[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
@@ -802,11 +802,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "CB01 Serrated Scorpion",
+            "card_name": "Serrated Scorpion",
             "color": "B",
             "rarity": "common",
             "type": "Creature \u2013 Scorpion",
-            "number": 79,
+            "number": 111,
             "color_identity": "B",
             "cost": "{B}",
             "rules_text": "When this creature dies, it deals 2 damage to each opponent and you gain 2 life.",
@@ -821,11 +821,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "CB02 Fleshform Serket",
+            "card_name": "Fleshform Serket",
             "color": "B",
             "rarity": "common",
             "type": "Creature \u2013 Zombie Horror Insect",
-            "number": 80,
+            "number": 91,
             "color_identity": "B",
             "cost": "{1}{B}",
             "rules_text": "Deathtouch\nPay 3 life: Untap this creature. Activate only once each turn, and only as a sorcery.",
@@ -840,11 +840,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "CB03 Sentimental Thug",
+            "card_name": "Sentimental Thug",
             "color": "B",
             "rarity": "common",
             "type": "Creature \u2013 Jackal Warrior Rogue",
-            "number": 81,
+            "number": 110,
             "color_identity": "B",
             "cost": "{1}{B}",
             "rules_text": "Menace\nWhen this creature enters, if an opponent lost life this turn, you may surveil 2.",
@@ -859,11 +859,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "CB04 Canopic Harvester",
+            "card_name": "Canopic Harvester",
             "color": "B",
             "rarity": "common",
             "type": "Creature \u2013 Human Warlock",
-            "number": 82,
+            "number": 83,
             "color_identity": "B",
             "cost": "{1}{B}{B}",
             "rules_text": "Betray [i](When this permanent enters, you may sacrifice another permanent that shares a color with it.)[/i]\nWhen this creature betrays another permanent, target opponent reveals their hand. You choose a nonland card with mana value 3 or less from it. That player discards that card.",
@@ -878,11 +878,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "CB05 Carcass Collector",
+            "card_name": "Carcass Collector",
             "color": "B",
             "rarity": "common",
             "type": "Creature \u2013 Bird Demon Zombie",
-            "number": 83,
+            "number": 84,
             "color_identity": "B",
             "cost": "{2}{B}",
             "rules_text": "Flying\nWhen this creature enters, you may sacrifice another creature you control or exile a creature card from your graveyard. When you do, create a tapped black 1/1 Zombie creature token.",
@@ -897,11 +897,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "CB06 Ferocious Cobra",
+            "card_name": "Ferocious Cobra",
             "color": "B",
             "rarity": "common",
             "type": "Creature \u2013 Snake Horror",
-            "number": 84,
+            "number": 90,
             "color_identity": "BR",
             "cost": "{3}{B}",
             "rules_text": "{R}: This creature gains haste until end of turn.",
@@ -916,11 +916,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "CB07 Ifnir Farseer",
+            "card_name": "Ifnir Farseer",
             "color": "B",
             "rarity": "common",
             "type": "Creature \u2013 Demon Wizard",
-            "number": 85,
+            "number": 93,
             "color_identity": "B",
             "cost": "{3}{B}{B}",
             "rules_text": "Flying\nWhen this creature enters, create a Talisman artifact token that's all colors with \u201cWhen this artifact is put into a graveyard from the battlefield, you scry 1.\u201d",
@@ -935,11 +935,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "CB08 Returned Master",
+            "card_name": "Returned Master",
             "color": "B",
             "rarity": "common",
             "type": "Creature \u2013 Zombie Giant",
-            "number": 86,
+            "number": 105,
             "color_identity": "UB",
             "cost": "{4}{B}{B}",
             "rules_text": "When this creature enters, you draw a card and lose 1 life.\n{2}{U}: Exile target Zombie you control, then return it to the battlefield under its owner's control.",
@@ -954,11 +954,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "CB09 Burial Chamber Guardian",
+            "card_name": "Burial Chamber Guardian",
             "color": "B",
             "rarity": "common",
             "type": "Creature \u2013 Zombie Golem",
-            "number": 87,
+            "number": 81,
             "color_identity": "B",
             "cost": "{5}{B}{B}",
             "rules_text": "Defender, menace\n{1}{B}: This creature loses defender and gets +1/+0 until end of turn.",
@@ -973,11 +973,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "CB10 Remains",
+            "card_name": "Remains",
             "color": "B",
             "rarity": "common",
             "type": "Sorcery",
-            "number": 88,
+            "number": 104,
             "color_identity": "B",
             "cost": "{3}{B}",
             "rules_text": "Create a 3/3 black Zombie Lizard creature token.",
@@ -1002,11 +1002,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "CB11 Mantle of Shards",
+            "card_name": "Mantle of Shards",
             "color": "B",
             "rarity": "common",
             "type": "Instant",
-            "number": 89,
+            "number": 97,
             "color_identity": "B",
             "cost": "{1}{B}",
             "rules_text": "Target creature you control gains deathtouch and indestructible until end of turn.",
@@ -1021,11 +1021,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "CB12 Selling Lives",
+            "card_name": "Selling Lives",
             "color": "B",
             "rarity": "common",
             "type": "Instant",
-            "number": 90,
+            "number": 109,
             "color_identity": "B",
             "cost": "{B}",
             "rules_text": "As an additional cost to cast this spell, sacrifice a creature.\nDraw two cards.",
@@ -1040,11 +1040,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "CB13 Moment of Weakness",
+            "card_name": "Moment of Weakness",
             "color": "B",
             "rarity": "common",
             "type": "Sorcery",
-            "number": 91,
+            "number": 101,
             "color_identity": "B",
             "cost": "{3}{B}",
             "rules_text": "This spell costs {2} less to cast if an opponent lost life this turn.\nTarget opponent discards two cards.",
@@ -1059,11 +1059,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "CB15 Disintegrating Wrappings",
+            "card_name": "Disintegrating Wrappings",
             "color": "B",
             "rarity": "common",
             "type": "Sorcery",
-            "number": 93,
+            "number": 86,
             "color_identity": "B",
             "cost": "{1}{B}{B}",
             "rules_text": "You may cast this spell as though it had flash if you pay {1} more to cast it.\nExile target creature.",
@@ -1078,11 +1078,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "CB16 Spinal Diviner",
+            "card_name": "Spinal Diviner",
             "color": "B",
             "rarity": "common",
             "type": "Artifact",
-            "number": 94,
+            "number": 113,
             "color_identity": "B",
             "cost": "{B}",
             "rules_text": "When this artifact enters or leaves the battlefield, choose one \u2013\n\u2022 Target opponent loses 1 life and you gain 1 life.\n\u2022 You draw a card and lose 2 life.",
@@ -1097,11 +1097,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "UB12 Betrayal of Secrets",
+            "card_name": "Betrayal of Secrets",
             "color": "B",
             "rarity": "uncommon",
             "type": "Sorcery",
-            "number": 115,
+            "number": 80,
             "color_identity": "B",
             "cost": "{1}{B}",
             "rules_text": "Target opponent reveals their hand. You choose a nonland card from it. That player discards that card.\nIf you sacrificed a nonland permanent this turn, you gain 2 life.",
@@ -1116,14 +1116,14 @@
             "image_type": "png"
         },
         {
-            "card_name": "UB13 Scarab Armor",
+            "card_name": "Scarab Armor",
             "color": "B",
             "rarity": "uncommon",
             "type": "Artifact \u2013 Equipment",
-            "number": 116,
+            "number": 107,
             "color_identity": "B",
             "cost": "{2}{B}",
-            "rules_text": "Equipped creature gets +1/+1 and has flying, \u201cSacrifice another Zombie: This creature gains hexproof until end of turn.\u201d, and \u201cSacrifice another Zombie: This creature gets +1/+1 until end of turn\u201d.\nEquip {3}\nEquip Zombie or Warlock {1}",
+            "rules_text": "Equipped creature gets +2/+2 and has flying, \u201cSacrifice another Zombie: This creature gains hexproof until end of turn.\u201d, and \u201cSacrifice another Zombie: This creature gets +1/+1 until end of turn\u201d.\nEquip {3}\nEquip Zombie or Warlock {1}",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -1135,7 +1135,7 @@
             "image_type": "png"
         },
         {
-            "card_name": "UB15 Word",
+            "card_name": "Word",
             "color": "B",
             "rarity": "uncommon",
             "type": "Sorcery",
@@ -1164,11 +1164,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "CR01 Rage-cursed Returned",
+            "card_name": "Rage-cursed Returned",
             "color": "R",
             "rarity": "common",
             "type": "Creature \u2013 Zombie Jackal Warrior",
-            "number": 119,
+            "number": 144,
             "color_identity": "R",
             "cost": "{R}",
             "rules_text": "Haste\nWhen this creature dies, it deals 1 damage to any noncreature target.",
@@ -1183,11 +1183,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "CR02 Frontier Messenger",
+            "card_name": "Frontier Messenger",
             "color": "R",
             "rarity": "common",
             "type": "Creature \u2013 Jackal Scout",
-            "number": 120,
+            "number": 130,
             "color_identity": "R",
             "cost": "{1}{R}",
             "rules_text": "Whenever this creature attacks, you may discard a card. If you do, draw a card.",
@@ -1202,11 +1202,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "CR03 Maahestet Champion",
+            "card_name": "Maahestet Champion",
             "color": "R",
             "rarity": "common",
             "type": "Creature \u2013 Cat Warrior",
-            "number": 121,
+            "number": 142,
             "color_identity": "R",
             "cost": "{1}{R}",
             "rules_text": "When this creature attacks, if it shares a creature type with another attacking creature, it gains trample until end of turn.",
@@ -1221,11 +1221,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "CR04 Shadowseller",
+            "card_name": "Shadowseller",
             "color": "R",
             "rarity": "common",
             "type": "Creature \u2013 Human Demon",
-            "number": 122,
+            "number": 150,
             "color_identity": "R",
             "cost": "{2}{R}",
             "rules_text": "Haste\nPay 2 life: Copy target activated ability of a source you control. Activate only once each turn, and only during your turn.",
@@ -1240,11 +1240,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "CR05 Bloodsand Lich",
+            "card_name": "Bloodsand Lich",
             "color": "R",
             "rarity": "common",
             "type": "Creature \u2013 Zombie Spirit Warlock",
-            "number": 123,
+            "number": 124,
             "color_identity": "R",
             "cost": "{2}{R}",
             "rules_text": "This creature enters with an additional +1/+1 counter on it as long as an opponent lost life this turn.",
@@ -1259,11 +1259,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "CR06 Role Model Sergeant",
+            "card_name": "Role Model Sergeant",
             "color": "R",
             "rarity": "common",
             "type": "Creature \u2013 Human Soldier Warrior",
-            "number": 124,
+            "number": 148,
             "color_identity": "WR",
             "cost": "{3}{R}",
             "rules_text": "{1}{RW}: Target Warrior gains first strike until end of turn. Activate only as a sorcery.",
@@ -1278,11 +1278,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "CR07 Ka-Blade Champion",
+            "card_name": "Ka-Blade Champion",
             "color": "R",
             "rarity": "common",
             "type": "Creature \u2013 Minotaur Warrior",
-            "number": 125,
+            "number": 137,
             "color_identity": "R",
             "cost": "{3}{R}{R}",
             "rules_text": "Trample\n{1}{R}: Put a +1/+1 counter on target creature you control. Activate only once each turn as a sorcery, and only if this creature attacked this turn",
@@ -1297,11 +1297,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "CR08 Avenging Minotaur",
+            "card_name": "Avenging Minotaur",
             "color": "R",
             "rarity": "common",
             "type": "Creature \u2013 Minotaur Barbarian",
-            "number": 126,
+            "number": 122,
             "color_identity": "UR",
             "cost": "{4}{R}",
             "rules_text": "Reach\nWhen this creature enters, you may pay {U}. When you do, return target instant and/or sorcery from your graveyard to your hand.",
@@ -1316,11 +1316,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "CR09 Starving Sandwurm",
+            "card_name": "Starving Sandwurm",
             "color": "R",
             "rarity": "common",
             "type": "Creature \u2013 Wurm",
-            "number": 127,
+            "number": 152,
             "color_identity": "R",
             "cost": "{4}{R}{R}",
             "rules_text": "Trample",
@@ -1335,11 +1335,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "CR10 Pay",
+            "card_name": "Pay",
             "color": "R",
             "rarity": "common",
             "type": "Instant",
-            "number": 128,
+            "number": 143,
             "color_identity": "R",
             "cost": "{1}{R}",
             "rules_text": "This spell deals 2 damage to any target.",
@@ -1364,11 +1364,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "CR11 Stirred",
+            "card_name": "Stirred",
             "color": "R",
             "rarity": "common",
             "type": "Instant",
-            "number": 129,
+            "number": 154,
             "color_identity": "R",
             "cost": "{R}",
             "rules_text": "Target creature gets +1/+0 and gains first strike until end of turn.",
@@ -1383,7 +1383,7 @@
             "color2": "R",
             "type2": "Sorcery",
             "cost2": "{1}{R}",
-            "rules_text2": "Aftermath\nTarget creature you control fights target creature you don't control.",
+            "rules_text2": "Aftermath [i](Cast this spell only from your graveyard. Then exile it.)[/i]\nTarget creature you control fights target creature you don't control.",
             "flavor_text2": "[i][/i]",
             "pt2": "",
             "special_text2": "",
@@ -1393,11 +1393,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "CR12 Stealing the Beacon",
+            "card_name": "Stealing the Beacon",
             "color": "R",
             "rarity": "common",
             "type": "Sorcery",
-            "number": 130,
+            "number": 153,
             "color_identity": "R",
             "cost": "{2}{R}",
             "rules_text": "This spell costs {1} less to cast as long as you've activated an ability of a nonland card this turn.\nExile the top two cards of your library. Until the end of your next turn, you may play those cards.",
@@ -1412,11 +1412,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "CR13 Abrade",
+            "card_name": "Abrade",
             "color": "R",
             "rarity": "common",
             "type": "Instant",
-            "number": 131,
+            "number": 119,
             "color_identity": "R",
             "cost": "{1}{R}",
             "rules_text": "Choose one \u2013\n\u2022 Abrade deals 3 damage to target creature.\n\u2022 Destroy target artifact.",
@@ -1431,11 +1431,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "CR14 Hot",
+            "card_name": "Hot",
             "color": "R",
             "rarity": "common",
             "type": "Sorcery",
-            "number": 132,
+            "number": 134,
             "color_identity": "R",
             "cost": "{2}{R}",
             "rules_text": "This spell deals 4 damage to target permanent.",
@@ -1460,7 +1460,7 @@
             "image_type": "png"
         },
         {
-            "card_name": "CR15 Holy Pyre",
+            "card_name": "Holy Pyre",
             "color": "R",
             "rarity": "common",
             "type": "Sorcery",
@@ -1479,11 +1479,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "CR16 Helm of Hazoret",
+            "card_name": "Helm of Hazoret",
             "color": "R",
             "rarity": "common",
             "type": "Artifact",
-            "number": 134,
+            "number": 131,
             "color_identity": "R",
             "cost": "{R}",
             "rules_text": "When this artifact enters or leaves the battlefield, it deals 1 damage to each player, then you surveil 1.",
@@ -1498,11 +1498,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "UR12 Read the Forbidden Scrolls",
+            "card_name": "Read the Forbidden Scrolls",
             "color": "R",
             "rarity": "uncommon",
             "type": "Sorcery",
-            "number": 155,
+            "number": 145,
             "color_identity": "R",
             "cost": "{2}{R}",
             "rules_text": "This spell costs {1} less to cast if an opponent lost life this turn.\nDiscard two cards, then draw three cards.",
@@ -1517,21 +1517,21 @@
             "image_type": "png"
         },
         {
-            "card_name": "UR14 Time",
+            "card_name": "Time",
             "color": "R",
             "rarity": "uncommon",
             "type": "Sorcery",
-            "number": 157,
+            "number": 156,
             "color_identity": "R",
             "cost": "{3}{R}",
-            "rules_text": "This spell deals damage to target opponent equal to the number of cards in their hand.",
+            "rules_text": "This spell deals damage to target opponent equal to the number of cards in their hand plus 1.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
             "shape": "aftermath",
             "set": "ASM",
             "loyalty": "",
-            "artist": "",
+            "artist": "ChrisNazgul / Daniel M.",
             "card_name2": "Shine",
             "color2": "R",
             "type2": "Sorcery",
@@ -1546,11 +1546,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "UR13 Bite",
+            "card_name": "Bite",
             "color": "R",
             "rarity": "uncommon",
             "type": "Sorcery",
-            "number": 156,
+            "number": 123,
             "color_identity": "R",
             "cost": "{2}{R}",
             "rules_text": "Until end of turn, target creature you control gains \u201c{2}, {T}: This creature deals damage equal to its power to any target.\u201d",
@@ -1560,12 +1560,12 @@
             "shape": "aftermath",
             "set": "ASM",
             "loyalty": "",
-            "artist": "",
+            "artist": "Anthony Z. Studo / Ewa Wazna",
             "card_name2": "Eat",
             "color2": "R",
             "type2": "Sorcery",
             "cost2": "{2}{R}",
-            "rules_text2": "Aftermath\nDouble target creature's power until end of turn.",
+            "rules_text2": "Aftermath [i](Cast this spell only from your graveyard. Then exile it.)[/i]\nDouble target creature's power until end of turn.",
             "flavor_text2": "[i][/i]",
             "pt2": "",
             "special_text2": "",
@@ -1575,11 +1575,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "CG01 Apepisw Gate",
+            "card_name": "Apepisw Gate",
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2013 Wall",
-            "number": 159,
+            "number": 160,
             "color_identity": "G",
             "cost": "{G}",
             "rules_text": "Defender\nWhenever a player sacrifices a creature or planeswalker, this creature gets +1/+1 until end of turn. This triggers only once each turn.",
@@ -1594,11 +1594,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "CG02 Oashra Vitalist",
+            "card_name": "Oashra Vitalist",
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2013 Naga Druid",
-            "number": 160,
+            "number": 188,
             "color_identity": "G",
             "cost": "{1}{G}",
             "rules_text": "{1}, {T}: Add two mana in any combination of colors.",
@@ -1613,11 +1613,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "CG03 Exploring Couple",
+            "card_name": "Exploring Couple",
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2013 Human Citizen",
-            "number": 161,
+            "number": 171,
             "color_identity": "G",
             "cost": "{1}{G}",
             "rules_text": "Vigilance\nWhen this creature dies, you may search your library for a basic land card, reveal it and put it into your hand, then shuffle.",
@@ -1632,11 +1632,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "CG04 Giant Ibis",
+            "card_name": "Giant Ibis",
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2013 Bird",
-            "number": 162,
+            "number": 175,
             "color_identity": "G",
             "cost": "{2}{G}",
             "rules_text": "This creature enters with a +1/+1 counter and a Reach counter on it.\nAt the beginning of your upkeep, you may move a +1/+1 counter from this creature onto another target creature you control.",
@@ -1651,11 +1651,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "CG05 Instructor Huntress",
+            "card_name": "Instructor Huntress",
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2013 Human Warrior Ranger",
-            "number": 163,
+            "number": 182,
             "color_identity": "RG",
             "cost": "{2}{G}",
             "rules_text": "{2}{RG}: Target creature you control gets +2/+0 until end of turn. Activate only as a sorcery.",
@@ -1670,11 +1670,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "CG06 Boat-climber Cobra",
+            "card_name": "Boat-climber Cobra",
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2013 Snake",
-            "number": 164,
+            "number": 163,
             "color_identity": "G",
             "cost": "{2}{G}{G}",
             "rules_text": "Deathtouch\nThis creature assigns combat damage to planeswalkers and players equal to its toughness rather than its power.",
@@ -1689,11 +1689,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "CG07 Seeker of Lost Species",
+            "card_name": "Seeker of Lost Species",
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2013 Human Druid Ranger",
-            "number": 165,
+            "number": 192,
             "color_identity": "WG",
             "cost": "{3}{G}",
             "rules_text": "{T}: Add one mana of any color.\n{G}{W}, {T}: Return target land card from your graveyard to the battlefield.",
@@ -1708,11 +1708,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "CG08 Hippo Family",
+            "card_name": "Hippo Family",
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2013 Hippo",
-            "number": 166,
+            "number": 178,
             "color_identity": "G",
             "cost": "{4}{G}",
             "rules_text": "When this creature enters, if one or more counters were removed or put on a creature you control this turn, choose one \u2013\n\u2022 Exile any number of cards from target player's graveyard.\n\u2022 Gain 3 life and scry 1.",
@@ -1727,11 +1727,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "CG09 Avenging Elephant",
+            "card_name": "Avenging Elephant",
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2013 Elephant",
-            "number": 167,
+            "number": 162,
             "color_identity": "RG",
             "cost": "{4}{G}{G}",
             "rules_text": "Trample\n{1}{R}: Destroy target noncreature, nonbasic permanent with mana value 2 or less. Activate only once each turn, and only if this creature dealt combat damage to a planeswalker or player this turn.",
@@ -1746,11 +1746,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "CG10 Oasis Sentinel",
+            "card_name": "Oasis Sentinel",
             "color": "G",
             "rarity": "common",
             "type": "Creature \u2013 Frog Avatar",
-            "number": 168,
+            "number": 189,
             "color_identity": "G",
             "cost": "{5}{G}{G}",
             "rules_text": "This creature gets +X/+X and can't be blocked by creatures with power equal to or less than {X}, where X is the number of Oasis lands you control.",
@@ -1765,11 +1765,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "CG11 Maul",
+            "card_name": "Maul",
             "color": "G",
             "rarity": "common",
             "type": "Sorcery",
-            "number": 169,
+            "number": 185,
             "color_identity": "G",
             "cost": "{G}",
             "rules_text": "Target creature you control gets +1/+0 until end of turn. It fights up to one target creature you don't control.",
@@ -1784,11 +1784,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "CG12 Hunting Party",
+            "card_name": "Hunting Party",
             "color": "G",
             "rarity": "common",
             "type": "Sorcery",
-            "number": 170,
+            "number": 180,
             "color_identity": "G",
             "cost": "{1}{G}",
             "rules_text": "Choose one \u2013\n\u2022 Destroy target artifact or enchantment with mana value less than the greatest power among creatures you control.\n\u2022 Target creature you control deals damage equal to its power to target creature an opponent controls.",
@@ -1803,11 +1803,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "CG14 City's Founding",
+            "card_name": "City's Founding",
             "color": "G",
             "rarity": "common",
             "type": "Sorcery",
-            "number": 172,
+            "number": 164,
             "color_identity": "G",
             "cost": "{2}{G}",
             "rules_text": "Search your library for a basic land or Oasis card, put it onto the battlefield, then shuffle.",
@@ -1822,11 +1822,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "CG15 Night Market",
+            "card_name": "Night Market",
             "color": "G",
             "rarity": "common",
             "type": "Sorcery",
-            "number": 173,
+            "number": 187,
             "color_identity": "G",
             "cost": "{2}{G}",
             "rules_text": "Look at the top X cards of your library, where X is the greatest toughness among creatures you control. You may reveal any number of creature and/or land cards from among them and put the revealed cards into your hand. Put the rest on the bottom of your library in any order.",
@@ -1841,11 +1841,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "CG16 Ghrin-Danu's Servitors",
+            "card_name": "Ghrin-Danu's Servitors",
             "color": "G",
             "rarity": "common",
             "type": "Sorcery",
-            "number": 174,
+            "number": 173,
             "color_identity": "G",
             "cost": "{3}{G}",
             "rules_text": "Create three 1/1 Elemental creature tokens that are all colors.",
@@ -1860,11 +1860,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "UG13 Cover-Up",
+            "card_name": "Cover-Up",
             "color": "G",
             "rarity": "uncommon",
             "type": "Instant",
-            "number": 196,
+            "number": 166,
             "color_identity": "G",
             "cost": "{2}{G}",
             "rules_text": "Destroy target nonbasic permanent. Its controller may search their library for a basic land card, put it onto the battlefield, then shuffle.",
@@ -1879,11 +1879,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "UG12 Close",
+            "card_name": "Close",
             "color": "G",
             "rarity": "uncommon",
             "type": "Sorcery",
-            "number": 195,
+            "number": 165,
             "color_identity": "G",
             "cost": "{G}",
             "rules_text": "Target creature gets +2/+2 and gains trample until end of turn.",
@@ -1908,11 +1908,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "UG11 Stumble Upon Sanctuary",
+            "card_name": "Stumble Upon Sanctuary",
             "color": "G",
             "rarity": "uncommon",
             "type": "Sorcery",
-            "number": 194,
+            "number": 193,
             "color_identity": "G",
             "cost": "{2}{G}{G}",
             "rules_text": "Search your library for a land card and a basic land card and reveal them. Put the basic land card onto the battlefield, then put the other land card into your hand, then shuffle.",
@@ -1927,11 +1927,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "UW01 Scion of Hazoret",
+            "card_name": "Scion of Hazoret",
             "color": "W",
             "rarity": "uncommon",
             "type": "Creature \u2013 Human Cleric Warrior",
-            "number": 26,
+            "number": 32,
             "color_identity": "W",
             "cost": "{W}",
             "rules_text": "The first time each turn you or a permanent you control becomes the target of a spell or ability you don't control, Warriors you control get +1/+0 until your next end step.",
@@ -1946,14 +1946,14 @@
             "image_type": "png"
         },
         {
-            "card_name": "UW02 Herald of the Lost",
+            "card_name": "Herald of the Lost",
             "color": "W",
             "rarity": "uncommon",
             "type": "Creature \u2013 Jackal Warrior Scout",
-            "number": 27,
+            "number": 19,
             "color_identity": "W",
             "cost": "{1}{W}",
-            "rules_text": "Whenever this creature deals combat damage to an opponent or planeswalker, return up to one target permanent with mana value 0 from your graveyard to your hand.",
+            "rules_text": "Whenever this creature deals combat damage to an opponent or planeswalker, return up to one target permanent card with mana value 0 from your graveyard to your hand.",
             "flavor_text": "[i]He fought to ensure that not only the dead, but also the lost and forgotten had a voice.[/i]",
             "pt": "2/2",
             "special_text": "",
@@ -1965,11 +1965,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "UW03 Arena Champion",
+            "card_name": "Arena Champion",
             "color": "W",
             "rarity": "uncommon",
             "type": "Creature \u2013 Bird Warrior",
-            "number": 28,
+            "number": 2,
             "color_identity": "W",
             "cost": "{1}{W}",
             "rules_text": "Flying\nThe first time you tap an untapped creature an opponent controls during your turn, you may have target creature you control get +X/+X, where X is the power of the tapped creature.",
@@ -1984,14 +1984,14 @@
             "image_type": "png"
         },
         {
-            "card_name": "UW04 Priestess of Sanctity",
+            "card_name": "Priestess of Sanctity",
             "color": "W",
             "rarity": "uncommon",
             "type": "Creature \u2013 Human Cleric",
-            "number": 29,
+            "number": 27,
             "color_identity": "W",
             "cost": "{2}{W}",
-            "rules_text": "When this creature enters, create a 1/1 Elemental creature token that's all colors.\nWhenever a player sacrifices a multicolored permanent, you gain 1 life.",
+            "rules_text": "When this creature enters, create a 1/1 Elemental creature token that's all colors.\nWhenever a player sacrifices a colored permanent, you gain 1 life.",
             "flavor_text": "[i][/i]",
             "pt": "2/2",
             "special_text": "",
@@ -2003,11 +2003,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "UW05 Vessel of Purity",
+            "card_name": "Vessel of Purity",
             "color": "W",
             "rarity": "uncommon",
             "type": "Creature \u2013 Human Cleric",
-            "number": 30,
+            "number": 38,
             "color_identity": "W",
             "cost": "{1}{W}{W}",
             "rules_text": "Vigilance\n[i]Schism[/i] \u2013 {T}, Tap one or more other creatures you control, sacrifice this creature: Search your library for a God card, reveal it and put it into your hand, then shuffle. If three or more other creatures were tapped this way, you may put that God onto the battlefield instead.",
@@ -2022,11 +2022,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "UW06 Callous Charioteer",
+            "card_name": "Callous Charioteer",
             "color": "W",
             "rarity": "uncommon",
             "type": "Creature \u2013 Human Warrior",
-            "number": 31,
+            "number": 6,
             "color_identity": "W",
             "cost": "{2}{W}",
             "rules_text": "Reach\nBetray [i](When this permanent enters, you may sacrifice another permanent that shares a color with it.)[/i]\nWhen this creature betrays a permanent, it gains haste, vigilance and trample until end of turn.",
@@ -2041,11 +2041,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "UW07 Razemaster",
+            "card_name": "Razemaster",
             "color": "W",
             "rarity": "uncommon",
             "type": "Creature \u2013 Jackal Warlock",
-            "number": 32,
+            "number": 28,
             "color_identity": "W",
             "cost": "{3}{W}",
             "rules_text": "Betray [i](When this permanent enters, you may sacrifice another permanent that shares a color with it.)[/i]\nWhen this creature betrays a permanent, destroy all artifacts and enchantments with mana value equal to or less than that of the betrayed permanent.",
@@ -2060,11 +2060,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "UW08 Angel of Obeisance",
+            "card_name": "Angel of Obeisance",
             "color": "W",
             "rarity": "uncommon",
             "type": "Creature \u2013 Angel",
-            "number": 33,
+            "number": 1,
             "color_identity": "W",
             "cost": "{3}{W}{W}",
             "rules_text": "This spell costs {1} less to cast for each creature you don't control that was tapped this turn.\nFlying, vigilance",
@@ -2079,11 +2079,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "UW09 Makheru, Voice of Truth",
+            "card_name": "Makheru, Voice of Truth",
             "color": "W",
             "rarity": "uncommon",
             "type": "Legendary Creature \u2013 Angel",
-            "number": 34,
+            "number": 22,
             "color_identity": "W",
             "cost": "{4}{W}{W}",
             "rules_text": "Flash\nFlying\nWhen Makheru enters, put a +1/+1 counter on each other creature you control, then if he was cast, permanents you control gain indestructible until end of turn.",
@@ -2098,11 +2098,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "UW10 Megalithic Guardian",
+            "card_name": "Megalithic Guardian",
             "color": "W",
             "rarity": "uncommon",
             "type": "Creature \u2013 Elemental Sphinx",
-            "number": 35,
+            "number": 23,
             "color_identity": "W",
             "cost": "{5}{W}{W}",
             "rules_text": "Vigilance\nThis creature and lands you control have indestructible as long as there are four or more different names among lands you control.",
@@ -2117,11 +2117,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "UU01 Drakerider Spellweaver",
+            "card_name": "Drakerider Spellweaver",
             "color": "U",
             "rarity": "uncommon",
             "type": "Creature \u2013 Human Wizard",
-            "number": 65,
+            "number": 45,
             "color_identity": "U",
             "cost": "{1}{U}",
             "rules_text": "Flying\nWhenever you cast an instant or sorcery spell, draw a card. Then discard a card unless there are five or more cards in your graveyard.",
@@ -2136,11 +2136,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "UU02 Keeper of Blessed Waters",
+            "card_name": "Keeper of Blessed Waters",
             "color": "U",
             "rarity": "uncommon",
             "type": "Creature \u2013 Human Cleric",
-            "number": 66,
+            "number": 50,
             "color_identity": "U",
             "cost": "{1}{U}",
             "rules_text": "Ward {1}\n{1}: Move a counter from one creature you control to another creature you control, then untap one of those creatures. Activate only once each turn.",
@@ -2155,11 +2155,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "UU03 Afu, Chosen of the Scarab",
+            "card_name": "Afu, Chosen of the Scarab",
             "color": "U",
             "rarity": "uncommon",
             "type": "Legendary Creature \u2013 Zombie Jackal Cleric",
-            "number": 67,
+            "number": 40,
             "color_identity": "U",
             "cost": "{2}{U}",
             "rules_text": "Flying\nWhenever you cast your second spell each turn, create a 1/1 black Zombie creature token.",
@@ -2174,11 +2174,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "UU04 Vigilant Obstructionist",
+            "card_name": "Vigilant Obstructionist",
             "color": "U",
             "rarity": "uncommon",
             "type": "Creature \u2013 Human Wizard",
-            "number": 68,
+            "number": 74,
             "color_identity": "U",
             "cost": "{2}{U}",
             "rules_text": "Vigilance\nWhenever an opponent draws one or more cards, if it's not the first they've drawn this turn, that opponent taps an untapped nonland permanent they control",
@@ -2193,11 +2193,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "UU05 Vessel of Genius",
+            "card_name": "Vessel of Genius",
             "color": "U",
             "rarity": "uncommon",
             "type": "Creature \u2013 Human Wizard Cleric",
-            "number": 69,
+            "number": 73,
             "color_identity": "U",
             "cost": "{2}{U}{U}",
             "rules_text": "Flying, ward {1}\n[i]Schism[/i] \u2013 {T}, Tap one or more other creatures you control, sacrifice this creature: Search your library for a God card, reveal it and put it into your hand, then shuffle. If three or more other creatures were tapped this way, you may put that God onto the battlefield instead.",
@@ -2212,11 +2212,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "UU06 Pillar-Leaper Sphinx",
+            "card_name": "Pillar-Leaper Sphinx",
             "color": "U",
             "rarity": "uncommon",
             "type": "Creature \u2013 Sphinx",
-            "number": 70,
+            "number": 61,
             "color_identity": "U",
             "cost": "{2}{U}{U}",
             "rules_text": "Flash\nFlying\nWhen this creature enters, choose one \u2013\n\u2022 Search your library for an instant or sorcery card, put it into your graveyard, then shuffle.\n\u2022 Draw a card.",
@@ -2231,11 +2231,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "UU07 Track Guardian",
+            "card_name": "Track Guardian",
             "color": "U",
             "rarity": "uncommon",
             "type": "Creature \u2013 Snake Warlock Archer",
-            "number": 71,
+            "number": 70,
             "color_identity": "UG",
             "cost": "{3}{U}{U}",
             "rules_text": "Reach\nThis creature enters with two +1/+1 counters on it.\n{1}{GU}: Target creature you control must be blocked this turn if able. Activate only as a sorcery.",
@@ -2250,11 +2250,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "UU08 Yours",
+            "card_name": "Yours",
             "color": "U",
             "rarity": "uncommon",
             "type": "Instant",
-            "number": 72,
+            "number": 77,
             "color_identity": "U",
             "cost": "{1}{U}",
             "rules_text": "Counter target spell with mana value 2 or less.",
@@ -2269,7 +2269,7 @@
             "color2": "U",
             "type2": "Sorcery",
             "cost2": "{2}{U}{U}",
-            "rules_text2": "Aftermath\nGain control of target nonland permanent with mana value 2 or less.",
+            "rules_text2": "Aftermath [i](Cast this spell only from your graveyard. Then exile it.)[/i]\nGain control of target nonland permanent with mana value 2 or less.",
             "flavor_text2": "[i][/i]",
             "pt2": "",
             "special_text2": "",
@@ -2279,11 +2279,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "UU09 Lofty Response",
+            "card_name": "Lofty Response",
             "color": "U",
             "rarity": "uncommon",
             "type": "Instant",
-            "number": 73,
+            "number": 52,
             "color_identity": "U",
             "cost": "{2}{U}",
             "rules_text": "Untap each creature you control. Those creatures gain flying and hexproof until end of turn.",
@@ -2298,14 +2298,14 @@
             "image_type": "png"
         },
         {
-            "card_name": "UU10 Mastery of Tumbling Sands",
+            "card_name": "Mastery of Tumbling Sands",
             "color": "U",
             "rarity": "uncommon",
             "type": "Enchantment",
-            "number": 74,
+            "number": 54,
             "color_identity": "U",
             "cost": "{2}{U}",
-            "rules_text": "{U}: Counter target activated or triggered ability of a nonland permanent. If that permanent is untapped, tap it. Activate only once each turn.",
+            "rules_text": "{U}: Counter target activated or triggered ability of a nonland permanent. Tap that permanent. Activate only once each turn.",
             "flavor_text": "[i]\u201cYour actions show this timeline is broken. Let me fix it.\u201d[/i]",
             "pt": "",
             "special_text": "",
@@ -2317,11 +2317,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "UB01 Eternal Fighters",
+            "card_name": "Eternal Fighters",
             "color": "B",
             "rarity": "uncommon",
             "type": "Creature \u2013 Zombie Warrior",
-            "number": 104,
+            "number": 88,
             "color_identity": "B",
             "cost": "{B}",
             "rules_text": "This creature enters tapped.\nAt the beginning of your end step, if this card is in your graveyard and an opponent lost life this turn, you may pay {1}{B}. When you do, return this card to the battlefield.",
@@ -2336,11 +2336,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "UB02 Scion of Emptiness",
+            "card_name": "Scion of Emptiness",
             "color": "B",
             "rarity": "uncommon",
             "type": "Creature \u2013 Snake Mutant Warlock",
-            "number": 105,
+            "number": 108,
             "color_identity": "BG",
             "cost": "{1}{B}",
             "rules_text": "Defender\n{G} or Sacrifice a creature: Until end of turn, this creature loses defender and gains menace.\nWhenever this creature deals combat damage to an opponent, that player discards two cards unless they pay life equal to this creature's toughness.",
@@ -2355,11 +2355,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "UB03 Obssessed Falconer",
+            "card_name": "Obssessed Falconer",
             "color": "B",
             "rarity": "uncommon",
             "type": "Creature \u2013 Human Noble",
-            "number": 106,
+            "number": 102,
             "color_identity": "B",
             "cost": "{1}{B}",
             "rules_text": "Betray [i](When this permanent enters, you may sacrifice another permanent that shares a color with it.)[/i]\nWhen this creature betrays another permanent, create a 1/1 white Bird creature token with flying.",
@@ -2374,11 +2374,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "UB04 Vessel of Darkness",
+            "card_name": "Vessel of Darkness",
             "color": "B",
             "rarity": "uncommon",
             "type": "Creature \u2013 Human Cleric",
-            "number": 107,
+            "number": 114,
             "color_identity": "B",
             "cost": "{1}{B}{B}",
             "rules_text": "Menace\n[i]Schism[/i] \u2013 {T}, Tap one or more other creatures you control, sacrifice this creature: Search your library for a God card, reveal it and put it into your hand, then shuffle. If three or more other creatures were tapped this way, you may put that God onto the battlefield instead.",
@@ -2393,11 +2393,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "UB06 Omnivorous Exhumer",
+            "card_name": "Omnivorous Exhumer",
             "color": "B",
             "rarity": "uncommon",
             "type": "Creature \u2013 Manticore",
-            "number": 109,
+            "number": 103,
             "color_identity": "B",
             "cost": "{4}{B}",
             "rules_text": "Whenever this creature attacks, it gains flying until end of turn.\nWhenever another creature dies, this creature gets +1/+1 until end of turn.",
@@ -2412,11 +2412,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "UB07 Merciless Brawler",
+            "card_name": "Merciless Brawler",
             "color": "B",
             "rarity": "uncommon",
             "type": "Creature \u2013 Minotaur Warrior",
-            "number": 110,
+            "number": 98,
             "color_identity": "B",
             "cost": "{4}{B}{B}",
             "rules_text": "Menace, deathtouch\nWhen this creature dies, each opponent loses life equal to its toughness.",
@@ -2431,11 +2431,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "UB09 Rise of the Doomed",
+            "card_name": "Rise of the Doomed",
             "color": "B",
             "rarity": "uncommon",
             "type": "Enchantment",
-            "number": 112,
+            "number": 106,
             "color_identity": "B",
             "cost": "{B}",
             "rules_text": "Zombies you control have menace.\n{2}{B}, Exile a nonland card from your graveyard: Create a 1/1 black Zombie creature token. Activate only once each turn, and only as a sorcery.",
@@ -2450,11 +2450,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "UB10 Localized Disaster",
+            "card_name": "Localized Disaster",
             "color": "B",
             "rarity": "uncommon",
             "type": "Sorcery",
-            "number": 113,
+            "number": 96,
             "color_identity": "B",
             "cost": "{1}{B}",
             "rules_text": "Each opponent loses 2 life.\nCreatures you don't control get -1/-1 until end of turn.",
@@ -2469,11 +2469,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "UB11 Hyena Pack Attack",
+            "card_name": "Hyena Pack Attack",
             "color": "B",
             "rarity": "uncommon",
             "type": "Instant",
-            "number": 114,
+            "number": 92,
             "color_identity": "B",
             "cost": "{B}",
             "rules_text": "Choose one. If you control a creature with toughness greater than its power, you may choose any number. \u2013\n\u2022 Target creature gets +1/+1 until end of turn.\n\u2022 Target creature gets -1/-1 until end of turn.\n\u2022 Target creature gains lifelink until end of turn.",
@@ -2488,11 +2488,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "UR01 Taw-honed Fighter",
+            "card_name": "Taw-honed Fighter",
             "color": "R",
             "rarity": "uncommon",
             "type": "Creature \u2013 Human Warrior",
-            "number": 144,
+            "number": 155,
             "color_identity": "R",
             "cost": "{R}",
             "rules_text": "This creature enters with an additional +1/+1 counter on it as long as you've attacked this turn.\nWhen this creature enters, scry 1.",
@@ -2507,11 +2507,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "UR02 Skeshed, Dancing Storm",
+            "card_name": "Skeshed, Dancing Storm",
             "color": "R",
             "rarity": "uncommon",
             "type": "Legendary Creature \u2013 Human Rogue Warrior",
-            "number": 145,
+            "number": 151,
             "color_identity": "R",
             "cost": "{1}{R}",
             "rules_text": "Haste\nWard\u2013Pay 2 life.\nSpells you cast can't be countered as long as an opponent lost life this turn.",
@@ -2526,11 +2526,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "UR03 Hermit Champion",
+            "card_name": "Hermit Champion",
             "color": "R",
             "rarity": "uncommon",
             "type": "Creature \u2013 Jackal Warrior",
-            "number": 146,
+            "number": 132,
             "color_identity": "RG",
             "cost": "{1}{R}",
             "rules_text": "{R}: This creature gains haste until end of turn.\n{G}: This creature gets +1/+1 until end of turn.",
@@ -2545,11 +2545,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "UR04 Vessel of Wrath",
+            "card_name": "Vessel of Wrath",
             "color": "R",
             "rarity": "uncommon",
             "type": "Creature \u2013 Jackal Cleric",
-            "number": 147,
+            "number": 157,
             "color_identity": "R",
             "cost": "{1}{R}{R}",
             "rules_text": "Haste\n[i]Schism[/i] \u2013 {T}, Tap one or more other creatures you control, sacrifice this creature: Search your library for a God card, reveal it and put it into your hand, then shuffle. If three or more other creatures were tapped this way, you may put that God onto the battlefield instead.",
@@ -2564,11 +2564,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "UR05 Scorchtrack Mehu",
+            "card_name": "Scorchtrack Mehu",
             "color": "R",
             "rarity": "uncommon",
             "type": "Creature \u2013 Elemental Cat",
-            "number": 148,
+            "number": 149,
             "color_identity": "R",
             "cost": "{2}{R}{R}",
             "rules_text": "This spell costs {1} less to cast for each instant and/or sorcery you've cast this turn.\nTrample",
@@ -2583,11 +2583,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "UR07 Wine Priestess",
+            "card_name": "Wine Priestess",
             "color": "R",
             "rarity": "uncommon",
             "type": "Creature \u2013 Human Bard Cleric",
-            "number": 150,
+            "number": 158,
             "color_identity": "WR",
             "cost": "{3}{R}{R}",
             "rules_text": "Ward\u2013pay 2 life\nWhen this creature enters, if you cast it, create three 1/1 red Human Warrior creature tokens with first strike.\n{1}{W}: Create a Food token. Activate only once each turn as a sorcery.",
@@ -2602,11 +2602,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "UR08 Corrupted Emberhorn",
+            "card_name": "Corrupted Emberhorn",
             "color": "R",
             "rarity": "uncommon",
             "type": "Creature \u2013 Demon Minotaur",
-            "number": 151,
+            "number": 126,
             "color_identity": "R",
             "cost": "{4}{R}{R}",
             "rules_text": "Menace\nWhen this creature enters, it deals 2 damage to each player and each other permanent.",
@@ -2621,11 +2621,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "UR09 Darkstorm Bolt",
+            "card_name": "Darkstorm Bolt",
             "color": "R",
             "rarity": "uncommon",
             "type": "Instant",
-            "number": 152,
+            "number": 127,
             "color_identity": "R",
             "cost": "{1}{R}",
             "rules_text": "This spell costs {1} less to cast as long as any player cast a spell from a graveyard this turn.\nThis spell deals 3 damage to any target.",
@@ -2640,11 +2640,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "UR10 Infectious Bravado",
+            "card_name": "Infectious Bravado",
             "color": "R",
             "rarity": "uncommon",
             "type": "Enchantment \u2013 Aura",
-            "number": 153,
+            "number": 135,
             "color_identity": "R",
             "cost": "{2}{R}",
             "rules_text": "Enchant creature\nWhenever another Warrior you control enters, enchanted creature gets +1/+1 until end of turn.\nAt the beginning of combat on your turn, create a 1/1 red Warrior creature token with haste. Sacrifice that token at the beginning of the next end step.",
@@ -2659,11 +2659,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "UR11 Ready",
+            "card_name": "Ready",
             "color": "R",
             "rarity": "uncommon",
             "type": "Sorcery",
-            "number": 154,
+            "number": 146,
             "color_identity": "R",
             "cost": "{1}{R}",
             "rules_text": "Target creature gets +2/+2 and gains haste until end of turn.",
@@ -2688,11 +2688,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "UG01 Eneri, Cunning Treasurer",
+            "card_name": "Eneri, Cunning Treasurer",
             "color": "G",
             "rarity": "uncommon",
             "type": "Legendary Creature \u2013 Human Druid Rogue",
-            "number": 184,
+            "number": 170,
             "color_identity": "G",
             "cost": "{G}",
             "rules_text": "{X}, {T}: Put X charge counters on this creature.\n{T}, Remove X charge counters from this creature: Add one mana of any color for each counter removed this way.",
@@ -2707,11 +2707,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "UG02 Luxa Shoremage",
+            "card_name": "Luxa Shoremage",
             "color": "G",
             "rarity": "uncommon",
             "type": "Creature \u2013 Human Wizard",
-            "number": 185,
+            "number": 184,
             "color_identity": "G",
             "cost": "{1}{G}",
             "rules_text": "When this creature enters, put a +1/+1 counter on it and another target creature you control.\nWhenever you attack with one or more creatures with counters on them, you may untap up to that many lands you control.",
@@ -2726,11 +2726,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "UG03 Giant Carrion Beetle",
+            "card_name": "Giant Carrion Beetle",
             "color": "G",
             "rarity": "uncommon",
             "type": "Creature \u2013 Insect",
-            "number": 186,
+            "number": 174,
             "color_identity": "BG",
             "cost": "{1}{G}",
             "rules_text": "Defender\n{BG}: Exile target card from a graveyard. If that card is a creature card, this creature gets +1/+1 and loses defender until end of turn.",
@@ -2745,11 +2745,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "UG04 Paladin of Ghrin-Danu",
+            "card_name": "Paladin of Ghrin-Danu",
             "color": "G",
             "rarity": "uncommon",
             "type": "Creature \u2013 Human Cleric Knight",
-            "number": 187,
+            "number": 190,
             "color_identity": "G",
             "cost": "{2}{G}",
             "rules_text": "Trample\nAs long as there are four or more different names among lands you control, this creature gets +1/+1 and has ward {2} and vigilance.",
@@ -2764,11 +2764,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "UG05 Delta Monitor",
+            "card_name": "Delta Monitor",
             "color": "G",
             "rarity": "uncommon",
             "type": "Creature \u2013 Hydra",
-            "number": 188,
+            "number": 168,
             "color_identity": "G",
             "cost": "{2}{G}{G}",
             "rules_text": "Trample\nThis creature enters with five +1/+1 counters on it.\nIf this creature would be dealt damage, instead prevent that damage and remove a counter from it.",
@@ -2783,11 +2783,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "UG06 Vessel of Nature",
+            "card_name": "Vessel of Nature",
             "color": "G",
             "rarity": "uncommon",
             "type": "Creature \u2013 Human Cleric",
-            "number": 189,
+            "number": 196,
             "color_identity": "G",
             "cost": "{2}{G}{G}",
             "rules_text": "At the beginning of your first main phase, add {G}.\n[i]Schism[/i] \u2013 {T}, Tap one or more other creatures you control, sacrifice this creature: Search your library for a God card, reveal it and put it into your hand, then shuffle. If three or more other creatures were tapped this way, you may put that God onto the battlefield instead.",
@@ -2802,11 +2802,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "UG07 Naga Secretstealer",
+            "card_name": "Naga Secretstealer",
             "color": "G",
             "rarity": "uncommon",
             "type": "Creature \u2013 Snake Warlock",
-            "number": 190,
+            "number": 186,
             "color_identity": "G",
             "cost": "{3}{G}{G}",
             "rules_text": "At the beginning of combat on your turn, target creature you control gains deathtouch until end of turn.\nWhenever a creature you control with toughness greater than its power deals combat damage to an opponent or planeswalker, you draw a card.",
@@ -2821,11 +2821,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "UG08 Danurian Woodcaller",
+            "card_name": "Danurian Woodcaller",
             "color": "G",
             "rarity": "uncommon",
             "type": "Creature \u2013 Elemental Lizard Beast",
-            "number": 191,
+            "number": 167,
             "color_identity": "G",
             "cost": "{4}{G}{G}",
             "rules_text": "Trample\nAt the beginning of your upkeep, if there are four or more different names among lands you control, you may have target land you control become a 6/6 green Elemental creature with trample in addition to its other types until end of turn.",
@@ -2840,11 +2840,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "UG09 Gargantuan Abytira",
+            "card_name": "Gargantuan Abytira",
             "color": "G",
             "rarity": "uncommon",
             "type": "Creature \u2013 Insect Mutant",
-            "number": 192,
+            "number": 172,
             "color_identity": "G",
             "cost": "{4}{G}{G}{G}",
             "rules_text": "As long as you've activated an ability of a creature you control this turn, this spell can't be countered and may be cast as though it had flash.\nTrample, vigilance",
@@ -2859,11 +2859,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "UG10 Supervisor's Intervention",
+            "card_name": "Supervisor's Intervention",
             "color": "G",
             "rarity": "uncommon",
             "type": "Instant",
-            "number": 193,
+            "number": 194,
             "color_identity": "G",
             "cost": "{1}{G}",
             "rules_text": "Put a +1/+1 counter on target permanent you control.\nPermanents you control with counters on them gain hexproof until end of turn.",
@@ -2878,11 +2878,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "RW01 Sek'new, Lifeblood Brawler",
+            "card_name": "Sek'new, Lifeblood Brawler",
             "color": "W",
             "rarity": "rare",
             "type": "Legendary Creature \u2013 Human Warrior",
-            "number": 19,
+            "number": 33,
             "color_identity": "W",
             "cost": "{1}{W}",
             "rules_text": "Warriors you control have lifelink.",
@@ -2897,11 +2897,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "RW02 Converted Seraph",
+            "card_name": "Converted Seraph",
             "color": "W",
             "rarity": "rare",
             "type": "Creature \u2013 Angel",
-            "number": 20,
+            "number": 9,
             "color_identity": "W",
             "cost": "{2}{W}{W}",
             "rules_text": "Flying, vigilance\nBetray [i](When this permanent enters, you may sacrifice another permanent that shares a color with it.)[/i]\nWhen this creature betrays a permanent, destroy target tapped creature. If it betrays an Angel or a legendary creature, you may instead destroy all tapped creatures.",
@@ -2916,11 +2916,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "RW03 Returned Vizier",
+            "card_name": "Returned Vizier",
             "color": "W",
             "rarity": "rare",
             "type": "Creature \u2013 Zombie Warlock",
-            "number": 21,
+            "number": 30,
             "color_identity": "W",
             "cost": "{1}{W}{W}",
             "rules_text": "Flash\nFirst strike\nBetray [i](When this permanent enters, you may sacrifice another permanent that shares a color with it.)[/i]\nWhen this creature betrays a permanent, you gain life equal to that permanent's mana value.",
@@ -2935,11 +2935,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "RW04 Basri Ket, Conflicted",
+            "card_name": "Basri Ket, Conflicted",
             "color": "W",
             "rarity": "rare",
             "type": "Legendary Creature \u2013 Human Wizard Warrior",
-            "number": 22,
+            "number": 3,
             "color_identity": "W",
             "cost": "{3}{W}{W}",
             "rules_text": "Ward {1}\nAs long as there are four or more different names among lands you control, creatures you control get +1/+1 and have vigilance.\nAs long as you control four or more creatures, lands you control have \u201c{T}: Add one mana of any color. You gain 1 life.\u201d",
@@ -2954,11 +2954,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "RW05 Diplomatic Conclave",
+            "card_name": "Diplomatic Conclave",
             "color": "W",
             "rarity": "rare",
             "type": "Enchantment",
-            "number": 23,
+            "number": 13,
             "color_identity": "W",
             "cost": "{2}{W}",
             "rules_text": "At the beginning of each opponent's upkeep, they may tap an untapped creature they control. If they don't, you draw a card.\nSacrifice this enchantment: Exile target tapped or attacking creature.",
@@ -2973,11 +2973,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "RW06 Extracted Confession",
+            "card_name": "Extracted Confession",
             "color": "W",
             "rarity": "rare",
             "type": "Sorcery",
-            "number": 24,
+            "number": 15,
             "color_identity": "W",
             "cost": "{1}{W}",
             "rules_text": "Search your command zone, graveyard and/or library for a permanent card with mana value X, where X is the total combat damage dealt to target opponent this turn, reveal it and put it into your hand. Shuffle your library if you searched it this way.",
@@ -2992,11 +2992,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "RW07 Carven Legacy",
+            "card_name": "Carven Legacy",
             "color": "W",
             "rarity": "rare",
             "type": "Enchantment",
-            "number": 25,
+            "number": 7,
             "color_identity": "W",
             "cost": "{3}{W}",
             "rules_text": "Whenever you sacrifice a nontoken, nonland permanent, you may return that card to the battlefield tapped under your control. It's a colorless land with \u201c{T}: Add {C},\u201d and it loses all other card types and abilities.",
@@ -3011,11 +3011,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "RU01 Snehemite Novitiate",
+            "card_name": "Snehemite Novitiate",
             "color": "U",
             "rarity": "rare",
             "type": "Creature \u2013 Human Wizard",
-            "number": 58,
+            "number": 67,
             "color_identity": "UR",
             "cost": "{1}{U}",
             "rules_text": "Ward {1}\n{2}{UR}, {T}: Copy target noncreature spell that was cast from a graveyard. You may choose new targets for the copy. This ability costs {1} less to activate if that spell has Aftermath.",
@@ -3030,11 +3030,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "RU02 Ramunap Revenant",
+            "card_name": "Ramunap Revenant",
             "color": "U",
             "rarity": "rare",
             "type": "Creature \u2013 Zombie",
-            "number": 59,
+            "number": 62,
             "color_identity": "U",
             "cost": "{1}{U}{U}",
             "rules_text": "Flying\nWhenever this creature attacks, other Zombies you control gain flying until end of turn.",
@@ -3049,11 +3049,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "RU03 Interdiction Angel",
+            "card_name": "Interdiction Angel",
             "color": "U",
             "rarity": "rare",
             "type": "Creature \u2013 Angel",
-            "number": 60,
+            "number": 49,
             "color_identity": "U",
             "cost": "{3}{U}",
             "rules_text": "Flash\nThis spell can't be countered.\nFlying\nWhen this creature enters, tap up to one target creature.",
@@ -3068,11 +3068,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "RU04 Mystic Manipulation",
+            "card_name": "Mystic Manipulation",
             "color": "U",
             "rarity": "rare",
             "type": "Instant",
-            "number": 61,
+            "number": 56,
             "color_identity": "U",
             "cost": "{X}{U}",
             "rules_text": "This spell costs {X} less to cast as long as you control both targets.\nChoose one\u2013\n\u2022 Move X target Auras and/or Equipment from target creature onto another target creature.\n\u2022 Move X counters from target creature to another target creature.",
@@ -3087,11 +3087,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "RU05 Shifting Constellations",
+            "card_name": "Shifting Constellations",
             "color": "U",
             "rarity": "rare",
             "type": "Enchantment",
-            "number": 62,
+            "number": 66,
             "color_identity": "WU",
             "cost": "{3}{U}{U}",
             "rules_text": "{WU}, Tap an untapped creature you control: Target opponent taps an untapped creature they control. Put a star counter on this enchantment. Activate only once each turn.\nRemove three star counters from this enchantment: Take an extra turn after this one. Exile this enchantment.",
@@ -3106,11 +3106,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "RU06 Djamankh's Hydromancy",
+            "card_name": "Djamankh's Hydromancy",
             "color": "U",
             "rarity": "rare",
             "type": "Sorcery",
-            "number": 63,
+            "number": 44,
             "color_identity": "U",
             "cost": "{X}{U}{U}",
             "rules_text": "This spell costs {1} less to cast for each counter on a creature you control.\nLook at the top X cards of your library, put one of them into your hand, then put the rest on the bottom of your library in any order.",
@@ -3125,11 +3125,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "RU07 Made",
+            "card_name": "Made",
             "color": "U",
             "rarity": "rare",
             "type": "Instant",
-            "number": 64,
+            "number": 53,
             "color_identity": "U",
             "cost": "{3}{U}",
             "rules_text": "Reveal the top six cards of your library. An opponent separates those cards into two piles. Put one pile into your hand and the other into your graveyard.",
@@ -3154,11 +3154,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "RB01 Bx'sur, Chosen of Darux",
+            "card_name": "Bx'sur, Chosen of Darux",
             "color": "B",
             "rarity": "rare",
             "type": "Legendary Creature \u2013 Jackal Warrior",
-            "number": 97,
+            "number": 82,
             "color_identity": "BR",
             "cost": "{1}{B}",
             "rules_text": "Menace\nWhen Bx'sur enters, you may pay {B}. If you do, each player loses 1 life and she gains haste until end of turn.\n{BR}: Bx'sur gets +1/+1 until end of turn. Activate only if an opponent lost life this turn.",
@@ -3173,11 +3173,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "RB02 Eternal Embalmer",
+            "card_name": "Eternal Embalmer",
             "color": "B",
             "rarity": "rare",
             "type": "Creature \u2013 Zombie Warlock",
-            "number": 98,
+            "number": 87,
             "color_identity": "B",
             "cost": "{2}{B}",
             "rules_text": "Betray [i](When this permanent enters, you may sacrifice another permanent that shares a color with it.)[/i]\nWhen this creature betrays another permanent, create a 1/1 black Zombie creature token.\n{B}, {T}, Sacrifice a Zombie: Return target creature card from your graveyard to the battlefield tapped.",
@@ -3192,11 +3192,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "RB03 Soulmaster Seter",
+            "card_name": "Soulmaster Seter",
             "color": "B",
             "rarity": "rare",
             "type": "Legendary Creature \u2013 Jackal Warlock Noble",
-            "number": 99,
+            "number": 112,
             "color_identity": "B",
             "cost": "{2}{B}{B}",
             "rules_text": "Whenever a player sacrifices a permanent, you lose 1 life and put a +1/+1 counter on Seter. Then if that permanent was a nontoken creature, you draw a card.\n{2}{B}, Sacrifice another permanent: Seter gains menace and lifelink until end of turn. Activate only as a sorcery.",
@@ -3211,11 +3211,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "RB04 Isift, Vizier of Ifnir",
+            "card_name": "Isift, Vizier of Ifnir",
             "color": "B",
             "rarity": "rare",
             "type": "Legendary Creature \u2013 Demon Noble",
-            "number": 100,
+            "number": 94,
             "color_identity": "B",
             "cost": "{4}{B}{B}",
             "rules_text": "Whenever Isift enters or attacks, you mill a card, then each opponent mills two cards. If a creature or planeswalker card is milled this way, Isift gains flying until end of turn.\n{B}, Exile a creature card from your graveyard: You draw a card and lose 1 life. Activate only once each turn as a sorcery.",
@@ -3230,11 +3230,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "RB06 Isift's Judgment",
+            "card_name": "Isift's Judgment",
             "color": "B",
             "rarity": "rare",
             "type": "Sorcery",
-            "number": 102,
+            "number": 95,
             "color_identity": "B",
             "cost": "{2}{B}",
             "rules_text": "Each creature gets -X/-X until end of turn, where X is the highest number of cards put into a player's graveyard from anywhere this turn.",
@@ -3249,11 +3249,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "RB07 Wasmawt's Blessing",
+            "card_name": "Wasmawt's Blessing",
             "color": "B",
             "rarity": "rare",
             "type": "Enchantment \u2013 Aura",
-            "number": 103,
+            "number": 116,
             "color_identity": "B",
             "cost": "{1}{B}",
             "rules_text": "Enchant creature\nWhen enchanted creature dies, you draw X cards and lose X life, where X is its toughness. Then create a 1/1 black and green Snake creature token.",
@@ -3268,11 +3268,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "RR01 Kharteran Pike-Mistress",
+            "card_name": "Kharteran Pike-Mistress",
             "color": "R",
             "rarity": "rare",
             "type": "Creature \u2013 Jackal Warrior Mercenary",
-            "number": 137,
+            "number": 140,
             "color_identity": "WR",
             "cost": "{1}{R}{R}",
             "rules_text": "Haste\nAt the beginning of combat on your turn, this creature gains your choice of first strike, menace or trample until end of turn. Whenever this creature deals combat damage to an opponent this turn, you may pay {RW}. If you do, put a counter of that kind on another creature you control.",
@@ -3287,30 +3287,30 @@
             "image_type": "png"
         },
         {
-            "card_name": "RR02 rg aa token maker",
+            "card_name": "Ewrkhy, Defender of Nature",
             "color": "R",
             "rarity": "rare",
-            "type": "Creature",
-            "number": 138,
+            "type": "Legendary Creature \u2013 Jackal Warrior",
+            "number": 129,
             "color_identity": "RG",
             "cost": "{3}{R}",
-            "rules_text": "Haste\nThis creature attacks each combat if able.\n{1}{R}{G}: Create a 1/1 red Warrior creature token with haste.",
-            "flavor_text": "[i][/i]",
-            "pt": "3/3",
+            "rules_text": "Haste\nEwrkhy attacks each combat if able.\n{1}{R}{G}: Create a 1/1 red Warrior creature token.",
+            "flavor_text": "[i]Poachers and bandits alike fled at the sound of his voice.[/i]",
+            "pt": "4/4",
             "special_text": "",
             "shape": "normal",
             "set": "ASM",
             "loyalty": "",
-            "artist": "",
+            "artist": "MarmaduX-Smite",
             "notes": "",
             "image_type": "png"
         },
         {
-            "card_name": "RR03 Lazotep Dragon",
+            "card_name": "Lazotep Dragon",
             "color": "R",
             "rarity": "rare",
             "type": "Creature \u2013 Zombie Dragon",
-            "number": 139,
+            "number": 141,
             "color_identity": "R",
             "cost": "{3}{R}{R}",
             "rules_text": "Flying, haste\nBetray [i](When this permanent enters, you may sacrifice another permanent that shares a color with it.)[/i]\nWhen this creature betrays another permanent, it deals 2 damage to any nonplayer target. If a multicolor permanent was betrayed this way, surveil 2.",
@@ -3325,11 +3325,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "RR04 'the end'",
+            "card_name": "Allure of the Victorious",
             "color": "R",
             "rarity": "rare",
             "type": "Sorcery",
-            "number": 140,
+            "number": 121,
             "color_identity": "R",
             "cost": "{5}{R}",
             "rules_text": "Untap each creature you don't control with mana value X or less, where X is the most life lost by an opponent this turn, and gain control of them until end of turn. Those creatures gain haste until end of turn. After this phase, there is an additional combat phase.",
@@ -3339,18 +3339,18 @@
             "shape": "normal",
             "set": "ASM",
             "loyalty": "",
-            "artist": "",
+            "artist": "Kevin Sidharta",
             "notes": "",
             "image_type": "png"
         },
         {
-            "card_name": "RR05 'bold'",
+            "card_name": "Righteous Passion",
             "color": "R",
             "rarity": "rare",
             "type": "Enchantment",
-            "number": 141,
+            "number": 147,
             "color_identity": "R",
-            "cost": "{3}{R}",
+            "cost": "{2}{R}",
             "rules_text": "When this enchantment enters, and at the beginning of your upkeep, choose one \u2013\n\u2022 put a Coward creature type counter on target creature you don't control.\n\u2022 Put a +1/+1 counter on target Warrior you control.\nCowards can't block Warriors.",
             "flavor_text": "[i][/i]",
             "pt": "",
@@ -3358,16 +3358,16 @@
             "shape": "normal",
             "set": "ASM",
             "loyalty": "",
-            "artist": "",
+            "artist": "Pinkhavok",
             "notes": "",
             "image_type": "png"
         },
         {
-            "card_name": "RR06 Agree",
+            "card_name": "Agree",
             "color": "R",
             "rarity": "rare",
             "type": "Sorcery",
-            "number": 142,
+            "number": 120,
             "color_identity": "R",
             "cost": "{2}{R}",
             "rules_text": "Create a token that's a copy of target creature you control, except it has haste and \u201cAt the beginning of the end step, sacrifice this token.\u201d",
@@ -3377,7 +3377,7 @@
             "shape": "aftermath",
             "set": "ASM",
             "loyalty": "",
-            "artist": "Cryptos13 /",
+            "artist": "Cryptos13 / RalphHorsley",
             "card_name2": "Disagree",
             "color2": "R",
             "type2": "Sorcery",
@@ -3392,11 +3392,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "RR07 'bracers'",
+            "card_name": "Ka-channel Wrapping",
             "color": "R",
             "rarity": "rare",
             "type": "Artifact \u2013 Equipment",
-            "number": 143,
+            "number": 138,
             "color_identity": "R",
             "cost": "{1}{R}",
             "rules_text": "Whenever an ability of equipped creature is activated, you may copy that ability. You may choose new targets for the copy. This triggers only once each turn.\nEquip {1}",
@@ -3406,12 +3406,12 @@
             "shape": "normal",
             "set": "ASM",
             "loyalty": "",
-            "artist": "",
+            "artist": "AntoineRen",
             "notes": "",
             "image_type": "png"
         },
         {
-            "card_name": "RG01 Hesep Tender",
+            "card_name": "Hesep Tender",
             "color": "G",
             "rarity": "rare",
             "type": "Creature \u2013 Human Druid",
@@ -3430,11 +3430,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "RG02 Tankht, Gah-Api's Emissary",
+            "card_name": "Tankht, Gah-Api's Emissary",
             "color": "G",
             "rarity": "rare",
             "type": "Legendary Creature \u2013 Minotaur Avatar",
-            "number": 178,
+            "number": 195,
             "color_identity": "RG",
             "cost": "{5}{G}{G}",
             "rules_text": "Trample\nWhenever you activate an ability of a creature you control, each other creature you control gets +1/+1 until end of turn.\n{R}: Tankht gains haste until end of turn. Activate only once each turn, and only as a sorcery.",
@@ -3449,11 +3449,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "RG03 Lifeblood Siphoner",
+            "card_name": "Lifeblood Siphoner",
             "color": "G",
             "rarity": "rare",
             "type": "Creature \u2013 Human Druid Assassin",
-            "number": 179,
+            "number": 183,
             "color_identity": "G",
             "cost": "{2}{G}",
             "rules_text": "Deathtouch\nBetray [i](When this permanent enters, you may sacrifice another permanent that shares a color with it.)[/i]\nWhen this creature betrays a creature, you may put a creature card with mana value 3 or less from your hand onto the battlefield.",
@@ -3468,11 +3468,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "RG04 Hyena Matriarch",
+            "card_name": "Hyena Matriarch",
             "color": "G",
             "rarity": "rare",
             "type": "Creature \u2013 Hyena",
-            "number": 180,
+            "number": 181,
             "color_identity": "G",
             "cost": "{3}{G}{G}",
             "rules_text": "This spell can't be countered as long as you control a creature with two or more counters on it.\nTrample, vigilance\nWhenever this creature enters or attacks, put a +1/+1 counter on it.",
@@ -3487,11 +3487,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "RG05 Home",
+            "card_name": "Home",
             "color": "G",
             "rarity": "rare",
             "type": "Sorcery",
-            "number": 181,
+            "number": 179,
             "color_identity": "G",
             "cost": "{1}{G}",
             "rules_text": "Create a 0/4 green Plant Wall creature with defender and \u201c{T}: Add one mana of any color.\u201d",
@@ -3516,11 +3516,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "RG06 Domesticate",
+            "card_name": "Domesticate",
             "color": "G",
             "rarity": "rare",
             "type": "Sorcery",
-            "number": 182,
+            "number": 169,
             "color_identity": "G",
             "cost": "{2}{G}{G}",
             "rules_text": "Search your library for a creature card with mana value equal to or less than the number of different names among lands you control and put it onto the battlefield, then shuffle.",
@@ -3535,11 +3535,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "RG07 Godsize",
+            "card_name": "Godsize",
             "color": "G",
             "rarity": "rare",
             "type": "Sorcery",
-            "number": 183,
+            "number": 176,
             "color_identity": "RG",
             "cost": "{3}{G}{G}",
             "rules_text": "Triple target creature's power and toughness until end of turn. That creature gains trample until end of turn.\n{2}{R}, Reveal this card from your hand: Target creature gets +2/+0 until end of turn. Activate only once each turn as a sorcery.",
@@ -3554,11 +3554,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "MW01 Tekhen, Ancient Spiresoul",
+            "card_name": "Tekhen, Ancient Spiresoul",
             "color": "W",
             "rarity": "mythic",
             "type": "Legendary Creature \u2013 Spirit",
-            "number": 17,
+            "number": 35,
             "color_identity": "W",
             "cost": "{4}{W}{W}",
             "rules_text": "Flying\nLands you control are artifact Treasures in addition to their other types and have \u201c{T}, Sacrifice this artifact: Add one mana of any color.\u201d\nWhenever a Treasure enters under your control, if you don't control a Treasure with the same name, draw a card.",
@@ -3573,11 +3573,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "MW02 Two Suns' Radiance",
+            "card_name": "Two Suns' Radiance",
             "color": "W",
             "rarity": "mythic",
             "type": "Enchantment",
-            "number": 18,
+            "number": 37,
             "color_identity": "W",
             "cost": "{1}{W}",
             "rules_text": "Betray [i](When this permanent enters, you may sacrifice another permanent that shares a color with it.)[/i]\nWhen this enchantment betrays another permanent, you draw a card. If that permanent isn't a creature, you may instead create a token copy of this enchantment without betray.\nIf damage would be dealt to a permanent you control, prevent 1 of that damage.",
@@ -3592,11 +3592,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "MU01 Eager",
+            "card_name": "Eager",
             "color": "U",
             "rarity": "mythic",
             "type": "Sorcery",
-            "number": 56,
+            "number": 46,
             "color_identity": "U",
             "cost": "{2}{U}",
             "rules_text": "Put a flying counter on target creature you control, then put a vigilance counter on each creature you control.",
@@ -3621,7 +3621,7 @@
             "image_type": "png"
         },
         {
-            "card_name": "MU02 Neputarkh, the Heretic",
+            "card_name": "Neputarkh, the Heretic",
             "color": "U",
             "rarity": "mythic",
             "type": "Legendary Creature \u2013 Jackal Warlock",
@@ -3640,11 +3640,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "MB01 Method",
+            "card_name": "Method",
             "color": "B",
             "rarity": "mythic",
             "type": "Instant",
-            "number": 95,
+            "number": 99,
             "color_identity": "B",
             "cost": "{2}{B}",
             "rules_text": "Each player mills four cards. You may cast a card milled this way by paying its mana value in life rather than paying its mana cost.",
@@ -3669,11 +3669,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "MB02 Archangel of Ketramose",
+            "card_name": "Archangel of Ketramose",
             "color": "B",
             "rarity": "mythic",
             "type": "Creature \u2013 Zombie Angel",
-            "number": 96,
+            "number": 79,
             "color_identity": "B",
             "cost": "{2}{B}{B}",
             "rules_text": "Flying\nWard\u2013Pay 2 life.\nWhenever another creature dies, you may choose one \u2013\n\u2022 Exile that card.\n\u2022 Return that creature to the battlefield under your control with a finality counter on it. You lose 3 life.",
@@ -3688,11 +3688,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "MR01 Itching",
+            "card_name": "Itching",
             "color": "R",
             "rarity": "mythic",
             "type": "Sorcery",
-            "number": 135,
+            "number": 136,
             "color_identity": "R",
             "cost": "{3}{R}{R}",
             "rules_text": "Any number of target players discards their hand and draws seven cards.",
@@ -3702,7 +3702,7 @@
             "shape": "aftermath",
             "set": "ASM",
             "loyalty": "",
-            "artist": "",
+            "artist": "Rayven Studios / Pascal Quidault",
             "card_name2": "Go",
             "color2": "R",
             "type2": "Sorcery",
@@ -3717,11 +3717,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "MR02 Kav'set the Ruthless",
+            "card_name": "Kav'set the Ruthless",
             "color": "R",
             "rarity": "mythic",
             "type": "Legendary Creature \u2013 Jackal Rogue Barbarian",
-            "number": 136,
+            "number": 139,
             "color_identity": "R",
             "cost": "{2}{R}{R}",
             "rules_text": "Menace\nBetray [i](When this permanent enters, you may sacrifice another permanent that shares a color with it.)[/i]\nWhen Kav'set betrays a creature, he deals X damage to each opponent, where X is half the betrayed creature's power. Then put X +1/+1 counters on him.",
@@ -3736,11 +3736,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "MG01 Assembling the Menagerie",
+            "card_name": "Assembling the Menagerie",
             "color": "G",
             "rarity": "mythic",
             "type": "Enchantment",
-            "number": 175,
+            "number": 161,
             "color_identity": "G",
             "cost": "{1}{G}{G}",
             "rules_text": "When this enters, and at the beginning of your upkeep, put a corral counter on this enchantment.\nOnce each turn, you may pay {0} rather than pay the mana cost for a creature spell you cast with mana value X or less, where X is the number of corral counters on this enchantment.",
@@ -3755,11 +3755,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "MG02 Pandevotional Summoner",
+            "card_name": "Pandevotional Summoner",
             "color": "G",
             "rarity": "mythic",
             "type": "Creature \u2013 Human Druid Monk",
-            "number": 176,
+            "number": 191,
             "color_identity": "G",
             "cost": "{1}{G}",
             "rules_text": "Ward {1}\n{T}: Create a 1/1 Elemental creature token that's all colors.",
@@ -3774,11 +3774,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "RM01 Council's Decree",
+            "card_name": "Council's Decree",
             "color": "WU",
             "rarity": "rare",
             "type": "Instant",
-            "number": 198,
+            "number": 203,
             "color_identity": "WU",
             "cost": "{1}{W}{U}",
             "rules_text": "Kicker {1}\nChoose one. If this spell was kicked, you may choose both. \u2013\n\u2022 Tap all creatures target opponent controls.\n\u2022 Untap all creatures you control.",
@@ -3793,11 +3793,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "RM01 Done",
+            "card_name": "Done",
             "color": "UB",
             "rarity": "rare",
             "type": "Instant",
-            "number": 202,
+            "number": 209,
             "color_identity": "UB",
             "cost": "{2}{U}{B}",
             "rules_text": "Create two black and blue 1/1 Insect creature tokens with flying and deathtouch.",
@@ -3822,11 +3822,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "RM01 Embalmed Dragon",
+            "card_name": "Embalmed Dragon",
             "color": "BR",
             "rarity": "rare",
             "type": "Creature \u2013 Zombie Dragon",
-            "number": 203,
+            "number": 210,
             "color_identity": "BR",
             "cost": "{2}{B}{R}",
             "rules_text": "Ward\u2013pay 2 life\nFlying\nWhenever a player sacrifices a nonland permanent, this creature deals 1 damage to any target.",
@@ -3841,11 +3841,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "RM01 Samut, Expedition Leader",
+            "card_name": "Samut, Expedition Leader",
             "color": "RG",
             "rarity": "rare",
             "type": "Legendary Creature \u2013 Human Warrior",
-            "number": 212,
+            "number": 227,
             "color_identity": "RG",
             "cost": "{2}{R}{G}",
             "rules_text": "Creatures you control have haste and vigilance.\n{2}{R}: Target creature you control gains double strike until end of turn.",
@@ -3860,30 +3860,30 @@
             "image_type": "png"
         },
         {
-            "card_name": "RM01 Land Tokenator",
+            "card_name": "Katilda's Crucible",
             "color": "WG",
             "rarity": "rare",
             "type": "Artifact",
-            "number": 209,
+            "number": 219,
             "color_identity": "WG",
             "cost": "{3}{G}{W}",
             "rules_text": "When this enters and at the beginning of your upkeep, create a tapped token copy of target land.",
-            "flavor_text": "[i][/i]",
+            "flavor_text": "[i]\u201cI am beginning to understand why my goddess chose to come here. This is a world starved of compassion.\u201d[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "ASM",
             "loyalty": "",
-            "artist": "",
+            "artist": "Lev Bozhikov aka Bozileo",
             "notes": "",
             "image_type": "png"
         },
         {
-            "card_name": "RM01 Zahur, Maahestet Leader",
+            "card_name": "Zahur, Maahestet Leader",
             "color": "WB",
             "rarity": "rare",
             "type": "Legendary Creature \u2013 Zombie Cat Noble",
-            "number": 217,
+            "number": 237,
             "color_identity": "WB",
             "cost": "{1}{W}{B}",
             "rules_text": "Whenever a nontoken creature you control dies, you may return a creature card with lesser mana value from your graveyard to the battlefield tapped. Then if the returned creature is a Cat, untap it. This ability triggers only once each turn.",
@@ -3893,16 +3893,16 @@
             "shape": "normal",
             "set": "ASM",
             "loyalty": "",
-            "artist": "",
+            "artist": "dandzialf",
             "notes": "",
             "image_type": "png"
         },
         {
-            "card_name": "RM01 Scattered",
+            "card_name": "Scattered",
             "color": "UR",
             "rarity": "rare",
             "type": "Instant",
-            "number": 214,
+            "number": 229,
             "color_identity": "UR",
             "cost": "{U}{U}{R}",
             "rules_text": "Counter target spell.\nThis spell deals 2 damage to any target.",
@@ -3927,11 +3927,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "RM01 Great Serpent's Arrival",
+            "card_name": "Great Serpent's Arrival",
             "color": "BG",
             "rarity": "rare",
             "type": "Legendary Enchantment",
-            "number": 206,
+            "number": 215,
             "color_identity": "BG",
             "cost": "{2}{B}{G}",
             "rules_text": "Whenever this permanent deals combat damage to an opponent, that player loses the game.\nSacrifice a creature: This enchantment becomes a 3/5 Snake creature in addition to its other types until end of turn. Activate only as a sorcery.",
@@ -3946,11 +3946,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "RM01 Djeru, Lord General",
+            "card_name": "Djeru, Lord General",
             "color": "WR",
             "rarity": "rare",
             "type": "Legendary Creature \u2013 Human Warrior Soldier",
-            "number": 201,
+            "number": 208,
             "color_identity": "WR",
             "cost": "{R}{W}",
             "rules_text": "Vigilance\nOther creatures you control get +1/+1.",
@@ -3965,11 +3965,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "RM01 Dejukhab Bull",
+            "card_name": "Dejukhab Bull",
             "color": "UG",
             "rarity": "rare",
             "type": "Legendary Creature \u2013 Phelddagrif",
-            "number": 200,
+            "number": 206,
             "color_identity": "WUG",
             "cost": "{G}{U}",
             "rules_text": "Flying\n{G}: Put a +1/+1 counter on this creature. Target opponent creates a tapped Treasure token.\n{W}: Return this creature to its owner's hand. Target opponent scries 2.",
@@ -3984,11 +3984,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "CA01 Lazoskin Tracker",
+            "card_name": "Lazoskin Tracker",
             "color": "",
             "rarity": "common",
             "type": "Artifact Creature \u2013 Construct Dog",
-            "number": 238,
+            "number": 242,
             "color_identity": "C",
             "cost": "{2}",
             "rules_text": "When this creature enters, surveil 2.",
@@ -4003,11 +4003,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "CA02 Tomb Builder",
+            "card_name": "Tomb Builder",
             "color": "",
             "rarity": "common",
             "type": "Artifact Creature \u2013 Golem Construct",
-            "number": 239,
+            "number": 248,
             "color_identity": "C",
             "cost": "{3}",
             "rules_text": "{1}: This creature becomes the color of your choice in addition to its other colors until end of turn.\nWhen this creature enters or dies, exile target opponent's graveyard.",
@@ -4022,7 +4022,7 @@
             "image_type": "png"
         },
         {
-            "card_name": "CA03 Grounds Guardian",
+            "card_name": "Grounds Guardian",
             "color": "",
             "rarity": "common",
             "type": "Artifact Creature \u2013 Construct",
@@ -4041,11 +4041,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "CA04 Private Feast",
+            "card_name": "Private Feast",
             "color": "",
             "rarity": "common",
             "type": "Artifact",
-            "number": 241,
+            "number": 246,
             "color_identity": "C",
             "cost": "{1}",
             "rules_text": "When this artifact enters, put a +1/+1 counter on up to one creature you control.\n{5}, {T}, Sacrifice this artifact: Exile target creature.",
@@ -4060,11 +4060,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "CA05 Gleaming Capstone",
+            "card_name": "Gleaming Capstone",
             "color": "",
             "rarity": "common",
             "type": "Artifact \u2013 Oasis",
-            "number": 242,
+            "number": 239,
             "color_identity": "C",
             "cost": "{3}",
             "rules_text": "{T}: Add one mana of any color.\n{1}: This permanent becomes a land and loses any other card type. [i](This effect lasts indefinitely.)[/i]",
@@ -4079,15 +4079,15 @@
             "image_type": "png"
         },
         {
-            "card_name": "UA04 Blood of the Pious",
+            "card_name": "Blood of the Pious",
             "color": "",
             "rarity": "uncommon",
             "type": "Artifact",
-            "number": 247,
+            "number": 238,
             "color_identity": "C",
             "cost": "{3}",
             "rules_text": "The first time each turn you sacrifice a creature, create a Treasure token.",
-            "flavor_text": "[i]needs new flavor text[/i]",
+            "flavor_text": "[i]Unlike Darux, Ketramose only appreciated blood when given as an act of true devotion, faith, sacrifice or contrition.[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
@@ -4098,11 +4098,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "UA05 Memorial Obelisk",
+            "card_name": "Memorial Obelisk",
             "color": "",
             "rarity": "uncommon",
             "type": "Artifact Creature \u2013 Wall",
-            "number": 248,
+            "number": 244,
             "color_identity": "C",
             "cost": "{1}",
             "rules_text": "Defender, reach\nWhen this creature enters, if you sacrificed a permanent this turn, create a Talisman artifact token that's all colors with \u201cWhen this artifact is put into a graveyard from the battlefield, you scry 1.\u201d",
@@ -4117,11 +4117,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "CL01 Winding River",
+            "card_name": "Winding River",
             "color": "",
             "rarity": "common",
             "type": "Land \u2013 Oasis",
-            "number": 249,
+            "number": 257,
             "color_identity": "C",
             "cost": "",
             "rules_text": "{T}, Sacrifice this land: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.\n{1}, {T}, Sacrifice this land: Search your library for an Oasis land card, reveal it and put it into your hand, then shuffle.",
@@ -4136,11 +4136,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "UL01 Lake Sebay",
+            "card_name": "Lake Sebay",
             "color": "",
             "rarity": "uncommon",
             "type": "Land \u2013 Oasis",
-            "number": 253,
+            "number": 251,
             "color_identity": "WUB",
             "cost": "",
             "rules_text": "This land enters tapped unless you control another Oasis.\nWhen this land enters, scry 1.\n{T}: Add {W}.\n{1}, {T}: Add {U} or {B}.",
@@ -4155,7 +4155,7 @@
             "image_type": "png"
         },
         {
-            "card_name": "UL02 Port Kharteru",
+            "card_name": "Port Kharteru",
             "color": "",
             "rarity": "uncommon",
             "type": "Land \u2013 Oasis",
@@ -4174,11 +4174,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "UL03 Hidden Necropolis Entrance",
+            "card_name": "Hidden Necropolis Entrance",
             "color": "",
             "rarity": "uncommon",
             "type": "Land \u2013 Oasis",
-            "number": 255,
+            "number": 250,
             "color_identity": "BRG",
             "cost": "",
             "rules_text": "This land enters tapped unless you control another Oasis.\nWhen this land enters, scry 1.\n{T}: Add {B}.\n{1}, {T}: Add {R} or {G}.",
@@ -4193,7 +4193,7 @@
             "image_type": "png"
         },
         {
-            "card_name": "UL04 Sulfurous Baths",
+            "card_name": "Sulfurous Baths",
             "color": "",
             "rarity": "uncommon",
             "type": "Land \u2013 Oasis",
@@ -4212,11 +4212,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "UL05 Shefet Shrublands",
+            "card_name": "Shefet Shrublands",
             "color": "",
             "rarity": "uncommon",
             "type": "Land \u2013 Oasis",
-            "number": 257,
+            "number": 255,
             "color_identity": "WRG",
             "cost": "",
             "rules_text": "This land enters tapped unless you control another Oasis.\nWhen this land enters, scry 1.\n{T}: Add {G}.\n{1}, {T}: Add {W} or {R}.",
@@ -4231,14 +4231,14 @@
             "image_type": "png"
         },
         {
-            "card_name": "UU14 Happy",
+            "card_name": "Happy",
             "color": "U",
             "rarity": "uncommon",
             "type": "Sorcery",
-            "number": 78,
+            "number": 48,
             "color_identity": "U",
-            "cost": "{2}{U}{U}",
-            "rules_text": "Shuffle the cards from your hand into your library, then draw that many cards plus one.",
+            "cost": "{1}{U}{U}",
+            "rules_text": "Shuffle any number of cards from your hand into your library, then draw that many cards plus one.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -4250,7 +4250,7 @@
             "color2": "U",
             "type2": "Sorcery",
             "cost2": "{2}{U}",
-            "rules_text2": "Create a token copy of target nonland permanent you control with mana value 2 or less.",
+            "rules_text2": "Aftermath\nCreate a token copy of target nonland permanent you control with mana value 2 or less.",
             "flavor_text2": "[i][/i]",
             "pt2": "",
             "special_text2": "",
@@ -4260,7 +4260,7 @@
             "image_type": "png"
         },
         {
-            "card_name": "UB14 Wasmawt's Presence",
+            "card_name": "Wasmawt's Presence",
             "color": "B",
             "rarity": "uncommon",
             "type": "Enchantment",
@@ -4274,16 +4274,16 @@
             "shape": "normal",
             "set": "ASM",
             "loyalty": "",
-            "artist": "Pascal Quidalt",
+            "artist": "Pascal Quidault",
             "notes": "",
             "image_type": "png"
         },
         {
-            "card_name": "UR15 Churning of Lava",
+            "card_name": "Churning of Lava",
             "color": "R",
             "rarity": "uncommon",
             "type": "Enchantment",
-            "number": 158,
+            "number": 125,
             "color_identity": "R",
             "cost": "{2}{R}{R}",
             "rules_text": "Lands you control have \u201c{1}, {T}: This land deals 1 damage to each opponent.\u201d",
@@ -4298,11 +4298,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "UW14 Going",
+            "card_name": "Going",
             "color": "W",
             "rarity": "uncommon",
             "type": "Sorcery",
-            "number": 39,
+            "number": 17,
             "color_identity": "W",
             "cost": "{2}{W}{W}",
             "rules_text": "Destroy all artifacts and enchantments.",
@@ -4327,7 +4327,7 @@
             "image_type": "png"
         },
         {
-            "card_name": "UG14 Vital Takeover",
+            "card_name": "Vital Takeover",
             "color": "G",
             "rarity": "uncommon",
             "type": "Enchantment \u2013 Aura",
@@ -4346,11 +4346,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "RX07 Naktamun Market Streets",
+            "card_name": "Naktamun Market Streets",
             "color": "",
             "rarity": "mythic",
             "type": "Legendary Land \u2013 Oasis",
-            "number": 251,
+            "number": 253,
             "color_identity": "C",
             "cost": "",
             "rules_text": "{T}: Add {C}. If you control four or more Oasis lands, you may add one mana of any color instead.\n{8}, {T}: Scry 2, then draw a card. You gain 2 life. This ability costs {1} less to activate for every Oasis you control.",
@@ -4365,11 +4365,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "RX08 Foreboding Gate",
+            "card_name": "Foreboding Gate",
             "color": "",
             "rarity": "rare",
             "type": "Land \u2013 Oasis",
-            "number": 252,
+            "number": 249,
             "color_identity": "C",
             "cost": "",
             "rules_text": "{T}: Add {C}.\n{T}, Pay 1 life: Add one mana of any color. Activate only if you control another Oasis.\n{6}, {T}: Search your library for a card, put that card into your hand, then shuffle. Activate only if you control 4 or more Oasis permanents.",
@@ -4384,11 +4384,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "RM01 Darux, Miasma of Passion",
+            "card_name": "Darux, Miasma of Passion",
             "color": "BR",
             "rarity": "mythic",
             "type": "Legendary Creature \u2013 Dragon God",
-            "number": 199,
+            "number": 205,
             "color_identity": "BR",
             "cost": "{1}{B}{R}",
             "rules_text": "Flying\nWhen Darux dies, if an opponent lost life this turn, you may put him on top of your library.\nWhenever an opponent attacks, that player loses 1 life for each untapped creature they control that didn't enter this turn.",
@@ -4403,11 +4403,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "RM01 Gah-Api, Life's Hope",
+            "card_name": "Gah-Api, Life's Hope",
             "color": "RG",
             "rarity": "mythic",
             "type": "Legendary Creature \u2013 Bull God",
-            "number": 204,
+            "number": 213,
             "color_identity": "RG",
             "cost": "{6}{R}{G}",
             "rules_text": "Haste, indestructible, trample\nGah-Api can't attack or block unless you've activated an ability of a creature this turn.\nThe first time each turn you attack with one or more creatures, untap up to that many lands you control.\n{12}{R}{G}: Creatures you control get +6/+6 and gain trample until end of turn.",
@@ -4422,11 +4422,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "RM01 Ghrin-Danu, Watchful Mother",
+            "card_name": "Ghrin-Danu, Watchful Mother",
             "color": "WG",
             "rarity": "mythic",
             "type": "Legendary Creature \u2013 Dryad God",
-            "number": 205,
+            "number": 214,
             "color_identity": "WG",
             "cost": "{1}{G}{W}",
             "rules_text": "Lifelink\nWhen Ghrin-Danu dies, if a land entered under your control this turn, you may return her to her owner's hand.\nYou may play an additional land on each of your turns.",
@@ -4441,11 +4441,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "RM01 Hazoret, Zealous Survivor",
+            "card_name": "Hazoret, Zealous Survivor",
             "color": "WR",
             "rarity": "mythic",
             "type": "Legendary Creature \u2013 Jackal God",
-            "number": 207,
+            "number": 216,
             "color_identity": "WR",
             "cost": "{3}{R}{W}",
             "rules_text": "Haste, indestructible, menace\nHazoret can't attack or block unless you've cast a creature spell this turn.\nWarrior spells you cast can't be countered.\nWarriors you control have hexproof.",
@@ -4460,11 +4460,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "RM01 Ketramose, Virtuous Sacrifice",
+            "card_name": "Ketramose, Virtuous Sacrifice",
             "color": "WB",
             "rarity": "mythic",
             "type": "Legendary Creature \u2013 Cat God",
-            "number": 208,
+            "number": 220,
             "color_identity": "WB",
             "cost": "{2}{W}{B}",
             "rules_text": "Indestructible\nKetramose can't attack or block unless a creature died this turn.\nOnce during each of your turns, you may cast a creature spell from your graveyard.",
@@ -4479,11 +4479,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "RM01 Sab-Sunen, Flow of Time",
+            "card_name": "Sab-Sunen, Flow of Time",
             "color": "UG",
             "rarity": "mythic",
             "type": "Legendary Creature \u2013 Frog God",
-            "number": 211,
+            "number": 226,
             "color_identity": "UG",
             "cost": "{4}{G}{U}",
             "rules_text": "Indestructible, reach, trample, vigilance\nSab-Sunen can't attack or block unless one or more counters were put on or removed from a permanent this turn.\nAt the beginning of each of your postcombat main phases, there is an additional beginning phase after this phase. [i](The beginning phase includes the untap, upkeep, and draw steps.)[/i]",
@@ -4498,11 +4498,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "RM01 Scarab God, Wrath of Eons",
+            "card_name": "Scarab God, Wrath of Eons",
             "color": "UB",
             "rarity": "mythic",
             "type": "Legendary Creature \u2013 Insect God",
-            "number": 213,
+            "number": 228,
             "color_identity": "UB",
             "cost": "{5}{U}{B}",
             "rules_text": "Menace, indestructible\nScarab God can't attack or block unless you control a Zombie.\nAt the beginning of your end step, target player sacrifices a creature. Create a token that's a copy of it, except it's a 2/2 black Zombie.",
@@ -4517,11 +4517,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "RM01 Maathep, Lawgiver",
+            "card_name": "Maathep, Lawgiver",
             "color": "WU",
             "rarity": "mythic",
             "type": "Legendary Creature \u2013 Angel God",
-            "number": 210,
+            "number": 221,
             "color_identity": "WU",
             "cost": "{3}{W}{U}",
             "rules_text": "Flying, indestructible, vigilance\nMaathep can't attack or block unless two or more creatures you don't control became tapped this turn.\nAt the beginning of combat on your turn, tap up to one target creature you don't control and untap up to one target creature you control.",
@@ -4536,11 +4536,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "RM01 Snehem, God of Locusts",
+            "card_name": "Snehem, God of Locusts",
             "color": "UR",
             "rarity": "mythic",
             "type": "Legendary Creature \u2013 Insect God",
-            "number": 215,
+            "number": 231,
             "color_identity": "UR",
             "cost": "{2}{U}{R}",
             "rules_text": "Indestructible\nSnehem can't attack or block unless you've drawn two or more cards this turn.\nWhenever you cast a spell from anywhere other than your hand, you may pay {UR}. When you do, draw a card and create a 1/1 blue and red Insect creature token with flying.",
@@ -4555,11 +4555,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "RM01 Wasmawt, Inevitable Death",
+            "card_name": "Wasmawt, Inevitable Death",
             "color": "BG",
             "rarity": "mythic",
             "type": "Legendary Creature \u2013 Snake God",
-            "number": 216,
+            "number": 236,
             "color_identity": "BG",
             "cost": "{B}{G}",
             "rules_text": "Indestructible, deathtouch\nWasmawt can't attack or block unless you control another creature with toughness greater than its power.\nWhenever a creature dies, untap and put a +1/+1 counter on each creature you control. This triggers only once each turn.",
@@ -4574,11 +4574,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "CB14 Feast on Flesh",
+            "card_name": "Feast on Flesh",
             "color": "B",
             "rarity": "common",
             "type": "Sorcery",
-            "number": 92,
+            "number": 89,
             "color_identity": "B",
             "cost": "{1}{B}",
             "rules_text": "Target creature you don't control gets -3/-3 until end of turn.\nIf you control a Zombie, put a +1/+1 counter on target creature you control.",
@@ -4593,11 +4593,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "RB05 Coming Forth by Night",
+            "card_name": "Coming Forth by Night",
             "color": "B",
             "rarity": "rare",
             "type": "Sorcery",
-            "number": 101,
+            "number": 85,
             "color_identity": "B",
             "cost": "{3}{B}{B}",
             "rules_text": "This spell costs {2} less to cast if it targets a card that was put into a graveyard from anywhere this turn.\nPut target artifact, creature, or planeswalker card from a graveyard onto the battlefield under your control.",
@@ -4612,11 +4612,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "CG13 Adjust to Abundance",
+            "card_name": "Adjust to Abundance",
             "color": "G",
             "rarity": "common",
             "type": "Instant",
-            "number": 171,
+            "number": 159,
             "color_identity": "G",
             "cost": "{G}",
             "rules_text": "As an additional cost to cast this spell, pay {2} or remove a counter from a permanent you control.\nPut two +1/+1 counters on target creature you control.",
@@ -4631,11 +4631,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "UA01 Lazotep Blade",
+            "card_name": "Lazotep Blade",
             "color": "",
             "rarity": "uncommon",
             "type": "Artifact",
-            "number": 244,
+            "number": 243,
             "color_identity": "C",
             "cost": "{2}",
             "rules_text": "Hexproof\nEquipped creature gets +2/+2.\nWhenever equipped creature attacks, it gains ward {2} until your next turn.\nEquip {2}",
@@ -4650,11 +4650,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "UA02 Icon of Unity",
+            "card_name": "Icon of Unity",
             "color": "",
             "rarity": "uncommon",
             "type": "Artifact",
-            "number": 245,
+            "number": 241,
             "color_identity": "C",
             "cost": "{4}",
             "rules_text": "Spells you cast cost {1} less to cast.\nWhenever you cast a spell that's one or more colors, if it's a color you haven't cast this turn, you gain 1 life.",
@@ -4669,11 +4669,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "UA03 Spellfire Khopesh",
+            "card_name": "Spellfire Khopesh",
             "color": "",
             "rarity": "uncommon",
             "type": "Artifact",
-            "number": 246,
+            "number": 247,
             "color_identity": "C",
             "cost": "{3}",
             "rules_text": "Equipped creature has first strike and prowess.\nEquip {2}",
@@ -4688,11 +4688,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "UR06 Daruxian Spinescourger",
+            "card_name": "Daruxian Spinescourger",
             "color": "R",
             "rarity": "uncommon",
             "type": "Creature \u2013 Dragon",
-            "number": 149,
+            "number": 128,
             "color_identity": "R",
             "cost": "{3}{R}{R}",
             "rules_text": "Flying, haste, first strike",
@@ -4707,11 +4707,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "UB05 Mindstab Ravager",
+            "card_name": "Mindstab Ravager",
             "color": "B",
             "rarity": "uncommon",
             "type": "Creature \u2013 Jackal Zombie",
-            "number": 108,
+            "number": 100,
             "color_identity": "B",
             "cost": "{2}{B}{B}",
             "rules_text": "Menace\nWhen this creature enters, each opponent discards a card.",
@@ -4726,11 +4726,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "UB08 Vile Judge",
+            "card_name": "Vile Judge",
             "color": "B",
             "rarity": "uncommon",
             "type": "Creature \u2013 Jackal Warlock",
-            "number": 111,
+            "number": 115,
             "color_identity": "B",
             "cost": "{5}{B}{B}",
             "rules_text": "When this creature enters the battlefield, destroy target creature you don't control. You gain X life and each opponent loses X life, where X is that creature's power.",
@@ -4745,11 +4745,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "UM01 BR-1 Boiling Bloodlust",
+            "card_name": "Boiling Bloodlust",
             "color": "BR",
             "rarity": "uncommon",
             "type": "Enchantment",
-            "number": 220,
+            "number": 200,
             "color_identity": "BR",
             "cost": "{B}{R}",
             "rules_text": "At the beginning of your upkeep, choose one \u2013\n\u2022 Whenever a creature enters under your control this turn, if an opponent lost life this turn, put a +1/+1 counter on it.\n\u2022 Noncreature spells you cast cost {1} less to cast this turn as long as an opponent lost life this turn.",
@@ -4764,11 +4764,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "UM01 WB-1 Chamber of New Anointment",
+            "card_name": "Chamber of New Anointment",
             "color": "WB",
             "rarity": "uncommon",
             "type": "Artifact",
-            "number": 234,
+            "number": 201,
             "color_identity": "WB",
             "cost": "{3}{W}{B}",
             "rules_text": "Whenever you betray a permanent, you gain 2 life. Then if that permanent was a creature, put a charge counter on this artifact.\n{2}{W}{B}, {T}, Remove X charge counters from this artifact: Return target creature card with mana value less than or equal to X plus 2 from your graveyard to the battlefield. Activate only as a sorcery.",
@@ -4783,11 +4783,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "UM01 UR-1 Divine Attunement",
+            "card_name": "Divine Attunement",
             "color": "UR",
             "rarity": "uncommon",
             "type": "Enchantment",
-            "number": 232,
+            "number": 207,
             "color_identity": "UR",
             "cost": "{U}{R}",
             "rules_text": "When this enchantment enters, surveil 2.\nSpells you cast from anywhere other than your hand cost {1} less to cast.\nThe first time each turn you cast a spell with Aftermath, this enchantment deals 1 damage to each opponent.",
@@ -4802,11 +4802,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "UM01 BG-1 First Altar of Wasmawt",
+            "card_name": "First Altar of Wasmawt",
             "color": "BG",
             "rarity": "uncommon",
             "type": "Artifact",
-            "number": 218,
+            "number": 211,
             "color_identity": "BG",
             "cost": "{1}{B}{G}",
             "rules_text": "Whenever a creature with toughness greater than its power enters under your control, you may draw a card and lose 1 life. This triggers only once each turn.\n{2}{B}{G}, {T}, Sacrifice a creature you control: Target opponent loses X life and you gain X life, where X is the sacrificed creature's toughness.",
@@ -4821,15 +4821,15 @@
             "image_type": "png"
         },
         {
-            "card_name": "UM01 RG-1 Mistress of Leashes",
+            "card_name": "Mistress of Leashes",
             "color": "RG",
             "rarity": "uncommon",
             "type": "Creature \u2013 Human Druid Rogue",
-            "number": 226,
+            "number": 223,
             "color_identity": "RG",
             "cost": "{1}{R}{G}",
             "rules_text": "Haste\nThe first time each turn you attack, untap a land you control.\n{1}{R}{G}: Creatures you control get +1/+1 until end of turn.",
-            "flavor_text": "[i]short flavor text WIP[/i]",
+            "flavor_text": "[i]\u201cWatch what you say. My hand is the only thing holding them back.\u201d[/i]",
             "pt": "2/2",
             "special_text": "",
             "shape": "normal",
@@ -4840,11 +4840,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "UM01 UB-1 Officiant of the Arisen",
+            "card_name": "Officiant of the Arisen",
             "color": "UB",
             "rarity": "uncommon",
             "type": "Creature \u2013 Human Cleric Warlock",
-            "number": 230,
+            "number": 224,
             "color_identity": "UB",
             "cost": "{1}{U}{B}",
             "rules_text": "Zombies you control get +1/+1 and have ward {1}.\nWhen this creature dies, if it isn't a Zombie, return it to the battlefield tapped under its owner's control. It becomes a Zombie in addition to its other creature types.",
@@ -4859,11 +4859,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "UM01 GU-1 Scion of New Rivers",
+            "card_name": "Scion of New Rivers",
             "color": "UG",
             "rarity": "uncommon",
             "type": "Creature \u2013 Human Cleric Druid",
-            "number": 222,
+            "number": 230,
             "color_identity": "UG",
             "cost": "{1}{G}{U}",
             "rules_text": "At the beginning of your first main phase, remove all counters from this creature. If no counters were removed this way, put two +1/+1 counters on it. Otherwise, add two mana of any one color.",
@@ -4878,11 +4878,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "UM01 WU-1 Maathep's Servant",
+            "card_name": "Maathep's Servant",
             "color": "WU",
             "rarity": "uncommon",
             "type": "Creature \u2013 Human Cleric Wizard",
-            "number": 236,
+            "number": 222,
             "color_identity": "WU",
             "cost": "{2}{W}{U}",
             "rules_text": "Ward {2}\nWhen this creature enters, tap target creature an opponent controls.\nWhenever you tap one or more untapped creatures your opponents control, draw a card. This ability triggers only once each turn.",
@@ -4897,11 +4897,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "UM01 RW-1 Training Regimen",
+            "card_name": "Training Regimen",
             "color": "WR",
             "rarity": "uncommon",
             "type": "Enchantment",
-            "number": 228,
+            "number": 233,
             "color_identity": "WR",
             "cost": "{R}{W}",
             "rules_text": "When this enchantment enters, create a 1/1 red and white Human Warrior creature token.\nWarriors you control have haste and vigilance.",
@@ -4916,11 +4916,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "UM01 GW-1 Walking Oasis",
+            "card_name": "Walking Oasis",
             "color": "WG",
             "rarity": "uncommon",
             "type": "Creature \u2013 Elemental Golem",
-            "number": 224,
+            "number": 235,
             "color_identity": "WG",
             "cost": "{1}{G}{W}",
             "rules_text": "When this creature enters, search your library for up to one land card, reveal it and put it into your hand, then shuffle.\nWhenever a land enters under your control, if you don't control another land with the same name, put a +1/+1 counter on target creature you control.",
@@ -4954,11 +4954,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "UM01 WU-2 Bastion of Maathep",
+            "card_name": "Bastion of Maathep",
             "color": "WU",
             "rarity": "uncommon",
             "type": "Artifact",
-            "number": 237,
+            "number": 198,
             "color_identity": "WU",
             "cost": "{W}{U}",
             "rules_text": "Whenever you tap an untapped creature you don't control, you may put a +1/+1 counter on target creature you control.\n{2}{WU}: Tap target nonland permanent you don't control.",
@@ -4973,11 +4973,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "UM01 UB-2 Crucible of Eternity",
+            "card_name": "Crucible of Eternity",
             "color": "UB",
             "rarity": "uncommon",
             "type": "Artifact",
-            "number": 231,
+            "number": 204,
             "color_identity": "UB",
             "cost": "{U}{B}",
             "rules_text": "At the beginning of your end step, if a creature card was put into a graveyard from anywhere this turn, create a 1/1 black Zombie creature token.\n{2}{U}, Sacrifice a permanent: Draw a card. Activate only once each turn, and only as a sorcery.",
@@ -4992,11 +4992,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "UM01 BR-2 Bloodblade Naga",
+            "card_name": "Bloodblade Naga",
             "color": "BR",
             "rarity": "uncommon",
             "type": "Creature \u2013 Snake Warlock Warrior",
-            "number": 221,
+            "number": 199,
             "color_identity": "BR",
             "cost": "{1}{B}{R}",
             "rules_text": "Menace\nWhenever you attack, this creature deals 1 damage to each opponent.",
@@ -5011,11 +5011,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "UM01 RG-2 Priest of Gah-Api",
+            "card_name": "Priest of Gah-Api",
             "color": "RG",
             "rarity": "uncommon",
             "type": "Creature \u2013 Minotaur Cleric",
-            "number": 227,
+            "number": 225,
             "color_identity": "RG",
             "cost": "{2}{R}{G}",
             "rules_text": "Activated abilities of other permanents you control cost {1} less to activate.This effect can't reduce the mana in that cost to less than one mana.\n{2}{R}: This creature deals 1 damage to any target. Activate only once each turn as a sorcery, and only if you've attacked this turn.",
@@ -5030,11 +5030,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "UM01 GW-2 Voyage to New Homes",
+            "card_name": "Voyage to New Homes",
             "color": "WG",
             "rarity": "uncommon",
             "type": "Enchantment",
-            "number": 225,
+            "number": 234,
             "color_identity": "WG",
             "cost": "{G}{W}",
             "rules_text": "You may play an additional land on each of your turns as long as it doesn't share a name with a land you control. When you do, you gain 1 life.",
@@ -5049,11 +5049,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "UM01 WB-2 High Priest of Ketramose",
+            "card_name": "High Priest of Ketramose",
             "color": "WB",
             "rarity": "uncommon",
             "type": "Creature \u2013 Human Cleric Warlock",
-            "number": 235,
+            "number": 217,
             "color_identity": "WB",
             "cost": "{1}{W}{B}",
             "rules_text": "Betray [i](When this permanent enters, you may sacrifice another permanent that shares a color with it.)[/i]\nWhen this creature betrays another permanent, you may draw a card and lose 1 life.\nAt the beginning of your end step, if a creature died this turn, create a 1/1 black and white Cat creature token.",
@@ -5068,11 +5068,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "UM01 UR-2 Tjuf, Herald of Snehem",
+            "card_name": "Tjuf, Herald of Snehem",
             "color": "UR",
             "rarity": "uncommon",
             "type": "Legendary Creature \u2013 Human Insect Mutant",
-            "number": 233,
+            "number": 232,
             "color_identity": "UR",
             "cost": "{U}{R}",
             "rules_text": "Flying\nWhenever you cast an instant or sorcery spell, target creature you control gets +1/+1 until end of turn. If that spell was cast from a graveyard and had Aftermath, creatures you control get +1/+1 instead.",
@@ -5087,11 +5087,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "UM01 BG-2 Hofan Slithermaster",
+            "card_name": "Hofan Slithermaster",
             "color": "BG",
             "rarity": "uncommon",
             "type": "Creature \u2013 Snake Druid",
-            "number": 219,
+            "number": 218,
             "color_identity": "BG",
             "cost": "{2}{B}{G}",
             "rules_text": "Other creatures you control get +0/+1.\nAt the beginning of your end step, you may pay {1}{BG}. If you do, create a 1/1 green and black Snake creature token.",
@@ -5106,11 +5106,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "UM01 RW-2 Chariot Commander",
+            "card_name": "Chariot Commander",
             "color": "WR",
             "rarity": "uncommon",
             "type": "Creature \u2013 Human Bird Warrior Soldier",
-            "number": 229,
+            "number": 202,
             "color_identity": "WR",
             "cost": "{1}{R}{W}",
             "rules_text": "First strike\nWarrior spells you cast cost {1} less to cast.\nWhenever you attack, if another Warrior is attacking, you may scry 1.",
@@ -5125,11 +5125,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "UM01 GU-2 Flow State",
+            "card_name": "Flow State",
             "color": "UG",
             "rarity": "uncommon",
             "type": "Enchantment",
-            "number": 223,
+            "number": 212,
             "color_identity": "UG",
             "cost": "{G}{U}",
             "rules_text": "Permanents you control with counters on them have trample, ward {1}, and \u201c{T}: Add one mana of any color.\u201d\n{1}{G}: Put a +1/+1 counter on target permanent. Activate only once each turn, and only as a sorcery.",
@@ -5348,7 +5348,7 @@
             "shape": "token",
             "set": "ASM",
             "loyalty": "",
-            "artist": "A. Lundell",
+            "artist": "Christos Karapanos",
             "notes": "",
             "image_type": "png"
         },
@@ -5367,7 +5367,7 @@
             "shape": "token",
             "set": "ASM",
             "loyalty": "",
-            "artist": "A. Lundell",
+            "artist": "Kristina Gehrmann",
             "notes": "",
             "image_type": "png"
         },
@@ -5505,11 +5505,11 @@
             "image_type": "png"
         },
         {
-            "card_name": "CL02 Mirage Pool",
+            "card_name": "Mirage Pool",
             "color": "",
             "rarity": "common",
             "type": "Land \u2013 Oasis",
-            "number": 250,
+            "number": 252,
             "color_identity": "C",
             "cost": "",
             "rules_text": "This land enters tapped unless you control another Oasis.\nWhen this land enters, scry 1, then choose a color.\n{T}: Add {C}.\n{1}, {T}: Add one mana of the chosen color.",
