@@ -1,4 +1,423 @@
-﻿VERSION 10 CHANGELOG
+﻿VERSION 11 CHANGELOG
+====================
+
+Rage-Cursed Returned added.
+Twilight Market added.
+Ceaseless Fighters added.
+Enough added.
+Kharteran Pike-Captain added.
+Eager added.
+Gentle and Raging added.
+Noble's Treasury added.
+
+Rage-cursed Returned removed.
+Night Market removed.
+Eternal Fighters removed.
+Ready removed.
+Made removed.
+Kharteran Pike-Mistress removed.
+Flow State removed.
+
+Blessed Revivalist
+rules_text: Betray [i](When this permanent enters, you may sacrifice another permanent that shares a color with it.)[/i]
+When this creature betrays a permanent, return up to one artifact, creature or enchantment with mana value 3 or less from your graveyard to the battlefield tapped. => Betray [i](When this permanent enters, you may sacrifice another permanent that shares a color with it.)[/i]
+When this creature betrays a permanent, return up to one artifact, creature or enchantment card with mana value 3 or less from your graveyard to the battlefield tapped.
+
+Frozen Sands Cadre
+pt: 3/2 => 3/3
+
+Nullification Chant
+rules_text: This spell costs {1} less to cast as long as a counter was put on or removed from a permanent you control this turn.
+Counter target spell. => This spell costs {1} less to cast as long as you control a creature with one or more counters on it.
+Counter target spell.
+
+Listen
+
+Turned to Stone
+rules_text: Enchant creature
+When this Aura enters, tap enchanted creature.
+Tap enchanted creature at the beginning of its controller's upkeep step.
+Enchanted creature has no abilities while tapped. => Enchant creature
+When this Aura enters, tap enchanted creature.
+At the beginning of its controller's upkeep step, tap enchanted creature. 
+Enchanted creature has no abilities while tapped.
+
+Tough
+rules_text: Return target nonland permanent to its owner's hand. If it was a creature, draw a card. => Return target nonland permanent to its owner's hand. If it wasn't a creature, draw a card.
+
+Carcass Collector
+rules_text: Flying
+When this creature enters, you may sacrifice another creature you control or exile a creature card from your graveyard. When you do, create a tapped black 1/1 Zombie creature token. => Flying
+When this creature enters, you may sacrifice another creature you control or exile a creature card from your graveyard. When you do, create a black 1/1 Zombie creature token.
+
+Betrayal of Secrets
+rules_text: Target opponent reveals their hand. You choose a nonland card from it. That player discards that card.
+If you sacrificed a nonland permanent this turn, you gain 2 life. => Target opponent reveals their hand. You choose a nonland card from it. That player discards that card.
+If you sacrificed a permanent this turn, you gain 2 life.
+
+Scarab Armor
+rules_text: Equipped creature gets +2/+2 and has flying, “Sacrifice another Zombie: This creature gains hexproof until end of turn.”, and “Sacrifice another Zombie: This creature gets +1/+1 until end of turn”.
+Equip {3}
+Equip Zombie or Warlock {1} => Equipped creature gets +2/+2 and has flying, “Sacrifice another Zombie: This creature gains hexproof until end of turn”, and “Sacrifice another Zombie: This creature gets +1/+1 until end of turn.”
+Equip {3}
+Equip Zombie or Warlock {1}
+
+Maahestet Champion
+pt: 3/1 => 4/1
+
+Starving Sandwurm
+pt: 6/5 => 7/6
+
+Pay
+
+Helm of Hazoret
+rules_text: When this artifact enters or leaves the battlefield, it deals 1 damage to each player, then you surveil 1. => When this artifact enters or leaves the battlefield, it deals 1 damage to each opponent, then you surveil 1.
+
+Bite
+rules_text: Until end of turn, target creature you control gains “{2}, {T}: This creature deals damage equal to its power to any target.” => Until end of turn, target creature you control gains “{1}, {T}: This creature deals damage equal to its power to any target.”
+
+Apepisw Gate
+rules_text: Defender
+Whenever a player sacrifices a creature or planeswalker, this creature gets +1/+1 until end of turn. This triggers only once each turn. => Defender
+At the beginning of your end step, if a player sacrificed a permanent this turn, put a +1/+1 counter on up to one target creature you control.
+pt: 0/2 => 1/3
+
+Exploring Couple
+rules_text: Vigilance
+When this creature dies, you may search your library for a basic land card, reveal it and put it into your hand, then shuffle. => When this creature enters, you may search your library for a basic land card, reveal it and put it into your hand, then shuffle.
+pt: 1/1 => 1/2
+
+Giant Ibis
+rules_text: This creature enters with a +1/+1 counter and a Reach counter on it.
+At the beginning of your upkeep, you may move a +1/+1 counter from this creature onto another target creature you control. => This creature enters with a +1/+1 counter and a reach counter on it.
+At the beginning of your upkeep, you may move a +1/+1 counter from this creature onto another target creature you control.
+
+Seeker of Lost Species
+rules_text: {T}: Add one mana of any color.
+{G}{W}, {T}: Return target land card from your graveyard to the battlefield. => {T}: Add two mana of any one color.
+{2}{G}{W}: Return target land card from your graveyard to the battlefield. Activate only once each turn as a sorcery.
+pt: 2/3 => 2/4
+
+Hippo Family
+rules_text: When this creature enters, if one or more counters were removed or put on a creature you control this turn, choose one —
+• Exile any number of cards from target player's graveyard.
+• Gain 3 life and scry 1. => When this creature enters, if one or more counters were removed or put on a creature you control this turn, choose one —
+• Exile up to three cards from target player's graveyard.
+• Gain 2 life and scry 1.
+
+Avenging Elephant
+rules_text: Trample
+{1}{R}: Destroy target noncreature, nonbasic permanent with mana value 2 or less. Activate only once each turn, and only if this creature dealt combat damage to a planeswalker or player this turn. => Trample
+{3}: Destroy target noncreature, nonbasic permanent. Activate only if this creature dealt combat damage to a planeswalker or player this turn.
+
+Oasis Sentinel
+rules_text: This creature gets +X/+X and can't be blocked by creatures with power equal to or less than {X}, where X is the number of Oasis lands you control. => This creature gets +X/+X and can't be blocked by creatures with power X or less, where X is the number of Oasis lands you control.
+
+Hunting Party
+rules_text: Choose one —
+• Destroy target artifact or enchantment with mana value less than the greatest power among creatures you control.
+• Target creature you control deals damage equal to its power to target creature an opponent controls. => Choose one —
+• Destroy target artifact or enchantment with mana value 5 or less.
+• Target creature you control deals damage equal to its power to target creature an opponent controls.
+
+Scion of Hazoret
+rules_text: The first time each turn you or a permanent you control becomes the target of a spell or ability you don't control, Warriors you control get +1/+0 until your next end step. => The first time each turn you or a permanent you control becomes the target of a spell or ability, Warriors you control get +1/+0 until end of turn.
+
+Arena Champion
+rules_text: Flying
+The first time you tap an untapped creature an opponent controls during your turn, you may have target creature you control get +X/+X, where X is the power of the tapped creature. => Flying
+The first time during each of your turns you tap an untapped creature an opponent controls, you may have target creature you control get +X/+X until end of turn, where X is the power of the tapped creature.
+
+Callous Charioteer
+rules_text: Reach
+Betray [i](When this permanent enters, you may sacrifice another permanent that shares a color with it.)[/i]
+When this creature betrays a permanent, it gains haste, vigilance and trample until end of turn. => Reach
+Betray [i](When this permanent enters, you may sacrifice another permanent that shares a color with it.)[/i]
+When this creature betrays a permanent, put a vigilance counter and a trample counter on it.
+
+Megalithic Guardian
+rules_text: Vigilance
+This creature and lands you control have indestructible as long as there are four or more different names among lands you control. => Vigilance
+Lands you control and untapped creatures you control have indestructible as long as there are four or more different names among lands you control.
+
+Drakerider Spellweaver
+rules_text: Flying
+Whenever you cast an instant or sorcery spell, draw a card. Then discard a card unless there are five or more cards in your graveyard. => Flying
+Whenever you cast an instant or sorcery spell, draw a card. Then discard a card unless there are seven or more cards in your graveyard.
+
+Keeper of Blessed Waters
+rules_text: Ward {1}
+{1}: Move a counter from one creature you control to another creature you control, then untap one of those creatures. Activate only once each turn. => {1}: Move a counter from one creature you control to another creature you control, then untap one of those creatures. Activate only once each turn.
+pt: 1/1 => 2/2
+
+Vigilant Obstructionist
+rules_text: Vigilance
+Whenever an opponent draws one or more cards, if it's not the first they've drawn this turn, that opponent taps an untapped nonland permanent they control => Vigilance
+Whenever an opponent draws one or more cards, if it's not the first they've drawn during their draw step, that opponent taps an untapped nonland permanent they control.
+
+Yours
+
+Mastery of Tumbling Sands
+rules_text: {U}: Counter target activated or triggered ability of a nonland permanent. Tap that permanent. Activate only once each turn. => {1}{U}: Counter target activated or triggered ability of a nonland permanent. Tap that permanent. Activate only once each turn.
+
+Scion of Emptiness
+rules_text: Defender
+{G} or Sacrifice a creature: Until end of turn, this creature loses defender and gains menace.
+Whenever this creature deals combat damage to an opponent, that player discards two cards unless they pay life equal to this creature's toughness. => Defender, menace
+{G} or Sacrifice a creature: Until end of turn, this creature can attack as though it didn't have defender.
+Whenever this creature deals combat damage to an opponent, that player discards two cards unless they pay life equal to this creature's toughness.
+
+Obssessed Falconer
+rules_text: Betray [i](When this permanent enters, you may sacrifice another permanent that shares a color with it.)[/i]
+When this creature betrays another permanent, create a 1/1 white Bird creature token with flying. => Betray [i](When this permanent enters, you may sacrifice another permanent that shares a color with it.)[/i]
+When this creature betrays another permanent, create a 1/1 white Bird creature token with flying, then put a +1/+1 counter on that token.
+
+Omnivorous Exhumer
+type: Creature — Manticore => Creature — Zombie Manticore
+
+Rise of the Doomed
+rules_text: Zombies you control have menace.
+{2}{B}, Exile a nonland card from your graveyard: Create a 1/1 black Zombie creature token. Activate only once each turn, and only as a sorcery. => Zombies you control have menace.
+{2}{B}, Exile a nonland card from your graveyard: Create a 1/1 black Zombie creature token. Activate only as a sorcery.
+
+Hyena Pack Attack
+rules_text: Choose one. If you control a creature with toughness greater than its power, you may choose any number. —
+• Target creature gets +1/+1 until end of turn.
+• Target creature gets -1/-1 until end of turn.
+• Target creature gains lifelink until end of turn. => Choose one. If you control a creature with toughness greater than its power, you may choose any number —
+• Target creature gets +1/+1 and gains lifelink until end of turn.
+• Target creature gets -1/-1 until end of turn.
+
+Scorchtrack Mehu
+rules_text: This spell costs {1} less to cast for each instant and/or sorcery you've cast this turn.
+Trample => This spell costs {1} less to cast for each instant and/or sorcery spell you've cast this turn.
+Trample
+
+Wine Priestess
+type: Creature — Human Bard Cleric => Creature — Human Artificer Cleric
+rules_text: Ward—pay 2 life
+When this creature enters, if you cast it, create three 1/1 red Human Warrior creature tokens with first strike.
+{1}{W}: Create a Food token. Activate only once each turn as a sorcery. => Ward—Pay 2 life
+When this creature enters, if you cast it, create three 1/1 red Human Warrior creature tokens with first strike.
+{1}{W}: Create a Food token. Activate only once each turn as a sorcery.
+
+Darkstorm Bolt
+rules_text: This spell costs {1} less to cast as long as any player cast a spell from a graveyard this turn.
+This spell deals 3 damage to any target. => This spell costs {1} less to cast as long as you've cast a spell from anywhere other than your hand this turn.
+This spell deals 3 damage to any target.
+
+Infectious Bravado
+rules_text: Enchant creature
+Whenever another Warrior you control enters, enchanted creature gets +1/+1 until end of turn.
+At the beginning of combat on your turn, create a 1/1 red Warrior creature token with haste. Sacrifice that token at the beginning of the next end step. => Enchant creature
+Whenever another Warrior you control enters, creatures you control get +1/+1 until end of turn.
+At the beginning of combat on your turn, create a 1/1 red Warrior creature token with haste. Sacrifice that token at the beginning of the next end step.
+
+Eager
+cost: {2}{U} => {1}{R}
+rules_text: Put a flying counter on target creature you control, then put a vigilance counter on each creature you control. => Target creature gets +2/+2 and gains haste until end of turn.
+
+Returned Vizier
+rules_text: Flash
+First strike
+Betray [i](When this permanent enters, you may sacrifice another permanent that shares a color with it.)[/i]
+When this creature betrays a permanent, you gain life equal to that permanent's mana value. => Flash
+First strike
+Betray [i](When this permanent enters, you may sacrifice another permanent that shares a color with it.)[/i]
+When this creature betrays a permanent, you gain 4 life.
+pt: 2/2 => 3/2
+
+Basri Ket, Conflicted
+pt: 3/3 => 4/4
+
+Diplomatic Conclave
+rules_text: At the beginning of each opponent's upkeep, they may tap an untapped creature they control. If they don't, you draw a card.
+Sacrifice this enchantment: Exile target tapped or attacking creature. => At the beginning of each opponent's upkeep, they may tap an untapped creature they control. If they don't, you draw a card.
+{W}, Sacrifice this enchantment: Exile target tapped creature. Activate only as a sorcery.
+
+Extracted Confession
+rules_text: Search your command zone, graveyard and/or library for a permanent card with mana value X, where X is the total combat damage dealt to target opponent this turn, reveal it and put it into your hand. Shuffle your library if you searched it this way. => Search your library for a permanent card with mana value X, where X is the total combat damage dealt to target opponent this turn, reveal it and put it into your hand, then shuffle. X can't be 0.
+
+Snehemite Novitiate
+rules_text: Ward {1}
+{2}{UR}, {T}: Copy target noncreature spell that was cast from a graveyard. You may choose new targets for the copy. This ability costs {1} less to activate if that spell has Aftermath. => Ward {1}
+{1}{UR}, {T}: Copy target noncreature spell that was cast from a graveyard. You may choose new targets for the copy.
+
+Ramunap Revenant
+cost: {1}{U}{U} => {2}{U}
+
+Interdiction Angel
+pt: 3/3 => 4/3
+
+Mystic Manipulation
+rules_text: This spell costs {X} less to cast as long as you control both targets.
+Choose one—
+• Move X target Auras and/or Equipment from target creature onto another target creature.
+• Move X counters from target creature to another target creature. => This spell costs {3} less to cast as long as you control all of its targets.
+Choose one—
+• Attach X target Auras and/or Equipment attached to a creature to another target creature.
+• Move X counters from target creature to another target creature.
+
+Shifting Constellations
+cost: {3}{U}{U} => {4}{U}
+
+Djamankh's Hydromancy
+rules_text: This spell costs {1} less to cast for each counter on a creature you control.
+Look at the top X cards of your library, put one of them into your hand, then put the rest on the bottom of your library in any order. => This spell costs {1} less to cast for each counter on a creature you control.
+Look at the top X cards of your library, put one of them into your hand, then put the rest on the bottom of your library in a random order.
+
+Bx'sur, Chosen of Darux
+rules_text: Menace
+When Bx'sur enters, you may pay {B}. If you do, each player loses 1 life and she gains haste until end of turn.
+{BR}: Bx'sur gets +1/+1 until end of turn. Activate only if an opponent lost life this turn. => Menace
+When Bx'sur enters, you may pay {1}{B}. If you do, each player loses 1 life and she gains haste until end of turn.
+{BR}: Bx'sur gets +1/+1 until end of turn. Activate only if an opponent lost life this turn.
+
+Isift, Vizier of Ifnir
+rules_text: Whenever Isift enters or attacks, you mill a card, then each opponent mills two cards. If a creature or planeswalker card is milled this way, Isift gains flying until end of turn.
+{B}, Exile a creature card from your graveyard: You draw a card and lose 1 life. Activate only once each turn as a sorcery. => Flying
+Whenever Isift enters or attacks, you mill a card, then each opponent mills two cards. 
+{B}, Exile a creature card from your graveyard: You draw a card and lose 1 life. Activate only once each turn as a sorcery.
+
+Isift's Judgment
+rules_text: Each creature gets -X/-X until end of turn, where X is the highest number of cards put into a player's graveyard from anywhere this turn. => Each creature gets -X/-X until end of turn, where X is the greatest number of cards put into a player's graveyard from anywhere this turn.
+
+Ewrkhy, Defender of Nature
+rules_text: Haste
+Ewrkhy attacks each combat if able.
+{1}{R}{G}: Create a 1/1 red Warrior creature token. => Haste
+{1}{R}{G}: Create a 1/1 red Warrior creature token.
+
+Lazotep Dragon
+rules_text: Flying, haste
+Betray [i](When this permanent enters, you may sacrifice another permanent that shares a color with it.)[/i]
+When this creature betrays another permanent, it deals 2 damage to any nonplayer target. If a multicolor permanent was betrayed this way, surveil 2. => Flying, haste
+Betray [i](When this permanent enters, you may sacrifice another permanent that shares a color with it.)[/i]
+When this creature betrays another permanent, it deals 2 damage to any target. If a multicolor permanent was betrayed this way, surveil 2.
+
+Ka-channel Wrapping
+rules_text: Whenever an ability of equipped creature is activated, you may copy that ability. You may choose new targets for the copy. This triggers only once each turn.
+Equip {1} => Whenever an ability of equipped creature is activated, you may copy that ability. You may choose new targets for the copy. This ability triggers only once each turn.
+Equip {1}
+
+Lifeblood Siphoner
+pt: 1/3 => 2/4
+
+Godsize
+rules_text: Triple target creature's power and toughness until end of turn. That creature gains trample until end of turn.
+{2}{R}, Reveal this card from your hand: Target creature gets +2/+0 until end of turn. Activate only once each turn as a sorcery. => Triple target creature's power and toughness until end of turn. That creature gains trample until end of turn.
+At the beginning of your upkeep, you may pay {2}{R} and reveal this card from your hand. When you do, target creature you control gets +2/+0 until end of turn.
+
+Tekhen, Ancient Spiresoul
+rules_text: Flying
+Lands you control are artifact Treasures in addition to their other types and have “{T}, Sacrifice this artifact: Add one mana of any color.”
+Whenever a Treasure enters under your control, if you don't control a Treasure with the same name, draw a card. => Flying
+Lands you control are Treasure artifacts in addition to their other types and have “{T}, Sacrifice this artifact: Add one mana of any color.”
+Whenever a Treasure enters under your control, if you don't control another Treasure with the same name, draw a card.
+
+Two Suns' Radiance
+rules_text: Betray [i](When this permanent enters, you may sacrifice another permanent that shares a color with it.)[/i]
+When this enchantment betrays another permanent, you draw a card. If that permanent isn't a creature, you may instead create a token copy of this enchantment without betray.
+If damage would be dealt to a permanent you control, prevent 1 of that damage. => Betray [i](When this permanent enters, you may sacrifice another permanent that shares a color with it.)[/i]
+When this enchantment betrays another permanent, you draw a card. If that permanent isn't a creature, you may instead create a copy of this enchantment, except it doesn't have betray.
+If damage would be dealt to a permanent you control, prevent 1 of that damage.
+
+Neputarkh, the Heretic
+rules_text: Betray
+When this creature betrays another permanent, you draw a card, then discard a card. If the betrayed permanent was a Zombie, draw two cards this way instead.
+{1}{U}{B}, Exile a Zombie creature card from your graveyard: Create a token copy of that card, except it's a 1/1 colorless Spirit with flying. => Betray
+When this creature betrays another permanent, you draw a card, then discard a card. If the betrayed permanent was a Zombie, instead draw two cards then discard a card.
+{1}{U}{B}, Exile a Zombie creature card from your graveyard: Create a token that's a copy of that card, except it's a 1/1 colorless Spirit with flying.
+
+Method
+rules_text: Each player mills four cards. You may cast a card milled this way by paying its mana value in life rather than paying its mana cost. => Each player mills four cards. You may cast a card milled this way by paying life equal to its mana value rather than its mana cost.
+
+Kav'set the Ruthless
+rules_text: Menace
+Betray [i](When this permanent enters, you may sacrifice another permanent that shares a color with it.)[/i]
+When Kav'set betrays a creature, he deals X damage to each opponent, where X is half the betrayed creature's power. Then put X +1/+1 counters on him. => Menace
+Betray [i](When this permanent enters, you may sacrifice another permanent that shares a color with it.)[/i]
+When Kav'set betrays a creature, he deals X damage to each opponent, where X is half the betrayed creature's power rounded up. Then put X +1/+1 counters on him.
+
+Embalmed Dragon
+rules_text: Ward—pay 2 life
+Flying
+Whenever a player sacrifices a nonland permanent, this creature deals 1 damage to any target. => Ward—Pay 2 life
+Flying
+Whenever a player sacrifices a nonland permanent, this creature deals 1 damage to any target.
+
+Katilda's Crucible
+rules_text: When this enters and at the beginning of your upkeep, create a tapped token copy of target land. => When this enters and at the beginning of your upkeep, create a tapped token that's a copy of target land.
+
+Scattered
+rules_text: Counter target spell.
+This spell deals 2 damage to any target. => Counter target spell.
+This spell deals 1 damage to any target.
+
+Gleaming Capstone
+type: Artifact — Oasis => Artifact
+rules_text: {T}: Add one mana of any color.
+{1}: This permanent becomes a land and loses any other card type. [i](This effect lasts indefinitely.)[/i] => {T}: Add one mana of any color.
+{1}: This permanent becomes a land with the Oasis subtype [i](It loses all other card types)[/i].
+
+Happy
+
+Naktamun Market Streets
+rules_text: {T}: Add {C}. If you control four or more Oasis lands, you may add one mana of any color instead.
+{8}, {T}: Scry 2, then draw a card. You gain 2 life. This ability costs {1} less to activate for every Oasis you control. => {T}: Add {C}. If you control four or more Oasis lands, you may add one mana of any color instead.
+{8}, {T}: Scry 2, then draw a card. You gain 2 life. This ability costs {1} less to activate for each Oasis you control.
+
+Darux, Miasma of Passion
+pt: 4/4 => 4/3
+
+Hazoret, Zealous Survivor
+rules_text: Haste, indestructible, menace
+Hazoret can't attack or block unless you've cast a creature spell this turn.
+Warrior spells you cast can't be countered.
+Warriors you control have hexproof. => Haste, indestructible, menace
+Hazoret can't attack or block unless you've cast a creature spell this turn.
+Warrior spells you cast can't be countered.
+Warriors you control have ward {2}.
+
+Wasmawt, Inevitable Death
+rules_text: Indestructible, deathtouch
+Wasmawt can't attack or block unless you control another creature with toughness greater than its power.
+Whenever a creature dies, untap and put a +1/+1 counter on each creature you control. This triggers only once each turn. => Indestructible, deathtouch
+Wasmawt can't attack or block unless you control another creature with toughness greater than its power.
+Whenever a creature dies, untap target creature you control and put a +1/+1 counter on it. This triggers only once each turn.
+
+Feast on Flesh
+rules_text: Target creature you don't control gets -3/-3 until end of turn.
+If you control a Zombie, put a +1/+1 counter on target creature you control. => Target creature you don't control gets -3/-3 until end of turn.
+If you control a Zombie, put a +1/+1 counter on a creature you control.
+
+Icon of Unity
+rules_text: Spells you cast cost {1} less to cast.
+Whenever you cast a spell that's one or more colors, if it's a color you haven't cast this turn, you gain 1 life. => Spells you cast cost {1} less to cast.
+Whenever you cast a spell that's one or more colors, note those colors. If you haven't noted those colors this turn, you gain 1 life for each of those colors.
+
+Mindstab Ravager
+pt: 3/2 => 4/3
+
+First Altar of Wasmawt
+rules_text: Whenever a creature with toughness greater than its power enters under your control, you may draw a card and lose 1 life. This triggers only once each turn.
+{2}{B}{G}, {T}, Sacrifice a creature you control: Target opponent loses X life and you gain X life, where X is the sacrificed creature's toughness. => Whenever a creature with toughness greater than its power enters under your control, you may draw a card and lose 1 life. Do this only once each turn.
+{2}{B}{G}, {T}, Sacrifice a creature you control: Target opponent loses X life and you gain X life, where X is the sacrificed creature's toughness.
+
+Mistress of Leashes
+rules_text: Haste
+The first time each turn you attack, untap a land you control.
+{1}{R}{G}: Creatures you control get +1/+1 until end of turn. => Haste
+Whenever you attack, untap a land you control.
+{1}{R}{G}: Creatures you control get +1/+1 until end of turn.
+
+Tjuf, Herald of Snehem
+rules_text: Flying
+Whenever you cast an instant or sorcery spell, target creature you control gets +1/+1 until end of turn. If that spell was cast from a graveyard and had Aftermath, creatures you control get +1/+1 instead. => Flying
+Whenever you cast an instant or sorcery spell, target creature you control gets +1/+1 until end of turn. If that spell was cast from a graveyard and had Aftermath, creatures you control get +1/+1 until end of turn instead.
+
+
+VERSION 10 CHANGELOG
 ====================
 
 Pendant of Bright Futures added.
