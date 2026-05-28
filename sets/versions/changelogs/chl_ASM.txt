@@ -1,4 +1,19 @@
-﻿VERSION 14 CHANGELOG
+﻿VERSION 15 CHANGELOG
+====================
+
+
+
+Hazoret, Zealous Survivor
+rules_text: Haste, indestructible, menace
+Hazoret can't attack or block unless you've cast a creature spell this turn.
+Warrior spells you cast can't be countered.
+Warriors you control have ward {2}. => Haste, indestructible, menace
+Hazoret can't attack or block unless you've cast a non-God creature spell this turn.
+Warrior spells you cast can't be countered.
+Warriors you control have ward {2}.
+
+
+VERSION 14 CHANGELOG
 ====================
 
 No changes.

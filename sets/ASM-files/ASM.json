@@ -4233,7 +4233,7 @@
             "number": 216,
             "color_identity": "WR",
             "cost": "{3}{R}{W}",
-            "rules_text": "Haste, indestructible, menace\nHazoret can't attack or block unless you've cast a creature spell this turn.\nWarrior spells you cast can't be countered.\nWarriors you control have ward {2}.",
+            "rules_text": "Haste, indestructible, menace\nHazoret can't attack or block unless you've cast a non-God creature spell this turn.\nWarrior spells you cast can't be countered.\nWarriors you control have ward {2}.",
             "flavor_text": "[i][/i]",
             "pt": "6/5",
             "special_text": "",
@@ -5252,5 +5252,5 @@
             "notes": ""
         }
     ],
-    "version": 14
+    "version": 15
 }

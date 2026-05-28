@@ -3972,7 +3972,7 @@ You may play an additional land on each of your turns.</text>
 		<card>
 			<name>Hazoret, Zealous Survivor</name>
 			<text>Haste, indestructible, menace
-Hazoret can&apos;t attack or block unless you&apos;ve cast a creature spell this turn.
+Hazoret can&apos;t attack or block unless you&apos;ve cast a non-God creature spell this turn.
 Warrior spells you cast can&apos;t be countered.
 Warriors you control have ward {2}.</text>
 			<set rarity="mythic" picurl="https://Opacana.github.io/sets/ASM-files/img/216_Hazoret, Zealous Survivor.png" num="216">ASM</set>
