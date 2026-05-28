@@ -2671,23 +2671,13 @@
 			}
 		},
 		{
-			"name": "Food",
-			"rarity": "common",
-			"mana_cost": "",
-			"type": "Token Artifact — Food",
-			"collector_number": "14",
-			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/14t_Food.png"
-			}
-		},
-		{
 			"name": "Treasure",
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Artifact — Treasure",
-			"collector_number": "15",
+			"collector_number": "14",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/15t_Treasure.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/14t_Treasure.png"
 			}
 		},
 		{

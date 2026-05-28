@@ -2465,9 +2465,9 @@
             "rarity": "uncommon",
             "type": "Creature \u2014 Human Artificer Cleric",
             "number": 158,
-            "color_identity": "WR",
+            "color_identity": "R",
             "cost": "{3}{R}{R}",
-            "rules_text": "Ward\u2014Pay 2 life\nWhen this creature enters, if you cast it, create three 1/1 red Human Warrior creature tokens with first strike.\n{1}{W}: Create a Food token. Activate only once each turn as a sorcery.",
+            "rules_text": "Ward\u2014Pay 2 life\nHaste\nWhen this creature enters, if you cast it, create three 1/1 red Human Warrior creature tokens with first strike.\n{T}: Target creature gains haste until end of turn.",
             "flavor_text": "[i][/i]",
             "pt": "2/2",
             "special_text": "",
@@ -2475,7 +2475,7 @@
             "set": "ASM",
             "loyalty": "",
             "artist": "Bach Zim",
-            "notes": "May 26, 2026: Changed Bard to Artificer type."
+            "notes": "May 26, 2026: Changed Bard to Artificer type.\n\nMay 28, 2026: Changed Food ability to one that gives a creature haste. And gave it haste as well."
         },
         {
             "card_name": "Corrupted Emberhorn",
@@ -5072,29 +5072,11 @@
             "notes": ""
         },
         {
-            "card_name": "Food",
-            "color": "",
-            "rarity": "common",
-            "type": "Token Artifact \u2014 Food",
-            "number": 14,
-            "color_identity": "C",
-            "cost": "",
-            "rules_text": "{2}, {T}, Sacrifice this artifact: You gain 3 life.",
-            "flavor_text": "[i][/i]",
-            "pt": "",
-            "special_text": "",
-            "shape": "token",
-            "set": "ASM",
-            "loyalty": "",
-            "artist": "Christos Karapanos",
-            "notes": ""
-        },
-        {
             "card_name": "Treasure",
             "color": "",
             "rarity": "common",
             "type": "Token Artifact \u2014 Treasure",
-            "number": 15,
+            "number": 14,
             "color_identity": "C",
             "cost": "",
             "rules_text": "{T}, Sacrifice this artifact: Add one mana of any color.",
@@ -5270,5 +5252,5 @@
             "notes": ""
         }
     ],
-    "version": 12
+    "version": 13
 }

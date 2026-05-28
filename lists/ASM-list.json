@@ -2240,16 +2240,8 @@
         "position": ""
     },
     {
-        "card_name": "Food",
-        "number": 14,
-        "shape": "token",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
         "card_name": "Treasure",
-        "number": 15,
+        "number": 14,
         "shape": "token",
         "set": "ASM",
         "rotated": false,
@@ -2350,6 +2342,9 @@
         "set": "ASM",
         "rotated": false,
         "position": ""
+    },
+    {
+        "card_name": "e"
     },
     {
         "card_name": "er"

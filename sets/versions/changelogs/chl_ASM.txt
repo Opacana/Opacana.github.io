@@ -1,4 +1,19 @@
-﻿VERSION 12 CHANGELOG
+﻿VERSION 13 CHANGELOG
+====================
+
+
+Food removed.
+
+Wine Priestess
+rules_text: Ward—Pay 2 life
+When this creature enters, if you cast it, create three 1/1 red Human Warrior creature tokens with first strike.
+{1}{W}: Create a Food token. Activate only once each turn as a sorcery. => Ward—Pay 2 life
+Haste
+When this creature enters, if you cast it, create three 1/1 red Human Warrior creature tokens with first strike.
+{T}: Target creature gains haste until end of turn.
+
+
+VERSION 12 CHANGELOG
 ====================
 
 
