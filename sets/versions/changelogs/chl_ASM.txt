@@ -1,4 +1,39 @@
-﻿VERSION 11 CHANGELOG
+﻿VERSION 12 CHANGELOG
+====================
+
+
+
+Hazoret's Blessing
+rules_text: Enchant creature
+Enchanted creature gets +1/+1 and has lifelink.
+{1}{R}: Enchanted creature gains first strike until end of turn.
+When this Aura is put into a graveyard from the battlefield, scry 2. => Enchant creature
+Enchanted creature gets +1/+1 and has lifelink.
+{2}: Enchanted creature gains first strike until end of turn.
+When this Aura is put into a graveyard from the battlefield, scry 2.
+
+Role Model Sergeant
+rules_text: {1}{RW}: Target Warrior gains first strike until end of turn. Activate only as a sorcery. => {2}: Target Warrior gains first strike until end of turn. Activate only as a sorcery.
+
+Avenging Minotaur
+rules_text: Reach
+When this creature enters, you may pay {U}. When you do, return target instant and/or sorcery from your graveyard to your hand. => Reach
+When this creature enters, you may pay {1}. When you do, return target instant and/or sorcery from your graveyard to your hand.
+
+Track Guardian
+rules_text: Reach
+This creature enters with two +1/+1 counters on it.
+{1}{GU}: Target creature you control must be blocked this turn if able. Activate only as a sorcery. => Reach
+This creature enters with two +1/+1 counters on it.
+{2}: Target creature you control must be blocked this turn if able. Activate only as a sorcery.
+
+Kharteran Pike-Captain
+rules_text: Haste
+At the beginning of combat on your turn, this creature gains your choice of first strike, menace or trample until end of turn. Whenever this creature deals combat damage to an opponent this turn, you may pay {RW}. If you do, put a counter of that kind on another creature you control. => Haste
+At the beginning of combat on your turn, this creature gains your choice of first strike, menace or trample until end of turn. Whenever this creature deals combat damage to an opponent this turn, you may pay {1}. If you do, put a counter of that kind on another creature you control.
+
+
+VERSION 11 CHANGELOG
 ====================
 
 Rage-Cursed Returned added.

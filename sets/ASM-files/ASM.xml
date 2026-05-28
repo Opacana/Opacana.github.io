@@ -326,7 +326,7 @@ Scry 1.</text>
 			<name>Hazoret&apos;s Blessing</name>
 			<text>Enchant creature
 Enchanted creature gets +1/+1 and has lifelink.
-{1}{R}: Enchanted creature gains first strike until end of turn.
+{2}: Enchanted creature gains first strike until end of turn.
 When this Aura is put into a graveyard from the battlefield, scry 2.</text>
 			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/ASM-files/img/18_Hazoret&apos;s Blessing.png" num="18">ASM</set>
 			<prop>
@@ -337,7 +337,7 @@ When this Aura is put into a graveyard from the battlefield, scry 2.</text>
 				<manacost>1W</manacost>
 				<cmc>2</cmc>
 				<colors>W</colors>
-				<coloridentity>WR</coloridentity>
+				<coloridentity>W</coloridentity>
 			</prop>
 			<tablerow>1</tablerow>
 		</card>
@@ -1120,7 +1120,7 @@ Pay 2 life: Copy target activated ability of a source you control. Activate only
 		</card>
 		<card>
 			<name>Role Model Sergeant</name>
-			<text>{1}{RW}: Target Warrior gains first strike until end of turn. Activate only as a sorcery.</text>
+			<text>{2}: Target Warrior gains first strike until end of turn. Activate only as a sorcery.</text>
 			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/148_Role Model Sergeant.png" num="148">ASM</set>
 			<prop>
 				<layout>normal</layout>
@@ -1130,7 +1130,7 @@ Pay 2 life: Copy target activated ability of a source you control. Activate only
 				<manacost>3R</manacost>
 				<cmc>4</cmc>
 				<colors>R</colors>
-				<coloridentity>WR</coloridentity>
+				<coloridentity>R</coloridentity>
 				<pt>4/3</pt>
 			</prop>
 			<tablerow>2</tablerow>
@@ -1156,7 +1156,7 @@ Pay 2 life: Copy target activated ability of a source you control. Activate only
 		<card>
 			<name>Avenging Minotaur</name>
 			<text>Reach
-When this creature enters, you may pay {U}. When you do, return target instant and/or sorcery from your graveyard to your hand.</text>
+When this creature enters, you may pay {1}. When you do, return target instant and/or sorcery from your graveyard to your hand.</text>
 			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/122_Avenging Minotaur.png" num="122">ASM</set>
 			<prop>
 				<layout>normal</layout>
@@ -1166,7 +1166,7 @@ When this creature enters, you may pay {U}. When you do, return target instant a
 				<manacost>4R</manacost>
 				<cmc>5</cmc>
 				<colors>R</colors>
-				<coloridentity>UR</coloridentity>
+				<coloridentity>R</coloridentity>
 				<pt>5/5</pt>
 			</prop>
 			<tablerow>2</tablerow>
@@ -1983,7 +1983,7 @@ When this creature enters, choose one —
 			<name>Track Guardian</name>
 			<text>Reach
 This creature enters with two +1/+1 counters on it.
-{1}{GU}: Target creature you control must be blocked this turn if able. Activate only as a sorcery.</text>
+{2}: Target creature you control must be blocked this turn if able. Activate only as a sorcery.</text>
 			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/ASM-files/img/70_Track Guardian.png" num="70">ASM</set>
 			<prop>
 				<layout>normal</layout>
@@ -1993,7 +1993,7 @@ This creature enters with two +1/+1 counters on it.
 				<manacost>3UU</manacost>
 				<cmc>5</cmc>
 				<colors>U</colors>
-				<coloridentity>UG</coloridentity>
+				<coloridentity>U</coloridentity>
 				<pt>2/3</pt>
 			</prop>
 			<tablerow>2</tablerow>
@@ -2943,7 +2943,7 @@ When enchanted creature dies, you draw X cards and lose X life, where X is its t
 		<card>
 			<name>Kharteran Pike-Captain</name>
 			<text>Haste
-At the beginning of combat on your turn, this creature gains your choice of first strike, menace or trample until end of turn. Whenever this creature deals combat damage to an opponent this turn, you may pay {RW}. If you do, put a counter of that kind on another creature you control.</text>
+At the beginning of combat on your turn, this creature gains your choice of first strike, menace or trample until end of turn. Whenever this creature deals combat damage to an opponent this turn, you may pay {1}. If you do, put a counter of that kind on another creature you control.</text>
 			<set rarity="rare" picurl="https://Opacana.github.io/sets/ASM-files/img/141_Kharteran Pike-Captain.png" num="141">ASM</set>
 			<prop>
 				<layout>normal</layout>
@@ -2953,7 +2953,7 @@ At the beginning of combat on your turn, this creature gains your choice of firs
 				<manacost>1RR</manacost>
 				<cmc>3</cmc>
 				<colors>R</colors>
-				<coloridentity>WR</coloridentity>
+				<coloridentity>R</coloridentity>
 				<pt>3/3</pt>
 			</prop>
 			<tablerow>2</tablerow>
