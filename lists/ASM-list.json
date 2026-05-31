@@ -2232,16 +2232,8 @@
     },
     "a->token",
     {
-        "card_name": "Wish",
-        "number": 1,
-        "shape": "token",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
         "card_name": "Treasure",
-        "number": 14,
+        "number": 18,
         "shape": "token",
         "set": "ASM",
         "rotated": false,
@@ -2249,7 +2241,7 @@
     },
     {
         "card_name": "Angel",
-        "number": 2,
+        "number": 1,
         "shape": "token",
         "set": "ASM",
         "rotated": false,
@@ -2257,7 +2249,7 @@
     },
     {
         "card_name": "Bird",
-        "number": 3,
+        "number": 2,
         "shape": "token",
         "set": "ASM",
         "rotated": false,
@@ -2265,6 +2257,14 @@
     },
     {
         "card_name": "Zombie",
+        "number": 3,
+        "shape": "token",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Zombie Lizard",
         "number": 4,
         "shape": "token",
         "set": "ASM",
@@ -2288,7 +2288,7 @@
         "position": ""
     },
     {
-        "card_name": "Warrior",
+        "card_name": "Phoenix",
         "number": 7,
         "shape": "token",
         "set": "ASM",
@@ -2296,7 +2296,7 @@
         "position": ""
     },
     {
-        "card_name": "Plant Wall",
+        "card_name": "Warrior",
         "number": 8,
         "shape": "token",
         "set": "ASM",
@@ -2304,7 +2304,7 @@
         "position": ""
     },
     {
-        "card_name": "Cat",
+        "card_name": "Plant Wall",
         "number": 9,
         "shape": "token",
         "set": "ASM",
@@ -2312,23 +2312,7 @@
         "position": ""
     },
     {
-        "card_name": "Insect",
-        "number": 11,
-        "shape": "token",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "Snake",
-        "number": 12,
-        "shape": "token",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "Elemental",
+        "card_name": "Cat",
         "number": 10,
         "shape": "token",
         "set": "ASM",
@@ -2336,12 +2320,63 @@
         "position": ""
     },
     {
-        "card_name": "Talisman",
+        "card_name": "Insect",
+        "number": 12,
+        "shape": "token",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Insect",
         "number": 13,
         "shape": "token",
         "set": "ASM",
         "rotated": false,
         "position": ""
+    },
+    {
+        "card_name": "Snake",
+        "number": 14,
+        "shape": "token",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Warrior",
+        "number": 16,
+        "shape": "token",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Zombie Bird",
+        "number": 17,
+        "shape": "token",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Elemental",
+        "number": 11,
+        "shape": "token",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Talisman",
+        "number": 15,
+        "shape": "token",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "e"
     },
     {
         "card_name": "e"

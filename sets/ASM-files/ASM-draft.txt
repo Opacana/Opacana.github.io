@@ -2465,9 +2465,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Creature — Cat",
-			"collector_number": "9",
+			"collector_number": "10",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/9t_Cat.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/10t_Cat.png"
 			}
 		},
 		{
@@ -2575,9 +2575,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Creature — Snake",
-			"collector_number": "12",
+			"collector_number": "14",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/12t_Snake.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/14t_Snake.png"
 			}
 		},
 		{
@@ -2585,19 +2585,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Creature — Zombie",
-			"collector_number": "4",
+			"collector_number": "3",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/4t_Zombie.png"
-			}
-		},
-		{
-			"name": "Wish",
-			"rarity": "common",
-			"mana_cost": "",
-			"type": "Token Creature — Wish",
-			"collector_number": "1",
-			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/1t_Wish.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/3t_Zombie.png"
 			}
 		},
 		{
@@ -2615,9 +2605,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Creature — Elemental",
-			"collector_number": "10",
+			"collector_number": "11",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/10t_Elemental.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/11t_Elemental.png"
 			}
 		},
 		{
@@ -2625,9 +2615,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Creature — Angel",
-			"collector_number": "2",
+			"collector_number": "1",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/2t_Angel.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/1t_Angel.png"
 			}
 		},
 		{
@@ -2645,9 +2635,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Creature — Warrior",
-			"collector_number": "7",
+			"collector_number": "8",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/7t_Warrior.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/8t_Warrior.png"
 			}
 		},
 		{
@@ -2655,9 +2645,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Artifact",
-			"collector_number": "13",
+			"collector_number": "15",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/13t_Talisman.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/15t_Talisman.png"
 			}
 		},
 		{
@@ -2665,9 +2655,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Creature — Bird",
-			"collector_number": "3",
+			"collector_number": "2",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/3t_Bird.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/2t_Bird.png"
 			}
 		},
 		{
@@ -2675,9 +2665,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Artifact — Treasure",
-			"collector_number": "14",
+			"collector_number": "18",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/14t_Treasure.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/18t_Treasure.png"
 			}
 		},
 		{
@@ -2735,9 +2725,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Creature — Insect",
-			"collector_number": "11",
+			"collector_number": "12",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/11t_Insect.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/12t_Insect.png"
 			}
 		},
 		{
@@ -2745,9 +2735,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Token Creature — Plant Wall",
-			"collector_number": "8",
+			"collector_number": "9",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/8t_Plant Wall.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/9t_Plant Wall.png"
 			}
 		},
 		{
@@ -2763,11 +2753,61 @@
 		{
 			"name": "Noble's Treasury",
 			"rarity": "common",
-			"mana_cost": "{1}",
+			"mana_cost": "",
 			"type": "Land",
 			"collector_number": "254",
 			"image_uris": {
 				"en": "https://Opacana.github.io/sets/ASM-files/img/254_Noble's Treasury.png"
+			}
+		},
+		{
+			"name": "Warrior",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Warrior",
+			"collector_number": "16",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/ASM-files/img/16t_Warrior.png"
+			}
+		},
+		{
+			"name": "Zombie Lizard",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Zombie Lizard",
+			"collector_number": "4",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/ASM-files/img/4t_Zombie Lizard.png"
+			}
+		},
+		{
+			"name": "Zombie Bird",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Zombie Bird",
+			"collector_number": "17",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/ASM-files/img/17t_Zombie Bird.png"
+			}
+		},
+		{
+			"name": "Phoenix",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Phoenix",
+			"collector_number": "7",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/ASM-files/img/7t_Phoenix.png"
+			}
+		},
+		{
+			"name": "Insect",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Insect",
+			"collector_number": "13",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/ASM-files/img/13t_Insect.png"
 			}
 		}
 	]

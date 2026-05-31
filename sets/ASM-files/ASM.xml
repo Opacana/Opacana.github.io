@@ -5,7 +5,7 @@
 			<name>ASM</name>
 			<longname>Amonkhet: Schism</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-05-28</releasedate>
+			<releasedate>2026-05-31</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -783,7 +783,7 @@ When this creature betrays another permanent, target opponent reveals their hand
 		<card>
 			<name>Carcass Collector</name>
 			<text>Flying
-When this creature enters, you may sacrifice another creature you control or exile a creature card from your graveyard. When you do, create a black 1/1 Zombie creature token.</text>
+When this creature enters, you may sacrifice another creature you control or exile a creature card from your graveyard. When you do, create a 1/1 black Zombie creature token.</text>
 			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/84_Carcass Collector.png" num="84">ASM</set>
 			<prop>
 				<layout>normal</layout>
@@ -818,7 +818,7 @@ When this creature enters, you may sacrifice another creature you control or exi
 		<card>
 			<name>Ifnir Farseer</name>
 			<text>Flying
-When this creature enters, create a Talisman artifact token that&apos;s all colors with &quot;When this artifact is put into a graveyard from the battlefield, you scry 1.&quot;</text>
+When this creature enters, create an artifact Talisman token that&apos;s all colors with &quot;When this artifact is put into a graveyard from the battlefield, you scry 1.&quot;</text>
 			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/93_Ifnir Farseer.png" num="93">ASM</set>
 			<prop>
 				<layout>normal</layout>
@@ -3145,7 +3145,7 @@ Whenever this creature enters or attacks, put a +1/+1 counter on it.</text>
 		</card>
 		<card>
 			<name>Home // Stay</name>
-			<text>Create a 0/4 green Plant Wall creature with defender and &quot;{T}: Add one mana of any color.&quot;
+			<text>Create a 0/4 green Plant Wall creature token with defender and &quot;{T}: Add one mana of any color.&quot;
 
 ---
 
@@ -3219,7 +3219,7 @@ Whenever a Treasure enters under your control, if you don&apos;t control another
 		<card>
 			<name>Two Suns&apos; Radiance</name>
 			<text>Betray (When this permanent enters, you may sacrifice another permanent that shares a color with it.)
-When this enchantment betrays another permanent, you draw a card. If that permanent isn&apos;t a creature, you may instead create a copy of this enchantment, except it doesn&apos;t have betray.
+When this enchantment betrays another permanent, you draw a card. If that permanent isn&apos;t a creature, you may instead create a token copy of this enchantment, except it doesn&apos;t have betray.
 If damage would be dealt to a permanent you control, prevent 1 of that damage.</text>
 			<set rarity="mythic" picurl="https://Opacana.github.io/sets/ASM-files/img/37_Two Suns&apos; Radiance.png" num="37">ASM</set>
 			<prop>
@@ -3412,7 +3412,7 @@ Choose one. If this spell was kicked, you may choose both. —
 		</card>
 		<card>
 			<name>Done // Perfection</name>
-			<text>Create two black and blue 1/1 Insect creature tokens with flying and deathtouch.
+			<text>Create two 1/1 black and blue Insect creature tokens with flying and deathtouch.
 
 ---
 
@@ -3670,7 +3670,7 @@ When this creature enters or dies, exile target opponent&apos;s graveyard.</text
 		<card>
 			<name>Memorial Obelisk</name>
 			<text>Defender, reach
-When this creature enters, if you sacrificed a permanent this turn, create a Talisman artifact token that&apos;s all colors with &quot;When this artifact is put into a graveyard from the battlefield, you scry 1.&quot;</text>
+When this creature enters, if you sacrificed a permanent this turn, create an artifact Talisman token that&apos;s all colors with &quot;When this artifact is put into a graveyard from the battlefield, you scry 1.&quot;</text>
 			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/ASM-files/img/244_Memorial Obelisk.png" num="244">ASM</set>
 			<prop>
 				<layout>normal</layout>
@@ -4398,7 +4398,7 @@ Whenever you tap one or more untapped creatures your opponents control, draw a c
 		</card>
 		<card>
 			<name>Training Regimen</name>
-			<text>When this enchantment enters, create a 1/1 red and white Human Warrior creature token.
+			<text>When this enchantment enters, create a 1/1 red and white Warrior creature token.
 Warriors you control have haste and vigilance.</text>
 			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/ASM-files/img/233_Training Regimen.png" num="233">ASM</set>
 			<prop>
@@ -4434,7 +4434,7 @@ Whenever a land enters under your control, if you don&apos;t control another lan
 		<card>
 			<name>Cat ASM</name>
 			<text></text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/9t_Cat.png" num="9">ASM</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/10t_Cat.png" num="10">ASM</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4629,7 +4629,7 @@ Whenever you attack, if another Warrior is attacking, you may scry 1.</text>
 		<card>
 			<name>Snake ASM</name>
 			<text></text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/12t_Snake.png" num="12">ASM</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/14t_Snake.png" num="14">ASM</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4647,7 +4647,7 @@ Whenever you attack, if another Warrior is attacking, you may scry 1.</text>
 		<card>
 			<name>Zombie ASM</name>
 			<text></text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/4t_Zombie.png" num="4">ASM</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/3t_Zombie.png" num="3">ASM</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4658,22 +4658,6 @@ Whenever you attack, if another Warrior is attacking, you may scry 1.</text>
 				<colors>B</colors>
 				<coloridentity>B</coloridentity>
 				<pt>1/1</pt>
-			</prop>
-			<tablerow>2</tablerow>
-			<token>1</token>
-		</card>
-		<card>
-			<name>Wish ASM</name>
-			<text>Defender (This creature can&apos;t attack.)</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/1t_Wish.png" num="1">ASM</set>
-			<prop>
-				<layout>normal</layout>
-				<side>front</side>
-				<type>Token Creature — Wish</type>
-				<maintype>Creature</maintype>
-				<manacost></manacost>
-				<cmc>0</cmc>
-				<pt>0/1</pt>
 			</prop>
 			<tablerow>2</tablerow>
 			<token>1</token>
@@ -4699,7 +4683,7 @@ Whenever you attack, if another Warrior is attacking, you may scry 1.</text>
 		<card>
 			<name>Elemental ASM</name>
 			<text></text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/10t_Elemental.png" num="10">ASM</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/11t_Elemental.png" num="11">ASM</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4717,7 +4701,7 @@ Whenever you attack, if another Warrior is attacking, you may scry 1.</text>
 		<card>
 			<name>Angel ASM</name>
 			<text>Flying</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/2t_Angel.png" num="2">ASM</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/1t_Angel.png" num="1">ASM</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4753,7 +4737,7 @@ Whenever you attack, if another Warrior is attacking, you may scry 1.</text>
 		<card>
 			<name>Warrior ASM</name>
 			<text>Haste</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/7t_Warrior.png" num="7">ASM</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/8t_Warrior.png" num="8">ASM</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4770,9 +4754,8 @@ Whenever you attack, if another Warrior is attacking, you may scry 1.</text>
 		</card>
 		<card>
 			<name>Talisman ASM</name>
-			<text>(This artifact is all colors.)
-When this artifact is put into a graveyard from the battlefield, you scry 1.</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/13t_Talisman.png" num="13">ASM</set>
+			<text>When this artifact is put into a graveyard from the battlefield, you scry 1.</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/15t_Talisman.png" num="15">ASM</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4789,7 +4772,7 @@ When this artifact is put into a graveyard from the battlefield, you scry 1.</te
 		<card>
 			<name>Bird ASM</name>
 			<text>Flying</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/3t_Bird.png" num="3">ASM</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/2t_Bird.png" num="2">ASM</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4807,7 +4790,7 @@ When this artifact is put into a graveyard from the battlefield, you scry 1.</te
 		<card>
 			<name>Treasure ASM</name>
 			<text>{T}, Sacrifice this artifact: Add one mana of any color.</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/14t_Treasure.png" num="14">ASM</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/18t_Treasure.png" num="18">ASM</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4897,7 +4880,7 @@ When this artifact is put into a graveyard from the battlefield, you scry 1.</te
 		<card>
 			<name>Insect ASM</name>
 			<text>Flying, deathtouch</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/11t_Insect.png" num="11">ASM</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/12t_Insect.png" num="12">ASM</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4916,7 +4899,7 @@ When this artifact is put into a graveyard from the battlefield, you scry 1.</te
 			<name>Plant Wall ASM</name>
 			<text>Defender
 {T}: Add one mana of any color.</text>
-			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/8t_Plant Wall.png" num="8">ASM</set>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/9t_Plant Wall.png" num="9">ASM</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
@@ -4951,17 +4934,107 @@ When this land enters, scry 1, then choose a color.
 		<card>
 			<name>Noble&apos;s Treasury</name>
 			<text>{T}: Add {C}.
-{1}, {T}: Create a Talisman artifact token that&apos;s all colors with &quot;When this artifact is put into a graveyard from the battlefield, you scry 1.&quot;</text>
+{1}, {T}: Create an artifact Talisman token that&apos;s all colors with &quot;When this artifact is put into a graveyard from the battlefield, you scry 1.&quot;</text>
 			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/254_Noble&apos;s Treasury.png" num="254">ASM</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
 				<type>Land</type>
 				<maintype>Land</maintype>
-				<manacost>1</manacost>
-				<cmc>1</cmc>
+				<manacost></manacost>
+				<cmc>0</cmc>
 			</prop>
 			<tablerow>0</tablerow>
+		</card>
+		<card>
+			<name>Warrior ASM</name>
+			<text></text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/16t_Warrior.png" num="16">ASM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Warrior</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>WR</colors>
+				<coloridentity>WR</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Zombie Lizard ASM</name>
+			<text></text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/4t_Zombie Lizard.png" num="4">ASM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Zombie Lizard</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>B</colors>
+				<coloridentity>B</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Zombie Bird ASM</name>
+			<text>Flying</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/17t_Zombie Bird.png" num="17">ASM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Zombie Bird</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>UB</colors>
+				<coloridentity>UB</coloridentity>
+				<pt>2/2</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Phoenix ASM</name>
+			<text>Flying</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/7t_Phoenix.png" num="7">ASM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Phoenix</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>R</colors>
+				<coloridentity>R</coloridentity>
+				<pt>3/3</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
+		</card>
+		<card>
+			<name>Insect ASM</name>
+			<text>Flying</text>
+			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/13t_Insect.png" num="13">ASM</set>
+			<prop>
+				<layout>normal</layout>
+				<side>front</side>
+				<type>Token Creature — Insect</type>
+				<maintype>Creature</maintype>
+				<manacost></manacost>
+				<cmc>0</cmc>
+				<colors>UR</colors>
+				<coloridentity>UR</coloridentity>
+				<pt>1/1</pt>
+			</prop>
+			<tablerow>2</tablerow>
+			<token>1</token>
 		</card>
 	</cards>
 </cockatrice_carddatabase>

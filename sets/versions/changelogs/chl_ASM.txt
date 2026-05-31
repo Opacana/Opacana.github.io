@@ -1,4 +1,69 @@
-﻿VERSION 15 CHANGELOG
+﻿VERSION 16 CHANGELOG
+====================
+
+Warrior added.
+Zombie Lizard added.
+Zombie Bird added.
+Phoenix added.
+Insect added.
+
+Wish removed.
+
+Maathep's Interdiction
+
+Carcass Collector
+rules_text: Flying
+When this creature enters, you may sacrifice another creature you control or exile a creature card from your graveyard. When you do, create a black 1/1 Zombie creature token. => Flying
+When this creature enters, you may sacrifice another creature you control or exile a creature card from your graveyard. When you do, create a 1/1 black Zombie creature token.
+
+Ifnir Farseer
+rules_text: Flying
+When this creature enters, create a Talisman artifact token that's all colors with “When this artifact is put into a graveyard from the battlefield, you scry 1.” => Flying
+When this creature enters, create an artifact Talisman token that's all colors with “When this artifact is put into a graveyard from the battlefield, you scry 1.”
+
+Moment of Weakness
+
+Darkstorm Bolt
+
+Snehemite Novitiate
+
+Home
+rules_text: Create a 0/4 green Plant Wall creature with defender and “{T}: Add one mana of any color.” => Create a 0/4 green Plant Wall creature token with defender and “{T}: Add one mana of any color.”
+
+Two Suns' Radiance
+rules_text: Betray [i](When this permanent enters, you may sacrifice another permanent that shares a color with it.)[/i]
+When this enchantment betrays another permanent, you draw a card. If that permanent isn't a creature, you may instead create a copy of this enchantment, except it doesn't have betray.
+If damage would be dealt to a permanent you control, prevent 1 of that damage. => Betray [i](When this permanent enters, you may sacrifice another permanent that shares a color with it.)[/i]
+When this enchantment betrays another permanent, you draw a card. If that permanent isn't a creature, you may instead create a token copy of this enchantment, except it doesn't have betray.
+If damage would be dealt to a permanent you control, prevent 1 of that damage.
+
+Assembling the Menagerie
+
+Done
+rules_text: Create two black and blue 1/1 Insect creature tokens with flying and deathtouch. => Create two 1/1 black and blue Insect creature tokens with flying and deathtouch.
+
+Memorial Obelisk
+rules_text: Defender, reach
+When this creature enters, if you sacrificed a permanent this turn, create a Talisman artifact token that's all colors with “When this artifact is put into a graveyard from the battlefield, you scry 1.” => Defender, reach
+When this creature enters, if you sacrificed a permanent this turn, create an artifact Talisman token that's all colors with “When this artifact is put into a graveyard from the battlefield, you scry 1.”
+
+Training Regimen
+rules_text: When this enchantment enters, create a 1/1 red and white Human Warrior creature token.
+Warriors you control have haste and vigilance. => When this enchantment enters, create a 1/1 red and white Warrior creature token.
+Warriors you control have haste and vigilance.
+
+Talisman
+rules_text: [i](This artifact is all colors.)[/i]
+When this artifact is put into a graveyard from the battlefield, you scry 1. => When this artifact is put into a graveyard from the battlefield, you scry 1.
+
+Noble's Treasury
+cost: {1} => 
+rules_text: {T}: Add {C}.
+{1}, {T}: Create a Talisman artifact token that's all colors with “When this artifact is put into a graveyard from the battlefield, you scry 1.” => {T}: Add {C}.
+{1}, {T}: Create an artifact Talisman token that's all colors with “When this artifact is put into a graveyard from the battlefield, you scry 1.”
+
+
+VERSION 15 CHANGELOG
 ====================
 
 
