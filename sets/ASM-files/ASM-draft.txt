@@ -1043,7 +1043,7 @@
 		{
 			"name": "Drakerider Spellweaver",
 			"rarity": "uncommon",
-			"mana_cost": "{1}{U}",
+			"mana_cost": "{2}{U}",
 			"type": "Creature — Human Wizard",
 			"collector_number": "45",
 			"image_uris": {
@@ -1813,7 +1813,7 @@
 		{
 			"name": "Method",
 			"rarity": "mythic",
-			"mana_cost": "{2}{B}",
+			"mana_cost": "{3}{B}",
 			"type": "Instant",
 			"collector_number": "99",
 			"image_uris": {

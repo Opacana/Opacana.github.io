@@ -5,7 +5,7 @@
 			<name>ASM</name>
 			<longname>Amonkhet: Schism</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-05-31</releasedate>
+			<releasedate>2026-06-03</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -1872,15 +1872,15 @@ Lands you control and untapped creatures you control have indestructible as long
 		<card>
 			<name>Drakerider Spellweaver</name>
 			<text>Flying
-Whenever you cast an instant or sorcery spell, draw a card. Then discard a card unless there are seven or more cards in your graveyard.</text>
+Whenever you cast an instant or sorcery spell, surveil 1. If this is the second time this ability has resolved this turn, you may instead draw a card.</text>
 			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/ASM-files/img/45_Drakerider Spellweaver.png" num="45">ASM</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
 				<type>Creature — Human Wizard</type>
 				<maintype>Creature</maintype>
-				<manacost>1U</manacost>
-				<cmc>2</cmc>
+				<manacost>2U</manacost>
+				<cmc>3</cmc>
 				<colors>U</colors>
 				<coloridentity>U</coloridentity>
 				<pt>1/2</pt>
@@ -2005,7 +2005,7 @@ This creature enters with two +1/+1 counters on it.
 ---
 
 Aftermath (Cast this spell only from your graveyard. Then exile it.)
-Gain control of target nonland permanent with mana value 2 or less and power 2 or less.</text>
+Gain control of target nonland, noncreature permanent with mana value 2 or less.</text>
 			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/ASM-files/img/77_Yours.png" num="77">ASM</set>
 			<prop>
 				<layout>aftermath</layout>
@@ -3288,8 +3288,8 @@ Target opponent discards three cards. That player loses 1 life for each land car
 				<side>front</side>
 				<type>Instant // Sorcery</type>
 				<maintype>Instant</maintype>
-				<manacost>2B // 2BB</manacost>
-				<cmc>7</cmc>
+				<manacost>3B // 2BB</manacost>
+				<cmc>8</cmc>
 				<colors>B</colors>
 				<coloridentity>B</coloridentity>
 			</prop>
@@ -3504,7 +3504,7 @@ Whenever a player sacrifices a nonland permanent, this creature deals 1 damage t
 		<card>
 			<name>Scattered // The Winds</name>
 			<text>Counter target spell.
-This spell deals 1 damage to any target.
+Up to one target creature attacks or blocks this turn if able.
 
 ---
 

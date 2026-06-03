@@ -2024,8 +2024,8 @@
             "type": "Creature \u2014 Human Wizard",
             "number": 45,
             "color_identity": "U",
-            "cost": "{1}{U}",
-            "rules_text": "Flying\nWhenever you cast an instant or sorcery spell, draw a card. Then discard a card unless there are seven or more cards in your graveyard.",
+            "cost": "{2}{U}",
+            "rules_text": "Flying\nWhenever you cast an instant or sorcery spell, surveil 1. If this is the second time this ability has resolved this turn, you may instead draw a card.",
             "flavor_text": "[i]It was done to secure a better vantage point, not for protection.[/i]",
             "pt": "1/2",
             "special_text": "",
@@ -2033,7 +2033,7 @@
             "set": "ASM",
             "loyalty": "",
             "artist": "Rui Goncalves",
-            "notes": "May 26, 2026: Changed five or more to seven or more."
+            "notes": "May 26, 2026: Changed five or more to seven or more.\n\nJune 3rd, 2026: Changed trigger to only surveil 1 on casting I/S, and only draw a card the second time it resolves."
         },
         {
             "card_name": "Keeper of Blessed Waters",
@@ -2163,13 +2163,13 @@
             "color2": "U",
             "type2": "Sorcery",
             "cost2": "{2}{U}{U}",
-            "rules_text2": "Aftermath [i](Cast this spell only from your graveyard. Then exile it.)[/i]\nGain control of target nonland permanent with mana value 2 or less and power 2 or less.",
+            "rules_text2": "Aftermath [i](Cast this spell only from your graveyard. Then exile it.)[/i]\nGain control of target nonland, noncreature permanent with mana value 2 or less.",
             "flavor_text2": "[i][/i]",
             "pt2": "",
             "special_text2": "",
             "loyalty2": "",
             "artist2": "",
-            "notes": "Was called The Art // Of Persuasion\n\nMay 22, 2026: Given new name Yours // Keep.\n\nMay 26, 2026: Added 'and power 2 or less' restriction to Keep."
+            "notes": "Was called The Art // Of Persuasion\n\nMay 22, 2026: Given new name Yours // Keep.\n\nMay 26, 2026: Added 'and power 2 or less' restriction to Keep.\n\nJune 3rd, 2026: Changed Keep to only gain control of nonland, concreature permanents with mana value 2 or less."
         },
         {
             "card_name": "Lofty Response",
@@ -3470,7 +3470,7 @@
             "type": "Instant",
             "number": 99,
             "color_identity": "B",
-            "cost": "{2}{B}",
+            "cost": "{3}{B}",
             "rules_text": "Each player mills four cards. You may cast a card milled this way by paying life equal to its mana value rather than its mana cost.",
             "flavor_text": "[i][/i]",
             "pt": "",
@@ -3489,7 +3489,7 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "",
-            "notes": "was called Skeletons // In The Closet\n\nMay 26, 2026: Changed wording of Method to conform to proper."
+            "notes": "was called Skeletons // In The Closet\n\nMay 26, 2026: Changed wording of Method to conform to proper.\n\nJune 3rd, 2026: Changed casting cost of Method from 2B to 3B."
         },
         {
             "card_name": "Archangel of Ketramose",
@@ -3717,7 +3717,7 @@
             "number": 229,
             "color_identity": "UR",
             "cost": "{U}{U}{R}",
-            "rules_text": "Counter target spell.\nThis spell deals 1 damage to any target.",
+            "rules_text": "Counter target spell.\nUp to one target creature attacks or blocks this turn if able.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -3735,7 +3735,7 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "",
-            "notes": "was called The Wind Beneath // My Wings\nMay 22, 2026: Given new name Scattered // The Winds\n\nMay 26, 2026: Scattered now only deals 1 damage to any target."
+            "notes": "was called The Wind Beneath // My Wings\nMay 22, 2026: Given new name Scattered // The Winds\n\nMay 26, 2026: Scattered now only deals 1 damage to any target.\n\nJune 3rd, 2026: Scattered now forces up to one target creature to attack or block if able."
         },
         {
             "card_name": "Great Serpent's Arrival",

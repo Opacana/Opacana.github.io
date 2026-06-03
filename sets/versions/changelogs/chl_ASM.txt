@@ -1,4 +1,26 @@
-﻿VERSION 16 CHANGELOG
+﻿VERSION 17 CHANGELOG
+====================
+
+
+
+Drakerider Spellweaver
+cost: {1}{U} => {2}{U}
+rules_text: Flying
+Whenever you cast an instant or sorcery spell, draw a card. Then discard a card unless there are seven or more cards in your graveyard. => Flying
+Whenever you cast an instant or sorcery spell, surveil 1. If this is the second time this ability has resolved this turn, you may instead draw a card.
+
+Yours
+
+Method
+cost: {2}{B} => {3}{B}
+
+Scattered
+rules_text: Counter target spell.
+This spell deals 1 damage to any target. => Counter target spell.
+Up to one target creature attacks or blocks this turn if able.
+
+
+VERSION 16 CHANGELOG
 ====================
 
 Warrior added.
