@@ -1,4 +1,72 @@
-﻿VERSION 17 CHANGELOG
+﻿VERSION 18 CHANGELOG
+====================
+
+
+
+Maathep's Interdiction
+rules_text: Exile target tapped nonland permanent. Its controller creates a tapped Treasure token. => Exile target tapped nonland permanent. Its controller creates a Treasure token.
+
+Cover-Up
+cost: {2}{G} => {1}{G}
+rules_text: Destroy target nonbasic permanent. Its controller may search their library for a basic land card, put it onto the battlefield, then shuffle. => Exile target artifact, enchantment, battle or nonbasic land. Its controller may search their library for a basic land card, put it onto the battlefield, then shuffle.
+
+Drakerider Spellweaver
+
+Luxa Shoremage
+rules_text: When this creature enters, put a +1/+1 counter on it and another target creature you control.
+Whenever you attack with one or more creatures with counters on them, you may untap up to that many lands you control. => When this creature enters, put a +1/+1 counter on it and another target creature you control.
+Whenever a creature you control with a counter on it deals combat damage to an opponent, you may untap a land you control.
+
+Supervisor's Intervention
+rules_text: Put a +1/+1 counter on target permanent you control.
+Permanents you control with counters on them gain hexproof until end of turn. => Put a +1/+1 counter on target permanent you control. That permanent gains indestructible until end of turn.
+Permanents you control with counters on them gain hexproof until end of turn.
+
+Righteous Passion
+rules_text: When this enchantment enters, and at the beginning of your upkeep, choose one —
+• put a Coward creature type counter on target creature you don't control.
+• Put a +1/+1 counter on target Warrior you control.
+Cowards can't block Warriors. => At the beginning of combat on your turn, choose one —
+• Put a Coward creature type counter on target creature you don't control.
+• Put a +1/+1 counter on target Warrior you control.
+Cowards can't block Warriors.
+
+Tekhen, Ancient Spiresoul
+rules_text: Flying
+Lands you control are Treasure artifacts in addition to their other types and have “{T}, Sacrifice this artifact: Add one mana of any color.”
+Whenever a Treasure enters under your control, if you don't control another Treasure with the same name, draw a card. => Flying
+Lands you control are Treasure artifacts in addition to their other types and have “{T}, Sacrifice this artifact: Add one mana of any color.”
+Whenever Tekhen deals combat damage to an opponent, you may pay {2}{W}. When you do, you gain 1 life for each differently named artifact you control.
+
+Pandevotional Summoner
+rules_text: Ward {1}
+{T}: Create a 1/1 Elemental creature token that's all colors. => Ward {1}
+At the beginning of each end step, if you don't control an Elemental creature token, create a 1/1 Elemental creature token that's all colors.
+
+Embalmed Dragon
+rules_text: Ward—Pay 2 life
+Flying
+Whenever a player sacrifices a nonland permanent, this creature deals 1 damage to any target. => Ward—Pay 2 life, sacrifice a nonland permanent
+Flying
+Whenever a player sacrifices a nonland permanent, this creature deals 1 damage to any target.
+
+Great Serpent's Arrival
+cost: {2}{B}{G} => {1}{B}{G}
+rules_text: Whenever this permanent deals combat damage to an opponent, that player loses the game.
+Sacrifice a creature: This enchantment becomes a 3/5 Snake creature in addition to its other types until end of turn. Activate only as a sorcery. => Whenever this permanent deals combat damage to an opponent, that player loses half their life, rounded up.
+Sacrifice a creature: This enchantment becomes a 3/5 Snake creature in addition to its other types until end of turn. Activate only as a sorcery.
+
+Djeru, Lord General
+cost: {R}{W} => {1}{R}{W}
+
+Chamber of New Anointment
+cost: {3}{W}{B} => {2}{W}{B}
+rules_text: Whenever you betray a permanent, you gain 2 life. Then if that permanent was a creature, put a charge counter on this artifact.
+{2}{W}{B}, {T}, Remove X charge counters from this artifact: Return target creature card with mana value less than or equal to X plus 2 from your graveyard to the battlefield. Activate only as a sorcery. => Whenever you betray a permanent, you gain 2 life, then put a charge counter on this artifact.
+{2}{W}{B}, {T}, Remove X charge counters from this artifact: Return target creature card with mana value less than or equal to X plus 2 from your graveyard to the battlefield. Activate only as a sorcery.
+
+
+VERSION 17 CHANGELOG
 ====================
 
 
