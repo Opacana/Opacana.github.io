@@ -1,4 +1,277 @@
-﻿VERSION 18 CHANGELOG
+﻿VERSION 19 CHANGELOG
+====================
+
+
+
+Cruel Adjudicator
+rules_text: Betray [i](When this permanent enters, you may sacrifice another permanent that shares a color with it.)[/i]
+Flying
+When this creature betrays another permanent, put a +1/+1 counter on up to one target artifact or creature. Then if the betrayed permanent was a creature, you draw a card. => Betray [i](When this permanent enters, you may sacrifice another permanent that shares a color with it.)[/i]
+Flying
+When this creature betrays a permanent, put a +1/+1 counter on up to one target artifact or creature. Then if the betrayed permanent was a creature, you draw a card.
+
+Room
+
+Second
+
+Canopic Harvester
+rules_text: Betray [i](When this permanent enters, you may sacrifice another permanent that shares a color with it.)[/i]
+When this creature betrays another permanent, target opponent reveals their hand. You choose a nonland card with mana value 3 or less from it. That player discards that card. => Betray [i](When this permanent enters, you may sacrifice another permanent that shares a color with it.)[/i]
+When this creature betrays a permanent, target opponent reveals their hand. You choose a nonland card with mana value 3 or less from it. That player discards that card.
+
+Remains
+
+Betrayal of Secrets
+rules_text: Target opponent reveals their hand. You choose a nonland card from it. That player discards that card.
+If you sacrificed a permanent this turn, you gain 2 life. => Target opponent reveals their hand. You choose a nonland card from it. That player discards that card.
+If you sacrificed a permanent this turn, you gain 3 life.
+
+Scarab Armor
+cost: {2}{B} => {1}{B}
+
+Stirred
+
+Hot
+
+Holy Pyre
+rules_text: This spell deals 5 damage to any target. Then if there are two or more colors among Warriors you control, you gain 3 life. => This spell deals 5 damage to any target. Then if you control a white, black, or green Warrior, you gain 3 life.
+
+Instructor Huntress
+rules_text: {2}{RG}: Target creature you control gets +2/+0 until end of turn. Activate only as a sorcery. => {2}{RG}: Target creature you control gets +2/+1 until end of turn. Activate only as a sorcery.
+
+Twilight Market
+rules_text: Look at the top X cards of your library, where X is the greatest toughness among creatures you control. You may reveal any number of creature and/or land cards from among them and put the revealed cards into your hand. Put the rest on the bottom of your library in a random order. => Look at the top X cards of your library, where X is the greatest toughness among creatures you control. You may reveal any number of creature and/or land cards from among them and put them into your hand. Put the rest on the bottom of your library in a random order.
+
+Priestess of Sanctity
+rules_text: When this creature enters, create a 1/1 Elemental creature token that's all colors.
+Whenever a player sacrifices a colored permanent, you gain 1 life. => When this creature enters, create a 1/1 Elemental creature token that's all colors.
+Whenever a player sacrifices a permanent that's one or more colors, you gain 1 life.
+
+Keeper of Blessed Waters
+
+Yours
+
+Obssessed Falconer
+rules_text: Betray [i](When this permanent enters, you may sacrifice another permanent that shares a color with it.)[/i]
+When this creature betrays another permanent, create a 1/1 white Bird creature token with flying, then put a +1/+1 counter on that token. => Betray [i](When this permanent enters, you may sacrifice another permanent that shares a color with it.)[/i]
+When this creature betrays a permanent, create a 1/1 white Bird creature token with flying, then put a +1/+1 counter on that token.
+
+Omnivorous Exhumer
+type: Creature — Zombie Manticore => Creature — Manticore
+
+Danurian Woodcaller
+rules_text: Trample
+At the beginning of your upkeep, if there are four or more different names among lands you control, you may have target land you control become a 6/6 green Elemental creature with trample in addition to its other types until end of turn. => Trample
+At the beginning of combat on your turn, if there are four or more different names among lands you control, you may have target land you control become a 6/6 green Elemental creature with trample in addition to its other types until end of turn.
+
+Extracted Confession
+rules_text: Search your library for a permanent card with mana value X, where X is the total combat damage dealt to target opponent this turn, reveal it and put it into your hand, then shuffle. X can't be 0. => If an opponent was dealt combat damage this turn, search your library for a permanent card with mana value X, where X is the total combat damage dealt to target opponent this turn, reveal it and put it into your hand, then shuffle.
+
+Interdiction Angel
+rules_text: Flash
+This spell can't be countered.
+Flying
+When this creature enters, tap up to one target creature. => Flash
+This spell can't be countered.
+Flying
+When this creature enters, tap up to one target nonland permanent.
+
+Djamankh's Hydromancy
+rules_text: This spell costs {1} less to cast for each counter on a creature you control.
+Look at the top X cards of your library, put one of them into your hand, then put the rest on the bottom of your library in a random order. => This spell costs {1} less to cast for each counter on a permanent you control.
+Look at the top X cards of your library, put one of them into your hand, then put the rest on the bottom of your library in a random order.
+
+Enough
+
+Bx'sur, Chosen of Darux
+rules_text: Menace
+When Bx'sur enters, you may pay {1}{B}. If you do, each player loses 1 life and she gains haste until end of turn.
+{BR}: Bx'sur gets +1/+1 until end of turn. Activate only if an opponent lost life this turn. => Menace
+When Bx'sur enters, you may pay {B}. If you do, each player loses 1 life and she gains haste until end of turn.
+{BR}: Bx'sur gets +1/+1 until end of turn. Activate only if an opponent lost life this turn.
+
+Eternal Embalmer
+rules_text: Betray [i](When this permanent enters, you may sacrifice another permanent that shares a color with it.)[/i]
+When this creature betrays another permanent, create a 1/1 black Zombie creature token.
+{B}, {T}, Sacrifice a Zombie: Return target creature card from your graveyard to the battlefield tapped. => Betray [i](When this permanent enters, you may sacrifice another permanent that shares a color with it.)[/i]
+When this creature betrays a permanent, create a 1/1 black Zombie creature token.
+{B}, {T}, Sacrifice a Zombie: Return target creature card from your graveyard to the battlefield tapped.
+
+Isift, Vizier of Ifnir
+rules_text: Flying
+Whenever Isift enters or attacks, you mill a card, then each opponent mills two cards. 
+{B}, Exile a creature card from your graveyard: You draw a card and lose 1 life. Activate only once each turn as a sorcery. => Flying
+Whenever Isift enters or attacks, you mill a card, then each opponent mills two cards. 
+{B}, Exile a creature card from your graveyard: You draw a card and lose 1 life. Activate only once each turn.
+
+Lazotep Dragon
+rules_text: Flying, haste
+Betray [i](When this permanent enters, you may sacrifice another permanent that shares a color with it.)[/i]
+When this creature betrays another permanent, it deals 2 damage to any target. If a multicolor permanent was betrayed this way, surveil 2. => Flying, haste
+Betray [i](When this permanent enters, you may sacrifice another permanent that shares a color with it.)[/i]
+When this creature betrays a permanent, it deals 2 damage to any target. If a multicolor permanent was betrayed this way, surveil 2.
+
+Agree
+
+Hyena Matriarch
+rules_text: This spell can't be countered as long as you control a creature with two or more counters on it.
+Trample, vigilance
+Whenever this creature enters or attacks, put a +1/+1 counter on it. => This spell can't be countered as long as you control a creature with a counter on it.
+Trample, vigilance
+Whenever this creature enters or attacks, put a +1/+1 counter on it.
+
+Two Suns' Radiance
+rules_text: Betray [i](When this permanent enters, you may sacrifice another permanent that shares a color with it.)[/i]
+When this enchantment betrays another permanent, you draw a card. If that permanent isn't a creature, you may instead create a token copy of this enchantment, except it doesn't have betray.
+If damage would be dealt to a permanent you control, prevent 1 of that damage. => Betray [i](When this permanent enters, you may sacrifice another permanent that shares a color with it.)[/i]
+When this enchantment betrays a permanent, you draw a card. If that permanent isn't a creature, you may instead create a token copy of this enchantment, except it doesn't have betray.
+If damage would be dealt to a permanent you control, prevent 1 of that damage.
+
+Neputarkh, the Heretic
+
+Method
+type: Instant => Sorcery
+rules_text: Each player mills four cards. You may cast a card milled this way by paying life equal to its mana value rather than its mana cost. => Target player mills five cards. You may cast a card milled this way by paying life equal to its mana value rather than its mana cost.
+
+Done
+
+Scattered
+rules_text: Counter target spell.
+Up to one target creature attacks or blocks this turn if able. => Counter target spell. Then look at the top two cards of your library. [i](Put them back in the same order.)[/i]
+
+Great Serpent's Arrival
+rules_text: Whenever this permanent deals combat damage to an opponent, that player loses half their life, rounded up.
+Sacrifice a creature: This enchantment becomes a 3/5 Snake creature in addition to its other types until end of turn. Activate only as a sorcery. => Whenever this permanent deals combat damage to an opponent, that player loses half their life, rounded up.
+Sacrifice a creature: This enchantment becomes a 3/5 Snake creature with deathtouch in addition to its other types until end of turn. Activate only as a sorcery.
+
+Djeru, Lord General
+rules_text: Vigilance
+Other creatures you control get +1/+1. => Vigilance
+{R}: Djeru gains first strike until end of turn. Activate only as a sorcery.
+Other creatures you control get +1/+1.
+
+Dejukhab Bull
+rules_text: Flying
+{G}: Put a +1/+1 counter on this creature. Target opponent creates a tapped Treasure token.
+{W}: Return this creature to its owner's hand. Target opponent scries 2. => Flying
+{G}: Put a +1/+1 counter on this creature. Target opponent creates a tapped Treasure token.
+{W}: Return this creature to its owner's hand. Target opponent scries 1.
+
+Lazoskin Tracker
+
+Tomb Builder
+
+Winding River
+rules_text: {T}, Sacrifice this land: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.
+{1}, {T}, Sacrifice this land: Search your library for an Oasis land card, reveal it and put it into your hand, then shuffle. => {T}, Sacrifice this land: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.
+{T}, Sacrifice this land: Search your library for an Oasis land card, reveal it and put it into your hand, then shuffle.
+
+Lake Sebay
+rules_text: This land enters tapped unless you control another Oasis.
+When this land enters, scry 1.
+{T}: Add {W}.
+{1}, {T}: Add {U} or {B}. => This land enters tapped unless you control another Oasis.
+When this land enters, scry 1 and gain 1 life.
+{T}: Add {W}.
+{1}, {T}: Add {U} or {B}.
+
+Port Kharteru
+rules_text: This land enters tapped unless you control another Oasis.
+When this land enters, scry 1.
+{T}: Add {U}.
+{1}, {T}: Add {W} or {G}. => This land enters tapped unless you control another Oasis.
+When this land enters, scry 1 and gain 1 life.
+{T}: Add {U}.
+{1}, {T}: Add {W} or {G}.
+
+Hidden Necropolis Entrance
+rules_text: This land enters tapped unless you control another Oasis.
+When this land enters, scry 1.
+{T}: Add {B}.
+{1}, {T}: Add {R} or {G}. => This land enters tapped unless you control another Oasis.
+When this land enters, scry 1 and gain 1 life.
+{T}: Add {B}.
+{1}, {T}: Add {R} or {G}.
+
+Sulfurous Baths
+rules_text: This land enters tapped unless you control another Oasis.
+When this land enters, scry 1.
+{T}: Add {R}.
+{1}, {T}: Add {U} or {B}. => This land enters tapped unless you control another Oasis.
+When this land enters, scry 1 and gain 1 life.
+{T}: Add {R}.
+{1}, {T}: Add {U} or {B}.
+
+Shefet Shrublands
+rules_text: This land enters tapped unless you control another Oasis.
+When this land enters, scry 1.
+{T}: Add {G}.
+{1}, {T}: Add {W} or {R}. => This land enters tapped unless you control another Oasis.
+When this land enters, scry 1 and gain 1 life.
+{T}: Add {G}.
+{1}, {T}: Add {W} or {R}.
+
+Naktamun Market Streets
+rules_text: {T}: Add {C}. If you control four or more Oasis lands, you may add one mana of any color instead.
+{8}, {T}: Scry 2, then draw a card. You gain 2 life. This ability costs {1} less to activate for each Oasis you control. => {T}: Add {C}. If you control three or more Oasis lands, you may add one mana of any color instead.
+{8}, {T}: Scry 2, then draw a card. You gain 2 life. This ability costs {1} less to activate for each Oasis you control.
+
+Foreboding Gate
+rules_text: {T}: Add {C}.
+{T}, Pay 1 life: Add one mana of any color. Activate only if you control another Oasis.
+{6}, {T}: Search your library for a card, put that card into your hand, then shuffle. Activate only if you control 4 or more Oasis permanents. => {T}: Add {C}.
+{T}, Pay 1 life: Add one mana of any color. Activate only if you control another Oasis.
+{6}, {T}: Search your library for a card, put that card into your hand, then shuffle. Activate only if you control four or more Oasis permanents.
+
+Gah-Api, Life's Hope
+rules_text: Haste, indestructible, trample
+Gah-Api can't attack or block unless you've activated an ability of a creature this turn.
+The first time each turn you attack with one or more creatures, untap up to that many lands you control.
+{12}{R}{G}: Creatures you control get +6/+6 and gain trample until end of turn. => Haste, indestructible, trample
+Gah-Api can't attack or block unless you've activated an ability of a creature this turn.
+The first time each turn you attack with one or more creatures, untap up to that many lands you control.
+{10}{R}{G}: Creatures you control get +6/+6 and gain trample until end of turn.
+
+Chamber of New Anointment
+rules_text: Whenever you betray a permanent, you gain 2 life, then put a charge counter on this artifact.
+{2}{W}{B}, {T}, Remove X charge counters from this artifact: Return target creature card with mana value less than or equal to X plus 2 from your graveyard to the battlefield. Activate only as a sorcery. => Whenever a permanent you control betrays a permanent, you gain 2 life, then put a charge counter on this artifact.
+{2}{W}{B}, {T}, Remove X charge counters from this artifact: Return target creature card with mana value less than or equal to X plus 2 from your graveyard to the battlefield. Activate only as a sorcery.
+
+Divine Attunement
+
+Priest of Gah-Api
+rules_text: Activated abilities of other permanents you control cost {1} less to activate.This effect can't reduce the mana in that cost to less than one mana.
+{2}{R}: This creature deals 1 damage to any target. Activate only once each turn as a sorcery, and only if you've attacked this turn. => Activated abilities of other permanents you control cost {1} less to activate.This effect can't reduce the mana in that cost to less than one mana.
+{2}{R}: This creature deals 1 damage to any target. Activate only once each turn and only if you've attacked this turn.
+
+High Priest of Ketramose
+rules_text: Betray [i](When this permanent enters, you may sacrifice another permanent that shares a color with it.)[/i]
+When this creature betrays another permanent, you may draw a card and lose 1 life.
+At the beginning of your end step, if a creature died this turn, create a 1/1 black and white Cat creature token. => Betray [i](When this permanent enters, you may sacrifice another permanent that shares a color with it.)[/i]
+When this creature betrays a permanent, you draw a card and gain 1 life.
+At the beginning of your end step, if a creature died this turn, create a 1/1 black and white Cat creature token.
+
+Hofan Slithermaster
+cost: {2}{B}{G} => {1}{B}{G}
+rules_text: Other creatures you control get +0/+1.
+At the beginning of your end step, you may pay {1}{BG}. If you do, create a 1/1 green and black Snake creature token. => Other creatures you control get +0/+1.
+Other Snakes you control have deathtouch.
+At the beginning of your end step, you may pay {1}{BG}. If you do, create a 1/1 green and black Snake creature token.
+
+Mirage Pool
+rules_text: This land enters tapped unless you control another Oasis.
+When this land enters, scry 1, then choose a color.
+{T}: Add {C}.
+{1}, {T}: Add one mana of the chosen color. => This land enters tapped unless you control another Oasis.
+When this land enters, you scry 1 and gain 1 life, then choose a color.
+{T}: Add {C}.
+{1}, {T}: Add one mana of the chosen color.
+
+Phoenix
+rules_text: Flying => Flying, haste
+
+
+VERSION 18 CHANGELOG
 ====================
 
 

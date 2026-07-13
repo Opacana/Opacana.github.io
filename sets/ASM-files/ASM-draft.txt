@@ -553,7 +553,7 @@
 		{
 			"name": "Scarab Armor",
 			"rarity": "uncommon",
-			"mana_cost": "{2}{B}",
+			"mana_cost": "{1}{B}",
 			"type": "Artifact — Equipment",
 			"collector_number": "107",
 			"image_uris": {
@@ -1184,7 +1184,7 @@
 			"name": "Omnivorous Exhumer",
 			"rarity": "uncommon",
 			"mana_cost": "{4}{B}",
-			"type": "Creature — Zombie Manticore",
+			"type": "Creature — Manticore",
 			"collector_number": "103",
 			"image_uris": {
 				"en": "https://Opacana.github.io/sets/ASM-files/img/103_Omnivorous Exhumer.png"
@@ -1814,7 +1814,7 @@
 			"name": "Method",
 			"rarity": "mythic",
 			"mana_cost": "{3}{B}",
-			"type": "Instant",
+			"type": "Sorcery",
 			"collector_number": "99",
 			"image_uris": {
 				"en": "https://Opacana.github.io/sets/ASM-files/img/99_Method.png"
@@ -2543,7 +2543,7 @@
 		{
 			"name": "Hofan Slithermaster",
 			"rarity": "uncommon",
-			"mana_cost": "{2}{B}{G}",
+			"mana_cost": "{1}{B}{G}",
 			"type": "Creature — Snake Druid",
 			"collector_number": "218",
 			"image_uris": {

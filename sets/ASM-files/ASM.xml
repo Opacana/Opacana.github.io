@@ -5,7 +5,7 @@
 			<name>ASM</name>
 			<longname>Amonkhet: Schism</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-06-13</releasedate>
+			<releasedate>2026-07-12</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -134,7 +134,7 @@ Whenever this creature attacks with one or more other Warriors, it gets +1/+0 un
 			<name>Cruel Adjudicator</name>
 			<text>Betray (When this permanent enters, you may sacrifice another permanent that shares a color with it.)
 Flying
-When this creature betrays another permanent, put a +1/+1 counter on up to one target artifact or creature. Then if the betrayed permanent was a creature, you draw a card.</text>
+When this creature betrays a permanent, put a +1/+1 counter on up to one target artifact or creature. Then if the betrayed permanent was a creature, you draw a card.</text>
 			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/11_Cruel Adjudicator.png" num="11">ASM</set>
 			<prop>
 				<layout>normal</layout>
@@ -282,8 +282,8 @@ Destroy target artifact or enchantment.</text>
 				<side>front</side>
 				<type>Instant // Sorcery</type>
 				<maintype>Instant</maintype>
-				<manacost>1W // 1W</manacost>
-				<cmc>4</cmc>
+				<manacost>1W // 2W</manacost>
+				<cmc>5</cmc>
 				<colors>W</colors>
 				<coloridentity>W</coloridentity>
 			</prop>
@@ -604,15 +604,16 @@ Enchanted creature has no abilities while tapped.</text>
 ---
 
 Aftermath
-Target creature&apos;s controller puts it on their choice of the top or bottom of its owner&apos;s library.</text>
+Put a hexproof counter on target creature you control.
+Surveil 1.</text>
 			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/64_Second.png" num="64">ASM</set>
 			<prop>
 				<layout>aftermath</layout>
 				<side>front</side>
 				<type>Instant // Sorcery</type>
 				<maintype>Instant</maintype>
-				<manacost>3U // 4U</manacost>
-				<cmc>9</cmc>
+				<manacost>3U // 2U</manacost>
+				<cmc>7</cmc>
 				<colors>U</colors>
 				<coloridentity>U</coloridentity>
 			</prop>
@@ -765,7 +766,7 @@ When this creature enters, if an opponent lost life this turn, you may surveil 2
 		<card>
 			<name>Canopic Harvester</name>
 			<text>Betray (When this permanent enters, you may sacrifice another permanent that shares a color with it.)
-When this creature betrays another permanent, target opponent reveals their hand. You choose a nonland card with mana value 3 or less from it. That player discards that card.</text>
+When this creature betrays a permanent, target opponent reveals their hand. You choose a nonland card with mana value 3 or less from it. That player discards that card.</text>
 			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/83_Canopic Harvester.png" num="83">ASM</set>
 			<prop>
 				<layout>normal</layout>
@@ -883,8 +884,8 @@ Destroy target creature or planeswalker with mana value 2 or less.</text>
 				<side>front</side>
 				<type>Sorcery</type>
 				<maintype>Sorcery</maintype>
-				<manacost>3B // 1B</manacost>
-				<cmc>6</cmc>
+				<manacost>3B // 2B</manacost>
+				<cmc>7</cmc>
 				<colors>B</colors>
 				<coloridentity>B</coloridentity>
 			</prop>
@@ -978,7 +979,7 @@ Exile target creature.</text>
 		<card>
 			<name>Betrayal of Secrets</name>
 			<text>Target opponent reveals their hand. You choose a nonland card from it. That player discards that card.
-If you sacrificed a permanent this turn, you gain 2 life.</text>
+If you sacrificed a permanent this turn, you gain 3 life.</text>
 			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/ASM-files/img/80_Betrayal of Secrets.png" num="80">ASM</set>
 			<prop>
 				<layout>normal</layout>
@@ -1003,8 +1004,8 @@ Equip Zombie or Warlock {1}</text>
 				<side>front</side>
 				<type>Artifact — Equipment</type>
 				<maintype>Artifact</maintype>
-				<manacost>2B</manacost>
-				<cmc>3</cmc>
+				<manacost>1B</manacost>
+				<cmc>2</cmc>
 				<colors>B</colors>
 				<coloridentity>B</coloridentity>
 			</prop>
@@ -1223,8 +1224,8 @@ Target creature you control fights target creature you don&apos;t control.</text
 				<side>front</side>
 				<type>Instant // Sorcery</type>
 				<maintype>Instant</maintype>
-				<manacost>R // 1R</manacost>
-				<cmc>3</cmc>
+				<manacost>R // 2R</manacost>
+				<cmc>4</cmc>
 				<colors>R</colors>
 				<coloridentity>R</coloridentity>
 			</prop>
@@ -1279,8 +1280,8 @@ Create a 3/3 red Elemental Cat creature with haste.</text>
 				<side>front</side>
 				<type>Sorcery</type>
 				<maintype>Sorcery</maintype>
-				<manacost>2R // 2RR</manacost>
-				<cmc>7</cmc>
+				<manacost>2R // 3RR</manacost>
+				<cmc>8</cmc>
 				<colors>R</colors>
 				<coloridentity>R</coloridentity>
 			</prop>
@@ -1288,7 +1289,7 @@ Create a 3/3 red Elemental Cat creature with haste.</text>
 		</card>
 		<card>
 			<name>Holy Pyre</name>
-			<text>This spell deals 5 damage to any target. Then if there are two or more colors among Warriors you control, you gain 3 life.</text>
+			<text>This spell deals 5 damage to any target. Then if you control a white, black, or green Warrior, you gain 3 life.</text>
 			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/134_Holy Pyre.png" num="134">ASM</set>
 			<prop>
 				<layout>normal</layout>
@@ -1449,7 +1450,7 @@ At the beginning of your upkeep, you may move a +1/+1 counter from this creature
 		</card>
 		<card>
 			<name>Instructor Huntress</name>
-			<text>{2}{RG}: Target creature you control gets +2/+0 until end of turn. Activate only as a sorcery.</text>
+			<text>{2}{RG}: Target creature you control gets +2/+1 until end of turn. Activate only as a sorcery.</text>
 			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/182_Instructor Huntress.png" num="182">ASM</set>
 			<prop>
 				<layout>normal</layout>
@@ -1606,7 +1607,7 @@ This creature assigns combat damage to planeswalkers and players equal to its to
 		</card>
 		<card>
 			<name>Twilight Market</name>
-			<text>Look at the top X cards of your library, where X is the greatest toughness among creatures you control. You may reveal any number of creature and/or land cards from among them and put the revealed cards into your hand. Put the rest on the bottom of your library in a random order.</text>
+			<text>Look at the top X cards of your library, where X is the greatest toughness among creatures you control. You may reveal any number of creature and/or land cards from among them and put them into your hand. Put the rest on the bottom of your library in a random order.</text>
 			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/195_Twilight Market.png" num="195">ASM</set>
 			<prop>
 				<layout>normal</layout>
@@ -1744,7 +1745,7 @@ The first time during each of your turns you tap an untapped creature an opponen
 		<card>
 			<name>Priestess of Sanctity</name>
 			<text>When this creature enters, create a 1/1 Elemental creature token that&apos;s all colors.
-Whenever a player sacrifices a colored permanent, you gain 1 life.</text>
+Whenever a player sacrifices a permanent that&apos;s one or more colors, you gain 1 life.</text>
 			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/ASM-files/img/27_Priestess of Sanctity.png" num="27">ASM</set>
 			<prop>
 				<layout>normal</layout>
@@ -2004,16 +2005,17 @@ This creature enters with two +1/+1 counters on it.
 
 ---
 
-Aftermath (Cast this spell only from your graveyard. Then exile it.)
-Gain control of target nonland, noncreature permanent with mana value 2 or less.</text>
+Aftermath
+Gain control of all permanents you own.
+For the rest of the game, spells and abilities your opponents control can&apos;t gain control of permanents you control.</text>
 			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/ASM-files/img/77_Yours.png" num="77">ASM</set>
 			<prop>
 				<layout>aftermath</layout>
 				<side>front</side>
 				<type>Instant // Sorcery</type>
 				<maintype>Instant</maintype>
-				<manacost>1U // 2UU</manacost>
-				<cmc>6</cmc>
+				<manacost>1U // 1UU</manacost>
+				<cmc>5</cmc>
 				<colors>U</colors>
 				<coloridentity>U</coloridentity>
 			</prop>
@@ -2091,7 +2093,7 @@ Whenever this creature deals combat damage to an opponent, that player discards 
 		<card>
 			<name>Obssessed Falconer</name>
 			<text>Betray (When this permanent enters, you may sacrifice another permanent that shares a color with it.)
-When this creature betrays another permanent, create a 1/1 white Bird creature token with flying, then put a +1/+1 counter on that token.</text>
+When this creature betrays a permanent, create a 1/1 white Bird creature token with flying, then put a +1/+1 counter on that token.</text>
 			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/ASM-files/img/102_Obssessed Falconer.png" num="102">ASM</set>
 			<prop>
 				<layout>normal</layout>
@@ -2132,7 +2134,7 @@ Whenever another creature dies, this creature gets +1/+1 until end of turn.</tex
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Creature — Zombie Manticore</type>
+				<type>Creature — Manticore</type>
 				<maintype>Creature</maintype>
 				<manacost>4B</manacost>
 				<cmc>5</cmc>
@@ -2529,7 +2531,7 @@ Whenever a creature you control with toughness greater than its power deals comb
 		<card>
 			<name>Danurian Woodcaller</name>
 			<text>Trample
-At the beginning of your upkeep, if there are four or more different names among lands you control, you may have target land you control become a 6/6 green Elemental creature with trample in addition to its other types until end of turn.</text>
+At the beginning of combat on your turn, if there are four or more different names among lands you control, you may have target land you control become a 6/6 green Elemental creature with trample in addition to its other types until end of turn.</text>
 			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/ASM-files/img/167_Danurian Woodcaller.png" num="167">ASM</set>
 			<prop>
 				<layout>normal</layout>
@@ -2673,7 +2675,7 @@ As long as you control four or more creatures, lands you control have &quot;{T}:
 		</card>
 		<card>
 			<name>Extracted Confession</name>
-			<text>Search your library for a permanent card with mana value X, where X is the total combat damage dealt to target opponent this turn, reveal it and put it into your hand, then shuffle. X can&apos;t be 0.</text>
+			<text>If an opponent was dealt combat damage this turn, search your library for a permanent card with mana value X, where X is the total combat damage dealt to target opponent this turn, reveal it and put it into your hand, then shuffle.</text>
 			<set rarity="rare" picurl="https://Opacana.github.io/sets/ASM-files/img/15_Extracted Confession.png" num="15">ASM</set>
 			<prop>
 				<layout>normal</layout>
@@ -2744,7 +2746,7 @@ Whenever this creature attacks, other Zombies you control gain flying until end 
 			<text>Flash
 This spell can&apos;t be countered.
 Flying
-When this creature enters, tap up to one target creature.</text>
+When this creature enters, tap up to one target nonland permanent.</text>
 			<set rarity="rare" picurl="https://Opacana.github.io/sets/ASM-files/img/50_Interdiction Angel.png" num="50">ASM</set>
 			<prop>
 				<layout>normal</layout>
@@ -2797,7 +2799,7 @@ Remove three star counters from this enchantment: Take an extra turn after this 
 		</card>
 		<card>
 			<name>Djamankh&apos;s Hydromancy</name>
-			<text>This spell costs {1} less to cast for each counter on a creature you control.
+			<text>This spell costs {1} less to cast for each counter on a permanent you control.
 Look at the top X cards of your library, put one of them into your hand, then put the rest on the bottom of your library in a random order.</text>
 			<set rarity="rare" picurl="https://Opacana.github.io/sets/ASM-files/img/44_Djamankh&apos;s Hydromancy.png" num="44">ASM</set>
 			<prop>
@@ -2826,8 +2828,8 @@ Exchange control of two target nonland permanents.</text>
 				<side>front</side>
 				<type>Instant // Sorcery</type>
 				<maintype>Instant</maintype>
-				<manacost>4U // 4U</manacost>
-				<cmc>10</cmc>
+				<manacost>4U // 5U</manacost>
+				<cmc>11</cmc>
 				<colors>U</colors>
 				<coloridentity>U</coloridentity>
 			</prop>
@@ -2836,7 +2838,7 @@ Exchange control of two target nonland permanents.</text>
 		<card>
 			<name>Bx&apos;sur, Chosen of Darux</name>
 			<text>Menace
-When Bx&apos;sur enters, you may pay {1}{B}. If you do, each player loses 1 life and she gains haste until end of turn.
+When Bx&apos;sur enters, you may pay {B}. If you do, each player loses 1 life and she gains haste until end of turn.
 {BR}: Bx&apos;sur gets +1/+1 until end of turn. Activate only if an opponent lost life this turn.</text>
 			<set rarity="rare" picurl="https://Opacana.github.io/sets/ASM-files/img/82_Bx&apos;sur, Chosen of Darux.png" num="82">ASM</set>
 			<prop>
@@ -2855,7 +2857,7 @@ When Bx&apos;sur enters, you may pay {1}{B}. If you do, each player loses 1 life
 		<card>
 			<name>Eternal Embalmer</name>
 			<text>Betray (When this permanent enters, you may sacrifice another permanent that shares a color with it.)
-When this creature betrays another permanent, create a 1/1 black Zombie creature token.
+When this creature betrays a permanent, create a 1/1 black Zombie creature token.
 {B}, {T}, Sacrifice a Zombie: Return target creature card from your graveyard to the battlefield tapped.</text>
 			<set rarity="rare" picurl="https://Opacana.github.io/sets/ASM-files/img/88_Eternal Embalmer.png" num="88">ASM</set>
 			<prop>
@@ -2893,7 +2895,7 @@ When this creature betrays another permanent, create a 1/1 black Zombie creature
 			<name>Isift, Vizier of Ifnir</name>
 			<text>Flying
 Whenever Isift enters or attacks, you mill a card, then each opponent mills two cards. 
-{B}, Exile a creature card from your graveyard: You draw a card and lose 1 life. Activate only once each turn as a sorcery.</text>
+{B}, Exile a creature card from your graveyard: You draw a card and lose 1 life. Activate only once each turn.</text>
 			<set rarity="rare" picurl="https://Opacana.github.io/sets/ASM-files/img/94_Isift, Vizier of Ifnir.png" num="94">ASM</set>
 			<prop>
 				<layout>normal</layout>
@@ -2981,7 +2983,7 @@ At the beginning of combat on your turn, this creature gains your choice of firs
 			<name>Lazotep Dragon</name>
 			<text>Flying, haste
 Betray (When this permanent enters, you may sacrifice another permanent that shares a color with it.)
-When this creature betrays another permanent, it deals 2 damage to any target. If a multicolor permanent was betrayed this way, surveil 2.</text>
+When this creature betrays a permanent, it deals 2 damage to any target. If a multicolor permanent was betrayed this way, surveil 2.</text>
 			<set rarity="rare" picurl="https://Opacana.github.io/sets/ASM-files/img/142_Lazotep Dragon.png" num="142">ASM</set>
 			<prop>
 				<layout>normal</layout>
@@ -3045,8 +3047,8 @@ This spell deals 3 damage to target permanent.</text>
 				<side>front</side>
 				<type>Sorcery</type>
 				<maintype>Sorcery</maintype>
-				<manacost>2R // 1R</manacost>
-				<cmc>5</cmc>
+				<manacost>2R // 2R</manacost>
+				<cmc>6</cmc>
 				<colors>R</colors>
 				<coloridentity>R</coloridentity>
 			</prop>
@@ -3126,7 +3128,7 @@ When this creature betrays a creature, you may put a creature card with mana val
 		</card>
 		<card>
 			<name>Hyena Matriarch</name>
-			<text>This spell can&apos;t be countered as long as you control a creature with two or more counters on it.
+			<text>This spell can&apos;t be countered as long as you control a creature with a counter on it.
 Trample, vigilance
 Whenever this creature enters or attacks, put a +1/+1 counter on it.</text>
 			<set rarity="rare" picurl="https://Opacana.github.io/sets/ASM-files/img/181_Hyena Matriarch.png" num="181">ASM</set>
@@ -3219,7 +3221,7 @@ Whenever Tekhen deals combat damage to an opponent, you may pay {2}{W}. When you
 		<card>
 			<name>Two Suns&apos; Radiance</name>
 			<text>Betray (When this permanent enters, you may sacrifice another permanent that shares a color with it.)
-When this enchantment betrays another permanent, you draw a card. If that permanent isn&apos;t a creature, you may instead create a token copy of this enchantment, except it doesn&apos;t have betray.
+When this enchantment betrays a permanent, you draw a card. If that permanent isn&apos;t a creature, you may instead create a token copy of this enchantment, except it doesn&apos;t have betray.
 If damage would be dealt to a permanent you control, prevent 1 of that damage.</text>
 			<set rarity="mythic" picurl="https://Opacana.github.io/sets/ASM-files/img/37_Two Suns&apos; Radiance.png" num="37">ASM</set>
 			<prop>
@@ -3276,20 +3278,20 @@ When this creature betrays another permanent, you draw a card, then discard a ca
 		</card>
 		<card>
 			<name>Method // The Madness</name>
-			<text>Each player mills four cards. You may cast a card milled this way by paying life equal to its mana value rather than its mana cost.
+			<text>Target player mills five cards. You may cast a card milled this way by paying life equal to its mana value rather than its mana cost.
 
 ---
 
 Aftermath
-Target opponent discards three cards. That player loses 1 life for each land card discarded this way.</text>
+Target opponent chooses to either discard a card, sacrifice a permanent, or lose 2 life. Repeat this process two more times.</text>
 			<set rarity="mythic" picurl="https://Opacana.github.io/sets/ASM-files/img/99_Method.png" num="99">ASM</set>
 			<prop>
 				<layout>aftermath</layout>
 				<side>front</side>
-				<type>Instant // Sorcery</type>
-				<maintype>Instant</maintype>
-				<manacost>3B // 2BB</manacost>
-				<cmc>8</cmc>
+				<type>Sorcery</type>
+				<maintype>Sorcery</maintype>
+				<manacost>3B // 5BB</manacost>
+				<cmc>11</cmc>
 				<colors>B</colors>
 				<coloridentity>B</coloridentity>
 			</prop>
@@ -3424,8 +3426,8 @@ Return target creature card from your graveyard to the battlefield.</text>
 				<side>front</side>
 				<type>Instant // Sorcery</type>
 				<maintype>Instant</maintype>
-				<manacost>2UB // 2BB</manacost>
-				<cmc>8</cmc>
+				<manacost>2UB // 3BB</manacost>
+				<cmc>9</cmc>
 				<colors>UB</colors>
 				<coloridentity>UB</coloridentity>
 			</prop>
@@ -3503,21 +3505,20 @@ Whenever a player sacrifices a nonland permanent, this creature deals 1 damage t
 		</card>
 		<card>
 			<name>Scattered // The Winds</name>
-			<text>Counter target spell.
-Up to one target creature attacks or blocks this turn if able.
+			<text>Counter target spell. Then look at the top two cards of your library. (Put them back in the same order.)
 
 ---
 
 Aftermath (Cast this spell only from your graveyard. Then exile it.)
-Create a 3/3 red Phoenix creature token with flying.</text>
+Create a 3/3 red Phoenix creature token with flying and haste.</text>
 			<set rarity="rare" picurl="https://Opacana.github.io/sets/ASM-files/img/229_Scattered.png" num="229">ASM</set>
 			<prop>
 				<layout>aftermath</layout>
 				<side>front</side>
 				<type>Instant // Sorcery</type>
 				<maintype>Instant</maintype>
-				<manacost>UUR // 2R</manacost>
-				<cmc>6</cmc>
+				<manacost>UUR // 4R</manacost>
+				<cmc>8</cmc>
 				<colors>UR</colors>
 				<coloridentity>UR</coloridentity>
 			</prop>
@@ -3526,7 +3527,7 @@ Create a 3/3 red Phoenix creature token with flying.</text>
 		<card>
 			<name>Great Serpent&apos;s Arrival</name>
 			<text>Whenever this permanent deals combat damage to an opponent, that player loses half their life, rounded up.
-Sacrifice a creature: This enchantment becomes a 3/5 Snake creature in addition to its other types until end of turn. Activate only as a sorcery.</text>
+Sacrifice a creature: This enchantment becomes a 3/5 Snake creature with deathtouch in addition to its other types until end of turn. Activate only as a sorcery.</text>
 			<set rarity="rare" picurl="https://Opacana.github.io/sets/ASM-files/img/215_Great Serpent&apos;s Arrival.png" num="215">ASM</set>
 			<prop>
 				<layout>normal</layout>
@@ -3543,6 +3544,7 @@ Sacrifice a creature: This enchantment becomes a 3/5 Snake creature in addition 
 		<card>
 			<name>Djeru, Lord General</name>
 			<text>Vigilance
+{R}: Djeru gains first strike until end of turn. Activate only as a sorcery.
 Other creatures you control get +1/+1.</text>
 			<set rarity="rare" picurl="https://Opacana.github.io/sets/ASM-files/img/208_Djeru, Lord General.png" num="208">ASM</set>
 			<prop>
@@ -3562,7 +3564,7 @@ Other creatures you control get +1/+1.</text>
 			<name>Dejukhab Bull</name>
 			<text>Flying
 {G}: Put a +1/+1 counter on this creature. Target opponent creates a tapped Treasure token.
-{W}: Return this creature to its owner&apos;s hand. Target opponent scries 2.</text>
+{W}: Return this creature to its owner&apos;s hand. Target opponent scries 1.</text>
 			<set rarity="rare" picurl="https://Opacana.github.io/sets/ASM-files/img/206_Dejukhab Bull.png" num="206">ASM</set>
 			<prop>
 				<layout>normal</layout>
@@ -3686,7 +3688,7 @@ When this creature enters, if you sacrificed a permanent this turn, create an ar
 		<card>
 			<name>Winding River</name>
 			<text>{T}, Sacrifice this land: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.
-{1}, {T}, Sacrifice this land: Search your library for an Oasis land card, reveal it and put it into your hand, then shuffle.</text>
+{T}, Sacrifice this land: Search your library for an Oasis land card, reveal it and put it into your hand, then shuffle.</text>
 			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/258_Winding River.png" num="258">ASM</set>
 			<prop>
 				<layout>normal</layout>
@@ -3701,7 +3703,7 @@ When this creature enters, if you sacrificed a permanent this turn, create an ar
 		<card>
 			<name>Lake Sebay</name>
 			<text>This land enters tapped unless you control another Oasis.
-When this land enters, scry 1.
+When this land enters, scry 1 and gain 1 life.
 {T}: Add {W}.
 {1}, {T}: Add {U} or {B}.</text>
 			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/ASM-files/img/251_Lake Sebay.png" num="251">ASM</set>
@@ -3719,7 +3721,7 @@ When this land enters, scry 1.
 		<card>
 			<name>Port Kharteru</name>
 			<text>This land enters tapped unless you control another Oasis.
-When this land enters, scry 1.
+When this land enters, scry 1 and gain 1 life.
 {T}: Add {U}.
 {1}, {T}: Add {W} or {G}.</text>
 			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/ASM-files/img/255_Port Kharteru.png" num="255">ASM</set>
@@ -3737,7 +3739,7 @@ When this land enters, scry 1.
 		<card>
 			<name>Hidden Necropolis Entrance</name>
 			<text>This land enters tapped unless you control another Oasis.
-When this land enters, scry 1.
+When this land enters, scry 1 and gain 1 life.
 {T}: Add {B}.
 {1}, {T}: Add {R} or {G}.</text>
 			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/ASM-files/img/250_Hidden Necropolis Entrance.png" num="250">ASM</set>
@@ -3755,7 +3757,7 @@ When this land enters, scry 1.
 		<card>
 			<name>Sulfurous Baths</name>
 			<text>This land enters tapped unless you control another Oasis.
-When this land enters, scry 1.
+When this land enters, scry 1 and gain 1 life.
 {T}: Add {R}.
 {1}, {T}: Add {U} or {B}.</text>
 			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/ASM-files/img/257_Sulfurous Baths.png" num="257">ASM</set>
@@ -3773,7 +3775,7 @@ When this land enters, scry 1.
 		<card>
 			<name>Shefet Shrublands</name>
 			<text>This land enters tapped unless you control another Oasis.
-When this land enters, scry 1.
+When this land enters, scry 1 and gain 1 life.
 {T}: Add {G}.
 {1}, {T}: Add {W} or {R}.</text>
 			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/ASM-files/img/256_Shefet Shrublands.png" num="256">ASM</set>
@@ -3882,7 +3884,7 @@ Enchanted land is a 0/1 Elemental creature that&apos;s all colors, and has indes
 		</card>
 		<card>
 			<name>Naktamun Market Streets</name>
-			<text>{T}: Add {C}. If you control four or more Oasis lands, you may add one mana of any color instead.
+			<text>{T}: Add {C}. If you control three or more Oasis lands, you may add one mana of any color instead.
 {8}, {T}: Scry 2, then draw a card. You gain 2 life. This ability costs {1} less to activate for each Oasis you control.</text>
 			<set rarity="mythic" picurl="https://Opacana.github.io/sets/ASM-files/img/253_Naktamun Market Streets.png" num="253">ASM</set>
 			<prop>
@@ -3899,7 +3901,7 @@ Enchanted land is a 0/1 Elemental creature that&apos;s all colors, and has indes
 			<name>Foreboding Gate</name>
 			<text>{T}: Add {C}.
 {T}, Pay 1 life: Add one mana of any color. Activate only if you control another Oasis.
-{6}, {T}: Search your library for a card, put that card into your hand, then shuffle. Activate only if you control 4 or more Oasis permanents.</text>
+{6}, {T}: Search your library for a card, put that card into your hand, then shuffle. Activate only if you control four or more Oasis permanents.</text>
 			<set rarity="rare" picurl="https://Opacana.github.io/sets/ASM-files/img/249_Foreboding Gate.png" num="249">ASM</set>
 			<prop>
 				<layout>normal</layout>
@@ -3935,7 +3937,7 @@ Whenever an opponent attacks, that player loses 1 life for each untapped creatur
 			<text>Haste, indestructible, trample
 Gah-Api can&apos;t attack or block unless you&apos;ve activated an ability of a creature this turn.
 The first time each turn you attack with one or more creatures, untap up to that many lands you control.
-{12}{R}{G}: Creatures you control get +6/+6 and gain trample until end of turn.</text>
+{10}{R}{G}: Creatures you control get +6/+6 and gain trample until end of turn.</text>
 			<set rarity="mythic" picurl="https://Opacana.github.io/sets/ASM-files/img/212_Gah-Api, Life&apos;s Hope.png" num="212">ASM</set>
 			<prop>
 				<layout>normal</layout>
@@ -4273,7 +4275,7 @@ When this creature enters, each opponent discards a card.</text>
 		</card>
 		<card>
 			<name>Chamber of New Anointment</name>
-			<text>Whenever you betray a permanent, you gain 2 life, then put a charge counter on this artifact.
+			<text>Whenever a permanent you control betrays a permanent, you gain 2 life, then put a charge counter on this artifact.
 {2}{W}{B}, {T}, Remove X charge counters from this artifact: Return target creature card with mana value less than or equal to X plus 2 from your graveyard to the battlefield. Activate only as a sorcery.</text>
 			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/ASM-files/img/201_Chamber of New Anointment.png" num="201">ASM</set>
 			<prop>
@@ -4504,7 +4506,7 @@ Whenever you attack, this creature deals 1 damage to each opponent.</text>
 		<card>
 			<name>Priest of Gah-Api</name>
 			<text>Activated abilities of other permanents you control cost {1} less to activate.This effect can&apos;t reduce the mana in that cost to less than one mana.
-{2}{R}: This creature deals 1 damage to any target. Activate only once each turn as a sorcery, and only if you&apos;ve attacked this turn.</text>
+{2}{R}: This creature deals 1 damage to any target. Activate only once each turn and only if you&apos;ve attacked this turn.</text>
 			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/ASM-files/img/225_Priest of Gah-Api.png" num="225">ASM</set>
 			<prop>
 				<layout>normal</layout>
@@ -4538,7 +4540,7 @@ Whenever you attack, this creature deals 1 damage to each opponent.</text>
 		<card>
 			<name>High Priest of Ketramose</name>
 			<text>Betray (When this permanent enters, you may sacrifice another permanent that shares a color with it.)
-When this creature betrays another permanent, you may draw a card and lose 1 life.
+When this creature betrays a permanent, you draw a card and gain 1 life.
 At the beginning of your end step, if a creature died this turn, create a 1/1 black and white Cat creature token.</text>
 			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/ASM-files/img/217_High Priest of Ketramose.png" num="217">ASM</set>
 			<prop>
@@ -4575,6 +4577,7 @@ Whenever you cast an instant or sorcery spell, target creature you control gets 
 		<card>
 			<name>Hofan Slithermaster</name>
 			<text>Other creatures you control get +0/+1.
+Other Snakes you control have deathtouch.
 At the beginning of your end step, you may pay {1}{BG}. If you do, create a 1/1 green and black Snake creature token.</text>
 			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/ASM-files/img/218_Hofan Slithermaster.png" num="218">ASM</set>
 			<prop>
@@ -4582,8 +4585,8 @@ At the beginning of your end step, you may pay {1}{BG}. If you do, create a 1/1 
 				<side>front</side>
 				<type>Creature — Snake Druid</type>
 				<maintype>Creature</maintype>
-				<manacost>2BG</manacost>
-				<cmc>4</cmc>
+				<manacost>1BG</manacost>
+				<cmc>3</cmc>
 				<colors>BG</colors>
 				<coloridentity>BG</coloridentity>
 				<pt>3/3</pt>
@@ -4917,7 +4920,7 @@ Whenever you attack, if another Warrior is attacking, you may scry 1.</text>
 		<card>
 			<name>Mirage Pool</name>
 			<text>This land enters tapped unless you control another Oasis.
-When this land enters, scry 1, then choose a color.
+When this land enters, you scry 1 and gain 1 life, then choose a color.
 {T}: Add {C}.
 {1}, {T}: Add one mana of the chosen color.</text>
 			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/252_Mirage Pool.png" num="252">ASM</set>
@@ -5002,7 +5005,7 @@ When this land enters, scry 1, then choose a color.
 		</card>
 		<card>
 			<name>Phoenix ASM</name>
-			<text>Flying</text>
+			<text>Flying, haste</text>
 			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/7t_Phoenix.png" num="7">ASM</set>
 			<prop>
 				<layout>normal</layout>

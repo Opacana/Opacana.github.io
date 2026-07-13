@@ -141,7 +141,7 @@
             "number": 11,
             "color_identity": "W",
             "cost": "{2}{W}",
-            "rules_text": "Betray [i](When this permanent enters, you may sacrifice another permanent that shares a color with it.)[/i]\nFlying\nWhen this creature betrays another permanent, put a +1/+1 counter on up to one target artifact or creature. Then if the betrayed permanent was a creature, you draw a card.",
+            "rules_text": "Betray [i](When this permanent enters, you may sacrifice another permanent that shares a color with it.)[/i]\nFlying\nWhen this creature betrays a permanent, put a +1/+1 counter on up to one target artifact or creature. Then if the betrayed permanent was a creature, you draw a card.",
             "flavor_text": "[i][/i]",
             "pt": "2/2",
             "special_text": "",
@@ -149,7 +149,7 @@
             "set": "ASM",
             "loyalty": "",
             "artist": "Polar Engine",
-            "notes": "",
+            "notes": "July 4th, 2026: Changed ''betrays another permanent\" in its when ability to just \"betrays a permanent\", as I realized the another is redundant in this instance due to reminder text of betray. Consequently adjusted bottom chop to have text fit better.",
             "image_type": "png"
         },
         {
@@ -304,14 +304,14 @@
             "card_name2": "Breathe",
             "color2": "W",
             "type2": "Sorcery",
-            "cost2": "{1}{W}",
+            "cost2": "{2}{W}",
             "rules_text2": "Aftermath [i](Cast this spell only from your graveyard. Then exile it.)[/i]\nDestroy target artifact or enchantment.",
             "flavor_text2": "[i][/i]",
             "pt2": "",
             "special_text2": "",
             "loyalty2": "",
             "artist2": "",
-            "notes": "Order changed after feedback, May 1st, 2026\n\nName of both parts changed to fit pattern better, May 2nd, 2026.\n\nDemolition half changed to Sorcery and reduced cost from 2W to 1W, May 13th, 2026.\n\nLook at names for all aftermath cards in the set\n\nWas called Controlled (top) // Demolition (bottom)\n\nMay 22, 2026: Given name Room // Breathe",
+            "notes": "Order changed after feedback, May 1st, 2026\n\nName of both parts changed to fit pattern better, May 2nd, 2026.\n\nDemolition half changed to Sorcery and reduced cost from 2W to 1W, May 13th, 2026.\n\nLook at names for all aftermath cards in the set\n\nWas called Controlled (top) // Demolition (bottom)\n\nMay 22, 2026: Given name Room // Breathe\n\nJune 23rd, 2026: Breathe cost raised from 1W to 2W.",
             "image_type": "png"
         },
         {
@@ -676,14 +676,14 @@
             "card_name2": "None",
             "color2": "U",
             "type2": "Sorcery",
-            "cost2": "{4}{U}",
-            "rules_text2": "Aftermath\nTarget creature's controller puts it on their choice of the top or bottom of its owner's library.",
+            "cost2": "{2}{U}",
+            "rules_text2": "Aftermath\nPut a hexproof counter on target creature you control.\nSurveil 1.",
             "flavor_text2": "[i][/i]",
             "pt2": "",
             "special_text2": "",
             "loyalty2": "",
             "artist2": "",
-            "notes": "was called Deliver // An Ultimatum\nMay 22, 2026: Given new name Second // None",
+            "notes": "was called Deliver // An Ultimatum\nMay 22, 2026: Given new name Second // None\n\nJune 23rd, 2026: None raised from 4U to 5U, just to be safer.",
             "image_type": "png"
         },
         {
@@ -866,7 +866,7 @@
             "number": 83,
             "color_identity": "B",
             "cost": "{1}{B}{B}",
-            "rules_text": "Betray [i](When this permanent enters, you may sacrifice another permanent that shares a color with it.)[/i]\nWhen this creature betrays another permanent, target opponent reveals their hand. You choose a nonland card with mana value 3 or less from it. That player discards that card.",
+            "rules_text": "Betray [i](When this permanent enters, you may sacrifice another permanent that shares a color with it.)[/i]\nWhen this creature betrays a permanent, target opponent reveals their hand. You choose a nonland card with mana value 3 or less from it. That player discards that card.",
             "flavor_text": "[i][/i]",
             "pt": "2/3",
             "special_text": "",
@@ -874,7 +874,7 @@
             "set": "ASM",
             "loyalty": "",
             "artist": "Saarl",
-            "notes": "",
+            "notes": "July 4th, 2026: Changed ''another'' to ''a'' in on-betray ability.",
             "image_type": "png"
         },
         {
@@ -991,14 +991,14 @@
             "card_name2": "Be Seen",
             "color2": "B",
             "type2": "Sorcery",
-            "cost2": "{1}{B}",
+            "cost2": "{2}{B}",
             "rules_text2": "Aftermath [i](Cast this spell only from your graveyard. Then exile it.)[/i]\nDestroy target creature or planeswalker with mana value 2 or less.",
             "flavor_text2": "[i][/i]",
             "pt2": "",
             "special_text2": "",
             "loyalty2": "",
             "artist2": "",
-            "notes": "was called Eternal Moloch // Of Death\nMay 22, 2026: Given new name Remains // Be Seen",
+            "notes": "was called Eternal Moloch // Of Death\nMay 22, 2026: Given new name Remains // Be Seen\n\nJune 23rd, 2026: Be Seen casting cost raised from 1B to 2B.",
             "image_type": "png"
         },
         {
@@ -1104,7 +1104,7 @@
             "number": 80,
             "color_identity": "B",
             "cost": "{1}{B}",
-            "rules_text": "Target opponent reveals their hand. You choose a nonland card from it. That player discards that card.\nIf you sacrificed a permanent this turn, you gain 2 life.",
+            "rules_text": "Target opponent reveals their hand. You choose a nonland card from it. That player discards that card.\nIf you sacrificed a permanent this turn, you gain 3 life.",
             "flavor_text": "[i]Sometimes the loss of trust can hurt more than any loss of limbs.[/i]",
             "pt": "",
             "special_text": "",
@@ -1112,7 +1112,7 @@
             "set": "ASM",
             "loyalty": "",
             "artist": "Eugenio Frosali",
-            "notes": "May 26, 2026: No longer requires sacrificed permanent to be a nonland.",
+            "notes": "May 26, 2026: No longer requires sacrificed permanent to be a nonland.\n\nJuly 11th, 2026: Upped lifegain from 2 to 3.",
             "image_type": "png"
         },
         {
@@ -1122,7 +1122,7 @@
             "type": "Artifact \u2013 Equipment",
             "number": 107,
             "color_identity": "B",
-            "cost": "{2}{B}",
+            "cost": "{1}{B}",
             "rules_text": "Equipped creature gets +2/+2 and has flying, \u201cSacrifice another Zombie: This creature gains hexproof until end of turn\u201d, and \u201cSacrifice another Zombie: This creature gets +1/+1 until end of turn.\u201d\nEquip {3}\nEquip Zombie or Warlock {1}",
             "flavor_text": "[i][/i]",
             "pt": "",
@@ -1131,7 +1131,7 @@
             "set": "ASM",
             "loyalty": "",
             "artist": "Eduardo Dominguez",
-            "notes": "mana value 3\n\nMay 26, 2026: Fixed where periods go.",
+            "notes": "mana value 3\n\nMay 26, 2026: Fixed where periods go.\n\nJuly 12th, 2026: Reduced casting cost from 2B to 1B.",
             "image_type": "png"
         },
         {
@@ -1382,14 +1382,14 @@
             "card_name2": "Action",
             "color2": "R",
             "type2": "Sorcery",
-            "cost2": "{1}{R}",
+            "cost2": "{2}{R}",
             "rules_text2": "Aftermath [i](Cast this spell only from your graveyard. Then exile it.)[/i]\nTarget creature you control fights target creature you don't control.",
             "flavor_text2": "[i][/i]",
             "pt2": "",
             "special_text2": "",
             "loyalty2": "",
             "artist2": "",
-            "notes": "was called Swollen // Ego\nMay 22, 2026: Given new name Stired // Action.",
+            "notes": "was called Swollen // Ego\nMay 22, 2026: Given new name Stired // Action.\n\nJune 23rd, 2026: Action cost raised from 1R to 2R.",
             "image_type": "png"
         },
         {
@@ -1449,14 +1449,14 @@
             "card_name2": "Trot",
             "color2": "R",
             "type2": "Sorcery",
-            "cost2": "{2}{R}{R}",
+            "cost2": "{3}{R}{R}",
             "rules_text2": "Aftermath [i](Cast this spell only from your graveyard. Then exile it.)[/i]\nCreate a 3/3 red Elemental Cat creature with haste.",
             "flavor_text2": "[i][/i]",
             "pt2": "",
             "special_text2": "",
             "loyalty2": "",
             "artist2": "",
-            "notes": "was called Fire // Power\nMay 22, 2026: Given new test name Hot // Trot (using blank-to-blank name structure)",
+            "notes": "was called Fire // Power\nMay 22, 2026: Given new test name Hot // Trot (using blank-to-blank name structure)\n\nJune 23rd, 2026: Cost of Trot raised from 2RR to 3RR (to parallel Scattered // The Winds).",
             "image_type": "png"
         },
         {
@@ -1467,7 +1467,7 @@
             "number": 134,
             "color_identity": "R",
             "cost": "{3}{R}{R}",
-            "rules_text": "This spell deals 5 damage to any target. Then if there are two or more colors among Warriors you control, you gain 3 life.",
+            "rules_text": "This spell deals 5 damage to any target. Then if you control a white, black, or green Warrior, you gain 3 life.",
             "flavor_text": "[i]Some of Hazoret's followers requested to be burned and honored, so as to prevent their bodies from being unwillingly raised and used.[/i]",
             "pt": "",
             "special_text": "",
@@ -1475,7 +1475,7 @@
             "set": "ASM",
             "loyalty": "",
             "artist": "YunaXD",
-            "notes": "",
+            "notes": "July 3rd, 2026: Changed from two or more colors of Warriors to needing just a white, black or green Warrior.",
             "image_type": "png"
         },
         {
@@ -1658,7 +1658,7 @@
             "number": 182,
             "color_identity": "RG",
             "cost": "{2}{G}",
-            "rules_text": "{2}{RG}: Target creature you control gets +2/+0 until end of turn. Activate only as a sorcery.",
+            "rules_text": "{2}{RG}: Target creature you control gets +2/+1 until end of turn. Activate only as a sorcery.",
             "flavor_text": "[i]\u201cFarming and livestock keeps most fed. But Gah-Api has blessed a few with a passion for the hunt \u2014 whether to eliminate threats, or to savor a well-earned meat.\u201d[/i]",
             "pt": "4/2",
             "special_text": "",
@@ -1666,7 +1666,7 @@
             "set": "ASM",
             "loyalty": "",
             "artist": "fallfox",
-            "notes": "",
+            "notes": "July 12, 2026: Now gives +2/+1 instead of +2/+0.",
             "image_type": "png"
         },
         {
@@ -1829,7 +1829,7 @@
             "number": 195,
             "color_identity": "G",
             "cost": "{2}{G}",
-            "rules_text": "Look at the top X cards of your library, where X is the greatest toughness among creatures you control. You may reveal any number of creature and/or land cards from among them and put the revealed cards into your hand. Put the rest on the bottom of your library in a random order.",
+            "rules_text": "Look at the top X cards of your library, where X is the greatest toughness among creatures you control. You may reveal any number of creature and/or land cards from among them and put them into your hand. Put the rest on the bottom of your library in a random order.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -1837,7 +1837,7 @@
             "set": "ASM",
             "loyalty": "",
             "artist": "Quartervirus",
-            "notes": "May 26, 2026: Changed name from Night Market to Twilight Market. changed any order to a random order.",
+            "notes": "May 26, 2026: Changed name from Night Market to Twilight Market. changed any order to a random order.\n\nJune 30th, 2026: Removed a few redundant words.",
             "image_type": "png"
         },
         {
@@ -1991,7 +1991,7 @@
             "number": 27,
             "color_identity": "W",
             "cost": "{2}{W}",
-            "rules_text": "When this creature enters, create a 1/1 Elemental creature token that's all colors.\nWhenever a player sacrifices a colored permanent, you gain 1 life.",
+            "rules_text": "When this creature enters, create a 1/1 Elemental creature token that's all colors.\nWhenever a player sacrifices a permanent that's one or more colors, you gain 1 life.",
             "flavor_text": "[i][/i]",
             "pt": "2/2",
             "special_text": "",
@@ -1999,7 +1999,7 @@
             "set": "ASM",
             "loyalty": "",
             "artist": "Kristina Manyakina",
-            "notes": "",
+            "notes": "July 4th, 2026: slightly reworded second ability.",
             "image_type": "png"
         },
         {
@@ -2144,14 +2144,14 @@
             "color_identity": "U",
             "cost": "{1}{U}",
             "rules_text": "{1}: Move a counter from one creature you control to another creature you control, then untap one of those creatures. Activate only once each turn.",
-            "flavor_text": "[i][/i]",
+            "flavor_text": "[i]\u201cMother Divine Sab-Sunen, I call upon you to show us the way!\u201d[/i]",
             "pt": "2/2",
             "special_text": "",
             "shape": "normal",
             "set": "ASM",
             "loyalty": "",
             "artist": "Eksafael",
-            "notes": "May 26, 2026: Removed Ward, and changed from 1/1 to 2/2.",
+            "notes": "May 26, 2026: Removed Ward, and changed from 1/1 to 2/2.\n\nJuly 9th, 2026: Given flavor text for first time.",
             "image_type": "png"
         },
         {
@@ -2268,14 +2268,14 @@
             "card_name2": "Keep",
             "color2": "U",
             "type2": "Sorcery",
-            "cost2": "{2}{U}{U}",
-            "rules_text2": "Aftermath [i](Cast this spell only from your graveyard. Then exile it.)[/i]\nGain control of target nonland, noncreature permanent with mana value 2 or less.",
+            "cost2": "{1}{U}{U}",
+            "rules_text2": "Aftermath\nGain control of all permanents you own.\nFor the rest of the game, spells and abilities your opponents control can't gain control of permanents you control.",
             "flavor_text2": "[i][/i]",
             "pt2": "",
             "special_text2": "",
             "loyalty2": "",
             "artist2": "",
-            "notes": "Was called The Art // Of Persuasion\n\nMay 22, 2026: Given new name Yours // Keep.\n\nMay 26, 2026: Added 'and power 2 or less' restriction to Keep.\n\nJune 3rd, 2026: Changed Keep to only gain control of nonland, concreature permanents with mana value 2 or less.",
+            "notes": "Was called The Art // Of Persuasion\n\nMay 22, 2026: Given new name Yours // Keep.\n\nMay 26, 2026: Added 'and power 2 or less' restriction to Keep.\n\nJune 3rd, 2026: Changed Keep to only gain control of nonland, concreature permanents with mana value 2 or less.\n\nJune 23rd, 2026: Redesigned Keep to be an anti-theft/enemy-reanimator sideboard piece.\n\nJuly 9th, 2026: Reduced cost of Keep to 1UU.",
             "image_type": "png"
         },
         {
@@ -2362,7 +2362,7 @@
             "number": 102,
             "color_identity": "B",
             "cost": "{1}{B}",
-            "rules_text": "Betray [i](When this permanent enters, you may sacrifice another permanent that shares a color with it.)[/i]\nWhen this creature betrays another permanent, create a 1/1 white Bird creature token with flying, then put a +1/+1 counter on that token.",
+            "rules_text": "Betray [i](When this permanent enters, you may sacrifice another permanent that shares a color with it.)[/i]\nWhen this creature betrays a permanent, create a 1/1 white Bird creature token with flying, then put a +1/+1 counter on that token.",
             "flavor_text": "[i][/i]",
             "pt": "2/2",
             "special_text": "",
@@ -2370,7 +2370,7 @@
             "set": "ASM",
             "loyalty": "",
             "artist": "Moein Kahrizi",
-            "notes": "May 26, 2026: Now also pumps the Bird it makes.",
+            "notes": "May 26, 2026: Now also pumps the Bird it makes.\n\nJuly 4th, 2026: Changed ''another'' to ''a'' in on-betray ability.",
             "image_type": "png"
         },
         {
@@ -2396,7 +2396,7 @@
             "card_name": "Omnivorous Exhumer",
             "color": "B",
             "rarity": "uncommon",
-            "type": "Creature \u2013 Zombie Manticore",
+            "type": "Creature \u2013 Manticore",
             "number": 103,
             "color_identity": "B",
             "cost": "{4}{B}",
@@ -2408,7 +2408,7 @@
             "set": "ASM",
             "loyalty": "",
             "artist": "Masha Milosavljevi\u0107",
-            "notes": "May 26, 2026: Given new art (previous art was already in use in MSEM).",
+            "notes": "May 26, 2026: Given new art (previous art was already in use in MSEM).\n\nJuly 9th, 2026: Removed Zombie type (because it didn't really fit the art...).",
             "image_type": "png"
         },
         {
@@ -2828,7 +2828,7 @@
             "number": 167,
             "color_identity": "G",
             "cost": "{4}{G}{G}",
-            "rules_text": "Trample\nAt the beginning of your upkeep, if there are four or more different names among lands you control, you may have target land you control become a 6/6 green Elemental creature with trample in addition to its other types until end of turn.",
+            "rules_text": "Trample\nAt the beginning of combat on your turn, if there are four or more different names among lands you control, you may have target land you control become a 6/6 green Elemental creature with trample in addition to its other types until end of turn.",
             "flavor_text": "[i][/i]",
             "pt": "6/6",
             "special_text": "",
@@ -2836,7 +2836,7 @@
             "set": "ASM",
             "loyalty": "",
             "artist": "Ilia Kole",
-            "notes": "",
+            "notes": "July 9th, 2026: Changed upkeep trigger from on your upkeep to beginning of combat on your turn.",
             "image_type": "png"
         },
         {
@@ -2980,7 +2980,7 @@
             "number": 15,
             "color_identity": "W",
             "cost": "{1}{W}",
-            "rules_text": "Search your library for a permanent card with mana value X, where X is the total combat damage dealt to target opponent this turn, reveal it and put it into your hand, then shuffle. X can't be 0.",
+            "rules_text": "If an opponent was dealt combat damage this turn, search your library for a permanent card with mana value X, where X is the total combat damage dealt to target opponent this turn, reveal it and put it into your hand, then shuffle.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -2988,7 +2988,7 @@
             "set": "ASM",
             "loyalty": "",
             "artist": "Anpuankhses",
-            "notes": "May 26, 2026: Removed ability to search yard and command zone, and added anti-0 condition.",
+            "notes": "May 26, 2026: Removed ability to search yard and command zone, and added anti-0 condition.\n\nJuly 4th 2026: Reworded zero-restriction to something I felt is a little more natural and clear.",
             "image_type": "png"
         },
         {
@@ -3056,7 +3056,7 @@
             "number": 50,
             "color_identity": "U",
             "cost": "{3}{U}",
-            "rules_text": "Flash\nThis spell can't be countered.\nFlying\nWhen this creature enters, tap up to one target creature.",
+            "rules_text": "Flash\nThis spell can't be countered.\nFlying\nWhen this creature enters, tap up to one target nonland permanent.",
             "flavor_text": "[i][/i]",
             "pt": "4/3",
             "special_text": "",
@@ -3064,7 +3064,7 @@
             "set": "ASM",
             "loyalty": "",
             "artist": "Antoineren",
-            "notes": "May 26, 2026: Raised power from 3 to 4.",
+            "notes": "May 26, 2026: Raised power from 3 to 4.\n\nJuly 12th, 2026: Changed from creature to 'nonland permanent'.",
             "image_type": "png"
         },
         {
@@ -3113,7 +3113,7 @@
             "number": 44,
             "color_identity": "U",
             "cost": "{X}{U}{U}",
-            "rules_text": "This spell costs {1} less to cast for each counter on a creature you control.\nLook at the top X cards of your library, put one of them into your hand, then put the rest on the bottom of your library in a random order.",
+            "rules_text": "This spell costs {1} less to cast for each counter on a permanent you control.\nLook at the top X cards of your library, put one of them into your hand, then put the rest on the bottom of your library in a random order.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -3121,7 +3121,7 @@
             "set": "ASM",
             "loyalty": "",
             "artist": "Sam Hogg",
-            "notes": "May 26, 2026: Changed to random order instead of anny order.",
+            "notes": "May 26, 2026: Changed to random order instead of anny order.\n\nJuly 11th, 2026: Changed from only counting counters on creatures to counting counters on all permanents of yours.",
             "image_type": "png"
         },
         {
@@ -3143,14 +3143,14 @@
             "card_name2": "Go Around",
             "color2": "U",
             "type2": "Sorcery",
-            "cost2": "{4}{U}",
+            "cost2": "{5}{U}",
             "rules_text2": "Aftermath\nExchange control of two target nonland permanents.",
             "flavor_text2": "[i][/i]",
             "pt2": "",
             "special_text2": "",
             "loyalty2": "",
             "artist2": "",
-            "notes": "was called Profit // Margins\nMay 22, 2026: given new name Made // Order\n\n\nMay 26, 2026: Name changed to Enough // Go Around. Cost of top half raised by 1.",
+            "notes": "was called Profit // Margins\nMay 22, 2026: given new name Made // Order\n\n\nMay 26, 2026: Name changed to Enough // Go Around. Cost of top half raised by 1.\n\nJune 23rd, 2026: Cost of Go Around raised from 4U to 5U.",
             "image_type": "png"
         },
         {
@@ -3161,7 +3161,7 @@
             "number": 82,
             "color_identity": "BR",
             "cost": "{1}{B}",
-            "rules_text": "Menace\nWhen Bx'sur enters, you may pay {1}{B}. If you do, each player loses 1 life and she gains haste until end of turn.\n{BR}: Bx'sur gets +1/+1 until end of turn. Activate only if an opponent lost life this turn.",
+            "rules_text": "Menace\nWhen Bx'sur enters, you may pay {B}. If you do, each player loses 1 life and she gains haste until end of turn.\n{BR}: Bx'sur gets +1/+1 until end of turn. Activate only if an opponent lost life this turn.",
             "flavor_text": "[i][/i]",
             "pt": "3/2",
             "special_text": "",
@@ -3169,7 +3169,7 @@
             "set": "ASM",
             "loyalty": "",
             "artist": "Pascal Quidault",
-            "notes": "May 27, 2026: Experimenting with making enter trigger 1B instead of just B. See how this does in Field Test.",
+            "notes": "May 27, 2026: Experimenting with making enter trigger 1B instead of just B. See how this does in Field Test.\n\n\nJuly 9th, 2026: Testing with reducing enter trigger back down to just B, before submission to MSEM.",
             "image_type": "png"
         },
         {
@@ -3180,7 +3180,7 @@
             "number": 88,
             "color_identity": "B",
             "cost": "{2}{B}",
-            "rules_text": "Betray [i](When this permanent enters, you may sacrifice another permanent that shares a color with it.)[/i]\nWhen this creature betrays another permanent, create a 1/1 black Zombie creature token.\n{B}, {T}, Sacrifice a Zombie: Return target creature card from your graveyard to the battlefield tapped.",
+            "rules_text": "Betray [i](When this permanent enters, you may sacrifice another permanent that shares a color with it.)[/i]\nWhen this creature betrays a permanent, create a 1/1 black Zombie creature token.\n{B}, {T}, Sacrifice a Zombie: Return target creature card from your graveyard to the battlefield tapped.",
             "flavor_text": "[i][/i]",
             "pt": "2/2",
             "special_text": "",
@@ -3188,7 +3188,7 @@
             "set": "ASM",
             "loyalty": "",
             "artist": "Jason Engle",
-            "notes": "",
+            "notes": "July 4th, 2026: Changed ''another'' to ''a'' in on-betray ability.",
             "image_type": "png"
         },
         {
@@ -3218,7 +3218,7 @@
             "number": 94,
             "color_identity": "B",
             "cost": "{4}{B}{B}",
-            "rules_text": "Flying\nWhenever Isift enters or attacks, you mill a card, then each opponent mills two cards. \n{B}, Exile a creature card from your graveyard: You draw a card and lose 1 life. Activate only once each turn as a sorcery.",
+            "rules_text": "Flying\nWhenever Isift enters or attacks, you mill a card, then each opponent mills two cards. \n{B}, Exile a creature card from your graveyard: You draw a card and lose 1 life. Activate only once each turn.",
             "flavor_text": "[i][/i]",
             "pt": "5/5",
             "special_text": "",
@@ -3226,7 +3226,7 @@
             "set": "ASM",
             "loyalty": "",
             "artist": "Mist XG",
-            "notes": "May 26, 2026: Now always has flying.",
+            "notes": "May 26, 2026: Now always has flying.\n\nJuly 9th, 2026: Removed sorcery speed restriction to the exile-greed ability.",
             "image_type": "png"
         },
         {
@@ -3313,7 +3313,7 @@
             "number": 142,
             "color_identity": "R",
             "cost": "{3}{R}{R}",
-            "rules_text": "Flying, haste\nBetray [i](When this permanent enters, you may sacrifice another permanent that shares a color with it.)[/i]\nWhen this creature betrays another permanent, it deals 2 damage to any target. If a multicolor permanent was betrayed this way, surveil 2.",
+            "rules_text": "Flying, haste\nBetray [i](When this permanent enters, you may sacrifice another permanent that shares a color with it.)[/i]\nWhen this creature betrays a permanent, it deals 2 damage to any target. If a multicolor permanent was betrayed this way, surveil 2.",
             "flavor_text": "[i][/i]",
             "pt": "4/5",
             "special_text": "",
@@ -3321,7 +3321,7 @@
             "set": "ASM",
             "loyalty": "",
             "artist": "The Umbra Artist",
-            "notes": "May 26, 2026: Can now target players.",
+            "notes": "May 26, 2026: Can now target players.\n\nJuly 4th, 2026: Changed ''another'' to ''a'' in on-betray ability. Also slightly adjusted bottom chop.",
             "image_type": "png"
         },
         {
@@ -3381,14 +3381,14 @@
             "card_name2": "Disagree",
             "color2": "R",
             "type2": "Sorcery",
-            "cost2": "{1}{R}",
+            "cost2": "{2}{R}",
             "rules_text2": "Aftermath\nThis spell deals 3 damage to target permanent.",
             "flavor_text2": "[i][/i]",
             "pt2": "",
             "special_text2": "",
             "loyalty2": "",
             "artist2": "",
-            "notes": "was called Another One // Bites the Dust\nMay 22, 2026: given new name Agree // Disagree",
+            "notes": "was called Another One // Bites the Dust\nMay 22, 2026: given new name Agree // Disagree\n\n\nJune 23rd, 2026: Cost of Disagree raised from 1R to 2R.",
             "image_type": "png"
         },
         {
@@ -3475,7 +3475,7 @@
             "number": 181,
             "color_identity": "G",
             "cost": "{3}{G}{G}",
-            "rules_text": "This spell can't be countered as long as you control a creature with two or more counters on it.\nTrample, vigilance\nWhenever this creature enters or attacks, put a +1/+1 counter on it.",
+            "rules_text": "This spell can't be countered as long as you control a creature with a counter on it.\nTrample, vigilance\nWhenever this creature enters or attacks, put a +1/+1 counter on it.",
             "flavor_text": "[i][/i]",
             "pt": "4/4",
             "special_text": "",
@@ -3483,7 +3483,7 @@
             "set": "ASM",
             "loyalty": "",
             "artist": "Laura Arnal",
-            "notes": "",
+            "notes": "July 10th, 2026: Reduced uncounterability threshold from a creature with two or more counters to a creature with one or more counters.",
             "image_type": "png"
         },
         {
@@ -3580,7 +3580,7 @@
             "number": 37,
             "color_identity": "W",
             "cost": "{1}{W}",
-            "rules_text": "Betray [i](When this permanent enters, you may sacrifice another permanent that shares a color with it.)[/i]\nWhen this enchantment betrays another permanent, you draw a card. If that permanent isn't a creature, you may instead create a token copy of this enchantment, except it doesn't have betray.\nIf damage would be dealt to a permanent you control, prevent 1 of that damage.",
+            "rules_text": "Betray [i](When this permanent enters, you may sacrifice another permanent that shares a color with it.)[/i]\nWhen this enchantment betrays a permanent, you draw a card. If that permanent isn't a creature, you may instead create a token copy of this enchantment, except it doesn't have betray.\nIf damage would be dealt to a permanent you control, prevent 1 of that damage.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -3588,7 +3588,7 @@
             "set": "ASM",
             "loyalty": "",
             "artist": "Don Dixon",
-            "notes": "May 26, 2026: Fixed minor wording issue of on-betray ability.",
+            "notes": "May 26, 2026: Fixed minor wording issue of on-betray ability.\n\nJuly 4th, 2026: Changed ''another'' to ''a'' in on-betray ability.",
             "image_type": "png"
         },
         {
@@ -3636,18 +3636,18 @@
             "set": "ASM",
             "loyalty": "",
             "artist": "YunaXD",
-            "notes": "May 26, 2026: Rewrote betray trigger draw ability to make it clearer that you still discard either way.",
+            "notes": "May 26, 2026: Rewrote betray trigger draw ability to make it clearer that you still discard either way.\n\nJuly 4th, 2026: Keeping the '''betrays another permanent'' wording on this card, due to not having room for betray reminder text.",
             "image_type": "png"
         },
         {
             "card_name": "Method",
             "color": "B",
             "rarity": "mythic",
-            "type": "Instant",
+            "type": "Sorcery",
             "number": 99,
             "color_identity": "B",
             "cost": "{3}{B}",
-            "rules_text": "Each player mills four cards. You may cast a card milled this way by paying life equal to its mana value rather than its mana cost.",
+            "rules_text": "Target player mills five cards. You may cast a card milled this way by paying life equal to its mana value rather than its mana cost.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -3658,14 +3658,14 @@
             "card_name2": "The Madness",
             "color2": "B",
             "type2": "Sorcery",
-            "cost2": "{2}{B}{B}",
-            "rules_text2": "Aftermath\nTarget opponent discards three cards. That player loses 1 life for each land card discarded this way.",
+            "cost2": "{5}{B}{B}",
+            "rules_text2": "Aftermath\nTarget opponent chooses to either discard a card, sacrifice a permanent, or lose 2 life. Repeat this process two more times.",
             "flavor_text2": "[i][/i]",
             "pt2": "",
             "special_text2": "",
             "loyalty2": "",
             "artist2": "",
-            "notes": "was called Skeletons // In The Closet\n\nMay 26, 2026: Changed wording of Method to conform to proper.\n\nJune 3rd, 2026: Changed casting cost of Method from 2B to 3B.",
+            "notes": "was called Skeletons // In The Closet\n\nMay 26, 2026: Changed wording of Method to conform to proper.\n\nJune 3rd, 2026: Changed casting cost of Method from 2B to 3B.\n\nJune 23rd, 2026: Upon feedback from Field Test, changed Method to target instead of each player and sorcery and five cards (five form four, to compensate for other changes here.\n\nThe Madness heavily redesigned.",
             "image_type": "png"
         },
         {
@@ -3811,14 +3811,14 @@
             "card_name2": "Perfection",
             "color2": "B",
             "type2": "Sorcery",
-            "cost2": "{2}{B}{B}",
+            "cost2": "{3}{B}{B}",
             "rules_text2": "Aftermath\nReturn target creature card from your graveyard to the battlefield.",
             "flavor_text2": "[i][/i]",
             "pt2": "",
             "special_text2": "",
             "loyalty2": "",
             "artist2": "",
-            "notes": "was called Swarm // Behaviour\nMay 22, 2026: given new name Done // Perfection",
+            "notes": "was called Swarm // Behaviour\nMay 22, 2026: given new name Done // Perfection\n\nJune 23rd, 2026: Raised cost of Perfection from 2BB to 3BB.",
             "image_type": "png"
         },
         {
@@ -3905,7 +3905,7 @@
             "number": 229,
             "color_identity": "UR",
             "cost": "{U}{U}{R}",
-            "rules_text": "Counter target spell.\nUp to one target creature attacks or blocks this turn if able.",
+            "rules_text": "Counter target spell. Then look at the top two cards of your library. [i](Put them back in the same order.)[/i]",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -3916,14 +3916,14 @@
             "card_name2": "The Winds",
             "color2": "R",
             "type2": "Sorcery",
-            "cost2": "{2}{R}",
-            "rules_text2": "Aftermath [i](Cast this spell only from your graveyard. Then exile it.)[/i]\nCreate a 3/3 red Phoenix creature token with flying.",
+            "cost2": "{4}{R}",
+            "rules_text2": "Aftermath [i](Cast this spell only from your graveyard. Then exile it.)[/i]\nCreate a 3/3 red Phoenix creature token with flying and haste.",
             "flavor_text2": "[i][/i]",
             "pt2": "",
             "special_text2": "",
             "loyalty2": "",
             "artist2": "",
-            "notes": "was called The Wind Beneath // My Wings\nMay 22, 2026: Given new name Scattered // The Winds\n\nMay 26, 2026: Scattered now only deals 1 damage to any target.\n\nJune 3rd, 2026: Scattered now forces up to one target creature to attack or block if able.",
+            "notes": "was called The Wind Beneath // My Wings\nMay 22, 2026: Given new name Scattered // The Winds\n\nMay 26, 2026: Scattered now only deals 1 damage to any target.\n\nJune 3rd, 2026: Scattered now forces up to one target creature to attack or block if able.\n\nJune 23rd, 2026: The Winds casting cost raised from 2R to 4R, based on Field Test feedback, and the token given haste.\nForced attack or block effect on Scattered change to conditional scry.\n\nJune 29th, 2026: Conditional scry effect replaced by mandatory looking (NOT scrying) at the top two cards of your library.",
             "image_type": "png"
         },
         {
@@ -3934,7 +3934,7 @@
             "number": 215,
             "color_identity": "BG",
             "cost": "{1}{B}{G}",
-            "rules_text": "Whenever this permanent deals combat damage to an opponent, that player loses half their life, rounded up.\nSacrifice a creature: This enchantment becomes a 3/5 Snake creature in addition to its other types until end of turn. Activate only as a sorcery.",
+            "rules_text": "Whenever this permanent deals combat damage to an opponent, that player loses half their life, rounded up.\nSacrifice a creature: This enchantment becomes a 3/5 Snake creature with deathtouch in addition to its other types until end of turn. Activate only as a sorcery.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -3942,7 +3942,7 @@
             "set": "ASM",
             "loyalty": "",
             "artist": "Jakub Fajtanowski",
-            "notes": "June 7th, 2026: For Week 2 of Field Test, consider changing cost to 1BG, and instead of losing the game on combat damage, they lose half their life, rounded up.\n\nJune 12th, 2026: Implementing above change for Week 2 of FT.",
+            "notes": "June 7th, 2026: For Week 2 of Field Test, consider changing cost to 1BG, and instead of losing the game on combat damage, they lose half their life, rounded up.\n\nJune 12th, 2026: Implementing above change for Week 2 of FT.\n\nJune 18th, 2026: Added deathtouch after FT feedback.",
             "image_type": "png"
         },
         {
@@ -3953,7 +3953,7 @@
             "number": 208,
             "color_identity": "WR",
             "cost": "{1}{R}{W}",
-            "rules_text": "Vigilance\nOther creatures you control get +1/+1.",
+            "rules_text": "Vigilance\n{R}: Djeru gains first strike until end of turn. Activate only as a sorcery.\nOther creatures you control get +1/+1.",
             "flavor_text": "[i]Djeru had become both the nominal leader of Naktamun's army and Hazoret's most trusted servant. [/i]",
             "pt": "3/2",
             "special_text": "",
@@ -3961,7 +3961,7 @@
             "set": "ASM",
             "loyalty": "",
             "artist": "Joel Chaim Holtzmann",
-            "notes": "June 9th, 2026: Look at changing to cost 1RW for Week 2 of Field Test.\n\nJune 12th, 2026: Testing implementation of cost raise for Week 2.",
+            "notes": "June 9th, 2026: Look at changing to cost 1RW for Week 2 of Field Test.\n\nJune 12th, 2026: Testing implementation of cost raise for Week 2.\n\nJune 18th, 2026: Added an activated ability so he can give himself first strike on your turn. Baxsed on feedback from field test week 2.",
             "image_type": "png"
         },
         {
@@ -3972,7 +3972,7 @@
             "number": 206,
             "color_identity": "WUG",
             "cost": "{G}{U}",
-            "rules_text": "Flying\n{G}: Put a +1/+1 counter on this creature. Target opponent creates a tapped Treasure token.\n{W}: Return this creature to its owner's hand. Target opponent scries 2.",
+            "rules_text": "Flying\n{G}: Put a +1/+1 counter on this creature. Target opponent creates a tapped Treasure token.\n{W}: Return this creature to its owner's hand. Target opponent scries 1.",
             "flavor_text": "[i][/i]",
             "pt": "2/3",
             "special_text": "",
@@ -3980,7 +3980,7 @@
             "set": "ASM",
             "loyalty": "",
             "artist": "steamhat",
-            "notes": "",
+            "notes": "July 10th, 2026: Reduced scry 2 on self-bounce to just scry 1.",
             "image_type": "png"
         },
         {
@@ -3992,14 +3992,14 @@
             "color_identity": "C",
             "cost": "{2}",
             "rules_text": "When this creature enters, surveil 2.",
-            "flavor_text": "[i]They were becoming an increasingly common sight on the estates the wealthy and powerful, for they could find almost anything and ran only on magical energy.[/i]",
+            "flavor_text": "[i]They were becoming an increasingly common sight on estates of the wealthy and powerful, for they could find almost anything and ran only on magical energy.[/i]",
             "pt": "2/1",
             "special_text": "",
             "shape": "normal",
             "set": "ASM",
             "loyalty": "",
             "artist": "Beatrice Pelagatti",
-            "notes": "",
+            "notes": "July 4th, 2026: Fixed small error in flavor text.",
             "image_type": "png"
         },
         {
@@ -4018,7 +4018,7 @@
             "set": "ASM",
             "loyalty": "",
             "artist": "Cole Eastburn",
-            "notes": "Changed enter/dies ability to exile target opponent's graveyard instead of target player \u2014 but this change was unfortunately implemented right AFTER update pushed to hub on April 30th, 2026.",
+            "notes": "Changed enter/dies ability to exile target opponent's graveyard instead of target player \u2014 but this change was unfortunately implemented right AFTER update pushed to hub on April 30th, 2026.\n\nWill need new art \u2014 seems this art is already in MSEM on Sandstone Archivist.",
             "image_type": "png"
         },
         {
@@ -4124,7 +4124,7 @@
             "number": 258,
             "color_identity": "C",
             "cost": "",
-            "rules_text": "{T}, Sacrifice this land: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.\n{1}, {T}, Sacrifice this land: Search your library for an Oasis land card, reveal it and put it into your hand, then shuffle.",
+            "rules_text": "{T}, Sacrifice this land: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.\n{T}, Sacrifice this land: Search your library for an Oasis land card, reveal it and put it into your hand, then shuffle.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -4132,7 +4132,7 @@
             "set": "ASM",
             "loyalty": "",
             "artist": "Idrisse Abdoul",
-            "notes": "",
+            "notes": "June 29th, 2026: Removed the mana cost to activate the ability to fetch an Oasis to your hand.",
             "image_type": "png"
         },
         {
@@ -4143,7 +4143,7 @@
             "number": 251,
             "color_identity": "WUB",
             "cost": "",
-            "rules_text": "This land enters tapped unless you control another Oasis.\nWhen this land enters, scry 1.\n{T}: Add {W}.\n{1}, {T}: Add {U} or {B}.",
+            "rules_text": "This land enters tapped unless you control another Oasis.\nWhen this land enters, scry 1 and gain 1 life.\n{T}: Add {W}.\n{1}, {T}: Add {U} or {B}.",
             "flavor_text": "[i]Once an arid statuary complex, it was now a serene fishing spot.[/i]",
             "pt": "",
             "special_text": "",
@@ -4151,7 +4151,7 @@
             "set": "ASM",
             "loyalty": "",
             "artist": "Joseph Feely",
-            "notes": "Entire 5-cycle of tri-deserts changed and unified, May 16th, 2025.",
+            "notes": "Entire 5-cycle of tri-deserts changed and unified, May 16th, 2025.\n\nJune 30th, 2026: Added 'and gain 1 life' to the enter trigger of the main uncommon Oasis cycle and to Mirage Pool.",
             "image_type": "png"
         },
         {
@@ -4162,7 +4162,7 @@
             "number": 255,
             "color_identity": "WUG",
             "cost": "",
-            "rules_text": "This land enters tapped unless you control another Oasis.\nWhen this land enters, scry 1.\n{T}: Add {U}.\n{1}, {T}: Add {W} or {G}.",
+            "rules_text": "This land enters tapped unless you control another Oasis.\nWhen this land enters, scry 1 and gain 1 life.\n{T}: Add {U}.\n{1}, {T}: Add {W} or {G}.",
             "flavor_text": "[i]As one of the first new cities, Kharteru became a center of discovery and innovation.[/i]",
             "pt": "",
             "special_text": "",
@@ -4170,7 +4170,7 @@
             "set": "ASM",
             "loyalty": "",
             "artist": "Gabriel Nagypal, for Cassagi",
-            "notes": "",
+            "notes": "June 30th, 2026: Added 'and gain 1 life' to the enter trigger of the main uncommon Oasis cycle and to Mirage Pool.",
             "image_type": "png"
         },
         {
@@ -4181,7 +4181,7 @@
             "number": 250,
             "color_identity": "BRG",
             "cost": "",
-            "rules_text": "This land enters tapped unless you control another Oasis.\nWhen this land enters, scry 1.\n{T}: Add {B}.\n{1}, {T}: Add {R} or {G}.",
+            "rules_text": "This land enters tapped unless you control another Oasis.\nWhen this land enters, scry 1 and gain 1 life.\n{T}: Add {B}.\n{1}, {T}: Add {R} or {G}.",
             "flavor_text": "[i]As the Great Necropolis was being restored, even more of it was rediscovered.[/i]",
             "pt": "",
             "special_text": "",
@@ -4189,7 +4189,7 @@
             "set": "ASM",
             "loyalty": "",
             "artist": "Sumit Mangela, edited by Opacana",
-            "notes": "",
+            "notes": "June 30th, 2026: Added 'and gain 1 life' to the enter trigger of the main uncommon Oasis cycle and to Mirage Pool.",
             "image_type": "png"
         },
         {
@@ -4200,7 +4200,7 @@
             "number": 257,
             "color_identity": "UBR",
             "cost": "",
-            "rules_text": "This land enters tapped unless you control another Oasis.\nWhen this land enters, scry 1.\n{T}: Add {R}.\n{1}, {T}: Add {U} or {B}.",
+            "rules_text": "This land enters tapped unless you control another Oasis.\nWhen this land enters, scry 1 and gain 1 life.\n{T}: Add {R}.\n{1}, {T}: Add {U} or {B}.",
             "flavor_text": "[i]It had become a place for the powerful and wealthy to relax and talk without being recorded by scribes.[/i]",
             "pt": "",
             "special_text": "",
@@ -4208,7 +4208,7 @@
             "set": "ASM",
             "loyalty": "",
             "artist": "Glenn Donaldson",
-            "notes": "",
+            "notes": "June 30th, 2026: Added 'and gain 1 life' to the enter trigger of the main uncommon Oasis cycle and to Mirage Pool.",
             "image_type": "png"
         },
         {
@@ -4219,15 +4219,15 @@
             "number": 256,
             "color_identity": "WRG",
             "cost": "",
-            "rules_text": "This land enters tapped unless you control another Oasis.\nWhen this land enters, scry 1.\n{T}: Add {G}.\n{1}, {T}: Add {W} or {R}.",
-            "flavor_text": "[i]The Shefet desert's edges now sported hardy bushes and trees, thanks to Sab-Sun and Ghrin-Danu.[/i]",
+            "rules_text": "This land enters tapped unless you control another Oasis.\nWhen this land enters, scry 1 and gain 1 life.\n{T}: Add {G}.\n{1}, {T}: Add {W} or {R}.",
+            "flavor_text": "[i]The Shefet desert's edges now sported hardy bushes and trees, thanks to Sab-Sunen and Ghrin-Danu.[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
             "set": "ASM",
             "loyalty": "",
             "artist": "Leo Wang",
-            "notes": "",
+            "notes": "June 30th, 2026: Added 'and gain 1 life' to the enter trigger of the main uncommon Oasis cycle and to Mirage Pool.",
             "image_type": "png"
         },
         {
@@ -4353,7 +4353,7 @@
             "number": 253,
             "color_identity": "C",
             "cost": "",
-            "rules_text": "{T}: Add {C}. If you control four or more Oasis lands, you may add one mana of any color instead.\n{8}, {T}: Scry 2, then draw a card. You gain 2 life. This ability costs {1} less to activate for each Oasis you control.",
+            "rules_text": "{T}: Add {C}. If you control three or more Oasis lands, you may add one mana of any color instead.\n{8}, {T}: Scry 2, then draw a card. You gain 2 life. This ability costs {1} less to activate for each Oasis you control.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -4361,7 +4361,7 @@
             "set": "ASM",
             "loyalty": "",
             "artist": "Tilio Bonnefoy",
-            "notes": "May 26, 2026: Changed 'every' to 'each.'",
+            "notes": "May 26, 2026: Changed 'every' to 'each.'\n\nJune 29th, 2026: Changed threshold to get rainbow mana from four Oases to just three.",
             "image_type": "png"
         },
         {
@@ -4372,7 +4372,7 @@
             "number": 249,
             "color_identity": "C",
             "cost": "",
-            "rules_text": "{T}: Add {C}.\n{T}, Pay 1 life: Add one mana of any color. Activate only if you control another Oasis.\n{6}, {T}: Search your library for a card, put that card into your hand, then shuffle. Activate only if you control 4 or more Oasis permanents.",
+            "rules_text": "{T}: Add {C}.\n{T}, Pay 1 life: Add one mana of any color. Activate only if you control another Oasis.\n{6}, {T}: Search your library for a card, put that card into your hand, then shuffle. Activate only if you control four or more Oasis permanents.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -4410,7 +4410,7 @@
             "number": 212,
             "color_identity": "RG",
             "cost": "{6}{R}{G}",
-            "rules_text": "Haste, indestructible, trample\nGah-Api can't attack or block unless you've activated an ability of a creature this turn.\nThe first time each turn you attack with one or more creatures, untap up to that many lands you control.\n{12}{R}{G}: Creatures you control get +6/+6 and gain trample until end of turn.",
+            "rules_text": "Haste, indestructible, trample\nGah-Api can't attack or block unless you've activated an ability of a creature this turn.\nThe first time each turn you attack with one or more creatures, untap up to that many lands you control.\n{10}{R}{G}: Creatures you control get +6/+6 and gain trample until end of turn.",
             "flavor_text": "[i][/i]",
             "pt": "8/8",
             "special_text": "",
@@ -4418,7 +4418,7 @@
             "set": "ASM",
             "loyalty": "",
             "artist": "Eksafael",
-            "notes": "!group God",
+            "notes": "!group God\n\n\nJuly 10th, 2026: Reduced cost of his activated ability from 12RG to 10RG, to bring it closer to realm of possibility of activation.",
             "image_type": "png"
         },
         {
@@ -4771,7 +4771,7 @@
             "number": 201,
             "color_identity": "WB",
             "cost": "{2}{W}{B}",
-            "rules_text": "Whenever you betray a permanent, you gain 2 life, then put a charge counter on this artifact.\n{2}{W}{B}, {T}, Remove X charge counters from this artifact: Return target creature card with mana value less than or equal to X plus 2 from your graveyard to the battlefield. Activate only as a sorcery.",
+            "rules_text": "Whenever a permanent you control betrays a permanent, you gain 2 life, then put a charge counter on this artifact.\n{2}{W}{B}, {T}, Remove X charge counters from this artifact: Return target creature card with mana value less than or equal to X plus 2 from your graveyard to the battlefield. Activate only as a sorcery.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -4779,7 +4779,7 @@
             "set": "ASM",
             "loyalty": "",
             "artist": "Michael Jaecks",
-            "notes": "!group Arcun\n\n\n\nPayoff\n\nArt changed on April 21, 2026 to fix overlap with Wish token art.\n\nApril 22, 2026: Can now only activate as a sorcery.\n\nJune 13th, 2026: Testing change on own initiative of reducing casting cost from 3WB to 2WB and it gets a charge counter whenever you betray, not just for betraying creatures.",
+            "notes": "!group Arcun\n\n\n\nPayoff\n\nArt changed on April 21, 2026 to fix overlap with Wish token art.\n\nApril 22, 2026: Can now only activate as a sorcery.\n\nJune 13th, 2026: Testing change on own initiative of reducing casting cost from 3WB to 2WB and it gets a charge counter whenever you betray, not just for betraying creatures.\n\nJune 30th, 2026: Reworded first ability to clarify it's the permanent doing the betraying and not betraying itself.\n\nJuly 4th, 2026: Changed ''another'' to ''a'' in its first ability.",
             "image_type": "png"
         },
         {
@@ -4798,7 +4798,7 @@
             "set": "ASM",
             "loyalty": "",
             "artist": "Andy Timm",
-            "notes": "!group Arcun\n\n\nEnabler",
+            "notes": "!group Arcun\n\n\nEnabler\n\n\nJune 18, 2026: Try to find new art for this before submission to MSEM, as this art already in use there.",
             "image_type": "png"
         },
         {
@@ -5018,7 +5018,7 @@
             "number": 225,
             "color_identity": "RG",
             "cost": "{2}{R}{G}",
-            "rules_text": "Activated abilities of other permanents you control cost {1} less to activate.This effect can't reduce the mana in that cost to less than one mana.\n{2}{R}: This creature deals 1 damage to any target. Activate only once each turn as a sorcery, and only if you've attacked this turn.",
+            "rules_text": "Activated abilities of other permanents you control cost {1} less to activate.This effect can't reduce the mana in that cost to less than one mana.\n{2}{R}: This creature deals 1 damage to any target. Activate only once each turn and only if you've attacked this turn.",
             "flavor_text": "[i][/i]",
             "pt": "4/4",
             "special_text": "",
@@ -5026,7 +5026,7 @@
             "set": "ASM",
             "loyalty": "",
             "artist": "Ptimm",
-            "notes": "!group Arcun\n\n\nPayoff",
+            "notes": "!group Arcun\n\n\nPayoff\n\nJuly 4th, 2026: Removed sorcery speed restriction from this card's activated ability (it was slightly unnecessary due to the having attacked restriction, in hindsight).",
             "image_type": "png"
         },
         {
@@ -5056,7 +5056,7 @@
             "number": 217,
             "color_identity": "WB",
             "cost": "{1}{W}{B}",
-            "rules_text": "Betray [i](When this permanent enters, you may sacrifice another permanent that shares a color with it.)[/i]\nWhen this creature betrays another permanent, you may draw a card and lose 1 life.\nAt the beginning of your end step, if a creature died this turn, create a 1/1 black and white Cat creature token.",
+            "rules_text": "Betray [i](When this permanent enters, you may sacrifice another permanent that shares a color with it.)[/i]\nWhen this creature betrays a permanent, you draw a card and gain 1 life.\nAt the beginning of your end step, if a creature died this turn, create a 1/1 black and white Cat creature token.",
             "flavor_text": "[i][/i]",
             "pt": "2/3",
             "special_text": "",
@@ -5064,7 +5064,7 @@
             "set": "ASM",
             "loyalty": "",
             "artist": "Maros Manhardt",
-            "notes": "!group Arcun\n\n\n\n\nEnabler (should make colored tokens, or discount spells with Betray, or something like that)\n\nShould be a creatture",
+            "notes": "!group Arcun\n\n\n\n\nEnabler (should make colored tokens, or discount spells with Betray, or something like that)\n\nShould be a creatture\n\n\nJuly 4th, 2026: Changed life loss on betray to life gaiin, and removed the ''may'' from that part.\nJuly 4th, 2026: Changed ''another'' to ''a'' in on-betray ability.",
             "image_type": "png"
         },
         {
@@ -5093,8 +5093,8 @@
             "type": "Creature \u2013 Snake Druid",
             "number": 218,
             "color_identity": "BG",
-            "cost": "{2}{B}{G}",
-            "rules_text": "Other creatures you control get +0/+1.\nAt the beginning of your end step, you may pay {1}{BG}. If you do, create a 1/1 green and black Snake creature token.",
+            "cost": "{1}{B}{G}",
+            "rules_text": "Other creatures you control get +0/+1.\nOther Snakes you control have deathtouch.\nAt the beginning of your end step, you may pay {1}{BG}. If you do, create a 1/1 green and black Snake creature token.",
             "flavor_text": "[i][/i]",
             "pt": "3/3",
             "special_text": "",
@@ -5102,7 +5102,7 @@
             "set": "ASM",
             "loyalty": "",
             "artist": "Runarta Vera",
-            "notes": "!group Arcun\n\n\nEnabler",
+            "notes": "!group Arcun\n\n\nEnabler\n\nJune 18th, 2026: Changed to cost 1 less and give deathtouch to your other Snakes.",
             "image_type": "png"
         },
         {
@@ -5474,7 +5474,7 @@
             "number": 252,
             "color_identity": "C",
             "cost": "",
-            "rules_text": "This land enters tapped unless you control another Oasis.\nWhen this land enters, scry 1, then choose a color.\n{T}: Add {C}.\n{1}, {T}: Add one mana of the chosen color.",
+            "rules_text": "This land enters tapped unless you control another Oasis.\nWhen this land enters, you scry 1 and gain 1 life, then choose a color.\n{T}: Add {C}.\n{1}, {T}: Add one mana of the chosen color.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -5482,7 +5482,7 @@
             "set": "ASM",
             "loyalty": "",
             "artist": "Alex van der Linder",
-            "notes": "",
+            "notes": "June 30th, 2026: Added 'and gain 1 life' to the enter trigger of the main uncommon Oasis cycle and to Mirage Pool.",
             "image_type": "png"
         },
         {
@@ -5569,7 +5569,7 @@
             "number": 7,
             "color_identity": "R",
             "cost": "",
-            "rules_text": "Flying",
+            "rules_text": "Flying, haste",
             "flavor_text": "[i][/i]",
             "pt": "3/3",
             "special_text": "",
