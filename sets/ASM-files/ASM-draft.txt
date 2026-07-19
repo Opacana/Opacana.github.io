@@ -114,7 +114,7 @@
 			"name": "Mindless Servant",
 			"rarity": "common",
 			"mana_cost": "{4}{W}{W}",
-			"type": "Creature — Golem",
+			"type": "Artifact Creature — Golem",
 			"collector_number": "24",
 			"image_uris": {
 				"en": "https://Opacana.github.io/sets/ASM-files/img/24_Mindless Servant.png"
@@ -153,7 +153,7 @@
 		{
 			"name": "Room",
 			"rarity": "common",
-			"mana_cost": "{1}{W}",
+			"mana_cost": "{W}",
 			"type": "Instant",
 			"collector_number": "31",
 			"image_uris": {
@@ -774,7 +774,7 @@
 			"name": "Oashra Vitalist",
 			"rarity": "common",
 			"mana_cost": "{1}{G}",
-			"type": "Creature — Naga Druid",
+			"type": "Creature — Snake Druid",
 			"collector_number": "187",
 			"image_uris": {
 				"en": "https://Opacana.github.io/sets/ASM-files/img/187_Oashra Vitalist.png"
@@ -1753,7 +1753,7 @@
 		{
 			"name": "Domesticate",
 			"rarity": "rare",
-			"mana_cost": "{2}{G}{G}",
+			"mana_cost": "{1}{G}{G}",
 			"type": "Sorcery",
 			"collector_number": "169",
 			"image_uris": {
@@ -2373,7 +2373,7 @@
 		{
 			"name": "Chamber of New Anointment",
 			"rarity": "uncommon",
-			"mana_cost": "{2}{W}{B}",
+			"mana_cost": "{1}{W}{B}",
 			"type": "Artifact",
 			"collector_number": "201",
 			"image_uris": {

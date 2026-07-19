@@ -5,7 +5,7 @@
 			<name>ASM</name>
 			<longname>Amonkhet: Schism</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-07-12</releasedate>
+			<releasedate>2026-07-18</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -61,7 +61,7 @@ When this creature dies, you gain 2 life.</text>
 		</card>
 		<card>
 			<name>Priest of the Angel&apos;s Path</name>
-			<text>{1}{W}, {T}: Tap target creature.</text>
+			<text>{W}, {T}: Tap target artifact or creature.</text>
 			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/26_Priest of the Angel&apos;s Path.png" num="26">ASM</set>
 			<prop>
 				<layout>normal</layout>
@@ -210,7 +210,7 @@ When this creature enters, tap it unless there are four or more different names 
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Creature — Golem</type>
+				<type>Artifact Creature — Golem</type>
 				<maintype>Creature</maintype>
 				<manacost>4WW</manacost>
 				<cmc>6</cmc>
@@ -270,7 +270,7 @@ When this creature enters, tap it unless there are four or more different names 
 		</card>
 		<card>
 			<name>Room // Breathe</name>
-			<text>Target permanent gains indestructible until end of turn
+			<text>Target permanent gains indestructible until end of turn.
 
 ---
 
@@ -282,8 +282,8 @@ Destroy target artifact or enchantment.</text>
 				<side>front</side>
 				<type>Instant // Sorcery</type>
 				<maintype>Instant</maintype>
-				<manacost>1W // 2W</manacost>
-				<cmc>5</cmc>
+				<manacost>W // 2W</manacost>
+				<cmc>4</cmc>
 				<colors>W</colors>
 				<coloridentity>W</coloridentity>
 			</prop>
@@ -292,7 +292,7 @@ Destroy target artifact or enchantment.</text>
 		<card>
 			<name>Feeding Time</name>
 			<text>Create three 1/1 white and black Cat creature tokens.
-Scry 1.</text>
+Scry 2.</text>
 			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/16_Feeding Time.png" num="16">ASM</set>
 			<prop>
 				<layout>normal</layout>
@@ -564,7 +564,7 @@ Scry 2.</text>
 		</card>
 		<card>
 			<name>Meditative Wisdom</name>
-			<text>Draw three cards, then discard a card.</text>
+			<text>Draw three cards, then discard a card. If a player cast another spell this turn, you may choose not to discard a card this way.</text>
 			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/55_Meditative Wisdom.png" num="55">ASM</set>
 			<prop>
 				<layout>normal</layout>
@@ -680,7 +680,7 @@ Create a 2/2 blue and black Zombie Bird creature token with flying.</text>
 		<card>
 			<name>Unsorted Scrolls</name>
 			<text>Sacrifice this artifact: Surveil 2.
-When this artifact leaves the battlefield, you may pay {1}{U}. When you do, return target instant or sorcery from your graveyard to your hand.</text>
+When this artifact leaves the battlefield, you may pay {1}{U}. When you do, return target instant or sorcery card from your graveyard to your hand.</text>
 			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/ASM-files/img/72_Unsorted Scrolls.png" num="72">ASM</set>
 			<prop>
 				<layout>normal</layout>
@@ -855,7 +855,7 @@ When this creature enters, create an artifact Talisman token that&apos;s all col
 		<card>
 			<name>Burial Chamber Guardian</name>
 			<text>Defender, menace
-{1}{B}: This creature loses defender and gets +1/+0 until end of turn.</text>
+{1}{B}: Until end of turn, this creature loses defender and gets +1/+0.</text>
 			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/81_Burial Chamber Guardian.png" num="81">ASM</set>
 			<prop>
 				<layout>normal</layout>
@@ -1403,7 +1403,7 @@ At the beginning of your end step, if a player sacrificed a permanent this turn,
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
-				<type>Creature — Naga Druid</type>
+				<type>Creature — Snake Druid</type>
 				<maintype>Creature</maintype>
 				<manacost>1G</manacost>
 				<cmc>2</cmc>
@@ -1890,7 +1890,7 @@ Whenever you cast an instant or sorcery spell, surveil 1. If this is the second 
 		</card>
 		<card>
 			<name>Keeper of Blessed Waters</name>
-			<text>{1}: Move a counter from one creature you control to another creature you control, then untap one of those creatures. Activate only once each turn.</text>
+			<text>{1}: Move a counter from a creature you control to another creature you control, then untap one of those creatures. Activate only once each turn.</text>
 			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/ASM-files/img/51_Keeper of Blessed Waters.png" num="51">ASM</set>
 			<prop>
 				<layout>normal</layout>
@@ -2633,7 +2633,7 @@ When this creature betrays a permanent, you gain 4 life.</text>
 				<cmc>3</cmc>
 				<colors>W</colors>
 				<coloridentity>W</coloridentity>
-				<pt>3/2</pt>
+				<pt>3/3</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
@@ -2659,7 +2659,7 @@ As long as you control four or more creatures, lands you control have &quot;{T}:
 		<card>
 			<name>Diplomatic Conclave</name>
 			<text>At the beginning of each opponent&apos;s upkeep, they may tap an untapped creature they control. If they don&apos;t, you draw a card.
-{W}, Sacrifice this enchantment: Exile target tapped creature. Activate only as a sorcery.</text>
+{W}, Sacrifice this enchantment: Exile target tapped creature.</text>
 			<set rarity="rare" picurl="https://Opacana.github.io/sets/ASM-files/img/13_Diplomatic Conclave.png" num="13">ASM</set>
 			<prop>
 				<layout>normal</layout>
@@ -2783,7 +2783,7 @@ Choose one—
 		<card>
 			<name>Shifting Constellations</name>
 			<text>{WU}, Tap an untapped creature you control: Target opponent taps an untapped creature they control. Put a star counter on this enchantment. Activate only once each turn.
-Remove three star counters from this enchantment: Take an extra turn after this one. Exile this enchantment.</text>
+Remove three star counters from this enchantment and sacrifice it: Take an extra turn after this one.</text>
 			<set rarity="rare" picurl="https://Opacana.github.io/sets/ASM-files/img/66_Shifting Constellations.png" num="66">ASM</set>
 			<prop>
 				<layout>normal</layout>
@@ -3056,7 +3056,7 @@ This spell deals 3 damage to target permanent.</text>
 		</card>
 		<card>
 			<name>Ka-channel Wrapping</name>
-			<text>Whenever an ability of equipped creature is activated, you may copy that ability. You may choose new targets for the copy. This ability triggers only once each turn.
+			<text>Whenever an ability of equipped creature is activated, you may copy that ability. You may choose new targets for the copy. This triggers only once each turn.
 Equip {1}</text>
 			<set rarity="rare" picurl="https://Opacana.github.io/sets/ASM-files/img/139_Ka-channel Wrapping.png" num="139">ASM</set>
 			<prop>
@@ -3128,7 +3128,7 @@ When this creature betrays a creature, you may put a creature card with mana val
 		</card>
 		<card>
 			<name>Hyena Matriarch</name>
-			<text>This spell can&apos;t be countered as long as you control a creature with a counter on it.
+			<text>This spell can&apos;t be countered as long as you control a creature with one or more counters on it.
 Trample, vigilance
 Whenever this creature enters or attacks, put a +1/+1 counter on it.</text>
 			<set rarity="rare" picurl="https://Opacana.github.io/sets/ASM-files/img/181_Hyena Matriarch.png" num="181">ASM</set>
@@ -3175,8 +3175,8 @@ Until end of turn, target creature you control can attack as though it didn&apos
 				<side>front</side>
 				<type>Sorcery</type>
 				<maintype>Sorcery</maintype>
-				<manacost>2GG</manacost>
-				<cmc>4</cmc>
+				<manacost>1GG</manacost>
+				<cmc>3</cmc>
 				<colors>G</colors>
 				<coloridentity>G</coloridentity>
 			</prop>
@@ -4275,16 +4275,16 @@ When this creature enters, each opponent discards a card.</text>
 		</card>
 		<card>
 			<name>Chamber of New Anointment</name>
-			<text>Whenever a permanent you control betrays a permanent, you gain 2 life, then put a charge counter on this artifact.
-{2}{W}{B}, {T}, Remove X charge counters from this artifact: Return target creature card with mana value less than or equal to X plus 2 from your graveyard to the battlefield. Activate only as a sorcery.</text>
+			<text>Whenever you sacrifice a permanent, you may scry 1. Then if that permanent was betrayed, put two charge counters on this artifact.
+{1}{W}{B}, {T}, Remove X charge counters from this artifact: Return target creature card with mana value less than or equal to X plus 1 from your graveyard to the battlefield. Activate only as a sorcery.</text>
 			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/ASM-files/img/201_Chamber of New Anointment.png" num="201">ASM</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
 				<type>Artifact</type>
 				<maintype>Artifact</maintype>
-				<manacost>2WB</manacost>
-				<cmc>4</cmc>
+				<manacost>1WB</manacost>
+				<cmc>3</cmc>
 				<colors>WB</colors>
 				<coloridentity>WB</coloridentity>
 			</prop>

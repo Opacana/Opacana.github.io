@@ -1,4 +1,84 @@
-﻿VERSION 19 CHANGELOG
+﻿VERSION 20 CHANGELOG
+====================
+
+
+
+Priest of the Angel's Path
+rules_text: {1}{W}, {T}: Tap target creature. => {W}, {T}: Tap target artifact or creature.
+
+Mindless Servant
+type: Creature — Golem => Artifact Creature — Golem
+
+Room
+cost: {1}{W} => {W}
+rules_text: Target permanent gains indestructible until end of turn => Target permanent gains indestructible until end of turn.
+
+Feeding Time
+rules_text: Create three 1/1 white and black Cat creature tokens.
+Scry 1. => Create three 1/1 white and black Cat creature tokens.
+Scry 2.
+
+Meditative Wisdom
+rules_text: Draw three cards, then discard a card. => Draw three cards, then discard a card. If a player cast another spell this turn, you may choose not to discard a card this way.
+
+Second
+
+Unsorted Scrolls
+rules_text: Sacrifice this artifact: Surveil 2.
+When this artifact leaves the battlefield, you may pay {1}{U}. When you do, return target instant or sorcery from your graveyard to your hand. => Sacrifice this artifact: Surveil 2.
+When this artifact leaves the battlefield, you may pay {1}{U}. When you do, return target instant or sorcery card from your graveyard to your hand.
+
+Fleshform Serket
+
+Burial Chamber Guardian
+rules_text: Defender, menace
+{1}{B}: This creature loses defender and gets +1/+0 until end of turn. => Defender, menace
+{1}{B}: Until end of turn, this creature loses defender and gets +1/+0.
+
+Oashra Vitalist
+type: Creature — Naga Druid => Creature — Snake Druid
+
+Keeper of Blessed Waters
+rules_text: {1}: Move a counter from one creature you control to another creature you control, then untap one of those creatures. Activate only once each turn. => {1}: Move a counter from a creature you control to another creature you control, then untap one of those creatures. Activate only once each turn.
+
+Returned Vizier
+pt: 3/2 => 3/3
+
+Diplomatic Conclave
+rules_text: At the beginning of each opponent's upkeep, they may tap an untapped creature they control. If they don't, you draw a card.
+{W}, Sacrifice this enchantment: Exile target tapped creature. Activate only as a sorcery. => At the beginning of each opponent's upkeep, they may tap an untapped creature they control. If they don't, you draw a card.
+{W}, Sacrifice this enchantment: Exile target tapped creature.
+
+Mystic Manipulation
+
+Shifting Constellations
+rules_text: {WU}, Tap an untapped creature you control: Target opponent taps an untapped creature they control. Put a star counter on this enchantment. Activate only once each turn.
+Remove three star counters from this enchantment: Take an extra turn after this one. Exile this enchantment. => {WU}, Tap an untapped creature you control: Target opponent taps an untapped creature they control. Put a star counter on this enchantment. Activate only once each turn.
+Remove three star counters from this enchantment and sacrifice it: Take an extra turn after this one.
+
+Ka-channel Wrapping
+rules_text: Whenever an ability of equipped creature is activated, you may copy that ability. You may choose new targets for the copy. This ability triggers only once each turn.
+Equip {1} => Whenever an ability of equipped creature is activated, you may copy that ability. You may choose new targets for the copy. This triggers only once each turn.
+Equip {1}
+
+Hyena Matriarch
+rules_text: This spell can't be countered as long as you control a creature with a counter on it.
+Trample, vigilance
+Whenever this creature enters or attacks, put a +1/+1 counter on it. => This spell can't be countered as long as you control a creature with one or more counters on it.
+Trample, vigilance
+Whenever this creature enters or attacks, put a +1/+1 counter on it.
+
+Domesticate
+cost: {2}{G}{G} => {1}{G}{G}
+
+Chamber of New Anointment
+cost: {2}{W}{B} => {1}{W}{B}
+rules_text: Whenever a permanent you control betrays a permanent, you gain 2 life, then put a charge counter on this artifact.
+{2}{W}{B}, {T}, Remove X charge counters from this artifact: Return target creature card with mana value less than or equal to X plus 2 from your graveyard to the battlefield. Activate only as a sorcery. => Whenever you sacrifice a permanent, you may scry 1. Then if that permanent was betrayed, put two charge counters on this artifact.
+{1}{W}{B}, {T}, Remove X charge counters from this artifact: Return target creature card with mana value less than or equal to X plus 1 from your graveyard to the battlefield. Activate only as a sorcery.
+
+
+VERSION 19 CHANGELOG
 ====================
 
 

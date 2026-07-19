@@ -67,7 +67,7 @@
             "number": 26,
             "color_identity": "W",
             "cost": "{1}{W}",
-            "rules_text": "{1}{W}, {T}: Tap target creature.",
+            "rules_text": "{W}, {T}: Tap target artifact or creature.",
             "flavor_text": "[i]\u201cOnly the righteous can walk down the road I guard.\u201d[/i]",
             "pt": "2/2",
             "special_text": "",
@@ -75,7 +75,7 @@
             "set": "ASM",
             "loyalty": "",
             "artist": "Ba Vo",
-            "notes": "02/05/2026: Changed hybrid symbol to just W."
+            "notes": "02/05/2026: Changed hybrid symbol to just W.\n\nJuly 15th, 2026: Reduced cost of activated ability from 1W to just W after comparing to similar existing cards in MSEM, and added ability to tap down artifacts."
         },
         {
             "card_name": "Envoy of New Ways",
@@ -207,7 +207,7 @@
             "card_name": "Mindless Servant",
             "color": "W",
             "rarity": "common",
-            "type": "Creature \u2014 Golem",
+            "type": "Artifact Creature \u2014 Golem",
             "number": 24,
             "color_identity": "W",
             "cost": "{4}{W}{W}",
@@ -282,8 +282,8 @@
             "type": "Instant",
             "number": 31,
             "color_identity": "W",
-            "cost": "{1}{W}",
-            "rules_text": "Target permanent gains indestructible until end of turn",
+            "cost": "{W}",
+            "rules_text": "Target permanent gains indestructible until end of turn.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -301,7 +301,7 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "",
-            "notes": "Order changed after feedback, May 1st, 2026\n\nName of both parts changed to fit pattern better, May 2nd, 2026.\n\nDemolition half changed to Sorcery and reduced cost from 2W to 1W, May 13th, 2026.\n\nLook at names for all aftermath cards in the set\n\nWas called Controlled (top) // Demolition (bottom)\n\nMay 22, 2026: Given name Room // Breathe\n\nJune 23rd, 2026: Breathe cost raised from 1W to 2W."
+            "notes": "Order changed after feedback, May 1st, 2026\n\nName of both parts changed to fit pattern better, May 2nd, 2026.\n\nDemolition half changed to Sorcery and reduced cost from 2W to 1W, May 13th, 2026.\n\nLook at names for all aftermath cards in the set\n\nWas called Controlled (top) // Demolition (bottom)\n\nMay 22, 2026: Given name Room // Breathe\n\nJune 23rd, 2026: Breathe cost raised from 1W to 2W.\n\nJuly 14th, 2026: Room casting cowst lowered from 1W to just W."
         },
         {
             "card_name": "Feeding Time",
@@ -311,7 +311,7 @@
             "number": 16,
             "color_identity": "W",
             "cost": "{3}{W}",
-            "rules_text": "Create three 1/1 white and black Cat creature tokens.\nScry 1.",
+            "rules_text": "Create three 1/1 white and black Cat creature tokens.\nScry 2.",
             "flavor_text": "[i]Whether in palaces or humble huts, cats were treated with respect and freedom. If one stopped showing up, it was assumed it roamed elsewhere.[/i]",
             "pt": "",
             "special_text": "",
@@ -319,7 +319,7 @@
             "set": "ASM",
             "loyalty": "",
             "artist": "Irenhorrors",
-            "notes": ""
+            "notes": "July 14th, 2026: Scry 1 changed to Scry 2."
         },
         {
             "card_name": "Maathep's Interdiction",
@@ -601,7 +601,7 @@
             "number": 55,
             "color_identity": "U",
             "cost": "{3}{U}",
-            "rules_text": "Draw three cards, then discard a card.",
+            "rules_text": "Draw three cards, then discard a card. If a player cast another spell this turn, you may choose not to discard a card this way.",
             "flavor_text": "[i]\u201cThis is not telepathy, nor clairvoyance. I am connecting with the essence of the multiverse of planes itself.\u201d[/i]",
             "pt": "",
             "special_text": "",
@@ -609,7 +609,7 @@
             "set": "ASM",
             "loyalty": "",
             "artist": "Litos Lopez",
-            "notes": ""
+            "notes": "July 15th, 2026: Added second aspect of the text for conditional choice of discard, to make it a bit more powerful/interesting."
         },
         {
             "card_name": "Turned to Stone",
@@ -655,7 +655,7 @@
             "special_text2": "",
             "loyalty2": "",
             "artist2": "",
-            "notes": "was called Deliver // An Ultimatum\nMay 22, 2026: Given new name Second // None\n\nJune 23rd, 2026: None raised from 4U to 5U, just to be safer."
+            "notes": "was called Deliver // An Ultimatum\nMay 22, 2026: Given new name Second // None"
         },
         {
             "card_name": "Tough",
@@ -739,7 +739,7 @@
             "number": 72,
             "color_identity": "U",
             "cost": "{U}",
-            "rules_text": "Sacrifice this artifact: Surveil 2.\nWhen this artifact leaves the battlefield, you may pay {1}{U}. When you do, return target instant or sorcery from your graveyard to your hand.",
+            "rules_text": "Sacrifice this artifact: Surveil 2.\nWhen this artifact leaves the battlefield, you may pay {1}{U}. When you do, return target instant or sorcery card from your graveyard to your hand.",
             "flavor_text": "[i]Knowledge going to waste was a grave offense to Snehemites.[/i]",
             "pt": "",
             "special_text": "",
@@ -794,7 +794,7 @@
             "color_identity": "B",
             "cost": "{1}{B}",
             "rules_text": "Deathtouch\nPay 3 life: Untap this creature. Activate only once each turn, and only as a sorcery.",
-            "flavor_text": "[i]Wasmawt taunted the Scorpion God at every opportunity, even at his own follower's expense.[/i]",
+            "flavor_text": "[i]Wasmawt taunted the Scorpion God at every opportunity, even at his own followers' expense.[/i]",
             "pt": "1/3",
             "special_text": "",
             "shape": "normal",
@@ -919,7 +919,7 @@
             "number": 81,
             "color_identity": "B",
             "cost": "{5}{B}{B}",
-            "rules_text": "Defender, menace\n{1}{B}: This creature loses defender and gets +1/+0 until end of turn.",
+            "rules_text": "Defender, menace\n{1}{B}: Until end of turn, this creature loses defender and gets +1/+0.",
             "flavor_text": "[i]A talented \u2014 and paranoid \u2014 vizier of long ago had enchanted these walls to protect his sarcophagus from looters.[/i]",
             "pt": "5/10",
             "special_text": "",
@@ -927,7 +927,7 @@
             "set": "ASM",
             "loyalty": "",
             "artist": "Julien Carrasco",
-            "notes": ""
+            "notes": "July 14th, 2026: Reordered the activated ability for clarity."
         },
         {
             "card_name": "Remains",
@@ -1525,7 +1525,7 @@
             "card_name": "Oashra Vitalist",
             "color": "G",
             "rarity": "common",
-            "type": "Creature \u2014 Naga Druid",
+            "type": "Creature \u2014 Snake Druid",
             "number": 187,
             "color_identity": "G",
             "cost": "{1}{G}",
@@ -2043,7 +2043,7 @@
             "number": 51,
             "color_identity": "U",
             "cost": "{1}{U}",
-            "rules_text": "{1}: Move a counter from one creature you control to another creature you control, then untap one of those creatures. Activate only once each turn.",
+            "rules_text": "{1}: Move a counter from a creature you control to another creature you control, then untap one of those creatures. Activate only once each turn.",
             "flavor_text": "[i]\u201cMother Divine Sab-Sunen, I call upon you to show us the way!\u201d[/i]",
             "pt": "2/2",
             "special_text": "",
@@ -2785,13 +2785,13 @@
             "cost": "{1}{W}{W}",
             "rules_text": "Flash\nFirst strike\nBetray [i](When this permanent enters, you may sacrifice another permanent that shares a color with it.)[/i]\nWhen this creature betrays a permanent, you gain 4 life.",
             "flavor_text": "[i][/i]",
-            "pt": "3/2",
+            "pt": "3/3",
             "special_text": "",
             "shape": "normal",
             "set": "ASM",
             "loyalty": "",
             "artist": "Raisouza",
-            "notes": "May 26, 2026: Now gaisn 4 life on betrays trigger, and raised to 3/2 from 2/2."
+            "notes": "May 26, 2026: Now gaisn 4 life on betrays trigger, and raised to 3/2 from 2/2.\n\nJuly 15th, 2026: Toughness raised from 2 to 3, after looking at comparable cards in MSEM (Taiyohata Champion and Cocky Bladesinger, mainly)."
         },
         {
             "card_name": "Basri Ket, Conflicted",
@@ -2819,7 +2819,7 @@
             "number": 13,
             "color_identity": "W",
             "cost": "{2}{W}",
-            "rules_text": "At the beginning of each opponent's upkeep, they may tap an untapped creature they control. If they don't, you draw a card.\n{W}, Sacrifice this enchantment: Exile target tapped creature. Activate only as a sorcery.",
+            "rules_text": "At the beginning of each opponent's upkeep, they may tap an untapped creature they control. If they don't, you draw a card.\n{W}, Sacrifice this enchantment: Exile target tapped creature.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -2827,7 +2827,7 @@
             "set": "ASM",
             "loyalty": "",
             "artist": "Maichol Quinto",
-            "notes": "May 26, 2026: Increased cost of second ability, gave it a sorcery speed restriction, and now only exiles tapped creatures, not just attacking ones."
+            "notes": "May 26, 2026: Increased cost of second ability, gave it a sorcery speed restriction, and now only exiles tapped creatures, not just attacking ones.\n\nJuly 13th, 2026: Removed sorcery speed restriction from the activated ability."
         },
         {
             "card_name": "Extracted Confession",
@@ -2935,7 +2935,7 @@
             "set": "ASM",
             "loyalty": "",
             "artist": "AshvejlouArts",
-            "notes": "check is Equipment is singular or plural\n\nMay 26, 2026: After pre-FT feedback \u2014 added x=3 or less qualifier to discount. Changed 'move' to 'attach' for the A/E mode to be more technically correct, and removed the requirement to target the victim creature as well as the a/e's being moved."
+            "notes": "\n\nMay 26, 2026: After pre-FT feedback \u2014 added x=3 or less qualifier to discount. Changed 'move' to 'attach' for the A/E mode to be more technically correct, and removed the requirement to target the victim creature as well as the a/e's being moved."
         },
         {
             "card_name": "Shifting Constellations",
@@ -2945,7 +2945,7 @@
             "number": 66,
             "color_identity": "WU",
             "cost": "{4}{U}",
-            "rules_text": "{WU}, Tap an untapped creature you control: Target opponent taps an untapped creature they control. Put a star counter on this enchantment. Activate only once each turn.\nRemove three star counters from this enchantment: Take an extra turn after this one. Exile this enchantment.",
+            "rules_text": "{WU}, Tap an untapped creature you control: Target opponent taps an untapped creature they control. Put a star counter on this enchantment. Activate only once each turn.\nRemove three star counters from this enchantment and sacrifice it: Take an extra turn after this one.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -2953,7 +2953,7 @@
             "set": "ASM",
             "loyalty": "",
             "artist": "Quartervirus",
-            "notes": "May 26, 2026: Changed casting cost from 3UU to 4U."
+            "notes": "May 26, 2026: Changed casting cost from 3UU to 4U.\n\nJuly 14th, 2026: In exchange for all other costs remaining the same, experimenting with it simply sacrificing itself, instead of exiling itself."
         },
         {
             "card_name": "Djamankh's Hydromancy",
@@ -3235,7 +3235,7 @@
             "number": 139,
             "color_identity": "R",
             "cost": "{1}{R}",
-            "rules_text": "Whenever an ability of equipped creature is activated, you may copy that ability. You may choose new targets for the copy. This ability triggers only once each turn.\nEquip {1}",
+            "rules_text": "Whenever an ability of equipped creature is activated, you may copy that ability. You may choose new targets for the copy. This triggers only once each turn.\nEquip {1}",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -3307,7 +3307,7 @@
             "number": 181,
             "color_identity": "G",
             "cost": "{3}{G}{G}",
-            "rules_text": "This spell can't be countered as long as you control a creature with a counter on it.\nTrample, vigilance\nWhenever this creature enters or attacks, put a +1/+1 counter on it.",
+            "rules_text": "This spell can't be countered as long as you control a creature with one or more counters on it.\nTrample, vigilance\nWhenever this creature enters or attacks, put a +1/+1 counter on it.",
             "flavor_text": "[i][/i]",
             "pt": "4/4",
             "special_text": "",
@@ -3352,7 +3352,7 @@
             "type": "Sorcery",
             "number": 169,
             "color_identity": "G",
-            "cost": "{2}{G}{G}",
+            "cost": "{1}{G}{G}",
             "rules_text": "Search your library for a creature card with mana value equal to or less than the number of different names among lands you control and put it onto the battlefield, then shuffle.",
             "flavor_text": "[i]\u201cBefriending a beast can be much harder than killing one.\u201d[/i]",
             "pt": "",
@@ -3361,7 +3361,7 @@
             "set": "ASM",
             "loyalty": "",
             "artist": "Ebuka Okwara",
-            "notes": ""
+            "notes": "July 16th, 2026: Reduced cost from 2GG to 1GG."
         },
         {
             "card_name": "Godsize",
@@ -4538,8 +4538,8 @@
             "type": "Artifact",
             "number": 201,
             "color_identity": "WB",
-            "cost": "{2}{W}{B}",
-            "rules_text": "Whenever a permanent you control betrays a permanent, you gain 2 life, then put a charge counter on this artifact.\n{2}{W}{B}, {T}, Remove X charge counters from this artifact: Return target creature card with mana value less than or equal to X plus 2 from your graveyard to the battlefield. Activate only as a sorcery.",
+            "cost": "{1}{W}{B}",
+            "rules_text": "Whenever you sacrifice a permanent, you may scry 1. Then if that permanent was betrayed, put two charge counters on this artifact.\n{1}{W}{B}, {T}, Remove X charge counters from this artifact: Return target creature card with mana value less than or equal to X plus 1 from your graveyard to the battlefield. Activate only as a sorcery.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -4547,7 +4547,7 @@
             "set": "ASM",
             "loyalty": "",
             "artist": "Michael Jaecks",
-            "notes": "!group Arcun\n\n\n\nPayoff\n\nArt changed on April 21, 2026 to fix overlap with Wish token art.\n\nApril 22, 2026: Can now only activate as a sorcery.\n\nJune 13th, 2026: Testing change on own initiative of reducing casting cost from 3WB to 2WB and it gets a charge counter whenever you betray, not just for betraying creatures.\n\nJune 30th, 2026: Reworded first ability to clarify it's the permanent doing the betraying and not betraying itself.\n\nJuly 4th, 2026: Changed ''another'' to ''a'' in its first ability."
+            "notes": "!group Arcun\n\nPayoff\n\nArt changed on April 21, 2026 to fix overlap with Wish token art.\n\nApril 22, 2026: Can now only activate as a sorcery.\n\nJune 13th, 2026: Testing change on own initiative of reducing casting cost from 3WB to 2WB and it gets a charge counter whenever you betray, not just for betraying creatures.\n\nJune 30th, 2026: Reworded first ability to clarify it's the permanent doing the betraying and not betraying itself.\n\nJuly 4th, 2026: Changed ''another'' to ''a'' in its first ability.\n\nJuly 16th, 2026: Revamped a bit to make it better; lowered casting cost by 1, cost of the activated ability by 1, now only X plus 1, and the static ability is now you scry 1 whenever you sac a permanent, then put 2 charge counters on this if it was betrayed."
         },
         {
             "card_name": "Divine Attunement",
@@ -5324,5 +5324,5 @@
             "notes": ""
         }
     ],
-    "version": 19
+    "version": 20
 }
