@@ -1,4 +1,48 @@
-﻿VERSION 20 CHANGELOG
+﻿VERSION 21 CHANGELOG
+====================
+
+
+
+The Wisdom of Unity
+
+Returned Master
+type: Creature — Zombie Giant => Creature — Zombie Giant Wizard
+
+Hippo Family
+rules_text: When this creature enters, if one or more counters were removed or put on a creature you control this turn, choose one —
+• Exile up to three cards from target player's graveyard.
+• Gain 2 life and scry 1. => When this creature enters, if one or more counters were removed from or put on a creature you control this turn, choose one —
+• Exile up to three cards from target player's graveyard.
+• Gain 2 life and scry 1.
+
+Supervisor's Intervention
+rules_text: Put a +1/+1 counter on target permanent you control. That permanent gains indestructible until end of turn.
+Permanents you control with counters on them gain hexproof until end of turn. => Put a +1/+1 counter on target permanent you control. That permanent gains hexproof until end of turn.
+Permanents you control with counters on them gain indestructible until end of turn.
+
+Tekhen, Ancient Spiresoul
+rules_text: Flying
+Lands you control are Treasure artifacts in addition to their other types and have “{T}, Sacrifice this artifact: Add one mana of any color.”
+Whenever Tekhen deals combat damage to an opponent, you may pay {2}{W}. When you do, you gain 1 life for each differently named artifact you control. => Flying
+Lands you control are Treasure artifacts in addition to their other types and have “{T}, Sacrifice this artifact: Add one mana of any color.”
+Whenever Tekhen deals damage to an opponent, you may pay {2}{W}. When you do, you gain 1 life for each differently named artifact you control.
+
+Scattered
+cost: {U}{U}{R} => {1}{U}{U}
+rules_text: Counter target spell. Then look at the top two cards of your library. [i](Put them back in the same order.)[/i] => Counter target spell.
+
+Tomb Builder
+rules_text: {1}: This creature becomes the color of your choice in addition to its other colors until end of turn.
+When this creature enters or dies, exile target opponent's graveyard. => When this creature enters or dies, exile target opponent's graveyard.
+{1}: This creature becomes the color of your choice in addition to its other colors until end of turn.
+
+Icon of Unity
+rules_text: Spells you cast cost {1} less to cast.
+Whenever you cast a spell that's one or more colors, note those colors. If you haven't noted those colors this turn, you gain 1 life for each of those colors. => Spells you cast cost {1} less to cast.
+The first time each turn you cast a white spell, you gain 1 life. The same is true for blue, black, red and green.
+
+
+VERSION 20 CHANGELOG
 ====================
 
 
