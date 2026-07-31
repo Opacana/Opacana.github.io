@@ -5,7 +5,7 @@
 			<name>ASM</name>
 			<longname>Amonkhet: Schism</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-07-26</releasedate>
+			<releasedate>2026-07-30</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -1087,7 +1087,7 @@ When this creature dies, it deals 1 damage to any noncreature target.</text>
 		<card>
 			<name>Shadowseller</name>
 			<text>Haste
-Pay 2 life: Copy target activated ability of a source you control. Activate only once each turn, and only during your turn.</text>
+Pay 2 life: Copy target activated ability of another source you control. Activate only once each turn, and only during your turn.</text>
 			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/151_Shadowseller.png" num="151">ASM</set>
 			<prop>
 				<layout>normal</layout>
@@ -1233,7 +1233,7 @@ Target creature you control fights target creature you don&apos;t control.</text
 		</card>
 		<card>
 			<name>Stealing the Beacon</name>
-			<text>This spell costs {1} less to cast as long as you&apos;ve activated an ability of a nonland card this turn.
+			<text>This spell costs {1} less to cast as long as you&apos;ve activated an ability of a nonland card or permanent this turn.
 Exile the top two cards of your library. Until the end of your next turn, you may play those cards.</text>
 			<set rarity="common" picurl="https://Opacana.github.io/sets/ASM-files/img/154_Stealing the Beacon.png" num="154">ASM</set>
 			<prop>
@@ -2403,7 +2403,8 @@ If a creature would die this turn, exile it instead.</text>
 		</card>
 		<card>
 			<name>Eneri, Cunning Treasurer</name>
-			<text>{X}, {T}: Put X charge counters on this creature.
+			<text>Ward {1}
+{X}, {T}: Put X charge counters on this creature.
 {T}, Remove X charge counters from this creature: Add one mana of any color for each counter removed this way.</text>
 			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/ASM-files/img/171_Eneri, Cunning Treasurer.png" num="171">ASM</set>
 			<prop>
@@ -2411,8 +2412,8 @@ If a creature would die this turn, exile it instead.</text>
 				<side>front</side>
 				<type>Legendary Creature — Human Druid Rogue</type>
 				<maintype>Creature</maintype>
-				<manacost>G</manacost>
-				<cmc>1</cmc>
+				<manacost>1G</manacost>
+				<cmc>2</cmc>
 				<colors>G</colors>
 				<coloridentity>G</coloridentity>
 				<pt>1/1</pt>
@@ -3019,7 +3020,7 @@ When this creature betrays a permanent, it deals 2 damage to any target. If a mu
 			<text>At the beginning of combat on your turn, choose one —
 • Put a Coward creature type counter on target creature you don&apos;t control.
 • Put a +1/+1 counter on target Warrior you control.
-Cowards can&apos;t block Warriors.</text>
+Cowards can&apos;t block Warriors or Soldiers.</text>
 			<set rarity="rare" picurl="https://Opacana.github.io/sets/ASM-files/img/148_Righteous Passion.png" num="148">ASM</set>
 			<prop>
 				<layout>normal</layout>
@@ -3885,7 +3886,7 @@ Enchanted land is a 0/1 Elemental creature that&apos;s all colors, and has indes
 		<card>
 			<name>Naktamun Market Streets</name>
 			<text>{T}: Add {C}. If you control three or more Oasis lands, you may add one mana of any color instead.
-{8}, {T}: Scry 2, then draw a card. You gain 2 life. This ability costs {1} less to activate for each Oasis you control.</text>
+{7}, {T}: Scry 2, then draw two cards and gain 2 life. This ability costs {1} less to activate for each Oasis you control.</text>
 			<set rarity="mythic" picurl="https://Opacana.github.io/sets/ASM-files/img/253_Naktamun Market Streets.png" num="253">ASM</set>
 			<prop>
 				<layout>normal</layout>

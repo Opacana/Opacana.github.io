@@ -1228,7 +1228,7 @@
             "number": 151,
             "color_identity": "R",
             "cost": "{2}{R}",
-            "rules_text": "Haste\nPay 2 life: Copy target activated ability of a source you control. Activate only once each turn, and only during your turn.",
+            "rules_text": "Haste\nPay 2 life: Copy target activated ability of another source you control. Activate only once each turn, and only during your turn.",
             "flavor_text": "[i]\u201cYour dreams are beautiful. Let me help you achieve them, won't you?\u201d[/i]",
             "pt": "2/2",
             "special_text": "",
@@ -1236,7 +1236,7 @@
             "set": "ASM",
             "loyalty": "",
             "artist": "Azazel Al-Khalifa",
-            "notes": "",
+            "notes": "July 29th, 2026: Added ''another'' target restriction. Just on the very low chance it could be exploited in some way without it.",
             "image_type": "png"
         },
         {
@@ -1400,7 +1400,7 @@
             "number": 154,
             "color_identity": "R",
             "cost": "{2}{R}",
-            "rules_text": "This spell costs {1} less to cast as long as you've activated an ability of a nonland card this turn.\nExile the top two cards of your library. Until the end of your next turn, you may play those cards.",
+            "rules_text": "This spell costs {1} less to cast as long as you've activated an ability of a nonland card or permanent this turn.\nExile the top two cards of your library. Until the end of your next turn, you may play those cards.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -1408,7 +1408,7 @@
             "set": "ASM",
             "loyalty": "",
             "artist": "Marishka Kleyman",
-            "notes": "",
+            "notes": "July 29th, 2026: Fixed first paragraph to read ''nonland card or permanent\" as it should've been from the start.",
             "image_type": "png"
         },
         {
@@ -1735,7 +1735,7 @@
             "color_identity": "G",
             "cost": "{4}{G}{G}",
             "rules_text": "Trample\n{3}: Destroy target noncreature, nonbasic permanent. Activate only if this creature dealt combat damage to a planeswalker or player this turn.",
-            "flavor_text": "[i][/i]",
+            "flavor_text": "[i]An elephant never forgets a friend \u2014 or an enemy.[/i]",
             "pt": "6/6",
             "special_text": "",
             "shape": "normal",
@@ -2694,8 +2694,8 @@
             "type": "Legendary Creature \u2013 Human Druid Rogue",
             "number": 171,
             "color_identity": "G",
-            "cost": "{G}",
-            "rules_text": "{X}, {T}: Put X charge counters on this creature.\n{T}, Remove X charge counters from this creature: Add one mana of any color for each counter removed this way.",
+            "cost": "{1}{G}",
+            "rules_text": "Ward {1}\n{X}, {T}: Put X charge counters on this creature.\n{T}, Remove X charge counters from this creature: Add one mana of any color for each counter removed this way.",
             "flavor_text": "[i][/i]",
             "pt": "1/1",
             "special_text": "",
@@ -2703,7 +2703,7 @@
             "set": "ASM",
             "loyalty": "",
             "artist": "B.c.N.y. (Han-Yuan, Yu)",
-            "notes": "",
+            "notes": "July 27, 2026: Testing change of casting cost from G to 1G, to avoid it falling afoul of MSEM's desire not to have single cards that can let player cast 5mv spells on turn 3.\n\nJuly 28th, 2026: Added Ward 1 to make it a little bit stronger.",
             "image_type": "png"
         },
         {
@@ -3351,7 +3351,7 @@
             "number": 148,
             "color_identity": "R",
             "cost": "{2}{R}",
-            "rules_text": "At the beginning of combat on your turn, choose one \u2013\n\u2022 Put a Coward creature type counter on target creature you don't control.\n\u2022 Put a +1/+1 counter on target Warrior you control.\nCowards can't block Warriors.",
+            "rules_text": "At the beginning of combat on your turn, choose one \u2013\n\u2022 Put a Coward creature type counter on target creature you don't control.\n\u2022 Put a +1/+1 counter on target Warrior you control.\nCowards can't block Warriors or Soldiers.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -3359,7 +3359,7 @@
             "set": "ASM",
             "loyalty": "",
             "artist": "Pinkhavok",
-            "notes": "June 12th, 2026: Changed from on-enter-and-upkeep to simpler at-beginning-of-combat-on-your-turn.",
+            "notes": "June 12th, 2026: Changed from on-enter-and-upkeep to simpler at-beginning-of-combat-on-your-turn.\n\nJuly 30th, 2026: Added Soldiers to types Cowards can't block, to broaden applicability of the card a bit.",
             "image_type": "png"
         },
         {
@@ -4087,7 +4087,7 @@
             "color_identity": "C",
             "cost": "{3}",
             "rules_text": "The first time each turn you sacrifice a creature, create a Treasure token.",
-            "flavor_text": "[i]Unlike Darux, Ketramose only appreciated blood when given as an act of true devotion, faith, sacrifice or contrition.[/i]",
+            "flavor_text": "[i]Unlike Darux, Ketramose only appreciated blood when given as an act of true devotion, sacrifice or contrition.[/i]",
             "pt": "",
             "special_text": "",
             "shape": "normal",
@@ -4353,7 +4353,7 @@
             "number": 253,
             "color_identity": "C",
             "cost": "",
-            "rules_text": "{T}: Add {C}. If you control three or more Oasis lands, you may add one mana of any color instead.\n{8}, {T}: Scry 2, then draw a card. You gain 2 life. This ability costs {1} less to activate for each Oasis you control.",
+            "rules_text": "{T}: Add {C}. If you control three or more Oasis lands, you may add one mana of any color instead.\n{7}, {T}: Scry 2, then draw two cards and gain 2 life. This ability costs {1} less to activate for each Oasis you control.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -4361,7 +4361,7 @@
             "set": "ASM",
             "loyalty": "",
             "artist": "Tilio Bonnefoy",
-            "notes": "May 26, 2026: Changed 'every' to 'each.'\n\nJune 29th, 2026: Changed threshold to get rainbow mana from four Oases to just three.",
+            "notes": "May 26, 2026: Changed 'every' to 'each.'\n\nJune 29th, 2026: Changed threshold to get rainbow mana from four Oases to just three.\n\nJuly 30th, 2026: Second ability cost lowered by 1, and now draws 2 instead of just 1.",
             "image_type": "png"
         },
         {

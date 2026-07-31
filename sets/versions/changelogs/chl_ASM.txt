@@ -1,4 +1,45 @@
-﻿VERSION 21 CHANGELOG
+﻿VERSION 22 CHANGELOG
+====================
+
+
+
+Shadowseller
+rules_text: Haste
+Pay 2 life: Copy target activated ability of a source you control. Activate only once each turn, and only during your turn. => Haste
+Pay 2 life: Copy target activated ability of another source you control. Activate only once each turn, and only during your turn.
+
+Stealing the Beacon
+rules_text: This spell costs {1} less to cast as long as you've activated an ability of a nonland card this turn.
+Exile the top two cards of your library. Until the end of your next turn, you may play those cards. => This spell costs {1} less to cast as long as you've activated an ability of a nonland card or permanent this turn.
+Exile the top two cards of your library. Until the end of your next turn, you may play those cards.
+
+Avenging Elephant
+
+Eneri, Cunning Treasurer
+cost: {G} => {1}{G}
+rules_text: {X}, {T}: Put X charge counters on this creature.
+{T}, Remove X charge counters from this creature: Add one mana of any color for each counter removed this way. => Ward {1}
+{X}, {T}: Put X charge counters on this creature.
+{T}, Remove X charge counters from this creature: Add one mana of any color for each counter removed this way.
+
+Righteous Passion
+rules_text: At the beginning of combat on your turn, choose one —
+• Put a Coward creature type counter on target creature you don't control.
+• Put a +1/+1 counter on target Warrior you control.
+Cowards can't block Warriors. => At the beginning of combat on your turn, choose one —
+• Put a Coward creature type counter on target creature you don't control.
+• Put a +1/+1 counter on target Warrior you control.
+Cowards can't block Warriors or Soldiers.
+
+Blood of the Pious
+
+Naktamun Market Streets
+rules_text: {T}: Add {C}. If you control three or more Oasis lands, you may add one mana of any color instead.
+{8}, {T}: Scry 2, then draw a card. You gain 2 life. This ability costs {1} less to activate for each Oasis you control. => {T}: Add {C}. If you control three or more Oasis lands, you may add one mana of any color instead.
+{7}, {T}: Scry 2, then draw two cards and gain 2 life. This ability costs {1} less to activate for each Oasis you control.
+
+
+VERSION 21 CHANGELOG
 ====================
 
 

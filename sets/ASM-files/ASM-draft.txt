@@ -1333,7 +1333,7 @@
 		{
 			"name": "Eneri, Cunning Treasurer",
 			"rarity": "uncommon",
-			"mana_cost": "{G}",
+			"mana_cost": "{1}{G}",
 			"type": "Legendary Creature — Human Druid Rogue",
 			"collector_number": "171",
 			"image_uris": {
