@@ -1,14 +1,6 @@
 ﻿[
     {
         "card_name": "Bastion of Maathep",
-        "number": 199,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "Bloodblade Naga",
         "number": 200,
         "shape": "normal",
         "set": "ASM",
@@ -16,7 +8,7 @@
         "position": ""
     },
     {
-        "card_name": "Boiling Bloodlust",
+        "card_name": "Bloodblade Naga",
         "number": 201,
         "shape": "normal",
         "set": "ASM",
@@ -24,7 +16,7 @@
         "position": ""
     },
     {
-        "card_name": "Chamber of New Anointment",
+        "card_name": "Boiling Bloodlust",
         "number": 202,
         "shape": "normal",
         "set": "ASM",
@@ -32,7 +24,7 @@
         "position": ""
     },
     {
-        "card_name": "Chariot Commander",
+        "card_name": "Chamber of New Anointment",
         "number": 203,
         "shape": "normal",
         "set": "ASM",
@@ -40,8 +32,16 @@
         "position": ""
     },
     {
+        "card_name": "Chariot Commander",
+        "number": 204,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
         "card_name": "Crucible of Eternity",
-        "number": 205,
+        "number": 206,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -49,7 +49,7 @@
     },
     {
         "card_name": "Divine Attunement",
-        "number": 208,
+        "number": 209,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -57,7 +57,7 @@
     },
     {
         "card_name": "First Altar of Wasmawt",
-        "number": 212,
+        "number": 213,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -65,7 +65,7 @@
     },
     {
         "card_name": "Gentle and Raging",
-        "number": 214,
+        "number": 215,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -73,14 +73,6 @@
     },
     {
         "card_name": "High Priest of Ketramose",
-        "number": 218,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "Hofan Slithermaster",
         "number": 219,
         "shape": "normal",
         "set": "ASM",
@@ -88,15 +80,15 @@
         "position": ""
     },
     {
-        "card_name": "Maathep's Servant",
-        "number": 223,
+        "card_name": "Hofan Slithermaster",
+        "number": 220,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "Mistress of Leashes",
+        "card_name": "Maathep's Servant",
         "number": 224,
         "shape": "normal",
         "set": "ASM",
@@ -104,7 +96,7 @@
         "position": ""
     },
     {
-        "card_name": "Officiant of the Arisen",
+        "card_name": "Mistress of Leashes",
         "number": 225,
         "shape": "normal",
         "set": "ASM",
@@ -112,7 +104,7 @@
         "position": ""
     },
     {
-        "card_name": "Priest of Gah-Api",
+        "card_name": "Officiant of the Arisen",
         "number": 226,
         "shape": "normal",
         "set": "ASM",
@@ -120,8 +112,16 @@
         "position": ""
     },
     {
+        "card_name": "Priest of Gah-Api",
+        "number": 227,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
         "card_name": "Scion of New Rivers",
-        "number": 230,
+        "number": 231,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -129,14 +129,6 @@
     },
     {
         "card_name": "Tjuf, Herald of Snehem",
-        "number": 232,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "Training Regimen",
         "number": 233,
         "shape": "normal",
         "set": "ASM",
@@ -144,7 +136,7 @@
         "position": ""
     },
     {
-        "card_name": "Voyage to New Homes",
+        "card_name": "Training Regimen",
         "number": 234,
         "shape": "normal",
         "set": "ASM",
@@ -152,8 +144,16 @@
         "position": ""
     },
     {
-        "card_name": "Walking Oasis",
+        "card_name": "Voyage to New Homes",
         "number": 235,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Walking Oasis",
+        "number": 236,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -174,7 +174,7 @@
     "a->God",
     {
         "card_name": "Darux, Miasma of Passion",
-        "number": 206,
+        "number": 207,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -182,7 +182,7 @@
     },
     {
         "card_name": "Gah-Api, Life's Hope",
-        "number": 213,
+        "number": 214,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -190,7 +190,7 @@
     },
     {
         "card_name": "Ghrin-Danu, Watchful Mother",
-        "number": 215,
+        "number": 216,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -198,7 +198,7 @@
     },
     {
         "card_name": "Hazoret, Zealous Survivor",
-        "number": 217,
+        "number": 218,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -206,14 +206,6 @@
     },
     {
         "card_name": "Ketramose, Virtuous Sacrifice",
-        "number": 221,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "Maathep, Lawgiver",
         "number": 222,
         "shape": "normal",
         "set": "ASM",
@@ -221,8 +213,16 @@
         "position": ""
     },
     {
+        "card_name": "Maathep, Lawgiver",
+        "number": 223,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
         "card_name": "Sab-Sunen, Flow of Time",
-        "number": 227,
+        "number": 228,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -230,7 +230,7 @@
     },
     {
         "card_name": "Scarab God, Wrath of Eons",
-        "number": 229,
+        "number": 230,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -238,7 +238,7 @@
     },
     {
         "card_name": "Snehem, God of Locusts",
-        "number": 231,
+        "number": 232,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -246,7 +246,7 @@
     },
     {
         "card_name": "Wasmawt, Inevitable Death",
-        "number": 236,
+        "number": 237,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -285,7 +285,7 @@
     },
     {
         "card_name": "Archangel of Ketramose",
-        "number": 80,
+        "number": 81,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -301,7 +301,7 @@
     },
     {
         "card_name": "Assembling the Menagerie",
-        "number": 162,
+        "number": 163,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -325,7 +325,7 @@
     },
     {
         "card_name": "Method",
-        "number": 100,
+        "number": 101,
         "shape": "aftermath",
         "set": "ASM",
         "rotated": false,
@@ -365,7 +365,7 @@
     },
     {
         "card_name": "Bx'sur, Chosen of Darux",
-        "number": 83,
+        "number": 84,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -373,7 +373,7 @@
     },
     {
         "card_name": "Agree",
-        "number": 121,
+        "number": 122,
         "shape": "aftermath",
         "set": "ASM",
         "rotated": false,
@@ -405,7 +405,7 @@
     },
     {
         "card_name": "Coming Forth by Night",
-        "number": 87,
+        "number": 88,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -413,7 +413,7 @@
     },
     {
         "card_name": "Allure of the Victorious",
-        "number": 122,
+        "number": 123,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -445,7 +445,7 @@
     },
     {
         "card_name": "Eternal Embalmer",
-        "number": 89,
+        "number": 90,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -485,7 +485,7 @@
     },
     {
         "card_name": "Isift, Vizier of Ifnir",
-        "number": 95,
+        "number": 96,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -525,7 +525,7 @@
     },
     {
         "card_name": "Isift's Judgment",
-        "number": 96,
+        "number": 97,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -557,7 +557,7 @@
     },
     {
         "card_name": "Scattered",
-        "number": 64,
+        "number": 65,
         "shape": "aftermath",
         "set": "ASM",
         "rotated": false,
@@ -565,7 +565,7 @@
     },
     {
         "card_name": "Soulmaster Seter",
-        "number": 113,
+        "number": 114,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -597,7 +597,7 @@
     },
     {
         "card_name": "Shifting Constellations",
-        "number": 67,
+        "number": 68,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -605,7 +605,7 @@
     },
     {
         "card_name": "Wasmawt's Blessing",
-        "number": 117,
+        "number": 118,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -637,7 +637,7 @@
     },
     {
         "card_name": "Snehemite Novitiate",
-        "number": 68,
+        "number": 69,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -645,7 +645,7 @@
     },
     {
         "card_name": "Betrayal of Secrets",
-        "number": 81,
+        "number": 82,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -653,16 +653,16 @@
     },
     {
         "card_name": "Bite",
-        "number": 124,
+        "number": 125,
         "shape": "aftermath",
         "set": "ASM",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "Close",
-        "number": 166,
-        "shape": "aftermath",
+        "card_name": "Cover-Up",
+        "number": 167,
+        "shape": "normal",
         "set": "ASM",
         "rotated": false,
         "position": ""
@@ -685,7 +685,7 @@
     },
     {
         "card_name": "Ceaseless Fighters",
-        "number": 86,
+        "number": 87,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -693,15 +693,15 @@
     },
     {
         "card_name": "Churning of Lava",
-        "number": 126,
+        "number": 127,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "Cover-Up",
-        "number": 167,
+        "card_name": "Danurian Woodcaller",
+        "number": 168,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -725,7 +725,7 @@
     },
     {
         "card_name": "Hyena Pack Attack",
-        "number": 93,
+        "number": 94,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -733,15 +733,15 @@
     },
     {
         "card_name": "Corrupted Emberhorn",
-        "number": 127,
+        "number": 128,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "Danurian Woodcaller",
-        "number": 168,
+        "card_name": "Delta Monitor",
+        "number": 169,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -765,7 +765,7 @@
     },
     {
         "card_name": "Localized Disaster",
-        "number": 97,
+        "number": 98,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -773,15 +773,15 @@
     },
     {
         "card_name": "Darkstorm Bolt",
-        "number": 128,
+        "number": 129,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "Delta Monitor",
-        "number": 169,
+        "card_name": "Eneri, Cunning Treasurer",
+        "number": 171,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -805,7 +805,7 @@
     },
     {
         "card_name": "Merciless Brawler",
-        "number": 99,
+        "number": 100,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -813,15 +813,15 @@
     },
     {
         "card_name": "Daruxian Spinescourger",
-        "number": 129,
+        "number": 130,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "Eneri, Cunning Treasurer",
-        "number": 171,
+        "card_name": "Gargantuan Abytira",
+        "number": 173,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -845,7 +845,7 @@
     },
     {
         "card_name": "Mindstab Ravager",
-        "number": 101,
+        "number": 102,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -860,8 +860,8 @@
         "position": ""
     },
     {
-        "card_name": "Gargantuan Abytira",
-        "number": 173,
+        "card_name": "Giant Carrion Beetle",
+        "number": 175,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -885,7 +885,7 @@
     },
     {
         "card_name": "Obssessed Falconer",
-        "number": 103,
+        "number": 104,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -900,8 +900,8 @@
         "position": ""
     },
     {
-        "card_name": "Giant Carrion Beetle",
-        "number": 175,
+        "card_name": "Luxa Shoremage",
+        "number": 185,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -925,7 +925,7 @@
     },
     {
         "card_name": "Omnivorous Exhumer",
-        "number": 104,
+        "number": 105,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -940,8 +940,8 @@
         "position": ""
     },
     {
-        "card_name": "Luxa Shoremage",
-        "number": 185,
+        "card_name": "Naga Secretstealer",
+        "number": 187,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -965,7 +965,7 @@
     },
     {
         "card_name": "Rise of the Doomed",
-        "number": 107,
+        "number": 108,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -980,8 +980,8 @@
         "position": ""
     },
     {
-        "card_name": "Naga Secretstealer",
-        "number": 187,
+        "card_name": "Paladin of Ghrin-Danu",
+        "number": 190,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -997,7 +997,7 @@
     },
     {
         "card_name": "Track Guardian",
-        "number": 71,
+        "number": 72,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -1005,7 +1005,7 @@
     },
     {
         "card_name": "Scarab Armor",
-        "number": 108,
+        "number": 109,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -1020,8 +1020,8 @@
         "position": ""
     },
     {
-        "card_name": "Paladin of Ghrin-Danu",
-        "number": 190,
+        "card_name": "Stumble Upon Sanctuary",
+        "number": 193,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -1037,7 +1037,7 @@
     },
     {
         "card_name": "Unsorted Scrolls",
-        "number": 73,
+        "number": 74,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -1045,7 +1045,7 @@
     },
     {
         "card_name": "Scion of Emptiness",
-        "number": 109,
+        "number": 110,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -1060,8 +1060,8 @@
         "position": ""
     },
     {
-        "card_name": "Stumble Upon Sanctuary",
-        "number": 193,
+        "card_name": "Supervisor's Intervention",
+        "number": 194,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -1077,7 +1077,7 @@
     },
     {
         "card_name": "Vessel of Genius",
-        "number": 74,
+        "number": 75,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -1085,7 +1085,7 @@
     },
     {
         "card_name": "Vessel of Darkness",
-        "number": 115,
+        "number": 116,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -1100,9 +1100,9 @@
         "position": ""
     },
     {
-        "card_name": "Supervisor's Intervention",
-        "number": 194,
-        "shape": "normal",
+        "card_name": "Tough Act",
+        "number": 196,
+        "shape": "aftermath",
         "set": "ASM",
         "rotated": false,
         "position": ""
@@ -1117,7 +1117,7 @@
     },
     {
         "card_name": "Vigilant Obstructionist",
-        "number": 75,
+        "number": 76,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -1125,23 +1125,23 @@
     },
     {
         "card_name": "Vile Judge",
-        "number": 116,
+        "number": 117,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "Vessel of Wrath",
+        "card_name": "Up",
         "number": 158,
-        "shape": "normal",
+        "shape": "aftermath",
         "set": "ASM",
         "rotated": false,
         "position": ""
     },
     {
         "card_name": "Vessel of Nature",
-        "number": 197,
+        "number": 198,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -1157,7 +1157,7 @@
     },
     {
         "card_name": "The Wisdom of Unity",
-        "number": 77,
+        "number": 78,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -1165,14 +1165,14 @@
     },
     {
         "card_name": "Wasmawt's Presence",
-        "number": 118,
+        "number": 119,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "Wine Priestess",
+        "card_name": "Vessel of Wrath",
         "number": 159,
         "shape": "normal",
         "set": "ASM",
@@ -1181,7 +1181,7 @@
     },
     {
         "card_name": "Vital Takeover",
-        "number": 198,
+        "number": 199,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -1197,7 +1197,7 @@
     },
     {
         "card_name": "Yours",
-        "number": 78,
+        "number": 79,
         "shape": "aftermath",
         "set": "ASM",
         "rotated": false,
@@ -1205,15 +1205,15 @@
     },
     {
         "card_name": "Word",
-        "number": 119,
+        "number": 120,
         "shape": "aftermath",
         "set": "ASM",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "Abrade",
-        "number": 120,
+        "card_name": "Wine Priestess",
+        "number": 160,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -1221,7 +1221,7 @@
     },
     {
         "card_name": "Adjust to Abundance",
-        "number": 160,
+        "number": 161,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -1245,15 +1245,15 @@
     },
     {
         "card_name": "Burial Chamber Guardian",
-        "number": 82,
+        "number": 83,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "Avenging Minotaur",
-        "number": 123,
+        "card_name": "Abrade",
+        "number": 121,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -1261,7 +1261,7 @@
     },
     {
         "card_name": "Apepisw Gate",
-        "number": 161,
+        "number": 162,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -1285,15 +1285,15 @@
     },
     {
         "card_name": "Canopic Harvester",
-        "number": 84,
+        "number": 85,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "Bloodsand Lich",
-        "number": 125,
+        "card_name": "Avenging Minotaur",
+        "number": 124,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -1301,7 +1301,7 @@
     },
     {
         "card_name": "Avenging Elephant",
-        "number": 163,
+        "number": 164,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -1325,15 +1325,15 @@
     },
     {
         "card_name": "Carcass Collector",
-        "number": 85,
+        "number": 86,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "Frontier Messenger",
-        "number": 132,
+        "card_name": "Bloodsand Lich",
+        "number": 126,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -1341,7 +1341,7 @@
     },
     {
         "card_name": "Boat-climber Cobra",
-        "number": 164,
+        "number": 165,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -1365,15 +1365,15 @@
     },
     {
         "card_name": "Disintegrating Wrappings",
-        "number": 88,
+        "number": 89,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "Helm of Hazoret",
-        "number": 133,
+        "card_name": "Frontier Messenger",
+        "number": 132,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -1381,7 +1381,7 @@
     },
     {
         "card_name": "City's Founding",
-        "number": 165,
+        "number": 166,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -1405,15 +1405,15 @@
     },
     {
         "card_name": "Feast on Flesh",
-        "number": 90,
+        "number": 91,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "Holy Pyre",
-        "number": 135,
+        "card_name": "Helm of Hazoret",
+        "number": 133,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -1445,16 +1445,16 @@
     },
     {
         "card_name": "Ferocious Cobra",
-        "number": 91,
+        "number": 92,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "Hot",
-        "number": 136,
-        "shape": "aftermath",
+        "card_name": "Holy Pyre",
+        "number": 135,
+        "shape": "normal",
         "set": "ASM",
         "rotated": false,
         "position": ""
@@ -1485,16 +1485,16 @@
     },
     {
         "card_name": "Fleshform Serket",
-        "number": 92,
+        "number": 93,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "Ka-Blade Champion",
-        "number": 139,
-        "shape": "normal",
+        "card_name": "Hot",
+        "number": 136,
+        "shape": "aftermath",
         "set": "ASM",
         "rotated": false,
         "position": ""
@@ -1525,15 +1525,15 @@
     },
     {
         "card_name": "Ifnir Farseer",
-        "number": 94,
+        "number": 95,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "Maahestet Champion",
-        "number": 144,
+        "card_name": "Ka-Blade Champion",
+        "number": 139,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -1565,16 +1565,16 @@
     },
     {
         "card_name": "Mantle of Shards",
-        "number": 98,
+        "number": 99,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "Pay",
-        "number": 145,
-        "shape": "aftermath",
+        "card_name": "Maahestet Champion",
+        "number": 144,
+        "shape": "normal",
         "set": "ASM",
         "rotated": false,
         "position": ""
@@ -1596,25 +1596,25 @@
         "position": ""
     },
     {
-        "card_name": "Second",
-        "number": 65,
-        "shape": "aftermath",
+        "card_name": "Scarabine Adherent",
+        "number": 64,
+        "shape": "normal",
         "set": "ASM",
         "rotated": false,
         "position": ""
     },
     {
         "card_name": "Moment of Weakness",
-        "number": 102,
+        "number": 103,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "Rage-Cursed Returned",
-        "number": 146,
-        "shape": "normal",
+        "card_name": "Pay",
+        "number": 145,
+        "shape": "aftermath",
         "set": "ASM",
         "rotated": false,
         "position": ""
@@ -1636,24 +1636,24 @@
         "position": ""
     },
     {
-        "card_name": "Seshen Pollinators",
+        "card_name": "Second",
         "number": 66,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "Remains",
-        "number": 105,
         "shape": "aftermath",
         "set": "ASM",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "Role Model Sergeant",
-        "number": 149,
+        "card_name": "Remains",
+        "number": 106,
+        "shape": "aftermath",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Rage-Cursed Returned",
+        "number": 146,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -1676,8 +1676,8 @@
         "position": ""
     },
     {
-        "card_name": "Soul Administrator",
-        "number": 69,
+        "card_name": "Seshen Pollinators",
+        "number": 67,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -1685,15 +1685,15 @@
     },
     {
         "card_name": "Returned Master",
-        "number": 106,
+        "number": 107,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "Shadowseller",
-        "number": 151,
+        "card_name": "Role Model Sergeant",
+        "number": 149,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -1716,24 +1716,24 @@
         "position": ""
     },
     {
-        "card_name": "Tough",
+        "card_name": "Soul Administrator",
         "number": 70,
-        "shape": "aftermath",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "Selling Lives",
-        "number": 110,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "Starving Sandwurm",
-        "number": 153,
+        "card_name": "Selling Lives",
+        "number": 111,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Shadowseller",
+        "number": 151,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -1756,24 +1756,24 @@
         "position": ""
     },
     {
-        "card_name": "Turned to Stone",
-        "number": 72,
-        "shape": "normal",
+        "card_name": "Tough",
+        "number": 71,
+        "shape": "aftermath",
         "set": "ASM",
         "rotated": false,
         "position": ""
     },
     {
         "card_name": "Sentimental Thug",
-        "number": 111,
+        "number": 112,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
         "position": ""
     },
     {
-        "card_name": "Stealing the Beacon",
-        "number": 154,
+        "card_name": "Starving Sandwurm",
+        "number": 153,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -1796,8 +1796,8 @@
         "position": ""
     },
     {
-        "card_name": "Vindictive Sphinx",
-        "number": 76,
+        "card_name": "Turned to Stone",
+        "number": 73,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -1805,7 +1805,42 @@
     },
     {
         "card_name": "Serrated Scorpion",
-        "number": 112,
+        "number": 113,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Stealing the Beacon",
+        "number": 154,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Twilight Market",
+        "number": 197,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Vindictive Sphinx",
+        "number": 77,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Spinal Diviner",
+        "number": 115,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -1820,8 +1855,14 @@
         "position": ""
     },
     {
-        "card_name": "Twilight Market",
-        "number": 196,
+        "card_name": "e"
+    },
+    {
+        "card_name": "e"
+    },
+    {
+        "card_name": "Zenith Hunter",
+        "number": 80,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -1829,22 +1870,6 @@
     },
     {
         "card_name": "e"
-    },
-    {
-        "card_name": "Zenith Hunter",
-        "number": 79,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "Spinal Diviner",
-        "number": 114,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
     },
     {
         "card_name": "e"
@@ -1867,7 +1892,7 @@
     "a->gold",
     {
         "card_name": "Council's Decree",
-        "number": 204,
+        "number": 205,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -1875,7 +1900,7 @@
     },
     {
         "card_name": "Done",
-        "number": 210,
+        "number": 211,
         "shape": "aftermath",
         "set": "ASM",
         "rotated": false,
@@ -1883,7 +1908,7 @@
     },
     {
         "card_name": "Embalmed Dragon",
-        "number": 211,
+        "number": 212,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -1891,7 +1916,7 @@
     },
     {
         "card_name": "Samut, Expedition Leader",
-        "number": 228,
+        "number": 229,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -1899,7 +1924,7 @@
     },
     {
         "card_name": "Katilda's Crucible",
-        "number": 220,
+        "number": 221,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -1922,7 +1947,7 @@
     },
     {
         "card_name": "Zahur, Maahestet Leader",
-        "number": 237,
+        "number": 238,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -1933,7 +1958,7 @@
     },
     {
         "card_name": "Great Serpent's Arrival",
-        "number": 216,
+        "number": 217,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -1941,7 +1966,7 @@
     },
     {
         "card_name": "Djeru, Lord General",
-        "number": 209,
+        "number": 210,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -1949,7 +1974,7 @@
     },
     {
         "card_name": "Dejukhab Bull",
-        "number": 207,
+        "number": 208,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -1970,46 +1995,6 @@
     "a->colorless",
     {
         "card_name": "Blood of the Pious",
-        "number": 238,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "Icon of Unity",
-        "number": 241,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "Lazotep Blade",
-        "number": 243,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "Memorial Obelisk",
-        "number": 244,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "Spellfire Khopesh",
-        "number": 247,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "Gleaming Capstone",
         "number": 239,
         "shape": "normal",
         "set": "ASM",
@@ -2017,15 +2002,7 @@
         "position": ""
     },
     {
-        "card_name": "Grounds Guardian",
-        "number": 240,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "Lazoskin Tracker",
+        "card_name": "Icon of Unity",
         "number": 242,
         "shape": "normal",
         "set": "ASM",
@@ -2033,7 +2010,15 @@
         "position": ""
     },
     {
-        "card_name": "Pendant of Bright Futures",
+        "card_name": "Lazotep Blade",
+        "number": 244,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Memorial Obelisk",
         "number": 245,
         "shape": "normal",
         "set": "ASM",
@@ -2041,7 +2026,39 @@
         "position": ""
     },
     {
-        "card_name": "Private Feast",
+        "card_name": "Spellfire Khopesh",
+        "number": 248,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Gleaming Capstone",
+        "number": 240,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Grounds Guardian",
+        "number": 241,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Lazoskin Tracker",
+        "number": 243,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Pendant of Bright Futures",
         "number": 246,
         "shape": "normal",
         "set": "ASM",
@@ -2049,8 +2066,16 @@
         "position": ""
     },
     {
+        "card_name": "Private Feast",
+        "number": 247,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
         "card_name": "Tomb Builder",
-        "number": 248,
+        "number": 249,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -2085,70 +2110,6 @@
     },
     {
         "card_name": "Naktamun Market Streets",
-        "number": 253,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "Foreboding Gate",
-        "number": 249,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "Hidden Necropolis Entrance",
-        "number": 250,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "Lake Sebay",
-        "number": 251,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "Port Kharteru",
-        "number": 255,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "Shefet Shrublands",
-        "number": 256,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "Sulfurous Baths",
-        "number": 257,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "Mirage Pool",
-        "number": 252,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "Noble's Treasury",
         "number": 254,
         "shape": "normal",
         "set": "ASM",
@@ -2156,8 +2117,72 @@
         "position": ""
     },
     {
-        "card_name": "Winding River",
+        "card_name": "Foreboding Gate",
+        "number": 250,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Hidden Necropolis Entrance",
+        "number": 251,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Lake Sebay",
+        "number": 252,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Port Kharteru",
+        "number": 256,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Shefet Shrublands",
+        "number": 257,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Sulfurous Baths",
         "number": 258,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Mirage Pool",
+        "number": 253,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Noble's Treasury",
+        "number": 255,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Winding River",
+        "number": 259,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,
@@ -2180,14 +2205,6 @@
     },
     {
         "card_name": "Plains",
-        "number": 259,
-        "shape": "normal",
-        "set": "ASM",
-        "rotated": false,
-        "position": ""
-    },
-    {
-        "card_name": "Island",
         "number": 260,
         "shape": "normal",
         "set": "ASM",
@@ -2195,7 +2212,7 @@
         "position": ""
     },
     {
-        "card_name": "Swamp",
+        "card_name": "Island",
         "number": 261,
         "shape": "normal",
         "set": "ASM",
@@ -2203,7 +2220,7 @@
         "position": ""
     },
     {
-        "card_name": "Mountain",
+        "card_name": "Swamp",
         "number": 262,
         "shape": "normal",
         "set": "ASM",
@@ -2211,8 +2228,16 @@
         "position": ""
     },
     {
-        "card_name": "Forest",
+        "card_name": "Mountain",
         "number": 263,
+        "shape": "normal",
+        "set": "ASM",
+        "rotated": false,
+        "position": ""
+    },
+    {
+        "card_name": "Forest",
+        "number": 264,
         "shape": "normal",
         "set": "ASM",
         "rotated": false,

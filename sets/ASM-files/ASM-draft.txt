@@ -5,9 +5,9 @@
 			"rarity": "common",
 			"mana_cost": "{4}",
 			"type": "Artifact",
-			"collector_number": "245",
+			"collector_number": "246",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/245_Pendant of Bright Futures.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/246_Pendant of Bright Futures.png"
 			}
 		},
 		{
@@ -163,7 +163,7 @@
 		{
 			"name": "Feeding Time",
 			"rarity": "common",
-			"mana_cost": "{3}{W}",
+			"mana_cost": "{2}{W}",
 			"type": "Sorcery",
 			"collector_number": "16",
 			"image_uris": {
@@ -205,9 +205,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{U}",
 			"type": "Creature — Zombie Jackal Advisor",
-			"collector_number": "69",
+			"collector_number": "70",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/69_Soul Administrator.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/70_Soul Administrator.png"
 			}
 		},
 		{
@@ -235,9 +235,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{U}",
 			"type": "Creature — Insect",
-			"collector_number": "66",
+			"collector_number": "67",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/66_Seshen Pollinators.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/67_Seshen Pollinators.png"
 			}
 		},
 		{
@@ -245,9 +245,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{U}",
 			"type": "Creature — Jackal Wizard",
-			"collector_number": "79",
+			"collector_number": "80",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/79_Zenith Hunter.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/80_Zenith Hunter.png"
 			}
 		},
 		{
@@ -265,9 +265,9 @@
 			"rarity": "common",
 			"mana_cost": "{3}{U}{U}",
 			"type": "Creature — Sphinx Warlock",
-			"collector_number": "76",
+			"collector_number": "77",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/76_Vindictive Sphinx.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/77_Vindictive Sphinx.png"
 			}
 		},
 		{
@@ -325,9 +325,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{U}",
 			"type": "Enchantment — Aura",
-			"collector_number": "72",
+			"collector_number": "73",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/72_Turned to Stone.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/73_Turned to Stone.png"
 			}
 		},
 		{
@@ -335,9 +335,9 @@
 			"rarity": "common",
 			"mana_cost": "{3}{U}",
 			"type": "Instant",
-			"collector_number": "65",
+			"collector_number": "66",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/65_Second.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/66_Second.png"
 			}
 		},
 		{
@@ -345,9 +345,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{U}",
 			"type": "Instant",
-			"collector_number": "70",
+			"collector_number": "71",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/70_Tough.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/71_Tough.png"
 			}
 		},
 		{
@@ -375,9 +375,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{U}",
 			"type": "Artifact",
-			"collector_number": "73",
+			"collector_number": "74",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/73_Unsorted Scrolls.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/74_Unsorted Scrolls.png"
 			}
 		},
 		{
@@ -385,9 +385,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{U}",
 			"type": "Enchantment",
-			"collector_number": "77",
+			"collector_number": "78",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/77_The Wisdom of Unity.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/78_The Wisdom of Unity.png"
 			}
 		},
 		{
@@ -395,9 +395,9 @@
 			"rarity": "common",
 			"mana_cost": "{B}",
 			"type": "Creature — Scorpion",
-			"collector_number": "112",
+			"collector_number": "113",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/112_Serrated Scorpion.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/113_Serrated Scorpion.png"
 			}
 		},
 		{
@@ -405,9 +405,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{B}",
 			"type": "Creature — Zombie Horror Insect",
-			"collector_number": "92",
+			"collector_number": "93",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/92_Fleshform Serket.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/93_Fleshform Serket.png"
 			}
 		},
 		{
@@ -415,9 +415,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{B}",
 			"type": "Creature — Jackal Warrior Rogue",
-			"collector_number": "111",
+			"collector_number": "112",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/111_Sentimental Thug.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/112_Sentimental Thug.png"
 			}
 		},
 		{
@@ -425,9 +425,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{B}{B}",
 			"type": "Creature — Human Warlock",
-			"collector_number": "84",
+			"collector_number": "85",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/84_Canopic Harvester.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/85_Canopic Harvester.png"
 			}
 		},
 		{
@@ -435,9 +435,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{B}",
 			"type": "Creature — Bird Demon Zombie",
-			"collector_number": "85",
+			"collector_number": "86",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/85_Carcass Collector.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/86_Carcass Collector.png"
 			}
 		},
 		{
@@ -445,19 +445,19 @@
 			"rarity": "common",
 			"mana_cost": "{3}{B}",
 			"type": "Creature — Snake Horror",
-			"collector_number": "91",
+			"collector_number": "92",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/91_Ferocious Cobra.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/92_Ferocious Cobra.png"
 			}
 		},
 		{
 			"name": "Ifnir Farseer",
 			"rarity": "common",
-			"mana_cost": "{3}{B}{B}",
+			"mana_cost": "{2}{B}{B}",
 			"type": "Creature — Demon Wizard",
-			"collector_number": "94",
+			"collector_number": "95",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/94_Ifnir Farseer.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/95_Ifnir Farseer.png"
 			}
 		},
 		{
@@ -465,9 +465,9 @@
 			"rarity": "common",
 			"mana_cost": "{4}{B}{B}",
 			"type": "Creature — Zombie Giant Wizard",
-			"collector_number": "106",
+			"collector_number": "107",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/106_Returned Master.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/107_Returned Master.png"
 			}
 		},
 		{
@@ -475,9 +475,9 @@
 			"rarity": "common",
 			"mana_cost": "{5}{B}{B}",
 			"type": "Creature — Zombie Golem",
-			"collector_number": "82",
+			"collector_number": "83",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/82_Burial Chamber Guardian.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/83_Burial Chamber Guardian.png"
 			}
 		},
 		{
@@ -485,9 +485,9 @@
 			"rarity": "common",
 			"mana_cost": "{3}{B}",
 			"type": "Sorcery",
-			"collector_number": "105",
+			"collector_number": "106",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/105_Remains.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/106_Remains.png"
 			}
 		},
 		{
@@ -495,9 +495,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{B}",
 			"type": "Instant",
-			"collector_number": "98",
+			"collector_number": "99",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/98_Mantle of Shards.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/99_Mantle of Shards.png"
 			}
 		},
 		{
@@ -505,9 +505,9 @@
 			"rarity": "common",
 			"mana_cost": "{B}",
 			"type": "Instant",
-			"collector_number": "110",
+			"collector_number": "111",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/110_Selling Lives.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/111_Selling Lives.png"
 			}
 		},
 		{
@@ -515,9 +515,9 @@
 			"rarity": "common",
 			"mana_cost": "{3}{B}",
 			"type": "Sorcery",
-			"collector_number": "102",
+			"collector_number": "103",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/102_Moment of Weakness.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/103_Moment of Weakness.png"
 			}
 		},
 		{
@@ -525,9 +525,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{B}{B}",
 			"type": "Sorcery",
-			"collector_number": "88",
+			"collector_number": "89",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/88_Disintegrating Wrappings.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/89_Disintegrating Wrappings.png"
 			}
 		},
 		{
@@ -535,9 +535,9 @@
 			"rarity": "common",
 			"mana_cost": "{B}",
 			"type": "Artifact",
-			"collector_number": "114",
+			"collector_number": "115",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/114_Spinal Diviner.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/115_Spinal Diviner.png"
 			}
 		},
 		{
@@ -545,9 +545,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{B}",
 			"type": "Sorcery",
-			"collector_number": "81",
+			"collector_number": "82",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/81_Betrayal of Secrets.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/82_Betrayal of Secrets.png"
 			}
 		},
 		{
@@ -555,9 +555,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{B}",
 			"type": "Artifact — Equipment",
-			"collector_number": "108",
+			"collector_number": "109",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/108_Scarab Armor.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/109_Scarab Armor.png"
 			}
 		},
 		{
@@ -565,9 +565,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{B}",
 			"type": "Sorcery",
-			"collector_number": "119",
+			"collector_number": "120",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/119_Word.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/120_Word.png"
 			}
 		},
 		{
@@ -615,9 +615,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{R}",
 			"type": "Creature — Zombie Spirit Warlock",
-			"collector_number": "125",
+			"collector_number": "126",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/125_Bloodsand Lich.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/126_Bloodsand Lich.png"
 			}
 		},
 		{
@@ -645,9 +645,9 @@
 			"rarity": "common",
 			"mana_cost": "{4}{R}",
 			"type": "Creature — Minotaur Barbarian",
-			"collector_number": "123",
+			"collector_number": "124",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/123_Avenging Minotaur.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/124_Avenging Minotaur.png"
 			}
 		},
 		{
@@ -695,9 +695,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{R}",
 			"type": "Instant",
-			"collector_number": "120",
+			"collector_number": "121",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/120_Abrade.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/121_Abrade.png"
 			}
 		},
 		{
@@ -755,9 +755,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{R}",
 			"type": "Sorcery",
-			"collector_number": "124",
+			"collector_number": "125",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/124_Bite.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/125_Bite.png"
 			}
 		},
 		{
@@ -765,9 +765,9 @@
 			"rarity": "common",
 			"mana_cost": "{G}",
 			"type": "Creature — Wall",
-			"collector_number": "161",
+			"collector_number": "162",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/161_Apepisw Gate.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/162_Apepisw Gate.png"
 			}
 		},
 		{
@@ -815,9 +815,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{G}{G}",
 			"type": "Creature — Snake",
-			"collector_number": "164",
+			"collector_number": "165",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/164_Boat-climber Cobra.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/165_Boat-climber Cobra.png"
 			}
 		},
 		{
@@ -845,9 +845,9 @@
 			"rarity": "common",
 			"mana_cost": "{4}{G}{G}",
 			"type": "Creature — Elephant",
-			"collector_number": "163",
+			"collector_number": "164",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/163_Avenging Elephant.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/164_Avenging Elephant.png"
 			}
 		},
 		{
@@ -885,9 +885,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{G}",
 			"type": "Sorcery",
-			"collector_number": "165",
+			"collector_number": "166",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/165_City's Founding.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/166_City's Founding.png"
 			}
 		},
 		{
@@ -895,9 +895,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}{G}",
 			"type": "Sorcery",
-			"collector_number": "196",
+			"collector_number": "197",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/196_Twilight Market.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/197_Twilight Market.png"
 			}
 		},
 		{
@@ -921,13 +921,13 @@
 			}
 		},
 		{
-			"name": "Close",
+			"name": "Tough Act",
 			"rarity": "uncommon",
 			"mana_cost": "{G}",
 			"type": "Sorcery",
-			"collector_number": "166",
+			"collector_number": "196",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/166_Close.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/196_Tough Act.png"
 			}
 		},
 		{
@@ -1075,9 +1075,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{U}",
 			"type": "Creature — Human Wizard",
-			"collector_number": "75",
+			"collector_number": "76",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/75_Vigilant Obstructionist.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/76_Vigilant Obstructionist.png"
 			}
 		},
 		{
@@ -1085,9 +1085,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{U}{U}",
 			"type": "Creature — Human Wizard Cleric",
-			"collector_number": "74",
+			"collector_number": "75",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/74_Vessel of Genius.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/75_Vessel of Genius.png"
 			}
 		},
 		{
@@ -1105,9 +1105,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{U}{U}",
 			"type": "Creature — Snake Warlock Archer",
-			"collector_number": "71",
+			"collector_number": "72",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/71_Track Guardian.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/72_Track Guardian.png"
 			}
 		},
 		{
@@ -1115,9 +1115,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{U}",
 			"type": "Instant",
-			"collector_number": "78",
+			"collector_number": "79",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/78_Yours.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/79_Yours.png"
 			}
 		},
 		{
@@ -1145,9 +1145,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{B}",
 			"type": "Creature — Zombie Warrior",
-			"collector_number": "86",
+			"collector_number": "87",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/86_Ceaseless Fighters.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/87_Ceaseless Fighters.png"
 			}
 		},
 		{
@@ -1155,9 +1155,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{B}",
 			"type": "Creature — Snake Mutant Warlock",
-			"collector_number": "109",
+			"collector_number": "110",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/109_Scion of Emptiness.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/110_Scion of Emptiness.png"
 			}
 		},
 		{
@@ -1165,9 +1165,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{B}",
 			"type": "Creature — Human Noble",
-			"collector_number": "103",
+			"collector_number": "104",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/103_Obssessed Falconer.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/104_Obssessed Falconer.png"
 			}
 		},
 		{
@@ -1175,9 +1175,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{B}{B}",
 			"type": "Creature — Human Cleric",
-			"collector_number": "115",
+			"collector_number": "116",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/115_Vessel of Darkness.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/116_Vessel of Darkness.png"
 			}
 		},
 		{
@@ -1185,9 +1185,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{4}{B}",
 			"type": "Creature — Manticore",
-			"collector_number": "104",
+			"collector_number": "105",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/104_Omnivorous Exhumer.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/105_Omnivorous Exhumer.png"
 			}
 		},
 		{
@@ -1195,9 +1195,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{4}{B}{B}",
 			"type": "Creature — Minotaur Warrior",
-			"collector_number": "99",
+			"collector_number": "100",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/99_Merciless Brawler.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/100_Merciless Brawler.png"
 			}
 		},
 		{
@@ -1205,9 +1205,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{B}",
 			"type": "Enchantment",
-			"collector_number": "107",
+			"collector_number": "108",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/107_Rise of the Doomed.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/108_Rise of the Doomed.png"
 			}
 		},
 		{
@@ -1215,9 +1215,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{B}",
 			"type": "Sorcery",
-			"collector_number": "97",
+			"collector_number": "98",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/97_Localized Disaster.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/98_Localized Disaster.png"
 			}
 		},
 		{
@@ -1225,9 +1225,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{B}",
 			"type": "Instant",
-			"collector_number": "93",
+			"collector_number": "94",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/93_Hyena Pack Attack.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/94_Hyena Pack Attack.png"
 			}
 		},
 		{
@@ -1265,9 +1265,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{R}{R}",
 			"type": "Creature — Jackal Cleric",
-			"collector_number": "158",
+			"collector_number": "159",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/158_Vessel of Wrath.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/159_Vessel of Wrath.png"
 			}
 		},
 		{
@@ -1285,9 +1285,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{R}{R}",
 			"type": "Creature — Human Artificer Cleric",
-			"collector_number": "159",
+			"collector_number": "160",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/159_Wine Priestess.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/160_Wine Priestess.png"
 			}
 		},
 		{
@@ -1295,9 +1295,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{4}{R}{R}",
 			"type": "Creature — Demon Minotaur",
-			"collector_number": "127",
+			"collector_number": "128",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/127_Corrupted Emberhorn.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/128_Corrupted Emberhorn.png"
 			}
 		},
 		{
@@ -1305,9 +1305,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{R}",
 			"type": "Instant",
-			"collector_number": "128",
+			"collector_number": "129",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/128_Darkstorm Bolt.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/129_Darkstorm Bolt.png"
 			}
 		},
 		{
@@ -1321,13 +1321,13 @@
 			}
 		},
 		{
-			"name": "Eager",
+			"name": "Up",
 			"rarity": "uncommon",
 			"mana_cost": "{1}{R}",
 			"type": "Sorcery",
-			"collector_number": "130",
+			"collector_number": "158",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/130_Eager.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/158_Up.png"
 			}
 		},
 		{
@@ -1385,9 +1385,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{G}{G}",
 			"type": "Creature — Human Cleric",
-			"collector_number": "197",
+			"collector_number": "198",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/197_Vessel of Nature.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/198_Vessel of Nature.png"
 			}
 		},
 		{
@@ -1505,9 +1505,9 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{U}",
 			"type": "Creature — Human Wizard",
-			"collector_number": "68",
+			"collector_number": "69",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/68_Snehemite Novitiate.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/69_Snehemite Novitiate.png"
 			}
 		},
 		{
@@ -1545,9 +1545,9 @@
 			"rarity": "rare",
 			"mana_cost": "{4}{U}",
 			"type": "Enchantment",
-			"collector_number": "67",
+			"collector_number": "68",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/67_Shifting Constellations.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/68_Shifting Constellations.png"
 			}
 		},
 		{
@@ -1575,9 +1575,9 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{B}",
 			"type": "Legendary Creature — Jackal Warrior",
-			"collector_number": "83",
+			"collector_number": "84",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/83_Bx'sur, Chosen of Darux.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/84_Bx'sur, Chosen of Darux.png"
 			}
 		},
 		{
@@ -1585,9 +1585,9 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{B}",
 			"type": "Creature — Zombie Warlock",
-			"collector_number": "89",
+			"collector_number": "90",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/89_Eternal Embalmer.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/90_Eternal Embalmer.png"
 			}
 		},
 		{
@@ -1595,9 +1595,9 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{B}{B}",
 			"type": "Legendary Creature — Jackal Warlock Noble",
-			"collector_number": "113",
+			"collector_number": "114",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/113_Soulmaster Seter.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/114_Soulmaster Seter.png"
 			}
 		},
 		{
@@ -1605,9 +1605,9 @@
 			"rarity": "rare",
 			"mana_cost": "{4}{B}{B}",
 			"type": "Legendary Creature — Demon Noble",
-			"collector_number": "95",
+			"collector_number": "96",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/95_Isift, Vizier of Ifnir.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/96_Isift, Vizier of Ifnir.png"
 			}
 		},
 		{
@@ -1615,9 +1615,9 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{B}",
 			"type": "Sorcery",
-			"collector_number": "96",
+			"collector_number": "97",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/96_Isift's Judgment.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/97_Isift's Judgment.png"
 			}
 		},
 		{
@@ -1625,9 +1625,9 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{B}",
 			"type": "Enchantment — Aura",
-			"collector_number": "117",
+			"collector_number": "118",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/117_Wasmawt's Blessing.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/118_Wasmawt's Blessing.png"
 			}
 		},
 		{
@@ -1665,9 +1665,9 @@
 			"rarity": "rare",
 			"mana_cost": "{5}{R}",
 			"type": "Sorcery",
-			"collector_number": "122",
+			"collector_number": "123",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/122_Allure of the Victorious.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/123_Allure of the Victorious.png"
 			}
 		},
 		{
@@ -1685,9 +1685,9 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{R}",
 			"type": "Sorcery",
-			"collector_number": "121",
+			"collector_number": "122",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/121_Agree.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/122_Agree.png"
 			}
 		},
 		{
@@ -1815,9 +1815,9 @@
 			"rarity": "mythic",
 			"mana_cost": "{3}{B}",
 			"type": "Sorcery",
-			"collector_number": "100",
+			"collector_number": "101",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/100_Method.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/101_Method.png"
 			}
 		},
 		{
@@ -1825,9 +1825,9 @@
 			"rarity": "mythic",
 			"mana_cost": "{2}{B}{B}",
 			"type": "Creature — Zombie Angel",
-			"collector_number": "80",
+			"collector_number": "81",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/80_Archangel of Ketramose.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/81_Archangel of Ketramose.png"
 			}
 		},
 		{
@@ -1855,9 +1855,9 @@
 			"rarity": "mythic",
 			"mana_cost": "{1}{G}{G}",
 			"type": "Enchantment",
-			"collector_number": "162",
+			"collector_number": "163",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/162_Assembling the Menagerie.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/163_Assembling the Menagerie.png"
 			}
 		},
 		{
@@ -1875,9 +1875,9 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{W}{U}",
 			"type": "Instant",
-			"collector_number": "204",
+			"collector_number": "205",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/204_Council's Decree.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/205_Council's Decree.png"
 			}
 		},
 		{
@@ -1885,9 +1885,9 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{U}{B}",
 			"type": "Instant",
-			"collector_number": "210",
+			"collector_number": "211",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/210_Done.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/211_Done.png"
 			}
 		},
 		{
@@ -1895,9 +1895,9 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{B}{R}",
 			"type": "Creature — Zombie Dragon",
-			"collector_number": "211",
+			"collector_number": "212",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/211_Embalmed Dragon.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/212_Embalmed Dragon.png"
 			}
 		},
 		{
@@ -1905,9 +1905,9 @@
 			"rarity": "rare",
 			"mana_cost": "{2}{R}{G}",
 			"type": "Legendary Creature — Human Warrior",
-			"collector_number": "228",
+			"collector_number": "229",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/228_Samut, Expedition Leader.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/229_Samut, Expedition Leader.png"
 			}
 		},
 		{
@@ -1915,9 +1915,9 @@
 			"rarity": "rare",
 			"mana_cost": "{3}{G}{W}",
 			"type": "Artifact",
-			"collector_number": "220",
+			"collector_number": "221",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/220_Katilda's Crucible.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/221_Katilda's Crucible.png"
 			}
 		},
 		{
@@ -1925,9 +1925,9 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{W}{B}",
 			"type": "Legendary Creature — Zombie Cat Noble",
-			"collector_number": "237",
+			"collector_number": "238",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/237_Zahur, Maahestet Leader.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/238_Zahur, Maahestet Leader.png"
 			}
 		},
 		{
@@ -1935,9 +1935,9 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{U}{U}",
 			"type": "Instant",
-			"collector_number": "64",
+			"collector_number": "65",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/64_Scattered.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/65_Scattered.png"
 			}
 		},
 		{
@@ -1945,9 +1945,9 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{B}{G}",
 			"type": "Legendary Enchantment",
-			"collector_number": "216",
+			"collector_number": "217",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/216_Great Serpent's Arrival.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/217_Great Serpent's Arrival.png"
 			}
 		},
 		{
@@ -1955,9 +1955,9 @@
 			"rarity": "rare",
 			"mana_cost": "{1}{R}{W}",
 			"type": "Legendary Creature — Human Warrior Soldier",
-			"collector_number": "209",
+			"collector_number": "210",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/209_Djeru, Lord General.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/210_Djeru, Lord General.png"
 			}
 		},
 		{
@@ -1965,9 +1965,9 @@
 			"rarity": "rare",
 			"mana_cost": "{G}{U}",
 			"type": "Legendary Creature — Phelddagrif",
-			"collector_number": "207",
+			"collector_number": "208",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/207_Dejukhab Bull.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/208_Dejukhab Bull.png"
 			}
 		},
 		{
@@ -1975,9 +1975,9 @@
 			"rarity": "common",
 			"mana_cost": "{2}",
 			"type": "Artifact Creature — Construct Dog",
-			"collector_number": "242",
+			"collector_number": "243",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/242_Lazoskin Tracker.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/243_Lazoskin Tracker.png"
 			}
 		},
 		{
@@ -1985,9 +1985,9 @@
 			"rarity": "common",
 			"mana_cost": "{3}",
 			"type": "Artifact Creature — Golem Construct",
-			"collector_number": "248",
+			"collector_number": "249",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/248_Tomb Builder.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/249_Tomb Builder.png"
 			}
 		},
 		{
@@ -1995,9 +1995,9 @@
 			"rarity": "common",
 			"mana_cost": "{4}",
 			"type": "Artifact Creature — Construct",
-			"collector_number": "240",
+			"collector_number": "241",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/240_Grounds Guardian.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/241_Grounds Guardian.png"
 			}
 		},
 		{
@@ -2005,9 +2005,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}",
 			"type": "Artifact",
-			"collector_number": "246",
+			"collector_number": "247",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/246_Private Feast.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/247_Private Feast.png"
 			}
 		},
 		{
@@ -2015,9 +2015,9 @@
 			"rarity": "common",
 			"mana_cost": "{3}",
 			"type": "Artifact",
-			"collector_number": "239",
+			"collector_number": "240",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/239_Gleaming Capstone.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/240_Gleaming Capstone.png"
 			}
 		},
 		{
@@ -2025,9 +2025,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}",
 			"type": "Artifact",
-			"collector_number": "238",
+			"collector_number": "239",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/238_Blood of the Pious.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/239_Blood of the Pious.png"
 			}
 		},
 		{
@@ -2035,9 +2035,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}",
 			"type": "Artifact Creature — Wall",
-			"collector_number": "244",
+			"collector_number": "245",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/244_Memorial Obelisk.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/245_Memorial Obelisk.png"
 			}
 		},
 		{
@@ -2045,9 +2045,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Land — Oasis",
-			"collector_number": "258",
+			"collector_number": "259",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/258_Winding River.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/259_Winding River.png"
 			}
 		},
 		{
@@ -2055,9 +2055,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Land — Oasis",
-			"collector_number": "251",
+			"collector_number": "252",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/251_Lake Sebay.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/252_Lake Sebay.png"
 			}
 		},
 		{
@@ -2065,9 +2065,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Land — Oasis",
-			"collector_number": "255",
+			"collector_number": "256",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/255_Port Kharteru.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/256_Port Kharteru.png"
 			}
 		},
 		{
@@ -2075,9 +2075,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Land — Oasis",
-			"collector_number": "250",
+			"collector_number": "251",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/250_Hidden Necropolis Entrance.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/251_Hidden Necropolis Entrance.png"
 			}
 		},
 		{
@@ -2085,9 +2085,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Land — Oasis",
-			"collector_number": "257",
+			"collector_number": "258",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/257_Sulfurous Baths.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/258_Sulfurous Baths.png"
 			}
 		},
 		{
@@ -2095,9 +2095,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "",
 			"type": "Land — Oasis",
-			"collector_number": "256",
+			"collector_number": "257",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/256_Shefet Shrublands.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/257_Shefet Shrublands.png"
 			}
 		},
 		{
@@ -2115,9 +2115,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{B}{B}",
 			"type": "Enchantment",
-			"collector_number": "118",
+			"collector_number": "119",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/118_Wasmawt's Presence.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/119_Wasmawt's Presence.png"
 			}
 		},
 		{
@@ -2125,9 +2125,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{R}{R}",
 			"type": "Enchantment",
-			"collector_number": "126",
+			"collector_number": "127",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/126_Churning of Lava.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/127_Churning of Lava.png"
 			}
 		},
 		{
@@ -2145,9 +2145,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{G}",
 			"type": "Enchantment — Aura",
-			"collector_number": "198",
+			"collector_number": "199",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/198_Vital Takeover.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/199_Vital Takeover.png"
 			}
 		},
 		{
@@ -2155,9 +2155,9 @@
 			"rarity": "mythic",
 			"mana_cost": "",
 			"type": "Legendary Land — Oasis",
-			"collector_number": "253",
+			"collector_number": "254",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/253_Naktamun Market Streets.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/254_Naktamun Market Streets.png"
 			}
 		},
 		{
@@ -2165,9 +2165,9 @@
 			"rarity": "rare",
 			"mana_cost": "",
 			"type": "Land — Oasis",
-			"collector_number": "249",
+			"collector_number": "250",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/249_Foreboding Gate.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/250_Foreboding Gate.png"
 			}
 		},
 		{
@@ -2175,9 +2175,9 @@
 			"rarity": "mythic",
 			"mana_cost": "{1}{B}{R}",
 			"type": "Legendary Creature — Dragon God",
-			"collector_number": "206",
+			"collector_number": "207",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/206_Darux, Miasma of Passion.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/207_Darux, Miasma of Passion.png"
 			}
 		},
 		{
@@ -2185,9 +2185,9 @@
 			"rarity": "mythic",
 			"mana_cost": "{6}{R}{G}",
 			"type": "Legendary Creature — Bull God",
-			"collector_number": "213",
+			"collector_number": "214",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/213_Gah-Api, Life's Hope.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/214_Gah-Api, Life's Hope.png"
 			}
 		},
 		{
@@ -2195,9 +2195,9 @@
 			"rarity": "mythic",
 			"mana_cost": "{1}{G}{W}",
 			"type": "Legendary Creature — Dryad God",
-			"collector_number": "215",
+			"collector_number": "216",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/215_Ghrin-Danu, Watchful Mother.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/216_Ghrin-Danu, Watchful Mother.png"
 			}
 		},
 		{
@@ -2205,9 +2205,9 @@
 			"rarity": "mythic",
 			"mana_cost": "{3}{R}{W}",
 			"type": "Legendary Creature — Jackal God",
-			"collector_number": "217",
+			"collector_number": "218",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/217_Hazoret, Zealous Survivor.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/218_Hazoret, Zealous Survivor.png"
 			}
 		},
 		{
@@ -2215,9 +2215,9 @@
 			"rarity": "mythic",
 			"mana_cost": "{2}{W}{B}",
 			"type": "Legendary Creature — Cat God",
-			"collector_number": "221",
+			"collector_number": "222",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/221_Ketramose, Virtuous Sacrifice.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/222_Ketramose, Virtuous Sacrifice.png"
 			}
 		},
 		{
@@ -2225,9 +2225,9 @@
 			"rarity": "mythic",
 			"mana_cost": "{4}{G}{U}",
 			"type": "Legendary Creature — Frog God",
-			"collector_number": "227",
+			"collector_number": "228",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/227_Sab-Sunen, Flow of Time.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/228_Sab-Sunen, Flow of Time.png"
 			}
 		},
 		{
@@ -2235,9 +2235,9 @@
 			"rarity": "mythic",
 			"mana_cost": "{5}{U}{B}",
 			"type": "Legendary Creature — Insect God",
-			"collector_number": "229",
+			"collector_number": "230",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/229_Scarab God, Wrath of Eons.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/230_Scarab God, Wrath of Eons.png"
 			}
 		},
 		{
@@ -2245,9 +2245,9 @@
 			"rarity": "mythic",
 			"mana_cost": "{3}{W}{U}",
 			"type": "Legendary Creature — Angel God",
-			"collector_number": "222",
+			"collector_number": "223",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/222_Maathep, Lawgiver.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/223_Maathep, Lawgiver.png"
 			}
 		},
 		{
@@ -2255,9 +2255,9 @@
 			"rarity": "mythic",
 			"mana_cost": "{2}{U}{R}",
 			"type": "Legendary Creature — Insect God",
-			"collector_number": "231",
+			"collector_number": "232",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/231_Snehem, God of Locusts.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/232_Snehem, God of Locusts.png"
 			}
 		},
 		{
@@ -2265,9 +2265,9 @@
 			"rarity": "mythic",
 			"mana_cost": "{B}{G}",
 			"type": "Legendary Creature — Snake God",
-			"collector_number": "236",
+			"collector_number": "237",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/236_Wasmawt, Inevitable Death.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/237_Wasmawt, Inevitable Death.png"
 			}
 		},
 		{
@@ -2275,9 +2275,9 @@
 			"rarity": "common",
 			"mana_cost": "{1}{B}",
 			"type": "Sorcery",
-			"collector_number": "90",
+			"collector_number": "91",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/90_Feast on Flesh.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/91_Feast on Flesh.png"
 			}
 		},
 		{
@@ -2285,9 +2285,9 @@
 			"rarity": "rare",
 			"mana_cost": "{3}{B}{B}",
 			"type": "Sorcery",
-			"collector_number": "87",
+			"collector_number": "88",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/87_Coming Forth by Night.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/88_Coming Forth by Night.png"
 			}
 		},
 		{
@@ -2295,9 +2295,9 @@
 			"rarity": "common",
 			"mana_cost": "{G}",
 			"type": "Instant",
-			"collector_number": "160",
+			"collector_number": "161",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/160_Adjust to Abundance.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/161_Adjust to Abundance.png"
 			}
 		},
 		{
@@ -2305,9 +2305,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}",
 			"type": "Artifact",
-			"collector_number": "243",
+			"collector_number": "244",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/243_Lazotep Blade.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/244_Lazotep Blade.png"
 			}
 		},
 		{
@@ -2315,9 +2315,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{4}",
 			"type": "Artifact",
-			"collector_number": "241",
+			"collector_number": "242",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/241_Icon of Unity.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/242_Icon of Unity.png"
 			}
 		},
 		{
@@ -2325,9 +2325,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}",
 			"type": "Artifact",
-			"collector_number": "247",
+			"collector_number": "248",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/247_Spellfire Khopesh.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/248_Spellfire Khopesh.png"
 			}
 		},
 		{
@@ -2335,9 +2335,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{3}{R}{R}",
 			"type": "Creature — Dragon",
-			"collector_number": "129",
+			"collector_number": "130",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/129_Daruxian Spinescourger.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/130_Daruxian Spinescourger.png"
 			}
 		},
 		{
@@ -2345,9 +2345,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{B}{B}",
 			"type": "Creature — Jackal Zombie",
-			"collector_number": "101",
+			"collector_number": "102",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/101_Mindstab Ravager.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/102_Mindstab Ravager.png"
 			}
 		},
 		{
@@ -2355,9 +2355,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{5}{B}{B}",
 			"type": "Creature — Jackal Warlock",
-			"collector_number": "116",
+			"collector_number": "117",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/116_Vile Judge.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/117_Vile Judge.png"
 			}
 		},
 		{
@@ -2365,9 +2365,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{B}{R}",
 			"type": "Enchantment",
-			"collector_number": "201",
+			"collector_number": "202",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/201_Boiling Bloodlust.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/202_Boiling Bloodlust.png"
 			}
 		},
 		{
@@ -2375,9 +2375,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{W}{B}",
 			"type": "Artifact",
-			"collector_number": "202",
+			"collector_number": "203",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/202_Chamber of New Anointment.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/203_Chamber of New Anointment.png"
 			}
 		},
 		{
@@ -2385,9 +2385,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{U}{R}",
 			"type": "Enchantment",
-			"collector_number": "208",
+			"collector_number": "209",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/208_Divine Attunement.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/209_Divine Attunement.png"
 			}
 		},
 		{
@@ -2395,9 +2395,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{B}{G}",
 			"type": "Artifact",
-			"collector_number": "212",
+			"collector_number": "213",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/212_First Altar of Wasmawt.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/213_First Altar of Wasmawt.png"
 			}
 		},
 		{
@@ -2405,9 +2405,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{R}{G}",
 			"type": "Creature — Human Druid Rogue",
-			"collector_number": "224",
+			"collector_number": "225",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/224_Mistress of Leashes.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/225_Mistress of Leashes.png"
 			}
 		},
 		{
@@ -2415,9 +2415,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{U}{B}",
 			"type": "Creature — Human Cleric Warlock",
-			"collector_number": "225",
+			"collector_number": "226",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/225_Officiant of the Arisen.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/226_Officiant of the Arisen.png"
 			}
 		},
 		{
@@ -2425,9 +2425,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{G}{U}",
 			"type": "Creature — Human Cleric Druid",
-			"collector_number": "230",
+			"collector_number": "231",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/230_Scion of New Rivers.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/231_Scion of New Rivers.png"
 			}
 		},
 		{
@@ -2435,9 +2435,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{W}{U}",
 			"type": "Creature — Human Cleric Wizard",
-			"collector_number": "223",
+			"collector_number": "224",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/223_Maathep's Servant.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/224_Maathep's Servant.png"
 			}
 		},
 		{
@@ -2445,9 +2445,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{R}{W}",
 			"type": "Enchantment",
-			"collector_number": "233",
+			"collector_number": "234",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/233_Training Regimen.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/234_Training Regimen.png"
 			}
 		},
 		{
@@ -2455,9 +2455,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{G}{W}",
 			"type": "Creature — Elemental Golem",
-			"collector_number": "235",
+			"collector_number": "236",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/235_Walking Oasis.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/236_Walking Oasis.png"
 			}
 		},
 		{
@@ -2475,9 +2475,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{W}{U}",
 			"type": "Artifact",
-			"collector_number": "199",
+			"collector_number": "200",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/199_Bastion of Maathep.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/200_Bastion of Maathep.png"
 			}
 		},
 		{
@@ -2485,9 +2485,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{U}{B}",
 			"type": "Artifact",
-			"collector_number": "205",
+			"collector_number": "206",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/205_Crucible of Eternity.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/206_Crucible of Eternity.png"
 			}
 		},
 		{
@@ -2495,9 +2495,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{B}{R}",
 			"type": "Creature — Snake Warlock Warrior",
-			"collector_number": "200",
+			"collector_number": "201",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/200_Bloodblade Naga.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/201_Bloodblade Naga.png"
 			}
 		},
 		{
@@ -2505,9 +2505,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{2}{R}{G}",
 			"type": "Creature — Minotaur Cleric",
-			"collector_number": "226",
+			"collector_number": "227",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/226_Priest of Gah-Api.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/227_Priest of Gah-Api.png"
 			}
 		},
 		{
@@ -2515,9 +2515,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{G}{W}",
 			"type": "Enchantment",
-			"collector_number": "234",
+			"collector_number": "235",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/234_Voyage to New Homes.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/235_Voyage to New Homes.png"
 			}
 		},
 		{
@@ -2525,9 +2525,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{W}{B}",
 			"type": "Creature — Human Cleric Warlock",
-			"collector_number": "218",
+			"collector_number": "219",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/218_High Priest of Ketramose.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/219_High Priest of Ketramose.png"
 			}
 		},
 		{
@@ -2535,9 +2535,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{U}{R}",
 			"type": "Legendary Creature — Human Insect Mutant",
-			"collector_number": "232",
+			"collector_number": "233",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/232_Tjuf, Herald of Snehem.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/233_Tjuf, Herald of Snehem.png"
 			}
 		},
 		{
@@ -2545,9 +2545,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{B}{G}",
 			"type": "Creature — Snake Druid",
-			"collector_number": "219",
+			"collector_number": "220",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/219_Hofan Slithermaster.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/220_Hofan Slithermaster.png"
 			}
 		},
 		{
@@ -2555,9 +2555,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{1}{R}{W}",
 			"type": "Creature — Human Bird Warrior Soldier",
-			"collector_number": "203",
+			"collector_number": "204",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/203_Chariot Commander.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/204_Chariot Commander.png"
 			}
 		},
 		{
@@ -2565,9 +2565,9 @@
 			"rarity": "uncommon",
 			"mana_cost": "{G}{U}",
 			"type": "Enchantment",
-			"collector_number": "214",
+			"collector_number": "215",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/214_Gentle and Raging.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/215_Gentle and Raging.png"
 			}
 		},
 		{
@@ -2675,9 +2675,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Basic Land — Plains",
-			"collector_number": "259",
+			"collector_number": "260",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/259_Plains.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/260_Plains.png"
 			}
 		},
 		{
@@ -2685,9 +2685,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Basic Land — Island",
-			"collector_number": "260",
+			"collector_number": "261",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/260_Island.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/261_Island.png"
 			}
 		},
 		{
@@ -2695,9 +2695,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Basic Land — Swamp",
-			"collector_number": "261",
+			"collector_number": "262",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/261_Swamp.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/262_Swamp.png"
 			}
 		},
 		{
@@ -2705,9 +2705,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Basic Land — Mountain",
-			"collector_number": "262",
+			"collector_number": "263",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/262_Mountain.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/263_Mountain.png"
 			}
 		},
 		{
@@ -2715,9 +2715,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Basic Land — Forest",
-			"collector_number": "263",
+			"collector_number": "264",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/263_Forest.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/264_Forest.png"
 			}
 		},
 		{
@@ -2745,9 +2745,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Land — Oasis",
-			"collector_number": "252",
+			"collector_number": "253",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/252_Mirage Pool.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/253_Mirage Pool.png"
 			}
 		},
 		{
@@ -2755,9 +2755,9 @@
 			"rarity": "common",
 			"mana_cost": "",
 			"type": "Land",
-			"collector_number": "254",
+			"collector_number": "255",
 			"image_uris": {
-				"en": "https://Opacana.github.io/sets/ASM-files/img/254_Noble's Treasury.png"
+				"en": "https://Opacana.github.io/sets/ASM-files/img/255_Noble's Treasury.png"
 			}
 		},
 		{
@@ -2808,6 +2808,16 @@
 			"collector_number": "13",
 			"image_uris": {
 				"en": "https://Opacana.github.io/sets/ASM-files/img/13t_Insect.png"
+			}
+		},
+		{
+			"name": "Scarabine Adherent",
+			"rarity": "common",
+			"mana_cost": "{U}",
+			"type": "Creature — Zombie Warlock",
+			"collector_number": "64",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/ASM-files/img/64_Scarabine Adherent.png"
 			}
 		}
 	]
@@ -2894,7 +2904,7 @@
 	4 Time
 	4 Bite
 	4 Cover-Up
-	4 Close
+	4 Tough Act
 	4 Stumble Upon Sanctuary
 	4 Scion of Hazoret
 	4 Herald of the Lost
@@ -2934,7 +2944,7 @@
 	4 Corrupted Emberhorn
 	4 Darkstorm Bolt
 	4 Infectious Bravado
-	4 Eager
+	4 Up
 	4 Eneri, Cunning Treasurer
 	4 Luxa Shoremage
 	4 Giant Carrion Beetle
@@ -3073,6 +3083,7 @@
 	8 Adjust to Abundance
 	8 Mirage Pool
 	8 Noble's Treasury
+	8 Scarabine Adherent
 [common | masterpiece(1)]
 	8 Pendant of Bright Futures
 	8 Votive Soul
@@ -3163,6 +3174,7 @@
 	8 Adjust to Abundance
 	8 Mirage Pool
 	8 Noble's Treasury
+	8 Scarabine Adherent
 [foil(1)]
 	12 Pendant of Bright Futures
 	12 Votive Soul
@@ -3256,7 +3268,7 @@
 	12 Twilight Market
 	12 Ghrin-Danu's Servitors
 	6 Cover-Up
-	6 Close
+	6 Tough Act
 	6 Stumble Upon Sanctuary
 	6 Scion of Hazoret
 	6 Herald of the Lost
@@ -3296,7 +3308,7 @@
 	6 Corrupted Emberhorn
 	6 Darkstorm Bolt
 	6 Infectious Bravado
-	6 Eager
+	6 Up
 	6 Eneri, Cunning Treasurer
 	6 Luxa Shoremage
 	6 Giant Carrion Beetle
@@ -3422,6 +3434,7 @@
 	6 Gentle and Raging
 	12 Mirage Pool
 	12 Noble's Treasury
+	12 Scarabine Adherent
 [wildcard(1)]
 	6 Pendant of Bright Futures
 	6 Votive Soul
@@ -3515,7 +3528,7 @@
 	6 Twilight Market
 	6 Ghrin-Danu's Servitors
 	15 Cover-Up
-	15 Close
+	15 Tough Act
 	15 Stumble Upon Sanctuary
 	15 Scion of Hazoret
 	15 Herald of the Lost
@@ -3555,7 +3568,7 @@
 	15 Corrupted Emberhorn
 	15 Darkstorm Bolt
 	15 Infectious Bravado
-	15 Eager
+	15 Up
 	15 Eneri, Cunning Treasurer
 	15 Luxa Shoremage
 	15 Giant Carrion Beetle
@@ -3681,3 +3694,4 @@
 	15 Gentle and Raging
 	6 Mirage Pool
 	6 Noble's Treasury
+	6 Scarabine Adherent

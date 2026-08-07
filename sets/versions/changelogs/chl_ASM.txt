@@ -1,4 +1,97 @@
-﻿VERSION 22 CHANGELOG
+﻿VERSION 23 CHANGELOG
+====================
+
+Tough Act added.
+Up added.
+Scarabine Adherent added.
+
+Close removed.
+Eager removed.
+
+Blessed Revivalist
+rules_text: Betray [i](When this permanent enters, you may sacrifice another permanent that shares a color with it.)[/i]
+When this creature betrays a permanent, return up to one artifact, creature or enchantment card with mana value 3 or less from your graveyard to the battlefield tapped. => Betray [i](When this permanent enters, you may sacrifice another permanent that shares a color with it.)[/i]
+When this creature betrays a permanent, return up to one artifact, creature or enchantment card with mana value 3 or less from your graveyard to the battlefield.
+
+Feeding Time
+cost: {3}{W} => {2}{W}
+rules_text: Create three 1/1 white and black Cat creature tokens.
+Scry 2. => Create three 1/1 white and black Cat creature tokens.
+
+Seshen Pollinators
+rules_text: Flying
+{1}{U}: Move a counter from target permanent to another target permanent. Activate only once each turn, and only as a sorcery. => Flying
+{U}: Move a counter from target permanent to another target permanent. Activate only once each turn, and only as a sorcery.
+
+Frozen Sands Cadre
+pt: 3/3 => 3/4
+
+Avatar of Sab-Sunen
+pt: 4/4 => 4/5
+
+Canopic Harvester
+rules_text: Betray [i](When this permanent enters, you may sacrifice another permanent that shares a color with it.)[/i]
+When this creature betrays a permanent, target opponent reveals their hand. You choose a nonland card with mana value 3 or less from it. That player discards that card. => Betray [i](When this permanent enters, you may sacrifice another permanent that shares a color with it.)[/i]
+When this creature betrays a permanent, target opponent reveals their hand. You choose a nonland card with mana value 4 or less from it. That player exiles that card.
+
+Ifnir Farseer
+cost: {3}{B}{B} => {2}{B}{B}
+pt: 4/3 => 3/3
+
+Returned Master
+pt: 5/5 => 6/5
+
+Burial Chamber Guardian
+pt: 5/10 => 6/10
+
+Betrayal of Secrets
+rules_text: Target opponent reveals their hand. You choose a nonland card from it. That player discards that card.
+If you sacrificed a permanent this turn, you gain 3 life. => Target opponent reveals their hand. You choose a nonland card from it. That player exiles that card.
+If you sacrificed a permanent this turn, you gain 3 life.
+
+Boat-climber Cobra
+
+Vessel of Purity
+rules_text: Vigilance
+[i]Schism[/i] — {T}, Tap one or more other creatures you control, sacrifice this creature: Search your library for a God card, reveal it and put it into your hand, then shuffle. If three or more other creatures were tapped this way, you may put that God onto the battlefield instead. => Vigilance
+[i]Schism[/i] — {T}, Tap one or more other creatures you control, sacrifice this creature: Search your library for a noncolorless God card, reveal it and put it into your hand, then shuffle. If three or more other creatures were tapped this way, you may put that God onto the battlefield instead.
+
+Vessel of Genius
+rules_text: Flying, ward {1}
+[i]Schism[/i] — {T}, Tap one or more other creatures you control, sacrifice this creature: Search your library for a God card, reveal it and put it into your hand, then shuffle. If three or more other creatures were tapped this way, you may put that God onto the battlefield instead. => Flying, ward {1}
+[i]Schism[/i] — {T}, Tap one or more other creatures you control, sacrifice this creature: Search your library for a noncolorless God card, reveal it and put it into your hand, then shuffle. If three or more other creatures were tapped this way, you may put that God onto the battlefield instead.
+
+Vessel of Darkness
+rules_text: Menace
+[i]Schism[/i] — {T}, Tap one or more other creatures you control, sacrifice this creature: Search your library for a God card, reveal it and put it into your hand, then shuffle. If three or more other creatures were tapped this way, you may put that God onto the battlefield instead. => Menace
+[i]Schism[/i] — {T}, Tap one or more other creatures you control, sacrifice this creature: Search your library for a noncolorless God card, reveal it and put it into your hand, then shuffle. If three or more other creatures were tapped this way, you may put that God onto the battlefield instead.
+
+Vessel of Wrath
+rules_text: Haste
+[i]Schism[/i] — {T}, Tap one or more other creatures you control, sacrifice this creature: Search your library for a God card, reveal it and put it into your hand, then shuffle. If three or more other creatures were tapped this way, you may put that God onto the battlefield instead. => Haste
+[i]Schism[/i] — {T}, Tap one or more other creatures you control, sacrifice this creature: Search your library for a noncolorless God card, reveal it and put it into your hand, then shuffle. If three or more other creatures were tapped this way, you may put that God onto the battlefield instead.
+
+Vessel of Nature
+rules_text: At the beginning of your first main phase, add {G}.
+[i]Schism[/i] — {T}, Tap one or more other creatures you control, sacrifice this creature: Search your library for a God card, reveal it and put it into your hand, then shuffle. If three or more other creatures were tapped this way, you may put that God onto the battlefield instead. => At the beginning of your first main phase, add {G}.
+[i]Schism[/i] — {T}, Tap one or more other creatures you control, sacrifice this creature: Search your library for a noncolorless God card, reveal it and put it into your hand, then shuffle. If three or more other creatures were tapped this way, you may put that God onto the battlefield instead.
+
+Eager
+cost: {1}{R} => {2}{U}
+rules_text: Target creature gets +2/+2 and gains haste until end of turn. => Put a flying counter on target creature you control, then put a vigilance counter on each creature you control.
+
+Adjust to Abundance
+rules_text: As an additional cost to cast this spell, pay {2} or remove a counter from a permanent you control.
+Put two +1/+1 counters on target creature you control. => As an additional cost to cast this spell, pay {1}, sacrifice a permanent, or remove a counter from a permanent you control.
+Put two +1/+1 counters on target creature or land you control.
+
+Spellfire Khopesh
+rules_text: Equipped creature has first strike and prowess.
+Equip {2} => Equipped creature has first strike and prowess. [i](Whenever you cast a noncreature spell, that creature gets +1/+1 until end of turn.)[/i]
+Equip {2}
+
+
+VERSION 22 CHANGELOG
 ====================
 
 
