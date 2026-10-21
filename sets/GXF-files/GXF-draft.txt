@@ -1,0 +1,3861 @@
+﻿[CustomCards]
+	[
+		{
+			"name": "CW01 Coilhide Sentinel",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Artifact Creature — Construct",
+			"collector_number": "2",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/0.png"
+			}
+		},
+		{
+			"name": "CW02 Imperial Intervenor",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Human Soldier",
+			"collector_number": "3",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/1.png"
+			}
+		},
+		{
+			"name": "CW03 Frontline Valixen",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Human Cyborg",
+			"collector_number": "4",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/2.png"
+			}
+		},
+		{
+			"name": "CW04 Aetherwing Lepid",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Insect",
+			"collector_number": "5",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/3.png"
+			}
+		},
+		{
+			"name": "CW05 Moonlight Guardian",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Enchantment Creature — Cat",
+			"collector_number": "6",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/4.png"
+			}
+		},
+		{
+			"name": "CW06 Devoted Trooper",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Soldier",
+			"collector_number": "7",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/5.png"
+			}
+		},
+		{
+			"name": "CW07 Lightfoot Sapper",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Human Soldier",
+			"collector_number": "8",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/6.png"
+			}
+		},
+		{
+			"name": "CW08 Crackling Guardian",
+			"rarity": "common",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Human Soldier",
+			"collector_number": "9",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/7.png"
+			}
+		},
+		{
+			"name": "CW09 Gleaming Taxiarch",
+			"rarity": "common",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Human Warrior",
+			"collector_number": "10",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/8.png"
+			}
+		},
+		{
+			"name": "CW10 Synchrocharge Breacher",
+			"rarity": "common",
+			"mana_cost": "{4}{W}",
+			"type": "Creature — Soldier",
+			"collector_number": "11",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/9.png"
+			}
+		},
+		{
+			"name": "CW11 Lifecaller Scion",
+			"rarity": "common",
+			"mana_cost": "{4}{W}{W}",
+			"type": "Creature — Alien Druid",
+			"collector_number": "12",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/10.png"
+			}
+		},
+		{
+			"name": "CW12 Righteous Storm",
+			"rarity": "common",
+			"mana_cost": "{3}{W}",
+			"type": "Enchantment",
+			"collector_number": "13",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/11.png"
+			}
+		},
+		{
+			"name": "CW13 Ice World Imprisonment",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Enchantment",
+			"collector_number": "14",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/12.png"
+			}
+		},
+		{
+			"name": "CW14 Amidst the Iski Birds",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Enchantment — Aura",
+			"collector_number": "15",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/13.png"
+			}
+		},
+		{
+			"name": "CW15 Cutter Rifle",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Artifact",
+			"collector_number": "16",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/14.png"
+			}
+		},
+		{
+			"name": "CU01 Goldwing Rescuer",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Human Scout Soldier",
+			"collector_number": "42",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/15.png"
+			}
+		},
+		{
+			"name": "CU02 Sukini Elite Pilot",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Elf Pilot",
+			"collector_number": "43",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/16.png"
+			}
+		},
+		{
+			"name": "CU04 Alternate Reality Scout",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Rabbit Ranger",
+			"collector_number": "45",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/17.png"
+			}
+		},
+		{
+			"name": "CU03 Well-Versed Wright",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Goblin Artificer",
+			"collector_number": "44",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/18.png"
+			}
+		},
+		{
+			"name": "CU05 Last of the Ebreek",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Merfolk",
+			"collector_number": "46",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/19.png"
+			}
+		},
+		{
+			"name": "CU06 Cunning Guardmage",
+			"rarity": "common",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Human Wizard Soldier",
+			"collector_number": "47",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/20.png"
+			}
+		},
+		{
+			"name": "CU07 Starlight Herald",
+			"rarity": "common",
+			"mana_cost": "{5}{U}{U}",
+			"type": "Creature — Dragon",
+			"collector_number": "48",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/21.png"
+			}
+		},
+		{
+			"name": "CU08 Imperial Portal Agent",
+			"rarity": "common",
+			"mana_cost": "{5}{U}",
+			"type": "Creature — Elf Soldier",
+			"collector_number": "49",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/22.png"
+			}
+		},
+		{
+			"name": "CU09 Defensive Routine",
+			"rarity": "common",
+			"mana_cost": "{U}",
+			"type": "Instant",
+			"collector_number": "50",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/23.png"
+			}
+		},
+		{
+			"name": "CU10 Acting on Omens",
+			"rarity": "common",
+			"mana_cost": "{1}{U}{U}",
+			"type": "Instant",
+			"collector_number": "51",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/24.png"
+			}
+		},
+		{
+			"name": "CU11 Extraordinary Epiphany",
+			"rarity": "common",
+			"mana_cost": "{U}",
+			"type": "Sorcery",
+			"collector_number": "52",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/25.png"
+			}
+		},
+		{
+			"name": "CU12 Madcap Experiments",
+			"rarity": "common",
+			"mana_cost": "{3}{U}",
+			"type": "Sorcery",
+			"collector_number": "53",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/26.png"
+			}
+		},
+		{
+			"name": "CU13 Backwater Stranding",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Enchantment — Aura",
+			"collector_number": "54",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/27.png"
+			}
+		},
+		{
+			"name": "CU14 Shoved Out the Airlock",
+			"rarity": "common",
+			"mana_cost": "{3}{U}",
+			"type": "Instant",
+			"collector_number": "55",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/28.png"
+			}
+		},
+		{
+			"name": "CU15 Contingency Firewall",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Instant",
+			"collector_number": "56",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/29.png"
+			}
+		},
+		{
+			"name": "CB01 Investigative Biker",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Human Rogue",
+			"collector_number": "82",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/30.png"
+			}
+		},
+		{
+			"name": "CB03 Sworn Operative",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Human Soldier",
+			"collector_number": "84",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/31.png"
+			}
+		},
+		{
+			"name": "CB04 Bloodsworn Tracker",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Human Soldier",
+			"collector_number": "85",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/32.png"
+			}
+		},
+		{
+			"name": "CB05 Abyssal Scrounger",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Creature",
+			"collector_number": "86",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/33.png"
+			}
+		},
+		{
+			"name": "CB06 Haughty Valixen",
+			"rarity": "common",
+			"mana_cost": "{3}{B}",
+			"type": "Creature — Human Soldier",
+			"collector_number": "87",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/34.png"
+			}
+		},
+		{
+			"name": "CB07 Spiderfang Operative",
+			"rarity": "common",
+			"mana_cost": "{4}{B}",
+			"type": "Creature — Elf Soldier Assassin",
+			"collector_number": "88",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/35.png"
+			}
+		},
+		{
+			"name": "CB08 Second-Chancer",
+			"rarity": "common",
+			"mana_cost": "{4}{B}",
+			"type": "Creature — Human Warrior Cyborg",
+			"collector_number": "89",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/36.png"
+			}
+		},
+		{
+			"name": "CB09 Skyblade Disruptor",
+			"rarity": "common",
+			"mana_cost": "{5}{B}",
+			"type": "Creature — Kavid Soldier",
+			"collector_number": "90",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/37.png"
+			}
+		},
+		{
+			"name": "CB10 Violet Blast",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Sorcery",
+			"collector_number": "91",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/38.png"
+			}
+		},
+		{
+			"name": "CB11 Vindictive Escape",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Instant",
+			"collector_number": "92",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/39.png"
+			}
+		},
+		{
+			"name": "CB12 Sim Hit",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Sorcery",
+			"collector_number": "93",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/40.png"
+			}
+		},
+		{
+			"name": "CB13 Overwhelm the Servbot",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Sorcery",
+			"collector_number": "94",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/41.png"
+			}
+		},
+		{
+			"name": "CB14 Coup de Grace",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Instant",
+			"collector_number": "95",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/42.png"
+			}
+		},
+		{
+			"name": "CB15 Not On The List",
+			"rarity": "common",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "96",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/43.png"
+			}
+		},
+		{
+			"name": "CR01 Anazumi Breacher",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Creature — Rat Artificer Rogue",
+			"collector_number": "122",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/44.png"
+			}
+		},
+		{
+			"name": "CR02 Denasan Overclocker",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Alien Soldier Artificer",
+			"collector_number": "123",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/45.png"
+			}
+		},
+		{
+			"name": "CR03 Juvenile Yamanisaur",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Dinosaur",
+			"collector_number": "124",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/46.png"
+			}
+		},
+		{
+			"name": "CR04 Ojni Gunslinger",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Alien Rogue Soldier",
+			"collector_number": "125",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/47.png"
+			}
+		},
+		{
+			"name": "CR05 Enhanced Ganger",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Human Rogue",
+			"collector_number": "126",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/48.png"
+			}
+		},
+		{
+			"name": "CR06 Demequian Pistolier",
+			"rarity": "common",
+			"mana_cost": "{3}{R}",
+			"type": "Creature — Human Mercenary",
+			"collector_number": "127",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/49.png"
+			}
+		},
+		{
+			"name": "CR07 Nevex Tactical Trooper",
+			"rarity": "common",
+			"mana_cost": "{3}{R}{R}",
+			"type": "Creature — Soldier",
+			"collector_number": "128",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/50.png"
+			}
+		},
+		{
+			"name": "CR08 Indifferent Thug",
+			"rarity": "common",
+			"mana_cost": "{4}{R}",
+			"type": "Creature — Human Rogue",
+			"collector_number": "129",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/51.png"
+			}
+		},
+		{
+			"name": "CR09 Elite Ripper",
+			"rarity": "common",
+			"mana_cost": "{5}{R}",
+			"type": "Creature — Kavid Soldier",
+			"collector_number": "130",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/52.png"
+			}
+		},
+		{
+			"name": "CR10 Circuit Overload",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Instant",
+			"collector_number": "131",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/53.png"
+			}
+		},
+		{
+			"name": "CR11 Activate Armor",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Instant",
+			"collector_number": "132",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/54.png"
+			}
+		},
+		{
+			"name": "CR12 Group Effort",
+			"rarity": "common",
+			"mana_cost": "{3}{R}",
+			"type": "Sorcery",
+			"collector_number": "133",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/55.png"
+			}
+		},
+		{
+			"name": "CR13 Trigger the Detonator",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Instant",
+			"collector_number": "134",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/56.png"
+			}
+		},
+		{
+			"name": "CR14 Close-Quarters Shot",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Sorcery",
+			"collector_number": "135",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/57.png"
+			}
+		},
+		{
+			"name": "CR15 Rapid Firing Solution",
+			"rarity": "common",
+			"mana_cost": "{3}{R}{R}",
+			"type": "Instant",
+			"collector_number": "136",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/58.png"
+			}
+		},
+		{
+			"name": "CG01 Panzuran Golden Cat",
+			"rarity": "common",
+			"mana_cost": "{G}",
+			"type": "Enchantment Creature — Alien Cat",
+			"collector_number": "162",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/59.png"
+			}
+		},
+		{
+			"name": "CG02 Verini Explorator",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Elf Citizen Scout",
+			"collector_number": "163",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/60.png"
+			}
+		},
+		{
+			"name": "CG03 Locust Unit",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Artifact — Vehicle",
+			"collector_number": "164",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/61.png"
+			}
+		},
+		{
+			"name": "CG04 Pinokian Cannoneer",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Troll Warrior",
+			"collector_number": "165",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/62.png"
+			}
+		},
+		{
+			"name": "CG05 Prime Curator",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Elf Wizard",
+			"collector_number": "166",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/63.png"
+			}
+		},
+		{
+			"name": "CG06 Spectra Summoner",
+			"rarity": "common",
+			"mana_cost": "{3}{G}",
+			"type": "Creature — Human Warlock",
+			"collector_number": "167",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/64.png"
+			}
+		},
+		{
+			"name": "CG07 Neuralink Mapper",
+			"rarity": "common",
+			"mana_cost": "{3}{G}",
+			"type": "Artifact Creature — Human Scout",
+			"collector_number": "168",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/65.png"
+			}
+		},
+		{
+			"name": "CG08 Gas Giant Cloudstalker",
+			"rarity": "common",
+			"mana_cost": "{4}{G}",
+			"type": "Creature — Leviathan",
+			"collector_number": "169",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/66.png"
+			}
+		},
+		{
+			"name": "CG09 Ukanian Treasure Seeker",
+			"rarity": "common",
+			"mana_cost": "{4}{G}{G}",
+			"type": "Creature — Beast Noble Warrior",
+			"collector_number": "170",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/67.png"
+			}
+		},
+		{
+			"name": "CG10 Tipiwitshik Blossom",
+			"rarity": "common",
+			"mana_cost": "{6}{G}",
+			"type": "Creature — Plant",
+			"collector_number": "171",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/68.png"
+			}
+		},
+		{
+			"name": "CG11 Made of Stars",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Enchantment — Aura",
+			"collector_number": "172",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/69.png"
+			}
+		},
+		{
+			"name": "CG12 Cleave Through the Hordes",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Instant",
+			"collector_number": "173",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/70.png"
+			}
+		},
+		{
+			"name": "CG13 Stunning Swing",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Instant",
+			"collector_number": "174",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/71.png"
+			}
+		},
+		{
+			"name": "CG14 Flux Alignment",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Enchantment",
+			"collector_number": "175",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/72.png"
+			}
+		},
+		{
+			"name": "CG15 Planetary Survey",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Sorcery",
+			"collector_number": "176",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/73.png"
+			}
+		},
+		{
+			"name": "UW03 Longtooth Agent",
+			"rarity": "uncommon",
+			"mana_cost": "{W}",
+			"type": "Creature — Squirrel Scout",
+			"collector_number": "28",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/74.png"
+			}
+		},
+		{
+			"name": "UW04 Transcendental Archivist",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Elf Wizard",
+			"collector_number": "29",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/75.png"
+			}
+		},
+		{
+			"name": "UW05 Elite K-99 Corps",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Dog",
+			"collector_number": "30",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/76.png"
+			}
+		},
+		{
+			"name": "UW06 Abarale, Lightmaster",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Legendary Creature — Alien Wizard",
+			"collector_number": "31",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/77.png"
+			}
+		},
+		{
+			"name": "UW07 Esander, Gloryboy",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}{W}",
+			"type": "Legendary Creature — Human Warrior",
+			"collector_number": "32",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/78.png"
+			}
+		},
+		{
+			"name": "UW08 Ostentatious Boss",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{W}{W}",
+			"type": "Creature — Alien Noble Rogue",
+			"collector_number": "33",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/79.png"
+			}
+		},
+		{
+			"name": "UW09 Quolum Skywhale",
+			"rarity": "uncommon",
+			"mana_cost": "{5}{W}",
+			"type": "Creature — Whale",
+			"collector_number": "34",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/80.png"
+			}
+		},
+		{
+			"name": "UW10 Last Guardians of Gimav",
+			"rarity": "uncommon",
+			"mana_cost": "{5}{W}{W}",
+			"type": "Creature — Soldier",
+			"collector_number": "35",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/81.png"
+			}
+		},
+		{
+			"name": "UW14 Synchronous Battle Tank",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{W}{W}",
+			"type": "Artifact — Vehicle",
+			"collector_number": "39",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/82.png"
+			}
+		},
+		{
+			"name": "UU01 Scrap Monitor",
+			"rarity": "uncommon",
+			"mana_cost": "{U}",
+			"type": "Creature — Lizard",
+			"collector_number": "66",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/83.png"
+			}
+		},
+		{
+			"name": "UU04 Excavation's Hired Guard",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Human Druid Mercenary",
+			"collector_number": "69",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/84.png"
+			}
+		},
+		{
+			"name": "UU05 Chief Technomancer",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{U}{U}",
+			"type": "Creature — Alien Wizard Scientist",
+			"collector_number": "70",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/85.png"
+			}
+		},
+		{
+			"name": "UU06 Aquamaster and Hydroid",
+			"rarity": "uncommon",
+			"mana_cost": "{5}{U}",
+			"type": "Creature — Octopus Human Druid",
+			"collector_number": "71",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/86.png"
+			}
+		},
+		{
+			"name": "UU07 Drone Crew",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Artifact Creature — Construct",
+			"collector_number": "72",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/87.png"
+			}
+		},
+		{
+			"name": "UU08 Beginner's Luck",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Enchantment",
+			"collector_number": "73",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/88.png"
+			}
+		},
+		{
+			"name": "UU09 Ingenious Portaling",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Instant",
+			"collector_number": "74",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/89.png"
+			}
+		},
+		{
+			"name": "UU10 Scout Dipter",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Artifact — Vehicle",
+			"collector_number": "75",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/90.png"
+			}
+		},
+		{
+			"name": "UU11 Hacker's Arrival",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{U}",
+			"type": "Sorcery",
+			"collector_number": "76",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/91.png"
+			}
+		},
+		{
+			"name": "UB03 Voidsoul Valixen",
+			"rarity": "uncommon",
+			"mana_cost": "{B}",
+			"type": "Creature — Elf Soldier",
+			"collector_number": "108",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/92.png"
+			}
+		},
+		{
+			"name": "UB04 Graverobber Unit",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Zombie Construct",
+			"collector_number": "109",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/93.png"
+			}
+		},
+		{
+			"name": "UB05 Scorpion Style Scion",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Human Cyborg Assassin",
+			"collector_number": "110",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/94.png"
+			}
+		},
+		{
+			"name": "UB06 Ichega, Betrayer of the Balance",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{B}",
+			"type": "Legendary Creature — Bird Warlock",
+			"collector_number": "111",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/95.png"
+			}
+		},
+		{
+			"name": "UB07 Nevex Shardmaster",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{B}{B}",
+			"type": "Creature — Human Mutant Soldier",
+			"collector_number": "112",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/96.png"
+			}
+		},
+		{
+			"name": "UB08 Necrofuel Interrogator",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{B}",
+			"type": "Creature — Mutant Warlock Warrior",
+			"collector_number": "113",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/97.png"
+			}
+		},
+		{
+			"name": "UB09 Nevex Assault Craft Type 7",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Artifact — Vehicle",
+			"collector_number": "114",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/98.png"
+			}
+		},
+		{
+			"name": "UB10 Hunting Through Databanks",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}",
+			"type": "Enchantment",
+			"collector_number": "115",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/99.png"
+			}
+		},
+		{
+			"name": "UB15 Vacuum Communion",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{B}",
+			"type": "Instant",
+			"collector_number": "120",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/100.png"
+			}
+		},
+		{
+			"name": "UR03 Verini Contemptor",
+			"rarity": "uncommon",
+			"mana_cost": "{R}",
+			"type": "Creature — Elf Rogue Soldier",
+			"collector_number": "148",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/101.png"
+			}
+		},
+		{
+			"name": "UR04 Crackleblood Descendant",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Elf Rogue",
+			"collector_number": "149",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/102.png"
+			}
+		},
+		{
+			"name": "UR05 Wini, Trophy Winner",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}{R}",
+			"type": "Legendary Creature — Human Pilot Bard",
+			"collector_number": "150",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/103.png"
+			}
+		},
+		{
+			"name": "UR06 Sawblade Mechanic",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Human Artificer Warrior",
+			"collector_number": "151",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/104.png"
+			}
+		},
+		{
+			"name": "UR07 Hungering Furnace",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{R}{R}",
+			"type": "Artifact Creature — Demon Robot",
+			"collector_number": "152",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/105.png"
+			}
+		},
+		{
+			"name": "UR08 Prime Yamanisaur",
+			"rarity": "uncommon",
+			"mana_cost": "{5}{R}{R}",
+			"type": "Creature — Dinosaur",
+			"collector_number": "153",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/106.png"
+			}
+		},
+		{
+			"name": "UR09 Ore Carrier",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}{R}",
+			"type": "Artifact — Spacecraft",
+			"collector_number": "154",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/107.png"
+			}
+		},
+		{
+			"name": "UR10 Heavy Mining Suit",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Artifact — Equipment",
+			"collector_number": "155",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/108.png"
+			}
+		},
+		{
+			"name": "UR15 Final Push",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{R}",
+			"type": "Instant",
+			"collector_number": "160",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/109.png"
+			}
+		},
+		{
+			"name": "UG03 Brazen Saboteur",
+			"rarity": "uncommon",
+			"mana_cost": "{G}",
+			"type": "Creature — Human Rogue Artificer",
+			"collector_number": "188",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/110.png"
+			}
+		},
+		{
+			"name": "UG04 Deathside Bloom",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Plant Mutant",
+			"collector_number": "189",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/111.png"
+			}
+		},
+		{
+			"name": "UG05 Disparate Legion",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}{G}",
+			"type": "Creature — Warrior Rogue",
+			"collector_number": "190",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/112.png"
+			}
+		},
+		{
+			"name": "UG06 Frasian Jadeback",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}{G}",
+			"type": "Creature — Insect Rhino",
+			"collector_number": "191",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/113.png"
+			}
+		},
+		{
+			"name": "UG07 Eonspeaker",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Human Cleric",
+			"collector_number": "192",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/114.png"
+			}
+		},
+		{
+			"name": "UG08 Hydra Ultimus",
+			"rarity": "uncommon",
+			"mana_cost": "{5}{G}{G}",
+			"type": "Creature — Hydra",
+			"collector_number": "193",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/115.png"
+			}
+		},
+		{
+			"name": "UG09 Spirit of Tenacity",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{G}{G}",
+			"type": "Enchantment Creature — Spirit Giant",
+			"collector_number": "194",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/116.png"
+			}
+		},
+		{
+			"name": "UG10 Seedforce Emergence",
+			"rarity": "uncommon",
+			"mana_cost": "{G}",
+			"type": "Instant",
+			"collector_number": "195",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/117.png"
+			}
+		},
+		{
+			"name": "UG15 Championship Match",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{G}{G}",
+			"type": "Sorcery",
+			"collector_number": "200",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/118.png"
+			}
+		},
+		{
+			"name": "RW03 Apparition Guard",
+			"rarity": "rare",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Soldier Cleric",
+			"collector_number": "21",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/119.png"
+			}
+		},
+		{
+			"name": "RW04 Digital Avatar of Tavros",
+			"rarity": "rare",
+			"mana_cost": "{4}{W}{W}",
+			"type": "Artifact Creature — Avatar Construct",
+			"collector_number": "22",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/120.png"
+			}
+		},
+		{
+			"name": "RW05 High Champion of Umura",
+			"rarity": "rare",
+			"mana_cost": "{W}",
+			"type": "Creature — Human Soldier",
+			"collector_number": "23",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/121.png"
+			}
+		},
+		{
+			"name": "RW06 Take Up Firing Positions",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}{W}",
+			"type": "Instant",
+			"collector_number": "24",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/122.png"
+			}
+		},
+		{
+			"name": "RW07 Erushan Metacube",
+			"rarity": "rare",
+			"mana_cost": "{4}{W}",
+			"type": "Legendary Enchantment",
+			"collector_number": "25",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/123.png"
+			}
+		},
+		{
+			"name": "RU03 Imperial Minister of Labour",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Human Noble Advisor",
+			"collector_number": "61",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/124.png"
+			}
+		},
+		{
+			"name": "RU04 Glikki Arsenal Master",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Goblin Soldier Mercenary",
+			"collector_number": "62",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/125.png"
+			}
+		},
+		{
+			"name": "RU05 Jukorkorek, Emissary",
+			"rarity": "rare",
+			"mana_cost": "{4}{U}{U}",
+			"type": "Legendary Creature — Alien Warlock",
+			"collector_number": "63",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/126.png"
+			}
+		},
+		{
+			"name": "RU06 Chronovolt Engine",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}",
+			"type": "Artifact",
+			"collector_number": "64",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/127.png"
+			}
+		},
+		{
+			"name": "RU07 Pit Stop",
+			"rarity": "rare",
+			"mana_cost": "{3}{U}",
+			"type": "Instant",
+			"collector_number": "65",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/128.png"
+			}
+		},
+		{
+			"name": "RB03 Frixel, Soul-Eater",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Legendary Creature — Kavid Demon Warlock",
+			"collector_number": "101",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/129.png"
+			}
+		},
+		{
+			"name": "RB04 Lord of Fracture",
+			"rarity": "rare",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Creature — Alien Noble",
+			"collector_number": "102",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/130.png"
+			}
+		},
+		{
+			"name": "RB05 Cruel Extortion",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}",
+			"type": "Sorcery",
+			"collector_number": "103",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/131.png"
+			}
+		},
+		{
+			"name": "RB06 Firing Solution",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "104",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/132.png"
+			}
+		},
+		{
+			"name": "RB07 Corpse Acquisition",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "105",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/133.png"
+			}
+		},
+		{
+			"name": "RR03 Bound Ragehacker",
+			"rarity": "rare",
+			"mana_cost": "{R}",
+			"type": "Creature — Afcharn Barbarian",
+			"collector_number": "141",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/134.png"
+			}
+		},
+		{
+			"name": "RR04 Eldest Stonehide of Uthios",
+			"rarity": "rare",
+			"mana_cost": "{5}{R}{R}",
+			"type": "Creature — Lizard Giant",
+			"collector_number": "142",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/135.png"
+			}
+		},
+		{
+			"name": "RR05 Jiram, Scion of Potentials",
+			"rarity": "rare",
+			"mana_cost": "{R}",
+			"type": "Legendary Creature — Elf Rogue",
+			"collector_number": "143",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/136.png"
+			}
+		},
+		{
+			"name": "RR06 Competitive Maintenance",
+			"rarity": "rare",
+			"mana_cost": "{4}{R}",
+			"type": "Instant",
+			"collector_number": "144",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/137.png"
+			}
+		},
+		{
+			"name": "RR07 Demolition Suit",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}",
+			"type": "Artifact — Equipment",
+			"collector_number": "145",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/138.png"
+			}
+		},
+		{
+			"name": "RG03 Leafling Prime",
+			"rarity": "rare",
+			"mana_cost": "{3}{G}{G}",
+			"type": "Enchantment Creature — Ooze Plant",
+			"collector_number": "181",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/139.png"
+			}
+		},
+		{
+			"name": "RG04 First-Ranked Beastcaller",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Human Druid Rogue",
+			"collector_number": "182",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/140.png"
+			}
+		},
+		{
+			"name": "RG05 Verini Genetics Laboratory",
+			"rarity": "rare",
+			"mana_cost": "{3}{G}{G}",
+			"type": "Enchantment Artifact",
+			"collector_number": "183",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/141.png"
+			}
+		},
+		{
+			"name": "RG06 Finding Hope",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}",
+			"type": "Instant",
+			"collector_number": "184",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/142.png"
+			}
+		},
+		{
+			"name": "RG07 Ongoing Experiments",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}",
+			"type": "Enchantment — Aura",
+			"collector_number": "185",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/143.png"
+			}
+		},
+		{
+			"name": "MW01 Lightbringer Titan Suit",
+			"rarity": "mythic",
+			"mana_cost": "{6}{W}{W}",
+			"type": "Legendary Artifact Creature — Construct",
+			"collector_number": "17",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/144.png"
+			}
+		},
+		{
+			"name": "MW02 Defector from The Balance",
+			"rarity": "mythic",
+			"mana_cost": "{1}{W}{W}",
+			"type": "Creature — Human Soldier",
+			"collector_number": "18",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/145.png"
+			}
+		},
+		{
+			"name": "MU01 Exosprite",
+			"rarity": "mythic",
+			"mana_cost": "{U}",
+			"type": "Artifact Creature — Faerie",
+			"collector_number": "57",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/146.png"
+			}
+		},
+		{
+			"name": "MU02 Shimoln Prime",
+			"rarity": "mythic",
+			"mana_cost": "{1}{U}",
+			"type": "Legendary Creature — Brain",
+			"collector_number": "58",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/147.png"
+			}
+		},
+		{
+			"name": "MB01 Eera, Archivist of the Balance",
+			"rarity": "mythic",
+			"mana_cost": "{1}{B}",
+			"type": "Legendary Creature — Angel Warlock",
+			"collector_number": "97",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/148.png"
+			}
+		},
+		{
+			"name": "MB02 Rajakoli, Planet Corrupter",
+			"rarity": "mythic",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Legendary Creature — Spider Villain",
+			"collector_number": "98",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/149.png"
+			}
+		},
+		{
+			"name": "MR01 Arry, Confident Champion",
+			"rarity": "mythic",
+			"mana_cost": "{R}",
+			"type": "Legendary Creature — Beast Pilot",
+			"collector_number": "137",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/150.png"
+			}
+		},
+		{
+			"name": "MR02 Mysterious Hero of Palakar Arm",
+			"rarity": "mythic",
+			"mana_cost": "{6}{R}{R}",
+			"type": "Legendary Artifact Creature — Alien Hero",
+			"collector_number": "138",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/151.png"
+			}
+		},
+		{
+			"name": "MG01 Queen Kilops of Evyal",
+			"rarity": "mythic",
+			"mana_cost": "{1}{G}",
+			"type": "Legendary Creature — Alien Merfolk",
+			"collector_number": "177",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/152.png"
+			}
+		},
+		{
+			"name": "MG02 Hope, Rebirth Engine",
+			"rarity": "mythic",
+			"mana_cost": "{2}{G}{G}",
+			"type": "Legendary Enchantment Artifact",
+			"collector_number": "178",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/153.png"
+			}
+		},
+		{
+			"name": "UM01 Lightborne Psyker",
+			"rarity": "uncommon",
+			"mana_cost": "{W}{U}",
+			"type": "Creature — Human Wizard",
+			"collector_number": "222",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/154.png"
+			}
+		},
+		{
+			"name": "UM01 Glamour of the Prey",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}{B}",
+			"type": "Instant",
+			"collector_number": "220",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/155.png"
+			}
+		},
+		{
+			"name": "UM01 Nevex Vortex",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}{R}",
+			"type": "Enchantment",
+			"collector_number": "223",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/156.png"
+			}
+		},
+		{
+			"name": "UM01 Frasian Bristletorch",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{R}{G}",
+			"type": "Creature — Lizard",
+			"collector_number": "219",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/157.png"
+			}
+		},
+		{
+			"name": "UM01 Research Workshop",
+			"rarity": "uncommon",
+			"mana_cost": "{G}{W}",
+			"type": "Enchantment",
+			"collector_number": "225",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/158.png"
+			}
+		},
+		{
+			"name": "UM01 Unstable Payload",
+			"rarity": "uncommon",
+			"mana_cost": "{W}{B}",
+			"type": "Artifact — Equipment",
+			"collector_number": "227",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/159.png"
+			}
+		},
+		{
+			"name": "UM01 Glikki Repair Base",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}{R}",
+			"type": "Arifact — Spacecraft",
+			"collector_number": "221",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/160.png"
+			}
+		},
+		{
+			"name": "UM01 Enhanced Remembrancer",
+			"rarity": "uncommon",
+			"mana_cost": "{B}{G}",
+			"type": "Creature — Human Warlock Scientist",
+			"collector_number": "217",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/161.png"
+			}
+		},
+		{
+			"name": "UM01 Forge-Temple Communion",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}{W}",
+			"type": "Enchantment",
+			"collector_number": "218",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/162.png"
+			}
+		},
+		{
+			"name": "UM01 Tarusian Biologist",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}{U}",
+			"type": "Creature — Minotaur Scientist",
+			"collector_number": "226",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/163.png"
+			}
+		},
+		{
+			"name": "RM01 Last Line of Defense",
+			"rarity": "rare",
+			"mana_cost": "{W}{U}",
+			"type": "Instant",
+			"collector_number": "210",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/164.png"
+			}
+		},
+		{
+			"name": "RM01 Abyssal Retrieval",
+			"rarity": "rare",
+			"mana_cost": "{3}{U}{B}",
+			"type": "Sorcery",
+			"collector_number": "204",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/165.png"
+			}
+		},
+		{
+			"name": "RM01 Mole Troop Carrier",
+			"rarity": "rare",
+			"mana_cost": "{5}{R}{G}",
+			"type": "Artifact — Vehicle",
+			"collector_number": "212",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/166.png"
+			}
+		},
+		{
+			"name": "RM01 Form of the Exalted",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}{W}",
+			"type": "Enchantment — Aura",
+			"collector_number": "208",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/167.png"
+			}
+		},
+		{
+			"name": "RM01 Svania, Balancekeeper",
+			"rarity": "rare",
+			"mana_cost": "{W}{B}",
+			"type": "Legendary Creature — Human Cleric",
+			"collector_number": "213",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/168.png"
+			}
+		},
+		{
+			"name": "RM01 Fleet's Arrival",
+			"rarity": "rare",
+			"mana_cost": "{X}{U}{R}",
+			"type": "Instant",
+			"collector_number": "207",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/169.png"
+			}
+		},
+		{
+			"name": "RM01 Brillmyk, Master Reanimator",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}{G}",
+			"type": "Legendary Creature — Alien Scientist",
+			"collector_number": "205",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/170.png"
+			}
+		},
+		{
+			"name": "RM01 Devera, Bounty Hunter",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}{W}",
+			"type": "Legendary Creature — Human Rogue",
+			"collector_number": "206",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/171.png"
+			}
+		},
+		{
+			"name": "CA01 Sparring Drone",
+			"rarity": "common",
+			"mana_cost": "{1}",
+			"type": "Artifact Creature — Construct Warrior",
+			"collector_number": "237",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/172.png"
+			}
+		},
+		{
+			"name": "CA02 Key of Ancient Light",
+			"rarity": "common",
+			"mana_cost": "{3}",
+			"type": "Artifact",
+			"collector_number": "238",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/173.png"
+			}
+		},
+		{
+			"name": "CA06 Lassian Scoutwing",
+			"rarity": "common",
+			"mana_cost": "{2}",
+			"type": "Artifact — Vehicle",
+			"collector_number": "242",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/174.png"
+			}
+		},
+		{
+			"name": "UA01 Goriform Heavy Mech",
+			"rarity": "uncommon",
+			"mana_cost": "{6}",
+			"type": "Artifact Creature — Construct",
+			"collector_number": "250",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/175.png"
+			}
+		},
+		{
+			"name": "UA02 Missionbound Revenant",
+			"rarity": "uncommon",
+			"mana_cost": "{4}",
+			"type": "Artifact Creature — Robot",
+			"collector_number": "251",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/176.png"
+			}
+		},
+		{
+			"name": "UA03 Upgraded Houndbot",
+			"rarity": "uncommon",
+			"mana_cost": "{2}",
+			"type": "Artifact Creature — Dog",
+			"collector_number": "252",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/177.png"
+			}
+		},
+		{
+			"name": "UA04 Champion Suit",
+			"rarity": "uncommon",
+			"mana_cost": "{3}",
+			"type": "Artifact — Equipment",
+			"collector_number": "253",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/178.png"
+			}
+		},
+		{
+			"name": "UA06 Icon of the Balance",
+			"rarity": "uncommon",
+			"mana_cost": "{2}",
+			"type": "Artifact",
+			"collector_number": "255",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/179.png"
+			}
+		},
+		{
+			"name": "CL01 Extraction Base",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "256",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/180.png"
+			}
+		},
+		{
+			"name": "UL01 Pilgrimage Base",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "257",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/181.png"
+			}
+		},
+		{
+			"name": "UL02 Polar Astronomy Base",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "258",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/182.png"
+			}
+		},
+		{
+			"name": "UL03 Profane Base",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "259",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/183.png"
+			}
+		},
+		{
+			"name": "UL04 Infernus Base",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "260",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/184.png"
+			}
+		},
+		{
+			"name": "UL05 Refreshment Base",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "261",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/185.png"
+			}
+		},
+		{
+			"name": "UX01 Brassine, Imperial Capitol City",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Legendary Artifact Land",
+			"collector_number": "262",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/186.png"
+			}
+		},
+		{
+			"name": "UX02 Ukanian City Cluster",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "263",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/187.png"
+			}
+		},
+		{
+			"name": "MX01 Emperor Wagodin",
+			"rarity": "mythic",
+			"mana_cost": "{1}{G}{W}{U}",
+			"type": "Legendary Creature — Human Noble",
+			"collector_number": "202",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/188.png"
+			}
+		},
+		{
+			"name": "RX02 Legacy of Ancient Wars",
+			"rarity": "mythic",
+			"mana_cost": "{5}",
+			"type": "Sorcery",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/189.png"
+			}
+		},
+		{
+			"name": "RX03 Nevexian Scourer",
+			"rarity": "rare",
+			"mana_cost": "{6}",
+			"type": "Artifact Creature — Robot Beast",
+			"collector_number": "248",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/190.png"
+			}
+		},
+		{
+			"name": "RX04 Guardian of Rorithan Monolith",
+			"rarity": "rare",
+			"mana_cost": "{7}",
+			"type": "Legendary Artifact Creature — Robot Dragon",
+			"collector_number": "249",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/191.png"
+			}
+		},
+		{
+			"name": "RX05 Enforcer-General Olores",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}{U}",
+			"type": "Legendary Creature — Elf Soldier",
+			"collector_number": "214",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/192.png"
+			}
+		},
+		{
+			"name": "RX06 Imeon, Who Ran",
+			"rarity": "rare",
+			"mana_cost": "{G}{U}",
+			"type": "Legendary Creature — Elf Rogue",
+			"collector_number": "215",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/193.png"
+			}
+		},
+		{
+			"name": "MX07 Uritz, Glikki Visionary",
+			"rarity": "rare",
+			"mana_cost": "{U}{B}{R}",
+			"type": "Legendary Creature — Goblin Noble Mercenary",
+			"collector_number": "203",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/194.png"
+			}
+		},
+		{
+			"name": "RX08 Power, At Any Cost",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}{W}{B}",
+			"type": "Sorcery",
+			"collector_number": "216",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/195.png"
+			}
+		},
+		{
+			"name": "UW13 Spectral Morphology",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{W}",
+			"type": "Enchantment — Aura",
+			"collector_number": "38",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/196.png"
+			}
+		},
+		{
+			"name": "UW12 Wormhole Induction",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Instant",
+			"collector_number": "37",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/197.png"
+			}
+		},
+		{
+			"name": "UW11 Prisoner Transference",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Instant",
+			"collector_number": "36",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/198.png"
+			}
+		},
+		{
+			"name": "UU12 Wormhole Shift",
+			"rarity": "uncommon",
+			"mana_cost": "{U}",
+			"type": "Instant",
+			"collector_number": "77",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/199.png"
+			}
+		},
+		{
+			"name": "UU13 Portable Hexfield",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Instant",
+			"collector_number": "78",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/200.png"
+			}
+		},
+		{
+			"name": "UU14 Refresh Memory",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Sorcery",
+			"collector_number": "79",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/201.png"
+			}
+		},
+		{
+			"name": "CB02 Anazumi Portalrunner",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Artifact Creature — Rat Rogue",
+			"collector_number": "83",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/202.png"
+			}
+		},
+		{
+			"name": "UB14 Corner the Market",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Sorcery",
+			"collector_number": "119",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/203.png"
+			}
+		},
+		{
+			"name": "UB13 Anyon Braiding",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Sorcery",
+			"collector_number": "118",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/204.png"
+			}
+		},
+		{
+			"name": "UB11 Gas-Spewer Suit",
+			"rarity": "uncommon",
+			"mana_cost": "{B}",
+			"type": "Artifact — Equipment",
+			"collector_number": "116",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/205.png"
+			}
+		},
+		{
+			"name": "UB12 Data Raid",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "117",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/206.png"
+			}
+		},
+		{
+			"name": "UR14 Concentrated Fire",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Sorcery",
+			"collector_number": "159",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/207.png"
+			}
+		},
+		{
+			"name": "UR13 Cortex Explosion",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{R}{R}",
+			"type": "Sorcery",
+			"collector_number": "158",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/208.png"
+			}
+		},
+		{
+			"name": "UR12 Mobile Cannon Platform",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Artifact — Vehicle",
+			"collector_number": "157",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/209.png"
+			}
+		},
+		{
+			"name": "UR11 Glikki Scrap Bay",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Artifact",
+			"collector_number": "156",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/210.png"
+			}
+		},
+		{
+			"name": "UG14 Reach the Forgotten Temple",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Sorcery",
+			"collector_number": "199",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/211.png"
+			}
+		},
+		{
+			"name": "UG13 Eternal Vigil",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}{G}",
+			"type": "Enchantment",
+			"collector_number": "198",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/212.png"
+			}
+		},
+		{
+			"name": "UG12 Industrial Cultivation",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}",
+			"type": "Sorcery",
+			"collector_number": "197",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/213.png"
+			}
+		},
+		{
+			"name": "UG11 In Search Of Gnosis",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}",
+			"type": "Enchantment",
+			"collector_number": "196",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/214.png"
+			}
+		},
+		{
+			"name": "UM01 Reintegration Circle",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}{U}",
+			"type": "Enchantment Artifact",
+			"collector_number": "224",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/215.png"
+			}
+		},
+		{
+			"name": "UM02 Treasure Reclaimer",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}{B}",
+			"type": "Creature — Human Wizard Scout",
+			"collector_number": "234",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/216.png"
+			}
+		},
+		{
+			"name": "UM02 Roana Hansen, Malicious Heir",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}{R}",
+			"type": "Legendary Creature — Human Warlock",
+			"collector_number": "230",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/217.png"
+			}
+		},
+		{
+			"name": "UM02 Massive Mining Mission",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}{G}",
+			"type": "Enchantment",
+			"collector_number": "229",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/218.png"
+			}
+		},
+		{
+			"name": "UM02 Wise Titan of Elomne",
+			"rarity": "uncommon",
+			"mana_cost": "{5}{G}{W}",
+			"type": "Legendary Creature — Giant Spirit",
+			"collector_number": "236",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/219.png"
+			}
+		},
+		{
+			"name": "UM02 Astema, First-Chosen",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}{B}",
+			"type": "Legendary Creature — Angel Demon Knight",
+			"collector_number": "228",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/220.png"
+			}
+		},
+		{
+			"name": "UM02 Starlane Plotter",
+			"rarity": "uncommon",
+			"mana_cost": "{U}{R}",
+			"type": "Artifact Creature — Construct Pilot",
+			"collector_number": "233",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/221.png"
+			}
+		},
+		{
+			"name": "UM02 Solemn Reconstruction",
+			"rarity": "uncommon",
+			"mana_cost": "{X}{B}{G}",
+			"type": "Sorcery",
+			"collector_number": "232",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/222.png"
+			}
+		},
+		{
+			"name": "UM02 Sanguine Enforcer",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}{W}",
+			"type": "Artifact Creature — Elf Soldier",
+			"collector_number": "231",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/223.png"
+			}
+		},
+		{
+			"name": "UM02 Veteran Archivist",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}{U}",
+			"type": "Creature — Human Scientist",
+			"collector_number": "235",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/224.png"
+			}
+		},
+		{
+			"name": "CA03 Pondering Automaton",
+			"rarity": "common",
+			"mana_cost": "{4}",
+			"type": "Artifact Creature — Robot",
+			"collector_number": "239",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/225.png"
+			}
+		},
+		{
+			"name": "CA04 Icon of Nevex",
+			"rarity": "common",
+			"mana_cost": "{2}",
+			"type": "Artifact — Equipment",
+			"collector_number": "240",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/226.png"
+			}
+		},
+		{
+			"name": "CA05 Rescue Shuttle",
+			"rarity": "common",
+			"mana_cost": "{3}",
+			"type": "Artifact — Vehicle",
+			"collector_number": "241",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/227.png"
+			}
+		},
+		{
+			"name": "UA05 Dispersed Shield Matrix",
+			"rarity": "uncommon",
+			"mana_cost": "{X}{X}",
+			"type": "Artifact",
+			"collector_number": "254",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/228.png"
+			}
+		},
+		{
+			"name": "RM01 Kaulain, Skyblade Sergeant",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}{R}",
+			"type": "Legendary Creature — Kavid Soldier",
+			"collector_number": "209",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/229.png"
+			}
+		},
+		{
+			"name": "RM01 Librarian's Treasures",
+			"rarity": "rare",
+			"mana_cost": "{G}{U}",
+			"type": "Sorcery",
+			"collector_number": "211",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/230.png"
+			}
+		},
+		{
+			"name": "UX01 Grade 2 Downlink",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Artifact — Spacecraft",
+			"collector_number": "41",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/231.png"
+			}
+		},
+		{
+			"name": "UX02 Glikki Scout Station",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Artifact — Spacecraft",
+			"collector_number": "81",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/232.png"
+			}
+		},
+		{
+			"name": "UX03 Nevex Raidship",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Artifact — Spacecraft",
+			"collector_number": "121",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/233.png"
+			}
+		},
+		{
+			"name": "UX04 Solar Charge Station",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Artifact — Spacecraft",
+			"collector_number": "161",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/234.png"
+			}
+		},
+		{
+			"name": "UX05 Genesis Complex",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Artifact — Spacecraft",
+			"collector_number": "201",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/235.png"
+			}
+		},
+		{
+			"name": "MX01 Capitol Healing Forum",
+			"rarity": "mythic",
+			"mana_cost": "{4}",
+			"type": "Legendary Artifact — Spacecraft",
+			"collector_number": "243",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/236.png"
+			}
+		},
+		{
+			"name": "MX02 Somor, City of Science",
+			"rarity": "mythic",
+			"mana_cost": "{4}",
+			"type": "Legendary Artifact — Spacecraft",
+			"collector_number": "244",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/237.png"
+			}
+		},
+		{
+			"name": "MX03 Veltex, Crucible of Wrath",
+			"rarity": "mythic",
+			"mana_cost": "{3}",
+			"type": "Legendary Artifact — Spacecraft",
+			"collector_number": "245",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/238.png"
+			}
+		},
+		{
+			"name": "MX04 Furnace Station",
+			"rarity": "mythic",
+			"mana_cost": "{6}",
+			"type": "Legendary Artifact — Spacecraft",
+			"collector_number": "246",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/239.png"
+			}
+		},
+		{
+			"name": "MX05 Akoon Gateway",
+			"rarity": "mythic",
+			"mana_cost": "{5}",
+			"type": "Legendary Artifact — Spacecraft",
+			"collector_number": "247",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/240.png"
+			}
+		},
+		{
+			"name": "Plains",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Plains",
+			"collector_number": "264",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/241.png"
+			}
+		},
+		{
+			"name": "Island",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Island",
+			"collector_number": "265",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/242.png"
+			}
+		},
+		{
+			"name": "Swamp",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Swamp",
+			"collector_number": "266",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/243.png"
+			}
+		},
+		{
+			"name": "Mountain",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Mountain",
+			"collector_number": "267",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/244.png"
+			}
+		},
+		{
+			"name": "Forest",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Basic Land — Forest",
+			"collector_number": "268",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/245.png"
+			}
+		},
+		{
+			"name": "UW01 Jahan, Breach Leader",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{W}",
+			"type": "Legendary Creature — Human Soldier",
+			"collector_number": "26",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://Opacana.github.io/sets/GXF-files/img/246_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/246_front.png"
+			}
+		},
+		{
+			"name": "UU02 0-WL, Wise Listener",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Legendary Creature — Bird Construct",
+			"collector_number": "67",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://Opacana.github.io/sets/GXF-files/img/248_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/248_front.png"
+			}
+		},
+		{
+			"name": "UR02 Scamp v2",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}{R}",
+			"type": "Legendary Artifact Creature — Dragon",
+			"collector_number": "147",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://Opacana.github.io/sets/GXF-files/img/250_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/250_front.png"
+			}
+		},
+		{
+			"name": "RW01 Princess Vella",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}{W}",
+			"type": "Legendary Creature — Human Knight",
+			"collector_number": "19",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://Opacana.github.io/sets/GXF-files/img/252_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/252_front.png"
+			}
+		},
+		{
+			"name": "RW02 Ayla, Loyal Mount",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}",
+			"type": "Legendary Artifact Creature — Horse",
+			"collector_number": "20",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://Opacana.github.io/sets/GXF-files/img/254_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/254_front.png"
+			}
+		},
+		{
+			"name": "UB01 Korzia, Addicted Psyfist",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Legendary Creature — Human Rogue",
+			"collector_number": "106",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://Opacana.github.io/sets/GXF-files/img/256_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/256_front.png"
+			}
+		},
+		{
+			"name": "UB02 Dagrym",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}",
+			"type": "Legendary Artifact Creature — Wolf Construct",
+			"collector_number": "107",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://Opacana.github.io/sets/GXF-files/img/258_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/258_front.png"
+			}
+		},
+		{
+			"name": "UG01 Simi, Dedicated Guardian",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Legendary Creature — Human Soldier",
+			"collector_number": "186",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://Opacana.github.io/sets/GXF-files/img/260_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/260_front.png"
+			}
+		},
+		{
+			"name": "UW02 Nouve",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Legendary Creature — Fox Spirit",
+			"collector_number": "27",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://Opacana.github.io/sets/GXF-files/img/262_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/262_front.png"
+			}
+		},
+		{
+			"name": "UU03 Edrith, Cloudpeak Proctor",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Legendary Creature — Human Warrior",
+			"collector_number": "68",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://Opacana.github.io/sets/GXF-files/img/264_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/264_front.png"
+			}
+		},
+		{
+			"name": "UR01 Coria, Firebrand Prodigy",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Legendary Creature — Human Rogue Pilot",
+			"collector_number": "146",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://Opacana.github.io/sets/GXF-files/img/266_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/266_front.png"
+			}
+		},
+		{
+			"name": "UG02 Duvoch Forest Council",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{G}",
+			"type": "Legendary Creature — Treefolk Alien",
+			"collector_number": "187",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://Opacana.github.io/sets/GXF-files/img/268_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/268_front.png"
+			}
+		},
+		{
+			"name": "RR01 Ashira Fwell, Dominus",
+			"rarity": "rare",
+			"mana_cost": "{3}{R}{R}",
+			"type": "Legendary Creature — Human Warlock",
+			"collector_number": "139",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://Opacana.github.io/sets/GXF-files/img/270_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/270_front.png"
+			}
+		},
+		{
+			"name": "RR02 Cynder",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}",
+			"type": "Legendary Enchantment Creature — Treefolk",
+			"collector_number": "140",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://Opacana.github.io/sets/GXF-files/img/272_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/272_front.png"
+			}
+		},
+		{
+			"name": "RB01 Duchess Ingria, the Collector",
+			"rarity": "rare",
+			"mana_cost": "{B}",
+			"type": "Legendary Creature — Human Cyborg Noble",
+			"collector_number": "99",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://Opacana.github.io/sets/GXF-files/img/274_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/274_front.png"
+			}
+		},
+		{
+			"name": "RB02 Xuv-to-mrok, of Maddening Form",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}",
+			"type": "Legendary Creature — Spirit Dragon",
+			"collector_number": "100",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://Opacana.github.io/sets/GXF-files/img/276_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/276_front.png"
+			}
+		},
+		{
+			"name": "RG01 Chaila Tu'Ula",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}{G}",
+			"type": "Legendary Creature — Elf Druid",
+			"collector_number": "179",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://Opacana.github.io/sets/GXF-files/img/278_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/278_front.png"
+			}
+		},
+		{
+			"name": "RU01 Richon Ulevos",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}",
+			"type": "Legendary Creature — Angel Wizard",
+			"collector_number": "59",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://Opacana.github.io/sets/GXF-files/img/280_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/280_front.png"
+			}
+		},
+		{
+			"name": "RU01 Smalec, Timekeeper",
+			"rarity": "rare",
+			"mana_cost": "{U}",
+			"type": "Legendary Artifact Creature — Minion",
+			"collector_number": "60",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://Opacana.github.io/sets/GXF-files/img/282_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/282_front.png"
+			}
+		},
+		{
+			"name": "Construct",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Construct",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/284.png"
+			}
+		},
+		{
+			"name": "RG02 Orbokon, Last Record",
+			"rarity": "rare",
+			"mana_cost": "{3}{G}",
+			"type": "Legendary Enchantment Creature — Eye",
+			"collector_number": "180",
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://Opacana.github.io/sets/GXF-files/img/285_back.png"
+				}
+			},
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/285_front.png"
+			}
+		},
+		{
+			"name": "Weapon",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact — Equipment",
+			"collector_number": "16",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/286.png"
+			}
+		},
+		{
+			"name": "Batterfly",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Enchantment Creature — Insect",
+			"collector_number": "9",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/287.png"
+			}
+		},
+		{
+			"name": "Wings of Umura",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Enchantment — Aura",
+			"collector_number": "3",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/288.png"
+			}
+		},
+		{
+			"name": "Mutant",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Mutant",
+			"collector_number": "10",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/289.png"
+			}
+		},
+		{
+			"name": "Treasure",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact — Treasure",
+			"collector_number": "15",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/290.png"
+			}
+		},
+		{
+			"name": "Human Rogue Scientist",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Human Rogue Scientist",
+			"collector_number": "5",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/291.png"
+			}
+		},
+		{
+			"name": "Clue",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact — Clue",
+			"collector_number": "11",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/292.png"
+			}
+		},
+		{
+			"name": "Cat",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Enchantment Creature — Cat",
+			"collector_number": "2",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/293.png"
+			}
+		},
+		{
+			"name": "Robot Beast",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact Creature — Robot Beast",
+			"collector_number": "14",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/294.png"
+			}
+		},
+		{
+			"name": "Ooze Plant",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Enchantment Creature — Ooze Plant",
+			"collector_number": "8",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/295.png"
+			}
+		},
+		{
+			"name": "Bird",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Bird",
+			"collector_number": "4",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/296.png"
+			}
+		},
+		{
+			"name": "Judgment",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Artifact — Equipment",
+			"collector_number": "13",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/297.png"
+			}
+		},
+		{
+			"name": "Insect",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Enchantment Creature — Insect",
+			"collector_number": "7",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/298.png"
+			}
+		},
+		{
+			"name": "Drone",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Drone",
+			"collector_number": "12",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/299.png"
+			}
+		},
+		{
+			"name": "Frog",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Enchantment Creature — Frog",
+			"collector_number": "6",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/300.png"
+			}
+		},
+		{
+			"name": "UW15 Gathering Evidence",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Sorcery",
+			"collector_number": "40",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/301.png"
+			}
+		},
+		{
+			"name": "UU15 Unlicensed Parts Dealer",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Goblin Artificer Rogue",
+			"collector_number": "80",
+			"image_uris": {
+				"en": "https://Opacana.github.io/sets/GXF-files/img/302.png"
+			}
+		}
+	]
+
+[rare(1)]
+	2 RW03 Apparition Guard
+	2 RW04 Digital Avatar of Tavros
+	2 RW05 High Champion of Umura
+	2 RW06 Take Up Firing Positions
+	2 RW07 Erushan Metacube
+	2 RU03 Imperial Minister of Labour
+	2 RU04 Glikki Arsenal Master
+	2 RU05 Jukorkorek, Emissary
+	2 RU06 Chronovolt Engine
+	2 RU07 Pit Stop
+	2 RB03 Frixel, Soul-Eater
+	2 RB04 Lord of Fracture
+	2 RB05 Cruel Extortion
+	2 RB06 Firing Solution
+	2 RB07 Corpse Acquisition
+	2 RR03 Bound Ragehacker
+	2 RR04 Eldest Stonehide of Uthios
+	2 RR05 Jiram, Scion of Potentials
+	2 RR06 Competitive Maintenance
+	2 RR07 Demolition Suit
+	2 RG03 Leafling Prime
+	2 RG04 First-Ranked Beastcaller
+	2 RG05 Verini Genetics Laboratory
+	2 RG06 Finding Hope
+	2 RG07 Ongoing Experiments
+	1 MW01 Lightbringer Titan Suit
+	1 MW02 Defector from The Balance
+	1 MU01 Exosprite
+	1 MU02 Shimoln Prime
+	1 MB01 Eera, Archivist of the Balance
+	1 MB02 Rajakoli, Planet Corrupter
+	1 MR01 Arry, Confident Champion
+	1 MR02 Mysterious Hero of Palakar Arm
+	1 MG01 Queen Kilops of Evyal
+	1 MG02 Hope, Rebirth Engine
+	2 RM01 Last Line of Defense
+	2 RM01 Abyssal Retrieval
+	2 RM01 Mole Troop Carrier
+	2 RM01 Form of the Exalted
+	2 RM01 Svania, Balancekeeper
+	2 RM01 Fleet's Arrival
+	2 RM01 Brillmyk, Master Reanimator
+	2 RM01 Devera, Bounty Hunter
+	1 MX01 Emperor Wagodin
+	1 RX02 Legacy of Ancient Wars
+	2 RX03 Nevexian Scourer
+	2 RX04 Guardian of Rorithan Monolith
+	2 RX05 Enforcer-General Olores
+	2 RX06 Imeon, Who Ran
+	2 MX07 Uritz, Glikki Visionary
+	2 RX08 Power, At Any Cost
+	2 RM01 Kaulain, Skyblade Sergeant
+	2 RM01 Librarian's Treasures
+	1 MX01 Capitol Healing Forum
+	1 MX02 Somor, City of Science
+	1 MX03 Veltex, Crucible of Wrath
+	1 MX04 Furnace Station
+	1 MX05 Akoon Gateway
+	2 RW01 Princess Vella
+	2 RW02 Ayla, Loyal Mount
+	2 RR01 Ashira Fwell, Dominus
+	2 RR02 Cynder
+	2 RB01 Duchess Ingria, the Collector
+	2 RB02 Xuv-to-mrok, of Maddening Form
+	2 RG01 Chaila Tu'Ula
+	2 RU01 Richon Ulevos
+	2 RU01 Smalec, Timekeeper
+	2 RG02 Orbokon, Last Record
+[uncommon(3)]
+	4 UW03 Longtooth Agent
+	4 UW04 Transcendental Archivist
+	4 UW05 Elite K-99 Corps
+	4 UW06 Abarale, Lightmaster
+	4 UW07 Esander, Gloryboy
+	4 UW08 Ostentatious Boss
+	4 UW09 Quolum Skywhale
+	4 UW10 Last Guardians of Gimav
+	4 UW14 Synchronous Battle Tank
+	4 UU01 Scrap Monitor
+	4 UU04 Excavation's Hired Guard
+	4 UU05 Chief Technomancer
+	4 UU06 Aquamaster and Hydroid
+	4 UU07 Drone Crew
+	4 UU08 Beginner's Luck
+	4 UU09 Ingenious Portaling
+	4 UU10 Scout Dipter
+	4 UU11 Hacker's Arrival
+	4 UB03 Voidsoul Valixen
+	4 UB04 Graverobber Unit
+	4 UB05 Scorpion Style Scion
+	4 UB06 Ichega, Betrayer of the Balance
+	4 UB07 Nevex Shardmaster
+	4 UB08 Necrofuel Interrogator
+	4 UB09 Nevex Assault Craft Type 7
+	4 UB10 Hunting Through Databanks
+	4 UB15 Vacuum Communion
+	4 UR03 Verini Contemptor
+	4 UR04 Crackleblood Descendant
+	4 UR05 Wini, Trophy Winner
+	4 UR06 Sawblade Mechanic
+	4 UR07 Hungering Furnace
+	4 UR08 Prime Yamanisaur
+	4 UR09 Ore Carrier
+	4 UR10 Heavy Mining Suit
+	4 UR15 Final Push
+	4 UG03 Brazen Saboteur
+	4 UG04 Deathside Bloom
+	4 UG05 Disparate Legion
+	4 UG06 Frasian Jadeback
+	4 UG07 Eonspeaker
+	4 UG08 Hydra Ultimus
+	4 UG09 Spirit of Tenacity
+	4 UG10 Seedforce Emergence
+	4 UG15 Championship Match
+	4 UM01 Lightborne Psyker
+	4 UM01 Glamour of the Prey
+	4 UM01 Nevex Vortex
+	4 UM01 Frasian Bristletorch
+	4 UM01 Research Workshop
+	4 UM01 Unstable Payload
+	4 UM01 Glikki Repair Base
+	4 UM01 Enhanced Remembrancer
+	4 UM01 Forge-Temple Communion
+	4 UM01 Tarusian Biologist
+	4 UA01 Goriform Heavy Mech
+	4 UA02 Missionbound Revenant
+	4 UA03 Upgraded Houndbot
+	4 UA04 Champion Suit
+	4 UA06 Icon of the Balance
+	4 UL01 Pilgrimage Base
+	4 UL02 Polar Astronomy Base
+	4 UL03 Profane Base
+	4 UL04 Infernus Base
+	4 UL05 Refreshment Base
+	4 UX01 Brassine, Imperial Capitol City
+	4 UX02 Ukanian City Cluster
+	4 UW13 Spectral Morphology
+	4 UW12 Wormhole Induction
+	4 UW11 Prisoner Transference
+	4 UU12 Wormhole Shift
+	4 UU13 Portable Hexfield
+	4 UU14 Refresh Memory
+	4 UB14 Corner the Market
+	4 UB13 Anyon Braiding
+	4 UB11 Gas-Spewer Suit
+	4 UB12 Data Raid
+	4 UR14 Concentrated Fire
+	4 UR13 Cortex Explosion
+	4 UR12 Mobile Cannon Platform
+	4 UR11 Glikki Scrap Bay
+	4 UG14 Reach the Forgotten Temple
+	4 UG13 Eternal Vigil
+	4 UG12 Industrial Cultivation
+	4 UG11 In Search Of Gnosis
+	4 UM01 Reintegration Circle
+	4 UM02 Treasure Reclaimer
+	4 UM02 Roana Hansen, Malicious Heir
+	4 UM02 Massive Mining Mission
+	4 UM02 Wise Titan of Elomne
+	4 UM02 Astema, First-Chosen
+	4 UM02 Starlane Plotter
+	4 UM02 Solemn Reconstruction
+	4 UM02 Sanguine Enforcer
+	4 UM02 Veteran Archivist
+	4 UA05 Dispersed Shield Matrix
+	4 UX01 Grade 2 Downlink
+	4 UX02 Glikki Scout Station
+	4 UX03 Nevex Raidship
+	4 UX04 Solar Charge Station
+	4 UX05 Genesis Complex
+	4 UW01 Jahan, Breach Leader
+	4 UU02 0-WL, Wise Listener
+	4 UR02 Scamp v2
+	4 UB01 Korzia, Addicted Psyfist
+	4 UB02 Dagrym
+	4 UG01 Simi, Dedicated Guardian
+	4 UW02 Nouve
+	4 UU03 Edrith, Cloudpeak Proctor
+	4 UR01 Coria, Firebrand Prodigy
+	4 UG02 Duvoch Forest Council
+	4 UW15 Gathering Evidence
+	4 UU15 Unlicensed Parts Dealer
+[common(6)]
+	8 CW01 Coilhide Sentinel
+	8 CW02 Imperial Intervenor
+	8 CW03 Frontline Valixen
+	8 CW04 Aetherwing Lepid
+	8 CW05 Moonlight Guardian
+	8 CW06 Devoted Trooper
+	8 CW07 Lightfoot Sapper
+	8 CW08 Crackling Guardian
+	8 CW09 Gleaming Taxiarch
+	8 CW10 Synchrocharge Breacher
+	8 CW11 Lifecaller Scion
+	8 CW12 Righteous Storm
+	8 CW13 Ice World Imprisonment
+	8 CW14 Amidst the Iski Birds
+	8 CW15 Cutter Rifle
+	8 CU01 Goldwing Rescuer
+	8 CU02 Sukini Elite Pilot
+	8 CU04 Alternate Reality Scout
+	8 CU03 Well-Versed Wright
+	8 CU05 Last of the Ebreek
+	8 CU06 Cunning Guardmage
+	8 CU07 Starlight Herald
+	8 CU08 Imperial Portal Agent
+	8 CU09 Defensive Routine
+	8 CU10 Acting on Omens
+	8 CU11 Extraordinary Epiphany
+	8 CU12 Madcap Experiments
+	8 CU13 Backwater Stranding
+	8 CU14 Shoved Out the Airlock
+	8 CU15 Contingency Firewall
+	8 CB01 Investigative Biker
+	8 CB03 Sworn Operative
+	8 CB04 Bloodsworn Tracker
+	8 CB05 Abyssal Scrounger
+	8 CB06 Haughty Valixen
+	8 CB07 Spiderfang Operative
+	8 CB08 Second-Chancer
+	8 CB09 Skyblade Disruptor
+	8 CB10 Violet Blast
+	8 CB11 Vindictive Escape
+	8 CB12 Sim Hit
+	8 CB13 Overwhelm the Servbot
+	8 CB14 Coup de Grace
+	8 CB15 Not On The List
+	8 CR01 Anazumi Breacher
+	8 CR02 Denasan Overclocker
+	8 CR03 Juvenile Yamanisaur
+	8 CR04 Ojni Gunslinger
+	8 CR05 Enhanced Ganger
+	8 CR06 Demequian Pistolier
+	8 CR07 Nevex Tactical Trooper
+	8 CR08 Indifferent Thug
+	8 CR09 Elite Ripper
+	8 CR10 Circuit Overload
+	8 CR11 Activate Armor
+	8 CR12 Group Effort
+	8 CR13 Trigger the Detonator
+	8 CR14 Close-Quarters Shot
+	8 CR15 Rapid Firing Solution
+	8 CG01 Panzuran Golden Cat
+	8 CG02 Verini Explorator
+	8 CG03 Locust Unit
+	8 CG04 Pinokian Cannoneer
+	8 CG05 Prime Curator
+	8 CG06 Spectra Summoner
+	8 CG07 Neuralink Mapper
+	8 CG08 Gas Giant Cloudstalker
+	8 CG09 Ukanian Treasure Seeker
+	8 CG10 Tipiwitshik Blossom
+	8 CG11 Made of Stars
+	8 CG12 Cleave Through the Hordes
+	8 CG13 Stunning Swing
+	8 CG14 Flux Alignment
+	8 CG15 Planetary Survey
+	8 CA01 Sparring Drone
+	8 CA02 Key of Ancient Light
+	8 CA06 Lassian Scoutwing
+	8 CL01 Extraction Base
+	8 CB02 Anazumi Portalrunner
+	8 CA03 Pondering Automaton
+	8 CA04 Icon of Nevex
+	8 CA05 Rescue Shuttle
+[common | masterpiece(1)]
+	8 CW01 Coilhide Sentinel
+	8 CW02 Imperial Intervenor
+	8 CW03 Frontline Valixen
+	8 CW04 Aetherwing Lepid
+	8 CW05 Moonlight Guardian
+	8 CW06 Devoted Trooper
+	8 CW07 Lightfoot Sapper
+	8 CW08 Crackling Guardian
+	8 CW09 Gleaming Taxiarch
+	8 CW10 Synchrocharge Breacher
+	8 CW11 Lifecaller Scion
+	8 CW12 Righteous Storm
+	8 CW13 Ice World Imprisonment
+	8 CW14 Amidst the Iski Birds
+	8 CW15 Cutter Rifle
+	8 CU01 Goldwing Rescuer
+	8 CU02 Sukini Elite Pilot
+	8 CU04 Alternate Reality Scout
+	8 CU03 Well-Versed Wright
+	8 CU05 Last of the Ebreek
+	8 CU06 Cunning Guardmage
+	8 CU07 Starlight Herald
+	8 CU08 Imperial Portal Agent
+	8 CU09 Defensive Routine
+	8 CU10 Acting on Omens
+	8 CU11 Extraordinary Epiphany
+	8 CU12 Madcap Experiments
+	8 CU13 Backwater Stranding
+	8 CU14 Shoved Out the Airlock
+	8 CU15 Contingency Firewall
+	8 CB01 Investigative Biker
+	8 CB03 Sworn Operative
+	8 CB04 Bloodsworn Tracker
+	8 CB05 Abyssal Scrounger
+	8 CB06 Haughty Valixen
+	8 CB07 Spiderfang Operative
+	8 CB08 Second-Chancer
+	8 CB09 Skyblade Disruptor
+	8 CB10 Violet Blast
+	8 CB11 Vindictive Escape
+	8 CB12 Sim Hit
+	8 CB13 Overwhelm the Servbot
+	8 CB14 Coup de Grace
+	8 CB15 Not On The List
+	8 CR01 Anazumi Breacher
+	8 CR02 Denasan Overclocker
+	8 CR03 Juvenile Yamanisaur
+	8 CR04 Ojni Gunslinger
+	8 CR05 Enhanced Ganger
+	8 CR06 Demequian Pistolier
+	8 CR07 Nevex Tactical Trooper
+	8 CR08 Indifferent Thug
+	8 CR09 Elite Ripper
+	8 CR10 Circuit Overload
+	8 CR11 Activate Armor
+	8 CR12 Group Effort
+	8 CR13 Trigger the Detonator
+	8 CR14 Close-Quarters Shot
+	8 CR15 Rapid Firing Solution
+	8 CG01 Panzuran Golden Cat
+	8 CG02 Verini Explorator
+	8 CG03 Locust Unit
+	8 CG04 Pinokian Cannoneer
+	8 CG05 Prime Curator
+	8 CG06 Spectra Summoner
+	8 CG07 Neuralink Mapper
+	8 CG08 Gas Giant Cloudstalker
+	8 CG09 Ukanian Treasure Seeker
+	8 CG10 Tipiwitshik Blossom
+	8 CG11 Made of Stars
+	8 CG12 Cleave Through the Hordes
+	8 CG13 Stunning Swing
+	8 CG14 Flux Alignment
+	8 CG15 Planetary Survey
+	8 CA01 Sparring Drone
+	8 CA02 Key of Ancient Light
+	8 CA06 Lassian Scoutwing
+	8 CL01 Extraction Base
+	8 CB02 Anazumi Portalrunner
+	8 CA03 Pondering Automaton
+	8 CA04 Icon of Nevex
+	8 CA05 Rescue Shuttle
+[foil(1)]
+	12 CW01 Coilhide Sentinel
+	12 CW02 Imperial Intervenor
+	12 CW03 Frontline Valixen
+	12 CW04 Aetherwing Lepid
+	12 CW05 Moonlight Guardian
+	12 CW06 Devoted Trooper
+	12 CW07 Lightfoot Sapper
+	12 CW08 Crackling Guardian
+	12 CW09 Gleaming Taxiarch
+	12 CW10 Synchrocharge Breacher
+	12 CW11 Lifecaller Scion
+	12 CW12 Righteous Storm
+	12 CW13 Ice World Imprisonment
+	12 CW14 Amidst the Iski Birds
+	12 CW15 Cutter Rifle
+	12 CU01 Goldwing Rescuer
+	12 CU02 Sukini Elite Pilot
+	12 CU04 Alternate Reality Scout
+	12 CU03 Well-Versed Wright
+	12 CU05 Last of the Ebreek
+	12 CU06 Cunning Guardmage
+	12 CU07 Starlight Herald
+	12 CU08 Imperial Portal Agent
+	12 CU09 Defensive Routine
+	12 CU10 Acting on Omens
+	12 CU11 Extraordinary Epiphany
+	12 CU12 Madcap Experiments
+	12 CU13 Backwater Stranding
+	12 CU14 Shoved Out the Airlock
+	12 CU15 Contingency Firewall
+	12 CB01 Investigative Biker
+	12 CB03 Sworn Operative
+	12 CB04 Bloodsworn Tracker
+	12 CB05 Abyssal Scrounger
+	12 CB06 Haughty Valixen
+	12 CB07 Spiderfang Operative
+	12 CB08 Second-Chancer
+	12 CB09 Skyblade Disruptor
+	12 CB10 Violet Blast
+	12 CB11 Vindictive Escape
+	12 CB12 Sim Hit
+	12 CB13 Overwhelm the Servbot
+	12 CB14 Coup de Grace
+	12 CB15 Not On The List
+	12 CR01 Anazumi Breacher
+	12 CR02 Denasan Overclocker
+	12 CR03 Juvenile Yamanisaur
+	12 CR04 Ojni Gunslinger
+	12 CR05 Enhanced Ganger
+	12 CR06 Demequian Pistolier
+	12 CR07 Nevex Tactical Trooper
+	12 CR08 Indifferent Thug
+	12 CR09 Elite Ripper
+	12 CR10 Circuit Overload
+	12 CR11 Activate Armor
+	12 CR12 Group Effort
+	12 CR13 Trigger the Detonator
+	12 CR14 Close-Quarters Shot
+	12 CR15 Rapid Firing Solution
+	12 CG01 Panzuran Golden Cat
+	12 CG02 Verini Explorator
+	12 CG03 Locust Unit
+	12 CG04 Pinokian Cannoneer
+	12 CG05 Prime Curator
+	12 CG06 Spectra Summoner
+	12 CG07 Neuralink Mapper
+	12 CG08 Gas Giant Cloudstalker
+	12 CG09 Ukanian Treasure Seeker
+	12 CG10 Tipiwitshik Blossom
+	12 CG11 Made of Stars
+	12 CG12 Cleave Through the Hordes
+	12 CG13 Stunning Swing
+	12 CG14 Flux Alignment
+	12 CG15 Planetary Survey
+	6 UW03 Longtooth Agent
+	6 UW04 Transcendental Archivist
+	6 UW05 Elite K-99 Corps
+	6 UW06 Abarale, Lightmaster
+	6 UW07 Esander, Gloryboy
+	6 UW08 Ostentatious Boss
+	6 UW09 Quolum Skywhale
+	6 UW10 Last Guardians of Gimav
+	6 UW14 Synchronous Battle Tank
+	6 UU01 Scrap Monitor
+	6 UU04 Excavation's Hired Guard
+	6 UU05 Chief Technomancer
+	6 UU06 Aquamaster and Hydroid
+	6 UU07 Drone Crew
+	6 UU08 Beginner's Luck
+	6 UU09 Ingenious Portaling
+	6 UU10 Scout Dipter
+	6 UU11 Hacker's Arrival
+	6 UB03 Voidsoul Valixen
+	6 UB04 Graverobber Unit
+	6 UB05 Scorpion Style Scion
+	6 UB06 Ichega, Betrayer of the Balance
+	6 UB07 Nevex Shardmaster
+	6 UB08 Necrofuel Interrogator
+	6 UB09 Nevex Assault Craft Type 7
+	6 UB10 Hunting Through Databanks
+	6 UB15 Vacuum Communion
+	6 UR03 Verini Contemptor
+	6 UR04 Crackleblood Descendant
+	6 UR05 Wini, Trophy Winner
+	6 UR06 Sawblade Mechanic
+	6 UR07 Hungering Furnace
+	6 UR08 Prime Yamanisaur
+	6 UR09 Ore Carrier
+	6 UR10 Heavy Mining Suit
+	6 UR15 Final Push
+	6 UG03 Brazen Saboteur
+	6 UG04 Deathside Bloom
+	6 UG05 Disparate Legion
+	6 UG06 Frasian Jadeback
+	6 UG07 Eonspeaker
+	6 UG08 Hydra Ultimus
+	6 UG09 Spirit of Tenacity
+	6 UG10 Seedforce Emergence
+	6 UG15 Championship Match
+	2 RW03 Apparition Guard
+	2 RW04 Digital Avatar of Tavros
+	2 RW05 High Champion of Umura
+	2 RW06 Take Up Firing Positions
+	2 RW07 Erushan Metacube
+	2 RU03 Imperial Minister of Labour
+	2 RU04 Glikki Arsenal Master
+	2 RU05 Jukorkorek, Emissary
+	2 RU06 Chronovolt Engine
+	2 RU07 Pit Stop
+	2 RB03 Frixel, Soul-Eater
+	2 RB04 Lord of Fracture
+	2 RB05 Cruel Extortion
+	2 RB06 Firing Solution
+	2 RB07 Corpse Acquisition
+	2 RR03 Bound Ragehacker
+	2 RR04 Eldest Stonehide of Uthios
+	2 RR05 Jiram, Scion of Potentials
+	2 RR06 Competitive Maintenance
+	2 RR07 Demolition Suit
+	2 RG03 Leafling Prime
+	2 RG04 First-Ranked Beastcaller
+	2 RG05 Verini Genetics Laboratory
+	2 RG06 Finding Hope
+	2 RG07 Ongoing Experiments
+	1 MW01 Lightbringer Titan Suit
+	1 MW02 Defector from The Balance
+	1 MU01 Exosprite
+	1 MU02 Shimoln Prime
+	1 MB01 Eera, Archivist of the Balance
+	1 MB02 Rajakoli, Planet Corrupter
+	1 MR01 Arry, Confident Champion
+	1 MR02 Mysterious Hero of Palakar Arm
+	1 MG01 Queen Kilops of Evyal
+	1 MG02 Hope, Rebirth Engine
+	6 UM01 Lightborne Psyker
+	6 UM01 Glamour of the Prey
+	6 UM01 Nevex Vortex
+	6 UM01 Frasian Bristletorch
+	6 UM01 Research Workshop
+	6 UM01 Unstable Payload
+	6 UM01 Glikki Repair Base
+	6 UM01 Enhanced Remembrancer
+	6 UM01 Forge-Temple Communion
+	6 UM01 Tarusian Biologist
+	2 RM01 Last Line of Defense
+	2 RM01 Abyssal Retrieval
+	2 RM01 Mole Troop Carrier
+	2 RM01 Form of the Exalted
+	2 RM01 Svania, Balancekeeper
+	2 RM01 Fleet's Arrival
+	2 RM01 Brillmyk, Master Reanimator
+	2 RM01 Devera, Bounty Hunter
+	12 CA01 Sparring Drone
+	12 CA02 Key of Ancient Light
+	12 CA06 Lassian Scoutwing
+	6 UA01 Goriform Heavy Mech
+	6 UA02 Missionbound Revenant
+	6 UA03 Upgraded Houndbot
+	6 UA04 Champion Suit
+	6 UA06 Icon of the Balance
+	12 CL01 Extraction Base
+	6 UL01 Pilgrimage Base
+	6 UL02 Polar Astronomy Base
+	6 UL03 Profane Base
+	6 UL04 Infernus Base
+	6 UL05 Refreshment Base
+	6 UX01 Brassine, Imperial Capitol City
+	6 UX02 Ukanian City Cluster
+	1 MX01 Emperor Wagodin
+	1 RX02 Legacy of Ancient Wars
+	2 RX03 Nevexian Scourer
+	2 RX04 Guardian of Rorithan Monolith
+	2 RX05 Enforcer-General Olores
+	2 RX06 Imeon, Who Ran
+	2 MX07 Uritz, Glikki Visionary
+	2 RX08 Power, At Any Cost
+	6 UW13 Spectral Morphology
+	6 UW12 Wormhole Induction
+	6 UW11 Prisoner Transference
+	6 UU12 Wormhole Shift
+	6 UU13 Portable Hexfield
+	6 UU14 Refresh Memory
+	12 CB02 Anazumi Portalrunner
+	6 UB14 Corner the Market
+	6 UB13 Anyon Braiding
+	6 UB11 Gas-Spewer Suit
+	6 UB12 Data Raid
+	6 UR14 Concentrated Fire
+	6 UR13 Cortex Explosion
+	6 UR12 Mobile Cannon Platform
+	6 UR11 Glikki Scrap Bay
+	6 UG14 Reach the Forgotten Temple
+	6 UG13 Eternal Vigil
+	6 UG12 Industrial Cultivation
+	6 UG11 In Search Of Gnosis
+	6 UM01 Reintegration Circle
+	6 UM02 Treasure Reclaimer
+	6 UM02 Roana Hansen, Malicious Heir
+	6 UM02 Massive Mining Mission
+	6 UM02 Wise Titan of Elomne
+	6 UM02 Astema, First-Chosen
+	6 UM02 Starlane Plotter
+	6 UM02 Solemn Reconstruction
+	6 UM02 Sanguine Enforcer
+	6 UM02 Veteran Archivist
+	12 CA03 Pondering Automaton
+	12 CA04 Icon of Nevex
+	12 CA05 Rescue Shuttle
+	6 UA05 Dispersed Shield Matrix
+	2 RM01 Kaulain, Skyblade Sergeant
+	2 RM01 Librarian's Treasures
+	6 UX01 Grade 2 Downlink
+	6 UX02 Glikki Scout Station
+	6 UX03 Nevex Raidship
+	6 UX04 Solar Charge Station
+	6 UX05 Genesis Complex
+	1 MX01 Capitol Healing Forum
+	1 MX02 Somor, City of Science
+	1 MX03 Veltex, Crucible of Wrath
+	1 MX04 Furnace Station
+	1 MX05 Akoon Gateway
+	6 UW01 Jahan, Breach Leader
+	6 UU02 0-WL, Wise Listener
+	6 UR02 Scamp v2
+	2 RW01 Princess Vella
+	2 RW02 Ayla, Loyal Mount
+	6 UB01 Korzia, Addicted Psyfist
+	6 UB02 Dagrym
+	6 UG01 Simi, Dedicated Guardian
+	6 UW02 Nouve
+	6 UU03 Edrith, Cloudpeak Proctor
+	6 UR01 Coria, Firebrand Prodigy
+	6 UG02 Duvoch Forest Council
+	2 RR01 Ashira Fwell, Dominus
+	2 RR02 Cynder
+	2 RB01 Duchess Ingria, the Collector
+	2 RB02 Xuv-to-mrok, of Maddening Form
+	2 RG01 Chaila Tu'Ula
+	2 RU01 Richon Ulevos
+	2 RU01 Smalec, Timekeeper
+	2 RG02 Orbokon, Last Record
+	6 UW15 Gathering Evidence
+	6 UU15 Unlicensed Parts Dealer
+[wildcard(1)]
+	6 CW01 Coilhide Sentinel
+	6 CW02 Imperial Intervenor
+	6 CW03 Frontline Valixen
+	6 CW04 Aetherwing Lepid
+	6 CW05 Moonlight Guardian
+	6 CW06 Devoted Trooper
+	6 CW07 Lightfoot Sapper
+	6 CW08 Crackling Guardian
+	6 CW09 Gleaming Taxiarch
+	6 CW10 Synchrocharge Breacher
+	6 CW11 Lifecaller Scion
+	6 CW12 Righteous Storm
+	6 CW13 Ice World Imprisonment
+	6 CW14 Amidst the Iski Birds
+	6 CW15 Cutter Rifle
+	6 CU01 Goldwing Rescuer
+	6 CU02 Sukini Elite Pilot
+	6 CU04 Alternate Reality Scout
+	6 CU03 Well-Versed Wright
+	6 CU05 Last of the Ebreek
+	6 CU06 Cunning Guardmage
+	6 CU07 Starlight Herald
+	6 CU08 Imperial Portal Agent
+	6 CU09 Defensive Routine
+	6 CU10 Acting on Omens
+	6 CU11 Extraordinary Epiphany
+	6 CU12 Madcap Experiments
+	6 CU13 Backwater Stranding
+	6 CU14 Shoved Out the Airlock
+	6 CU15 Contingency Firewall
+	6 CB01 Investigative Biker
+	6 CB03 Sworn Operative
+	6 CB04 Bloodsworn Tracker
+	6 CB05 Abyssal Scrounger
+	6 CB06 Haughty Valixen
+	6 CB07 Spiderfang Operative
+	6 CB08 Second-Chancer
+	6 CB09 Skyblade Disruptor
+	6 CB10 Violet Blast
+	6 CB11 Vindictive Escape
+	6 CB12 Sim Hit
+	6 CB13 Overwhelm the Servbot
+	6 CB14 Coup de Grace
+	6 CB15 Not On The List
+	6 CR01 Anazumi Breacher
+	6 CR02 Denasan Overclocker
+	6 CR03 Juvenile Yamanisaur
+	6 CR04 Ojni Gunslinger
+	6 CR05 Enhanced Ganger
+	6 CR06 Demequian Pistolier
+	6 CR07 Nevex Tactical Trooper
+	6 CR08 Indifferent Thug
+	6 CR09 Elite Ripper
+	6 CR10 Circuit Overload
+	6 CR11 Activate Armor
+	6 CR12 Group Effort
+	6 CR13 Trigger the Detonator
+	6 CR14 Close-Quarters Shot
+	6 CR15 Rapid Firing Solution
+	6 CG01 Panzuran Golden Cat
+	6 CG02 Verini Explorator
+	6 CG03 Locust Unit
+	6 CG04 Pinokian Cannoneer
+	6 CG05 Prime Curator
+	6 CG06 Spectra Summoner
+	6 CG07 Neuralink Mapper
+	6 CG08 Gas Giant Cloudstalker
+	6 CG09 Ukanian Treasure Seeker
+	6 CG10 Tipiwitshik Blossom
+	6 CG11 Made of Stars
+	6 CG12 Cleave Through the Hordes
+	6 CG13 Stunning Swing
+	6 CG14 Flux Alignment
+	6 CG15 Planetary Survey
+	15 UW03 Longtooth Agent
+	15 UW04 Transcendental Archivist
+	15 UW05 Elite K-99 Corps
+	15 UW06 Abarale, Lightmaster
+	15 UW07 Esander, Gloryboy
+	15 UW08 Ostentatious Boss
+	15 UW09 Quolum Skywhale
+	15 UW10 Last Guardians of Gimav
+	15 UW14 Synchronous Battle Tank
+	15 UU01 Scrap Monitor
+	15 UU04 Excavation's Hired Guard
+	15 UU05 Chief Technomancer
+	15 UU06 Aquamaster and Hydroid
+	15 UU07 Drone Crew
+	15 UU08 Beginner's Luck
+	15 UU09 Ingenious Portaling
+	15 UU10 Scout Dipter
+	15 UU11 Hacker's Arrival
+	15 UB03 Voidsoul Valixen
+	15 UB04 Graverobber Unit
+	15 UB05 Scorpion Style Scion
+	15 UB06 Ichega, Betrayer of the Balance
+	15 UB07 Nevex Shardmaster
+	15 UB08 Necrofuel Interrogator
+	15 UB09 Nevex Assault Craft Type 7
+	15 UB10 Hunting Through Databanks
+	15 UB15 Vacuum Communion
+	15 UR03 Verini Contemptor
+	15 UR04 Crackleblood Descendant
+	15 UR05 Wini, Trophy Winner
+	15 UR06 Sawblade Mechanic
+	15 UR07 Hungering Furnace
+	15 UR08 Prime Yamanisaur
+	15 UR09 Ore Carrier
+	15 UR10 Heavy Mining Suit
+	15 UR15 Final Push
+	15 UG03 Brazen Saboteur
+	15 UG04 Deathside Bloom
+	15 UG05 Disparate Legion
+	15 UG06 Frasian Jadeback
+	15 UG07 Eonspeaker
+	15 UG08 Hydra Ultimus
+	15 UG09 Spirit of Tenacity
+	15 UG10 Seedforce Emergence
+	15 UG15 Championship Match
+	7 RW03 Apparition Guard
+	7 RW04 Digital Avatar of Tavros
+	7 RW05 High Champion of Umura
+	7 RW06 Take Up Firing Positions
+	7 RW07 Erushan Metacube
+	7 RU03 Imperial Minister of Labour
+	7 RU04 Glikki Arsenal Master
+	7 RU05 Jukorkorek, Emissary
+	7 RU06 Chronovolt Engine
+	7 RU07 Pit Stop
+	7 RB03 Frixel, Soul-Eater
+	7 RB04 Lord of Fracture
+	7 RB05 Cruel Extortion
+	7 RB06 Firing Solution
+	7 RB07 Corpse Acquisition
+	7 RR03 Bound Ragehacker
+	7 RR04 Eldest Stonehide of Uthios
+	7 RR05 Jiram, Scion of Potentials
+	7 RR06 Competitive Maintenance
+	7 RR07 Demolition Suit
+	7 RG03 Leafling Prime
+	7 RG04 First-Ranked Beastcaller
+	7 RG05 Verini Genetics Laboratory
+	7 RG06 Finding Hope
+	7 RG07 Ongoing Experiments
+	4 MW01 Lightbringer Titan Suit
+	4 MW02 Defector from The Balance
+	4 MU01 Exosprite
+	4 MU02 Shimoln Prime
+	4 MB01 Eera, Archivist of the Balance
+	4 MB02 Rajakoli, Planet Corrupter
+	4 MR01 Arry, Confident Champion
+	4 MR02 Mysterious Hero of Palakar Arm
+	4 MG01 Queen Kilops of Evyal
+	4 MG02 Hope, Rebirth Engine
+	15 UM01 Lightborne Psyker
+	15 UM01 Glamour of the Prey
+	15 UM01 Nevex Vortex
+	15 UM01 Frasian Bristletorch
+	15 UM01 Research Workshop
+	15 UM01 Unstable Payload
+	15 UM01 Glikki Repair Base
+	15 UM01 Enhanced Remembrancer
+	15 UM01 Forge-Temple Communion
+	15 UM01 Tarusian Biologist
+	7 RM01 Last Line of Defense
+	7 RM01 Abyssal Retrieval
+	7 RM01 Mole Troop Carrier
+	7 RM01 Form of the Exalted
+	7 RM01 Svania, Balancekeeper
+	7 RM01 Fleet's Arrival
+	7 RM01 Brillmyk, Master Reanimator
+	7 RM01 Devera, Bounty Hunter
+	6 CA01 Sparring Drone
+	6 CA02 Key of Ancient Light
+	6 CA06 Lassian Scoutwing
+	15 UA01 Goriform Heavy Mech
+	15 UA02 Missionbound Revenant
+	15 UA03 Upgraded Houndbot
+	15 UA04 Champion Suit
+	15 UA06 Icon of the Balance
+	6 CL01 Extraction Base
+	15 UL01 Pilgrimage Base
+	15 UL02 Polar Astronomy Base
+	15 UL03 Profane Base
+	15 UL04 Infernus Base
+	15 UL05 Refreshment Base
+	15 UX01 Brassine, Imperial Capitol City
+	15 UX02 Ukanian City Cluster
+	4 MX01 Emperor Wagodin
+	4 RX02 Legacy of Ancient Wars
+	7 RX03 Nevexian Scourer
+	7 RX04 Guardian of Rorithan Monolith
+	7 RX05 Enforcer-General Olores
+	7 RX06 Imeon, Who Ran
+	7 MX07 Uritz, Glikki Visionary
+	7 RX08 Power, At Any Cost
+	15 UW13 Spectral Morphology
+	15 UW12 Wormhole Induction
+	15 UW11 Prisoner Transference
+	15 UU12 Wormhole Shift
+	15 UU13 Portable Hexfield
+	15 UU14 Refresh Memory
+	6 CB02 Anazumi Portalrunner
+	15 UB14 Corner the Market
+	15 UB13 Anyon Braiding
+	15 UB11 Gas-Spewer Suit
+	15 UB12 Data Raid
+	15 UR14 Concentrated Fire
+	15 UR13 Cortex Explosion
+	15 UR12 Mobile Cannon Platform
+	15 UR11 Glikki Scrap Bay
+	15 UG14 Reach the Forgotten Temple
+	15 UG13 Eternal Vigil
+	15 UG12 Industrial Cultivation
+	15 UG11 In Search Of Gnosis
+	15 UM01 Reintegration Circle
+	15 UM02 Treasure Reclaimer
+	15 UM02 Roana Hansen, Malicious Heir
+	15 UM02 Massive Mining Mission
+	15 UM02 Wise Titan of Elomne
+	15 UM02 Astema, First-Chosen
+	15 UM02 Starlane Plotter
+	15 UM02 Solemn Reconstruction
+	15 UM02 Sanguine Enforcer
+	15 UM02 Veteran Archivist
+	6 CA03 Pondering Automaton
+	6 CA04 Icon of Nevex
+	6 CA05 Rescue Shuttle
+	15 UA05 Dispersed Shield Matrix
+	7 RM01 Kaulain, Skyblade Sergeant
+	7 RM01 Librarian's Treasures
+	15 UX01 Grade 2 Downlink
+	15 UX02 Glikki Scout Station
+	15 UX03 Nevex Raidship
+	15 UX04 Solar Charge Station
+	15 UX05 Genesis Complex
+	4 MX01 Capitol Healing Forum
+	4 MX02 Somor, City of Science
+	4 MX03 Veltex, Crucible of Wrath
+	4 MX04 Furnace Station
+	4 MX05 Akoon Gateway
+	15 UW01 Jahan, Breach Leader
+	15 UU02 0-WL, Wise Listener
+	15 UR02 Scamp v2
+	7 RW01 Princess Vella
+	7 RW02 Ayla, Loyal Mount
+	15 UB01 Korzia, Addicted Psyfist
+	15 UB02 Dagrym
+	15 UG01 Simi, Dedicated Guardian
+	15 UW02 Nouve
+	15 UU03 Edrith, Cloudpeak Proctor
+	15 UR01 Coria, Firebrand Prodigy
+	15 UG02 Duvoch Forest Council
+	7 RR01 Ashira Fwell, Dominus
+	7 RR02 Cynder
+	7 RB01 Duchess Ingria, the Collector
+	7 RB02 Xuv-to-mrok, of Maddening Form
+	7 RG01 Chaila Tu'Ula
+	7 RU01 Richon Ulevos
+	7 RU01 Smalec, Timekeeper
+	7 RG02 Orbokon, Last Record
+	15 UW15 Gathering Evidence
+	15 UU15 Unlicensed Parts Dealer
