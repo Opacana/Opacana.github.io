@@ -1,4 +1,542 @@
-﻿VERSION 1 CHANGELOG
+﻿VERSION 2 CHANGELOG
+====================
+
+Coilhide Sentinel added.
+Imperial Intervenor added.
+Frontline Valixen added.
+Aetherwing Lepid added.
+Moonlight Guardian added.
+Devoted Trooper added.
+Lightfoot Sapper added.
+Crackling Guardian added.
+Gleaming Taxiarch added.
+Synchrocharge Breacher added.
+Lifecaller Scion added.
+Righteous Storm added.
+Ice World Imprisonment added.
+Amidst the Iski Birds added.
+Cutter Rifle added.
+Goldwing Rescuer added.
+Sukini Elite Pilot added.
+Alternate Reality Scout added.
+Well-Versed Wright added.
+Last of the Ebreek added.
+Cunning Guardmage added.
+Starlight Herald added.
+Imperial Portal Agent added.
+Defensive Routine added.
+Acting on Omens added.
+Extraordinary Epiphany added.
+Madcap Experiments added.
+Backwater Stranding added.
+Shoved Out the Airlock added.
+Contingency Firewall added.
+Investigative Biker added.
+Sworn Operative added.
+Bloodsworn Tracker added.
+Abyssal Scrounger added.
+Haughty Valixen added.
+Spiderfang Operative added.
+Second-Chancer added.
+Skyblade Disruptor added.
+Violet Blast added.
+Vindictive Escape added.
+Sim Hit added.
+Overwhelm the Servbot added.
+Coup de Grace added.
+Not On The List added.
+Anazumi Breacher added.
+Denasan Overclocker added.
+Juvenile Yamanisaur added.
+Ojni Gunslinger added.
+Enhanced Ganger added.
+Demequian Pistolier added.
+Nevex Tactical Trooper added.
+Indifferent Thug added.
+Elite Ripper added.
+Circuit Overload added.
+Activate Armor added.
+Group Effort added.
+Trigger the Detonator added.
+Close-Quarters Shot added.
+Rapid Broadside added.
+Panzuran Golden Cat added.
+Verini Explorator added.
+Locust Unit added.
+Pinokian Cannoneer added.
+Prime Curator added.
+Spectra Summoner added.
+Neuralink Mapper added.
+Gas Giant Cloudstalker added.
+Ukanian Treasure Seeker added.
+Tipiwitshik Blossom added.
+Made of Stars added.
+Cleave Through the Hordes added.
+Stunning Swing added.
+Flux Alignment added.
+Planetary Survey added.
+Longtooth Agent added.
+Transcendental Archivist added.
+Elite K-99 Corps added.
+Abarale, Lightmaster added.
+Esander, Gloryboy added.
+Ostentatious Boss added.
+Quolum Skywhale added.
+Last Guardians of Gimav added.
+Synchronous Battle Tank added.
+Scrap Monitor added.
+Excavation's Hired Guard added.
+Chief Technomancer added.
+Aquamaster and Hydroid added.
+Drone Crew added.
+Beginner's Luck added.
+Ingenious Portaling added.
+Scout Dipter added.
+Hacker's Arrival added.
+Voidsoul Valixen added.
+Graverobber Unit added.
+Scorpion Style Scion added.
+Ichega, Betrayer of the Balance added.
+Nevex Shardmaster added.
+Necrofuel Interrogator added.
+Nevex Assault Craft Type 7 added.
+Hunting Through Databanks added.
+Vacuum Communion added.
+Verini Contemptor added.
+Crackleblood Descendant added.
+Wini, Trophy Winner added.
+Sawblade Mechanic added.
+Hungering Furnace added.
+Prime Yamanisaur added.
+Ore Carrier added.
+Heavy Mining Suit added.
+Final Push added.
+Brazen Saboteur added.
+Deathside Bloom added.
+Disparate Legion added.
+Frasian Jadeback added.
+Eonspeaker added.
+Hydra Ultimus added.
+Spirit of Tenacity added.
+Seedforce Emergence added.
+Championship Match added.
+Apparition Guard added.
+Digital Avatar of Tavros added.
+High Champion of Umura added.
+Take Up Firing Positions added.
+Erushan Metacube added.
+Imperial Minister of Labour added.
+Glikki Arsenal Master added.
+Jukorkorek, Emissary added.
+Chronovolt Engine added.
+Pit Stop added.
+Frixel, Soul-Eater added.
+Lord of Fracture added.
+Cruel Extortion added.
+Firing Solution added.
+Corpse Acquisition added.
+Bound Ragehacker added.
+Eldest Stonehide of Uthios added.
+Jiram, Scion of Potentials added.
+Competitive Maintenance added.
+Demolition Suit added.
+Leafling Prime added.
+First-Ranked Beastcaller added.
+Verini Genetics Laboratory added.
+Finding Hope added.
+Ongoing Experiments added.
+Lightbringer Titan Suit added.
+Defector from The Balance added.
+Exosprite added.
+Shimoln Prime added.
+Eera, Archivist of the Balance added.
+Rajakoli, Planet Corrupter added.
+Arry, Confident Champion added.
+Mysterious Hero of Palakar Arm added.
+Queen Kilops of Evyal added.
+Hope, Rebirth Engine added.
+Lightborne Psyker added.
+Glamour of the Prey added.
+Nevex Vortex added.
+Frasian Bristletorch added.
+Research Workshop added.
+Unstable Payload added.
+Glikki Repair Base added.
+Enhanced Remembrancer added.
+Forge-Temple Communion added.
+Tarusian Biologist added.
+Last Line of Defense added.
+Abyssal Retrieval added.
+Mole Troop Carrier added.
+Form of the Exalted added.
+Svania, Balancekeeper added.
+Fleet's Arrival added.
+Brillmyk, Master Reanimator added.
+Devera, Bounty Hunter added.
+Sparring Drone added.
+Ancient Steelsun added.
+Lassian Scoutwing added.
+Goriform Heavy Mech added.
+Missionbound Revenant added.
+Upgraded Houndbot added.
+Champion Suit added.
+Icon of the Balance added.
+Extraction Base added.
+Pilgrimage Base added.
+Polar Astronomy Base added.
+Profane Base added.
+Infernus Base added.
+Refreshment Base added.
+Brassine, Imperial Capitol City added.
+Ukanian City Cluster added.
+Emperor Wagodin added.
+Legacy of Ancient Wars added.
+Nevexian Scourer added.
+Guardian of Rorithan Monolith added.
+Enforcer-General Olores added.
+Imeon, Who Ran added.
+Uritz, Glikki Visionary added.
+Power, At Any Cost added.
+Spectral Morphology added.
+Wormhole Induction added.
+Prisoner Transference added.
+Wormhole Shift added.
+Portable Hexfield added.
+Refresh Memory added.
+Anazumi Portalrunner added.
+Corner the Market added.
+Anyon Braiding added.
+Gas-Spewer Suit added.
+Data Raid added.
+Concentrated Fire added.
+Cortex Explosion added.
+Mobile Cannon Platform added.
+Glikki Scrap Bay added.
+Reach the Forgotten Temple added.
+Eternal Vigil added.
+Industrial Cultivation added.
+In Search Of Gnosis added.
+Reintegration Circle added.
+Treasure Reclaimer added.
+Roana Hansen, Malicious Heir added.
+Massive Mining Mission added.
+Wise Titan of Elomne added.
+Astema, First-Chosen added.
+Starlane Plotter added.
+Solemn Reconstruction added.
+Sanguine Enforcer added.
+Veteran Archivist added.
+Pondering Automaton added.
+Icon of Nevex added.
+Rescue Shuttle added.
+Dispersed Shield Matrix added.
+Kaulain, Skyblade Sergeant added.
+Librarian's Treasures added.
+Grade 2 Downlink added.
+Glikki Scout Station added.
+Nevex Raidship added.
+Solar Charge Station added.
+Genesis Complex added.
+Capitol Healing Forum added.
+Somor, City of Science added.
+Veltex, Crucible of Wrath added.
+Furnace Station added.
+Akoon Gateway added.
+Jahan, Breach Leader added.
+0-WL, Wise Listener added.
+Scamp v2 added.
+Princess Vella added.
+Ayla, Loyal Mount added.
+Korzia, Addicted Psyfist added.
+Dagrym added.
+Simi, Dedicated Guardian added.
+Nouve added.
+Edrith, Cloudpeak Proctor added.
+Coria, Firebrand Prodigy added.
+Duvoch Forest Council added.
+Ashira Fwell, Dominus added.
+Cynder added.
+Duchess Ingria, the Collector added.
+Xuv-to-mrok, of Maddening Form added.
+Chaila Tu'Ula added.
+Richon Ulevos added.
+Smalec, Timekeeper added.
+Orbokon, Last Record added.
+Gathering Evidence added.
+Unlicensed Parts Dealer added.
+
+CW01 Coilhide Sentinel removed.
+CW02 Imperial Intervenor removed.
+CW03 Frontline Valixen removed.
+CW04 Aetherwing Lepid removed.
+CW05 Moonlight Guardian removed.
+CW06 Devoted Trooper removed.
+CW07 Lightfoot Sapper removed.
+CW08 Crackling Guardian removed.
+CW09 Gleaming Taxiarch removed.
+CW10 Synchrocharge Breacher removed.
+CW11 Lifecaller Scion removed.
+CW12 Righteous Storm removed.
+CW13 Ice World Imprisonment removed.
+CW14 Amidst the Iski Birds removed.
+CW15 Cutter Rifle removed.
+CU01 Goldwing Rescuer removed.
+CU02 Sukini Elite Pilot removed.
+CU04 Alternate Reality Scout removed.
+CU03 Well-Versed Wright removed.
+CU05 Last of the Ebreek removed.
+CU06 Cunning Guardmage removed.
+CU07 Starlight Herald removed.
+CU08 Imperial Portal Agent removed.
+CU09 Defensive Routine removed.
+CU10 Acting on Omens removed.
+CU11 Extraordinary Epiphany removed.
+CU12 Madcap Experiments removed.
+CU13 Backwater Stranding removed.
+CU14 Shoved Out the Airlock removed.
+CU15 Contingency Firewall removed.
+CB01 Investigative Biker removed.
+CB03 Sworn Operative removed.
+CB04 Bloodsworn Tracker removed.
+CB05 Abyssal Scrounger removed.
+CB06 Haughty Valixen removed.
+CB07 Spiderfang Operative removed.
+CB08 Second-Chancer removed.
+CB09 Skyblade Disruptor removed.
+CB10 Violet Blast removed.
+CB11 Vindictive Escape removed.
+CB12 Sim Hit removed.
+CB13 Overwhelm the Servbot removed.
+CB14 Coup de Grace removed.
+CB15 Not On The List removed.
+CR01 Anazumi Breacher removed.
+CR02 Denasan Overclocker removed.
+CR03 Juvenile Yamanisaur removed.
+CR04 Ojni Gunslinger removed.
+CR05 Enhanced Ganger removed.
+CR06 Demequian Pistolier removed.
+CR07 Nevex Tactical Trooper removed.
+CR08 Indifferent Thug removed.
+CR09 Elite Ripper removed.
+CR10 Circuit Overload removed.
+CR11 Activate Armor removed.
+CR12 Group Effort removed.
+CR13 Trigger the Detonator removed.
+CR14 Close-Quarters Shot removed.
+CR15 Rapid Firing Solution removed.
+CG01 Panzuran Golden Cat removed.
+CG02 Verini Explorator removed.
+CG03 Locust Unit removed.
+CG04 Pinokian Cannoneer removed.
+CG05 Prime Curator removed.
+CG06 Spectra Summoner removed.
+CG07 Neuralink Mapper removed.
+CG08 Gas Giant Cloudstalker removed.
+CG09 Ukanian Treasure Seeker removed.
+CG10 Tipiwitshik Blossom removed.
+CG11 Made of Stars removed.
+CG12 Cleave Through the Hordes removed.
+CG13 Stunning Swing removed.
+CG14 Flux Alignment removed.
+CG15 Planetary Survey removed.
+UW03 Longtooth Agent removed.
+UW04 Transcendental Archivist removed.
+UW05 Elite K-99 Corps removed.
+UW06 Abarale, Lightmaster removed.
+UW07 Esander, Gloryboy removed.
+UW08 Ostentatious Boss removed.
+UW09 Quolum Skywhale removed.
+UW10 Last Guardians of Gimav removed.
+UW14 Synchronous Battle Tank removed.
+UU01 Scrap Monitor removed.
+UU04 Excavation's Hired Guard removed.
+UU05 Chief Technomancer removed.
+UU06 Aquamaster and Hydroid removed.
+UU07 Drone Crew removed.
+UU08 Beginner's Luck removed.
+UU09 Ingenious Portaling removed.
+UU10 Scout Dipter removed.
+UU11 Hacker's Arrival removed.
+UB03 Voidsoul Valixen removed.
+UB04 Graverobber Unit removed.
+UB05 Scorpion Style Scion removed.
+UB06 Ichega, Betrayer of the Balance removed.
+UB07 Nevex Shardmaster removed.
+UB08 Necrofuel Interrogator removed.
+UB09 Nevex Assault Craft Type 7 removed.
+UB10 Hunting Through Databanks removed.
+UB15 Vacuum Communion removed.
+UR03 Verini Contemptor removed.
+UR04 Crackleblood Descendant removed.
+UR05 Wini, Trophy Winner removed.
+UR06 Sawblade Mechanic removed.
+UR07 Hungering Furnace removed.
+UR08 Prime Yamanisaur removed.
+UR09 Ore Carrier removed.
+UR10 Heavy Mining Suit removed.
+UR15 Final Push removed.
+UG03 Brazen Saboteur removed.
+UG04 Deathside Bloom removed.
+UG05 Disparate Legion removed.
+UG06 Frasian Jadeback removed.
+UG07 Eonspeaker removed.
+UG08 Hydra Ultimus removed.
+UG09 Spirit of Tenacity removed.
+UG10 Seedforce Emergence removed.
+UG15 Championship Match removed.
+RW03 Apparition Guard removed.
+RW04 Digital Avatar of Tavros removed.
+RW05 High Champion of Umura removed.
+RW06 Take Up Firing Positions removed.
+RW07 Erushan Metacube removed.
+RU03 Imperial Minister of Labour removed.
+RU04 Glikki Arsenal Master removed.
+RU05 Jukorkorek, Emissary removed.
+RU06 Chronovolt Engine removed.
+RU07 Pit Stop removed.
+RB03 Frixel, Soul-Eater removed.
+RB04 Lord of Fracture removed.
+RB05 Cruel Extortion removed.
+RB06 Firing Solution removed.
+RB07 Corpse Acquisition removed.
+RR03 Bound Ragehacker removed.
+RR04 Eldest Stonehide of Uthios removed.
+RR05 Jiram, Scion of Potentials removed.
+RR06 Competitive Maintenance removed.
+RR07 Demolition Suit removed.
+RG03 Leafling Prime removed.
+RG04 First-Ranked Beastcaller removed.
+RG05 Verini Genetics Laboratory removed.
+RG06 Finding Hope removed.
+RG07 Ongoing Experiments removed.
+MW01 Lightbringer Titan Suit removed.
+MW02 Defector from The Balance removed.
+MU01 Exosprite removed.
+MU02 Shimoln Prime removed.
+MB01 Eera, Archivist of the Balance removed.
+MB02 Rajakoli, Planet Corrupter removed.
+MR01 Arry, Confident Champion removed.
+MR02 Mysterious Hero of Palakar Arm removed.
+MG01 Queen Kilops of Evyal removed.
+MG02 Hope, Rebirth Engine removed.
+UM01 Lightborne Psyker removed.
+UM01 Glamour of the Prey removed.
+UM01 Nevex Vortex removed.
+UM01 Frasian Bristletorch removed.
+UM01 Research Workshop removed.
+UM01 Unstable Payload removed.
+UM01 Glikki Repair Base removed.
+UM01 Enhanced Remembrancer removed.
+UM01 Forge-Temple Communion removed.
+UM01 Tarusian Biologist removed.
+RM01 Last Line of Defense removed.
+RM01 Abyssal Retrieval removed.
+RM01 Mole Troop Carrier removed.
+RM01 Form of the Exalted removed.
+RM01 Svania, Balancekeeper removed.
+RM01 Fleet's Arrival removed.
+RM01 Brillmyk, Master Reanimator removed.
+RM01 Devera, Bounty Hunter removed.
+CA01 Sparring Drone removed.
+CA02 Key of Ancient Light removed.
+CA06 Lassian Scoutwing removed.
+UA01 Goriform Heavy Mech removed.
+UA02 Missionbound Revenant removed.
+UA03 Upgraded Houndbot removed.
+UA04 Champion Suit removed.
+UA06 Icon of the Balance removed.
+CL01 Extraction Base removed.
+UL01 Pilgrimage Base removed.
+UL02 Polar Astronomy Base removed.
+UL03 Profane Base removed.
+UL04 Infernus Base removed.
+UL05 Refreshment Base removed.
+UX01 Brassine, Imperial Capitol City removed.
+UX02 Ukanian City Cluster removed.
+MX01 Emperor Wagodin removed.
+RX02 Legacy of Ancient Wars removed.
+RX03 Nevexian Scourer removed.
+RX04 Guardian of Rorithan Monolith removed.
+RX05 Enforcer-General Olores removed.
+RX06 Imeon, Who Ran removed.
+MX07 Uritz, Glikki Visionary removed.
+RX08 Power, At Any Cost removed.
+UW13 Spectral Morphology removed.
+UW12 Wormhole Induction removed.
+UW11 Prisoner Transference removed.
+UU12 Wormhole Shift removed.
+UU13 Portable Hexfield removed.
+UU14 Refresh Memory removed.
+CB02 Anazumi Portalrunner removed.
+UB14 Corner the Market removed.
+UB13 Anyon Braiding removed.
+UB11 Gas-Spewer Suit removed.
+UB12 Data Raid removed.
+UR14 Concentrated Fire removed.
+UR13 Cortex Explosion removed.
+UR12 Mobile Cannon Platform removed.
+UR11 Glikki Scrap Bay removed.
+UG14 Reach the Forgotten Temple removed.
+UG13 Eternal Vigil removed.
+UG12 Industrial Cultivation removed.
+UG11 In Search Of Gnosis removed.
+UM01 Reintegration Circle removed.
+UM02 Treasure Reclaimer removed.
+UM02 Roana Hansen, Malicious Heir removed.
+UM02 Massive Mining Mission removed.
+UM02 Wise Titan of Elomne removed.
+UM02 Astema, First-Chosen removed.
+UM02 Starlane Plotter removed.
+UM02 Solemn Reconstruction removed.
+UM02 Sanguine Enforcer removed.
+UM02 Veteran Archivist removed.
+CA03 Pondering Automaton removed.
+CA04 Icon of Nevex removed.
+CA05 Rescue Shuttle removed.
+UA05 Dispersed Shield Matrix removed.
+RM01 Kaulain, Skyblade Sergeant removed.
+RM01 Librarian's Treasures removed.
+UX01 Grade 2 Downlink removed.
+UX02 Glikki Scout Station removed.
+UX03 Nevex Raidship removed.
+UX04 Solar Charge Station removed.
+UX05 Genesis Complex removed.
+MX01 Capitol Healing Forum removed.
+MX02 Somor, City of Science removed.
+MX03 Veltex, Crucible of Wrath removed.
+MX04 Furnace Station removed.
+MX05 Akoon Gateway removed.
+UW01 Jahan, Breach Leader removed.
+UU02 0-WL, Wise Listener removed.
+UR02 Scamp v2 removed.
+RW01 Princess Vella removed.
+RW02 Ayla, Loyal Mount removed.
+UB01 Korzia, Addicted Psyfist removed.
+UB02 Dagrym removed.
+UG01 Simi, Dedicated Guardian removed.
+UW02 Nouve removed.
+UU03 Edrith, Cloudpeak Proctor removed.
+UR01 Coria, Firebrand Prodigy removed.
+UG02 Duvoch Forest Council removed.
+RR01 Ashira Fwell, Dominus removed.
+RR02 Cynder removed.
+RB01 Duchess Ingria, the Collector removed.
+RB02 Xuv-to-mrok, of Maddening Form removed.
+RG01 Chaila Tu'Ula removed.
+RU01 Richon Ulevos removed.
+RU01 Smalec, Timekeeper removed.
+RG02 Orbokon, Last Record removed.
+UW15 Gathering Evidence removed.
+UU15 Unlicensed Parts Dealer removed.
+
+Treasure
+
+Clue
+
+Judgment
+
+
+VERSION 1 CHANGELOG
 ====================
 
 First version published.
