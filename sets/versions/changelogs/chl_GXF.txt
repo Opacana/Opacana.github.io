@@ -1,4 +1,152 @@
-﻿VERSION 2 CHANGELOG
+﻿VERSION 3 CHANGELOG
+====================
+
+
+
+Spiderfang Operative
+cost: {4}{B} => {5}{B}
+rules_text: Deathtouch
+Whenever this creature deals combat damage to an opponent, you may pay 1 life. If you do, draw a card. => Deathtouch
+At the beginning of your end step, if a creature died this turn, mill a card, then draw a card.
+pt: 3/4 => 4/4
+
+Skyblade Disruptor
+cost: {5}{B} => {4}{B}
+pt: 5/5 => 4/4
+
+Coup de Grace
+rules_text: This spell deals 1 damage to any target. This spell deals 3 damage this way instead if that target is a permanent that was dealt damage this turn.
+You gain 1 life. => This spell deals 1 damage to any target. This spell deals 3 damage this way instead if that target is a permanent that was dealt damage this turn.
+You gain life equal to the damage dealt this way.
+
+Tipiwitshik Blossom
+pt: 5/5 => 6/6
+
+Voidsoul Valixen
+rules_text: Flying
+Ward—pay 3 life
+Whenever another creature with flying enters under your control, you may pay 1 life. If you do, put a +1/+1 counter on this creature. => Flying
+Ward—Pay 3 life
+Whenever another creature with flying enters under your control, you may pay 1 life. If you do, put a +1/+1 counter on this creature.
+
+Corpse Acquisition
+rules_text: Search your library for three cards and put them into your graveyard, then exile this card. => Search your library for three cards and put them into your graveyard, then shuffle. Exile this card.
+
+Eldest Stonehide of Uthios
+rules_text: This spell can't be countered.
+Ward—pay 4 life
+Trample => This spell can't be countered.
+Ward—Pay 4 life
+Trample
+
+Lightborne Psyker
+rules_text: Ward {2}
+Creatures you control that entered since your last upkeep without being cast have Ward {2}. => Ward {1}
+Whenever a nontoken creature enters under your control without being cast, put a hexproof counter on it.
+
+Frasian Bristletorch
+rules_text: When this creature enters, if it was cast, search your library for a basic land card, put it onto the battlefield under your control tapped, then shuffle.
+Trample => When this creature enters, search your library for a basic land card, put it onto the battlefield under your control, then shuffle.
+Trample
+
+Unstable Payload
+rules_text: Equipped creature has flying, “Whenever this creature deals combat damage to an opponent, destroy target artifact or enchantment that player controls” and Spiteful 3. [i](When that creature dies, it deals 3 damage to each opponent.)[/i]
+Equip {2} => Equipped creature has flying, “Whenever this creature deals combat damage to an opponent, destroy target artifact or enchantment that player controls” and Spiteful 3. [i](When that creature dies, it deals 3 damage to each opponent.)[/i]
+Equip {2}. This ability costs {1} less to activate if it targets a creature with flying.
+
+Forge-Temple Communion
+rules_text: Whenever an artifact enters the battlefield under your control, this enchantment deals 1 damage to each opponent. Then if that artifact isn't a token, you gain 1 life.
+{T}: Add {C}. => Whenever an artifact enters the battlefield under your control, this enchantment deals 1 damage to each opponent. Then if that artifact isn't a token, you gain 1 life.
+At the beginning of your second main phase, add {C}.
+
+Tarusian Biologist
+rules_text: Trample
+When this creature enters, for each player, return up to one target creature or artifact that player controls to its owner's hand. => Trample
+When this creature enters, for each player, return up to one other target creature or artifact that player controls to its owner's hand.
+
+Roana Hansen, Malicious Heir
+rules_text: Ward—pay 2 life
+At the beginning of your upkeep, create a 1/1 red and black Batterfly enchantment creature token with flying, haste, Spiteful 1, and “At the beginning of your end step, sacrifice this token.” [i](When that creature dies, it deals 1 damage to each opponent.)[/i] => Ward—Pay 2 life
+At the beginning of your upkeep, create a 1/1 red and black Batterfly enchantment creature token with flying, haste, Spiteful 1, and “At end of combat, sacrifice this token.” [i](When that creature dies, it deals 1 damage to each opponent.)[/i]
+
+Massive Mining Mission
+rules_text: When this enchantment enters, search your library for a basic land card, put it onto the battlefield tapped, then shuffle.
+Whenever a land enters under your control, put a charge counter on this enchantment.
+Remove five charge counters from this enchantment and sacrifice it: Put four +1/+1 counters on target creature you control. => When this enchantment enters, search your library for a basic land card, put it onto the battlefield tapped, then shuffle.
+Whenever a land enters under your control, put a charge counter on this enchantment.
+Remove five charge counters from this enchantment: Put four +1/+1 counters on target creature you control. Activate only as a sorcery.
+
+Astema, First-Chosen
+rules_text: Flying, lifelink
+Ward—pay 2 life
+Whenever you attack with one or more creatures with flying, put a +1/+1 counter on target creature you control. => Flying, lifelink
+Ward—Pay 2 life
+Whenever you attack with one or more other creatures with flying, put a +1/+1 counter on target creature you control.
+
+Solemn Reconstruction
+rules_text: Return target nonland card with mana value X from your graveyard to your choice of your hand or battlefield.
+Preserve—{X}, sacrifice a creature [i](You may cast a copy of this card by exiling this card from your graveyard and paying its preserve cost.)[/i] => Choose a target nonland card in your graveyard with mana value X or less. If that card is a permanent, you may return it to the battlefield tapped. Otherwise, return it to your hand.
+Preserve—{X}, sacrifice a creature [i](You may cast a copy of this card by exiling this card from your graveyard and paying its preserve cost.)[/i]
+
+Veteran Archivist
+rules_text: The first Preserve cost you pay each turn costs {1} less.
+You may cast creature spells as though they had flash. => When this creature enters, choose two colors. Preserve costs you pay cost one mana of each of the chosen colors less. This effect reduces only the amount of colored mana you pay.
+You may cast creature spells as though they had flash.
+
+Capitol Healing Forum
+rules_text: Station [i](Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery.)[/i]
+[level 2+] At the beginning of your upkeep, you gain 1 life for each creature you control.
+[level 10+] {W}, {T}: Creatures you control get +X/+X, where X is the amount of life you've gained this turn. => Station [i](Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery.)[/i]
+[level 2+] At the beginning of your upkeep, you gain 1 life for each creature you control.
+[level 8+] {W}, {T}: Creatures you control get +X/+X, where X is the amount of life you've gained this turn.
+special_text: Station [i](Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery.)[/i]
+[level 2+] At the beginning of your upkeep, you gain 1 life for each creature you control.
+[level 10+] {W}, {T}: Creatures you control get +X/+X, where X is the amount of life you've gained this turn. => Station [i](Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery.)[/i]
+[level 2+] At the beginning of your upkeep, you gain 1 life for each creature you control.
+[level 8+] {W}, {T}: Creatures you control get +X/+X, where X is the amount of life you've gained this turn.
+
+Somor, City of Science
+cost: {4} => {5}
+rules_text: Station [i](Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery.)[/i]
+[level 2+] At the beginning of your upkeep, return up to one target nonland permanent to its owner's hand.
+[level 5+] Flying, vigilance
+{1}{U}, {T}, Discard a card: Surveil 3, then draw two cards. [2/6] => Station [i](Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery.)[/i]
+[level 2+] At the beginning of your upkeep, return target nonland permanent to its owner's hand.
+[level 5+] Flying, vigilance
+{1}{U}, {T}, Discard a card: Surveil 3, then draw two cards. [2/6]
+special_text: Station [i](Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery.)[/i]
+[level 2+] At the beginning of your upkeep, return up to one target nonland permanent to its owner's hand.
+[level 5+] Flying, vigilance
+{1}{U}, {T}, Discard a card: Surveil 3, then draw two cards. [2/6] => Station [i](Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery.)[/i]
+[level 2+] At the beginning of your upkeep, return target nonland permanent to its owner's hand.
+[level 5+] Flying, vigilance
+{1}{U}, {T}, Discard a card: Surveil 3, then draw two cards. [2/6]
+
+Furnace Station
+cost: {6} => {4}
+rules_text: Station [i](Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery.)[/i]
+[level 1+] Whenever a creature you control attacks, it deals 1 damage to each opponent.
+[level 5+] Flying, haste
+{1}{R}: This creature gains double strike until end of turn. Activate only once each turn. [5/5] => Station [i](Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery.)[/i]
+[level 1+] Whenever a creature you control attacks, it deals 1 damage to each opponent.
+[level 4+] Flying, haste
+{1}{R}: This creature gains double strike until end of turn. Activate only once each turn. [5/5]
+special_text: Station [i](Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery.)[/i]
+[level 1+] Whenever a creature you control attacks, it deals 1 damage to each opponent.
+[level 5+] Flying, haste
+{1}{R}: This creature gains double strike until end of turn. Activate only once each turn. [5/5] => Station [i](Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery.)[/i]
+[level 1+] Whenever a creature you control attacks, it deals 1 damage to each opponent.
+[level 4+] Flying, haste
+{1}{R}: This creature gains double strike until end of turn. Activate only once each turn. [5/5]
+
+Duchess Ingria, the Collector
+
+Xuv-to-mrok, of Maddening Form
+
+Frog
+
+
+VERSION 2 CHANGELOG
 ====================
 
 Coilhide Sentinel added.

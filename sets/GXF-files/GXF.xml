@@ -5,7 +5,7 @@
 			<name>GXF</name>
 			<longname>Galaxy&apos;s Fate</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-10-29</releasedate>
+			<releasedate>2026-11-07</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -631,18 +631,18 @@ Whenever this creature attacks, if it&apos;s attacking alone or if there&apos;s 
 		<card>
 			<name>Spiderfang Operative</name>
 			<text>Deathtouch
-Whenever this creature deals combat damage to an opponent, you may pay 1 life. If you do, draw a card.</text>
+At the beginning of your end step, if a creature died this turn, mill a card, then draw a card.</text>
 			<set rarity="common" picurl="https://Opacana.github.io/sets/GXF-files/img/35.png" num="115">GXF</set>
 			<prop>
 				<layout>normal</layout>
 				<side>front</side>
 				<type>Creature — Elf Soldier Assassin</type>
 				<maintype>Creature</maintype>
-				<manacost>4B</manacost>
-				<cmc>5</cmc>
+				<manacost>5B</manacost>
+				<cmc>6</cmc>
 				<colors>B</colors>
 				<coloridentity>B</coloridentity>
-				<pt>3/4</pt>
+				<pt>4/4</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
@@ -674,11 +674,11 @@ Whenever this creature attacks, you may pay {1}. If you do, defending player dis
 				<side>front</side>
 				<type>Creature — Kavid Soldier</type>
 				<maintype>Creature</maintype>
-				<manacost>5B</manacost>
-				<cmc>6</cmc>
+				<manacost>4B</manacost>
+				<cmc>5</cmc>
 				<colors>B</colors>
 				<coloridentity>B</coloridentity>
-				<pt>5/5</pt>
+				<pt>4/4</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
@@ -752,7 +752,7 @@ Preserve {2}{B}{B} (You may cast a copy of this card by exiling this card from y
 		<card>
 			<name>Coup de Grace</name>
 			<text>This spell deals 1 damage to any target. This spell deals 3 damage this way instead if that target is a permanent that was dealt damage this turn.
-You gain 1 life.</text>
+You gain life equal to the damage dealt this way.</text>
 			<set rarity="common" picurl="https://Opacana.github.io/sets/GXF-files/img/42.png" num="88">GXF</set>
 			<prop>
 				<layout>normal</layout>
@@ -1230,7 +1230,7 @@ When this creature enters, if a card left your graveyard this turn, choose one �
 				<cmc>7</cmc>
 				<colors>G</colors>
 				<coloridentity>G</coloridentity>
-				<pt>5/5</pt>
+				<pt>6/6</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
@@ -1652,7 +1652,7 @@ Create a 2/2 blue Human Rogue Scientist creature token.</text>
 		<card>
 			<name>Voidsoul Valixen</name>
 			<text>Flying
-Ward—pay 3 life
+Ward—Pay 3 life
 Whenever another creature with flying enters under your control, you may pay 1 life. If you do, put a +1/+1 counter on this creature.</text>
 			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/GXF-files/img/92.png" num="120">GXF</set>
 			<prop>
@@ -2388,7 +2388,7 @@ Surveil 3. All creatures get -X/-X until end of turn, where X is the highest man
 		</card>
 		<card>
 			<name>Corpse Acquisition</name>
-			<text>Search your library for three cards and put them into your graveyard, then exile this card.</text>
+			<text>Search your library for three cards and put them into your graveyard, then shuffle. Exile this card.</text>
 			<set rarity="rare" picurl="https://Opacana.github.io/sets/GXF-files/img/133.png" num="87">GXF</set>
 			<prop>
 				<layout>normal</layout>
@@ -2424,7 +2424,7 @@ Spiteful X, where X is the number of counters on it. (When this creature dies, i
 		<card>
 			<name>Eldest Stonehide of Uthios</name>
 			<text>This spell can&apos;t be countered.
-Ward—pay 4 life
+Ward—Pay 4 life
 Trample</text>
 			<set rarity="rare" picurl="https://Opacana.github.io/sets/GXF-files/img/135.png" num="137">GXF</set>
 			<prop>
@@ -2772,8 +2772,8 @@ Permanent cards in your graveyard have Preserve {G}. (You may cast a copy of a c
 		</card>
 		<card>
 			<name>Lightborne Psyker</name>
-			<text>Ward {2}
-Creatures you control that entered since your last upkeep without being cast have Ward {2}.</text>
+			<text>Ward {1}
+Whenever a nontoken creature enters under your control without being cast, put a hexproof counter on it.</text>
 			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/GXF-files/img/154.png" num="219">GXF</set>
 			<prop>
 				<layout>normal</layout>
@@ -2824,7 +2824,7 @@ At the beginning of your end step, if an opponent was dealt noncombat damage thi
 		</card>
 		<card>
 			<name>Frasian Bristletorch</name>
-			<text>When this creature enters, if it was cast, search your library for a basic land card, put it onto the battlefield under your control tapped, then shuffle.
+			<text>When this creature enters, search your library for a basic land card, put it onto the battlefield under your control, then shuffle.
 Trample</text>
 			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/GXF-files/img/157.png" num="211">GXF</set>
 			<prop>
@@ -2860,7 +2860,7 @@ Permanent spells you cast cost {1} less to cast.</text>
 		<card>
 			<name>Unstable Payload</name>
 			<text>Equipped creature has flying, &quot;Whenever this creature deals combat damage to an opponent, destroy target artifact or enchantment that player controls&quot; and Spiteful 3. (When that creature dies, it deals 3 damage to each opponent.)
-Equip {2}</text>
+Equip {2}. This ability costs {1} less to activate if it targets a creature with flying.</text>
 			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/GXF-files/img/159.png" num="233">GXF</set>
 			<prop>
 				<layout>normal</layout>
@@ -2913,7 +2913,7 @@ Permanent spells you cast from your graveyard cost {1} less to cast.</text>
 		<card>
 			<name>Forge-Temple Communion</name>
 			<text>Whenever an artifact enters the battlefield under your control, this enchantment deals 1 damage to each opponent. Then if that artifact isn&apos;t a token, you gain 1 life.
-{T}: Add {C}.</text>
+At the beginning of your second main phase, add {C}.</text>
 			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/GXF-files/img/162.png" num="209">GXF</set>
 			<prop>
 				<layout>normal</layout>
@@ -2930,7 +2930,7 @@ Permanent spells you cast from your graveyard cost {1} less to cast.</text>
 		<card>
 			<name>Tarusian Biologist</name>
 			<text>Trample
-When this creature enters, for each player, return up to one target creature or artifact that player controls to its owner&apos;s hand.</text>
+When this creature enters, for each player, return up to one other target creature or artifact that player controls to its owner&apos;s hand.</text>
 			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/GXF-files/img/163.png" num="231">GXF</set>
 			<prop>
 				<layout>normal</layout>
@@ -3853,8 +3853,8 @@ Whenever this creature attacks, surveil 2.</text>
 		</card>
 		<card>
 			<name>Roana Hansen, Malicious Heir</name>
-			<text>Ward—pay 2 life
-At the beginning of your upkeep, create a 1/1 red and black Batterfly enchantment creature token with flying, haste, Spiteful 1, and &quot;At the beginning of your end step, sacrifice this token.&quot; (When that creature dies, it deals 1 damage to each opponent.)</text>
+			<text>Ward—Pay 2 life
+At the beginning of your upkeep, create a 1/1 red and black Batterfly enchantment creature token with flying, haste, Spiteful 1, and &quot;At end of combat, sacrifice this token.&quot; (When that creature dies, it deals 1 damage to each opponent.)</text>
 			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/GXF-files/img/217.png" num="226">GXF</set>
 			<prop>
 				<layout>normal</layout>
@@ -3873,7 +3873,7 @@ At the beginning of your upkeep, create a 1/1 red and black Batterfly enchantmen
 			<name>Massive Mining Mission</name>
 			<text>When this enchantment enters, search your library for a basic land card, put it onto the battlefield tapped, then shuffle.
 Whenever a land enters under your control, put a charge counter on this enchantment.
-Remove five charge counters from this enchantment and sacrifice it: Put four +1/+1 counters on target creature you control.</text>
+Remove five charge counters from this enchantment: Put four +1/+1 counters on target creature you control. Activate only as a sorcery.</text>
 			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/GXF-files/img/218.png" num="220">GXF</set>
 			<prop>
 				<layout>normal</layout>
@@ -3909,8 +3909,8 @@ Trample</text>
 		<card>
 			<name>Astema, First-Chosen</name>
 			<text>Flying, lifelink
-Ward—pay 2 life
-Whenever you attack with one or more creatures with flying, put a +1/+1 counter on target creature you control.</text>
+Ward—Pay 2 life
+Whenever you attack with one or more other creatures with flying, put a +1/+1 counter on target creature you control.</text>
 			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/GXF-files/img/220.png" num="202">GXF</set>
 			<prop>
 				<layout>normal</layout>
@@ -3945,7 +3945,7 @@ This creature gets +2/+0 as long as it isn&apos;t attacking or blocking.</text>
 		</card>
 		<card>
 			<name>Solemn Reconstruction</name>
-			<text>Return target nonland card with mana value X from your graveyard to your choice of your hand or battlefield.
+			<text>Choose a target nonland card in your graveyard with mana value X or less. If that card is a permanent, you may return it to the battlefield tapped. Otherwise, return it to your hand.
 Preserve—{X}, sacrifice a creature (You may cast a copy of this card by exiling this card from your graveyard and paying its preserve cost.)</text>
 			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/GXF-files/img/222.png" num="228">GXF</set>
 			<prop>
@@ -3979,7 +3979,7 @@ Preserve—{X}, sacrifice a creature (You may cast a copy of this card by exilin
 		</card>
 		<card>
 			<name>Veteran Archivist</name>
-			<text>The first Preserve cost you pay each turn costs {1} less.
+			<text>When this creature enters, choose two colors. Preserve costs you pay cost one mana of each of the chosen colors less. This effect reduces only the amount of colored mana you pay.
 You may cast creature spells as though they had flash.</text>
 			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/GXF-files/img/224.png" num="235">GXF</set>
 			<prop>
@@ -4193,7 +4193,7 @@ When this Spacecraft enters, search your library for a basic land card, put it o
 			<name>Capitol Healing Forum</name>
 			<text>Station (Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery.)
 [level 2+] At the beginning of your upkeep, you gain 1 life for each creature you control.
-[level 10+] {W}, {T}: Creatures you control get +X/+X, where X is the amount of life you&apos;ve gained this turn.</text>
+[level 8+] {W}, {T}: Creatures you control get +X/+X, where X is the amount of life you&apos;ve gained this turn.</text>
 			<set rarity="mythic" picurl="https://Opacana.github.io/sets/GXF-files/img/236.png" num="239">GXF</set>
 			<prop>
 				<layout>leveler</layout>
@@ -4209,7 +4209,7 @@ When this Spacecraft enters, search your library for a basic land card, put it o
 		<card>
 			<name>Somor, City of Science</name>
 			<text>Station (Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery.)
-[level 2+] At the beginning of your upkeep, return up to one target nonland permanent to its owner&apos;s hand.
+[level 2+] At the beginning of your upkeep, return target nonland permanent to its owner&apos;s hand.
 [level 5+] Flying, vigilance
 {1}{U}, {T}, Discard a card: Surveil 3, then draw two cards. [2/6]</text>
 			<set rarity="mythic" picurl="https://Opacana.github.io/sets/GXF-files/img/237.png" num="252">GXF</set>
@@ -4218,8 +4218,8 @@ When this Spacecraft enters, search your library for a basic land card, put it o
 				<side>front</side>
 				<type>Legendary Artifact — Spacecraft</type>
 				<maintype>Artifact</maintype>
-				<manacost>4</manacost>
-				<cmc>4</cmc>
+				<manacost>5</manacost>
+				<cmc>5</cmc>
 				<coloridentity>U</coloridentity>
 			</prop>
 			<tablerow>1</tablerow>
@@ -4245,7 +4245,7 @@ When this Spacecraft enters, search your library for a basic land card, put it o
 			<name>Furnace Station</name>
 			<text>Station (Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery.)
 [level 1+] Whenever a creature you control attacks, it deals 1 damage to each opponent.
-[level 5+] Flying, haste
+[level 4+] Flying, haste
 {1}{R}: This creature gains double strike until end of turn. Activate only once each turn. [5/5]</text>
 			<set rarity="mythic" picurl="https://Opacana.github.io/sets/GXF-files/img/239.png" num="242">GXF</set>
 			<prop>
@@ -4253,8 +4253,8 @@ When this Spacecraft enters, search your library for a basic land card, put it o
 				<side>front</side>
 				<type>Legendary Artifact — Spacecraft</type>
 				<maintype>Artifact</maintype>
-				<manacost>6</manacost>
-				<cmc>6</cmc>
+				<manacost>4</manacost>
+				<cmc>4</cmc>
 				<coloridentity>R</coloridentity>
 			</prop>
 			<tablerow>1</tablerow>
@@ -4975,7 +4975,7 @@ Interfuse with Xuv-to-mrok, of Maddening Form (As a sorcery, if you both own and
 		<card>
 			<name>Firmamentia</name>
 			<text>(When this leaves the battlefield, return the cards interfused to form it to the battlefield under their owner&apos;s control.)
-Ward—pay 4 life
+Ward—Pay 4 life
 Flying, lifelink
 Other permanents you control have &quot;Ward—this permanent&apos;s controller gains 4 life.&quot;
 ---
@@ -5020,7 +5020,7 @@ Interfuse with Duchess Ingria, Collector (As a sorcery, if you both own and cont
 		<card>
 			<name>Firmamentia</name>
 			<text>(When this leaves the battlefield, return the cards interfused to form it to the battlefield under their owner&apos;s control.)
-Ward—pay 4 life
+Ward—Pay 4 life
 Flying, lifelink
 Other permanents you control have &quot;Ward—this permanent&apos;s controller gains 4 life.&quot;
 ---

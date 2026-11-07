@@ -353,7 +353,7 @@
 		{
 			"name": "Spiderfang Operative",
 			"rarity": "common",
-			"mana_cost": "{4}{B}",
+			"mana_cost": "{5}{B}",
 			"type": "Creature — Elf Soldier Assassin",
 			"collector_number": "115",
 			"image_uris": {
@@ -373,7 +373,7 @@
 		{
 			"name": "Skyblade Disruptor",
 			"rarity": "common",
-			"mana_cost": "{5}{B}",
+			"mana_cost": "{4}{B}",
 			"type": "Creature — Kavid Soldier",
 			"collector_number": "114",
 			"image_uris": {
@@ -2373,7 +2373,7 @@
 		{
 			"name": "Somor, City of Science",
 			"rarity": "mythic",
-			"mana_cost": "{4}",
+			"mana_cost": "{5}",
 			"type": "Legendary Artifact — Spacecraft",
 			"collector_number": "252",
 			"image_uris": {
@@ -2393,7 +2393,7 @@
 		{
 			"name": "Furnace Station",
 			"rarity": "mythic",
-			"mana_cost": "{6}",
+			"mana_cost": "{4}",
 			"type": "Legendary Artifact — Spacecraft",
 			"collector_number": "242",
 			"image_uris": {

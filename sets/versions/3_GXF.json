@@ -749,10 +749,10 @@
             "type": "Creature \u2014 Elf Soldier Assassin",
             "number": 115,
             "color_identity": "B",
-            "cost": "{4}{B}",
-            "rules_text": "Deathtouch\nWhenever this creature deals combat damage to an opponent, you may pay 1 life. If you do, draw a card.",
+            "cost": "{5}{B}",
+            "rules_text": "Deathtouch\nAt the beginning of your end step, if a creature died this turn, mill a card, then draw a card.",
             "flavor_text": "[i]The Verini knew how to extract precious information from a victim \u2014 just before they killed them.[/i]",
-            "pt": "3/4",
+            "pt": "4/4",
             "special_text": "",
             "shape": "normal",
             "set": "GXF",
@@ -761,7 +761,7 @@
             "alias": "",
             "position": "35",
             "rotated": false,
-            "notes": ""
+            "notes": "November 6th, 2026: Cost raised to 5B, stats raised from 3/4 to 4/4, and non-keyword ability changed."
         },
         {
             "card_name": "Second-Chancer",
@@ -791,10 +791,10 @@
             "type": "Creature \u2014 Kavid Soldier",
             "number": 114,
             "color_identity": "B",
-            "cost": "{5}{B}",
+            "cost": "{4}{B}",
             "rules_text": "Flying\nWhenever this creature attacks, you may pay {1}. If you do, defending player discards a card.",
             "flavor_text": "[i]The highly advanced embedded projectors emitted a frequency designed to scramble both electric and neural circuits.[/i]",
-            "pt": "5/5",
+            "pt": "4/4",
             "special_text": "",
             "shape": "normal",
             "set": "GXF",
@@ -803,7 +803,7 @@
             "alias": "",
             "position": "37",
             "rotated": false,
-            "notes": ""
+            "notes": "November 6th, 2026: Reduced casting cost to 4B, and p/t to 4/4."
         },
         {
             "card_name": "Violet Blast",
@@ -897,7 +897,7 @@
             "number": 88,
             "color_identity": "B",
             "cost": "{B}",
-            "rules_text": "This spell deals 1 damage to any target. This spell deals 3 damage this way instead if that target is a permanent that was dealt damage this turn.\nYou gain 1 life.",
+            "rules_text": "This spell deals 1 damage to any target. This spell deals 3 damage this way instead if that target is a permanent that was dealt damage this turn.\nYou gain life equal to the damage dealt this way.",
             "flavor_text": "[i]No tactic was too low for the Nevex.[/i]",
             "pt": "",
             "special_text": "",
@@ -1445,7 +1445,7 @@
             "cost": "{6}{G}",
             "rules_text": "When this creature enters, choose one \u2014\n\u2022 Put two +1/+1 counters on it.\n\u2022 Destroy target artifact or enchantment.\n\u2022 It deals 4 damage to target creature with flying you don't control.",
             "flavor_text": "[i][/i]",
-            "pt": "5/5",
+            "pt": "6/6",
             "special_text": "",
             "shape": "normal",
             "set": "GXF",
@@ -1947,7 +1947,7 @@
             "number": 120,
             "color_identity": "B",
             "cost": "{B}",
-            "rules_text": "Flying\nWard\u2014pay 3 life\nWhenever another creature with flying enters under your control, you may pay 1 life. If you do, put a +1/+1 counter on this creature.",
+            "rules_text": "Flying\nWard\u2014Pay 3 life\nWhenever another creature with flying enters under your control, you may pay 1 life. If you do, put a +1/+1 counter on this creature.",
             "flavor_text": "[i][/i]",
             "pt": "1/1",
             "special_text": "",
@@ -2808,7 +2808,7 @@
             "number": 87,
             "color_identity": "B",
             "cost": "{2}{B}{B}",
-            "rules_text": "Search your library for three cards and put them into your graveyard, then exile this card.",
+            "rules_text": "Search your library for three cards and put them into your graveyard, then shuffle. Exile this card.",
             "flavor_text": "[i]There were times when the Preservationists needed to study dead specimens to better protect live ones.[/i]",
             "pt": "",
             "special_text": "",
@@ -2850,7 +2850,7 @@
             "number": 137,
             "color_identity": "R",
             "cost": "{5}{R}{R}",
-            "rules_text": "This spell can't be countered.\nWard\u2014pay 4 life\nTrample",
+            "rules_text": "This spell can't be countered.\nWard\u2014Pay 4 life\nTrample",
             "flavor_text": "[i]Like Fras, Uthios was a planet renowned for its vicious megafauna that made large-scale settlement impossible.[/i]",
             "pt": "8/8",
             "special_text": "",
@@ -3249,7 +3249,7 @@
             "number": 219,
             "color_identity": "WU",
             "cost": "{W}{U}",
-            "rules_text": "Ward {2}\nCreatures you control that entered since your last upkeep without being cast have Ward {2}.",
+            "rules_text": "Ward {1}\nWhenever a nontoken creature enters under your control without being cast, put a hexproof counter on it.",
             "flavor_text": "[i]\u201cTo explore the Blind Eternities that our portal and jumpdrives merely skim through, it helps to shed unneeded senses.\u201d[/i]",
             "pt": "1/3",
             "special_text": "",
@@ -3260,7 +3260,7 @@
             "alias": "",
             "position": "154",
             "rotated": false,
-            "notes": "Enabler"
+            "notes": "November 6th, 2026: Changed to give a hexproof counter on creatures you control that enter without being cast."
         },
         {
             "card_name": "Glamour of the Prey",
@@ -3312,7 +3312,7 @@
             "number": 211,
             "color_identity": "RG",
             "cost": "{3}{R}{G}",
-            "rules_text": "When this creature enters, if it was cast, search your library for a basic land card, put it onto the battlefield under your control tapped, then shuffle.\nTrample",
+            "rules_text": "When this creature enters, search your library for a basic land card, put it onto the battlefield under your control, then shuffle.\nTrample",
             "flavor_text": "[i]Only a few islands and peninsulas on Fras were safe from the vicious megafauna that dominated the planet.[/i]",
             "pt": "5/4",
             "special_text": "",
@@ -3323,7 +3323,7 @@
             "alias": "",
             "position": "157",
             "rotated": false,
-            "notes": "more of an Enabler"
+            "notes": "November 6th, 2026: Removed 'if cast' restriction, and now it no longer forces the basic land to enter tapped."
         },
         {
             "card_name": "Research Workshop",
@@ -3354,7 +3354,7 @@
             "number": 233,
             "color_identity": "WB",
             "cost": "{W}{B}",
-            "rules_text": "Equipped creature has flying, \u201cWhenever this creature deals combat damage to an opponent, destroy target artifact or enchantment that player controls\u201d and Spiteful 3. [i](When that creature dies, it deals 3 damage to each opponent.)[/i]\nEquip {2}",
+            "rules_text": "Equipped creature has flying, \u201cWhenever this creature deals combat damage to an opponent, destroy target artifact or enchantment that player controls\u201d and Spiteful 3. [i](When that creature dies, it deals 3 damage to each opponent.)[/i]\nEquip {2}. This ability costs {1} less to activate if it targets a creature with flying.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -3365,7 +3365,7 @@
             "alias": "",
             "position": "159",
             "rotated": false,
-            "notes": "flying enabler, maybe involving spiteful too?"
+            "notes": "flying enabler, maybe involving spiteful too?\n\nAdded discount to equip cost if it targets a creature with flying."
         },
         {
             "card_name": "Glikki Repair Base",
@@ -3417,7 +3417,7 @@
             "number": 209,
             "color_identity": "WR",
             "cost": "{1}{R}{W}",
-            "rules_text": "Whenever an artifact enters the battlefield under your control, this enchantment deals 1 damage to each opponent. Then if that artifact isn't a token, you gain 1 life.\n{T}: Add {C}.",
+            "rules_text": "Whenever an artifact enters the battlefield under your control, this enchantment deals 1 damage to each opponent. Then if that artifact isn't a token, you gain 1 life.\nAt the beginning of your second main phase, add {C}.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -3428,7 +3428,7 @@
             "alias": "",
             "position": "162",
             "rotated": false,
-            "notes": "Enabler for the RW artifacts archetype (Dominion of Nevex, remember)"
+            "notes": "Enabler for the RW artifacts archetype (Dominion of Nevex, remember)\n\nNovember 6th, 2026: Reworded the tap for mana ability into a static ability that adds C at the beginning of your second main phase."
         },
         {
             "card_name": "Tarusian Biologist",
@@ -3438,7 +3438,7 @@
             "number": 231,
             "color_identity": "UG",
             "cost": "{2}{G}{U}",
-            "rules_text": "Trample\nWhen this creature enters, for each player, return up to one target creature or artifact that player controls to its owner's hand.",
+            "rules_text": "Trample\nWhen this creature enters, for each player, return up to one other target creature or artifact that player controls to its owner's hand.",
             "flavor_text": "[i]The Primordialists sought to save species from the inevitable extinctions brought on by rapid industrialization.[/i]",
             "pt": "3/3",
             "special_text": "",
@@ -3449,7 +3449,7 @@
             "alias": "",
             "position": "163",
             "rotated": false,
-            "notes": "Payoff"
+            "notes": "Payoff\n\nNovember 6th, 2026: Added 'other' so it can't return itself."
         },
         {
             "card_name": "Last Line of Defense",
@@ -4572,7 +4572,7 @@
             "number": 226,
             "color_identity": "BR",
             "cost": "{2}{B}{R}",
-            "rules_text": "Ward\u2014pay 2 life\nAt the beginning of your upkeep, create a 1/1 red and black Batterfly enchantment creature token with flying, haste, Spiteful 1, and \u201cAt the beginning of your end step, sacrifice this token.\u201d [i](When that creature dies, it deals 1 damage to each opponent.)[/i]",
+            "rules_text": "Ward\u2014Pay 2 life\nAt the beginning of your upkeep, create a 1/1 red and black Batterfly enchantment creature token with flying, haste, Spiteful 1, and \u201cAt end of combat, sacrifice this token.\u201d [i](When that creature dies, it deals 1 damage to each opponent.)[/i]",
             "flavor_text": "[i][/i]",
             "pt": "3/2",
             "special_text": "",
@@ -4583,7 +4583,7 @@
             "alias": "",
             "position": "217",
             "rotated": false,
-            "notes": "enabler"
+            "notes": "November 6th, 2026: The token is now sacrificed at end of combat, instead of end of turn."
         },
         {
             "card_name": "Massive Mining Mission",
@@ -4593,7 +4593,7 @@
             "number": 220,
             "color_identity": "RG",
             "cost": "{1}{R}{G}",
-            "rules_text": "When this enchantment enters, search your library for a basic land card, put it onto the battlefield tapped, then shuffle.\nWhenever a land enters under your control, put a charge counter on this enchantment.\nRemove five charge counters from this enchantment and sacrifice it: Put four +1/+1 counters on target creature you control.",
+            "rules_text": "When this enchantment enters, search your library for a basic land card, put it onto the battlefield tapped, then shuffle.\nWhenever a land enters under your control, put a charge counter on this enchantment.\nRemove five charge counters from this enchantment: Put four +1/+1 counters on target creature you control. Activate only as a sorcery.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -4604,7 +4604,7 @@
             "alias": "",
             "position": "218",
             "rotated": false,
-            "notes": "more of a payoff"
+            "notes": "November 6th, 2026: Added sorcery speed restriction to third ability, and removed self-sacrifice from that same ability."
         },
         {
             "card_name": "Wise Titan of Elomne",
@@ -4635,7 +4635,7 @@
             "number": 202,
             "color_identity": "WB",
             "cost": "{1}{W}{B}",
-            "rules_text": "Flying, lifelink\nWard\u2014pay 2 life\nWhenever you attack with one or more creatures with flying, put a +1/+1 counter on target creature you control.",
+            "rules_text": "Flying, lifelink\nWard\u2014Pay 2 life\nWhenever you attack with one or more other creatures with flying, put a +1/+1 counter on target creature you control.",
             "flavor_text": "[i][/i]",
             "pt": "2/3",
             "special_text": "",
@@ -4646,7 +4646,7 @@
             "alias": "",
             "position": "220",
             "rotated": false,
-            "notes": "Payoff"
+            "notes": "November 6th, 2026: Added 'other' to the on-attack trigger, to reduce self-enabling. (also capitalized the Pay in the Ward ability)"
         },
         {
             "card_name": "Starlane Plotter",
@@ -4677,7 +4677,7 @@
             "number": 228,
             "color_identity": "BG",
             "cost": "{X}{B}{G}",
-            "rules_text": "Return target nonland card with mana value X from your graveyard to your choice of your hand or battlefield.\nPreserve\u2014{X}, sacrifice a creature [i](You may cast a copy of this card by exiling this card from your graveyard and paying its preserve cost.)[/i]",
+            "rules_text": "Choose a target nonland card in your graveyard with mana value X or less. If that card is a permanent, you may return it to the battlefield tapped. Otherwise, return it to your hand.\nPreserve\u2014{X}, sacrifice a creature [i](You may cast a copy of this card by exiling this card from your graveyard and paying its preserve cost.)[/i]",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -4688,7 +4688,7 @@
             "alias": "",
             "position": "222",
             "rotated": false,
-            "notes": ""
+            "notes": "November 6th, 2026: Reworded effect to make it clear I/S can't go to the battlefield."
         },
         {
             "card_name": "Sanguine Enforcer",
@@ -4719,7 +4719,7 @@
             "number": 235,
             "color_identity": "UG",
             "cost": "{2}{G}{U}",
-            "rules_text": "The first Preserve cost you pay each turn costs {1} less.\nYou may cast creature spells as though they had flash.",
+            "rules_text": "When this creature enters, choose two colors. Preserve costs you pay cost one mana of each of the chosen colors less. This effect reduces only the amount of colored mana you pay.\nYou may cast creature spells as though they had flash.",
             "flavor_text": "[i]He thought he had seen it all. The archive held everything from stone tablets to data crystals. But this was a first.[/i]",
             "pt": "2/4",
             "special_text": "",
@@ -4730,7 +4730,7 @@
             "alias": "",
             "position": "224",
             "rotated": false,
-            "notes": "Enabler"
+            "notes": "Enabler\n\nNovember 6th, 2026: Discount ability changed to discount colored symbols, to be different from Enhanced Remembrancer."
         },
         {
             "card_name": "Pondering Automaton",
@@ -4971,10 +4971,10 @@
             "number": 239,
             "color_identity": "W",
             "cost": "{4}",
-            "rules_text": "Station [i](Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery.)[/i]\n[level 2+] At the beginning of your upkeep, you gain 1 life for each creature you control.\n[level 10+] {W}, {T}: Creatures you control get +X/+X, where X is the amount of life you've gained this turn.",
+            "rules_text": "Station [i](Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery.)[/i]\n[level 2+] At the beginning of your upkeep, you gain 1 life for each creature you control.\n[level 8+] {W}, {T}: Creatures you control get +X/+X, where X is the amount of life you've gained this turn.",
             "flavor_text": "[i][/i]",
             "pt": "",
-            "special_text": "Station [i](Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery.)[/i]\n[level 2+] At the beginning of your upkeep, you gain 1 life for each creature you control.\n[level 10+] {W}, {T}: Creatures you control get +X/+X, where X is the amount of life you've gained this turn.",
+            "special_text": "Station [i](Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery.)[/i]\n[level 2+] At the beginning of your upkeep, you gain 1 life for each creature you control.\n[level 8+] {W}, {T}: Creatures you control get +X/+X, where X is the amount of life you've gained this turn.",
             "shape": "leveler",
             "set": "GXF",
             "loyalty": "",
@@ -4982,7 +4982,7 @@
             "alias": "",
             "position": "236",
             "rotated": false,
-            "notes": ""
+            "notes": "November 6th, 2026: Reduced second threshold to 8."
         },
         {
             "card_name": "Somor, City of Science",
@@ -4991,11 +4991,11 @@
             "type": "Legendary Artifact \u2014 Spacecraft",
             "number": 252,
             "color_identity": "U",
-            "cost": "{4}",
-            "rules_text": "Station [i](Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery.)[/i]\n[level 2+] At the beginning of your upkeep, return up to one target nonland permanent to its owner's hand.\n[level 5+] Flying, vigilance\n{1}{U}, {T}, Discard a card: Surveil 3, then draw two cards. [2/6]",
+            "cost": "{5}",
+            "rules_text": "Station [i](Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery.)[/i]\n[level 2+] At the beginning of your upkeep, return target nonland permanent to its owner's hand.\n[level 5+] Flying, vigilance\n{1}{U}, {T}, Discard a card: Surveil 3, then draw two cards. [2/6]",
             "flavor_text": "[i][/i]",
             "pt": "",
-            "special_text": "Station [i](Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery.)[/i]\n[level 2+] At the beginning of your upkeep, return up to one target nonland permanent to its owner's hand.\n[level 5+] Flying, vigilance\n{1}{U}, {T}, Discard a card: Surveil 3, then draw two cards. [2/6]",
+            "special_text": "Station [i](Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery.)[/i]\n[level 2+] At the beginning of your upkeep, return target nonland permanent to its owner's hand.\n[level 5+] Flying, vigilance\n{1}{U}, {T}, Discard a card: Surveil 3, then draw two cards. [2/6]",
             "shape": "leveler",
             "set": "GXF",
             "loyalty": "",
@@ -5003,7 +5003,7 @@
             "alias": "",
             "position": "237",
             "rotated": false,
-            "notes": "Try to find art that looks at least a bit less 3D..."
+            "notes": "November 6th, 2026: Increased casting cost to 5, removed 'up to one' from the 2+ ability."
         },
         {
             "card_name": "Veltex, Crucible of Wrath",
@@ -5033,11 +5033,11 @@
             "type": "Legendary Artifact \u2014 Spacecraft",
             "number": 242,
             "color_identity": "R",
-            "cost": "{6}",
-            "rules_text": "Station [i](Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery.)[/i]\n[level 1+] Whenever a creature you control attacks, it deals 1 damage to each opponent.\n[level 5+] Flying, haste\n{1}{R}: This creature gains double strike until end of turn. Activate only once each turn. [5/5]",
+            "cost": "{4}",
+            "rules_text": "Station [i](Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery.)[/i]\n[level 1+] Whenever a creature you control attacks, it deals 1 damage to each opponent.\n[level 4+] Flying, haste\n{1}{R}: This creature gains double strike until end of turn. Activate only once each turn. [5/5]",
             "flavor_text": "[i][/i]",
             "pt": "",
-            "special_text": "Station [i](Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery.)[/i]\n[level 1+] Whenever a creature you control attacks, it deals 1 damage to each opponent.\n[level 5+] Flying, haste\n{1}{R}: This creature gains double strike until end of turn. Activate only once each turn. [5/5]",
+            "special_text": "Station [i](Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery.)[/i]\n[level 1+] Whenever a creature you control attacks, it deals 1 damage to each opponent.\n[level 4+] Flying, haste\n{1}{R}: This creature gains double strike until end of turn. Activate only once each turn. [5/5]",
             "shape": "leveler",
             "set": "GXF",
             "loyalty": "",
@@ -5045,7 +5045,7 @@
             "alias": "",
             "position": "239",
             "rotated": false,
-            "notes": ""
+            "notes": "November 6th, 2026: REduced casting cost to 4, reduced threshold to creatureness to 4 charge counters."
         },
         {
             "card_name": "Akoon Gateway",
@@ -5657,7 +5657,7 @@
             "color2": "B",
             "type2": "Legendary Artifact Creature \u2014 Program",
             "cost2": "",
-            "rules_text2": "[i](When this leaves the battlefield, return the cards interfused to form it to the battlefield under their owner's control.)[/i]\nWard\u2014pay 4 life\nFlying, lifelink\nOther permanents you control have \u201cWard\u2014this permanent's controller gains 4 life.\u201d",
+            "rules_text2": "[i](When this leaves the battlefield, return the cards interfused to form it to the battlefield under their owner's control.)[/i]\nWard\u2014Pay 4 life\nFlying, lifelink\nOther permanents you control have \u201cWard\u2014this permanent's controller gains 4 life.\u201d",
             "flavor_text2": "[i][/i]",
             "pt2": "5/5",
             "special_text2": "",
@@ -5690,7 +5690,7 @@
             "color2": "B",
             "type2": "Legendary Artifact Creature \u2014 Program",
             "cost2": "",
-            "rules_text2": "[i](When this leaves the battlefield, return the cards interfused to form it to the battlefield under their owner's control.)[/i]\nWard\u2014pay 4 life\nFlying, lifelink\nOther permanents you control have \u201cWard\u2014this permanent's controller gains 4 life.\u201d",
+            "rules_text2": "[i](When this leaves the battlefield, return the cards interfused to form it to the battlefield under their owner's control.)[/i]\nWard\u2014Pay 4 life\nFlying, lifelink\nOther permanents you control have \u201cWard\u2014this permanent's controller gains 4 life.\u201d",
             "flavor_text2": "[i][/i]",
             "pt2": "5/5",
             "special_text2": "",
@@ -6163,11 +6163,11 @@
             "shape": "token",
             "set": "GXF",
             "loyalty": "",
-            "artist": "Fortune K",
+            "artist": "Karolina ( RinRinDaishi )",
             "alias": "",
             "position": "300",
             "rotated": false,
-            "notes": "place holder art ..."
+            "notes": ""
         },
         {
             "card_name": "Gathering Evidence",
