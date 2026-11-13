@@ -1,4 +1,69 @@
-﻿VERSION 3 CHANGELOG
+﻿VERSION 4 CHANGELOG
+====================
+
+
+
+Devoted Trooper
+
+Cutter Rifle
+rules_text: When this artifact enters, destroy target artifact or enchantment with mana value equal to or less than the number of artifacts you control.
+{T}: Target creature gets +1/+1 until end of turn. Activate only as a sorcery. => When this artifact enters, destroy up to one target artifact or enchantment.
+{T}: Target creature gets +1/+1 until end of turn. Activate only as a sorcery.
+
+Stunning Swing
+
+Beginner's Luck
+cost: {1}{U} => {U}
+
+Digital Avatar of Tavros
+rules_text: This spell can't be countered as long as you attacked with an artifact creature this turn.
+Vigilance
+Whenever this creature attacks, each other creature you control gets +2/+2 until end of turn. => Vigilance
+Whenever this creature attacks, each other creature you control gets +2/+2 until end of turn.
+
+Extraction Base
+
+Guardian of Rorithan Monolith
+rules_text: Flying
+When this creature enters, destroy target nonland, noncreature permanent. If it was cast, you may instead destroy target creature. => Flying
+When this creature enters, if it was cast, destroy target nonland permanent.
+pt: 5/5 => 6/6
+
+Imeon, Who Ran
+rules_text: Flash
+Multikicker {2}
+When Imeon enters, choose a different one for each time this spell was kicked. —
+• Counter target spell unless its controller pays {3}.
+• Put three +1/+1 counters on target creature.
+• Put a land card from your hand onto the battlefield. => Flash
+Multikicker {2}
+When Imeon enters, choose a different one for each time this spell was kicked. —
+• Counter target spell unless its controller pays {3}.
+• Put three +1/+1 counters on target creature.
+• Draw a card, then put a land card from your hand onto the battlefield.
+
+Concentrated Fire
+rules_text: This spell can't be countered.
+Choose one. If you control a Spacecraft or Vehicle, you may choose both. —
+• Exile target artifact.
+• Exile target nonbasic land. => Choose one. If you control a Spacecraft or Vehicle, you may choose both. —
+• Exile target artifact.
+• Exile target nonbasic land.
+
+Glikki Scrap Bay
+rules_text: {1}, {T}: Return target artifact card from your graveyard to your hand.
+{T}, Exile this artifact: Draw a card. => {2}, {T}: Return target artifact card from your graveyard to your hand.
+{T}, Exile this artifact: Draw a card.
+
+Industrial Cultivation
+rules_text: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle. Then if this spell wasn't cast from your hand, untap that basic land. => Search your library for a basic land card, put it onto the battlefield tapped, then shuffle. Then if this spell wasn't cast from your hand, untap that land.
+
+Jahan, Breach Leader
+
+Nouve
+
+
+VERSION 3 CHANGELOG
 ====================
 
 

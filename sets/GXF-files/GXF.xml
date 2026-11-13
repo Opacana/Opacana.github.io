@@ -5,7 +5,7 @@
 			<name>GXF</name>
 			<longname>Galaxy&apos;s Fate</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-11-07</releasedate>
+			<releasedate>2026-11-13</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -256,7 +256,7 @@ Enchanted creature gets +1/+1 and has flying.</text>
 		</card>
 		<card>
 			<name>Cutter Rifle</name>
-			<text>When this artifact enters, destroy target artifact or enchantment with mana value equal to or less than the number of artifacts you control.
+			<text>When this artifact enters, destroy up to one target artifact or enchantment.
 {T}: Target creature gets +1/+1 until end of turn. Activate only as a sorcery.</text>
 			<set rarity="common" picurl="https://Opacana.github.io/sets/GXF-files/img/14.png" num="8">GXF</set>
 			<prop>
@@ -1586,8 +1586,8 @@ Preserve {3}{U} (You may cast a copy of this card by exiling this card from your
 				<side>front</side>
 				<type>Enchantment</type>
 				<maintype>Enchantment</maintype>
-				<manacost>1U</manacost>
-				<cmc>2</cmc>
+				<manacost>U</manacost>
+				<cmc>1</cmc>
 				<colors>U</colors>
 				<coloridentity>U</coloridentity>
 			</prop>
@@ -2160,8 +2160,7 @@ Other nontoken creatures you control enter with an additional +1/+1 counter on t
 		</card>
 		<card>
 			<name>Digital Avatar of Tavros</name>
-			<text>This spell can&apos;t be countered as long as you attacked with an artifact creature this turn.
-Vigilance
+			<text>Vigilance
 Whenever this creature attacks, each other creature you control gets +2/+2 until end of turn.</text>
 			<set rarity="rare" picurl="https://Opacana.github.io/sets/GXF-files/img/120.png" num="11">GXF</set>
 			<prop>
@@ -3397,7 +3396,7 @@ When this creature dies, create two colorless 2/2 artifact Robot Beast tokens wi
 		<card>
 			<name>Guardian of Rorithan Monolith</name>
 			<text>Flying
-When this creature enters, destroy target nonland, noncreature permanent. If it was cast, you may instead destroy target creature.</text>
+When this creature enters, if it was cast, destroy target nonland permanent.</text>
 			<set rarity="rare" picurl="https://Opacana.github.io/sets/GXF-files/img/191.png" num="244">GXF</set>
 			<prop>
 				<layout>normal</layout>
@@ -3406,7 +3405,7 @@ When this creature enters, destroy target nonland, noncreature permanent. If it 
 				<maintype>Creature</maintype>
 				<manacost>7</manacost>
 				<cmc>7</cmc>
-				<pt>5/5</pt>
+				<pt>6/6</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
@@ -3434,7 +3433,7 @@ Multikicker {2}
 When Imeon enters, choose a different one for each time this spell was kicked. —
 • Counter target spell unless its controller pays {3}.
 • Put three +1/+1 counters on target creature.
-• Put a land card from your hand onto the battlefield.</text>
+• Draw a card, then put a land card from your hand onto the battlefield.</text>
 			<set rarity="rare" picurl="https://Opacana.github.io/sets/GXF-files/img/193.png" num="214">GXF</set>
 			<prop>
 				<layout>normal</layout>
@@ -3677,8 +3676,7 @@ Search your library for a card, put it into your hand, then shuffle.</text>
 		</card>
 		<card>
 			<name>Concentrated Fire</name>
-			<text>This spell can&apos;t be countered.
-Choose one. If you control a Spacecraft or Vehicle, you may choose both. —
+			<text>Choose one. If you control a Spacecraft or Vehicle, you may choose both. —
 • Exile target artifact.
 • Exile target nonbasic land.</text>
 			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/GXF-files/img/207.png" num="129">GXF</set>
@@ -3734,7 +3732,7 @@ Crew 2 (Tap any number of creatures you control with total power 2 or more: This
 		</card>
 		<card>
 			<name>Glikki Scrap Bay</name>
-			<text>{1}, {T}: Return target artifact card from your graveyard to your hand.
+			<text>{2}, {T}: Return target artifact card from your graveyard to your hand.
 {T}, Exile this artifact: Draw a card.</text>
 			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/GXF-files/img/210.png" num="141">GXF</set>
 			<prop>
@@ -3786,7 +3784,7 @@ Preserve {4}{G} (You may cast a copy of this card by exiling this card from your
 		</card>
 		<card>
 			<name>Industrial Cultivation</name>
-			<text>Search your library for a basic land card, put it onto the battlefield tapped, then shuffle. Then if this spell wasn&apos;t cast from your hand, untap that basic land.</text>
+			<text>Search your library for a basic land card, put it onto the battlefield tapped, then shuffle. Then if this spell wasn&apos;t cast from your hand, untap that land.</text>
 			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/GXF-files/img/213.png" num="179">GXF</set>
 			<prop>
 				<layout>normal</layout>

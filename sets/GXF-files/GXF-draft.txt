@@ -883,7 +883,7 @@
 		{
 			"name": "Beginner's Luck",
 			"rarity": "uncommon",
-			"mana_cost": "{1}{U}",
+			"mana_cost": "{U}",
 			"type": "Enchantment",
 			"collector_number": "46",
 			"image_uris": {
