@@ -1,6 +1,6 @@
 ﻿{
     "name": "Galaxy\u2019s Fate",
-    "formats": "",
+    "formats": "Revolution",
     "image_type": "png",
     "draft_structure": "play booster",
     "unpreviewed": "card back",
@@ -4887,10 +4887,10 @@
             "number": 58,
             "color_identity": "U",
             "cost": "{1}{U}",
-            "rules_text": "Station [i](Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery.)[/i]\nAt the beginning of your upkeep, if you control fewer creatures than each opponent, surveil 3.\n[level 3+] Flying, vigilance [1/4]",
+            "rules_text": "Station [i](Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery.)[/i]\nAt the beginning of your upkeep, surveil 1. If there are eight or more cards in your graveyard, surveil 2 instead.\n[level 3+] Flying, vigilance [1/3]",
             "flavor_text": "[i][/i]",
             "pt": "",
-            "special_text": "Station [i](Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery.)[/i]\nAt the beginning of your upkeep, if you control fewer creatures than each opponent, surveil 3.\n[level 3+] Flying, vigilance [1/4]",
+            "special_text": "Station [i](Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery.)[/i]\nAt the beginning of your upkeep, surveil 1. If there are eight or more cards in your graveyard, surveil 2 instead.\n[level 3+] Flying, vigilance [1/3]",
             "shape": "leveler",
             "set": "GXF",
             "loyalty": "",
@@ -4898,7 +4898,7 @@
             "alias": "",
             "position": "232",
             "rotated": false,
-            "notes": ""
+            "notes": "November 18th, 2026: Changed from almost always surveiling 3 on upkeep to surveiling 1 at base, and only surveiling 2 if you have 8 or more cards in your graveyard (like Last of the Ebreek). Also reduced toughness from 4 to 3."
         },
         {
             "card_name": "Nevex Raidship",

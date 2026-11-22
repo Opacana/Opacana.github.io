@@ -5,7 +5,7 @@
 			<name>GXF</name>
 			<longname>Galaxy&apos;s Fate</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-11-13</releasedate>
+			<releasedate>2026-11-21</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -4116,8 +4116,8 @@ When this Spacecraft enters, create two 1/1 colorless Construct artifact creatur
 		<card>
 			<name>Glikki Scout Station</name>
 			<text>Station (Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery.)
-At the beginning of your upkeep, if you control fewer creatures than each opponent, surveil 3.
-[level 3+] Flying, vigilance [1/4]</text>
+At the beginning of your upkeep, surveil 1. If there are eight or more cards in your graveyard, surveil 2 instead.
+[level 3+] Flying, vigilance [1/3]</text>
 			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/GXF-files/img/232.png" num="58">GXF</set>
 			<prop>
 				<layout>leveler</layout>

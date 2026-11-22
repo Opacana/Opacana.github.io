@@ -1,4 +1,22 @@
-﻿VERSION 4 CHANGELOG
+﻿VERSION 5 CHANGELOG
+====================
+
+
+
+Glikki Scout Station
+rules_text: Station [i](Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery.)[/i]
+At the beginning of your upkeep, if you control fewer creatures than each opponent, surveil 3.
+[level 3+] Flying, vigilance [1/4] => Station [i](Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery.)[/i]
+At the beginning of your upkeep, surveil 1. If there are eight or more cards in your graveyard, surveil 2 instead.
+[level 3+] Flying, vigilance [1/3]
+special_text: Station [i](Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery.)[/i]
+At the beginning of your upkeep, if you control fewer creatures than each opponent, surveil 3.
+[level 3+] Flying, vigilance [1/4] => Station [i](Tap another creature you control: Put charge counters equal to its power on this Spacecraft. Station only as a sorcery.)[/i]
+At the beginning of your upkeep, surveil 1. If there are eight or more cards in your graveyard, surveil 2 instead.
+[level 3+] Flying, vigilance [1/3]
+
+
+VERSION 4 CHANGELOG
 ====================
 
 
