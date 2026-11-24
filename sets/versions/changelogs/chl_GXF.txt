@@ -1,4 +1,110 @@
-﻿VERSION 5 CHANGELOG
+﻿VERSION 6 CHANGELOG
+====================
+
+
+
+Righteous Storm
+rules_text: Flash
+When this enchantment enters, it deals 5 damage to up to one target tapped creature.
+Whenever a creature attacks you, you may pay {1}. When you do, this enchantment deals 1 damage to that creature and you gain 1 life. => Flash
+When this enchantment enters, it deals 5 damage to up to one target tapped creature.
+Whenever a creature attacks you, you gain 1 life.
+
+Alternate Reality Scout
+rules_text: When this creature enters, if it was cast, scry 2.
+When this creature is exiled, draw a card. => When this creature enters, if it was cast, scry 2.
+When this creature is exiled by a spell or ability you control, draw a card.
+
+Investigative Biker
+pt: 1/2 => 2/2
+
+Juvenile Yamanisaur
+pt: 2/1 => 2/2
+
+Activate Armor
+rules_text: As an additional cost to cast this spell, sacrifice an artifact.
+Choose one —
+• Target creature gets +3/+1 and gains first strike until end of turn.
+• Return target artifact card with mana value 3 or less from your graveyard to the battlefield. => Choose one —
+• Target creature gets +3/+1 and gains first strike until end of turn.
+• Sacrifice an artifact, then return an artifact card with mana value 3 or less from your graveyard to the battlefield.
+
+Panzuran Golden Cat
+rules_text: Ward {1} => Ward {2}
+{3}{G}: Put a +1/+1 counter on this creature. Activate only as a sorcery.
+
+Flux Alignment
+rules_text: Whenever you attack, choose target land you control. That land gains “{T}: Add two mana of any one color.” until end of turn. => Enchant land
+When this enchantment enters, put a +1/+1 counter on target permanent.
+Enchanted land has “{T}: Add two mana in any combination of colors.”
+
+Esander, Gloryboy
+rules_text: Ward {2}
+When Esander enters, he deals 3 damage to target tapped creature. => Ward {2}
+When Esander enters, target player chooses a tapped creature you don't control. Destroy that creature.
+
+Last Guardians of Gimav
+rules_text: This spell costs {1} less to cast for each enchantment, Equipment and/or Program you control.
+First strike, vigilance => This spell costs {1} less to cast for each enchantment, Spacecraft and Vehicle you control.
+First strike, vigilance
+
+Deathside Bloom
+rules_text: Deathtouch
+{T}: Add one mana of any color. If it's not your turn, this creature deals 1 damage to you.
+Whenever two or more creatures attack you, you may pay {2}. If you do, untap this creature. => Deathtouch
+{T}: Add one mana of any color.
+At the beginning of each opponent's combat phase, you may pay {2}. If you do, untap this creature.
+
+Chronovolt Engine
+rules_text: When this artifact enters, create a 1/1 blue and green Mutant creature token with “As long as this creature's power is 3 or greater, it has flying.”
+Whenever you cast a spell from a graveyard or exile, put a +1/+1 counter on up to one target creature. => When this artifact enters, create a 1/1 blue and green Mutant creature token with “This creature has flying as long as there are two or more counters on it.”
+Whenever you cast a spell from a graveyard or exile, put a +1/+1 counter on up to one target creature.
+
+Pilgrimage Base
+rules_text: {T}: Add {W}. This land deals 1 damage to you.
+{W}, {T}: Target creature you control gains lifelink until end of turn. Sacrifice this land, then surveil 1. => This land enters tapped.
+{T}: Add {W}.
+{W}, {T}: Target creature you control gains lifelink until end of turn. Sacrifice this land, then surveil 1.
+
+Polar Astronomy Base
+rules_text: {T}: Add {U}. This land deals 1 damage to you.
+{1}{U}, {T}: Draw a card. Sacrifice this land, then surveil 1. => This land enters tapped.
+{T}: Add {U}.
+{1}{U}, {T}: Draw a card. Sacrifice this land, then surveil 1.
+
+Profane Base
+rules_text: {T}: Add {B}. This land deals 1 damage to you.
+{1}{B}, {T}: Target creature gets -1/-1 until end of turn. Sacrifice this land, then surveil 1. Activate only as a sorcery. => This land enters tapped.
+{T}: Add {B}.
+{1}{B}, {T}: Target creature gets -1/-1 until end of turn. Sacrifice this land, then surveil 1. Activate only as a sorcery.
+
+Infernus Base
+rules_text: {T}: Add {R}. This land deals 1 damage to you.
+{3}{R}, {T}: This land deals 2 damage to any target. Sacrifice this land, then surveil 1. => This land enters tapped.
+{T}: Add {R}.
+{3}{R}, {T}: This land deals 2 damage to any target. Sacrifice this land, then surveil 1.
+
+Refreshment Base
+rules_text: {T}: Add {G}. This land deals 1 damage to you.
+{2}{G}, {T}: Target creature gets +3/+3 until end of turn. Sacrifice this land, then surveil 1. Activate only as a sorcery. => This land enters tapped.
+{T}: Add {G}.
+{2}{G}, {T}: Target creature gets +3/+3 until end of turn. Sacrifice this land, then surveil 1. Activate only as a sorcery.
+
+Eternal Vigil
+rules_text: At the beginning of your upkeep, mill two cards, then choose target creature or planeswalker card in your graveyard. That card gains Preserve {X} until end of turn, where X is its mana value. [i](You may cast a copy of that card by exiling it from your graveyard and paying its preserve cost.)[/i] => At the beginning of your upkeep, mill two cards, then choose a creature or planeswalker card in your graveyard. That card gains Preserve {X} until end of turn, where X is its mana value. [i](You may cast a copy of that card by exiling it from your graveyard and paying its preserve cost.)[/i]
+
+In Search Of Gnosis
+rules_text: Whenever you cast an enchantment spell or a Program enters under your control, put a +1/+1 counter on target creature you control. => Whenever you cast an enchantment spell or a creature with ‘Interfuse with' enters under your control, put a +1/+1 counter on target creature you control.
+
+Scamp v2
+rules_text: Flying
+When Scamp v2 dies, create a Clue token.
+Interfuse with Oria, Firebrand Prodigy [i](As a sorcery, if you both own and control Scamp v2 and a creature named Oria, Firebrand Prodigy, exile them, then interfuse them into Berek, Shock Dragon. You can Interfuse only once each turn.)[/i] => Flying
+When Scamp v2 dies, create a Clue token. [i](It's an artifact with “{2}, Sacrifice this token: Draw a card.”)[/i]
+Interfuse with Oria, Firebrand Prodigy [i](As a sorcery, if you both own and control Scamp v2 and a creature named Oria, Firebrand Prodigy, exile them, then interfuse them into Berek, Shock Dragon. You can Interfuse only once each turn.)[/i]
+
+
+VERSION 5 CHANGELOG
 ====================
 
 

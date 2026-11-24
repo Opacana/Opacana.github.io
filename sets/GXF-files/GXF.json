@@ -246,7 +246,7 @@
             "number": 34,
             "color_identity": "W",
             "cost": "{3}{W}",
-            "rules_text": "Flash\nWhen this enchantment enters, it deals 5 damage to up to one target tapped creature.\nWhenever a creature attacks you, you may pay {1}. When you do, this enchantment deals 1 damage to that creature and you gain 1 life.",
+            "rules_text": "Flash\nWhen this enchantment enters, it deals 5 damage to up to one target tapped creature.\nWhenever a creature attacks you, you gain 1 life.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -257,7 +257,7 @@
             "alias": "",
             "position": "11",
             "rotated": false,
-            "notes": ""
+            "notes": "November 24th, 2026: Changed third paragraph from paying 1 to deal 1 to a creature attacking you and gain 1 life, to simply gaining 1 life whenever a creature attacks you. This simplifies things a lot, while still allowing opposing 2/1s or 3/1s to attack meaningfully."
         },
         {
             "card_name": "Ice World Imprisonment",
@@ -372,7 +372,7 @@
             "number": 43,
             "color_identity": "U",
             "cost": "{2}{U}",
-            "rules_text": "When this creature enters, if it was cast, scry 2.\nWhen this creature is exiled, draw a card.",
+            "rules_text": "When this creature enters, if it was cast, scry 2.\nWhen this creature is exiled by a spell or ability you control, draw a card.",
             "flavor_text": "[i]Ish found this latest dimension rather unnerving; an endless birthday party in an endless house.[/i]",
             "pt": "2/2",
             "special_text": "",
@@ -383,7 +383,7 @@
             "alias": "",
             "position": "17",
             "rotated": false,
-            "notes": ""
+            "notes": "November 23rd, 2026: Changed draw ability to only trigger on spells or abilities you control."
         },
         {
             "card_name": "Well-Versed Wright",
@@ -647,7 +647,7 @@
             "cost": "{1}{B}",
             "rules_text": "Whenever this creature enters or attacks, surveil 1.",
             "flavor_text": "[i]\u201cNo matter the planet or species, cities only show their secrets at night.\u201d[/i]",
-            "pt": "1/2",
+            "pt": "2/2",
             "special_text": "",
             "shape": "normal",
             "set": "GXF",
@@ -656,7 +656,7 @@
             "alias": "",
             "position": "30",
             "rotated": false,
-            "notes": ""
+            "notes": "November 22, 2026: Changed from 1/2 to 2/2."
         },
         {
             "card_name": "Sworn Operative",
@@ -983,7 +983,7 @@
             "cost": "{1}{R}",
             "rules_text": "Trample\nThis creature enters with an additional +1/+1 counter on it if two or more lands entered under your control this turn.",
             "flavor_text": "[i]It had adapted to almost every type of terrain on the surface of Yamani.[/i]",
-            "pt": "2/1",
+            "pt": "2/2",
             "special_text": "",
             "shape": "normal",
             "set": "GXF",
@@ -992,7 +992,7 @@
             "alias": "",
             "position": "46",
             "rotated": false,
-            "notes": ""
+            "notes": "November 22nd, 2026: Changed from base 2/1 to base 2/2."
         },
         {
             "card_name": "Ojni Gunslinger",
@@ -1149,7 +1149,7 @@
             "number": 121,
             "color_identity": "R",
             "cost": "{1}{R}",
-            "rules_text": "As an additional cost to cast this spell, sacrifice an artifact.\nChoose one \u2014\n\u2022 Target creature gets +3/+1 and gains first strike until end of turn.\n\u2022 Return target artifact card with mana value 3 or less from your graveyard to the battlefield.",
+            "rules_text": "Choose one \u2014\n\u2022 Target creature gets +3/+1 and gains first strike until end of turn.\n\u2022 Sacrifice an artifact, then return an artifact card with mana value 3 or less from your graveyard to the battlefield.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -1160,7 +1160,7 @@
             "alias": "",
             "position": "54",
             "rotated": false,
-            "notes": ""
+            "notes": "November 22nd, 2026: cost to sac an artifact isolated to just the artifact reanimator mode rather than the whole card \u2014 consequently, that mode no longer targets what it brings back."
         },
         {
             "card_name": "Group Effort",
@@ -1254,7 +1254,7 @@
             "number": 186,
             "color_identity": "G",
             "cost": "{G}",
-            "rules_text": "Ward {1}",
+            "rules_text": "Ward {2}\n{3}{G}: Put a +1/+1 counter on this creature. Activate only as a sorcery.",
             "flavor_text": "[i]While they had natural magical shields, they were still famously skittish, for slow-moving objects or predators could pass through those shields without issue.[/i]",
             "pt": "1/1",
             "special_text": "",
@@ -1265,7 +1265,7 @@
             "alias": "",
             "position": "59",
             "rotated": false,
-            "notes": ""
+            "notes": "November 22nd, 2026: Improved this card by increasing it from Ward 1 to Ward 2 and giving it an expensive self-grow ability \u2014 see canon card Toadstool Admirer from Wilds of Eldraine for comparison.\n\nBut watch this in further testing Toadstool Admirer is still played a bit in constructed in Standard, Pioneer and Pauper."
         },
         {
             "card_name": "Verini Explorator",
@@ -1527,7 +1527,7 @@
             "number": 172,
             "color_identity": "G",
             "cost": "{2}{G}",
-            "rules_text": "Whenever you attack, choose target land you control. That land gains \u201c{T}: Add two mana of any one color.\u201d until end of turn.",
+            "rules_text": "Enchant land\nWhen this enchantment enters, put a +1/+1 counter on target permanent.\nEnchanted land has \u201c{T}: Add two mana in any combination of colors.\u201d",
             "flavor_text": "[i]\u201cVella, I've seen wonders on Duvoch I can't even describe,\u201d Simi explained through the screen. \u201cI can't leave now.\u201d[/i]",
             "pt": "",
             "special_text": "",
@@ -1538,7 +1538,7 @@
             "alias": "",
             "position": "72",
             "rotated": false,
-            "notes": ""
+            "notes": "November 24th, 2026: Changed this from an enchantment that lets a land tap for two until end of turn whenever you attack, into a slightly better version of canon Grafted Growth."
         },
         {
             "card_name": "Planetary Survey",
@@ -1653,7 +1653,7 @@
             "number": 14,
             "color_identity": "W",
             "cost": "{2}{W}{W}",
-            "rules_text": "Ward {2}\nWhen Esander enters, he deals 3 damage to target tapped creature.",
+            "rules_text": "Ward {2}\nWhen Esander enters, target player chooses a tapped creature you don't control. Destroy that creature.",
             "flavor_text": "[i]As the first son of a noble house, he grew up to be arrogant and overconfident, earning him some enmity on the battlefield. But at least he had the best tutors money could buy.[/i]",
             "pt": "4/4",
             "special_text": "",
@@ -1664,7 +1664,7 @@
             "alias": "",
             "position": "78",
             "rotated": false,
-            "notes": ""
+            "notes": "November 23rd, 2026: Changed from dealing 3 damage to destroying a tapped creature of an opponent's choice (mostly to differentiate him from Jahan)."
         },
         {
             "card_name": "Ostentatious Boss",
@@ -1716,7 +1716,7 @@
             "number": 23,
             "color_identity": "W",
             "cost": "{5}{W}{W}",
-            "rules_text": "This spell costs {1} less to cast for each enchantment, Equipment and/or Program you control.\nFirst strike, vigilance",
+            "rules_text": "This spell costs {1} less to cast for each enchantment, Spacecraft and Vehicle you control.\nFirst strike, vigilance",
             "flavor_text": "[i]Princess Vella's unwavering dedication inspired many Empire troops to go on fighting instead of fleeing.[/i]",
             "pt": "5/5",
             "special_text": "",
@@ -1727,7 +1727,7 @@
             "alias": "",
             "position": "81",
             "rotated": false,
-            "notes": ""
+            "notes": "November 23rd, 2026: changed discount to caring about Programs to caring about Spacecraft and vehicles (in addition to enchantments)."
         },
         {
             "card_name": "Synchronous Battle Tank",
@@ -2346,8 +2346,8 @@
             "number": 165,
             "color_identity": "G",
             "cost": "{1}{G}",
-            "rules_text": "Deathtouch\n{T}: Add one mana of any color. If it's not your turn, this creature deals 1 damage to you.\nWhenever two or more creatures attack you, you may pay {2}. If you do, untap this creature.",
-            "flavor_text": "[i][/i]",
+            "rules_text": "Deathtouch\n{T}: Add one mana of any color.\nAt the beginning of each opponent's combat phase, you may pay {2}. If you do, untap this creature.",
+            "flavor_text": "[i]You could tell what organism the plant last consumed just by looking at it.[/i]",
             "pt": "1/2",
             "special_text": "",
             "shape": "normal",
@@ -2357,7 +2357,7 @@
             "alias": "",
             "position": "111",
             "rotated": false,
-            "notes": ""
+            "notes": "November 23rd, 2026: Removed self-damage aspect, simplified untap ability to trigger on each opponent's combat phase, and added flavor text."
         },
         {
             "card_name": "Disparate Legion",
@@ -2682,7 +2682,7 @@
             "number": 48,
             "color_identity": "U",
             "cost": "{1}{U}",
-            "rules_text": "When this artifact enters, create a 1/1 blue and green Mutant creature token with \u201cAs long as this creature's power is 3 or greater, it has flying.\u201d\nWhenever you cast a spell from a graveyard or exile, put a +1/+1 counter on up to one target creature.",
+            "rules_text": "When this artifact enters, create a 1/1 blue and green Mutant creature token with \u201cThis creature has flying as long as there are two or more counters on it.\u201d\nWhenever you cast a spell from a graveyard or exile, put a +1/+1 counter on up to one target creature.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -3816,7 +3816,7 @@
             "number": 259,
             "color_identity": "W",
             "cost": "",
-            "rules_text": "{T}: Add {W}. This land deals 1 damage to you.\n{W}, {T}: Target creature you control gains lifelink until end of turn. Sacrifice this land, then surveil 1.",
+            "rules_text": "This land enters tapped.\n{T}: Add {W}.\n{W}, {T}: Target creature you control gains lifelink until end of turn. Sacrifice this land, then surveil 1.",
             "flavor_text": "[i]On Eugata, Vervennism lasted far longer than any of the planet's other religions.[/i]",
             "pt": "",
             "special_text": "",
@@ -3827,7 +3827,7 @@
             "alias": "",
             "position": "181",
             "rotated": false,
-            "notes": "Oct. 28th, 2026: Activation cost reduced from 1W to just W after comparing to general canon precedent."
+            "notes": "Oct. 28th, 2026: Activation cost reduced from 1W to just W after comparing to general canon precedent.\n\nNovember 22nd, 2026: Whole five-cycle changed by removing self-damage aspect and changing them to enter tapped instead."
         },
         {
             "card_name": "Polar Astronomy Base",
@@ -3837,7 +3837,7 @@
             "number": 260,
             "color_identity": "U",
             "cost": "",
-            "rules_text": "{T}: Add {U}. This land deals 1 damage to you.\n{1}{U}, {T}: Draw a card. Sacrifice this land, then surveil 1.",
+            "rules_text": "This land enters tapped.\n{T}: Add {U}.\n{1}{U}, {T}: Draw a card. Sacrifice this land, then surveil 1.",
             "flavor_text": "[i]Sites free of industrial or \u2018magical' pollution were ideal for learning yet more about the universe.[/i]",
             "pt": "",
             "special_text": "",
@@ -3848,7 +3848,7 @@
             "alias": "",
             "position": "182",
             "rotated": false,
-            "notes": "Oct. 28th, 2026: Activation cost reduced from 2U to 1U, after comparing it to canon card The Surgical Bay."
+            "notes": "Oct. 28th, 2026: Activation cost reduced from 2U to 1U, after comparing it to canon card The Surgical Bay.\n\nNovember 22nd, 2026: Whole five-cycle changed by removing self-damage aspect and changing them to enter tapped instead."
         },
         {
             "card_name": "Profane Base",
@@ -3858,7 +3858,7 @@
             "number": 261,
             "color_identity": "B",
             "cost": "",
-            "rules_text": "{T}: Add {B}. This land deals 1 damage to you.\n{1}{B}, {T}: Target creature gets -1/-1 until end of turn. Sacrifice this land, then surveil 1. Activate only as a sorcery.",
+            "rules_text": "This land enters tapped.\n{T}: Add {B}.\n{1}{B}, {T}: Target creature gets -1/-1 until end of turn. Sacrifice this land, then surveil 1. Activate only as a sorcery.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -3869,7 +3869,7 @@
             "alias": "",
             "position": "183",
             "rotated": false,
-            "notes": "Oct. 28th, 2026: Activation cost reduced from 2B to 1B after comparing it to canon card Grasping Dunes."
+            "notes": "Oct. 28th, 2026: Activation cost reduced from 2B to 1B after comparing it to canon card Grasping Dunes.\n\nNovember 22nd, 2026: Whole five-cycle changed by removing self-damage aspect and changing them to enter tapped instead."
         },
         {
             "card_name": "Infernus Base",
@@ -3879,7 +3879,7 @@
             "number": 258,
             "color_identity": "R",
             "cost": "",
-            "rules_text": "{T}: Add {R}. This land deals 1 damage to you.\n{3}{R}, {T}: This land deals 2 damage to any target. Sacrifice this land, then surveil 1.",
+            "rules_text": "This land enters tapped.\n{T}: Add {R}.\n{3}{R}, {T}: This land deals 2 damage to any target. Sacrifice this land, then surveil 1.",
             "flavor_text": "[i]It was a hard, dangerous, and lucrative place to work.[/i]",
             "pt": "",
             "special_text": "",
@@ -3890,7 +3890,7 @@
             "alias": "",
             "position": "184",
             "rotated": false,
-            "notes": ""
+            "notes": "November 22nd, 2026: Whole five-cycle changed by removing self-damage aspect and changing them to enter tapped instead."
         },
         {
             "card_name": "Refreshment Base",
@@ -3900,7 +3900,7 @@
             "number": 262,
             "color_identity": "G",
             "cost": "",
-            "rules_text": "{T}: Add {G}. This land deals 1 damage to you.\n{2}{G}, {T}: Target creature gets +3/+3 until end of turn. Sacrifice this land, then surveil 1. Activate only as a sorcery.",
+            "rules_text": "This land enters tapped.\n{T}: Add {G}.\n{2}{G}, {T}: Target creature gets +3/+3 until end of turn. Sacrifice this land, then surveil 1. Activate only as a sorcery.",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -3911,7 +3911,7 @@
             "alias": "",
             "position": "185",
             "rotated": false,
-            "notes": ""
+            "notes": "November 22nd, 2026: Whole five-cycle changed by removing self-damage aspect and changing them to enter tapped instead."
         },
         {
             "card_name": "Brassine, Imperial Capitol City",
@@ -4467,7 +4467,7 @@
             "number": 169,
             "color_identity": "G",
             "cost": "{2}{G}{G}",
-            "rules_text": "At the beginning of your upkeep, mill two cards, then choose target creature or planeswalker card in your graveyard. That card gains Preserve {X} until end of turn, where X is its mana value. [i](You may cast a copy of that card by exiling it from your graveyard and paying its preserve cost.)[/i]",
+            "rules_text": "At the beginning of your upkeep, mill two cards, then choose a creature or planeswalker card in your graveyard. That card gains Preserve {X} until end of turn, where X is its mana value. [i](You may cast a copy of that card by exiling it from your graveyard and paying its preserve cost.)[/i]",
             "flavor_text": "[i][/i]",
             "pt": "",
             "special_text": "",
@@ -4478,7 +4478,7 @@
             "alias": "",
             "position": "212",
             "rotated": false,
-            "notes": ""
+            "notes": "Novermber 22nd, 2026: Changed 'target' to 'a' to make it function."
         },
         {
             "card_name": "Industrial Cultivation",
@@ -4509,7 +4509,7 @@
             "number": 178,
             "color_identity": "G",
             "cost": "{1}{G}",
-            "rules_text": "Whenever you cast an enchantment spell or a Program enters under your control, put a +1/+1 counter on target creature you control.",
+            "rules_text": "Whenever you cast an enchantment spell or a creature with \u2018Interfuse with' enters under your control, put a +1/+1 counter on target creature you control.",
             "flavor_text": "[i]The Empire of Light sought out sources of wisdom and knowledge, and how to synthesize the technological and the ethereal into one grand understanding.[/i]",
             "pt": "",
             "special_text": "",
@@ -5247,7 +5247,7 @@
             "number": 156,
             "color_identity": "R",
             "cost": "{2}{R}{R}",
-            "rules_text": "Flying\nWhen Scamp v2 dies, create a Clue token.\nInterfuse with Oria, Firebrand Prodigy [i](As a sorcery, if you both own and control Scamp v2 and a creature named Oria, Firebrand Prodigy, exile them, then interfuse them into Berek, Shock Dragon. You can Interfuse only once each turn.)[/i]",
+            "rules_text": "Flying\nWhen Scamp v2 dies, create a Clue token. [i](It's an artifact with \u201c{2}, Sacrifice this token: Draw a card.\u201d)[/i]\nInterfuse with Oria, Firebrand Prodigy [i](As a sorcery, if you both own and control Scamp v2 and a creature named Oria, Firebrand Prodigy, exile them, then interfuse them into Berek, Shock Dragon. You can Interfuse only once each turn.)[/i]",
             "flavor_text": "[i][/i]",
             "pt": "5/4",
             "special_text": "",
@@ -6212,5 +6212,5 @@
             "notes": ""
         }
     ],
-    "version": 5
+    "version": 6
 }

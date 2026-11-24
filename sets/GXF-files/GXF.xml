@@ -5,7 +5,7 @@
 			<name>GXF</name>
 			<longname>Galaxy&apos;s Fate</longname>
 			<settype>Custom</settype>
-			<releasedate>2026-11-21</releasedate>
+			<releasedate>2026-11-24</releasedate>
 		</set>
 	</sets>
 	<cards>
@@ -206,7 +206,7 @@ Whenever this creature attacks, if you control two or more artifacts, it gets +1
 			<name>Righteous Storm</name>
 			<text>Flash
 When this enchantment enters, it deals 5 damage to up to one target tapped creature.
-Whenever a creature attacks you, you may pay {1}. When you do, this enchantment deals 1 damage to that creature and you gain 1 life.</text>
+Whenever a creature attacks you, you gain 1 life.</text>
 			<set rarity="common" picurl="https://Opacana.github.io/sets/GXF-files/img/11.png" num="34">GXF</set>
 			<prop>
 				<layout>normal</layout>
@@ -311,7 +311,7 @@ This creature has flying as long as you control a nonland, nontoken artifact.</t
 		<card>
 			<name>Alternate Reality Scout</name>
 			<text>When this creature enters, if it was cast, scry 2.
-When this creature is exiled, draw a card.</text>
+When this creature is exiled by a spell or ability you control, draw a card.</text>
 			<set rarity="common" picurl="https://Opacana.github.io/sets/GXF-files/img/17.png" num="43">GXF</set>
 			<prop>
 				<layout>normal</layout>
@@ -551,7 +551,7 @@ Target nonland permanent&apos;s controller puts it on their choice of the top or
 				<cmc>2</cmc>
 				<colors>B</colors>
 				<coloridentity>B</coloridentity>
-				<pt>1/2</pt>
+				<pt>2/2</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
@@ -833,7 +833,7 @@ This creature enters with an additional +1/+1 counter on it if two or more lands
 				<cmc>2</cmc>
 				<colors>R</colors>
 				<coloridentity>R</coloridentity>
-				<pt>2/1</pt>
+				<pt>2/2</pt>
 			</prop>
 			<tablerow>2</tablerow>
 		</card>
@@ -963,10 +963,9 @@ Whenever an artifact you control leaves the battlefield, this creature gets +1/+
 		</card>
 		<card>
 			<name>Activate Armor</name>
-			<text>As an additional cost to cast this spell, sacrifice an artifact.
-Choose one —
+			<text>Choose one —
 • Target creature gets +3/+1 and gains first strike until end of turn.
-• Return target artifact card with mana value 3 or less from your graveyard to the battlefield.</text>
+• Sacrifice an artifact, then return an artifact card with mana value 3 or less from your graveyard to the battlefield.</text>
 			<set rarity="common" picurl="https://Opacana.github.io/sets/GXF-files/img/54.png" num="121">GXF</set>
 			<prop>
 				<layout>normal</layout>
@@ -1050,7 +1049,8 @@ This spell deals 7 damage to target creature. If that creature would die this tu
 		</card>
 		<card>
 			<name>Panzuran Golden Cat</name>
-			<text>Ward {1}</text>
+			<text>Ward {2}
+{3}{G}: Put a +1/+1 counter on this creature. Activate only as a sorcery.</text>
 			<set rarity="common" picurl="https://Opacana.github.io/sets/GXF-files/img/59.png" num="186">GXF</set>
 			<prop>
 				<layout>normal</layout>
@@ -1287,7 +1287,9 @@ Preserve {4}{G} (You may cast a copy of this card by exiling this card from your
 		</card>
 		<card>
 			<name>Flux Alignment</name>
-			<text>Whenever you attack, choose target land you control. That land gains &quot;{T}: Add two mana of any one color.&quot; until end of turn.</text>
+			<text>Enchant land
+When this enchantment enters, put a +1/+1 counter on target permanent.
+Enchanted land has &quot;{T}: Add two mana in any combination of colors.&quot;</text>
 			<set rarity="common" picurl="https://Opacana.github.io/sets/GXF-files/img/72.png" num="172">GXF</set>
 			<prop>
 				<layout>normal</layout>
@@ -1395,7 +1397,7 @@ Preserve {2}{W} (You may cast a copy of this card by exiling this card from your
 		<card>
 			<name>Esander, Gloryboy</name>
 			<text>Ward {2}
-When Esander enters, he deals 3 damage to target tapped creature.</text>
+When Esander enters, target player chooses a tapped creature you don&apos;t control. Destroy that creature.</text>
 			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/GXF-files/img/78.png" num="14">GXF</set>
 			<prop>
 				<layout>normal</layout>
@@ -1448,7 +1450,7 @@ Creatures you control with flying have ward {2}.</text>
 		</card>
 		<card>
 			<name>Last Guardians of Gimav</name>
-			<text>This spell costs {1} less to cast for each enchantment, Equipment and/or Program you control.
+			<text>This spell costs {1} less to cast for each enchantment, Spacecraft and Vehicle you control.
 First strike, vigilance</text>
 			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/GXF-files/img/81.png" num="23">GXF</set>
 			<prop>
@@ -2001,8 +2003,8 @@ This spell deals 1 damage to each permanent and player.</text>
 		<card>
 			<name>Deathside Bloom</name>
 			<text>Deathtouch
-{T}: Add one mana of any color. If it&apos;s not your turn, this creature deals 1 damage to you.
-Whenever two or more creatures attack you, you may pay {2}. If you do, untap this creature.</text>
+{T}: Add one mana of any color.
+At the beginning of each opponent&apos;s combat phase, you may pay {2}. If you do, untap this creature.</text>
 			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/GXF-files/img/111.png" num="165">GXF</set>
 			<prop>
 				<layout>normal</layout>
@@ -2282,7 +2284,7 @@ Instant and sorcery cards put into your graveyard from your library this turn ha
 		</card>
 		<card>
 			<name>Chronovolt Engine</name>
-			<text>When this artifact enters, create a 1/1 blue and green Mutant creature token with &quot;As long as this creature&apos;s power is 3 or greater, it has flying.&quot;
+			<text>When this artifact enters, create a 1/1 blue and green Mutant creature token with &quot;This creature has flying as long as there are two or more counters on it.&quot;
 Whenever you cast a spell from a graveyard or exile, put a +1/+1 counter on up to one target creature.</text>
 			<set rarity="rare" picurl="https://Opacana.github.io/sets/GXF-files/img/127.png" num="48">GXF</set>
 			<prop>
@@ -3233,7 +3235,8 @@ Preserve—{3}, Sacrifice a noncreature permanent (You may cast a copy of this c
 		</card>
 		<card>
 			<name>Pilgrimage Base</name>
-			<text>{T}: Add {W}. This land deals 1 damage to you.
+			<text>This land enters tapped.
+{T}: Add {W}.
 {W}, {T}: Target creature you control gains lifelink until end of turn. Sacrifice this land, then surveil 1.</text>
 			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/GXF-files/img/181.png" num="259">GXF</set>
 			<prop>
@@ -3249,7 +3252,8 @@ Preserve—{3}, Sacrifice a noncreature permanent (You may cast a copy of this c
 		</card>
 		<card>
 			<name>Polar Astronomy Base</name>
-			<text>{T}: Add {U}. This land deals 1 damage to you.
+			<text>This land enters tapped.
+{T}: Add {U}.
 {1}{U}, {T}: Draw a card. Sacrifice this land, then surveil 1.</text>
 			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/GXF-files/img/182.png" num="260">GXF</set>
 			<prop>
@@ -3265,7 +3269,8 @@ Preserve—{3}, Sacrifice a noncreature permanent (You may cast a copy of this c
 		</card>
 		<card>
 			<name>Profane Base</name>
-			<text>{T}: Add {B}. This land deals 1 damage to you.
+			<text>This land enters tapped.
+{T}: Add {B}.
 {1}{B}, {T}: Target creature gets -1/-1 until end of turn. Sacrifice this land, then surveil 1. Activate only as a sorcery.</text>
 			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/GXF-files/img/183.png" num="261">GXF</set>
 			<prop>
@@ -3281,7 +3286,8 @@ Preserve—{3}, Sacrifice a noncreature permanent (You may cast a copy of this c
 		</card>
 		<card>
 			<name>Infernus Base</name>
-			<text>{T}: Add {R}. This land deals 1 damage to you.
+			<text>This land enters tapped.
+{T}: Add {R}.
 {3}{R}, {T}: This land deals 2 damage to any target. Sacrifice this land, then surveil 1.</text>
 			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/GXF-files/img/184.png" num="258">GXF</set>
 			<prop>
@@ -3297,7 +3303,8 @@ Preserve—{3}, Sacrifice a noncreature permanent (You may cast a copy of this c
 		</card>
 		<card>
 			<name>Refreshment Base</name>
-			<text>{T}: Add {G}. This land deals 1 damage to you.
+			<text>This land enters tapped.
+{T}: Add {G}.
 {2}{G}, {T}: Target creature gets +3/+3 until end of turn. Sacrifice this land, then surveil 1. Activate only as a sorcery.</text>
 			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/GXF-files/img/185.png" num="262">GXF</set>
 			<prop>
@@ -3768,7 +3775,7 @@ Preserve {4}{G} (You may cast a copy of this card by exiling this card from your
 		</card>
 		<card>
 			<name>Eternal Vigil</name>
-			<text>At the beginning of your upkeep, mill two cards, then choose target creature or planeswalker card in your graveyard. That card gains Preserve {X} until end of turn, where X is its mana value. (You may cast a copy of that card by exiling it from your graveyard and paying its preserve cost.)</text>
+			<text>At the beginning of your upkeep, mill two cards, then choose a creature or planeswalker card in your graveyard. That card gains Preserve {X} until end of turn, where X is its mana value. (You may cast a copy of that card by exiling it from your graveyard and paying its preserve cost.)</text>
 			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/GXF-files/img/212.png" num="169">GXF</set>
 			<prop>
 				<layout>normal</layout>
@@ -3800,7 +3807,7 @@ Preserve {4}{G} (You may cast a copy of this card by exiling this card from your
 		</card>
 		<card>
 			<name>In Search Of Gnosis</name>
-			<text>Whenever you cast an enchantment spell or a Program enters under your control, put a +1/+1 counter on target creature you control.</text>
+			<text>Whenever you cast an enchantment spell or a creature with ‘Interfuse with&apos; enters under your control, put a +1/+1 counter on target creature you control.</text>
 			<set rarity="uncommon" picurl="https://Opacana.github.io/sets/GXF-files/img/214.png" num="178">GXF</set>
 			<prop>
 				<layout>normal</layout>
@@ -4440,7 +4447,7 @@ Whenever Raptrith attacks, you may pay {U}. When you do, return target creature 
 		<card>
 			<name>Scamp v2</name>
 			<text>Flying
-When Scamp v2 dies, create a Clue token.
+When Scamp v2 dies, create a Clue token. (It&apos;s an artifact with &quot;{2}, Sacrifice this token: Draw a card.&quot;)
 Interfuse with Oria, Firebrand Prodigy (As a sorcery, if you both own and control Scamp v2 and a creature named Oria, Firebrand Prodigy, exile them, then interfuse them into Berek, Shock Dragon. You can Interfuse only once each turn.)
 ---
 (Back): Berek, Shock Dragon</text>
